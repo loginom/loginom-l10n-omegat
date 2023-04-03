@@ -1,0 +1,990 @@
+{
+  "Common/CodeExec/CodeModelComponentEngine": {
+    "CodeModelComponentEngine": {
+      "CodeConfigurableColumns": "Разрешить формировать выходные столбцы из кода"
+    }
+  },
+  "Common/HTTPClient/HTTPClientEngine": {
+    "HTTPClientEngine": {
+      "CustomHeadersConfigurator": "Настройки пользовательских заголовков",
+      "ProduceErrorDescs": "Выдавать описание кодов завершения",
+      "RequestDebug": "Настройки отладки запроса"
+    }
+  },
+  "Common/HTTPClient/HTTPHeaders": {
+    "CustomHeadersConfigurator": {
+      "CustomHeaders": "Заголовки HTTP"
+    },
+    "HTTPHeaderItem": {
+      "HeaderValue": "Значение",
+      "Name": "Имя"
+    }
+  },
+  "Common/HTTPClient/WSDLClientAuth": {
+    "WSDLAuthorization": {
+      "CertFileCredentials": "Реквизиты аутентификации пользовательским сертификатом",
+      "Mode": "Тип аутентификации",
+      "NamePassCredentials": "Реквизиты аутентификации по имени пользователя и паролю",
+      "OAuthCredentials": "Реквизиты аутентификации по токену OAuth"
+    },
+    "WSDLCertFileAuthCredentials": {
+      "SSLCert": "Сертификат пользователя",
+      "SSLKey": "Приватный ключ",
+      "SSLKeyPassword": "Пароль приватного ключа"
+    },
+    "WSDLNamePassAuthCredentials": {
+      "Password": "Пароль",
+      "UserName": "Имя пользователя"
+    },
+    "WSDLOAuthCredentials": {
+      "Token": "Токен OAuth"
+    }
+  },
+  "Common/HTTPClient/WSDLRequestDebug": {
+    "WSDLRequestDebug": {
+      "DumpRequest": "Сохранять текст запроса в папку",
+      "DumpRequestFolder": "Папка на диске для сохранения запросов",
+      "ResponseStub": "Имя файла, подставляемого в качестве ответа",
+      "UseResponseStub": "Имитировать запрос с ответом в файле"
+    }
+  },
+  "components/assnrules": {
+    "AssnRulesEngine": {
+      "Params": "Параметры алгоритма"
+    },
+    "AssnRulesParams": {
+      "ExcludeLargeSupportItems": "Исключать элементы с поддержкой, больше максимальной",
+      "ExcludeSingleItems": "Исключить одиночные наборы",
+      "MaxSupport": "Максимальная поддержка, %",
+      "MinConfidence": "Минимальная достоверность правила, %",
+      "MinLift": "Минимальный лифт правила",
+      "MinSupport": "Минимальная поддержка, %",
+      "NConsequentMax": "Максимальное число следствий",
+      "NItemsMax": "Максимальное число элементов",
+      "SelectColumn": "Содержащие выбранные элементы"
+    }
+  },
+  "components/autocorrelation": {
+    "AutoCorrelationEngine": {
+      "CalcPacf": "Рассчитывать ЧАКФ",
+      "DomainCalc": "Область расчета АКФ",
+      "LagCount": "Количество отсчетов"
+    }
+  },
+  "components/binning": {
+    "BinningBinsDefExtension": {
+      "KindForBins": "Назначение"
+    },
+    "BinningContinuousBinItem": {
+      "LowerBound": "Нижняя граница диапазона",
+      "UpperBound": "Верхняя граница диапазона"
+    },
+    "BinningCountLinContMethodSettings": {
+      "BinsCount": "Количество"
+    },
+    "BinningCustomBinItem": {
+      "BinLabel": "Метка интервала",
+      "BinNumber": "Номер интервала",
+      "BoundModes": "Режим границ интервала",
+      "RelativeVolume": "Относительный объем интервалов"
+    },
+    "BinningDefExtension": {
+      "AlwaysDefaultSettings": "Определять настройки метода автоматически",
+      "BinsType": "Тип интервалов",
+      "LabelTemplate": "Шаблон меток",
+      "MethodType": "Метод"
+    },
+    "BinningLinearCommonMethodSettings": {
+      "LowerLimitOpen": "Нижняя граница открыта",
+      "UpperLimitOpen": "Верхняя граница открыта"
+    },
+    "BinningLinearContinuousMethodSettings": {
+      "LowerLimit": "Нижняя граница",
+      "UpperLimit": "Верхняя граница"
+    },
+    "BinningSDMethodSettings": {
+      "SDMode": "От среднего"
+    },
+    "BinningTileDateTimeMethodSettings": {
+      "MatchingObservationsMode": "Совпадающие наблюдения",
+      "TileCount": "Количество"
+    },
+    "BinningTileNumericMethodSettings": {
+      "SumValues": "Из сумм значений"
+    },
+    "BinningWidthLinDateTimeMethodSettings": {
+      "DateTimeSpanCount": "Ширина",
+      "DateTimeSpanType": "Тип интервала"
+    },
+    "BinningWidthLinNumMethodSettings": {
+      "BinWidth": "Ширина"
+    }
+  },
+  "components/calcdata": {
+    "CalcExprColumnItem": {
+      "Cached": "Кэшировать значения"
+    },
+    "ExprColumnItem": {
+      "DataType": "Тип данных",
+      "Description": "Описание",
+      "DisplayName": "Метка",
+      "Expression": "Выражение",
+      "Intermediate": "Промежуточное выражение",
+      "Name": "Имя"
+    }
+  },
+  "components/clope": {
+    "ClopeEngine": {
+      "Params": "Параметры алгоритма"
+    },
+    "ClopeParams": {
+      "LimitNClusters": "Ограничить число кластеров",
+      "LimitNIters": "Ограничить число итераций",
+      "NClustersMax": "Максимальное число кластеров",
+      "NItersMax": "Число итераций",
+      "Repulsion": "Коэффициент отталкивания"
+    }
+  },
+  "components/clusterization": {
+    "ClusterizationEngine": {
+      "Params": "Параметры алгоритма"
+    },
+    "ClusterizationParams": {
+      "NClusters": "Число кластеров",
+      "NClustersAutoSelect": "Автоопределение числа кластеров",
+      "NClustersMax": "Максимальное число кластеров",
+      "NClustersMin": "Минимальное число кластеров",
+      "StatTestThreshold": "Порог разделения кластеров"
+    }
+  },
+  "components/coarseclasses": {
+    "CoarseClassesInputContinuousParams": {
+      "FineIntervalsCount": "Количество интервалов",
+      "IncludeHighBounds": "Включить верхние границы интервала",
+      "UsePrequanting": "Предварительное квантование"
+    },
+    "CoarseClassesInputDiscreteParams": {
+      "UseFineClassesBinning": "Начальные классы в качестве разбиения"
+    },
+    "CoarseClassesInputExternalParams": {
+      "BinningId": "Идентификатор внешнего разбиения"
+    },
+    "CoarseClassesInputParams": {
+      "MaxClassCount": "Максимальное количество классов",
+      "MinClassRate": "Минимальная доля класса, %",
+      "UniformityCoef": "Равномерность"
+    },
+    "CoarseClassesTargetParams": {
+      "TuneEventValue": "Настраиваемое значение \"события\""
+    }
+  },
+  "components/columnflipping": {
+    "ColumnFlippingEngine": {
+      "SkipNullCases": "Игнорировать пустые значения"
+    }
+  },
+  "components/coluniondata": {
+    "ColUnionDataEngine": {
+      "RowsPaddingType": "Дополнение до наибольшего набора",
+      "TailsAlignType": "Количество строк соответствует"
+    }
+  },
+  "components/condition": {
+    "Condition": {
+      "DebugMode": "Режим отладки"
+    },
+    "ConditionComponentEngine": {
+      "Condition": "Условие"
+    },
+    "ConditionItem": {
+      "CaseSensitive": "Учитывать регистр",
+      "CompareValue": "Сравниваемое значение",
+      "FieldLink": "Сравниваемое поле"
+    }
+  },
+  "components/crosstab": {
+    "CrossTabEngine": {
+      "DisplayNameSeparator": "Разделитель частей меток полей",
+      "SlidingUniqueValues": "Скользящие уникальные значения",
+      "SlidingUniqueValuesLimit": "Ограничение количества значений",
+      "UniqueValueNames": "Уникальные значения как имена полей"
+    }
+  },
+  "components/datarecovery": {
+    "DataRecoveryEngine": {
+      "MaxNullsPercent": "Допустимый процент пропусков",
+      "OrderedSample": "Исходные данные упорядочены"
+    }
+  },
+  "components/datatoxml": {
+    "DataToXMLEngine": {
+      "Configurator": "Настройки экспорта",
+      "DocIDColumn": "Идентификатор документа",
+      "EscapeQuotes": "Экранировать одинарные и двойные кавычки",
+      "EscapeTabCRLFInAttr": "Экранировать табуляции и переводы строк в атрибутах",
+      "Prettify": "Добавлять отступы и переводы строк",
+      "RowsDocIdenti": "Идентификация документа"
+    }
+  },
+  "components/elimoutlier": {
+    "ElimOutlierColumnDefExtension": {
+      "ActionExtr": "Метод обработки экстремальных",
+      "ActionOut": "Метод обработки выбросов",
+      "DetectEKvartil": "Для экстремального",
+      "DetectESko": "Для экстремального",
+      "DetectOKvartil": "Для выброса",
+      "DetectOSko": "Для выброса",
+      "ModeOE": "Метод выявления",
+      "SettedValueExtr": "Заменять на",
+      "SettedValueOut": "Заменять на"
+    },
+    "ElimOutlierEngine": {
+      "OrderedSample": "Исходные данные упорядочены"
+    }
+  },
+  "components/em": {
+    "EMEngine": {
+      "Params": "Параметры алгоритма"
+    },
+    "EMParams": {
+      "IndependentVariables": "Переменные независимы",
+      "MedianModification": "Медианная модификация"
+    }
+  },
+  "components/execcmd": {
+    "ExecCmdEngine": {
+      "TerminateByTimeout": "Завершить программу по тайм-ауту",
+      "Timeout": "Тайм-аут выполнения узла (мс)"
+    }
+  },
+  "components/extractxml": {
+    "ExtractXMLEngine": {
+      "HaltOnParseErrors": "Останавливаться при ошибках",
+      "IDColumn": "Столбец, идентифицирующий XML-документ",
+      "ImportXMLSettings": "Настройки импорта XML",
+      "InputColumn": "Столбец, содержащий XML",
+      "NeedUnescape": "Разэкранировать сущности XML",
+      "ProduceErrorDescs": "Выдавать описание кодов завершения"
+    }
+  },
+  "components/factoranalysis": {
+    "FactorAnalysisEngine": {
+      "CumDispersion": "Порог дисперсии, %",
+      "EigenValuesThreshold": "Порог собственного значения",
+      "NFactors": "Число факторов",
+      "NOutFactorsMax": "Число факторов",
+      "PruneOutFactors": "Ограничить число выходных факторов",
+      "RotationType": "Метод вращения",
+      "SignificanceCriterion": "Критерий значимости"
+    }
+  },
+  "components/filterdata": {
+    "FilterColumnItem": {
+      "CaseSensitive": "Учитывать регистр",
+      "CompareValue": "Значение для сравнения",
+      "CompareValueList": "Список значений",
+      "CompareValueLowerBound": "Нижняя граница",
+      "CompareValuePeriodBaseDate": "Базовая дата интервала",
+      "CompareValuePeriodCount": "Значение временного промежутка",
+      "CompareValuePeriodType": "Тип временного промежутка",
+      "CompareValueUpperBound": "Верхняя граница",
+      "DataType": "Тип данных",
+      "Name": "Имя",
+      "RelationType": "Тип отношения"
+    }
+  },
+  "components/forecast": {
+    "ARIMAXParams": {
+      "AutoStructure": "Определить структуру автоматически",
+      "CalcConfidenceInterval": "Рассчитать доверительный интервал",
+      "CalcResiduals": "Рассчитать ошибку аппроксимации",
+      "ConfidenceInterval": "Уровень доверия прогноза, %",
+      "D": "Порядок интегрирования",
+      "DS": "Порядок сезонного интегрирования",
+      "ForecastHorizon": "Горизонт прогноза",
+      "IncludeIntercept": "Включить константу в модель",
+      "IncludeSeasonality": "Включить расчет сезонности",
+      "P": "Порядок AR части",
+      "PS": "Порядок сезонной AR части",
+      "Q": "Порядок MA части",
+      "QS": "Порядок сезонной MA части",
+      "SeasonalPeriod": "Период сезонной составляющей"
+    },
+    "ForecastEngine": {
+      "ARIMAXParams": "Настройки ARIMAX"
+    }
+  },
+  "components/groupdata": {
+    "GroupDataEngine": {
+      "DimValuesCached": "Кэшировать значения групп",
+      "SortedResult": "Сортировать результирующие данные"
+    }
+  },
+  "components/joindata": {
+    "JoinDataEngine": {
+      "IncludeJoinedKeyFields": "Добавлять присоединяемые ключевые поля",
+      "JoinType": "Тип операции"
+    }
+  },
+  "components/linregression": {
+    "LinRegressionEngine": {
+      "LinRegressionParams": "Настройки линейной регрессии"
+    },
+    "LinRegressionParams": {
+      "LinRegressionMethod": "Отбор факторов и защита от переобучения",
+      "LinRegSelQuality": "Критерий отбора факторов"
+    }
+  },
+  "components/logregression": {
+    "LogRegressionEngine": {
+      "LogRegressionParams": "Настройки логистической регрессии"
+    },
+    "LogRegressionParams": {
+      "EventGeneralPerc": "Доля событий в генеральной выборке (в процентах)",
+      "LogRegressionMethod": "Отбор факторов и защита от переобучения",
+      "LogRegSelQuality": "Критерий отбора факторов",
+      "NoEventGeneralPerc": "Доля не-событий в генеральной выборке (в процентах)",
+      "UseScoring": "Скоринг"
+    }
+  },
+  "components/loop": {
+    "LoopComponent": {
+      "AppendIterationIdentifiers": "Добавлять идентификаторы итераций",
+      "CompareValue": "Значение",
+      "ConditionVariableLink": "Переменная условия завершения",
+      "GroupCount": "Количество групп",
+      "GroupDataSourceSocket": "Порт, содержащий столбцы для группировки",
+      "GroupProcessingKind": "Вид групповой обработки",
+      "GroupSize": "Количество строк в группе",
+      "IgnoreErrors": "Игнорировать ошибки",
+      "IterationCount": "Количество итераций",
+      "LoopKind": "Вид цикла",
+      "LoopVariableLink": "Переменная цикла",
+      "MaxThreadCount": "Максимальное количество потоков",
+      "ParallelProcessing": "Параллельная обработка",
+      "TerminateCondition": "Условие завершения"
+    }
+  },
+  "components/neuralnet": {
+    "NeuralNetEngine": {
+      "NetworkParams": "Настройки нейросети"
+    },
+    "NeuralNetworkAutofitParams": {
+      "DecayAutofit": "Подобрать степень регуляризации",
+      "MaxAutofitSeconds": "Время автоподбора не более (сек)",
+      "MaxAutofitStages": "Шагов автоподбора не более",
+      "StopAtZeroClsError": "Останов при нулевой ошибке классификации",
+      "StructureAutofit": "Подобрать структуру",
+      "SubSampleMaxSize": "Максимальный размер выборки",
+      "SubSamplePercent": "Размер выборки в процентах",
+      "UseInitialDecay": "Начать с указанной степени регуляризации",
+      "UseInitialStructure": "Начать с указанной структуры",
+      "UseSubSampling": "Использовать подмножество обучающего набора"
+    },
+    "NeuralNetworkParams": {
+      "AutofitParams": "Параметры автоматического подбора",
+      "StoppingCriteria": "Критерии останова алгоритма обучения",
+      "StructureParams": "Параметры структуры нейросети",
+      "TrainingParams": "Параметры алгоритма обучения"
+    },
+    "NeuralNetworkStoppingCriteria": {
+      "MaxEpochs": "Максимальное количество эпох",
+      "WStep": "Порог минимального изменения весов"
+    },
+    "NeuralNetworkStructureParams": {
+      "HiddenLayers": "Количество скрытых слоев",
+      "HiddenNeurons1": "Количество нейронов в первом скрытом слое",
+      "HiddenNeurons2": "Количество нейронов во втором скрытом слое",
+      "RegNNOutputInf": "Нижняя граница",
+      "RegNNOutputLayer": "Ограничение на значение выходов",
+      "RegNNOutputSup": "Верхняя граница"
+    },
+    "NeuralNetworkTrainingParams": {
+      "ContinueTraining": "Продолжить обучение",
+      "Decay": "Степень регуляризации",
+      "NRestarts": "Количество рестартов"
+    }
+  },
+  "components/partition": {
+    "PartitionEngine": {
+      "Partition": "Разбиение на множества"
+    }
+  },
+  "components/python": {
+    "PythonEngine": {
+      "UseSeparateProcess": "Запускать в отдельном процессе",
+      "WaitTimeout": "Тайм-аут ожидания запуска (мс)"
+    }
+  },
+  "components/reformcolumns": {
+    "ReformColumnsEngine": {
+      "CachingMethod": "Кэширование"
+    }
+  },
+  "components/replace": {
+    "ReplaceTable": {
+      "Items": "Варианты замены"
+    }
+  },
+  "components/sampling": {
+    "SamplingEngine": {
+      "Sampling": "Сэмплинг"
+    }
+  },
+  "components/slidingwindow": {
+    "SlidingWindowEngine": {
+      "IncompleteRecordsProcessing": "Способ обработки неполных записей"
+    }
+  },
+  "components/smoothing": {
+    "SmoothingDefExtension": {
+      "Algorithm": "Алгоритм сглаживания",
+      "DecompositionLevel": "Глубина разложения",
+      "EdgeExtension": "Продолжение границ",
+      "Lambda": "Параметр Lambda",
+      "LambdaAsPeriod": "Параметр Lambda задается периодом",
+      "Period": "Период сглаживания",
+      "WaveletOrder": "Порядок вейвлета",
+      "WaveletType": "Тип вейвлета"
+    }
+  },
+  "components/sonn": {
+    "SONNEngine": {
+      "Params": "Параметры алгоритма"
+    },
+    "SONNParams": {
+      "CellTopology": "Топология сети",
+      "NX": "Размер сети по X",
+      "NY": "Размер сети по Y",
+      "NZ": "Размер сети по Z",
+      "SONNType": "Тип самоорганизующейся сети"
+    }
+  },
+  "components/sorting": {
+    "SortingEngine": {
+      "BufferWhole": "Кэшировать все данные"
+    }
+  },
+  "components/treetodata": {
+    "TreeToDataEngine": {
+      "CompositeColumnNames": "Генерировать составные метки полей",
+      "RepeatParentNodeValues": "Дублировать значения родительских узлов"
+    }
+  },
+  "components/ungroupdata": {
+    "UngroupDataEngine": {
+      "AbsentDataPoints": "Точек отсутствия для прекращения позиции",
+      "AbsentPeriodFraction": "Периодов отсутствия для прекращения позиции",
+      "BalanceMethod": "Метод балансировки",
+      "MaxDepthDataPoints": "Максимальное число точек каждого ряда",
+      "MaxDepthPeriodFraction": "Максимальное число периодов сезонности",
+      "MaxRareDensity": "Плотность точек редких товаров",
+      "NoveltyPeriodFraction": "Периодов присутствия для новой позиции",
+      "NumSeasonalIndexes": "Количество рассчитываемых сезонных индексов",
+      "RoundFormat": "Формат округления",
+      "RoundParam": "Параметр округления",
+      "SeasonalityMultiplier": "Заданный период сезонности",
+      "SeasonalityPeriod": "Период сезонности",
+      "UngroupMethod": "Метод разгруппировки"
+    }
+  },
+  "components/uniondata": {
+    "CustomUnionDataEngine": {
+      "ColumnDisplayNamePrefix": "Префикс метки",
+      "ColumnNamePrefix": "Префикс имени",
+      "UsePrefixes": "Использовать префиксы"
+    }
+  },
+  "components/wsdlclient": {
+    "WSDLClient": {
+      "CompositeColumnNames": "Генерировать составные метки полей",
+      "IgnoreAbsentValues": "Разрешить пропуск обязательных полей",
+      "ProduceRawOutput": "Выдавать \"сырой\" ответ сервера",
+      "RepeatUniqueValues": "Дублировать единичные значения",
+      "RequestConfigurator": "Настройки экспорта данных запроса",
+      "StrictValidation": "Проверять на строгое соответствие XSD",
+      "TimeZone": "Временная зона по умолчанию"
+    }
+  },
+  "exports/database": {
+    "DBExport": {
+      "ExportType": "Тип экспорта",
+      "RecordCountForCommit": "Периодичность фиксации транзакции (строк)",
+      "TableName": "Имя таблицы"
+    }
+  },
+  "exports/excelfile": {
+    "ExportExcelFile": {
+      "FileType": "Тип файла Excel",
+      "SheetName": "Имя листа",
+      "WebSetting": "Настройки"
+    },
+    "ExportExcelWebSetting": {
+      "HeadersRow": "Строка заголовков"
+    }
+  },
+  "exports/kafka": {
+    "KafkaExport": {
+      "BatchMessagesCount": "Количество сообщений в пачке при отправке",
+      "ClientID": "ID клиента",
+      "FlushTimeout": "Время ожидания завершения отправки пачки",
+      "Topic": "Топик"
+    }
+  },
+  "exports/native": {
+    "ExportNative": {
+      "Compression": "Сжатие",
+      "StringCacheMaxSize": "Размер кэша строк"
+    }
+  },
+  "exports/tableau": {
+    "ExportTableau": {
+      "Append": "Добавлять записи при публикации",
+      "CreateTableIfDoesntExist": "Создавать таблицу, если не существует",
+      "Overwrite": "Перезаписывать данные при публикации",
+      "ProjectName": "Имя проекта на сервере",
+      "PublishingEnabled": "Публиковать на сервер",
+      "RewriteFileOnExport": "Пересоздавать файл при экспорте",
+      "ServerFileName": "Имя файла на сервере",
+      "TableName": "Имя таблицы"
+    }
+  },
+  "exports/textfile": {
+    "ExportTextFile": {
+      "CaptionType": "Строка заголовка",
+      "CodePage": "Кодовая страница",
+      "DateFormat": "Формат даты",
+      "DateSeparator": "Разделитель даты",
+      "DecimalSeparator": "Десятичный разделитель",
+      "DelimiterChar": "Разделитель столбцов",
+      "FormatType": "Формат данных",
+      "LineEnding": "Перевод строк",
+      "TextQualifier": "Ограничитель строк",
+      "TimeFormat": "Формат времени",
+      "TimeSeparator": "Разделитель времени",
+      "ValueFalse": "Ложь",
+      "ValueNull": "Пусто",
+      "ValueTrue": "Истина",
+      "WriteBOM": "Добавить BOM"
+    }
+  },
+  "exports/xml": {
+    "ExportXML": {
+      "Configurator": "Настройки экспорта",
+      "EscapeQuotes": "Экранировать одинарные и двойные кавычки",
+      "EscapeTabCRLFInAttr": "Экранировать табуляции и переводы строк в атрибутах",
+      "Prettify": "Добавлять отступы и переводы строк",
+      "WriteBOM": "Записывать Byte Order Mark"
+    }
+  },
+  "imports/database": {
+    "DBImport": {
+      "CommandText": "Таблица/Представление"
+    }
+  },
+  "imports/excelfile": {
+    "ImportExcelFileEngine": {
+      "AllRows": "До последней строки",
+      "BlankRowAction": "Пустые строки",
+      "ExplicitRange": "Диапазон",
+      "ReferenceStyle": "Стиль ссылок",
+      "TableName": "Имя объекта",
+      "TableNamingMethod": "Выбор объекта",
+      "TitleRowCount": "Количество строк заголовка",
+      "UsedRange": "Весь лист"
+    }
+  },
+  "imports/kafka": {
+    "KafkaImport": {
+      "ClientID": "ID клиента",
+      "GroupID": "ID группы",
+      "MaxNumberPollMessages": "Максимальное количество сообщений",
+      "Offset": "Смещение",
+      "OffsetMode": "Тип смещения",
+      "PollTimeout": "Время ожидания сообщения (мс)",
+      "Topic": "Топик"
+    }
+  },
+  "imports/textfile": {
+    "ImportTextFile": {
+      "CodePage": "Кодовая страница",
+      "DateFormat": "Формат даты",
+      "DateSeparator": "Разделитель даты",
+      "DecimalSeparator": "Десятичный разделитель",
+      "DelimiterChar": "Разделитель столбцов",
+      "FirstLineAsTitle": "Заголовок в первой строке",
+      "MultipleDelimiters": "Считать последовательные разделители одним",
+      "RowsToSkip": "Пропустить строк",
+      "TextQualifier": "Ограничитель строк",
+      "TimeSeparator": "Разделитель времени",
+      "ValueFalse": "Ложь",
+      "ValueNull": "Пусто",
+      "ValueTrue": "Истина",
+      "VariantAsGeneralType": "Переменный тип"
+    }
+  },
+  "imports/xml": {
+    "ImportXML": {
+      "Configurator": "Настройки импорта XML"
+    }
+  },
+  "Libraries/1CConnection/1CConnection": {
+    "1CConnectionConfigurator": {
+      "ConnectionString": "Строка подключения",
+      "Password": "Пароль",
+      "UserName": "Имя пользователя"
+    }
+  },
+  "Libraries/1CConnection/1Cv8Connection": {
+    "1Cv8ConnectionConfigurator": {
+      "PlatformVersion": "Версия платформы"
+    }
+  },
+  "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
+    "ClickHouseDatabaseConfigurator": {
+      "CompressionMethod": "Метод сжатия данных",
+      "IsLocalTimeZone": "Учитывать временную зону"
+    }
+  },
+  "Libraries/bgdbrtl/DB": {
+    "ConnPoolConfigurable": {
+      "PoolingOptions": "Настройки пула"
+    },
+    "ConnPoolConfigurator": {
+      "ClearPoolOnDeactivate": "Очищать пул при деактивации"
+    },
+    "DatabaseConfigurator": {
+      "CharacterSet": "Кодовая страница",
+      "DatabasePath": "Строка подключения",
+      "Direct": "Не использовать клиент СУБД",
+      "ObjectQuotes": "Настройка кавычек",
+      "Password": "Пароль",
+      "QuotedObjectNames": "Обрамлять имена кавычками",
+      "SystemTables": "Показывать системные таблицы",
+      "UserName": "Логин"
+    },
+    "DBSSLConfigurable": {
+      "SSLConfigurator": "Настройки SSL"
+    },
+    "DBSSLConfigurator": {
+      "SSLCA": "Сертификат CA",
+      "SSLCert": "Сертификат пользователя",
+      "SSLKey": "Приватный ключ",
+      "SSLKeyPassword": "Пароль приватного ключа",
+      "UseSSL": "Использовать SSL"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
+    "BigQueryODBCUniDACDatabaseConfigurator": {
+      "Email": "Email cервисного аккаунта",
+      "IsRequestGoogleDrive": "Подключаться к Google Drive",
+      "KeyFilePath": "Путь к секретному ключу",
+      "SSLCA": "Сертификат CA",
+      "UseSystemTrustStore": "Системное хранилище сертификатов"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
+    "MyUniDACDatabaseConfigurator": {
+      "WaitTimeoutTransaction": "Время жизни на время транзакции при неактивности"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
+    "SQLiteFunctionDefs": {
+      "CaseChangeUnicode": "lower, upper для UNICODE",
+      "LikeMode": "Режим работы LIKE",
+      "NoCaseUnicode": "NOCASE в режиме UNICODE"
+    },
+    "SQLitePragmas": {
+      "CacheSize": "Размер кэша",
+      "JournalMode": "Режим журнала транзакций",
+      "Synchronous": "Режим синхронизации"
+    },
+    "SQLiteUniDACDatabaseConfigurator": {
+      "CreateDBIfNotExists": "Создавать БД, если не существует",
+      "Encrypted": "Зашифрованная БД",
+      "InMemoryDBMode": "База данных в памяти"
+    }
+  },
+  "Libraries/bgrtl/ColumnInfoLinks": {
+    "ColumnInfoLinkDef": {
+      "Name": "Имя столбца"
+    }
+  },
+  "Libraries/bgrtl/DataSet": {
+    "ColumnDef": {
+      "DataKind": "Вид данных",
+      "DataType": "Тип данных",
+      "DefaultUsageType": "Назначение по умолчанию",
+      "DisplayName": "Метка",
+      "Index": "Индекс",
+      "Name": "Имя",
+      "Size": "Максимальная длина (кол-во символов) строковых значений столбца",
+      "Usable": "Признак использования (суррогат UsageType)",
+      "UsageType": "Назначение"
+    },
+    "TuneColumnDef": {
+      "Extension": "Расширение"
+    }
+  },
+  "Libraries/bgrtl/Interfaces": {
+    "CollectionItem": {
+      "ID": "Идентификатор",
+      "Name": "Имя"
+    },
+    "LocaleSettingsConfigurator": {
+      "LocaleName": "Имя локали"
+    },
+    "NamedItem": {
+      "Name": "Имя элемента"
+    }
+  },
+  "Libraries/bgrtl/RandomConfigurator": {
+    "RandomConfigurator": {
+      "RandSeed": "Random seed"
+    }
+  },
+  "Libraries/bgrtl/Statistics": {
+    "StatInfo": {
+      "Avg": "Среднее",
+      "DataType": "Тип данных значений",
+      "Max": "Максимум",
+      "Min": "Минимум"
+    }
+  },
+  "Libraries/bgrtl/Variables": {
+    "VariableInfo": {
+      "DataType": "Тип данных"
+    }
+  },
+  "Libraries/DataPartition/LearnPartition": {
+    "LearnPartition": {
+      "Folds": "Колод кросс-валидации",
+      "Iterations": "Итераций ресемплинга",
+      "KFoldsSamplingMethod": "Метод сэмплинга",
+      "LearnPartitionMethod": "Метод разбиения",
+      "LearnValidationMethod": "Метод валидации",
+      "PRowsCount": "Число исключаемых строк",
+      "TrainDataSetSize": "Размер обучающего множества",
+      "ValidationColumnIndex": "Поле заданного разбиения",
+      "ValidationDataSetSize": "Размер валидационного множества"
+    }
+  },
+  "Libraries/DataPartition/Partition": {
+    "Partition": {
+      "CompleteUniqueValues": "Полнота списка уникальных значений",
+      "PartitionMethod": "Метод сэмплинга",
+      "TeachDataSetSize": "Размер обучающей выборки",
+      "TeachGroupSize": "Размер обучающей группы",
+      "TestDataSetSize": "Размер тестовой выборки",
+      "TestGroupSize": "Размер тестовой группы",
+      "TestPriority": "Приоритет тестового множества",
+      "TestPriorityPosition": "Положение приоритетного тестового множества"
+    }
+  },
+  "Libraries/DataSampling/Sampling": {
+    "Sampling": {
+      "CompleteUniqueValues": "Полнота списка уникальных значений",
+      "GroupSize": "Размер группы",
+      "SamplingMethod": "Метод сэмплинга",
+      "SamplingRecordCount": "Число записей в выходной выборке"
+    }
+  },
+  "Libraries/DBConnection/DBConnection": {
+    "DBConnectionConfigurator": {
+      "DatabaseConfigurator": "Настройки подключения к БД"
+    }
+  },
+  "Libraries/ExportXMLConfigurator/ExportXMLConfigurator": {
+    "ExportXMLConfigurator": {
+      "SpecifyTimeZone": "Наличие временной зоны"
+    }
+  },
+  "Libraries/FileConnection/ExportFileModelComponentEngine": {
+    "ExportFileModelComponentEngine": {
+      "FileName": "Имя файла"
+    }
+  },
+  "Libraries/FileConnection/ImportFileModelComponentEngine": {
+    "ImportFileModelComponentEngine": {
+      "FileName": "Имя файла"
+    }
+  },
+  "Libraries/ImportXMLConfigurator/ImportXMLConfigurator": {
+    "ImportXMLConfigurator": {
+      "CompositeColumnNames": "Генерировать составные метки полей",
+      "IgnoreAbsentValues": "Разрешить пропуск обязательных полей",
+      "RepeatUniqueValues": "Дублировать единичные значения",
+      "StrictValidation": "Проверять на строгое соответствие XSD",
+      "TimeZone": "Временная зона по умолчанию"
+    }
+  },
+  "Libraries/KafkaConnection/KafkaAuth": {
+    "KafkaAuth": {
+      "Password": "Пароль",
+      "SaslMechanism": "SASL механизм",
+      "SecurityProtocol": "Протокол безопасности",
+      "SSLCert": "Сертификат пользователя",
+      "SSLKey": "Приватный ключ",
+      "SSLKeyPassword": "Пароль приватного ключа",
+      "Username": "Имя пользователя"
+    }
+  },
+  "Libraries/KafkaConnection/KafkaConnection": {
+    "KafkaConnectionConfigurator": {
+      "KafkaAuth": "Аутентификация",
+      "Server": "Кластер Kafka"
+    }
+  },
+  "Libraries/LDAP/LDAP": {
+    "LDAPConfigurator": {
+      "Account": "Учетная запись",
+      "BaseDN": "Базовый домен",
+      "ConnectionSecurity": "Безопасность соединения",
+      "DefaultUserRole": "Роль нового пользователя",
+      "Filter": "Фильтр LDAP",
+      "FullNameAttribute": "Атрибут полного имени",
+      "Host": "Хост",
+      "NameAttribute": "Атрибут имени",
+      "Password": "Пароль",
+      "Port": "Порт",
+      "UseSASL": "Использовать SASL"
+    }
+  },
+  "Libraries/Log/LoggerConfigurator": {
+    "CustomLoggerConfigurator": {
+      "MinLogLevel": "Уровень логирования"
+    },
+    "LoggerConfigurator": {
+      "LoggerType": "Тип логирования"
+    },
+    "LoggerConfiguratorFile": {
+      "LogFileMaxIndex": "Количество резервных файлов",
+      "LogFileMaxSize": "Максимальный размер файла",
+      "LogFileName": "Имя файла",
+      "LogFileRewrite": "Перезапись файла"
+    }
+  },
+  "Libraries/Model/Connections/ModelConnectionComponentEngine": {
+    "ModelConnectionComponentEngine": {
+      "Connection": "Подключение"
+    }
+  },
+  "Libraries/Normalization/NormalDataSourceModelComponentEngine": {
+    "NormalDataSourceModelComponentEngine": {
+      "AllowMissingValues": "Разрешить пропущенные значения",
+      "LearnPartition": "Разбиение данных компонента с обучением"
+    }
+  },
+  "Libraries/Regression/Regression": {
+    "FactorSelectionParams": {
+      "AddSignificance": "Порог значимости при добавлении фактора",
+      "Hierarchy": "Иерархия взаимодействий",
+      "RemoveSignificance": "Порог значимости при исключении фактора"
+    },
+    "RegressionClassificationParams": {
+      "EventId": "Индекс заданного события",
+      "EventType": "Тип события",
+      "Threshold": "Порог отсечения"
+    },
+    "RegressionParams": {
+      "AutoMethod": "Автоматическая настройка",
+      "AutoPriority": "Приоритет автоматической настройки",
+      "Denormalize": "Денормализировать коэффициенты модели",
+      "Epsilon": "Точность решения",
+      "FactorSelection": "Настройки пошагового отбора факторов",
+      "Intercept": "Включить в модель константу",
+      "Regularization": "Настройки регуляризации",
+      "ShowRefCoeffs": "Показывать коэффициенты опорных категорий",
+      "SimpleParams": "Параметры упрощенной настройки регрессии",
+      "Statistics": "Настройки расчета статистики отбора факторов",
+      "UseDetailedSettings": "Использовать детальные настройки"
+    },
+    "RegressionSimpleParams": {
+      "ExactInexact": "Приоритет точные/недостоверные данные",
+      "FactLessMore": "Приоритет меньше/больше факторов",
+      "QualitySpeed": "Приоритет точность/скорость"
+    },
+    "RegressionStatisticsParams": {
+      "PredictionIntervalLevel": "Уровень доверия, %"
+    },
+    "RegularizationParams": {
+      "LambdaLasso": "Коэффициент L1-регуляризации",
+      "LambdaRidge": "Коэффициент L2-регуляризации",
+      "LassoSetupMethod": "Установка коэффициента L1-регуляризации",
+      "RidgeSetupMethod": "Установка коэффициента L2-регуляризации"
+    }
+  },
+  "Libraries/RESTClientConnection/RESTClientConnection": {
+    "RESTClientConnectionConfigurator": {
+      "ClientAuth": "Аутентификация для выполнения запроса",
+      "ExchangeTimeOut": "Таймаут обмена данными (мс)",
+      "IgnoreCertificateErrors": "Игнорировать ошибки SSL сертификата",
+      "RequestContentType": "Content-Type запроса",
+      "ResponseContentType": "Допустимый Content-Type ответа",
+      "TimeOut": "Таймаут подключения (мс)",
+      "URL": "URL сервиса",
+      "Verb": "Метод"
+    }
+  },
+  "Libraries/TableauRestConnection/TableauRestConnection": {
+    "TableauRestConnectionConfigurator": {
+      "ApiVersion": "Версия Tableau REST API",
+      "Password": "Пароль",
+      "ServerUrl": "Адрес сервера",
+      "Site": "Сайт",
+      "UserName": "Имя пользователя"
+    }
+  },
+  "Libraries/WSDLClientConnection/WSDLClientConnection": {
+    "WSDLClientConnectionConfigurator": {
+      "ClientAuth": "Аутентификация для выполнения запроса",
+      "ClientUsesWSDLAuth": "Аутентификация та же, что и для получения WSDL",
+      "ExchangeTimeOut": "Таймаут обмена данными (мс)",
+      "IgnoreCertificateErrors": "Игнорировать ошибки SSL сертификата",
+      "ReserveWSDLSource": "Резервный источник WSDL",
+      "ReserveWSDLSourceOn": "Включить резервный источник WSDL",
+      "TimeOut": "Таймаут подключения (мс)",
+      "WSDLAuth": "Аутентификация для получения WSDL-файла",
+      "WSDLSource": "Источник WSDL",
+      "XSLT": "Расположение XSLT",
+      "XSLTOn": "Преобразовать WSDL-описание с помощью XSLT"
+    }
+  },
+  "Studio/DeductorServerSettings": {
+    "DeductorServerSettings": {
+      "PackagePoolSize": "Размер пула пакетов",
+      "SessionBackupDirectory": "Директория, содержащая резервные копии сессий",
+      "StopTimeout": "Таймаут остановки сервера",
+      "ThreadPoolSize": "Размер пула потоков",
+      "TraceExceptions": "Трассировка исключений",
+      "UserStorageDirectory": "Директория, содержащая личные папки пользователей"
+    },
+    "SocketDeductorServerSettings": {
+      "Bind": "IP адрес",
+      "PingPeriod": "Период проверки соединения с клиентом",
+      "Port": "TCP порт",
+      "SSLCertificateFile": "Имя файла сертификата",
+      "SSLPrivateKeyFile": "Имя файла закрытого ключа",
+      "UnixSocket": "Unix socket",
+      "WSPort": "WebSocket порт",
+      "WSSPort": "WebSocket SSL/TLS порт"
+    }
+  },
+  "Warehouse2/DWImportTree": {
+    "DWImportTreeNode": {
+      "FilterParams": "Параметры фильтрации"
+    }
+  },
+  "Warehouse2/MDFilterParams": {
+    "MDCustomFilterParams": {
+      "MaxValue": "Верхняя граница",
+      "MinValue": "Нижняя граница",
+      "TheValue": "Значение для сравнения"
+    },
+    "MDDateFilterParams": {
+      "CustomPointDate": "Пользовательская дата отсчета",
+      "IntervalType": "Тип временного промежутка",
+      "UseIntervalCount": "Значение временного промежутка"
+    }
+  }
+}

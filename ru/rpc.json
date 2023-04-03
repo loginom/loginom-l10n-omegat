@@ -1,0 +1,80 @@
+{
+  "JS/JsDictionaryExtensions": {
+    "ErrKeyAlreadyExists": "Элемент с таким ключом уже существует в словаре"
+  },
+  "Net/BaseSocketMessageTransport": {
+    "ErrIncorrectMessageSize": "Некорректный размер сообщения: {0}",
+    "ErrIncorrectServerResponse": "Получен некорректный ответ от сервера"
+  },
+  "Net/ClientObjectProxy": {
+    "ErrDisconnectedProxy": "Клиентский прокси-объект финализирован",
+    "ErrInterfaceIdentifierMustNotBeNull": "Идентификатор интерфейса не должен быть пустым",
+    "ErrInterfaceNotSupported": "Интерфейс {0} не поддерживается объектом",
+    "ErrInvalidArgument": "Недопустимое значение параметра {0}: {1}",
+    "ErrObjectIdIsNotCached": "Значение ObjectId не закэшировано"
+  },
+  "Net/Extended80Rec": {
+    "ErrOverflow": "Переполнение при попытке привести значение к типу Double",
+    "ErrWrongByteCount": "Длина байтового массива для TBGExtended80Rec должна точно равняться 10 байт"
+  },
+  "Net/MessageTransport": {
+    "ErrConnectionFailure": "Соединение с удаленным компьютером разорвано"
+  },
+  "Net/MessageTransportAsync": {
+    "ErrConnectionFailure": "Соединение с удаленным компьютером разорвано"
+  },
+  "Net/PropertySelector": {
+    "ErrInvalidCountSelector": "countSelector должен иметь вид collection => collection.Count",
+    "ErrInvalidItemSelector": "itemSelector должен иметь вид (collection, i) => collection[i]",
+    "ErrInvalidSelector": "selector должен иметь вид source => new { source.Prop1, source.Prop2 ... }",
+    "ErrNoPropertyAttribute": "Свойство {0} не содержит атрибута RemotePropertyAttribute",
+    "ErrPropertySelectorValueTypeNotSupported": "Тип свойств {0} не поддерживается"
+  },
+  "Net/RemoteMessageData": {
+    "ErrArrayLevelNotSupported": "Уровень вложенности массивов более {0} не поддерживается",
+    "ErrMessageSizeIncrementCannotBeNegative": "Инкремент размера сообщения не должен быть отрицательным",
+    "ErrMessageSizeOverflow": "Превышен максимальный допустимый размер сообщения",
+    "ErrUnknownInterfaceGUID": "Интерфейс с идентификатором {0} не зарегистрирован",
+    "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: {0}",
+    "ErrUnknownInterfaceName": "Интерфейс {0} не зарегистрирован",
+    "ErrUnknownMethodID": "Неизвестный идентификатор метода: {0}",
+    "ErrUnsupportedParameterType": "Не поддерживаемый тип аргумента"
+  },
+  "Net/ServerRemoteObjects": {
+    "ErrQueryInterfaceNotAllowed": "Интерфейс с идентификатором {0} нельзя запрашивать через QueryInterface",
+    "ErrUnknownMethodID": "Неизвестный идентификатор метода: {0}"
+  },
+  "Net/Session": {
+    "ErrCannotAddSessionToClosingSessionHost": "Невозможно добавить новую сессию во время финализации SessionHost",
+    "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Уже зарегистрирован другой обработчик исключений RPC",
+    "ErrDifferentRpcVerionAlreadyRegistered": "Уже зарегистрирован другой номер версии RPC",
+    "ErrDisconnectedSession": "Соединение разорвано",
+    "ErrDisconnectedSessionClientOnly": "Соединение с сервером разорвано",
+    "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
+    "ErrInvalidObjectID": "Невалидный идентификатор объекта: {0}",
+    "ErrInvalidResponseMessageType": "Недопустимый тип ответного сообщения: {0}",
+    "ErrMainServerObjectNotRegistered": "Главный серверный объект не зарегистрирован",
+    "ErrMaxObjectIdReached": "Достигнут предел в {0} значений идентификаторов объектов",
+    "ErrRpcVersionMismatch": "Клиент версии {0} не может подключиться к серверу версии {1}",
+    "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: {0}"
+  },
+  "Net/SessionThreaded": {
+    "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
+    "ErrInvalidMessageSignature": "Не поддерживаемый тип аргумента",
+    "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: {0}"
+  },
+  "Net/SparseArray": {
+    "ErrCannotAddDefaultValue": "В разреженный массив нельзя добавить значение типа по умолчанию",
+    "ErrItemNotExist": "Элемент с индексом {0} не существует"
+  },
+  "Net/System": {
+    "ErrGetProxyObjectIdCachedDelegateAlreadyAssigned": "Делегат GetProxyObjectIdCached уже проинициализирован",
+    "ErrGetProxyObjectIdDelegateAlreadyAssigned": "Делегат GetProxyObjectId уже проинициализирован",
+    "ErrIsDisposedProxyObjectDelegateAlreadyAssigned": "Делегат IsDisposedProxyObject уже проинициализирован",
+    "ErrIsProxyObjectIdCachedDelegateAlreadyAssigned": "Делегат IsProxyObjectIdCached уже проинициализирован"
+  },
+  "Net/WebSocketMessageTransport": {
+    "ErrConnectionClosed": "Удаленный компьютер закрыл соединение",
+    "ErrFailedToConnectWebSocket": "Не удалось подключиться к веб-сокету по адресу {0}"
+  }
+}

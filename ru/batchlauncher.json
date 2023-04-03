@@ -1,0 +1,22 @@
+{
+  "BatchLauncher/BatchLauncher": {
+    "CommandLineFmt": "Использование: %s <ключи>",
+    "ErrConnectionError": "Ошибка подключения к серверу",
+    "ErrExecutionError": "Ошибка пакетного выполнения",
+    "ErrInvalidCommandLineParameters": "Неверно указаны параметры командной строки",
+    "ErrLostConnectionToServer": "Потеряно соединение с сервером",
+    "ErrPackageCommandLineParameter": "Не указан обязательный параметр командной строки Package",
+    "ErrUnknownCommandLineParameter": "Неизвестный параметр командной строки: %s",
+    "ExampleTitle": "Пример:",
+    "OptionAddressDesc": "IP адрес или имя хоста (по умолчанию: %s)",
+    "OptionNodeNameDesc": "Имя или GUID узла",
+    "OptionPackageFileNameDesc": "Путь и имя файла пакета (обязательный параметр)",
+    "OptionPasswordDesc": "Пароль",
+    "OptionPortDesc": "Порт (по умолчанию: %s)",
+    "OptionSavePackageDesc": "Сохранять пакет после выполнения",
+    "OptionTeachDesc": "Режим переобучения",
+    "OptionUserNameDesc": "Имя пользователя",
+    "Switches": "<Ключи>",
+    "VariableSwitchesInfo": "Любые другие ключи интерпретируются как имена переменных.\nФормат: <Имя_переменной>=<Значение_переменной>"
+  }
+}

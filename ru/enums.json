@@ -1,0 +1,2103 @@
+{
+  "Common/CalcFunctions/FuncDesc": {
+    "CalcFuncCategory": {
+      "$Caption": "Категория функции",
+      "Financical": "Финансовые",
+      "DateTime": "Дата/Время",
+      "Mathematic": "Математические",
+      "Statistic": "Статистические",
+      "Logic": "Логические",
+      "String": "Строковые",
+      "Other": "Прочие",
+      "Model": "Модели"
+    }
+  },
+  "Common/HTTPClient/CertList": {
+    "CertStoreCollection": {
+      "$Caption": "Коллекции хранилищ сертификатов",
+      "CurrentUser": "Текущий пользователь",
+      "LocalMachine": "Локальная машина",
+      "Services": "Служба"
+    }
+  },
+  "Common/HTTPClient/HTTPClientTypes": {
+    "HTTPVerb": {
+      "$Caption": "Метод HTTP",
+      "GET": "GET",
+      "POST": "POST",
+      "PUT": "PUT",
+      "DELETE": "DELETE",
+      "PATCH": "PATCH"
+    }
+  },
+  "Common/HTTPClient/WSDLClientAuth": {
+    "WSDLAuthorizationMode": {
+      "$Caption": "Тип аутентификации",
+      "Absent": "Не требуется",
+      "NamePass": "Имя пользователя и пароль",
+      "OAuth": "Токен OAuth",
+      "Cert": "Клиентский сертификат из хранилища",
+      "FileCert": "Файлы сертификата клиента"
+    }
+  },
+  "Common/WSDL/Processor/WSDLRequestProcessor": {
+    "MIMEResponseStatus": {
+      "$Caption": "Результат обработки MIME-ответа",
+      "Ok": "Нет ошибок",
+      "Cancelled": "Отменено пользователем",
+      "InitError": "Ошибка инициализации: %s",
+      "InvalidMultipartBoundary": "Недопустимая граница multipart/related",
+      "HeaderTooLong": "Слишком длинный заголовок HTTP",
+      "UnexpectedMessageEnd": "Неожиданный конец сообщения",
+      "UnknownMessageStructure": "Нераспознанная структура сообщения",
+      "XMLImportError": "Ошибка при импорте XML: %s",
+      "UnhandledError": "Необработанная ошибка: %s"
+    },
+    "WSDLPrepareRequestStatus": {
+      "$Caption": "Результат формирования WSDL-запроса",
+      "NoError": "Нет ошибок",
+      "Cancelled": "Отменено пользователем",
+      "InitError": "Ошибка инициализации WSDL-запроса: %s",
+      "ConnectionUndefined": "Не указано подключение к WSDL",
+      "OperationUndefined": "Не назначена используемая операция",
+      "NoContextForInputMessage": "Не предоставлен контекст для формирования входящего сообщения сервиса",
+      "UnsupportedSoapTransport": "Неподдерживаемый транспорт SOAP",
+      "PrepareError": "Ошибка при подготовке данных запроса: %s",
+      "UnimplementedRequestType": "Запросы с расширениями типа %s на данный момент не поддерживаются"
+    }
+  },
+  "Common/WSDL/WSDL": {
+    "SoapStyle": {
+      "$Caption": "Стиль SOAP-запроса",
+      "RPC": "RPC",
+      "Document": "Документ"
+    },
+    "SoapTransport": {
+      "$Caption": "Транспорт SOAP-запроса",
+      "Unknown": "Неизвестен",
+      "HTTP": "HTTP"
+    },
+    "SoapVersion": {
+      "$Caption": "Версия SOAP",
+      "SOAP_1_1": "1.1",
+      "SOAP_1_2": "1.2"
+    },
+    "WSDLExtensionType": {
+      "$Caption": "Тип расширения WSDL",
+      "SOAP": "SOAP",
+      "HTTP": "HTTP",
+      "MIME": "MIME"
+    },
+    "WSDLHttpMessageType": {
+      "$Caption": "Тип HTTP-сообщения",
+      "URLEncoded": "URL encoded",
+      "URLReplacement": "URL replacement"
+    },
+    "WSDLTransmissionPrimitive": {
+      "$Caption": "Примитив обмена данными",
+      "Unknown": "Неизвестный",
+      "OneWay": "Однонаправленный",
+      "RequestResponse": "Запрос-ответ",
+      "SolicitResponse": "Требование-ответ",
+      "Notification": "Уведомление"
+    }
+  },
+  "Common/XML/Processor/XMLRequestProcessor": {
+    "ExportErrorCode": {
+      "$Caption": "Результат обработки запроса на экспорт XML",
+      "NoError": "Нет ошибок",
+      "Cancelled": "Отменено пользователем",
+      "DataSourceIsEmpty": "Входной источник данных не содержит ни одной записи",
+      "InitError": "Ошибка при инициализации процедуры экспорта: %s",
+      "ExportError": "Ошибка при выполнении процедуры экспорта: %s"
+    },
+    "XMLRequestErrorCode": {
+      "$Caption": "Результат обработки запроса XML",
+      "NoError": "Нет ошибок",
+      "Cancelled": "Отменено пользователем",
+      "InitError": "%s",
+      "XMLExportError": "Ошибка при выполнении экспорта в XML: %s",
+      "WSDLClientError": "Ошибка при выполнении запроса к веб-сервису : %s",
+      "WSDLFault": "Сервер вернул сообщение об ошибке",
+      "HTTPClientError": "Ошибка HTTP-клиента: %s",
+      "SaxParserError": "Ошибка при разборе XML-документа: %s",
+      "MIMEParserError": "Ошибка при обработке ответа сервера: %s",
+      "UnsupportedRequestType": "Неподдерживаемый тип запроса",
+      "BadRequestParam": "Некорректный параметр запроса"
+    }
+  },
+  "Common/XML/SAX/XMLSAX_MSXML": {
+    "MSSaxHandlerType": {
+      "$Caption": "Обработчики событий SAX-парсера MSXML",
+      "Error": "Обработчик ошибок (ISAXErrorHandler)",
+      "Content": "Обработчик контента (ISAXContentHandler)",
+      "Lexical": "Обработчик лексики (ISAXLexicalHandler)",
+      "Decl": "Обработчик деклараций (ISAXXMLDeclHandler)",
+      "SchemaDecl": "Обработчик деклараций XSD-схем (IMXSchemaDeclHandler)"
+    }
+  },
+  "Common/XML/XML": {
+    "XMLNodeType": {
+      "$Caption": "Типы узлов XML",
+      "Document": "Документ",
+      "Element": "Элемент",
+      "Attribute": "Атрибут",
+      "Text": "Текст",
+      "CData": "CDATA",
+      "ProcessingInstruction": "Инструкция xml-парсера",
+      "Comment": "Комментарий"
+    },
+    "XMLStrTransformResult": {
+      "$Caption": "Результат преобразования строки xml в BG-типы и обратно",
+      "Ok": "Преобразовано без ошибок",
+      "Range": "Значение выходит за пределы допустимого диапазона",
+      "Format": "Формат значения не соответствует типу данных"
+    }
+  },
+  "Common/XML/XSD": {
+    "XSDAggregateType": {
+      "$Caption": "Модель контента (тип агрегации)",
+      "Sequence": "Последовательность (sequence)",
+      "Choice": "Выбор (choice)",
+      "All": "Все (all)"
+    },
+    "XSDDataTypeRefinement": {
+      "$Caption": "Уточнение типа данных XML",
+      "Any": "Любой тип",
+      "AnySimple": "Любой простой тип",
+      "None": "Неизвестен",
+      "Date": "Дата",
+      "Time": "Время",
+      "DateTime": "Дата/время",
+      "Float": "С плавающей точкой (одинарная точность)",
+      "Double": "С плавающей точкой (двойная точность)",
+      "Decimal": "Десятичное число",
+      "Integer": "Целое",
+      "PosInteger": "Положительное целое",
+      "NegInteger": "Отрицательное целое",
+      "NonPosInteger": "Неположительное целое",
+      "NonNegInteger": "Неотрицательное целое",
+      "Long": "Целое знаковое, 64 бита",
+      "Int": "Целое знаковое, 32 бита",
+      "Short": "Целое знаковое, 16 бит",
+      "Byte": "Целое знаковое, 8 бит",
+      "ULong": "Целое беззнаковое, 64 бита",
+      "UInt": "Целое беззнаковое, 32 бита",
+      "UShort": "Целое беззнаковое, 16 бит",
+      "UByte": "Целое беззнаковое, 8 бит"
+    }
+  },
+  "components/assnrules": {
+    "FrequentItemsetType": {
+      "$Caption": "Тип частых наборов",
+      "All": "Все",
+      "Maximal": "Максимальные",
+      "Closed": "Замкнутые"
+    }
+  },
+  "components/autocorrelation": {
+    "AutoCorrelationDomainCalc": {
+      "$Caption": "Область расчета автокорреляционной функции",
+      "Time": "Временная",
+      "Frequency": "Частотная",
+      "Auto": "Автоматически"
+    }
+  },
+  "components/binning": {
+    "BinningBinsColumnKind": {
+      "$Caption": "Назначение поля таблицы диапазонов",
+      "None": "Не определено",
+      "BinsID": "Идентификатор интервалов",
+      "BoundsDataType": "Тип данных границ диапазонов",
+      "BinNumber": "Номер интервала",
+      "LowerBound": "Нижняя граница",
+      "UpperBound": "Верхняя граница",
+      "BinLabel": "Метка",
+      "LowerBoundQuota": "Квота нижней границы",
+      "UpperBoundQuota": "Квота верхней границы",
+      "BinQuota": "Квота интервала",
+      "LowerDeviation": "Отклонение от нижней границы из диапазона",
+      "UpperDeviation": "Отклонение от верхней границы из диапазона",
+      "LowerLimitOpen": "Нижняя граница диапазонов открыта",
+      "UpperLimitOpen": "Верхняя граница диапазонов открыта"
+    },
+    "BinningMatchingObservationsMode": {
+      "$Caption": "Совпадающие наблюдения",
+      "AddToNextBin": "Добавлять в следующий",
+      "AddCurrent": "Сохранять в текущем",
+      "Random": "Назначать случайно",
+      "AsIs": "Оставить как есть",
+      "OptimalTile": "Одинаковые плитки"
+    },
+    "BinningMethodType": {
+      "$Caption": "Метод получения диапазонов",
+      "None": "<Не определён>",
+      "ExtermalBins": "Внешние диапазоны",
+      "Width": "Ширина",
+      "Count": "Количество",
+      "Tile": "Плитка",
+      "SD": "Коэффициенты СКО"
+    },
+    "BinningOutputColumnKind": {
+      "$Caption": "Назначение результирующих полей квантования",
+      "BinsID": "Идентификатор интервалов",
+      "BinNumber": "Номер интервала",
+      "BinLabel": "Метка",
+      "LowerBound": "Нижняя граница",
+      "UpperBound": "Верхняя граница",
+      "LowerBoundInclusive": "Нижний предел интервала включительно",
+      "UpperBoundInclusive": "Верхний предел интервала включительно",
+      "LowerBoundQuota": "Квота нижней границы",
+      "UpperBoundQuota": "Квота верхней границы",
+      "BinQuota": "Квота интервала",
+      "LowerDeviation": "Отклонение от нижней границы из диапазона",
+      "UpperDeviation": "Отклонение от верхней границы из диапазона",
+      "LowerLimitOpen": "Нижняя граница диапазонов открыта",
+      "UpperLimitOpen": "Верхняя граница диапазонов открыта",
+      "OutOfBins": "Значение вне диапазонов"
+    },
+    "BinningRoundingLevel": {
+      "$Caption": "Уровень округления интервалов",
+      "NoRound": "Без округления",
+      "Normal": "Нормальное округление"
+    },
+    "BinningSDMode": {
+      "$Caption": "Режим создания интервалов",
+      "sdm1": "+/- 1 СКО",
+      "sdm2": "+/- 2 СКО",
+      "sdm3": "+/- 3 СКО"
+    }
+  },
+  "components/calcdata": {
+    "CalcMode": {
+      "$Caption": "Режим работы",
+      "Expression": "Выражение",
+      "JavaScript": "JavaScript"
+    }
+  },
+  "components/coarseclasses": {
+    "ClassParamsColumnKind": {
+      "$Caption": "Назначение поля таблицы диапазонов",
+      "None": "Отсутствует",
+      "Group": "Группа",
+      "ColumnName": "Идентификатор",
+      "ColumnDisplayName": "Метка столбца",
+      "ClassNumber": "Номер класса",
+      "UniqueValue": "Уник.значение",
+      "ClassMark": "Метка класса",
+      "EventsCount": "Число событий",
+      "NonEventsCount": "Число не-событий",
+      "EventRate": "Доля событий",
+      "NonEventRate": "Доля не-событий",
+      "LowerBound": "Нижняя граница",
+      "UpperBound": "Верхняя граница",
+      "WoE": "Вес доказательства",
+      "IV": "Информационный индекс",
+      "Rate": "Доля класса",
+      "UpperBoundIsOpen": "Верхняя граница диапазонов открыта",
+      "PreQuantingApplied": "Предквантование"
+    },
+    "CoarseClassChartType": {
+      "$Caption": "Тип отображаемых данных",
+      "WoE": "WoE",
+      "IV": "IV",
+      "Rate": "Доля",
+      "Count": "Количество",
+      "EventCount": "События",
+      "NoEventCount": "Не-события"
+    },
+    "ColumnPurpose": {
+      "$Caption": "Назначение поля",
+      "Unused": "Не выбрано",
+      "Input": "Входное",
+      "InputExternal": "Входное (внешнее разбиение)",
+      "InputFrozen": "Входное (замороженное)",
+      "Target": "Выходное"
+    },
+    "ColumnSignificance": {
+      "$Caption": "Значимость столбцов",
+      "Void": "Отсутствует",
+      "Low": "Низкая",
+      "Medium": "Средняя",
+      "High": "Высокая"
+    },
+    "ColumnSignificancesColumnKind": {
+      "$Caption": "Назначение поля значимостей столбцов",
+      "ColumnName": "Имя столбца",
+      "ColumnDisplayName": "Метка столбца",
+      "EventsCount": "Число событий",
+      "NonEventsCount": "Число не-событий",
+      "EventRate": "Доля событий",
+      "NonEventRate": "Доля не-событий",
+      "TotalEventsCount": "Всего",
+      "IV": "Информационный индекс",
+      "Significance": "Значимость столбца"
+    },
+    "InputBinningColumnKind": {
+      "$Caption": "Назначение поля во внешнем разбиении",
+      "None": "Не выбрано",
+      "Identifier": "Идентификатор",
+      "ClassNumber": "Номер класса",
+      "UniqueValue": "Уник.значение",
+      "UpperBound": "Верхняя граница",
+      "UpperBoundIsOpen": "Верхняя граница открыта"
+    }
+  },
+  "components/coluniondata": {
+    "ColUnionDataTailsAlignType": {
+      "$Caption": "Соответствие количества строк выходного набора",
+      "CutToShortest": "Минимальному набору",
+      "ExtendToLongest": "Максимальному набору",
+      "UserSpecified": "Определяется набором"
+    },
+    "ColUnionRowsPaddingType": {
+      "$Caption": "Дополнение до наибольшего набора",
+      "None": "Не дополнять",
+      "Repeat": "Повторять набор данных",
+      "LastRow": "Дополнять последней строчкой"
+    }
+  },
+  "components/corranalysis": {
+    "CorrAnalysisSelectionType": {
+      "$Caption": "Принадлежность выборке",
+      "InFirstSet": "В первом наборе",
+      "InSecondSet": "Во втором наборе"
+    },
+    "CorrType": {
+      "$Caption": "Тип коэффициента корреляции",
+      "Pirson": "Пирсона",
+      "CorrFuncExtr": "Экстремум К.Ф.",
+      "TauBKendall": "Тау-b Кендалла",
+      "Spearman": "Спирмена",
+      "CorrFuncLag": "Лаг К.Ф."
+    }
+  },
+  "components/crosstab": {
+    "CrossTabAggregationType": {
+      "$Caption": "Варианты агрегации",
+      "Sum": "Сумма",
+      "Count": "Количество",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Avg": "Среднее",
+      "StdDev": "Стандартное откл.",
+      "SumSq": "Сумма квадратов",
+      "UniqueCount": "Кол-во уникальных",
+      "NullCount": "Кол-во пропусков",
+      "First": "Первый",
+      "Last": "Последний"
+    }
+  },
+  "components/datatoxml": {
+    "RowsDocIdenti": {
+      "$Caption": "Идентификация документа",
+      "Full": "Один запрос на весь набор данных",
+      "SingleRow": "Один запрос в каждой строке входного набора",
+      "ByID": "Идентификатор запроса - поле входного набора"
+    }
+  },
+  "components/datereform": {
+    "DateReformAlignment": {
+      "$Caption": "Выравнивание даты в заданном периоде",
+      "FirstDate": "Первый день",
+      "LastDate": "Последний день"
+    },
+    "DateReformFormat": {
+      "$Caption": "Тип данных выходного столбца",
+      "DateTime": "Дата/время",
+      "Number": "Число",
+      "String": "Строка"
+    },
+    "DateReformFunction": {
+      "$Caption": "Способ преобразования даты/времени",
+      "YearAndQuarter": "Год + Квартал",
+      "YearAndMonth": "Год + Месяц",
+      "YearAndWeek": "Год + Неделя",
+      "YearAndDay": "Год + День",
+      "Year": "Год",
+      "Quarter": "Квартал",
+      "Month": "Месяц",
+      "WeekOfYear": "Неделя",
+      "DayOfYear": "День года",
+      "DayOfQuarter": "День квартала",
+      "DayOfMonth": "День месяца",
+      "DayOfWeek": "День недели",
+      "Hours": "Часы",
+      "Minutes": "Минуты",
+      "Seconds": "Секунды",
+      "Milliseconds": "Миллисекунды",
+      "Date": "Дата",
+      "Time": "Время",
+      "User": "Свой формат"
+    }
+  },
+  "components/em": {
+    "EMModification": {
+      "$Caption": "Тип алгоритма",
+      "Standard": "Классический",
+      "Stochastic": "Стохастический",
+      "Classification": "Классификационный"
+    }
+  },
+  "components/factoranalysis": {
+    "FactorRotationType": {
+      "$Caption": "Метод вращения",
+      "NoRotation": "Без вращения",
+      "Varimax": "Варимакс",
+      "Quartimax": "Квартимакс"
+    },
+    "FactorSignificanceCriterion": {
+      "$Caption": "Критерий значимости",
+      "EigenValueThreshold": "По собственному значению",
+      "CumDispersion": "По дисперсии",
+      "NFactor": "Задать число факторов"
+    }
+  },
+  "components/filterdata": {
+    "FilterRelationType": {
+      "$Caption": "Тип отношения",
+      "Less": "<",
+      "LessOrEqual": "<=",
+      "Greater": ">",
+      "GreaterOrEqual": ">=",
+      "Equal": "=",
+      "NotEqual": "<>",
+      "IsNull": "пустой",
+      "IsNotNull": "не пустой",
+      "Between": "в интервале",
+      "NotBetween": "вне интервала",
+      "In": "в списке",
+      "NotIn": "вне списка",
+      "Like": "содержит",
+      "NotLike": "не содержит",
+      "StartingWith": "начинается с",
+      "NotStartingWith": "не начинается с",
+      "EndingWith": "заканчивается на",
+      "NotEndingWith": "не заканчивается на",
+      "FirstPeriod": "первый",
+      "NotFirstPeriod": "не первый",
+      "LastPeriod": "последний",
+      "NotLastPeriod": "не последний",
+      "IsTrue": "истина",
+      "IsFalse": "ложь"
+    }
+  },
+  "components/groupdata": {
+    "GroupDataFunction": {
+      "$Caption": "Агрегация",
+      "Sum": "Сумма",
+      "Count": "Количество",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Avg": "Среднее",
+      "Median": "Медиана",
+      "StdDev": "Стандартное откл.",
+      "UniqueCount": "Кол-во уникальных",
+      "NullCount": "Кол-во пропусков",
+      "First": "Первый",
+      "Last": "Последний"
+    }
+  },
+  "components/joindata": {
+    "JoinTableType": {
+      "$Caption": "Тип источника данных",
+      "Main": "Главная таблица",
+      "Joined": "Присоединяемая таблица"
+    },
+    "JoinType": {
+      "$Caption": "Тип операции",
+      "Join": "Внутреннее соединение",
+      "LeftJoin": "Левое соединение",
+      "RightJoin": "Правое соединение",
+      "FullJoin": "Полное соединение",
+      "Difference": "Разность"
+    }
+  },
+  "components/linregression": {
+    "LinRegressionMethod": {
+      "$Caption": "Отбор факторов и защита от переобучения",
+      "Enter": "Enter - Принудительное включение",
+      "Forward": "Forward - Пошаговое включение",
+      "Backward": "Backward - Пошаговое исключение",
+      "Stepwise": "Stepwise - Пошаговое включение/исключение",
+      "L2": "Ridge - Гребневая регрессия",
+      "L1": "LASSO - Регрессия Лассо",
+      "L1L2": "Elastic-net - Регрессия «эластичная сеть»"
+    },
+    "LinRegSelQuality": {
+      "$Caption": "Критерий отбора факторов",
+      "Fprob": "Критерий Фишера (F-тест)",
+      "R2": "Коэффициент детерминации",
+      "R2adj": "Скорректированный коэффициент детерминации",
+      "AIC": "Информационный критерий Акаике",
+      "AICc": "Информационный критерий Акаике скорректированный",
+      "BIC": "Информационный критерий Байеса",
+      "HQC": "Информационный критерий Ханнана-Куинна"
+    }
+  },
+  "components/logregression": {
+    "CalibrationMethod": {
+      "$Caption": "Вид поправки на долю событий",
+      "TrainSet": "На основе тестового множества",
+      "TestSet": "На основе обучающего множества",
+      "Manual": "Задать вручную",
+      "Sampling": "Взять из узла сэмплинга",
+      "Partition": "Взять из узла разбиения на множества"
+    },
+    "CalibrationType": {
+      "$Caption": "Тип поправки на долю событий",
+      "Const": "Константой",
+      "Weight": "Весами"
+    },
+    "LogRegressionMethod": {
+      "$Caption": "Отбор факторов и защита от переобучения",
+      "Enter": "Enter - Принудительное включение",
+      "Forward": "Forward - Пошаговое включение",
+      "Backward": "Backward - Пошаговое исключение",
+      "Stepwise": "Stepwise - Пошаговое включение/исключение",
+      "L2": "Ridge - Гребневая регрессия",
+      "L1": "LASSO - Регрессия Лассо",
+      "L1L2": "Elastic-net - Регрессия «эластичная сеть»"
+    },
+    "LogRegSelQuality": {
+      "$Caption": "Критерий отбора факторов",
+      "LR": "Deviance",
+      "AIC": "Информационный критерий Акаике",
+      "AICc": "Информационный критерий Акаике скорректированный",
+      "BIC": "Информационный критерий Байеса",
+      "HQC": "Информационный критерий Ханнана-Куинна"
+    }
+  },
+  "components/loop": {
+    "GroupProcessingKind": {
+      "$Caption": "Способ разбиения набора данных на группы",
+      "FixedGroupSize": "Фиксированный размер групп",
+      "FixedGroupCount": "Фиксированное количество групп",
+      "GroupByUniqueValues": "Разбиение по уникальным значениям полей"
+    },
+    "LoopKind": {
+      "$Caption": "Вид цикла",
+      "For": "Заданные итерации",
+      "Repeat": "Цикл с постусловием",
+      "GroupProcessing": "Групповая обработка"
+    }
+  },
+  "components/neuralnet": {
+    "NeuralNetHiddenLayers": {
+      "$Caption": "Количество скрытых слоев нейросети",
+      "NoHiddenLayers": "Без скрытых слоев",
+      "SingleHiddenLayer": "Один скрытый слой",
+      "TwoHiddenLayers": "Два скрытых слоя"
+    },
+    "NeuralNetTask": {
+      "$Caption": "Тип задачи, решаемый нейросетью",
+      "Regression": "Регрессия",
+      "Classification": "Классификация"
+    },
+    "RegNNOutputLayer": {
+      "$Caption": "Ограничение на значение выходов",
+      "Linear": "Нет",
+      "Bounded": "Интервал",
+      "LowerBounded": "Только снизу",
+      "UpperBounded": "Только сверху"
+    }
+  },
+  "components/quality": {
+    "ActionExtr": {
+      "$Caption": "Метод обработки экстремальных",
+      "NoDefine": "Не задан",
+      "None": "Оставить без изменения",
+      "Delete": "Удалять записи",
+      "Mean": "Заменять средним",
+      "Median": "Заменять медианой",
+      "MostFreq": "Заменять наиболее вероятным",
+      "SetValue": "Заменять заданным значением",
+      "Limitation": "Ограничивать"
+    },
+    "ActionNull": {
+      "$Caption": "Метод обработки отсутствующих данных",
+      "NoDefine": "Не задан",
+      "None": "Оставить без изменения",
+      "Delete": "Удалять записи",
+      "Mean": "Заменять средним",
+      "Median": "Заменять медианой",
+      "MostFreq": "Заменять наиболее вероятным",
+      "SetValue": "Заменять значением \"Не задано\"",
+      "RandomValue": "Заменять случайными значениями",
+      "LinearInterp": "Линейная интерполяция",
+      "CubicInterp": "Кубическая интерполяция",
+      "SplineInterp": "Сплайн-интерполяция",
+      "ZeroValue": "Заменять на 0"
+    },
+    "ActionOut": {
+      "$Caption": "Метод обработки выбросов",
+      "NoDefine": "Не задан",
+      "None": "Оставить без изменения",
+      "Delete": "Удалять записи",
+      "Mean": "Заменять средним",
+      "Median": "Заменять медианой",
+      "MostFreq": "Заменять наиболее вероятным",
+      "SetValue": "Заменять заданным значением",
+      "Limitation": "Ограничивать"
+    },
+    "QualityDetectOE": {
+      "$Caption": "Методы идентификации выбросов и экстремальных",
+      "SKO": "Стандартное отклонение",
+      "Kvartil": "Интерквартильная ширина"
+    }
+  },
+  "components/reformcolumns": {
+    "ColumnCachingMethod": {
+      "$Caption": "Кэширование поля",
+      "None": "Отключено",
+      "Complete": "При активации",
+      "Deferred": "При обращении"
+    },
+    "DataSourceCachingMethod": {
+      "$Caption": "Кэширование набора данных",
+      "None": "Отключено",
+      "Complete": "При активации",
+      "Deferred": "При обращении",
+      "CustomColumns": "Выбранные поля"
+    }
+  },
+  "components/replace": {
+    "ReplaceMode": {
+      "$Caption": "Способ замены",
+      "None": "Не заменять",
+      "Table": "Ввод вручную",
+      "Source": "Таблица замен"
+    }
+  },
+  "components/slidingwindow": {
+    "SlidingWindowIncompleteRecordsProcessing": {
+      "$Caption": "Способ обработки неполных записей",
+      "Leave": "Оставлять неполные записи",
+      "CutPadded": "Удалять добавленные неполные записи",
+      "CutAll": "Удалять все неполные записи"
+    }
+  },
+  "components/smoothing": {
+    "SmoothingAlgorithm": {
+      "$Caption": "Алгоритм сглаживания",
+      "HPF": "Фильтр Ходрика-Прескотта",
+      "Wavelets": "Вейвлет-сглаживание"
+    },
+    "WTEdgeExtension": {
+      "$Caption": "Продолжение границ",
+      "Symmetric": "Симметричное",
+      "AntiSymmetric": "Антисимметричное",
+      "ZeroPadding": "Продолжение нулями",
+      "ConstantPadding": "Константное",
+      "Periodic": "Периодическое",
+      "SymmetricHalfPoint": "Симметричное без крайней точки",
+      "AntiSymmetricHalfPoint": "Антисимметричное без крайней точки"
+    },
+    "WTWaveletType": {
+      "$Caption": "Тип вейвлета",
+      "Daubechies": "Добеши",
+      "Coiflet": "Койфлеты",
+      "CDF97": "CDF 9/7"
+    }
+  },
+  "components/sonn": {
+    "SOMTopology": {
+      "$Caption": "Топология ячеек",
+      "st1D": "1D",
+      "st2DSquare": "2D прямоугольная",
+      "st2DHexagonal": "2D гексагональная",
+      "st3D": "3D"
+    },
+    "SONNType": {
+      "$Caption": "Тип самоорганизующейся сети",
+      "Kohonen": "Сеть Кохонена",
+      "GNG": "Нейронный газ",
+      "ESOINN": "ESOINN"
+    }
+  },
+  "components/sorting": {
+    "SortingBufferingType": {
+      "$Caption": "Тип буфера данных",
+      "Default": "По умолчанию",
+      "Whole": "Все данные",
+      "Minimal": "Минимальный",
+      "UserDefined": "Заданный"
+    }
+  },
+  "components/ungroupdata": {
+    "SeasonalityPeriod": {
+      "$Caption": "Период сезонности",
+      "Year": "Год",
+      "Quarter": "Квартал",
+      "Month": "Месяц",
+      "Week": "Неделя",
+      "Day": "День",
+      "Hour": "Час",
+      "UserDefined": "Заданный",
+      "None": "Нет сезонности"
+    },
+    "UngroupBalanceMethod": {
+      "$Caption": "Метод балансировки",
+      "NotBalance": "Нет балансировки",
+      "AllLatest": "Все последнему",
+      "Proportionally": "Пропорционально",
+      "Evenly": "Равномерно"
+    },
+    "UngroupMethod": {
+      "$Caption": "Метод разгруппировки",
+      "QuotaIsGiven": "По заданным долям",
+      "QuotaCalcTotalSample": "С расчетом долей по всей выборке",
+      "QuotaCalcSpline": "С учетом временных колебаний и сезонности опорных данных"
+    },
+    "UngroupRoundFormat": {
+      "$Caption": "Формат округления",
+      "NotRound": "Не округлять",
+      "IntMultiple": "Округлять до кратного целому",
+      "DecimalPlaces": "Округлять до заданной точности"
+    }
+  },
+  "components/variablestodata": {
+    "VariablesToDataResultTableKind": {
+      "$Caption": "Вид преобразования переменных в таблицу",
+      "Columns": "В столбцы",
+      "Rows": "В строки"
+    }
+  },
+  "exports/database": {
+    "DBExportType": {
+      "$Caption": "Режим экспорта",
+      "Append": "Дополнить таблицу данными",
+      "Overload": "Очистить таблицу и заполнить данными",
+      "Delete": "Удалить записи по ключевым полям",
+      "Refresh": "Удалить записи по ключевым полям и дополнить таблицу данными",
+      "Update": "Обновить существующие записи в таблице"
+    }
+  },
+  "exports/excelfile": {
+    "ExcelCaptionType": {
+      "$Caption": "Тип заголовка столбцов",
+      "AsName": "Имена полей",
+      "AsDisplayName": "Метки полей"
+    },
+    "ExcelHeadersRow": {
+      "$Caption": "Заголовки столбцов",
+      "IncludeHeadersRow": "Первая строка является заголовком",
+      "NoHeadersRow": "Нет строки заголовков",
+      "NoHeadersRowAfterData": "Нет строки заголовков если данные добавляются ниже"
+    },
+    "ExcelHeadersRowWebSet": {
+      "$Caption": "Заголовки столбцов",
+      "NoHeadersRow": "Нет строки заголовков",
+      "HeadersRowAsName": "Имена полей",
+      "HeadersRowAsDisplayName": "Метки полей"
+    },
+    "ExcelLimitRowType": {
+      "$Caption": "Тип ограничения строк",
+      "NoLimit": "Не ограничивать",
+      "LastRow": "Последняя строка",
+      "RowsCount": "Количество строк"
+    },
+    "ExcelUpdateFileMode": {
+      "$Caption": "Обновление файла excel",
+      "ForceCreateFile": "Заменить существующий файл",
+      "Update": "Внести изменения в существующий файл"
+    },
+    "ExcelUpdateSheetMode": {
+      "$Caption": "Обновление листа Excel",
+      "ForceCreateSheet": "Заменить существующий лист",
+      "AddBelow": "Добавлять данные ниже",
+      "Merge": "Не удалять существующие данные на листе"
+    }
+  },
+  "exports/textfile": {
+    "TextFileLineEnding": {
+      "$Caption": "Перевод строк",
+      "LF": "Unix (LF)",
+      "CRLF": "Windows (CRLF)"
+    }
+  },
+  "imports/database": {
+    "BDCommandType": {
+      "$Caption": "Тип строки запроса",
+      "Table": "Имя таблицы/представления",
+      "Text": "SQL-запрос"
+    }
+  },
+  "imports/excelfile": {
+    "ExcelBlankRowAction": {
+      "$Caption": "Действие, при нахождении пустой строки",
+      "IncludeBlankRow": "Импортировать",
+      "ExcludeBlankRow": "Исключить",
+      "Stop": "До первой пустой строки"
+    },
+    "ExcelFileType": {
+      "$Caption": "Тип файла Excel",
+      "XLS": "Excel 2003",
+      "XLSX": "Excel 2007"
+    },
+    "ExcelReferenceStyle": {
+      "$Caption": "Тип ссылок Excel",
+      "R1C1": "R1C1",
+      "A1": "A1"
+    },
+    "ExcelTableNamingMethod": {
+      "$Caption": "Метод именования листа",
+      "Number": "По номеру",
+      "Name": "По имени",
+      "NamedRange": "Именованный диапазон"
+    },
+    "ExcelUsedRangeType": {
+      "$Caption": "Тип выбора диапазона",
+      "UsedRange": "Автоматический",
+      "ExplicitRange": "Заданный"
+    }
+  },
+  "imports/kafka": {
+    "KafkaOffsetMode": {
+      "$Caption": "Тип смещения",
+      "None": "Без указания смещения",
+      "Beginning": "С начала очереди партиций",
+      "End": "С конца очереди партиций",
+      "Stored": "С текущего смещения",
+      "Absolute": "Номер смещения",
+      "RelativeFromEnd": "Смещение относительно конца"
+    }
+  },
+  "imports/native": {
+    "DDFCompression": {
+      "$Caption": "Алгоритм сжатия",
+      "None": "Без сжатия",
+      "LZO": "LZO",
+      "LZ4": "LZ4"
+    },
+    "DDFSystem": {
+      "$Caption": "Разрядность",
+      "Undefined": "Не определена",
+      "X32": "32-битная система",
+      "X64": "64-битная система"
+    }
+  },
+  "Libraries/1CConnection/1Cv8Connection": {
+    "1Cv8Version": {
+      "$Caption": "Версия платформы",
+      "_1Cv8_0": "1С:Предприятие 8.0",
+      "_1Cv8_1": "1С:Предприятие 8.1",
+      "_1Cv8_2": "1С:Предприятие 8.2",
+      "_1Cv8_3": "1С:Предприятие 8.3"
+    }
+  },
+  "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
+    "ClickHouseCompressionMethod": {
+      "$Caption": "Метод сжатия данных",
+      "None": "Без сжатия",
+      "LZ4": "LZ4"
+    }
+  },
+  "Libraries/bgdbrtl/DB": {
+    "DBServerType": {
+      "$Caption": "Тип базы данных",
+      "Other": "Неизвестный",
+      "Oracle": "Oracle",
+      "MSSQL": "MS SQL",
+      "Sybase": "Sybase",
+      "DB2": "DB2",
+      "Interbase": "InterBase",
+      "Firebird": "Firebird",
+      "MySQL": "MySQL",
+      "PostgreSQL": "PostgreSQL",
+      "SQLite": "SQLite"
+    },
+    "ObjectQuotesType": {
+      "$Caption": "Тип кавычек",
+      "SquareBrackets": "Квадратные скобки []",
+      "DoubleQuotes": "Двойные кавычки \"\"",
+      "Apostrophes": "Апострофы ``"
+    },
+    "SSLMode": {
+      "$Caption": "Использование SSL",
+      "Disabled": "Отключено",
+      "Allow": "Разрешено",
+      "Prefer": "Предпочтительно",
+      "Require": "Обязательно",
+      "VerifyCA": "Обязательно (с проверкой ЦС)",
+      "VerifyIdentity": "Обязательно (с проверкой сервера)"
+    },
+    "TransactionIsolationLevel": {
+      "$Caption": "Уровень изолированности транзакций",
+      "ReadUnCommitted": "Read uncommitted",
+      "ReadCommitted": "Read committed",
+      "RepeatableRead": "Repeatable Read",
+      "Snapshot": "Snapshot",
+      "Serializable": "Serializable"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
+    "BigQueryAuthMechanismType": {
+      "$Caption": "Механизм аутентификации",
+      "ServiceAcc": "Сервисная аутентификация",
+      "UserAcc": "Пользовательская аутентификация"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
+    "SQLiteClientLibrary": {
+      "$Caption": "Библиотека клиента СУБД",
+      "Sqlite3": "sqlite3",
+      "Sqlcipher": "sqlcipher"
+    },
+    "SQLiteEncryptionAlgorithm": {
+      "$Caption": "Алгоритм шифрования",
+      "CryptNone": "-",
+      "CryptAES256CBC": "AES-256"
+    },
+    "SQLiteJournalMode": {
+      "$Caption": "Режим журнала транзакций",
+      "JournalDefault": "По умолчанию",
+      "JournalDelete": "Удаление файла",
+      "JournalTruncate": "Очистка содержимого",
+      "JournalPersist": "Обнуление заголовка",
+      "JournalMemory": "Хранение в памяти",
+      "JournalWAL": "Упреждающая запись"
+    },
+    "SQLiteLikeMode": {
+      "$Caption": "Режим работы LIKE",
+      "LikeNoCase": "Без учета регистра ASCII символов",
+      "LikeCase": "С учетом регистра",
+      "LikeUnicode": "Без учета регистра"
+    },
+    "SQLiteLockingMode": {
+      "$Caption": "Режим блокировки БД",
+      "LockDefault": "По умолчанию",
+      "LockNormal": "Нормальный",
+      "LockExclusive": "Монопольный"
+    },
+    "SQLiteSync": {
+      "$Caption": "Режим синхронизации",
+      "SyncDefault": "По умолчанию",
+      "SyncOff": "Отключена",
+      "SyncNormal": "Нормальный",
+      "SyncFull": "Полная",
+      "SyncExtra": "Экстра"
+    }
+  },
+  "Libraries/bgrtl/EnumDescs": {
+    "AggregationType": {
+      "$Caption": "Тип функции агрегации",
+      "Sum": "Сумма",
+      "Count": "Количество",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Avg": "Среднее",
+      "First": "Первый",
+      "Last": "Последний",
+      "NullCount": "Количество пропусков"
+    },
+    "ApplicationMode": {
+      "$Caption": "Режим работы приложения",
+      "Design": "Интерактивный",
+      "Run": "Выполнение"
+    },
+    "BoundMode": {
+      "$Caption": "Принадлежность границы",
+      "LowerInclusive": "Нижняя граница включительно",
+      "UpperInclusive": "Верхняя граница включительно"
+    },
+    "ConcatenationType": {
+      "$Caption": "Тип логической операции",
+      "And": "И",
+      "Or": "ИЛИ"
+    },
+    "ContextUsageType": {
+      "$Caption": "Назначение",
+      "Unspecified": "Не задано",
+      "Useless": "Непригодное",
+      "Excluded": "Исключенное",
+      "Info": "Информационное",
+      "Used": "Используемое",
+      "Input": "Входное",
+      "Output": "Выходное",
+      "Group": "Группа",
+      "Value": "Показатель",
+      "Transaction": "Транзакция",
+      "Item": "Элемент",
+      "DimCol": "Измерение в колонках",
+      "DimRow": "Измерение в строках",
+      "Forecast": "Прогнозируемое",
+      "Weight": "Вес"
+    },
+    "DataKind": {
+      "$Caption": "Вид данных",
+      "Undefined": "Неопределенное",
+      "Continuous": "Непрерывный",
+      "Discrete": "Дискретный"
+    },
+    "DataSourceType": {
+      "$Caption": "Тип множества данных",
+      "Teach": "Обучающее",
+      "Test": "Тестовое"
+    },
+    "DataSourceTypeEx": {
+      "$Caption": "Расширенный тип множества данных",
+      "Teach": "",
+      "Test": "",
+      "All": "Все вместе"
+    },
+    "DataStatus": {
+      "$Caption": "Назначение",
+      "UnUsable": "Неиспользуемое",
+      "Usable": "Используемое",
+      "Useless": "Непригодное",
+      "Key": "Ключ",
+      "Input": "Входное",
+      "Output": "Выходное",
+      "Info": "Информационное",
+      "Dimension": "Измерение",
+      "Property": "Атрибут",
+      "Case": "Факт",
+      "TransactionID": "Транзакция",
+      "ItemID": "Элемент"
+    },
+    "DataType": {
+      "$Caption": "Тип данных",
+      "None": "Неопределенный",
+      "Boolean": "Логический",
+      "DateTime": "Дата/Время",
+      "Float": "Вещественный",
+      "Integer": "Целый",
+      "String": "Строковый",
+      "Variant": "Переменный"
+    },
+    "DatePeriodType": {
+      "$Caption": "Типы периодов дат",
+      "Day": "День",
+      "Week": "Неделя",
+      "Month": "Месяц",
+      "Quarter": "Квартал",
+      "Year": "Год"
+    },
+    "DateSourceType": {
+      "$Caption": "Источник получения даты",
+      "Current": "Текущая дата",
+      "Data": "Имеющиеся данные",
+      "Custom": "Абсолютная дата"
+    },
+    "DateTimePart": {
+      "$Caption": "Часть даты времени",
+      "MiliSeconds": "Миллисекунда",
+      "Seconds": "Секунда",
+      "Minute": "Минута",
+      "Hour": "Час",
+      "Day": "День",
+      "Month": "Месяц",
+      "Year": "Год"
+    },
+    "DateTimeSpanType": {
+      "$Caption": "Единицы измерения интервалов даты времени",
+      "DateTimeSpan": "Произвольное значение",
+      "Millisecond": "Миллисекунда",
+      "Seconds": "Секунда",
+      "Minute": "Минута",
+      "Hour": "Час",
+      "Day": "День",
+      "Week": "Неделя",
+      "Month": "Месяц",
+      "Year": "Год",
+      "Century": "Век"
+    },
+    "DerivedProxyProduceType": {
+      "$Caption": "Тип создания производных элементов",
+      "Default": "По умолчанию",
+      "Supplement": "Добавление",
+      "Replace": "Замена"
+    },
+    "ExceptionType": {
+      "$Caption": "Тип исключения",
+      "Error": "Ошибка",
+      "Warning": "Предупреждение",
+      "Hint": "Замечание"
+    },
+    "FieldProperty": {
+      "$Caption": "Свойства столбца",
+      "Name": "Имя",
+      "DisplayName": "Метка",
+      "DataType": "Тип данных",
+      "DataKind": "Вид данных",
+      "Size": "Размер данных",
+      "DefaultUsageType": "Назначение по умолчанию",
+      "UsageType": "Назначение",
+      "Index": "№",
+      "ID": "ID",
+      "Data": "Данные"
+    },
+    "GridExportFormat": {
+      "$Caption": "Формат экспорта табличных данных",
+      "Excel": "XLS",
+      "HTML": "HTML"
+    },
+    "HAlignment": {
+      "$Caption": "Выравнивание по горизонтали",
+      "LeftJustify": "По левому краю",
+      "RightJustify": "По правому краю",
+      "Center": "По центру"
+    },
+    "PeriodKind": {
+      "$Caption": "Виды периодов",
+      "Relative": "Относительный",
+      "Absolute": "Абсолютный"
+    },
+    "RelationType": {
+      "$Caption": "Тип отношения",
+      "IsTrue": "истина",
+      "IsFalse": "ложь",
+      "Less": "<",
+      "LessOrEqual": "<=",
+      "Greater": ">",
+      "GreaterOrEqual": ">=",
+      "Equal": "=",
+      "NotEqual": "<>",
+      "IsNull": "пустой",
+      "IsNotNull": "не пустой"
+    },
+    "RoundMode": {
+      "$Caption": "Режим округления",
+      "NearestEven": "Округлять до ближайшего чётного числа",
+      "Down": "Округлять до меньшего числа",
+      "Up": "Округлять до большего числа",
+      "Truncate": "Отбрасывание дробной части",
+      "NearestMath": "Округлять до ближайшего числа"
+    },
+    "RowNumberer": {
+      "$Caption": "Нумератор строк",
+      "None": "-",
+      "RowNumber": "Номер строки"
+    },
+    "SortDirection": {
+      "$Caption": "Направление сортировки",
+      "Asc": "По возрастанию",
+      "Desc": "По убыванию"
+    },
+    "StatIndicatorType": {
+      "$Caption": "Статистические показатели",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Avg": "Среднее",
+      "Sum": "Сумма",
+      "SumSq": "Сумма квадратов",
+      "StdDev": "Стандартное откл.",
+      "NullCount": "Кол-во пропущенных значений",
+      "UniqueValues": "Уникальные значения",
+      "UniqueValuesCount": "Кол-во уникальных значений",
+      "TotalCount": "Кол-во значений",
+      "DifMin": "Минимум разностей",
+      "DifMax": "Максимум разностей",
+      "DifAvg": "Среднее разностей",
+      "DifSum": "Сумма разностей",
+      "DifSumSq": "Сумма квадратов разностей",
+      "DifStdDev": "Стандартное откл. разностей",
+      "DifCount": "Кол-во разностей"
+    },
+    "UsageType": {
+      "$Caption": "Назначение",
+      "Unspecified": "Не задано",
+      "Excluded": "Исключенное",
+      "Useless": "Непригодное",
+      "Active": "Активное",
+      "Predicted": "Выходное",
+      "Key": "Ключ",
+      "Group": "Группа",
+      "Value": "Показатель",
+      "Transaction": "Транзакция",
+      "Item": "Элемент"
+    },
+    "VAlignment": {
+      "$Caption": "Выравнивание по вертикали",
+      "Top": "По верхнему краю",
+      "Bottom": "По нижнему краю",
+      "Center": "По центру"
+    }
+  },
+  "Libraries/bgrtl/ProgressTracker": {
+    "ProgressTrackerProcessStatus": {
+      "$Caption": "Состояние процесса",
+      "NotStarted": "Не запущено",
+      "Processing": "Выполняется",
+      "NotResponding": "Не отвечает",
+      "Completed": "Завершено",
+      "ExplicitCanceled": "Отменено",
+      "Error": "Ошибка",
+      "ParentCanceled": "Отменен родительский процесс",
+      "ParentError": "Ошибка в родительском процессе"
+    }
+  },
+  "Libraries/bgrtl/Statistics": {
+    "EventType": {
+      "$Caption": "Тип события",
+      "First": "Первое в списке",
+      "Last": "Последнее в списке",
+      "Rare": "Более редкое",
+      "Frequent": "Более частое",
+      "Exact": "Задано явно"
+    }
+  },
+  "Libraries/bgrtl/TimeZones": {
+    "ExportXMLSpecifyTimeZone": {
+      "$Caption": "Наличие временной зоны в значениях Дата/Время",
+      "None": "Не указывать",
+      "AllButDate": "Не указывать для Даты",
+      "All": "Указывать всегда"
+    }
+  },
+  "Libraries/bgrtl/UITypes": {
+    "ChartType": {
+      "$Caption": "Тип диаграммы",
+      "Lines": "Линии",
+      "Area": "Области",
+      "Spline": "Сплайны",
+      "Columns": "Столбчатая",
+      "AreaRange": "Области с интервалами",
+      "AreaSpline": "Сглаженные области",
+      "AreaSplineRange": "Сглаженные области с интервалами",
+      "Bubble": "Пузырьковая",
+      "Scatter": "Разброс",
+      "Waterfall": "Водопад",
+      "ErrorBar": "Ошибки",
+      "Polygon": "Полигон",
+      "ColumnRange": "Столбчатая с интервалами",
+      "HeatMap": "Тепловая карта"
+    }
+  },
+  "Libraries/DataPartition/LearnPartition": {
+    "KFoldsSamplingMethod": {
+      "$Caption": "Метод сэмплинга валидационного разбиения",
+      "Random": "Случайный",
+      "Sequence": "Последовательный"
+    },
+    "LearnPartitionMethod": {
+      "$Caption": "Метод разбиения обучающего/тестового компонента с обучением",
+      "Random": "Случайный",
+      "Sequence": "Последовательный",
+      "Flag": "Разбиение задано"
+    },
+    "LearnPartitionType": {
+      "$Caption": "Вид множества данных компонента с обучением",
+      "Train": "Обучающее",
+      "Validation": "Валидационное"
+    },
+    "LearnValidationMethod": {
+      "$Caption": "Метод валидационного разбиения",
+      "None": "Без валидации",
+      "KFold": "K-fold кросс-валидация",
+      "LeaveOneOut": "Leave One Out кросс-валидация",
+      "LeavePOut": "Leave P Out кросс-валидация",
+      "ShuffleSplit": "Монте-Карло",
+      "Bootstrap": "Бутстрэп",
+      "ExternalShuffleSplit": "Задано нач. разб. для бутстрэпа",
+      "ExternalFolds": "Заданы колоды для K-fold"
+    }
+  },
+  "Libraries/DataPartition/Partition": {
+    "PartitionType": {
+      "$Caption": "Тип множества",
+      "Teach": "Обучающее",
+      "Test": "Тестовое",
+      "Other": "Неиспользуемое"
+    },
+    "TestPriorityPosition": {
+      "$Caption": "Приоритет тестового набора",
+      "Default": "Определяется алгоритмом",
+      "Begin": "В начале набора",
+      "End": "В конце набора"
+    }
+  },
+  "Libraries/DataSampling/Sampling": {
+    "SamplingMethod": {
+      "$Caption": "Метод сэмплинга",
+      "Random": "Случайный",
+      "RandomUniform": "Равномерный случайный",
+      "Stratified": "Стратифицированный",
+      "Sequence": "Последовательный",
+      "Biased": "Отбор со смещением"
+    },
+    "SamplingPlace": {
+      "$Caption": "Место выборки данных",
+      "Begin": "Начало набора данных",
+      "End": "Конец набора данных"
+    },
+    "SamplingType": {
+      "$Caption": "Тип выборки",
+      "Absolute": "Абсолютная",
+      "Relative": "Относительная"
+    }
+  },
+  "Libraries/FileConnection/TextFileTypes": {
+    "TextFileCaptionType": {
+      "$Caption": "Заголовки столбцов",
+      "NoCaption": "Нет строки заголовков",
+      "UseColumnNames": "Имена полей",
+      "UseColumnDisplayNames": "Метки полей"
+    },
+    "TextFileFormatType": {
+      "$Caption": "Тип для формата данных",
+      "Delimited": "С разделителями",
+      "Fixed": "Фиксированной ширины"
+    }
+  },
+  "Libraries/KafkaConnection/KafkaAuth": {
+    "KafkaSaslMechanism": {
+      "$Caption": "SASL механизм",
+      "Plain": "PLAIN",
+      "SCRAMSHA256": "SCRAM-SHA-256",
+      "SCRAMSHA512": "SCRAM-SHA-512"
+    },
+    "KafkaSecurityProtocol": {
+      "$Caption": "Протокол безопасности",
+      "Plaintext": "PLAINTEXT",
+      "SaslPlaintext": "SASL_PLAINTEXT",
+      "Ssl": "SSL",
+      "SaslSsl": "SASL_SSL"
+    }
+  },
+  "Libraries/LDAP/LDAP": {
+    "LDAPConnectionSecurity": {
+      "$Caption": "Безопасность соединения",
+      "Simple": "Обычное соединение",
+      "SSL": "SSL/TLS",
+      "StartTLS": "STARTTLS"
+    },
+    "LDAPUserRole": {
+      "$Caption": "Роль нового пользователя",
+      "None": "Отсутствует",
+      "Designer": "Проектирование сценариев",
+      "Viewer": "Просмотр отчетов"
+    }
+  },
+  "Libraries/Log/LoggerConfigurator": {
+    "LogLevel": {
+      "$Caption": "Уровень логирования",
+      "Trace": "Трассировка",
+      "Debug": "Отладка",
+      "Info": "Информация",
+      "Hint": "Событие",
+      "Warn": "Предупреждение",
+      "Error": "Ошибка",
+      "Fatal": "Авария"
+    },
+    "LogType": {
+      "$Caption": "Варианты логирования",
+      "File": "Файл",
+      "Journald": "journald"
+    }
+  },
+  "Libraries/Model/DataSet/ImportModelComponentEngine": {
+    "CacheStringsMode": {
+      "$Caption": "Режим кэширования строк",
+      "Off": "Не использовать кэш",
+      "Manual": "Задать размер кэша вручную",
+      "Auto": "Определять автоматически"
+    }
+  },
+  "Libraries/Model/DerivedModelComponent": {
+    "DerivedModelComponentTarget": {
+      "$Caption": "Целевые типы узлов",
+      "ExecNode": "Выполнение узла и Цикл",
+      "DerivedNode": "Производные узлы"
+    }
+  },
+  "Libraries/Model/ModelWorkFlow": {
+    "MemberVisibility": {
+      "$Caption": "Область видимости элемента модели",
+      "Private": "Закрытый",
+      "Protected": "Защищенный",
+      "Internal": "Внутренний",
+      "Public": "Открытый",
+      "Published": "Опубликованный"
+    }
+  },
+  "Libraries/Model/Variables/ModelVariables": {
+    "ModelVariablesKind": {
+      "$Caption": "Вид переменных сценария",
+      "System": "Переменные системы",
+      "Session": "Переменные сессии",
+      "Package": "Переменные пакета",
+      "User": "Переменные пользователя",
+      "Combined": "Все переменные"
+    }
+  },
+  "Libraries/Normalization/NormalizerSettings": {
+    "ControlRangeType": {
+      "$Caption": "Тип контроля диапазона нормализируемых значений",
+      "None": "Нет",
+      "Error": "Ошибка",
+      "Winsorizing": "Винсоризация"
+    },
+    "DefaultInteractionType": {
+      "$Caption": "Тип взаимодействий",
+      "None": "Без взаимодействий",
+      "TwoWay": "Все двухсторонние",
+      "ThreeWay": "Все трехсторонние"
+    },
+    "NormMultType": {
+      "$Caption": "Тип нормализации умножения",
+      "C": "Умножение 2-х непрерывных",
+      "D": "Умножение 2-х дискретных",
+      "CD": "Умножение непрерывного на дискретное",
+      "CG": "Умножение нескольких непрерывных",
+      "DG": "Умножение нескольких дискретных",
+      "CDG": "Умножение нескольких непрерывных и дискретных",
+      "A": "Умножение с участием специальных факторов"
+    },
+    "NormSettingsType": {
+      "$Caption": "Тип нормализации",
+      "None": "Нет",
+      "ScalingMinMax": "Масштабирование [min; max]",
+      "Scaling11": "Масштабирование [-1;1]",
+      "Scaling01": "Масштабирование [0;1]",
+      "AbsScaling": "Абсолютное масштабирование",
+      "Stand": "Стандартизация",
+      "Quotient": "Отношение",
+      "Indicator": "Индикатор",
+      "IndicatorNoRef": "Индикатор (без опорной категории)",
+      "Deviation": "Отклонение",
+      "Simple": "Простая",
+      "ForwardDifference": "Разность",
+      "BackwardDifference": "Обратная разность",
+      "Helmert": "Гельмерт",
+      "ReverseHelmert": "Обратный Гельмерт",
+      "Constant": "Константа",
+      "Mult": "Умножение",
+      "Index": "Индекс уникального значения"
+    },
+    "RemovableType": {
+      "$Caption": "Опция удаления поля",
+      "Removable": "Удаляемое",
+      "Irremovable": "Неудаляемое",
+      "StrictIrremovable": "Фикс. неудаляемое"
+    },
+    "SpecInterFactor": {
+      "$Caption": "Специальный фактор-взаимодействие",
+      "Any": "ANY",
+      "AnyOther": "ANY OTHER",
+      "AnyContinuous": "ANY CONTINUOUS",
+      "AnyDiscrete": "ANY DISCRETE",
+      "AnyOtherContinuous": "ANY OTHER CONTINUOUS",
+      "AnyOtherDiscrete": "ANY OTHER DISCCRETE",
+      "Same": "SAME"
+    }
+  },
+  "Libraries/Optimization/Optimization": {
+    "ConstraintType": {
+      "$Caption": "Тип ограничений оптимизируемых параметров",
+      "None": "Отсутствует",
+      "Simple": "Простое",
+      "Range": "Диапазон",
+      "Linear": "Линейное",
+      "NonLinear": "Нелинейное"
+    },
+    "OptimizationMethod": {
+      "$Caption": "Метод оптимизации",
+      "Exhaustive": "Исчерпывающий поиск",
+      "GoldenSection": "Поиск золотым сечением",
+      "HillClimbing": "Поиск схождением к вершине",
+      "None": "Не проводить оптимизацию"
+    },
+    "TargetFunctionReturnType": {
+      "$Caption": "Тип возвращаемого значения целевой функции",
+      "Float": "Вещественное число",
+      "Integer": "Целое число",
+      "FloatVector": "Вещественный вектор",
+      "IntegerVector": "Целочисленный вектор"
+    }
+  },
+  "Libraries/Regression/RegressionTypes": {
+    "HierarchyType": {
+      "$Caption": "Иерархия взаимодействий",
+      "None": "Не учитывать",
+      "All": "Для всех",
+      "Discrete": "Для дискретных"
+    },
+    "RegressionStatType": {
+      "$Caption": "Статистические параметры регрессионной модели",
+      "LL": "-2 Логарифма функции правдоподобия",
+      "R2": "Коэффициент детерминации",
+      "R2adj": "Скорректированный коэффициент детерминации",
+      "AIC": "Информационный критерий Акаике",
+      "AICc": "Информационный критерий Акаике скорректированный",
+      "BIC": "Информационный критерий Байеса",
+      "HQC": "Информационный критерий Ханнана-Куинна"
+    },
+    "RegularizationSetupMethod": {
+      "$Caption": "Метод определения коэффициента регуляризации",
+      "Manually": "Задать вручную",
+      "Grid": "Автоматически"
+    }
+  },
+  "Studio/DeductorSessionsManager": {
+    "ManagedSessionType": {
+      "$Caption": "Тип сессии диспетчера",
+      "Client": "Удаленная сессия",
+      "Self": "Сессия диспетчера",
+      "Shared": "Общие пакеты",
+      "Pool": "Пул пакетов",
+      "Backup": "Архивная сессия"
+    },
+    "SessionRole": {
+      "$Caption": "Роль пользователя в сессии",
+      "None": "Отсутствует",
+      "Admin": "Администрирование",
+      "Designer": "Проектирование сценариев",
+      "Viewer": "Просмотр отчетов",
+      "Service": "Пакетное выполнение",
+      "Integrator": "Выполнение из интегратора"
+    }
+  },
+  "Studio/DeductorUsers": {
+    "DeductorUserAuthMode": {
+      "$Caption": "Аутентификация",
+      "None": "Нет",
+      "Local": "Локальная",
+      "LDAP": "LDAP"
+    }
+  },
+  "Viewers/Browse/BrowseViewSearch": {
+    "SearchCompareType": {
+      "$Caption": "Тип сравнения",
+      "Inside": "подстрока",
+      "AtFirst": "с начала",
+      "Equality": "целиком"
+    },
+    "SearchMode": {
+      "$Caption": "Вариант поиска",
+      "ByRows": "по строкам",
+      "ByColls": "по столбцам"
+    }
+  },
+  "Viewers/Chart/ChartTypes": {
+    "AxesAlign": {
+      "$Caption": "Выравнивать оси",
+      "None": "Нет",
+      "Threshold": "Начало координат",
+      "GridLines": "Совмещать сетку",
+      "Scale": "Совмещать масштаб"
+    },
+    "AxisPosition": {
+      "$Caption": "Позиция оси",
+      "Abscissa": "Нижняя",
+      "LeftOrdinate": "Левая",
+      "RightOrdinate": "Правая"
+    },
+    "AxisType": {
+      "$Caption": "Тип оси",
+      "Linear": "Линейная",
+      "Logarithmic": "Логарифмическая",
+      "Datetime": "Дата/Время",
+      "Category": "Категории"
+    },
+    "ChartLinkKind": {
+      "$Caption": "Тип поля",
+      "None": "Нет",
+      "XData": "Поле X",
+      "YData": "Поле Y",
+      "YHighData": "Поле Y max",
+      "YColorData": "Поле цвета",
+      "BubbleData": "Размер пузыря",
+      "Labels": "Поле меток"
+    },
+    "ChartMarkerSymbol": {
+      "$Caption": "Форма маркера серии",
+      "Default": "По умолчанию",
+      "Circle": "Круг",
+      "Diamond": "Ромб",
+      "TriangleUp": "Стрелка вверх",
+      "TriangleDown": "Стрелка вниз"
+    },
+    "ChartStacking": {
+      "$Caption": "Тип накопления",
+      "None": "Нет",
+      "Normal": "Обычное",
+      "Percent": "Процент"
+    },
+    "DecimationType": {
+      "$Caption": "Фильтрация точек",
+      "Simple": "Быстрая",
+      "Extremes": "Экстремумы",
+      "LTTB": "LTTB"
+    },
+    "LegendAlign": {
+      "$Caption": "Позиция легенды",
+      "LeftTop": "Слева сверху",
+      "Top": "Сверху",
+      "RightTop": "Справа сверху",
+      "Left": "Слева",
+      "Disabled": "Не отображать",
+      "Right": "Справа",
+      "LeftBottom": "Слева снизу",
+      "Bottom": "Снизу",
+      "RightBottom": "Справа снизу"
+    },
+    "SeriesCompareMode": {
+      "$Caption": "Динамика роста",
+      "None": "Нет",
+      "Value": "По значению",
+      "Percent": "В процентах"
+    },
+    "SeriesLabelsStyle": {
+      "$Caption": "Тип меток серий",
+      "Default": "По умолчанию",
+      "None": "Нет",
+      "Value": "Значение",
+      "Percent": "Процент",
+      "Label": "Метка",
+      "LabelPercent": "Метка, процент",
+      "LabelValue": "Метка, значение",
+      "PercentTotal": "Процент, итог",
+      "LabelPercentTotal": "Метка, процент, итог",
+      "XValue": "Значение X"
+    }
+  },
+  "Viewers/ClusterProfiles/ClusterProfilesView": {
+    "ClusterProfilesClusterGridPosition": {
+      "$Caption": "Положение кластеров в таблице",
+      "Rows": "Кластеры в строках",
+      "Columns": "Кластеры в столбцах"
+    },
+    "ClusterProfilesHistogramScaling": {
+      "$Caption": "Масштабирование гистограмм",
+      "SizeScale": "Абсолютные частоты",
+      "BarScale": "Относительные частоты",
+      "NoScale": "Плотность вероятности"
+    },
+    "ClusterProfilesIndicatorType": {
+      "$Caption": "Статистический показатель",
+      "Importance": "Значимость",
+      "Histogram": "Гистограмма",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Mean": "Среднее",
+      "Sum": "Сумма",
+      "StdDev": "Стандартное откл.",
+      "Range": "Размах",
+      "NullCount": "Пропуски",
+      "NotNullCount": "Значения",
+      "UniqueCount": "Количество уникальных значений",
+      "ClusterCenter": "Центр кластера"
+    }
+  },
+  "Viewers/Cube/CubeCalcSummaries": {
+    "CalcCubeDimFunction": {
+      "$Caption": "Тип представления значения",
+      "Value": "Значение",
+      "Count": "Количество",
+      "IsTotal": "Итог",
+      "IsNull": "Пусто"
+    }
+  },
+  "Viewers/Cube/CubeChart": {
+    "CubeChartSeriesPosition": {
+      "$Caption": "Расположение серий",
+      "Cols": "В столбцах",
+      "Rows": "В строках"
+    },
+    "CubeChartTooltipMode": {
+      "$Caption": "Тип подсказок",
+      "Shared": "Групповые подсказки",
+      "Single": "Одиночные подсказки",
+      "None": "Нет подсказок"
+    }
+  },
+  "Viewers/Cube/CubeDimensions": {
+    "CubeDimensionFilterCondition": {
+      "$Caption": "Режим выбора фильтра",
+      "Like": "содержит",
+      "NotLike": "не содержит",
+      "Equal": "=",
+      "NotEqual": "<>",
+      "StartingWith": "начинается с",
+      "NotStartingWith": "не начинается с",
+      "EndingWith": "заканчивается на",
+      "NotEndingWith": "не заканчивается на"
+    },
+    "CubeDimensionFilterType": {
+      "$Caption": "Режим выбора фильтра",
+      "MultipleSelect": "Множественный выбор",
+      "SingleSelect": "Одиночный выбор",
+      "CombinedSelect": "Комбинированный выбор"
+    },
+    "CubeDimensionSortOrder": {
+      "$Caption": "Порядок сортировки значений измерения",
+      "Asc": "По возрастанию",
+      "Desc": "По убыванию",
+      "Source": "В исходном порядке",
+      "Custom": "Произвольный порядок"
+    },
+    "CubeDimensionTotalPosition": {
+      "$Caption": "Местоположение итогов",
+      "Bottom": "Внизу",
+      "None": "Не показывать"
+    },
+    "CubeDimensionType": {
+      "$Caption": "Тип измерения",
+      "Cols": "Колонки",
+      "Rows": "Строки",
+      "Free": "Доступные"
+    }
+  },
+  "Viewers/Cube/CubeFilter": {
+    "CubeCaseFilterRelation": {
+      "$Caption": "Тип отношения",
+      "TopN": "первые N",
+      "BottomN": "последние N",
+      "PartOfTotal": "доля от общего",
+      "Less": "<",
+      "LessOrEqual": "<=",
+      "Above": ">",
+      "AboveOrEqual": ">=",
+      "Equal": "=",
+      "NotEqual": "<>",
+      "IsNull": "пустой",
+      "IsNotNull": "не пустой",
+      "Interval": "в интервале",
+      "OutOfInterval": "вне интервала",
+      "IsTrue": "истина",
+      "IsFalse": "ложь"
+    }
+  },
+  "Viewers/Cube/CubeSummaries": {
+    "CubeCaseCellViewType": {
+      "$Caption": "Тип представления значения",
+      "Text": "Только текст",
+      "ImageText": "Текст и график",
+      "Image": "Только график"
+    },
+    "CubeColumnWidthMode": {
+      "$Caption": "Режим изменения ширин колонок",
+      "EqualCases": "Равная ширина фактов",
+      "EqualAll": "Равная ширина колонок"
+    },
+    "CubeFunctionType": {
+      "$Caption": "Тип функции агрегации",
+      "Sum": "Сумма",
+      "Count": "Количество",
+      "Avg": "Среднее",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "StdDev": "Стандартное откл.",
+      "SumSq": "Сумма квадратов",
+      "UniqueCount": "Кол-во уникальных",
+      "NullCount": "Кол-во пропусков",
+      "First": "Первый",
+      "Last": "Последний",
+      "CustomValue": "Значение"
+    },
+    "CubeGridCasePosition": {
+      "$Caption": "Положение фактов",
+      "Cols": "В колонках",
+      "Rows": "В строках"
+    },
+    "CubeSubFunctionType": {
+      "$Caption": "Тип представления значения",
+      "Value": "Значение",
+      "PercentByRow": "Процент по горизонтали",
+      "PercentByCol": "Процент по вертикали",
+      "RankByRow": "Ранг по горизонтали",
+      "RankByCol": "Ранг по вертикали",
+      "CompareWithPrevByRow": "Отличие от предыдущего по горизонтали",
+      "CompareWithPrevByCol": "Отличие от предыдущего по вертикали",
+      "CumulativeSumByRow": "Накапливающаяся сумма по горизонтали",
+      "CumulativeSumByCol": "Накапливающаяся сумма по вертикали"
+    }
+  },
+  "Viewers/DataQuality/QualityViewHistogram": {
+    "QualityViewHistogramColumn": {
+      "$Caption": "Колонки гистограммы",
+      "Number": "Номер",
+      "Mark": "Метка",
+      "BarChart": "Доля",
+      "Count": "Кол-во",
+      "Percent": "%"
+    },
+    "QualityViewHistogramDisplayType": {
+      "$Caption": "Тип отображения гистограммы",
+      "All": "Все значения",
+      "Frequent": "Частые значения",
+      "Rare": "Редкие значения",
+      "FrequentAndRare": "Частые и редкие"
+    },
+    "QualityViewHistogramValueType": {
+      "$Caption": "Тип элемента гистограммы",
+      "Common": "Обычное значение",
+      "Null": "Пропущенное значение",
+      "Infinity": "Положительная бесконечность",
+      "NegInfinity": "Отрицательная бесконечность",
+      "Residue": "Остаточные значения",
+      "Empty": "Пустое значение",
+      "WhiteSpace": "Пробельное значение",
+      "WhiteSpaces": "Несколько пробельных значений"
+    }
+  },
+  "Viewers/DataQuality/QualityViewTypes": {
+    "DataSetQuality": {
+      "$Caption": "Качество набора данных",
+      "DetectOE": "Метод определения нетипичных значений",
+      "ColCount": "Столбцов",
+      "RowCount": "Строк",
+      "FullColumns": "Заполненных полей",
+      "FullRecords": "Полных записей",
+      "UsefulColumns": "Пригодных столбцов",
+      "IndexEPV": "Индекс EPV"
+    },
+    "QualityViewCommonColumnType": {
+      "$Caption": "Тип общей колонки",
+      "Index": "№",
+      "Selected": "Выбранные поля",
+      "DataType": "Тип",
+      "Name": "Метка",
+      "DataKind": "Вид"
+    },
+    "QualityViewDetectOE": {
+      "$Caption": "Метод идентификации выбросов и экстремальных значений",
+      "SKO": "Стандартное отклонение",
+      "Quartile": "Интерквартильная ширина"
+    },
+    "QualityViewIndicatorType": {
+      "$Caption": "Показатель качества данных",
+      "QualityIndex": "Индекс качества",
+      "NullCount": "Пропуски",
+      "Histogram": "Гистограмма",
+      "BoxUnique": "Диаграмма уникальных",
+      "ExtrCount": "Экстремальные",
+      "OutCount": "Выбросы",
+      "EmptyCount": "Пустые",
+      "SpaceCount": "Пробельные",
+      "SpaceEnding": "Пробелы в конце",
+      "StrLen": "Длины строк",
+      "ValuesRange": "Диапазон значений",
+      "NegativeCount": "Отрицательные",
+      "ZeroCount": "Нулевые",
+      "InfinityCount": "Бесконечности",
+      "BoxPlot": "Диаграмма размаха",
+      "UniqueCount": "Уникальные",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Mean": "Среднее",
+      "Median": "Медиана",
+      "Moda": "Мода",
+      "Monotonique": "Монотонность"
+    },
+    "QualityViewModaType": {
+      "$Caption": "Тип модальности",
+      "Unknown": "Не известен",
+      "Single": "Унимодальный",
+      "Multi": "Мультимодальный",
+      "NoModa": "Без моды"
+    },
+    "QualityViewMonotonique": {
+      "$Caption": "Монотонность ряда значений",
+      "None": "Не монотонная",
+      "Increasing": "Возрастающая",
+      "Descending": "Убывающая"
+    },
+    "QualityViewOverviewColumnType": {
+      "$Caption": "Тип колонки сводки",
+      "Count": "Количество проблем",
+      "Problems": "Проблемы"
+    },
+    "QualityViewProblemType": {
+      "$Caption": "Проблема в поле данных",
+      "Missing": "Пропуски",
+      "Extremal": "Экстремальные",
+      "Out": "Выбросы",
+      "Empty": "Пустые",
+      "Negative": "Отрицательные",
+      "Zero": "Нули",
+      "Space": "Пробелы",
+      "SpaceEnding": "Пробелы в конце",
+      "Infinity": "Бесконечности",
+      "Constant": "Константа",
+      "Unique": "Уникальное",
+      "ConvertError": "Ошибка конвертации",
+      "NotCalculated": "Не вычислено",
+      "NoData": "Нет данных"
+    },
+    "QualityViewSheet": {
+      "$Caption": "Страница визуализатора Качество данных",
+      "Overview": "Сводка",
+      "DiscreteStats": "Детализация дискретных",
+      "ContinueStats": "Детализация непрерывных"
+    }
+  },
+  "Viewers/Detailing/Detailing": {
+    "DetailingType": {
+      "$Caption": "Способ детализации",
+      "Browse": "Таблица",
+      "Form": "Форма",
+      "Statistics": "Статистика"
+    }
+  },
+  "Viewers/LinRegressReport/LinRegressReportCommon": {
+    "LinRegressReportStatParam": {
+      "$Caption": "Статистический критерий",
+      "FTest": "F-тест (P-значение)",
+      "R2": "Коэф-т детерминации",
+      "R2adj": "Коэф-т детерминации (скорр.)",
+      "AIC": "Критерий Акаике",
+      "AICc": "Критерий Акаике (скорр.)",
+      "BIC": "Критерий Байеса",
+      "HQC": "Критерий Ханнана-Куинна"
+    }
+  },
+  "Viewers/LogRegressReport/LogRegressReportCommon": {
+    "RegressReportStatParam": {
+      "$Caption": "Статистический критерий",
+      "LogLikelihood": "Deviance",
+      "AIC": "Критерий Акаике",
+      "AICc": "Критерий Акаике (скорр.)",
+      "BIC": "Критерий Байеса",
+      "HQC": "Критерий Ханнана-Куинна"
+    }
+  },
+  "Viewers/ROC/ROCViewTypes": {
+    "ROCValueRepresentation": {
+      "$Caption": "Порог отсечения",
+      "Absolute": "Абсолютные",
+      "Percent": "Проценты"
+    },
+    "ROCViewChartType": {
+      "$Caption": "Тип диаграммы",
+      "ROC": "ROC-кривая",
+      "PrecisionRecall": "PR-кривая",
+      "OverallRates": "Базовые показатели",
+      "Precision": "Диаграмма точности",
+      "BreakEven": "Диаграмма равновесия",
+      "Event": "% распознанных событий",
+      "Lift": "Диаграмма роста",
+      "Response": "Диаграмма отклика",
+      "Gain": "Диаграмма выигрыша"
+    },
+    "ROCViewCutoffType": {
+      "$Caption": "Порог отсечения",
+      "Current": "Из настроек узла",
+      "User": "Заданный",
+      "Balance": "Баланс (TPR = TNR)",
+      "Maximum": "Максимум (TPR + TNR)",
+      "MinErr": "Минимум издержек",
+      "BreakEven": "Точка равновесия (TPR = PPV)",
+      "Accuracy": "Максимум общей точности",
+      "FScore": "Максимум F1 Score",
+      "Matthews": "Коэффициент Мэтьюса (MCC)"
+    },
+    "ROCViewNBins": {
+      "$Caption": "Число диапазонов",
+      "bn10": "10 диапазонов",
+      "bn20": "20 диапазонов",
+      "bn50": "50 диапазонов"
+    }
+  },
+  "Viewers/Statistics/StatViewTypes": {
+    "StatViewHistogramPropertyType": {
+      "$Caption": "Свойство гистограммы",
+      "Number": "Номер",
+      "Value": "Значение",
+      "Mark": "Метка",
+      "BarChart": "Бары гистограммы",
+      "Count": "Количество",
+      "NormalizedQuota": "%"
+    },
+    "StatViewIndicatorType": {
+      "$Caption": "Статистический показатель",
+      "Histogram": "Гистограмма",
+      "BoxPlot": "Диаграмма размаха",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Mean": "Среднее",
+      "StdDev": "Стандартное отклонение",
+      "Disp": "Несмещенная дисперсия",
+      "LowerQuartile": "Нижний квартиль",
+      "Median": "Медиана",
+      "UpperQuartile": "Верхний квартиль",
+      "IQR": "Межквартильный размах",
+      "MedianAbsDev": "Медианное абсолютное отклонение",
+      "Sum": "Сумма",
+      "Range": "Размах",
+      "NullCount": "Пропуски",
+      "NotNullCount": "Значения",
+      "UniqueCount": "Уникальные"
+    },
+    "StatViewQuartileNumber": {
+      "$Caption": "Номер квартиля",
+      "Lower": "Нижний квартиль",
+      "Median": "Медиана",
+      "Upper": "Верхний квартиль"
+    }
+  },
+  "Warehouse2/MDConsts": {
+    "DWExtractExtendedFilterType": {
+      "$Caption": "Тип расширенного фильтра",
+      "None": "Статический фильтр",
+      "UserCustom": "Пользовательский фильтр",
+      "Variables": "Фильтр с использованием переменных"
+    },
+    "MDAggregateFunction": {
+      "$Caption": "Агрегация",
+      "Sum": "Сумма",
+      "Count": "Количество",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Avg": "Среднее",
+      "Median": "Медиана",
+      "StdDev": "Стандартное откл.",
+      "UniqueCount": "Кол-во уникальных",
+      "NullCount": "Кол-во пропусков",
+      "First": "Первый",
+      "Last": "Последний"
+    },
+    "MDAggregateType": {
+      "$Caption": "Функция агрегации фактов",
+      "Sum": "Сумма",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "Avg": "Среднее",
+      "Count": "Количество"
+    },
+    "MDFilterConditionType": {
+      "$Caption": "Наименования операторов сравнения",
+      "None": " не фильтровать ",
+      "Equal": " = ",
+      "NotEqual": " <> ",
+      "Less": " < ",
+      "LessOrEqual": " <= ",
+      "More": " > ",
+      "MoreOrEqual": " >= ",
+      "IsNull": " пустой ",
+      "IsNotNull": " не пустой ",
+      "Between": " в интервале ",
+      "NotBetween": " вне интервала ",
+      "In": " в списке ",
+      "NotIn": " вне списка ",
+      "Like": " содержит ",
+      "NotLike": " не содержит ",
+      "StartingWith": " начинается на ",
+      "NotStartingWith": " не начинается на ",
+      "EndingWith": " заканчивается на ",
+      "NotEndingWith": " не заканчивается на ",
+      "FirstPeriod": " первый ",
+      "NotFirstPeriod": " не первый ",
+      "LastPeriod": " последний ",
+      "NotLastPeriod": " не последний ",
+      "IsTrue": " истина",
+      "IsFalse": " ложь",
+      "FuzzyLogicEqual": " ~ "
+    },
+    "MetaDataNodeType": {
+      "$Caption": "Типы метаданных хранилища",
+      "Item": "Элемент",
+      "ComDimList": "Измерения",
+      "ProcList": "Процессы",
+      "AttrList": "Атрибуты",
+      "DimList": "Измерения",
+      "FactList": "Факты",
+      "DimAttrList": "Атрибуты",
+      "HierList": "Измерения",
+      "LevelList": "Уровни",
+      "CubeList": "Кубы"
+    }
+  }
+}
