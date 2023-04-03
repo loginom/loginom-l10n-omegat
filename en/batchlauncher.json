@@ -1,0 +1,22 @@
+{
+  "BatchLauncher/BatchLauncher": {
+    "CommandLineFmt": "Usage: %s <keys>",
+    "ErrConnectionError": "Server connection error",
+    "ErrExecutionError": "Batch execution error",
+    "ErrInvalidCommandLineParameters": "Invalid command line parameters",
+    "ErrLostConnectionToServer": "Server connection lost",
+    "ErrPackageCommandLineParameter": "Не указан обязательный параметр командной строки Package",
+    "ErrUnknownCommandLineParameter": "Unknown command line parameter: %s",
+    "ExampleTitle": "Example:",
+    "OptionAddressDesc": "IP address or hostname (default: %s)",
+    "OptionNodeNameDesc": "Name or GUID of node",
+    "OptionPackageFileNameDesc": "Package path and file name (required parameter)",
+    "OptionPasswordDesc": "Password",
+    "OptionPortDesc": "Port (default: %s)",
+    "OptionSavePackageDesc": "Save package after execution",
+    "OptionTeachDesc": "Retraining mode",
+    "OptionUserNameDesc": "Username",
+    "Switches": "<Keys>",
+    "VariableSwitchesInfo": "Any other keys are interpreted as variable names.\nFormat: <Variable_name>=<Variable_value>"
+  }
+}

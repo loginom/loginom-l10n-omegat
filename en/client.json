@@ -1,0 +1,2695 @@
+{
+  "about/About": {
+    "ErrVersionWrongServiceResponse": "Bad service response for the latest version request",
+    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
+    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionIsAvaliableFmt": "Latest stable version {0}"
+  },
+  "admin/LDAPSettings": {
+    "ConnectionSecurity": "Connection security",
+    "DefaultUserRole": "New user role",
+    "LDAPAccount": "Account",
+    "LDAPBaseDN": "Base domain name",
+    "LDAPFilter": "LDAP filter",
+    "LDAPFullNameAttribute": "Attribute with full username",
+    "LDAPHost": "Host",
+    "LDAPNameAttribute": "Attribute with username",
+    "LDAPPassword": "Password",
+    "LDAPPort": "Port",
+    "UseSASL": "Use SASL"
+  },
+  "admin/ServerSettingsForm": {
+    "AppSettings": "Application parameters",
+    "Bind": "IP address",
+    "ComponentSettings": "Component parameters",
+    "ConnectionSettings": "Connection parameters",
+    "CurrentLocale": "Current locale is \"{0}\".",
+    "DefaultLocaleModified": "modified",
+    "DirectorySettings": "Folders",
+    "LDAPSettings": "LDAP parameters",
+    "Locale": "Locale",
+    "LogFileMaxIndex": "Number of backup files",
+    "LogFileMaxSize": "Maximum file size",
+    "LogFileName": "File name",
+    "LogFileRewrite": "Rewrite file",
+    "LoggerSettings": "Logging parameters",
+    "LogType": "Тип логирования",
+    "MinLogLevel": "Logging level",
+    "MsgNewLocaleAfterRestart": "New locale will be applied after restart.",
+    "NotSet": "Unspecified ({0})",
+    "NullAsDefault": "Default",
+    "NullAsDisabled": "Off",
+    "PackagePoolSize": "Package pool size",
+    "PingPeriod": "Connection check period (s)",
+    "Port": "TCP port",
+    "ServerSettings": "Server parameters",
+    "SessionBackupDirectory": "Session backups",
+    "SSLCertificateFile": "Certificate file name",
+    "SSLPrivateKeyFile": "Private key file name",
+    "StopTimeout": "Server stop timeout (s)",
+    "ThreadPoolSize": "Thread pool size",
+    "TraceExceptions": "Trace exceptions",
+    "UnixSocket": "Unix socket",
+    "UserStorageDirectory": "Users data",
+    "WSPort": "WebSocket port",
+    "WSSPort": "WebSocket SSL\/TLS port"
+  },
+  "admin/SessionsManagerForm": {
+    "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
+    "ConfirmPackageStop": "Do you want to cancel execution of \"{0}\" package?",
+    "ConfirmSessionClose": "Do you want to close \"{0}\" session without saving changes?",
+    "ConfirmSessionStop": "Do you want to cancel execution of \"{0}\" session?",
+    "ErrCannotClosePackage": "Failed to close package. The package contains the active processes that have not been finished while timeout.",
+    "ErrCannotCloseSession": "Failed to close session. The session contains the active processes that have not been finished while timeout.",
+    "ErrCannotStopPackage": "Failed to stop execution of package. The package contains the active processes that have not been finished while timeout.",
+    "ErrCannotStopSession": "Failed to stop execution of session. The session contains the active processes that have not been finished while timeout.",
+    "PackageRefCountTip": "Count of sessions referring to package",
+    "ReadOnlyPackageNamePostfix": "(read-only)",
+    "RoleTipFormat": "Session with {0} role has been started by user",
+    "SessionCapacity": "{0} of {1}",
+    "SessionLastTimeDisposing": "Deleting"
+  },
+  "admin/SharedDirectoriesForm": {
+    "DeleteUserConfirm": "Do you want to delete folder from the file system?"
+  },
+  "admin/SharedDirectoryForm": {
+    "AddBtnText": "Add",
+    "EditSharedDirectory": "Configure shared folder",
+    "NewSharedDirectory": "Add shared folder",
+    "SaveBtnText": "Save"
+  },
+  "admin/UserForm": {
+    "AddBtnText": "Add",
+    "EditName": "Edit user",
+    "NewUser": "New user",
+    "SaveBtnText": "Save"
+  },
+  "admin/UserListForm": {
+    "AllowPublish": "Publish packages",
+    "AuthMode": "Authentification",
+    "Blocked": "Blocked",
+    "DeleteUserConfirm": "Do you want to delete user folder from the file system?",
+    "DisplayName": "Full caption",
+    "GlobalFileStorage": "Access to all files",
+    "Name": "Login",
+    "Roles": "Roles",
+    "Update": "Refresh"
+  },
+  "admin/UserModel": {
+    "Admin": "Administration",
+    "Designer": "Workflows design",
+    "Service": "Batch processing",
+    "Viewer": "View reports"
+  },
+  "app/AddPackageLinkForm": {
+    "ErrAddPackageLinkErrors": "Errors occurred while adding reference to package.",
+    "ErrPathNotSpecified": "Path to the package file is not specified.",
+    "PackageNotSaved": "Package not saved",
+    "ReadOnlyPackageNamePostfix": " (read-only)"
+  },
+  "app/Application": {
+    "MsgAppClose": "The application is closing. The current session and all unsaved changes will be lost."
+  },
+  "app/AppUtils": {
+    "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
+    "ConfirmRemovingNode": "Do you really want to delete \"{0}\" node?",
+    "ConfirmRemovingUnit": "Do you really want to delete \"{0}\" module?",
+    "DerivedVendorIsNotUsed": "No node refers to this component.",
+    "DerivedVendorIsPublic": "This component has the Public visibility and it can be used in other packages.",
+    "DerivedVendorUsedByNodes": "{0} nodes that refer to this component found in the opened packages.",
+    "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
+    "ErrCannotDeleteUnit": "Failed to delete \"{0}\" module. Some of the nodes are currently locked.",
+    "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some of the derived nodes are currently locked."
+  },
+  "app/ConfigureDerivedVendorForm": {
+    "AddBtnText": "Add",
+    "EditVendor": "Derived Component Setting",
+    "ErrMustSelectTargets": "It is required to select at least one checkbox: \"{0}\" or \"{1}\"",
+    "NewVendor": "New derived component",
+    "SaveBtnText": "Save"
+  },
+  "app/FindNodeForm": {
+    "ErrorInvalidGUIDFormat": "GUID value not in {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} format",
+    "ErrorInvalidNameFormat": "Name value is invalid identifier",
+    "NodeNotFinded": "No node found by the given search criteria"
+  },
+  "app/LicenseItem": {
+    "ErrorStateFmt": "Failed to get information on {0} license"
+  },
+  "app/Licenses": {
+    "FailLicenseListText": "Failed to get license list",
+    "FailLicenseText": "Error occurred while license text receiving",
+    "LicenseModalTitle": "License Agreement",
+    "ThirdPartyModalTitle": "Third Party Open Source Software"
+  },
+  "app/ListViewForm": {
+    "NotObjects": "",
+    "NumberObjects": "{0} objects"
+  },
+  "app/LoginomMenuForm": {
+    "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
+    "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
+    "Menu": "Menu",
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+  },
+  "app/MainForm": {
+    "AskIfOpenPackageByLink": "The open package will be locked by you until it is closed. Do you want to open it?",
+    "CantCreateShareLinks": "Failed to generate address for the current page",
+    "CantFindPackage": "Failed to find package",
+    "CantGetAbsolutePath": "Failed to get absolute path for \"{0}\" file",
+    "ConfirmCannotCloseModel": "Failed to close \"{0}\" module in \"{1}\" package.\nSome of the nodes are currently locked.\nDo you want to cancel the active processes and close the package without saving?",
+    "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
+    "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: \"{1}\".",
+    "ErrPackageDontExists": "\"{0}\" package not found",
+    "ErrPackageNotSaved": "Current package not saved",
+    "ErrUrlPathNotFound": "\"{0}\" path not found",
+    "FavoritesTitle": "Favorites",
+    "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
+    "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
+    "MsgTransportError": "Server connection lost",
+    "PackageCloseFormat": "Do you want to close \"{0}\" package also?",
+    "PackageCopyOpened": "Changes in the open link \"{0}\" package will be reflected in the current package upon its reload",
+    "ServerDisplayName": "Server",
+    "WarnAutoSavePackagesUnsaved": "Failed to save packages while auto saving:\n{0}"
+  },
+  "app/MainMenuForm": {
+    "EmptyPackageName": "Package not selected",
+    "ErrCannotSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package",
+    "ErrLoadPackageErrors": "Errors occurred while \"{0}\" package opening",
+    "ErrNoPackageToClose": "No package to be closed was found.",
+    "ErrNoPackageToSave": "There is no package to save.",
+    "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
+    "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name"
+  },
+  "app/MapTree": {
+    "About": "About",
+    "AdminArea": "Administration",
+    "ConfirmCloseAllPackages": "Do you want to close all packages?",
+    "ConfirmCloseOtherPackages": "Do you want to close other packages?",
+    "ConnectionDisplayNameDefault": "Connection",
+    "Connections": "Connections",
+    "ErrCannotClosePackage": "Failed to close package. The package contains the active processes that have not been finished while timeout.",
+    "ErrInstanceAlreadyExist": "ID already mapped to visual node",
+    "ErrInstanceNotFound": "There is no associated visual node for ID",
+    "FileStorage": "Files",
+    "HomePage": "Home",
+    "InputPorts": "Input ports",
+    "Manager": "Session Manager",
+    "ModelViews": "Visualizers",
+    "OutputPorts": "Output ports",
+    "PackagesParent": "Packages",
+    "PackageVariables": "Variables",
+    "Properties": "Parameters",
+    "PublishedPackagesParentParent": "Web services",
+    "ReadOnlyPackageNamePostfix": " (read-only)",
+    "References": "References",
+    "Reports": "Reports",
+    "ServiceInputPorts": "Service input ports",
+    "ServiceOutputPorts": "Service output ports",
+    "SharedDirectories": "Shared folders",
+    "UnitDisplayNameDefault": "Module",
+    "Users": "Users",
+    "Vendors": "Components",
+    "Wizard": "Wizard",
+    "WorkFlow": "Workflow"
+  },
+  "app/MapTreeForm": {
+    "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
+    "DisplayName": "Caption",
+    "DraftPublishFailed": "It is not possible to publish \"{0}\" draft",
+    "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
+    "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
+    "mnuPortsShowAll": "Show all ports",
+    "ModelUnitRenameTitle": "Rename Module",
+    "VendorRenameTitle": "Rename Component"
+  },
+  "app/ModelComponentVendorTreeNodeProxy": {
+    "ErrNoRefModelComponentVendorTreeNode": "No reference to IBGModelComponentVendorTreeNode"
+  },
+  "app/ModelForm": {
+    "ActivateCurrent": "Run node",
+    "ActivateFrom": "Activate subsequent nodes",
+    "AddComment": "Add comment",
+    "AddNewConnectionInheritedNode": "Add connection node to workflow",
+    "AddNewConnectionReferenceNode": "Add reference to connection into workflow",
+    "AddNewDerivedNode": "Add derived node to workflow",
+    "AddNewExecNode": "Add Execution node to workflow",
+    "AddNewLoop": "Add Loop node to workflow",
+    "AddNewNode": "Add node to workflow",
+    "CancelOperation": "Cancel operation",
+    "CantFindGenericModelNode": "Supernode node not found",
+    "CantFindSourceNode": "Failed to find source node",
+    "CloneNode": "Clone node",
+    "ComposeAnnotations": "Свернуть заметки в подмодель",
+    "ComposeExpandNode": "Свернуть элементы в подмодель \/ Развернуть подмодель",
+    "ComposeItems": "Свернуть элементы в подмодель",
+    "ComposeNodes": "Collapse nodes to supernode",
+    "ComposeSingleAnnotation": "Свернуть заметку в подмодель",
+    "ComposeSingleNode": "Collapse node to supernode",
+    "ConfigurePort": "Configure port...",
+    "ConfirmCreatingAnotherDerivedVendor": "Derived \"{0}\" component already exists for this node.\nDo you really want to create one more component?",
+    "CopyNode": "Copy node",
+    "CutNode": "Cut node",
+    "DeactivateCurrent": "Deactivate node",
+    "DeleteDerivedVendor": "Delete...",
+    "DeleteLink": "Delete link...",
+    "DeleteNode": "Delete node...",
+    "DeletePort": "Delete port",
+    "DerivedNodeAllowed": "Derived node creation is allowed",
+    "DeriveNode": "Create derived component ...",
+    "EditPortDisplayName": "Edit port caption...",
+    "EditPortDisplayNameWindowTitle": "Edit port caption",
+    "EditPortFieldLabel": "Caption",
+    "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
+    "ErrCommentPosNotSaved": "Не удалось сохранить позицию комментария",
+    "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
+    "Error": "Error",
+    "ErrPortNotCreated": "Failed to create new port",
+    "ErrRetryPasteConfirm": "Errors occurred while pasting. Do you want to repeat forcedly?\n{0}",
+    "ErrRunQueueFunctions": "Errors when performing deferred update of the Worlflow objects",
+    "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
+    "ExpandNode": "Expand supernode",
+    "ForceRetry": "Force retry",
+    "GoToConnection": "Go to connection",
+    "GoToConnections": "Go to connections",
+    "GoToDerivedVendor": "Go to derived component",
+    "GoToDerivedVendors": "Go to derived components",
+    "HideControlVariablesPorts": "Hide control variables port",
+    "LockedIconTooltip": "Node locked during runtime or setup",
+    "NodeBatchMode": "Configure node activation mode...",
+    "NodeIsLocked": "Comment change forbidden: node is locked",
+    "NodeVisibility": "Configure visibility...",
+    "NodeVisibilityByDefault": "Default",
+    "NodeVisibilityInternal": "Visibility inside current package",
+    "NodeVisibilityPrivate": "Visibility inside current workflow",
+    "NodeVisibilityProtected": "Visibility inside current workflow and supernodes",
+    "NodeVisibilityPublic": "Visibility inside all packages",
+    "NodeVisibilityPublished": "Visibility inside all packages and as web service",
+    "NodeVisibilityTitle": "Node Visibility",
+    "NotFoundBaseNode": "Failed to find base {0} node in the opened packages",
+    "NotFoundConnection": "Failed to find connection in the opened packages",
+    "NotFoundDerivedVendor": "Failed to find derived component in the opened packages",
+    "PackageNamePrefix": "Package=",
+    "PropertyInspectorLocale": "en",
+    "RecreateBaseNodeForDerivedVendor": "Recreate base node",
+    "RemoveComment": "Delete comment",
+    "RemoveSelectedConfirm": "Вы действительно хотите удалить выделенные объекты?",
+    "RenameNode": "Rename...",
+    "ResetConfiguration": "Restore original node configuration",
+    "SelectOneNode": "Select only one node",
+    "SelectSomething": "First select object in workflow",
+    "SetNodeDerivedVendor": "Set derived node component...",
+    "SetupConnection": "Configure connection...",
+    "SetupNode": "Configure node...",
+    "ShowControlVariablesPort": "Show control variables port",
+    "ShowDataPreview": "Quick view",
+    "TeachNode": "Retrain node",
+    "TuneDerivedVendor": "Configure...",
+    "UndoableDeleteNode": "Delete (forced)...",
+    "UpdateConfiguration": "Update node configuration",
+    "VendorIsUndefined": "Undefined node component",
+    "ZoomFitTooltip": "Zoom fit",
+    "ZoomInTooltip": "Zoom in",
+    "ZoomOutTooltip": "Zoom out"
+  },
+  "app/ModelNodeTreeNodeProxy": {
+    "ErrNoRefModelNodeTreeNode": "No reference to IBGModelNodeTreeNode"
+  },
+  "app/PackageForm": {
+    "ApplyLocaleTitle": "Apply new locale",
+    "Cancel": "Cancel",
+    "Confirm": "Apply",
+    "ConfirmLocaleChangeMsg": "After locale change strings may be compared in a different way.\nDo you really want to change locale?",
+    "CurrentLocale": "Current locale of package is \"{0}\".",
+    "DefaultLocaleModified": "modified",
+    "ErrIncorrectVersionFormat": "Invalid version format",
+    "ErrInvalidPackageName": "\"{0}\" is invalid package name",
+    "Later": "Later",
+    "MsgNewCompareAfterReopen": "Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов.",
+    "MsgNewLocaleAfterReopen": "New locale will be applied when the package and all opened dependent packages are closed.",
+    "NotSet": "Unspecified ({0})",
+    "QuestionNewCompareSaveAndReopenPackage": "Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов.\nСохранить пакет и переоткрыть сейчас?",
+    "QuestionNewLocaleSaveAndReopenPackage": "New locale will be applied when packages and all opened packages that depend on it are closed.\nDo you want to save the package and reopen it now?",
+    "Reopen": "Reopen"
+  },
+  "app/PackageLinkForm": {
+    "ErrIncorrectVersionFormat": "Invalid version format"
+  },
+  "app/PackageListForm": {
+    "AddUnit": "Add module",
+    "AddUnitTooltip": "Add module",
+    "Delete": "Delete",
+    "DeleteTooltip": "Delete...",
+    "DisplayName": "Caption",
+    "EditDisplayName": "Edit",
+    "EditDisplayNameTitle": "Edit Module Caption",
+    "EditDisplayNameTooltip": "Edit...",
+    "Links": "References",
+    "PackageVariables": "Variables",
+    "Reports": "Reports",
+    "Update": "Refresh",
+    "Visibility": "Visibility",
+    "VisibilityHeader": "Visibility",
+    "VisibilityTooltip": "Configure visibility..."
+  },
+  "app/PackagesAutoSavePanel": {
+    "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages auto save period is specified",
+    "ErrPackagesAutoSaveNotSpecified": "Packages auto save period is not specified"
+  },
+  "app/PackagesListForm": {
+    "CurrentLocale": "Current locale is \"{0}\".",
+    "DefaultLocaleModified": "modified",
+    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
+    "ErrPathNotFound": "The specified path was not found \"{0}\".",
+    "MsgNewLocaleAfterReopen": "New locale will be applied when the package and all opened dependent packages are closed.",
+    "NotSet": "Unspecified ({0})"
+  },
+  "app/PackageVariableEditForm": {
+    "AddBtnText": "Add",
+    "AddVariableTitle": "Add Variable",
+    "ErrVariableEmptyName": "Variable name cannot be empty",
+    "ErrVariableInvalidIdentifier": "Entered \"{0}\" variable name is not a valid identifier",
+    "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
+    "GroupEditingTitle": "Group Editing",
+    "HiddenFieldLabel": "Hidden:",
+    "HiddenFieldTip": "Not selected in the reports view mode",
+    "ModifyBtnText": "Apply",
+    "ModifyVariableTitle": "Edit Variable",
+    "ReadonlyFieldLabel": "Read-only:",
+    "ReadonlyFieldTip": "Edited only in design mode"
+  },
+  "app/PackageVariablesForm": {
+    "DeleteAllPrompt": "Do you really want to delete all variables?",
+    "DeletePrompt": "Do you really want to delete variables?",
+    "DeleteTitle": "Delete Variables",
+    "MsgAddedVariableCanNotSelected": "Variable has been added, but it is not selected because it does not match the filter",
+    "MsgEditedVariableCanNotSelected": "Variable has been renamed, but it is not selected because it does not match the filter"
+  },
+  "app/PreviewForm": {
+    "EmptyTabMsg": "Select the active node to show its data",
+    "FastPreview": "Quick View",
+    "NodeIsNotActive": "Node not activated",
+    "NoPortsTabMsg": "There are no output ports for this node",
+    "NoPreviewForSocketType": "Quick View does not exist for port",
+    "PortIsNotActive": "Port not activated"
+  },
+  "app/PublishedPackagesAddForm": {
+    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "ErrNamespaceIsBlank": "Namespace cannot be empty",
+    "ErrPathNotSpecified": "Path to the package file is not specified",
+    "ErrPublishPackage": "Failed to publish package: \"{0}\"",
+    "PackageAlreadyPublished": "\"{0}\" package already published",
+    "PackageNameAlreadyPublished": "Package with \"{0}\" name already published",
+    "UpdateButtonText": "Update",
+    "UpdateFormTitle": "Edit web service"
+  },
+  "app/PublishedPackagesListForm": {
+    "ConfirmFinish": "Do you want to unpublish {0} package?",
+    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
+    "ErrPathNotFound": "The specified path was not found \"{0}\"."
+  },
+  "app/ReferencesListForm": {
+    "AddLink": "Add",
+    "AddLinkTooltip": "Add...",
+    "Delete": "Delete",
+    "DeleteLinkConfirm": "Do you want to delete reference?",
+    "DeleteTooltip": "Delete...",
+    "HintPath": "Path",
+    "HintPathTooltip": "Package path",
+    "Name": "Name",
+    "Setup": "Configure",
+    "SetupToolstip": "Configure...",
+    "Update": "Refresh",
+    "VersionMask": "Version"
+  },
+  "app/SelectBaseVendorForm": {
+    "CantChangeVendor": "Failed to set component",
+    "ThereIsNodeVendors": "The list of components is empty. Create derived component from the compatible node."
+  },
+  "app/ServerConnection": {
+    "ErrSyncSocketPluginNotInstalledOrDisabled": "SyncSocket plugin is not installed or disabled."
+  },
+  "app/ShareForm": {
+    "CopiedHint": "Copied"
+  },
+  "app/TabForm": {
+    "DeactivateNodeConfirmationMsg": "Node configuration will cause its deactivation.\nDo you really want to start node configuration?",
+    "DeactivateNodeForPortConfirmationMsg": "Port configuration will cause node deactivation.\nDo you really want to start port configuration?",
+    "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
+    "ErrPrepareContainer": "When switching to \"{0}.{1}\" error occurred.\n{2}",
+    "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
+    "MsgNodeConfigurationChanged": "Node configuration changed",
+    "MsgNodeLoading": "The node is temporarily unavailable for configuring. Try to repeat this action later.",
+    "MsgNodeLocked": "\"{0}\" node is locked",
+    "MsgNodeNotExists": "\"{0}\" node does not exist",
+    "MsgNotFoundContainer": "There is no way to display \"{0}.{1}\"",
+    "MsgNotFoundWizard": "No wizard for \"{0}\" object",
+    "SaveAsBtnText": "Save package as...",
+    "SaveBtnText": "Save package"
+  },
+  "app/VendorsListForm": {
+    "BaseNodeHeader": "Base Node",
+    "BaseNodeTooltip": "Reference to base node",
+    "Delete": "Delete",
+    "DeleteTooltip": "Delete...",
+    "DerivedNodeAllowed": "Derived node creation is allowed",
+    "DescriptionHeader": "Description",
+    "DisplayNameHeader": "Caption",
+    "ExecuteNodeAllowed": "Creation of Execution and Loop nodes is allowed",
+    "GoToBaseNode": "Go to base node",
+    "Setup": "Configure",
+    "SetupTooltip": "Configure...",
+    "Update": "Refresh",
+    "VisibilityHeader": "Visibility"
+  },
+  "app/Version": {
+    "CompanyWebsite": "https:\/\/loginom.com",
+    "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017"
+  },
+  "app/WindowTitle": {
+    "Close": "Close",
+    "Doc": "Documentation",
+    "HelpMenu": "Help",
+    "Minimize": "Minimize",
+    "QA": "Ask a question",
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "Restore": "Restore"
+  },
+  "codemirror/CodeMirrorTernController": {
+    "ErrWrongFuncDescFormat": "Invalid Calculator function description format \"{0}\"",
+    "RE_AZaz": "[]"
+  },
+  "components/binning/LabelTemplateToolTip": {
+    "ContextMenuInsertAllFmt": "Insert template: {0}",
+    "ContextMenuInsertFormateFmt": "Insert format: {0}",
+    "ContextMenuInsertKeyFmt": "Insert key: {0}",
+    "Desc": "Bin index",
+    "DescAVE": "Середина интервала",
+    "DescCP": "Closing \")\" or \"]\" bracket",
+    "DescFD": "Caption of quantized field (%FD[3-7] - from the 3rd to the 7th character inclusively)",
+    "DescFN": "Name of quantized field (%FN[5] - the first 5 name characters)",
+    "DescMAX": "Bin maximum",
+    "DescMIN": "Bin minimum",
+    "DescOP": "Opening \"(\" or \"[\" bracket",
+    "SamplesDesc_3": "only 3 significant digits",
+    "SamplesDesc_r3": "round to 50"
+  },
+  "components/binning/MethodSettingFrame": {
+    "Loading": "Wait",
+    "SDBinCountTemplate": "Bin count - {0}"
+  },
+  "components/binning/MethodSettingsWizard": {
+    "AllExcluded": "<  x <",
+    "AllInclusive": "<= x <=",
+    "CalculatingBinsProcess": "Calculating bins",
+    "ContextMenuCalculateAllBins": "Calculate all bins",
+    "ContextMenuCalculateCurrentBins": "Calculate current",
+    "ContextMenuEdit": "Edit",
+    "DescriptionA1Dat": "Auto 1",
+    "DescriptionA1Num": "Auto 1",
+    "DescriptionA2Dat": "Auto 2",
+    "DescriptionA2Num": "Auto 2",
+    "DescriptionA3Dat": "Auto 3",
+    "DescriptionA3Num": "Auto 3",
+    "DescriptionAve": "Среднее",
+    "DescriptionExample1Num": "Подробный 1",
+    "DescriptionExample2Num": "Подробный 2",
+    "DescriptionExampleDat": "Подробный",
+    "DescriptionMax": "Maximum",
+    "DescriptionMin": "Minimum",
+    "DescriptionN": "Number",
+    "InputPortsNotActived": "Do you want to activate input ports?",
+    "LabelTamplateA1Dat": "%MIN[from d.m.yy h:mm]%MAX[ to d.m.yy h:mm]",
+    "LabelTamplateA1Num": "%MIN[from #,0.####]%MAX[ to #,0.####]",
+    "LabelTamplateA2Dat": "%OP%MIN..%MAX%CP",
+    "LabelTamplateA2Num": "%OP%MIN[4]..%MAX[4]%CP",
+    "LabelTamplateA3Dat": "%FD[5] %OP%MIN..%MAX%CP",
+    "LabelTamplateA3Num": "%FD[5] %OP%MIN[4]..%MAX[4]%CP",
+    "LabelTamplateAve": "%AVE",
+    "LabelTamplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #. ####]",
+    "LabelTamplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #. ####]",
+    "LabelTamplateExampleDat": "%FN (%FD[5]) %OP%MIN[d-mmm-yy h:mm]..%MAX[d-mmm-yy h:mm]%CP",
+    "LabelTamplateMax": "%MAX",
+    "LabelTamplateMin": "%MIN",
+    "LabelTamplateN": "%N",
+    "LowerInclusive": "<= x <",
+    "MsgBoxTitle": "Attention",
+    "ProcessInfo": "Processing has been already started for selected columns.",
+    "SelectMethodType": "Select method",
+    "UpperInclusive": "<  x <="
+  },
+  "components/calcdata/CalcDataFields": {
+    "Fields": "Fields",
+    "Vars": "Variables"
+  },
+  "components/calcdata/CalcExpressionsAbstract": {
+    "AddFirstExpressionToEdit": "Add expression to edit",
+    "DeleteAllConfirm": "Do you really want to delete all expressions?",
+    "DeleteAllMsgTitle": "Delete All Expressions"
+  },
+  "components/calcdata/CalcFieldsAbstract": {
+    "SearchDef": "Filter"
+  },
+  "components/calcdata/CalcFunctions": {
+    "All": "All",
+    "Categories": "Categories",
+    "Parameters": "Parameters",
+    "RE_AZaz": "[]",
+    "SearchDef": "Filter"
+  },
+  "components/calcdata/CalcPreviewForm": {
+    "Value": "Value",
+    "Variable": "Variable"
+  },
+  "components/calcdata/CodeMirrorController": {
+    "ExprPlaceholder": "Enter expression code"
+  },
+  "components/calcvariables/CalcVariablesFields": {
+    "Vars": "Variables"
+  },
+  "components/coarseclasses/CalculateInformationValues": {
+    "ChartTitle": "Dependence IV on Number of Classes",
+    "XAxisTitle": "Class Count",
+    "YAxisTitle": "IV"
+  },
+  "components/coarseclasses/ClassesChartWrapper": {
+    "ActualTitleSuffix": " (actual)",
+    "FineClassTooltip": "Value",
+    "FineClassXaxisTitle": "Fine Class"
+  },
+  "components/coarseclasses/CoarseClassesEditor": {
+    "AcceptCurrentBinning": "Do you want to accept the current binning?",
+    "CalculateInformationValuesApplyText": "Calculate",
+    "CalculateInformationValuesTitle": "Calculate",
+    "ChangeColumnPurposeToInput": "'{0}' field is locked due to usage of the external or locked binning. Do you want to unlock and continue?",
+    "CurrentBinningNotSaved": "Current binning contains unsaved changes",
+    "LockAll": "Lock all",
+    "LockSelected": "Lock selected",
+    "SplitClass": "Bound split",
+    "UnlockAll": "Unlock all",
+    "UnlockSelected": "Unlock selected"
+  },
+  "components/coarseclasses/CoarseClassesViewer": {
+    "ActualSuffix": " (actual)",
+    "BuildActualStatConfirm": "Calculate Actual Coarse Classes statistics",
+    "BuildActualStatConfirmYes": "Calculate",
+    "EventCountTooltip": "Number of events",
+    "EventRateTooltip": "Event rates",
+    "HideSideBar": "Hide side bar",
+    "Locked": "Locked",
+    "NoActualStatInfo": "Failed to calculate Fine and Coarse Classes statistics",
+    "ShowSideBar": "Show side bar",
+    "Total": "Total",
+    "Unlocked": "Unlocked"
+  },
+  "components/coarseclasses/CoarseClassesWizard": {
+    "ErrNoStatistics": "Failed to get statistics",
+    "InputPortsNotActived": "Do you want to activate input ports?"
+  },
+  "components/columnflipping/ColumnFlippingWizard": {
+    "ColumnFlippingTitle": "Unpivoting",
+    "UsageInfo": "Info",
+    "UsageTransposition": "Transposed"
+  },
+  "components/coluniondata/ColUnionDataWizard": {
+    "NoDataSourceTooltip": "No selected data source"
+  },
+  "components/condition/ConditionParamsWizard": {
+    "DebugAll": "All branches",
+    "DebugElse": "Otherwise"
+  },
+  "components/condition/ConditionSocketsWizard": {
+    "DuplicateSocketsError": "\"{0}\" and \"{1}\" items have the same identifiers",
+    "EmptySocketName": "<Unique>",
+    "EmptyVendor": "Not defined"
+  },
+  "components/condition/ConditionsView": {
+    "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed"
+  },
+  "components/corranalysis/CorrAnalysisWizard": {
+    "CorrTypeExtremum": "The maximum absolute value of the correlation coefficients of two processes calculated for all possible time shifts will be calculated. It should be applied if it is required to determine the linear relationship between two processes, or parts of the processes that occur with a certain time lag.",
+    "CorrTypeKendall": "The Kendall's Tau-b rank correlation coefficient is used to identify the quantitative relationship between variables if they can be ranked. Use for categorical data is recommended.",
+    "CorrTypePearson": "Using the Pearson correlation coefficient, it is possible to determine the strength and direction of the linear relationship between two processes that occur simultaneously.",
+    "CorrTypeSpearman": "The Spearman's rank correlation coefficient is another version of the rank correlation. Corresponding ranks, not numerical values, are used for numerical fields to estimate the connection strength. Therefore, the Spearman coefficient will be 1 or -1 for any monotone sequences."
+  },
+  "components/crosstab/CrossTabWizard": {
+    "CaseDesc": "Facts",
+    "ColumnGroupTip": "Dimension in columns for",
+    "CrossTabTitle": "Cross Table",
+    "DimColDesc": "Columns",
+    "DimRowDesc": "Rows",
+    "MinUniqueValuesCountTip": "Minimum number of unique values",
+    "NullGroupColumn": "Null",
+    "OtherGroupColumn": "Other",
+    "SpaceSeparator": "Space",
+    "UniqueValuesGroupTip": "Group of unique values: "
+  },
+  "components/datarecovery/DataRecoveryWizard": {
+    "NotUsedAction": "Not selected"
+  },
+  "components/datatotree/DataToTreeWizard": {
+    "ClearAllLinksPromtTitle": "Delete",
+    "ConfirmClearAllLinks": "Do you want to delete all links?",
+    "GlobalNodeIndex": "Global index",
+    "MsgAddedDataTreeNodeCanNotSelected": "Node has been added, but it is not selected because it does not match the filter",
+    "MsgEditedDataTreeNodeCanNotSelected": "Node has been renamed, but it is not selected because it does not match the filter",
+    "NotLink": "not linked",
+    "RemoveAllDataTreeNodesConfirm": "Do you really want to delete all nodes?",
+    "RemoveNodeWithChildsConfirm": "Do you really want to delete \"{0}\" node with child nodes?",
+    "WarnCannotDeleteRootNode": "It is not possible to delete root node"
+  },
+  "components/datatovariables/DataToVariablesWizard": {
+    "DataToVariablesTitle": "Table into Variables",
+    "GroupDataFactor": "Variables"
+  },
+  "components/datatoxml/DataToXmlRequestWizard": {
+    "DataToXmlRequestTitle": "Mapping Fields to Form XML"
+  },
+  "components/datereform/DateReformWizard": {
+    "CommonGroup": "Common",
+    "IsoGroup": "ISO"
+  },
+  "components/elimoutlier/ElimOutlierWizard": {
+    "OutExtrError": "The outlier value must be less than the one for the extreme value"
+  },
+  "components/em/EMClusterizationWizard": {
+    "frmClusterizationTitle": "EM Clustering"
+  },
+  "components/enrichdata/EnrichDataWizard": {
+    "MissingMainColumn": "Failed to show link not connected with the main table",
+    "NotAssignedColumn": "Not selected"
+  },
+  "components/execcmd/ExecCmdCodeMirrorController": {
+    "CmdPlaceholder": "Enter command text"
+  },
+  "components/execnode/ExecNodeComponentWizard": {
+    "CurrentModelUnitNodes": "Nodes in the current module",
+    "Description": "Description",
+    "ErrNodeComponentVendorIsSealed": "Failed to set reference to \"{0}\" node for which inheritance is not possible",
+    "ErrVendorDeleted": "Target component deleted.",
+    "ErrVendorDeletedFmt": "\"{0}\" target component deleted.",
+    "ErrVendorNotFound": "Target component was not found, it may have been deleted or became unavailable.",
+    "ErrVendorNotFoundFmt": "\"{0}\" target component was not found, it may have been deleted or became unavailable.",
+    "ExecNodeWizardTitle": "Node Execution",
+    "NotifyVendorNotSelected": "No target component selected.",
+    "Vendors": "Components",
+    "WarnNodeLoadLimitExceeded": "\"{0}\" target component is not selected.\n {1} limit of loaded node levels ha s been exceeded."
+  },
+  "components/filterdata/FilterColumnItem": {
+    "BadBrowserMsg": "This operation is not supported in our browser.",
+    "CopyError": "Error while copying to clipboard:",
+    "EndingWith": "ending with",
+    "Equal": "=",
+    "GetValueList": "Get list",
+    "Greater": ">",
+    "GreaterOrEqual": ">=",
+    "In": "listed",
+    "InvalidFilter": "Not configured",
+    "IsFalse": "FALSE",
+    "IsNotNull": "Not null",
+    "IsNull": "null",
+    "IsTrue": "TRUE",
+    "Less": "<",
+    "LessOrEqual": "<=",
+    "Like": "contains",
+    "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
+    "NoMenuCopyWarn": "To copy data, use hotkey",
+    "NoMenuCutWarn": "To cut data, use hotkey",
+    "NoMenuPasteWarn": "To paste data, use hotkey",
+    "NotEndingWith": "not ending with",
+    "NotEqual": "<>",
+    "NotIn": "not listed",
+    "NotLike": "does not contain",
+    "NotSelectedValieItem": "No values",
+    "NotStartingWith": "not starting with",
+    "PasteError": "Error while pasting from clipboard:",
+    "PermissionReq": "Grant Loginom access to clipboard",
+    "SetLabel": "List",
+    "StartingWith": "starting with",
+    "ValueListIsEmpty": "No values"
+  },
+  "components/filterdata/FilterDataCollection": {
+    "ConfirmDeleteAll": "Do you really want to delete all conditions?",
+    "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed"
+  },
+  "components/filterdata/FilterDataWizard": {
+    "Activation": "Input port activation",
+    "ActivationCanceled": "Canceled by user",
+    "FilterApply": "Apply filter",
+    "FilterPreview": "Filter"
+  },
+  "components/groupdata/GroupDataWizard": {
+    "FactorsEditTooltip": "Edit",
+    "FactorTooltip": "Aggregation methods for {0}:",
+    "FactorTooltipError": "No aggregation methods specified",
+    "FunctionsUndefined": "Not defined",
+    "GroupDataDimension": "Group",
+    "GroupDataDimensionTooltipName": "Group",
+    "GroupDataFactor": "Parameters",
+    "GroupDataTitle": "Grouping"
+  },
+  "components/javascript/JavaScriptCodeMirrorController": {
+    "CodePlaceholder": "Enter script"
+  },
+  "components/javascript/JavaScriptColumnsWizard": {
+    "frmJavaScriptOutputTableTitle": "Configure JavaScript Output Table Columns"
+  },
+  "components/javascript/JavaScriptPreviewController": {
+    "ConsoleMessagesMissed": " missed"
+  },
+  "components/joindata/JoinDataWizard": {
+    "DifferenceJoinDataDesc": "The difference includes all rows from the main data set into result, with the exception of the rows for which the key fields of the main (left) and subtracted (right) data sets coincide.",
+    "FullJoinDataDesc": "Full outer join includes all rows from the main and joining data sets into result. If the key fields match, then the rows are filled in with real values. Columns are filled in with the null values in mismatched rows.",
+    "GroupField_MissingFields": "Missing columns",
+    "InnerJoinDataDesc": "The inner join includes into result all rows for which a match has been found for the key fields of the main and joining datasets.",
+    "JoinDataWizardTitle": "Configure Data Joining",
+    "JoinedColumns": "Columns of joining data set",
+    "LeftJoinDataDesc": "The outer left join includes into result all rows from the main data set, supplemented by the column values from the joining data set that coincide in the key fields.",
+    "MainColumns": "Main data set columns",
+    "RightJoinDataDesc": "The outer right join includes into result all rows from the joining data set supplemented by the column values from the main data set that coincide in the key fields."
+  },
+  "components/linregression/LinRegressionWizard": {
+    "RegressionDetailPage": "Detailed configuring of linear regression",
+    "RegressionParamsPage": "Linear regression configuring"
+  },
+  "components/logregression/LogRegressionWizard": {
+    "GeneralSet": "General",
+    "GetValueList": "Get list",
+    "RegressionDetailPage": "Detailed configuring of logistic regression",
+    "RegressionParamsPage": "Logistic regression configuring",
+    "TrainSet": "Train"
+  },
+  "components/loop/LoopMappingWizard": {
+    "InvalidLinkFormat": "No variable in link of \"{0}\" input variable with \"{1}\" output variable",
+    "LoopMappingWizardTitle": "Mapping Variables",
+    "SourceTitle": "Output Variables",
+    "TargetTitle": "Input Variables"
+  },
+  "components/loop/LoopNodeWizard": {
+    "LoopNodeWizardTitle": "Loop Node Selection"
+  },
+  "components/loop/LoopParamsWizard": {
+    "AutodetectMaxThreadCount": "Auto detect",
+    "GroupColumnMissingFormat": "No \"{0}\" column assigned for grouping",
+    "MaxThreadCountMinPrefix": "Value cannot be lower",
+    "NoSocketError": "No data source input port for batch processing",
+    "NullReferenceVendor": "Not defined",
+    "NullReferenceVendorError": "No source component",
+    "VariableNotFoundErrorFormat": "No \"{0}\" variable"
+  },
+  "components/neuralnet/NeuralNetParamsWizard": {
+    "DecayAvg": "Mean",
+    "DecayNone": "None",
+    "DecayStrong": "Strong",
+    "DecayVeryStrong": "Very strong",
+    "DecayVeryWeak": "Very weak",
+    "DecayWeak": "Weak"
+  },
+  "components/python/PythonCodeMirrorController": {
+    "CodePlaceholder": "Enter script"
+  },
+  "components/python/PythonColumnsWizard": {
+    "frmPythonOutputTableTitle": "Configure columns of output Python table"
+  },
+  "components/python/PythonOutputPreviewForm": {
+    "OutputStdErrSymbolsSkipped": "stderr characters omitted",
+    "OutputStdOutSymbolsSkipped": "stdout characters omitted"
+  },
+  "components/reformcolumns/EditReformColumnDefForm": {
+    "CachingMethod": "Caching",
+    "Excluded": "Exclude"
+  },
+  "components/reformcolumns/ReformColumnsWizard": {
+    "ColumnCachingMethodText": "Caching",
+    "ColumnExcludedText": "Exclude",
+    "ReformColumnsWizardTitle": "Configure fields features"
+  },
+  "components/replace/ReplaceEditor": {
+    "ConvertPrefix": "преобразовано из",
+    "EmptyValueMark": "<Empty string>"
+  },
+  "components/replace/ReplaceVariablesWizard": {
+    "VariablesTitle": "Variables"
+  },
+  "components/replace/ReplaceWizard": {
+    "DeleteAllPrompt": "Do you really want to remove all replacement options?",
+    "DeleteAllPromptTitle": "Delete replacement table",
+    "EditorDisabled": "Include replacement to edit",
+    "EditorNotChoosed": "Select replacement to edit.",
+    "ErrFileFieldMiss": "Item is not file upload field",
+    "ErrFileNotChoosed": "No file selected",
+    "ErrTypeCastError": "Value {0} cannot be cast to {1} data type",
+    "OutputDataTypeError": "Выходные значения будут переменного типа, если не заменить остальные",
+    "ReplaceGroupCommon": "Exact match",
+    "ReplaceGroupRegex": "Regular expressions",
+    "ReplaceItemTypeError": "Value does not comply with used type",
+    "ReplacementsSourceError": "Replacements source error",
+    "ReplacementsSourceErrorTip": "No replacement source with Guid {0}",
+    "ReplaceOtherByEmpty": "With empty",
+    "ReplaceOtherByNone": "Do not replace",
+    "ReplaceOtherByRegExp": "With regular expression",
+    "ReplaceOtherByValue": "With value",
+    "SourceFieldInfo": "Info",
+    "SourceFieldInput": "Value",
+    "SourceFieldOutput": "Replace",
+    "SourceFieldUnused": "Not used",
+    "UniqueValuesLimitErr": "Failed to show the unique values number of which exceeds {0}"
+  },
+  "components/restclient/MessageBody": {
+    "ErrNotCompatibleMessageBodyFmt": "Тип данных поля входного набора {0} несовместим с телом запроса"
+  },
+  "components/restclient/ParamLinks": {
+    "AutoMapPromtTitle": "Auto Link",
+    "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
+    "ConfirmDeleteAll": "Do you want to delete all links?",
+    "DeletePromtTitle": "Delete",
+    "ErrNoParamFmt": "Поле входного набора \"{0}\" назначено несуществующему параметру \"{1}\"",
+    "ErrNotCompatibleParamDataTypeFmt": "Тип данных поля входного набора \"{0}\" несовместим с параметром \"{1}\""
+  },
+  "components/restclient/RequestController": {
+    "UnknownConfigLabel": "Не настроен порт подключения к REST-сервису"
+  },
+  "components/sampling/SamplingComponentWizard": {
+    "SampleSetName": "Sampled"
+  },
+  "components/slidingwindow/SlidingWindowWizard": {
+    "NoForecast": "Not selected",
+    "NoHistory": "Not selected"
+  },
+  "components/sorting/SortingColumnCollection": {
+    "CaseSensitiveActionDesc": "Case-sensitive",
+    "ColumnIsUsed": "Field already used",
+    "DeleteAllConfirm": "Do you want to cancel all fields sorting?",
+    "DeleteConfirmFmt": "Do you want to cancel \"{0}\" field sorting?",
+    "DeleteTitle": "Cancel Sort",
+    "HintForSortDirectionAsc": "Ascending",
+    "HintForSortDirectionDesc": "Descending",
+    "InvalidRowDescFmt": "\"{0}\" input field not found",
+    "MultiDeleteConfirm": "Do you want to cancel sorting for selected fields?",
+    "NotCaseSensitiveActionDesc": "Case-insensitive"
+  },
+  "components/treetodata/TreeToDataWizard": {
+    "GlobalNodeIndex": "Global node index"
+  },
+  "components/ungroupdata/UngroupDataWizard": {
+    "ErrDataTypeTimeAxisFields": "Field data types for data sequentializing must match",
+    "ErrInSelectGroupFields": "Ungroupable field not selected",
+    "ErrInSelectOutputFields": "No field for ungrouped values dereference selected",
+    "ErrInSelectQuotaCalcFields": "No field for quotas calculation selected",
+    "ErrInSelectQuotaFields": "No field with quotas selected",
+    "ErrInSelectTimeAxisFields": "No fields for data sequentializing selected",
+    "ErrNoLinksDefined": "No links defined",
+    "MissingColumnFmt": "No linked \"{0}\" column",
+    "NoTimeAxisColumn": "No column selected",
+    "OutputColumnUsageType": "Field with names",
+    "QuotaColumnUsageType": "Field with quotas",
+    "RoundDecimalParamLabel": "Decimal place accuracy",
+    "RoundMultipleParamLabel": "Multiplicity",
+    "RoundParamLabel": "Rounding parameter",
+    "TimeAxisColumnUsageType": "Ordinal field",
+    "UngroupedColumnUsageType": "Ungroupable"
+  },
+  "components/uniondata/UnionDataWizard": {
+    "MissingMainColumn": "Failed to show link not connected with the main table",
+    "NotAssignedColumn": "Not selected"
+  },
+  "components/variablestodata/VariablesToDataWizard": {
+    "VarToColumnsDescribe": "Each variable will correspond to a separate table field.",
+    "VarToRowsDescribe": "Each variable will correspond to a separate table entry."
+  },
+  "components/wsdlclient/AbstractOutputWizard": {
+    "PartMessagePrefix": "Part: "
+  },
+  "components/wsdlclient/CommonRequestController": {
+    "AutoMapPromtTitle": "Auto Link",
+    "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
+    "ConfirmDeleteAll": "Do you want to delete all links?",
+    "DeletePromtTitle": "Delete",
+    "ErrInvalidLinkFound": "Invalid link of \"{0}\" field with \"{1}\" request has been found",
+    "ErrMultilinkFound": "Multiple link of \"{0}\" request with \"{1}\" field has been found and it willl be deleted",
+    "NotLink": "not linked"
+  },
+  "components/wsdlclient/DebugParamsController": {
+    "ErrDumpRequestDirectoryDoesNotExist": "\"{0}\" folder selected to save requests does not exist",
+    "ErrResponseFileDoesNotExist": "\"{0}\" file selected as response source does not exist"
+  },
+  "components/wsdlclient/OperationFaultsWizard": {
+    "FaultsMessagePrefix": "Handled exception: ",
+    "OperationFaultsTitle": "Configure Exception Handled"
+  },
+  "components/wsdlclient/OperationOutputWizard": {
+    "OperationOutputTitle": "Configure Service Response",
+    "OutputMessagePrefix": "Message: "
+  },
+  "components/wsdlclient/RequestMethodWizard": {
+    "ErrNotConnected": "Connection to the web service is not active",
+    "HttpBindingExtensionInfoPfx": "Request method: ",
+    "HttpOperationExtensionInfoPfx": "Local part of address: ",
+    "PortExtensionInfoFmt": "Extension type: {0}; request address: {1}",
+    "SoapBindingExtensionInfoFmt": "SOAP version: {0}; request style: {1}; transport: {2}",
+    "SoapOperationExtensionInfoFmt": "Request style: {0}; action: {1}",
+    "WSDLBindingPfx": "Binding: ",
+    "WSDLOperationFtm": "Operation: {0} ({1})",
+    "WSDLPortPfx": "Port: ",
+    "WSDLServicePfx": "Service: "
+  },
+  "components/wsdlclient/WSDLRequestWizard": {
+    "MessagePrefix": "Message: ",
+    "PartPrefix": "Part: "
+  },
+  "connections/dwh/DWConnectionWizard": {
+    "ErrSchemaNameIsTooLongFmt": "Schema name cannot contain more than {0} characters."
+  },
+  "connections/kafka/ParametersList": {
+    "DeleteAllParamsPrompt": "Do you really want to delete all parameters?",
+    "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists"
+  },
+  "connections/restservice/ConnectionWizard": {
+    "DeleteAllParamsPrompt": "Do you really want to delete all parameters?",
+    "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists",
+    "TestConnectionSuccess": "Successful connection test",
+    "TestConnectionTitle": "Test Connection"
+  },
+  "connections/webservice/AuthorizationForm": {
+    "ErrUnsupportedAuthModeFmt": "Режим аутентификации \"{0}\" не поддерживается",
+    "ExpireCertDateError": "Expired certificate expiration date"
+  },
+  "connections/webservice/ConnectionWizard": {
+    "TestConnectionSuccess": "Successful connection test",
+    "TestConnectionTitle": "Test Connection"
+  },
+  "connections/xsdfiles/XSDFilesConnectionWizard": {
+    "ErrFileNameAdd": "{0} file cannot be added to the list. Perhaps, it has already been added."
+  },
+  "exports/dbexport/DBCreateTableDialog": {
+    "DublicateFieldName": "A field with the same name already exists",
+    "ErrCreateTable": "Error creating table",
+    "ErrFieldSize": "Size of {0} field must be more than 0",
+    "ErrTableName": "Invalid table name",
+    "InvalidFieldNameChar": "Invalid character in field name"
+  },
+  "exports/dbexport/DBExportMappingWizard": {
+    "colDisplayNameTitle": "Database table fields",
+    "colSourceNameTitle": "Source columns",
+    "ErrAbsentDataSourceSourceDetails": "List of absent source columns used previously:",
+    "ErrAbsentFieldsDetails": "List of absent table columns used previously:",
+    "ErrUpdateFieldsDetails": "List of table columns in which changes occurred:",
+    "KeyColumnText": "Key",
+    "SyncThroughColumnsToolTip": "Refresh table fields",
+    "Title": "Map Source Columns to Table Fields"
+  },
+  "exports/dbexport/DBExportParamsWizard": {
+    "ErrTableNameNotSelected": "No table name specified",
+    "ErrUpdateNotSupported": "Record update by key not supported by the current database",
+    "NoConnection": "No connection"
+  },
+  "exports/dwh/DWExportWizard": {
+    "ConfirmClearAllLinks": "Do you want to delete all links?",
+    "DeleteModeNotDelete": "do not delete"
+  },
+  "exports/excelfile/ExportExcelFilePreviewWizard": {
+    "DefaultSheetName": "Sheet1"
+  },
+  "exports/kafka/KafkaExportWizard": {
+    "InvalidMessageFieldFmt": "Field with \"{0}\" messages not found"
+  },
+  "exports/tableau/ExportTableauMappingWizard": {
+    "colDisplayNameTitle": "Tableau Table Fields",
+    "colSourceNameTitle": "Source Columns",
+    "ErrAbsentDataSourceSourceDetails": "List of absent source columns used previously:",
+    "ErrAbsentFieldsDetails": "List of absent table columns used previously:",
+    "ErrUpdateFieldsDetails": "List of table columns in which changes occurred:",
+    "SyncThroughColumnsToolTip": "Refresh table fields",
+    "Title": "Map Source Columns to Table Fields"
+  },
+  "exports/tableau/ExportTableauParamsWizard": {
+    "ErrProjectNameNotSelected": "No project name specified",
+    "ErrServerFileNameNotSelected": "No source name specified on server",
+    "ErrTableNameNotSelected": "No table name specified"
+  },
+  "exports/tableau/TableauCreateTableDialog": {
+    "DublicateFieldName": "A field with the same name already exists"
+  },
+  "exports/xml/BaseXmlRequestWizard": {
+    "EmptyNamespace": "empty namespace",
+    "ExportXmlRequestTitle": "Field Mapping for Export"
+  },
+  "ext/colorfield/Field": {
+    "UndefinedHexFormat": "Invalid hexadecimal number format"
+  },
+  "ext/colorfield/Pallete": {
+    "EmptyPalleteText": "Standard",
+    "Pallete": "Palette"
+  },
+  "ext/CustomRowBody": {
+    "ToggleRowNotFoundRow": "No row to open\/close was found"
+  },
+  "ext/DataSourceProxy": {
+    "DataSourceNotActive": "Data set not active"
+  },
+  "ext/ExcessColumnLabel": {
+    "TooltipTemplate": "{0} of {1} fields displayed"
+  },
+  "ext/ExportUtils": {
+    "CantSaveDownLoadedFile": "Failed to save the downloaded file",
+    "ErrUTF8ToUCS2Conversion": "Error converting string from UTF-8 to UCS-2",
+    "ExcelMenuText": "XLS (html)",
+    "ExecutionStarted": "Export has already started",
+    "ExportPrefix": "Export to ",
+    "XHRError": "XMLHttpRequest error, status: {0}"
+  },
+  "ext/ExtJS": {
+    "ErrEnumMenuItemNotFound": "Menu item not found",
+    "ErrUnsupportedToggleComponent": "Unsupported toggle component",
+    "LongProcessingMessage": "Please wait, data processing is in progress"
+  },
+  "ext/FieldUtils": {
+    "ErrRadioGroupNotPrepared": "Radio group not prepared",
+    "InvalidBooleanValue": "Invalid Boolean value",
+    "InvalidDateTimeValue": "Invalid datetime value",
+    "InvalidFloatNumber": "Invalid number",
+    "InvalidIntegerNumber": "Invalid integer",
+    "InvalidValueIsNull": "Null value is not allowed",
+    "MinMaxError": "Minimum value cannot exceed maximum value.",
+    "ValidateEditorsError": "Editors error"
+  },
+  "ext/FilterField": {
+    "EmptyTextFilter": "Filter",
+    "EmptyTextSearch": "Search",
+    "FilterAction": "Filter",
+    "LabelOr": "or",
+    "SearchAction": "Search"
+  },
+  "ext/GridClipboard": {
+    "ErrorTooMany": "Failed to copy selected cells to clipboard. Too many rows selected."
+  },
+  "ext/GridMenu": {
+    "AllColumns": "All columns",
+    "FilterApplyText": "Filter",
+    "SearchApplyText": "Find"
+  },
+  "ext/GridUtils": {
+    "AddActionText": "Add",
+    "AddIconToolTip": "Add",
+    "AddIconToolTipHtml": "Add",
+    "DeleteAllPrompt": "Do you really want to delete all?",
+    "DeleteAllPromptActCol": "Do you really want to delete all?",
+    "DeleteAllPromptTitle": "Delete",
+    "DeleteAllPromptTitleActCol": "Delete",
+    "DeleteAllText": "Delete all...",
+    "DeleteText": "Delete",
+    "ErrStoreType": "Ext.data.Store or Ext.data.ChainedStore repository is required for activity controller",
+    "GridViewDragDropNotFound": "Failed to prepare table for dragging rows, gridviewdragdrop plug-in not found",
+    "LinkIsMissing": "Missing",
+    "MoveDownActionText": "Move down",
+    "MoveUpActionText": "Move up"
+  },
+  "ext/LinkGrid": {
+    "btnAutoLinkCaption": "Auto Link",
+    "btnClearCaption": "Clear Links",
+    "btnResortCaption": "Resort Links",
+    "DragText": "Drag to item to link with",
+    "ErrGetActionUndefined": "Undefined bg.ext.GetAction function",
+    "ErrMultiSelection": "Multiple row selection must be enabled for both linked tables",
+    "ErrMultiSelectRequired": "Linking one row with many other rows is permitted. Enabling of multiple selection of rows in linked tables required",
+    "ErrNotSupportedBufferedStore": "LinkGrid does not support BufferedStore"
+  },
+  "ext/Lock": {
+    "Loading": "Loading"
+  },
+  "ext/MultiDragDropController": {
+    "BadDDTagConfig": "DDTag must contain at least one row",
+    "DDTagIntersect": "DDTag intersection of different receivers within the same dd zone",
+    "DDZoneIsNotContainer": "dd zone must be container",
+    "DDZoneReciever": "dd zone cannot be receiver",
+    "NestedDDZone": "Nested dd zones are not supported",
+    "NestedReciever": "Nested receivers are not supported",
+    "NonContainerRecieverBadConfig": "Receiver may not be container, only if NoAddOnDrop == NoPlaceholder == true"
+  },
+  "ext/PaginationPlugin": {
+    "ErrMaxPage": "There is no page with the index larger than the last index",
+    "ErrMinPage": "There is no page with index smaller than the starting index",
+    "FirstPage": "First page",
+    "LastPage": "Last page",
+    "MaxPageIndex": "from {0}",
+    "NextPage": "Next page",
+    "Page": "Page",
+    "PageDescFmt": "[{0} .. {1}]",
+    "PrevPage": "Previous page"
+  },
+  "ext/TotalLabel": {
+    "HeaderFormat": "# |{0}|",
+    "RowCountSymbol": "#",
+    "TooltipPartTemplate": "{0} of {1} rows displayed",
+    "TooltipTemplate": "Total row count {0}"
+  },
+  "ext/TriStateSortColumn": {
+    "SortClearAllText": "Clear all sorting",
+    "SortClearText": "Clear sort"
+  },
+  "ext/TypedTag": {
+    "EmptyStringDesc": "Empty string"
+  },
+  "ext/UniversalColumn": {
+    "ColumnUndefined": "Column undefined"
+  },
+  "ext/VariantEditor": {
+    "EmptyStringText": "<Empty string>",
+    "NullText": "<NULL>"
+  },
+  "ext/VendorTreeStore": {
+    "VendorsTitle": "Components"
+  },
+  "ext/VTypes": {
+    "AlphaNumUnicodeIncorrect": "This field must contain only letters, digits and _.",
+    "ErrInvalidIdentifier": "Entered value is invalid identifier.",
+    "VersionIncorrect": "Invalid version format",
+    "VersionMaskIncorrect": "Invalid format of version range"
+  },
+  "filedialog/Dialogs": {
+    "UseBaseFileStorageToolTip": "The relative paths of the base package are used."
+  },
+  "filedialog/FileMask": {
+    "ACCDBFileDesc": "MS Access 2007 Database",
+    "ACCDBFilesDesc": "MS Access 2007 Databases",
+    "AllFilesDesc": "All Files",
+    "AllTableauFileDesc": "Tableau file",
+    "AllTableauFilesDesc": "Tableau Data Extracts",
+    "ArchiveFileDesc": "Archive",
+    "ArchiveFilesDesc": "Archives",
+    "AudioFileDesc": "Audio File",
+    "AudioFilesDesc": "Audio files",
+    "BMPFileDesc": "Bitmap",
+    "BMPFilesDesc": "Bitmaps",
+    "CertFileDesc": "Certificate",
+    "CertFilesDesc": "Certificates",
+    "CsvFileDesc": "CSV file",
+    "CsvFilesDesc": "CSV files",
+    "DbfFileDesc": "dBase file",
+    "DbfFilesDesc": "dBase files",
+    "DDFFileDesc": "DDF file",
+    "DDFFilesDesc": "DDF files",
+    "DocFileDesc": "MS Word document",
+    "DocFilesDesc": "MS Word documents",
+    "ExcelFileAllDesc": "Excel file",
+    "ExcelFilesAllDesc": "Excel files",
+    "ExcelFilesSupportedDesc": "Excel files",
+    "FdbFileDesc": "Firebird database",
+    "FdbFilesDesc": "Firebird databases",
+    "GdbFdbFileDesc": "IB\\FB database",
+    "GdbFdbFilesDesc": "IB\\FB databases",
+    "GdbFileDesc": "InterBase database",
+    "GdbFilesDesc": "InterBase databases",
+    "GIFFileDesc": "GIF image",
+    "GIFFilesDesc": "GIF images",
+    "HtmFileDesc": "Webpage",
+    "HtmFilesDesc": "Webpages",
+    "HyperFileDesc": "Tableau Hyper Extract",
+    "HyperFilesDesc": "Tableau Hyper Extracts",
+    "ICOFileDesc": "Icon",
+    "ICOFilesDesc": "Icons",
+    "IMGAllFileDesc": "Image",
+    "IMGAllFilesDesc": "Images",
+    "JPGFileDesc": "JPEG image",
+    "JPGFilesDesc": "JPEG images",
+    "JSONFileDesc": "Text file for data exchange",
+    "JSONFilesDesc": "Text files for data exchange",
+    "KeyFileDesc": "Private key",
+    "KeyFilesDesc": "Private keys",
+    "LckFileDesc": "Lock file",
+    "LckFilesDesc": "Lock files",
+    "LGDFileDesc": "Loginom Data file",
+    "LGDFilesDesc": "Loginom Data files",
+    "LGPFileDesc": "Loginom Package",
+    "LGPFileReservedCopyDesc": "Backup Loginom package",
+    "LGPFilesDesc": "Loginom packages",
+    "LGPFilesReservedCopyDesc": "Backup Loginom packages",
+    "LogFileDesc": "Registration Log file",
+    "LogFilesDesc": "Registration Log files",
+    "MdbFileDesc": "MS Access database",
+    "MdbFilesDesc": "MS Access databases",
+    "MhtFileDesc": "Web archive, one file",
+    "MhtFilesDesc": "Web archives, one file",
+    "ODSFileDesc": "OpenDocument spreadsheet",
+    "ODSFilesDesc": "OpenDocument spreadsheets",
+    "P12FileDesc": "PKCS #12 file",
+    "P12FilesDesc": "PKCS #12 files",
+    "PDFFileDesc": "PDF document",
+    "PDFFilesDesc": "PDF documents",
+    "PNGFileDesc": "PNG image",
+    "PNGFilesDesc": "PNG images",
+    "RtfFileDesc": "RTF file",
+    "RtfFilesDesc": "RTF files",
+    "SHPFileDesc": "Shape file",
+    "SHPFilesDesc": "Shape files",
+    "SQLFileDesc": "SQL file",
+    "SQLFilesDesc": "SQL files",
+    "SQLiteFileAllDesc": "SQLite database",
+    "SQLiteFilesAllDesc": "SQLite databases",
+    "SVGFileDesc": "SVG image",
+    "SVGFilesDesc": "SVG images",
+    "SysFileDesc": "Configuration file",
+    "SysFilesDesc": "Configuration files",
+    "TdeFileDesc": "Tableau Extract",
+    "TdeFilesDesc": "Tableau Extracts",
+    "TsvFileDesc": "TSV file",
+    "TsvFilesDesc": "TSV files",
+    "TxtFileDesc": "Text file",
+    "TxtFilesDesc": "Text files",
+    "VideoFileDesc": "Video file",
+    "VideoFilesDesc": "Video files",
+    "WSDLFileDesc": "Web Service description file",
+    "WSDLFilesDesc": "Web Service description files",
+    "XlsbFileDesc": "Excel 2007 binary workbook",
+    "XlsbFilesDesc": "Excel 2007 binary workbooks",
+    "XlsFileDesc": "MS Excel file",
+    "XlsFilesDesc": "MS Excel files",
+    "XlsmFileDesc": "Excel 2007 binary macro-enabled workbook",
+    "XlsmFilesDesc": "Excel 2007 binary macro-enabled workbooks",
+    "XlsxFileDesc": "Excel 2007 workbook",
+    "XlsxFilesDesc": "Excel 2007 workbooks",
+    "XMLFileDesc": "XML file",
+    "XMLFilesDesc": "XML files",
+    "XSDFileDesc": "XML schema file",
+    "XSDFilesDesc": "XML schema files",
+    "XslXsltFileDesc": "XML transformation file",
+    "XslXsltFilesDesc": "XML transformation files"
+  },
+  "filedialog/FileStorageUtils": {
+    "Folder": "Folder"
+  },
+  "filedialog/OpenDialogForm": {
+    "AbsolutePathCaption": "Absolute",
+    "BtnOpen": "Open",
+    "PathNotExists": "\"{0}\" path does not exist",
+    "RelativePathCaption": "Relative"
+  },
+  "filedialog/SaveDialogForm": {
+    "BtnSave": "Save",
+    "CantCreateFolder": "Failed to create \"{0}\" folder",
+    "CreateFolderTitle": "Create Folder",
+    "FileAlreadyExists": "A file with the same name already exists",
+    "FolderAlreadyExists": "A folder with the same name already exists",
+    "NeedNotEmptyFolderName": "It is required to specify a non-empty folder name",
+    "NewFolderName": "New folder name:",
+    "OverwritePromptMsgFmt": "\"{0}\" already exists. Do you want to replace it?",
+    "OverwritePromptTitle": "Confirm Save As",
+    "TitleSave": "Save File"
+  },
+  "filestorage/CopyPasteManager": {
+    "CantCopyInTheSameDirectory": "Failed to copy into the same directory",
+    "CantPasteFile": "Failed to paste file",
+    "CantPasteFolder": "Failed to paste folder",
+    "Copied": "Copied",
+    "Cuted": "Cut",
+    "HasNotStorageItems": "No files to be copied\/cut",
+    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
+    "ServerPasteException": "Server error message: "
+  },
+  "filestorage/DragAndDropHandler": {
+    "DropText": "Drag and drop to start the upload",
+    "EmptyDirectoryText": "Folder is empty. Drag files to this area to upload them"
+  },
+  "filestorage/FileDownloader": {
+    "CantSaveDownLoadedFile": "Failed to save the downloaded file"
+  },
+  "filestorage/FileSenderManager": {
+    "FileAlreadyOpenForWriting": "\"{0}\" file to be loaded is simultaneously opened by someone to be written. The downloaded file may not contain the latest changes.",
+    "FileAlreayLoading": "\"{0}\" file download is already in progress. Wait until the completion or cancel the download process."
+  },
+  "filestorage/FileStorageForm": {
+    "BadBrowserMsg": "This operation is not supported in our browser.",
+    "CantCreateFolder": "Failed to create folder",
+    "CantDeleteFile": "Failed to delete file",
+    "CantDeleteFolder": "Failed to delete folder",
+    "CantDownloadFolder": "Directory downloads have not been implemented yet",
+    "ConfirmDeleteAll": "Do you really want to delete all?",
+    "ConfirmDeleting": "Do you really want to delete the selection?",
+    "ConfirmStopLoaders": "Active downloads will be canceled. Do you want to continue?",
+    "CopyError": "Error while copying to clipboard:",
+    "CreateDirectoryTitle": "New Folder",
+    "DeleteAllTitle": "Delete All Directory Files",
+    "DirectoryAlreadyExists": "A directory with the same name already exists",
+    "FileAlreadyExists": "A file with the same name already exists",
+    "FileStorageNotConnected": "No connection to file storage",
+    "FullPathCopied": "Полные имена выделенных файлов скопированы в буфер обмена",
+    "HasNotStorageItems": "No files to be copied\/cut",
+    "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
+    "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
+    "Open": "Open",
+    "RenamingStorageItem": "Rename",
+    "SetNewDirectoryName": "New folder name:",
+    "SetNewName": "New name:"
+  },
+  "filestorage/FileUploader": {
+    "ErrFileMayBeDeleted": "File loading error. The file may have been deleted from the disk",
+    "ErrFileUpload": "File loading error"
+  },
+  "filestorage/LoaderViewController": {
+    "DownloadWindowTitle": "File Download",
+    "ErrCancelLoaders": "Error cancelling operations",
+    "UploadWindowTitle": "Upload Files to Server"
+  },
+  "filestorage/LoadView": {
+    "CancelAllConfirm": "Do you really want to cancel all downloads?",
+    "CancelAllLoadersBtn": "Cancel All",
+    "ErrCancelAllLoaders": "Error cancelling operations"
+  },
+  "filtersview/FilterItem": {
+    "EndingWith": "ending with",
+    "Equal": "=",
+    "GetValueList": "Get list",
+    "Greater": ">",
+    "GreaterOrEqual": ">=",
+    "In": "listed",
+    "InvalidFilter": "Not configured",
+    "IsFalse": "FALSE",
+    "IsNotNull": "Not null",
+    "IsNull": "null",
+    "IsTrue": "TRUE",
+    "Less": "<",
+    "LessOrEqual": "<=",
+    "Like": "contains",
+    "NotEndingWith": "not ending with",
+    "NotEqual": "<>",
+    "NotIn": "not listed",
+    "NotLike": "does not contain",
+    "NotStartingWith": "not starting with",
+    "SetLabel": "List",
+    "StartingWith": "starting with",
+    "ValueListIsEmpty": "No values"
+  },
+  "filtersview/FiltersView": {
+    "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
+    "DeleteAllTitle": "Delete all Conditions"
+  },
+  "highcharts/Extensions": {
+    "HighchartsAreNotLoaded": "To add extensions it is required to load Highchats first"
+  },
+  "highcharts/Localization": {
+    "Loading": "Loading..."
+  },
+  "highcharts/Themes": {
+    "Dark": "Dark",
+    "DarkBlue": "Navy",
+    "DarkGreen": "Dark green",
+    "Default": "Standard",
+    "Gray": "Grey",
+    "Grid": "Table",
+    "GridLight": "Light table",
+    "NoThemeFmt": "Theme with \"{0}\" name not found. Default theme will be used",
+    "SandSignica": "Sand"
+  },
+  "homepage/Banner": {
+    "ErrVersionWrongServiceResponse": "Bad service response with the information on the latest version",
+    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
+    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionIsAvaliableFmt": "Latest stable version {0} is available"
+  },
+  "homepage/HomePage": {
+    "CleanConfirm": "Do you want to clean the list of recently opened packages?",
+    "CleanConfirmOk": "Clean",
+    "CleanTitle": "Clean List",
+    "HomePageLocale": "en",
+    "NoNewsLog": "Failed to get news",
+    "RemoveFromHistoryFmt": "No \"{0}\" file found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
+    "RemoveFromHistoryTitle": "No file found",
+    "RemoveNoRightsFmt": "User \"{0}\" has no rights to open the package",
+    "RemoveNoRightsTitle": "Failed to open package"
+  },
+  "imports/dbimport/DBImportSql": {
+    "Parameter": "Parameter",
+    "SQLEditorPlaceholder": "Введите текст SQL запроса",
+    "Substitution": "Подстановка"
+  },
+  "imports/dbimport/DBImportTable": {
+    "DBObjectsNamesakesExists": "Обнаружено несколько таблиц с именем \"{0}\", выберите таблицу в списке или дополните именем схемы",
+    "ExistTableDoesNotMatchFilter": "Таблица(представление) \"{0}\" подготовлена к работе. Не удалось выделить в списке, т.к. не соответствует фильтру.",
+    "FieldDoesNotExist": "Поля \"{0}\" больше нет в таблице(представлении) \"{1}\"",
+    "ObjectDoesNotExist": "Таблица(представление) \"{0}\" не обнаружена"
+  },
+  "imports/dbimport/DBImportWizard": {
+    "FieldsDoesNotExist": "Обнаружены несуществующие поля",
+    "FieldsNotSelected": "Выберите поля для предпросмотра",
+    "ImportFieldsNotSelected": "Необходимо выбрать поля для импорта",
+    "InsertTableMenuItemText": "Вставить имя в редактор SQL кода",
+    "NoConnection": "No connection",
+    "NotConnectedError": "No connection with database",
+    "ObjectDoesNotExist": "Таблица(представление) \"{0}\" не обнаружена",
+    "PreviewTableNotSelected": "Выберите таблицу для предпросмотра",
+    "SelectTableMenuItemText": "Выбрать таблицу"
+  },
+  "imports/dbimport/DBObjects": {
+    "DBObjectsFilterField": "Фильтрация",
+    "DBObjTypeNone": "Other",
+    "DBObjTypeSchema": "Schemas",
+    "DBObjTypeTable": "Tables",
+    "DBObjTypeView": "Views",
+    "ErrAccesToDbObject": "Невозможно получить доступ к объекту \"{0}\". Причина: \"{1}\""
+  },
+  "imports/dwh/DWImportWizard": {
+    "ConfirmDeleteAllFields": "Do you really want to delete all selected columns?",
+    "FactAggregationTipFmt": "(Aggregation by default - {0})",
+    "FuncAggregatesUndefined": "Not defined",
+    "GetValueList": "Get list",
+    "MetaDataNodeTypeAttr": "Attribute",
+    "MetaDataNodeTypeCube": "Cube",
+    "MetaDataNodeTypeDim": "Dimension",
+    "MetaDataNodeTypeFact": "Fact",
+    "MetaDataNodeTypeItem": "Item",
+    "MetaDataNodeTypeLevel": "Level",
+    "MetaDataNodeTypeProc": "Process",
+    "TriggerTip": "Edit..."
+  },
+  "imports/dwh/DWObjectWizard": {
+    "ErrNoSelectedObject": "Specify Data Warehouse object",
+    "ErrObjectNotFound": "\"{0}\" ({1}) Data Warehouse object not found",
+    "NoConnection": "No connection"
+  },
+  "imports/excelfile/ImportExcelFilePreviewWizard": {
+    "ComboItemNoData": "<No data>",
+    "ErrInvalidRange": "Invalid range"
+  },
+  "imports/excelfile/SpreadsheetsPreviewFrame": {
+    "FileNotLoaded": "File not open",
+    "NullSheetID": "Sheet undefined",
+    "SheetNotFoundByNameFmt": "\"{0}\" sheet not found in Excel workbook",
+    "SheetNotFoundByNumberFmt": "Sheet #{0} not found in Excel workbook"
+  },
+  "imports/onec8query/CodeMirrorOneCv8Controller": {
+    "QueryPlaceholder": "Enter query text"
+  },
+  "imports/onec8query/OneC8QueryImportWizard": {
+    "NoConnection": "No connection",
+    "NotConnectedError": "No connection with database"
+  },
+  "imports/textfile/DateFormatStore": {
+    "Default": "Default"
+  },
+  "imports/textfile/DateSeparatorStore": {
+    "BackSlash": "Backslash (\\)",
+    "Default": "Default",
+    "Hyphen": "Hyphen (-)",
+    "Point": "Dot (.)",
+    "Slash": "Slash (\/)"
+  },
+  "imports/textfile/DecimalSeparatorStore": {
+    "Comma": "Comma (,)",
+    "Default": "Default",
+    "Point": "Dot (.)"
+  },
+  "imports/textfile/DelimiterStore": {
+    "Comma": "Comma",
+    "Semicolon": "Semicolon",
+    "Space": "Space",
+    "TabCharacter": "Tab character"
+  },
+  "imports/textfile/EncodingStore": {
+    "Encoding1": "Cyrillic (1251)",
+    "Encoding2": "West European (1252)"
+  },
+  "imports/textfile/ImportTextFileParamsWizard": {
+    "CollapseColumnDefsTuning": "Collapse",
+    "ExpandColumnDefsTuning": "Expand",
+    "FormatTypeChangedInfo": "When saving, data format was changed to separator format"
+  },
+  "imports/textfile/TextQualifierStore": {
+    "BackQuote": "Back quote (`)",
+    "DoubleQuote": "Double quote (\")",
+    "Empty": "None",
+    "Quote": "Single quote (')"
+  },
+  "imports/textfile/TimeFormatStore": {
+    "Default": "Default"
+  },
+  "imports/textfile/TimeSeparatorStore": {
+    "Colon": "Colon (:)",
+    "Default": "Default",
+    "Point": "Dot (.)"
+  },
+  "imports/textfile/ValueFalseStore": {
+    "False1": "False",
+    "False2": "False",
+    "False3": "No"
+  },
+  "imports/textfile/ValueTrueStore": {
+    "True1": "True",
+    "True2": "True",
+    "True3": "Yes"
+  },
+  "imports/xml/CommonImport": {
+    "ExpandLimitWarning": "Not all nodes were opened because the number of opened nodes exceeded the allowable limit."
+  },
+  "imports/xml/ImportXmlFieldsWizard": {
+    "EmptyNamespace": "Empty namespace"
+  },
+  "imports/xml/ImportXmlPreviewWizard": {
+    "ErrNoFile": "Nonexistent XML file name specified"
+  },
+  "lib/Classes": {
+    "ErrInvalidIndex": "{0} index value of \"{1}\" parameter is out of [{2}; {3}] range"
+  },
+  "lib/Color": {
+    "AliceBlue": "Alice blue",
+    "AntiqueWhite": "Antique white",
+    "Aqua": "Aqua",
+    "Aquamarine": "Aquamarine",
+    "Azure": "Azure",
+    "Beige": "Beige",
+    "Bisque": "Bisque",
+    "Black": "Black",
+    "BlanchedAlmond": "Blanched almond",
+    "Blue": "Blue",
+    "BlueViolet": "Blue violet",
+    "Brown": "Brown",
+    "BurlyWood": "Burly wood",
+    "CadetBlue": "Cadet blue",
+    "Chartreuse": "Chartreuse",
+    "Chocolate": "Chocolate",
+    "Coral": "Coral",
+    "CornflowerBlue": "Cornflower blue",
+    "Cornsilk": "Cornsilk",
+    "Crimson": "Crimson",
+    "DarkBlue": "Dark blue",
+    "DarkCyan": "Dark cyan",
+    "DarkGoldenRod": "Dark golden rod",
+    "DarkGray": "Dark gray",
+    "DarkGreen": "Dark green",
+    "DarkKhaki": "Dark khaki",
+    "DarkMagenta": "Dark magenta",
+    "DarkOliveGreen": "Dark olive green",
+    "DarkOrange": "Dark orange",
+    "DarkOrchid": "Dark orchid",
+    "DarkRed": "Dark red",
+    "DarkSalmon": "Dark salmon",
+    "DarkSeaGreen": "Dark sea green",
+    "DarkSlateBlue": "Dark slate blue",
+    "DarkSlateGray": "Dark slate gray",
+    "DarkTurquoise": "Dark turquoise",
+    "DarkViolet": "Dark violet",
+    "DeepPink": "Deep pink",
+    "DeepSkyBlue": "Deep sky blue",
+    "DimGray": "Dim gray",
+    "DodgerBlue": "Dodger blue",
+    "FireBrick": "Fire brick",
+    "FloralWhite": "Floral white",
+    "ForestGreen": "Forest green",
+    "Fuchsia": "Fuchsia",
+    "Gainsboro": "Gainsboro",
+    "GhostWhite": "Ghost white",
+    "Gold": "Gold",
+    "GoldenRod": "Golden rod",
+    "Gray": "Gray",
+    "Green": "Green",
+    "GreenYellow": "Yellow green",
+    "HoneyDew": "Honey dew",
+    "HotPink": "Hot pink",
+    "IndianRed": "Indian red",
+    "Indigo": "Indigo",
+    "Ivory": "Ivory",
+    "Khaki": "Khaki",
+    "Lavender": "Lavender",
+    "LavenderBlush": "Lavender blush",
+    "LawnGreen": "Lawn green",
+    "LemonChiffon": "Lemon chiffon",
+    "LightBlue": "Light blue",
+    "LightCoral": "Light coral",
+    "LightCyan": "Light cyan",
+    "LightGray": "Light gray",
+    "LightGreen": "Light green",
+    "LightPink": "Light pink",
+    "LightSalmon": "Light salmon",
+    "LightSeaGreen": "Light sea green",
+    "LightSkyBlue": "Light sky blue",
+    "LightSlateGray": "Light slate gray",
+    "LightSteelBlue": "Light steel blue",
+    "LightYellow": "Light yellow",
+    "Lime": "Lime",
+    "LimeGreen": "Lime green",
+    "Linen": "Linen",
+    "Maroon": "Maroon",
+    "MediumAquaMarine": "Medium aquamarine",
+    "MediumBlue": "Medium blue",
+    "MediumOrchid": "Medium orchid",
+    "MediumPurple": "Medium purple",
+    "MediumSeaGreen": "Medium sea green",
+    "MediumSlateBlue": "Medium slate blue",
+    "MediumSpringGreen": "Medium spring green",
+    "MediumTurquoise": "Medium turquoise",
+    "MediumVioletRed": "Medium violet red",
+    "MidnightBlue": "Midnight blue",
+    "MintCream": "Mint cream",
+    "MistyRose": "Misty rose",
+    "Moccasin": "Moccasin",
+    "NavajoWhite": "Navajo white",
+    "Navy": "Navy",
+    "OldLace": "Old lace",
+    "Olive": "Olive",
+    "OliveDrab": "Olive drab",
+    "Orange": "Orange",
+    "OrangeRed": "Orange red",
+    "Orchid": "Orchid",
+    "PaleGoldenRod": "Pale golden rod",
+    "PaleGreen": "Pale green",
+    "PaleTurquoise": "Pale turquoise",
+    "PaleVioletRed": "Pale violet red",
+    "PapayaWhip": "Papaya whip",
+    "PeachPuff": "Peach puff",
+    "Peru": "Peru",
+    "Pink": "Pink",
+    "Plum": "Plum",
+    "PowderBlue": "Powder blue",
+    "Purple": "Purple",
+    "Red": "Red",
+    "RosyBrown": "Rosy brown",
+    "RoyalBlue": "Royal blue",
+    "SaddleBrown": "Saddle brown",
+    "Salmon": "Salmon",
+    "SandyBrown": "Sandy brown",
+    "SeaGreen": "Sea green",
+    "SeaShell": "Sea shell",
+    "Sienna": "Sienna",
+    "Silver": "Silver",
+    "SkyBlue": "Sky blue",
+    "SlateBlue": "Slate blue",
+    "SlateGray": "Slate gray",
+    "Snow": "Snow",
+    "SpringGreen": "Spring green",
+    "SteelBlue": "Steel blue",
+    "Tan": "Tan",
+    "Teal": "Teal",
+    "Thistle": "Thistle",
+    "Tomato": "Tomato",
+    "Transparent": "Transparent",
+    "Turquoise": "Turquoise",
+    "Violet": "Violet",
+    "Wheat": "Wheat",
+    "White": "White",
+    "WhiteSmoke": "White smoke",
+    "Yellow": "Yellow",
+    "YellowGreen": "Green yellow"
+  },
+  "lib/DateUtils": {
+    "After": "from",
+    "AvailableData": "data set",
+    "Before": "to",
+    "CurrentData": "current date",
+    "DayFirstPostfix": "first",
+    "DayLastPostfix": "last",
+    "DayPeriodNameFew": "days",
+    "DayPeriodNameMany": "days",
+    "DayPeriodNameOne": "day",
+    "ManyFirstPostfix": "first",
+    "ManyLastPostfix": "last",
+    "MonthFirstPostfix": "first",
+    "MonthLastPostfix": "last",
+    "MonthPeriodNameFew": "months",
+    "MonthPeriodNameMany": "months",
+    "MonthPeriodNameOne": "month",
+    "NegativePostfix": "not",
+    "OtherFirstPostfix": "first",
+    "OtherLastPostfix": "last",
+    "PluralRuleLang": "en",
+    "QuarterFirstPostfix": "first",
+    "QuarterLastPostfix": "last",
+    "QuarterPeriodNameFew": "quarters",
+    "QuarterPeriodNameMany": "quarters",
+    "QuarterPeriodNameOne": "quarter",
+    "WeekFirstPostfix": "first",
+    "WeekLastPostfix": "last",
+    "WeekPeriodNameFew": "weeks",
+    "WeekPeriodNameMany": "weeks",
+    "WeekPeriodNameOne": "week",
+    "WrongPeriodNameFew": "periods",
+    "WrongPeriodNameMany": "periods",
+    "WrongPeriodNameOne": "period",
+    "YearFirstPostfix": "first",
+    "YearLastPostfix": "last",
+    "YearPeriodNameFew": "years",
+    "YearPeriodNameMany": "years",
+    "YearPeriodNameOne": "year"
+  },
+  "lib/Exceptions": {
+    "Error": "Error occurred while the program was running.\n{0}",
+    "ErrWindowFull": "Error occurred while the program was running.\nError: \"{0}\"\nUrl: \"{1}\"\nString: {2} Symbol: {3}",
+    "ErrWindowUrl": "Error occurred while the program was running.\nUrl: \"{1}\"\nString: {2} Symbol: {3}",
+    "UndefinedError": "Unknown error"
+  },
+  "lib/Loader": {
+    "ErrClassName": "Invalid \"{0}\" class name.",
+    "ErrReaddScriptToLoad": "Re-add \"{0}\" script to load",
+    "ErrScriptLoadFailed": "Failed to load \"{0}\" script. Status: {1}, Error: {2}",
+    "ErrScriptLoadingAsync": "\"{0}\" script has already been asynchronously loading"
+  },
+  "lib/Message": {
+    "AlwaysYes": "Yes, don't ask again",
+    "ErrorTitle": "Error",
+    "GoToNotifySource": "Go to",
+    "InfoTitle": "Info",
+    "WarningTitle": "Warning"
+  },
+  "lib/StrUtils": {
+    "BytesSuffix": "byte",
+    "ErrInvalidDigitsValue": "Digits in other languages are not supported",
+    "ErrInvalidFormatValue": "{0} string is not compatible with {1} format",
+    "FalseText": "false",
+    "GigaBytesSuffix": "GB",
+    "KiloBytesSuffix": "KB",
+    "MegaBytesSuffix": "MB",
+    "TrueText": "true"
+  },
+  "lib/ViewController": {
+    "ErrViewClassName": "The view class name \"{0}\" is invalid"
+  },
+  "listview/ListView": {
+    "Delete": "Delete",
+    "Description": "Comment",
+    "Group": "Group",
+    "Title": "Caption"
+  },
+  "login/Login": {
+    "VersionLabelFmt": "Version: {0}"
+  },
+  "mxgraph/annotation/Annotation": {
+    "ErrAnnotationNotSaved": "Не удалось сохранить заметку",
+    "ErrAnnotationSizeNotSaved": "Не удалось сохранить размеры заметки",
+    "ErrParseItemID": "Не удается получить номер стиля из itemID элемента меню",
+    "ErrStyleNum": "Номер стиля выходит за границы диапазона"
+  },
+  "mxgraph/graph/Graph": {
+    "ImplementThisInModelForm": "This function must be implemented in ModelForm",
+    "LeaveSubmodel": "Move out"
+  },
+  "mxgraph/handler/PortConnectionAbstract": {
+    "CycleLinksForbiden": "Cyclic references are not possible"
+  },
+  "mxgraph/node/comment/Comment": {
+    "CommentBtn": "Show\/Hide Comment",
+    "ErrCommentVisiblyNotSaved": "Не удалось сохранить состояние комментария",
+    "NodeIsLocked": "Comment change forbidden: node is locked"
+  },
+  "mxgraph/node/comment/Note": {
+    "ErrCommentExpandNotSaved": "Не удалось сохранить состояние комментария",
+    "ErrCommentNotSaved": "Failed to save comment",
+    "ErrCommentSizeNotSaved": "Не удалось сохранить размеры комментария",
+    "NodeIsLocked": "Comment change forbidden: node is locked",
+    "WrongCommentValue": "Invalid comment value"
+  },
+  "mxgraph/node/controls/ControlsAbstract": {
+    "ActionsBtn": "Other Actions",
+    "ControlStopBtn": "Processing Stop",
+    "DeactivateNodeBtn": "Deactivate Node",
+    "LaunchBtn": "Run node",
+    "SettingBtn": "Settings",
+    "SetupViewersBtn": "Configure Visualizers"
+  },
+  "mxgraph/node/informer/InfoMagicButton": {
+    "IheritanceSourceBtn": "Show Base Node",
+    "ReferenceSourceBtn": "Show Reference Source"
+  },
+  "mxgraph/node/informer/Visualizer": {
+    "Visualizer": "Visualizer"
+  },
+  "mxgraph/node/InheritedNode": {
+    "VendorModified": "The base node has been changed and now it is out of sync. An update or reset to the original configuration of the derived node is required"
+  },
+  "mxgraph/node/label/GenericEnterLabel": {
+    "GenericEnterLabel": "Enter"
+  },
+  "mxgraph/node/label/Label": {
+    "ErrLabelNotSaved": "Failed to save caption",
+    "NodeIsLocked": "Caption edit forbidden: node is locked",
+    "NodeLabel": "Node caption",
+    "WrongLabelValue": "Invalid caption value"
+  },
+  "mxgraph/node/NodeAbstract": {
+    "StatusError": "Node component error",
+    "StatusNotInitialized": "Node not initialized",
+    "StatusPristine": "Inactive node",
+    "StatusSuccess": "Node successfully run",
+    "StatusWarning": "Warning"
+  },
+  "mxgraph/port/AddPort": {
+    "AddPortDescription": "\nDrag'n'Drop of outgoing port of another node\n will automatically create the required port if there is a compatible candidate.",
+    "AddPortDisplayName": "Add another port."
+  },
+  "mxgraph/port/Port": {
+    "NoAutoMapping": "Automapping of fields disabled",
+    "OptionalPortParam": "Optional port",
+    "RequiredPortParam": "Required port (connection is required to run the node)"
+  },
+  "mxgraph/port/PortAbstract": {
+    "CONNECTION": "Connection",
+    "CONTROL_VARIABLES": "Control variables",
+    "DATASOURCE": "Data set",
+    "DATATREE": "Data tree",
+    "INHERITANCE": "Inheritance",
+    "MODEL": "Model",
+    "ORDER": "Execution order",
+    "PortActive": "Active port, data available",
+    "PortConfigured": "Port configured",
+    "PortInActive": "Port not configured",
+    "PortPartlyConfigured": "Port partially configured",
+    "REFERENCE": "Reference",
+    "TYPE_UNDEFINED": "Undefined port type",
+    "VARIABLES": "Variables"
+  },
+  "navigation/NavigationPanel": {
+    "PathBeforeText": "Path:",
+    "PathEditTooltip": "Click to change",
+    "PathLabel": "Path"
+  },
+  "navigation/NavigationToolbar": {
+    "TextGoBack": "Go back",
+    "TextGoForward": "Go forward",
+    "TextGoUp": "Go up",
+    "TextRefresh": "Refresh",
+    "TextShare": "Share..."
+  },
+  "packages/deductor-theme/const/Palletes": {
+    "Composite": "Composite",
+    "Elegant": "Elegant",
+    "Quiet": "Quiet",
+    "QuietContrast": "Quiet contrast",
+    "Spectrum": "Spectrum",
+    "Warm": "Warm",
+    "WarmContrast": "Warm contrast"
+  },
+  "plotly/PlotlyLoader": {
+    "PlotlyLanguage": "en"
+  },
+  "plotly/Theme": {
+    "Ggplot2": "Ggplot2",
+    "NoThemeFmt": "Theme with \"{0}\" name not found. Default theme will be used",
+    "PlotlyClassic": "Standard",
+    "PlotlyDark": "Dark",
+    "PlotlyGray": "Grey",
+    "PlotlyWhite": "White",
+    "Seaborn": "Seaborn"
+  },
+  "progress/ProgressForm": {
+    "ErrorInfoText": "{0} {1}: {2}.",
+    "ErrProcessWasDisposed": "Process or subprocesses have already been deleted",
+    "MsgClearText": "Do you want to clear descriptions of terminated processes?",
+    "MsgProcessingAborted": "Processing aborted",
+    "MsgStoplText": "Do you want to cancel all processes?",
+    "ProcessActionDeleteTip": "Delete process",
+    "ProcessActionStopTip": "Cancel process",
+    "TimeSpanDay": "d ",
+    "TimeSpanFormat": "s\\s u\\m\\s",
+    "TimeSpanHour": "h ",
+    "TimeSpanMinutesFormat": "i\\m "
+  },
+  "propedit/CustomPropEdit": {
+    "ErrDataType": "Property data type is incompatible with component",
+    "ErrInputParameters": "Invalid input parameters",
+    "ErrPropertyFind": "No information found for this interface link",
+    "ErrSelectVariable": "Select variable",
+    "ErrSetValue": "Failed to set value"
+  },
+  "propedit/PropEditUtils": {
+    "ErrControlIsNil": "No editor specified",
+    "ErrPropertyOwnerIsNil": "No interface specified",
+    "ErrPropertyPathIsNil": "Не задано имя свойства"
+  },
+  "rpc/CustomClient": {
+    "ErrConnectToServerEx": "Failed to connect to server.\nError: {0}.",
+    "ErrSocketNotPrepared": "Socket is not prepared."
+  },
+  "rpc/EnumTypeInfoService": {
+    "ErrEnumTypeInfoServiceManagerNotInstalled": "Enumeration metadata service manager not initialized",
+    "ErrEnumTypeInfoServiceNotInit": "Enumeration metadata service not initialized",
+    "ErrEnumTypeNotFound": "Enumeration not found in client: \"{0}\"",
+    "ErrQualifiedNameNotFound": "Failed to get enumeration identifier"
+  },
+  "rpc/Exceptions": {
+    "ErrAbstractFunction": "Abstract method \"{0}\" was called",
+    "ErrAggregateExceptionMessage": "Exceptions occurred while processing",
+    "ExceptionClassFmt": "EXCEPTION CLASS: {0}",
+    "InnerExceptionTitle": "INTERNAL EXCEPTIONS:",
+    "MessageFmt": "MESSAGE: {0}",
+    "OperationAborted": "Operation aborted",
+    "SenderNameFmt": "SENDER: {0}",
+    "StackTraceFmt": "TRACE:\n{0}"
+  },
+  "rpc/ExecutionContext": {
+    "ErrExecutionContextNotInstalled": "No reference to execution context provided",
+    "ErrExternalExecutionContextManagerNotInstalled": "External execution context manager not installed"
+  },
+  "rpc/Interfaces": {
+    "ErrObjectIsNil": "Null object reference",
+    "ErrUpdatableNotSupported": "IBGUpdatable interface is not supported by object"
+  },
+  "rpc/QueueException": {
+    "ErrQueueExceptionEndUnexpected": "Attempt to end the queued exception block handling without its start",
+    "ErrUnknownInnerExceptionIsIgnored": "Internal exception of unknown {0} type ignored"
+  },
+  "rpc/rtl/Int64": {
+    "ErrInvalidInt64": "\"{0}\" is not valid long integer value",
+    "ErrInvalidUInt64": "\"{0}\" is not valid unsigned long integer value",
+    "ErrOutOfRangeInt64": "Number is outside long integer value range",
+    "ErrOutOfRangeUInt64": "Number is outside unsigned long integer value range"
+  },
+  "rpc/rtl/rtl.imp": {
+    "ErrInvalidEnumValue": "\"{0}\" is not valid enum value",
+    "ErrInvalidFloat": "\"{0}\" is not valid floating point value",
+    "ErrInvalidInt32": "\"{0}\" is not valid integer value",
+    "ErrInvalidInt64": "\"{0}\" is not valid long integer value",
+    "ErrInvalidUInt32": "\"{0}\" is not valid unsigned integer value",
+    "ErrInvalidUInt64": "\"{0}\" is not valid unsigned long integer value"
+  },
+  "viewers/BaseView": {
+    "ErrViewIsPanel": "Visualizer must be Ext.panel.Panel descendant",
+    "WarnViewerObjectDeleted": "Processing of \"{0}\" visualizer status change event was canceled because the visualizer was asynchronously deleted"
+  },
+  "viewers/browse/BrowseDataGridClipboard": {
+    "ErrorTooMany": "Failed to copy selected cells to clipboard. Too many rows selected."
+  },
+  "viewers/browse/BrowseFormat": {
+    "ActColInAllInvisibleTip": "Hidden",
+    "ActColInAllVisibleTip": "Visible",
+    "ActHideAll": "Hide all fields",
+    "ActShowAll": "Show all fields"
+  },
+  "viewers/browse/BrowseGoToLine": {
+    "ErrRowNoLessLower": "Row number must be more than or equal to 1",
+    "ErrRowNoMoreUpper": "Row number exceeds the row count in the set",
+    "RowNoInfoFmt": "Row number (1 - {0}):"
+  },
+  "viewers/browse/BrowseSearchParams": {
+    "ByCollsDesc": "by columns",
+    "ByRowsDesc": "by rows",
+    "SingleColDesc": "in column"
+  },
+  "viewers/browse/BrowseUtils": {
+    "ErrColumnNotRenderedFmt": "Failed to add HTML element to column header \"{0}\" | \"{1}\". Column not yet rendered"
+  },
+  "viewers/browse/BrowseView": {
+    "ErrExportFailed": "Failed to export Table:\n{0}",
+    "ErrExportFormFailed": "Failed to export Form:\n{0}",
+    "ErrMaxPage": "There is no page with the index larger than the last index",
+    "ErrMinPage": "There is no page with index smaller than the starting index",
+    "ErrOverRowLimitFmt": "Failed to set row index more than {0}",
+    "ErrPageIndexOutOfRangeFmt": "Invalid {0} page index",
+    "ErrRowIndexOutOfRangeFmt": "Invalid {0} row index",
+    "ExportFileTitle": "Table",
+    "ExportFormFileTitle": "Form",
+    "ExportFormToastTitle": "Export from Form",
+    "ExportToastTitle": "Export from Table",
+    "FilterButtonText": "Filter",
+    "FilterTitle": "Filter",
+    "FindAgainCellFmt": "Find next [{0}]",
+    "FindCellFmt": "Find first [{0}]",
+    "FirstTableRowAction": "First row",
+    "FormatButtonText": "Format",
+    "FormatTitle": "Format",
+    "GoToLineApplyActionText": "Go to",
+    "GoToLineTitle": "Go to Row",
+    "LastTableRowAction": "Last row",
+    "MaxPageIndex": "from {0}",
+    "NameRecNoField": "RecNo",
+    "NameRowNoField": "RowNo",
+    "PageDescFmt": "[{0} .. {1}]",
+    "PageInfoNotActive": "Not activated",
+    "PageInfoViewDataInvalid": "Data not ready",
+    "RecNoField": "No",
+    "RowNoField": "#",
+    "RunFilterButtonText": "Filter",
+    "RunSortButtonText": "Sort",
+    "SearchInfoTitle": "Search",
+    "SearchNoFound": "No matches found",
+    "SetSelectedPage": "Selected page",
+    "SortingButtonText": "Sort",
+    "SortingTitle": "Sort",
+    "UndefinedCellValue": "",
+    "WarnExportTableSizeWarning": "The current Table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
+  },
+  "viewers/chart/ChartUtils": {
+    "ApplyDefaultColor": "Apply default color",
+    "DefaultColor": "Default",
+    "InvalidColorFmt": "\"{0}\" is not color"
+  },
+  "viewers/chart/ChartView": {
+    "AddSerieButtonText": "Add",
+    "AxesEditorTitle": "Configure Axes",
+    "ExportTo": "Export to ",
+    "ParametresEditorTitle": "General Settings",
+    "SerieCreatorTitle": "Add Series",
+    "SeriesEditorTitle": "Series Editor"
+  },
+  "viewers/chart/LinkEditor": {
+    "FieldWasRemoved": "{0} field has been deleted or has invalid data type"
+  },
+  "viewers/chart/SeriesEditor": {
+    "AddMenuItemToolTipTemplate": "Add series for \"{0}\" field",
+    "DefaultSerieName": "Series"
+  },
+  "viewers/clusterprofiles/CachedState": {
+    "TotalClusterDisplayName": "Total"
+  },
+  "viewers/clusterprofiles/ClusterProfilesUtils": {
+    "RangeBorderViolationErr": "Range border violation"
+  },
+  "viewers/clusterprofiles/ClusterProfilesView": {
+    "FieldPrefixMax": "to ",
+    "FieldPrefixMin": "from "
+  },
+  "viewers/clusterprofiles/ComparisonController": {
+    "BarHidden": "(hidden)"
+  },
+  "viewers/clusterprofiles/GridController": {
+    "CenterCoord": "Coordinate: ",
+    "CompareTo": " \/ ",
+    "ConversionError": "Failed to convert to number",
+    "EmptyValue": "empty string",
+    "InfiniteValues": "Sample contains infinite values",
+    "NotAvailable": "Not available",
+    "NotComputed": "Not calculated",
+    "NullBar": "null",
+    "NullData": "Field contains only null data",
+    "OutOf": " from ",
+    "OutOfRange": "Received values are out of predefined range",
+    "ResidueBar": "Other",
+    "StringLength": " (string length)",
+    "TooManyValues": "Too many unique values",
+    "UndefinedDataKind": "Undefined data type"
+  },
+  "viewers/common/ViewerCard": {
+    "AddVisualizer": "Add visualizer"
+  },
+  "viewers/common/ViewsForm": {
+    "CantAddGenericInputViewToReport": "Addition of supernode input node visualizers to Reports is not supported",
+    "CreateGroup": "New group...",
+    "CreateGroupTitle": "Create Group",
+    "DeleteAllViews": "Do you want to delete all visualizers?",
+    "DeleteSelected": "Do you want to delete selected?",
+    "DeleteView": "Do you want to delete \"{0}\"?",
+    "Enter": "Enter",
+    "ErrAddingViewToReports": "Error adding visualizer to reports",
+    "GroupAlreadyExists": "A group with the same name already exists",
+    "NeedNotEmptyGroupName": "Group name cannot be empty",
+    "SetNewGroupName": "New group name:",
+    "ShowInReports": "Show in reports",
+    "TitleUndefined": "visualizer",
+    "TuneViews": "Configure visualizers",
+    "VendorNotValid": "Visualizer incompatible with port selected",
+    "VendorTreeViewers": "Visualizers",
+    "VendorUndefined": "No visualizer selected on visualizer panel",
+    "ViewAlreadyInReports": "'{0}' visualizer has already been added",
+    "ViewsAddedToReports": "Added",
+    "WithoutGroup": "Without group"
+  },
+  "viewers/cube/CasesAddPanel": {
+    "ErrEmptyCubeFunctions": "Aggregation function was not selected"
+  },
+  "viewers/cube/CasesCalcGrid": {
+    "CaseNodeCaption": "Measures",
+    "DimNodeCaption": "Dimensions",
+    "SearchDef": "Filter",
+    "TotalNodeCaption": "Total"
+  },
+  "viewers/cube/CasesCalcPanel": {
+    "ErrCaseAlreadyExist": "Measure with \"{0}\" name already exists",
+    "ErrDimAlreadyExist": "\"{0}\" dimension already exists",
+    "ErrWhitespaceExpression": "Expression cannot be empty string"
+  },
+  "viewers/cube/CasesFilterPanel": {
+    "ErrBounds": "Minimum more than maximum",
+    "FilterDisabled": "Filter disabled"
+  },
+  "viewers/cube/CasesTunePanel": {
+    "WarnDependencyCalcCase": "• the calculated measure dependent on the measure will become inactive",
+    "WarnDependencyCaseFilter": "• the measure filter will be disabled as it uses this measure",
+    "WarnDependencyPrefix": "On calculated measure delete, the following changes in the Cube state will occur:",
+    "WarnDependencySuffix": "Do you want to continue action?"
+  },
+  "viewers/cube/CubeDragDropController": {
+    "Ascending": "Ascending",
+    "Collapse": "Collapse",
+    "DeleteItem": "Delete",
+    "Descending": "Descending",
+    "EmptyFilteredDimTooltip": "{0} • No values",
+    "Expand": "Expand",
+    "MultipleFilteredDimTooltip": "{0} [{1} of {2}]",
+    "NoDataFilteredDimTooltip": "{0} • Данные не готовы",
+    "Original": "In original order",
+    "SingleFilteredDimTooltip": "{0} • {1} [{2} of {3}]",
+    "WarnDependencyCaseCalcCase": "• the calculated measure dependent on the field will become inactive (now the field is connected with the unused measure)",
+    "WarnDependencyCaseCaseFilter": "• the measure filter will be disabled as its measure is based on this field",
+    "WarnDependencyDimCalcCase": "• the dimension dependent calculated measure may become inactive",
+    "WarnDependencyDimCaseFilter": "• the measure filter will be disabled as its measure depends on this dimension",
+    "WarnDependencyPrefix": "When executing this action, the following changes in the Cube state will occur:",
+    "WarnDependencySuffix": "Do you want to continue action?"
+  },
+  "viewers/cube/CubeView": {
+    "ChartCaseEmptyText": "No measures",
+    "ChartCaseManyText": "Measures ({0})",
+    "ChartYAxisTitle": "Measures",
+    "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}",
+    "EditSerieColor": "Change color...",
+    "EmptyChart": "No measures to display",
+    "ErrExportFailed": "Failed to export the Cube crosstab:\n{0}",
+    "ExportToastTitle": "Export from the Cube",
+    "HideAllSeries": "Hide all series",
+    "HideSingleCase": "Hide single measure",
+    "InvertSeries": "Invert series visibility",
+    "ResetSerieColor": "Reset color",
+    "SeriesOutOfBoundsMsg": "Chart limits exceeded.\nCurrent number of series: {0}.\nMaximum number of series: {1}",
+    "ShowAllSeries": "Show all series",
+    "TooltipMode": "Tooltip style",
+    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
+  },
+  "viewers/cube/DimensionFilterSelectionPanel": {
+    "DimensionFilterSelectionPanelTitle": "Check by pattern"
+  },
+  "viewers/cube/DimensionsFilterPanel": {
+    "AndMore": "\nand also {0} values.",
+    "CheckAllTooltip": "Check all",
+    "MsgClipboardMaxSizeReached": "Maximum clipboard size limit reached.\n Not all values were copied.",
+    "MsgClipboardNoHTTPS": "Connection via HTTPS protocol is required for this operation.",
+    "MsgClipboardReadDenied": "Grant Loginom access to clipboard.",
+    "MsgClipboardRejectedValues": "The values that are not present in the current list:\n",
+    "MsgClipboardUnrecognizedValues": "Unrecognized values:\n",
+    "MsgClipboardUnsupported": "This operation is not supported in our browser.",
+    "MsgClipboardUseHotkey": "\nTo paste data, use hotkey ({0}).",
+    "UncheckAllTooltip": "Uncheck all"
+  },
+  "viewers/cube/DimensionsTunePanel": {
+    "DimCols": "Columns",
+    "Dimensions": "Выбранные измерения",
+    "DimFree": "Filter",
+    "DimRows": "Rows"
+  },
+  "viewers/cube/PivotDataSource": {
+    "CaseDisplayName": "Measure",
+    "CaseFilterDesc": "Measure filter enabled",
+    "ErrInvalidRange": "Out of range index",
+    "FilterCountDesc": "Dimensions with enabled filter",
+    "FunctionDisplayName": "Aggregation",
+    "No": "No",
+    "RecordCountDesc": "Filtered row count",
+    "SourceRecordCountDesc": "Source row count",
+    "SubFunctionCountDesc": "Number of displayed measures",
+    "SubFunctionDisplayName": "Display mode",
+    "WarnCubeSortedColLimit": "Count of sorted headers cannot exceed {0}",
+    "Yes": "Yes"
+  },
+  "viewers/cube/PivotGrid": {
+    "AscSortCaption": "Sort Ascending",
+    "BackwardSortNavButton": "Go to Next Sorted Header",
+    "CaseInvite": "Place fields in the row, column or filter zone by dragging from the left list of the available fields, or by clicking on \"+\" button",
+    "DescSortCaption": "Sort Descending",
+    "ForwardSortNavButton": "Go to Previous Sorted Header",
+    "NestedSortCaption": "Sorted headers among nested headers"
+  },
+  "viewers/dataquality/QualityView": {
+    "ErrExportFailed": "Failed to export Data Quality Tables:\n{0}",
+    "ExportToastTitle": "Export from Data Quality",
+    "NotAvailable": "Not available",
+    "NotCalculated": "Not calculated"
+  },
+  "viewers/dataquality/QualityViewHistogram": {
+    "ColumnTitleInterval": "Bin",
+    "ColumnTitleMark": "Caption",
+    "EmptyValueMark": "Empty",
+    "WhiteSpacesValueMark": "Spaces",
+    "WhiteSpaceValueMark": "Space"
+  },
+  "viewers/dataquality/QualityViewWidgets": {
+    "EmptyValueMark": "Empty",
+    "LeftOutlier": "Minimum outlier: ",
+    "LeftWhisker": "Sample minimum: ",
+    "LowerQuartile": "Lower quartile: ",
+    "Median": "Median: ",
+    "NonUniqueCount": "Unique (not single): ",
+    "NullCount": "Null count: ",
+    "RepeatCount": "Duplicative: ",
+    "RightOutlier": "Maximum outlier: ",
+    "RightWhisker": "Sample maximum: ",
+    "UniqueCount": "Unique (single): ",
+    "UpperQuartile": "Upper quartile: ",
+    "WhiteSpacesValueMark": "Spaces",
+    "WhiteSpaceValueMark": "Space"
+  },
+  "viewers/detailing/Detailing": {
+    "ErrNullEngine": "Visualizer initialization error",
+    "Loading": "Loading"
+  },
+  "viewers/detailing/EmbeddedBrowseForm": {
+    "SelectFirst": "First record",
+    "SelectLast": "Last record",
+    "SelectNext": "Next record",
+    "SelectPrev": "Previous record"
+  },
+  "viewers/duplicates/DuplicatesView": {
+    "InputColumn": "Input field",
+    "OutputColumn": "Output field"
+  },
+  "viewers/fastpreview/DataSetForm": {
+    "MaxRowFmt": "from {0}",
+    "RowNumbererHeaderSymbol": "No"
+  },
+  "viewers/fastpreview/DataTreeForm": {
+    "LoadedNodesLimitNote": "Only the first {0} are shown from the sorted nodes"
+  },
+  "viewers/fastpreview/FastPreviewForm": {
+    "NodeIsNotActive": "Node not activated"
+  },
+  "viewers/LockableView": {
+    "LockMaskText": "Загрузка"
+  },
+  "viewers/regression/LinRegressReportView": {
+    "ModelInfoFValue": "F-statistic",
+    "ModelInfoLogLikelihood": "Log-likelihood",
+    "ModelInfoR2": "R^2",
+    "ModelInfoR2adj": "R^2 adj.",
+    "ModelInfoStdDev": "Standard deviation",
+    "TStatInfoParam": "T-statistic"
+  },
+  "viewers/regression/LogRegressReportView": {
+    "IsEvent": "Event",
+    "IsNotEvent": "Non-event",
+    "ModelInfoChi2": "Chi-square",
+    "ModelInfoDeviance": "Deviance",
+    "ModelInfoNullDeviance": "Deviance of zero model",
+    "ModelInfoR2": "McFadden pseudo-R²",
+    "ModelInfoR2adj": "McFadden pseudo-R² (adj.)"
+  },
+  "viewers/regression/RegressionReportView": {
+    "ModelInfoAIC": "AIC",
+    "ModelInfoAICc": "AICc",
+    "ModelInfoBIC": "BIC",
+    "ModelInfoConstant": "Intercept",
+    "ModelInfoConstantExc": "Excluded",
+    "ModelInfoConstantInc": "Included",
+    "ModelInfoDF": "Degrees of freedom for model",
+    "ModelInfoDFE": "Degrees of freedom for error",
+    "ModelInfoHQC": "HQC",
+    "ModelInfoPValue": "Model P-value"
+  },
+  "viewers/reports/ReportsForm": {
+    "CantDeactivateBefore": "Error: Failed to deactivate the chain of previous nodes to update data",
+    "CantShowSourceModelView": "Error: failed to find source visualizer",
+    "CardIsExists": "Элемент с именем \"{0}\" уже существует в этой группе",
+    "ColumnTitle": "Name",
+    "ConfirmDeleteAll": "Do you really want to delete all?",
+    "ConfirmDeleteSelected": "Do you really want to delete the selection?",
+    "ConfirmDeletingGroup": "Do you really want to delete the reports group?",
+    "ConfirmDeletingReportView": "Do you really want to delete the visualizer from the reports?",
+    "ConfirmLongReload": "Recalculation may take a long time. Do you want to continue?",
+    "CreateGroupTitle": "Create group",
+    "Enter": "Enter",
+    "ErrDeleting": "Error while deleting",
+    "ErrDeletingGroup": "Error while group deleting",
+    "ErrDeletingReport": "Error while visualizer uninstalling",
+    "MoveToReports": "Перенести в \"Отчеты\"",
+    "NeedNotEmptyGroupName": "Новую группу создать не удалось: имя группы не может быть пустым",
+    "SetNewGroupName": "New group name:",
+    "ShowSourceModelView": "Go to source visualizer",
+    "SourceNodeDoesntExists": "The visualizer source node does not exist for this report"
+  },
+  "viewers/reports/ReportsView": {
+    "CantDeactivateBefore": "Error: failed to deactivate the chain of previous nodes to update data",
+    "ConfirmLongRefresh": "Recalculation may take a long time. Do you want to continue?",
+    "NotInitializedError": "Node not initialized",
+    "SourceNodeDoesntExists": "The visualizer source node does not exist for this report",
+    "VendorMalfunctionError": "Node component error",
+    "VendorNotDefined": "No component specified for visualizer"
+  },
+  "viewers/roc/ConfusionMatrix": {
+    "Event": "Event",
+    "NonEvent": "Non-event"
+  },
+  "viewers/roc/ROCView": {
+    "AUC_PR": "AUC PR",
+    "AUC_PR_Tooltip": "Area under the PR curve",
+    "AUC_ROC": "AUC ROC",
+    "AUC_ROC_Tooltip": "Area under the ROC curve",
+    "Cutoff": "Cutoff",
+    "CutoffFPR": "FPR (1-Specificity)",
+    "CutoffFScore": "F1 Score",
+    "CutoffMCC": "MCC",
+    "CutoffMCC_Tooltip": "Matthews correlation coefficient",
+    "CutoffPPV": "PPV",
+    "CutoffPPV_Tooltip": "Positive predictive value",
+    "CutoffTNR": "TNR (specificity)",
+    "CutoffTPR": "TPR (sensitivity)",
+    "CutoffValue": "Value",
+    "FPRShort": "FPR",
+    "GeneralRatings": "Classifier scores",
+    "Gini": "Gini index",
+    "KS": "KS",
+    "KS_Tooltip": "Kolmogorov-Smirnov statistics",
+    "PPVShort": "PPV",
+    "TPRShort": "TPR"
+  },
+  "viewers/statistics/StatView": {
+    "ConversionError": "Failed to convert to number",
+    "ConvertErrorFmt": "Error while statistics calculation by field \"{0}\":\n{1}",
+    "CountOfStrings": "Row count: ",
+    "DaysSuffix": " days",
+    "ErrBounds": "Minimum more than maximum",
+    "InfiniteValues": "Sample contains infinite values",
+    "LeftOutlier": "Minimum outlier: ",
+    "LeftWhisker": "Sample minimum: ",
+    "LowerQuartile": "Lower quartile: ",
+    "Median": "Median: ",
+    "NotAvailable": "Not available",
+    "NotCalculated": "Not calculated",
+    "NullData": "Field contains only null data",
+    "RightOutlier": "Maximum outlier: ",
+    "RightWhisker": "Sample maximum: ",
+    "SliderTipFmt": "{0}: {1}",
+    "SliderTipMax": "max",
+    "SliderTipMin": "min",
+    "StringLengthMax": "Maximum string length: ",
+    "StringLengthMean": "Mean string length: ",
+    "StringLengthMin": "Minimum string length: ",
+    "StringLengthSuffix": " string length: ",
+    "TuneColumnsLabelTitle": "Field Caption",
+    "TuneColumnsTitle": "Configure Fields",
+    "TuneStatisticsLabelTitle": "Statistics Parameter",
+    "TuneStatisticsTitle": "Configure Parameters",
+    "UndefinedDataKind": "Undefined data kind",
+    "UniqueValuesCount": "Values count - ",
+    "UpperQuartile": "Upper quartile: "
+  },
+  "wizards/BaseWizard": {
+    "ErrAbortCaption": "Setup Aborted",
+    "ErrExitExcepitonsCaption": "Errors"
+  },
+  "wizards/code/CodeOutputPreviewForm": {
+    "CodeExec": "Script execution"
+  },
+  "wizards/columndefs/ColumnDefsTuning": {
+    "UsableDesc": "Use"
+  },
+  "wizards/columns/ColumnDefsMappingWizard": {
+    "colDisplayNameText": "Outputs",
+    "colDisplayNameTuneText": "Caption",
+    "CreateMappingToAllConfirm": "Do you really want to create output columns for all inputs?",
+    "EmptyListText": "No matching columns",
+    "frmColumnsMappingTitle": "Adjustment of Columns Mapping",
+    "frmColumnsTitle": "Configure Columns",
+    "GroupField_MissingFields": "Missing columns",
+    "MsgAddedColumnCanNotSelected": "Column has been added, but it is not selected because it does not match the filter",
+    "MsgEditedColumnCanNotSelected": "Column has been renamed, but it is not selected because it does not match the filter",
+    "RemoveAllMappingColumnDefsConfirm": "Do you really want to delete all output columns?"
+  },
+  "wizards/columns/ColumnsMappingWizard": {
+    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found. Do you want to delete all lost links and continue?"
+  },
+  "wizards/columns/DataSetOutputSocketWizard": {
+    "frmColumnsMappingTitle": "Configure Output Columns"
+  },
+  "wizards/columns/DataSourceOutputSocketWizard": {
+    "frmColumnsMappingTitle": "Configure Output Columns"
+  },
+  "wizards/columns/DerivedDataSourceOutputSocketWizard": {
+    "frmColumnsMappingTitle": "Configure Output Columns"
+  },
+  "wizards/columns/EditColumnDefForm": {
+    "AddBtnText": "Add",
+    "AddColumnDefTitle": "Add Column",
+    "DefaultUsageType": "Default usage type",
+    "ErrColumnEmptyName": "Column name cannot be empty",
+    "ErrColumnInvalidIdentifier": "Entered \"{0}\" column name is not a valid identifier",
+    "ErrColumnNameAlreadyExists": "Column with \"{0}\" name already exists",
+    "GroupEditingTitle": "Group Editing",
+    "ModifyBtnText": "Apply",
+    "ModifyColumnDefTitle": "Edit Column"
+  },
+  "wizards/columns/EditTuneColumnDefForm": {
+    "UsageType": "Usage type"
+  },
+  "wizards/columns/TuneDataSourceInputPortWizard": {
+    "frmColumnsMappingTitle": "Configure Input Columns"
+  },
+  "wizards/columns/TuneDataSourceMappingWizard": {
+    "RemoveRequiredMappingColumnDefConfirm": "\"{0}\" column is used. Do you really want to delete it?",
+    "RemoveRequiredMappingColumnDefsConfirm": "There are used columns among the selected columns. Do you really want to delete all selected columns?"
+  },
+  "wizards/columnsdisposition/ColumnsDisposition": {
+    "AvailableField": "Available",
+    "MoveButtonTooltip": "Move to {0}"
+  },
+  "wizards/connection/ConnectionConfigWizard": {
+    "TestConnectionSuccess": "Successful connection test",
+    "TestConnectionTitle": "Test Connection",
+    "WizardTitle": "connection parameters"
+  },
+  "wizards/connection/ConnectionReferenceComponentWizard": {
+    "ConnectionReferenceTitle": "Connection Reference",
+    "ConnectionsColumnTitle": "Connections"
+  },
+  "wizards/connection/ConnectionsViewWizard": {
+    "AccessModification": "Configure visibility...",
+    "BtnShowVendorsEdit": "Show\/Hide Connection Class Tree",
+    "BtnTextTest": "Test",
+    "BtnTooltipConnect": "Activate connection",
+    "BtnTooltipDelete": "Delete connection...",
+    "BtnTooltipEdit": "Configure connection...",
+    "BtnTooltipFilter": "Filter list",
+    "BtnTooltipFind": "Search",
+    "BtnTooltipGroup": "Group list",
+    "BtnTooltipRename": "Rename connection...",
+    "BtnTooltipSort": "Sort list",
+    "BtnTooltipTest": "Test connection",
+    "ClearSort": "Clear sort",
+    "ConnectionPath": "Connection path",
+    "ConnectionRenameTitle": "Rename Connection",
+    "ConnectionStatus": "Connection status",
+    "DeleteConnectionPrompt": "Do you really want to delete {0} connection?",
+    "DeleteConnectionPromptTitle": "Delete Connection",
+    "InsertConnection": "Add connection",
+    "LabelConnectionPath": "Path",
+    "LabelTitle": "Caption",
+    "MultioperationError": "Multioperation error",
+    "NoConnections": "Available extended connections",
+    "PropertyInspectorLocale": "en",
+    "TestConnectionsError": "Multiple connections test error",
+    "TestConnectionSuccess": "Successful connection test",
+    "VendorTreeCaption": "Connections",
+    "VendorTreeConnections": "Data sources"
+  },
+  "wizards/connection/DBConnectionWizard": {
+    "Filename": "File name"
+  },
+  "wizards/datapartition/BiasedMethodForm": {
+    "UniqueValuesLimitError": "{0} field cannot be used for biased sampling due to excess of the unique values number (over {1})"
+  },
+  "wizards/datapartition/PartitionWizard": {
+    "PartitionTitle": "Partitioning"
+  },
+  "wizards/datapartition/RandomUniformMethodForm": {
+    "GroupAbsoluteSize": "Group size in rows",
+    "GroupRelativeSize": "Group size in percent"
+  },
+  "wizards/datapartition/SamplingWizard": {
+    "UnknownValue": "Unknown value"
+  },
+  "wizards/datapartition/SequenceMethodForm": {
+    "UnknownValue": "Unknown value",
+    "UnusedSetName": "Unused"
+  },
+  "wizards/datapartition/SizeGridForm": {
+    "SizeTypePercentTooltip": "Switch to size in rows",
+    "SizeTypeRowTooltip": "Switch to size in percent",
+    "SummaryAbsOverflowErr": "The total row count exceeds the input set row count.",
+    "SummaryRelOverflowErr": "Total percentage must not exceed 100%",
+    "SummarySetName": "Total:",
+    "UnknownValue": "Unknown value"
+  },
+  "wizards/datatree/DataTreeNodeDefsMappingWizard": {
+    "colTargetNodeText": "Output tree",
+    "colTargetNodeTuneText": "Caption",
+    "CreateMappingToAllConfirm": "Do you really want to create output nodes for all inputs?",
+    "frmDataTreeMappingTitle": "Adjustment of Data Trees Mapping",
+    "frmDataTreeTitle": "Configure Data Tree",
+    "MsgAddedDataTreeNodeCanNotSelected": "Node has been added, but it is not selected because it does not match the filter",
+    "MsgConnectedDataTreeNodeCanNotSelected": "Node in the output tree connected, but it is not selected because it does not match the filter",
+    "MsgEditedDataTreeNodeCanNotSelected": "Node has been renamed, but it is not selected because it does not match the filter",
+    "RemoveAllMappingDataTreeNodesConfirm": "Do you really want to delete all output nodes?",
+    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found. Do you want to delete all lost links and continue?",
+    "RemoveNodeWithChildsConfirm": "Do you really want to delete \"{0}\" node with child nodes?",
+    "RemoveRequiredMappingNodeDefConfirm": "\"{0}\" node is used. Do you really want to delete it?",
+    "WarnCannotDeleteRootNode": "It is not possible to delete root node"
+  },
+  "wizards/datatree/DataTreeOutputSocketWizard": {
+    "colTargetNodeText": "Output tree",
+    "frmDataTreeMappingTitle": "Configure Output Data Tree"
+  },
+  "wizards/datatree/DataTreeSourceOutputSocketWizard": {
+    "frmDataTreeMappingTitle": "Configure Output Data Tree"
+  },
+  "wizards/datatree/EditDataTreeNodeDefForm": {
+    "AddBtnText": "Add",
+    "AddNodeDefTitle": "Add Node",
+    "DefaultUsageType": "Default usage type",
+    "ErrNodeEmptyName": "Node name cannot be empty",
+    "ErrNodeInvalidIdentifier": "Entered \"{0}\" node name is not a valid identifier",
+    "ErrNodeNameAlreadyExists": "Node with \"{0}\" name already exists",
+    "ModifyBtnText": "Apply",
+    "ModifyNodeDefTitle": "Edit Node",
+    "UsageType": "Usage type"
+  },
+  "wizards/datatree/TuneDataTreeInputPortWizard": {
+    "frmDataTreeMappingTitle": "Configure Input Data Tree"
+  },
+  "wizards/genericmodelcomponent/GenericModelComponentWizard": {
+    "ActionAdd": "Add",
+    "ActionDelete": "Delete",
+    "ActionDeleteAll": "Delete all...",
+    "ActionInsert": "Paste",
+    "DefaultSocketCaption": "Port",
+    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "EmptyName": "<Unspecified>",
+    "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
+    "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
+    "ErrGetAvalibleSocketDefs": "Failed to get socket defenitions",
+    "ErrMoveDerivedSocket": "Moving derived port forbidden",
+    "SocketLabelFmt": "{0} {1}",
+    "SocketTypeInputDesc": "Inputs",
+    "SocketTypeOutputDesc": "Outputs",
+    "UniqueName": "<Unique>"
+  },
+  "wizards/InputConnectionWizard": {
+    "ConnectCaption": "Connect",
+    "ConnectedCaption": "Connected",
+    "ConnectingCaption": "Connection...",
+    "ExceptionTitle": "Error",
+    "LocalConnection": "Local",
+    "NotConnectedText": "Not connected"
+  },
+  "wizards/InputFileConnectionWizard": {
+    "MsgFileAlreadyExist": "{0} file exists. Do you want to overwrite?",
+    "MsgNotConnected": "Connection is not active. Do you want to activate it now?"
+  },
+  "wizards/normalization/ControlRangeSettings": {
+    "ValidateEditorsErr": "Error in value range control settings"
+  },
+  "wizards/normalization/DiscreteNormParamsForm": {
+    "UserTunedOrder": "Normalizer synchronization error due to explicit order of values",
+    "UserTunedRefId": "Normalizer synchronization error due to explicitly defined reference category"
+  },
+  "wizards/normalization/NormParamsForm": {
+    "ValidateEditorsErr": "Error in settings of normalizer parameters"
+  },
+  "wizards/normalization/NormTuneWizard": {
+    "ErrNormaliserSync": "Failed to auto sync normalizer settings with field data",
+    "InputColumnGroup": "Inputs",
+    "OutputColumnGroup": "Outputs"
+  },
+  "wizards/previewpanel/PreviewPanel": {
+    "DefaultActivationMaskText": "Activation",
+    "DefaultPreparePreviewMaskText": "Prepare preview"
+  },
+  "wizards/random/RandSeedEdit": {
+    "CopyError": "Error while copying to clipboard:",
+    "InvalidRandSeed": "Значение \"{0}\" не является целым числом",
+    "InvalidRandSeedMax": "Random seed должен быть меньше или равен 2147483647",
+    "InvalidRandSeedMin": "Random seed должен быть больше 0",
+    "NoHTTPSMsg": "Для данной операции необходимо соединение по протоколу HTTPS. Для копирования данных используйте горячие клавиши"
+  },
+  "wizards/referencenode/ReferenceNodeComponentWizard": {
+    "ErrNodeDeleted": "Target node has been deleted.",
+    "ErrNodeDeletedFmt": "\"{0}\" target node has been deleted.",
+    "ErrNodeNotFound": "Target node was not found, it may have been deleted or became unavailable.",
+    "ErrNodeNotFoundFmt": "\"{0}\" target node was not found, it may have been deleted or became unavailable.",
+    "NotifyNodeNotSelected": "No target node selected",
+    "ReferenceNodeWizardTitle": "Reference Node",
+    "WarnNodeLoadLimitExceeded": "\"{0}\" target node is not selected.\n {1} limit of loaded node levels has been exceeded."
+  },
+  "wizards/regression/RegressionWizard": {
+    "AboveAccuracy": "Increased accuracy",
+    "AbovePrecision": "Increased accuracy",
+    "AboveSpeed": "Increased speed",
+    "LessFacts": "Less factors",
+    "LowerAccuracy": "Reduced accuracy",
+    "MaxAccuracy": "Accurate data",
+    "MaxFacts": "Maximum factors",
+    "MaxPrecision": "Maximum accuracy",
+    "MaxSpeed": "Maximum speed",
+    "MiddleAccuracy": "Average accuracy",
+    "MiddleFacts": "Average number of factors",
+    "MiddleSpeed": "Average speed",
+    "MinAccuracy": "Unreliable data",
+    "MinFacts": "Minimum factors",
+    "MoreFacts": "More factors"
+  },
+  "wizards/variables/DerivedVariablesMappingEngineOutputPortWizard": {
+    "ProduceTypeDisplayName": "Derived variables creation type"
+  },
+  "wizards/variables/DerivedVariablesOutputSocketWizard": {
+    "frmColumnsMappingTitle": "Configure Output Variables"
+  },
+  "wizards/variables/EditTuneVariableForm": {
+    "UsageType": "Usage type"
+  },
+  "wizards/variables/EditVariableForm": {
+    "AddBtnText": "Add",
+    "AddVariableTitle": "Add Variable",
+    "DefaultUsageType": "Default usage type",
+    "ErrVariableEmptyName": "Variable name cannot be empty",
+    "ErrVariableInvalidIdentifier": "Entered \"{0}\" variable name is not a valid identifier",
+    "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
+    "GroupEditingTitle": "Group Editing",
+    "ModifyBtnText": "Apply",
+    "ModifyVariableTitle": "Edit Variable"
+  },
+  "wizards/variables/VariablesEditValuesWizard": {
+    "frmColumnsMappingTitle": "Configure Variables Values"
+  },
+  "wizards/variables/VariablesEditWizard": {
+    "colDisplayNameTuneText": "Caption",
+    "frmColumnsMappingTitle": "Configure Output Variables",
+    "MsgAddedVariableCanNotSelected": "Variable has been added, but it is not selected because it does not match the filter",
+    "MsgEditedVariableCanNotSelected": "Variable has been renamed, but it is not selected because it does not match the filter",
+    "RemoveAllMappingVariablesConfirm": "Do you really want to delete all variables?"
+  },
+  "wizards/variables/VariablesMappingWizard": {
+    "btnAutoSyncThroughColumnsTooltip": "Automapping",
+    "btnSyncThroughColumnsTooltip": "Map variables",
+    "colDisplayNameText": "Outputs",
+    "colDisplayNameTuneText": "Caption",
+    "CreateMappingToAllConfirm": "Do you really want to create output variables for all inputs?",
+    "EmptyListText": "No matching variables",
+    "frmColumnsMappingTitle": "Adjustment of Variables Mapping",
+    "frmColumnsTitle": "Configure Variables",
+    "GroupField_MissingFields": "Missing variables",
+    "MsgAddedVariableCanNotSelected": "Variable has been added, but it is not selected because it does not match the filter",
+    "MsgEditedVariableCanNotSelected": "Variable has been renamed, but it is not selected because it does not match the filter",
+    "RemoveAllMappingVariablesConfirm": "Do you really want to delete all variables?",
+    "RemoveRequiredMappingVariableConfirm": "\"{0}\" variable is used. Do you really want to delete it?",
+    "RemoveRequiredMappingVariablesConfirm": "There are used variables among the selected variables. Do you really want to delete all selected variables?"
+  },
+  "wizards/WizardActivateInputPorts": {
+    "ActivateCaption": "Activate",
+    "ActivatedCaption": "Activated",
+    "ActivatedText": "Input activated",
+    "ActivatingCaption": "Activating...",
+    "ExceptionTitle": "Error",
+    "NotActivatedText": "Not activated",
+    "NotFoundSocket": "Node does not contain the requested port"
+  },
+  "wizards/WizardForm": {
+    "BtnNextCaption": "Next",
+    "BtnPrevCaption": "Previous",
+    "BtnResizeMaximize": "Expand",
+    "BtnResizeMinimize": "Collapse",
+    "BtnSaveCaption": "Save",
+    "BtnSaveWhateverCaption": "Save Whatever",
+    "BtnWhateverCaption": "Next Whatever",
+    "ConfirmCloseWizard": "Do you really want to close wizard?",
+    "ErrJumpToUndefinedPage": "Jump to undefined page",
+    "MsgBoxTitle": "Attention",
+    "MsgCantJumpToPage": "Next move forbidden"
+  },
+  "wizards/WizardModelComponentForm": {
+    "ErrUnknownObject": "Attempt to get wizard for unknown object"
+  },
+  "wizards/WizardModelConnectionForm": {
+    "BtnConnectCaption": "Connect"
+  }
+}

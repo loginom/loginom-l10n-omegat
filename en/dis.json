@@ -1,0 +1,105 @@
+{
+  "Integrator/Program": {
+    "ErrInitializationException": "Exception occurred during the service initialization",
+    "StartingService": "Запуск сервиса, версия: {0}",
+    "StoppingService": "Остановка сервиса"
+  },
+  "IntegratorCore/ConfigurationSections": {
+    "ErrNoColumnsSpecified": "No column was specified for log-in",
+    "ErrSqlCommandAndTableBothSpecified": "It is forbidden to specify sqlCommand and table attributes simultaneously",
+    "ErrSqlCommandOrTableNotSpecified": "Database element must contain sqlCommand or table attribute"
+  },
+  "IntegratorCore/LoggerManager": {
+    "ErrUnknownLogLevel": "Unknown logging level: {0}"
+  },
+  "IntegratorCore/RestHelpPageGenerator": {
+    "Body": "Message body",
+    "Description": "Description",
+    "ErrInvalidParameterType": "The parameter has an invalid data type: {0}",
+    "Example": "Example",
+    "Format": "Format",
+    "HttpMethod": "HTTP Method: ",
+    "Json": "Json",
+    "JsonRequestExampleDesc": "The following is an example request Json body:",
+    "JsonRequestSchemaDesc": "The following is the request Json Schema:",
+    "JsonResponseExampleDesc": "The following is an example response Json body:",
+    "JsonResponseSchemaDesc": "The following is the response Json Schema:",
+    "MainPageDesc": "This page describes the endpoints of this web service.",
+    "MainPageTitle": "Endpoints at {0}",
+    "MessageDirection": "Message direction",
+    "Method": "Method",
+    "NotAvailable": "No data available",
+    "OperationDesc": "Service at {0}",
+    "OperationPageTitle": "Reference for {0}",
+    "PackagePageDesc": "This page describes the service operations at this endpoint.",
+    "PackagePageTitle": "Operations at {0}",
+    "Request": "Request",
+    "RequestBodyIsEmpty": "The request body is empty.",
+    "Response": "Response",
+    "Schema": "Schema",
+    "Uri": "URI",
+    "Url": "URL: ",
+    "UrlExample": "Пример URL: ",
+    "UrlFormat": "Формат URL: "
+  },
+  "IntegratorCore/ServerConnectionManager": {
+    "AddedPublishedPackage": "The published package \"{1}\" of the version \"{2}\" has been added on the server {0}",
+    "ChangedPublishedPackage": "The published package \"{1}\" of version \"{2}\" has been changed on server {0}",
+    "ChangedPublishedPackages": "The published packages list changed on {0} server",
+    "ConnectedToServer": "Connected to server {0}",
+    "DeletedPublishedPackage": "The published package \"{1}\" of version \"{2}\" was deleted on server {0}",
+    "ErrAddressOrUnixSocketIsRequired": "Атрибут address или unixsocket должен быть определен",
+    "ErrCannotAddPublishedPackage": "\"{1}\" package of \"{2}\" version related to {0} server cannot be published: {3}",
+    "ErrCannotConnectToServer": "{0} server connection failed",
+    "ErrConnectionFailure": "{0} server connection lost",
+    "ErrDifferentPackagesWithSameNameAndVersion": "the package does not match the previously published package with the same name and version",
+    "ErrDuplicateNodeNames": "the package contains more than one node with \"{0}\" name",
+    "ErrEmptyNodeName": "no node name with \"{0}\" caption and {{{1}}} identifier specified",
+    "ErrExecuteNodeConnectionFailure": "{0} server connection lost during request processing",
+    "ErrInvalidPackageNamespace": "\"{0}\" is an invalid namespace",
+    "ErrLoadPackageDefsError": "Error in loading of packages for {0} server",
+    "ErrNoApplicableServers": "No server found on which \"{0}\" package of \"{1}\" version is available.",
+    "ErrNodeNameAlreadyExistsInDifferentPackage": "node with \"{0}\" name already exists in \"{1}\" package of \"{2}\" version",
+    "ErrNoWorkingApplicableServers": "No functioning server found on which \"{0}\" package of \"{1}\" version is available.",
+    "ErrOnlySingleInputPortCanHaveEmptyName": "the input port node {0} has unspecified name and the port is not single",
+    "ErrOnlySingleOutputPortCanHaveEmptyName": "no name specified for {0} output node and the port is not single",
+    "ErrPackageHasNoPublishedNodes": "The package contains no published nodes",
+    "ErrSavePackageDefsError": "Error of saving of packages for {0} server",
+    "ErrServerDisconnectError": "Error of disconnection from {0} server",
+    "ErrUnixSocketIsRequired": "Атрибут unixsocket должен быть определен",
+    "ErrUpdatePackageDefsError": "Error of package update for {0} server"
+  },
+  "IntegratorCore/ServiceHelper": {
+    "CalledUrl": "Url of called method: {0}",
+    "ErrDataSetRowCannotBeNull": "Строка набора данных не должна быть равна null",
+    "ErrInvalidColumnCount": "Invalid column count in the matrix of values: {0}; required: {1}",
+    "ErrInvalidElementCount": "Invalid element count in the data set: {0}; required: {1}",
+    "ErrInvalidRowCount": "Invalid row count in the variable value matrix: {0}",
+    "ErrMissingArrayItem": "Missing \"{0}\" array item",
+    "ErrMissingRequiredParameter": "Missing required \"{0}\" parameter",
+    "ErrMissingRequiredTreeNode": "Missing required \"{0}\" tree node",
+    "ErrMissingRequiredTreeNodeFlag": "Missing required tree node flag \"{0}\"",
+    "ErrProcessingRequestCompleted": "Processing completed successfully",
+    "ErrProcessingRequestException": "Exception occurred during the request processing",
+    "ErrRootElementCannotBeNull": "Root element must not be null",
+    "ErrRootElementMustBeSingle": "Matrix of values must contain only one root element",
+    "ErrUnsupportedFieldType": "\"{0}\" field contains the value of the invalid {1} type",
+    "ExecutePackageInfo": "Processing of \"{0}\" package of {1} version, execution of \"{2}\" node with \"{3}\" name and {{{4}}} identifier",
+    "ReceivedRequest": "Request for processing received",
+    "SendingResponse": "Response sending"
+  },
+  "IntegratorCore/ServiceTypeBuilder": {
+    "ErrNoPublishedPackages": "No published packages",
+    "ErrRootNodeNotFound": "Root tree node not found",
+    "ErrTreeMustHaveSingleRootNode": "Tree cannot contain more than one root node",
+    "NoPublishedPackagesServiceDocumentation": "No packages have been published for now. To use packages as a web service, you must first publish them to Loginom Server."
+  },
+  "IntegratorCore/UriQueryParamsModelBinder": {
+    "WarnDuplicateRequestParameter": "The request contains more than one parameter with {0} name",
+    "WarnUnknownRequestParameter": "The request contains parameter with unknown {0} name"
+  },
+  "ServerConnector/LoginomConnector": {
+    "ErrAlreadyConnected": "Already connected",
+    "ErrNotConnected": "Not connected"
+  }
+}

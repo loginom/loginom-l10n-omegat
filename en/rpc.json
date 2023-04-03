@@ -1,0 +1,80 @@
+{
+  "JS/JsDictionaryExtensions": {
+    "ErrKeyAlreadyExists": "An item with this key already exists in the dictionary"
+  },
+  "Net/BaseSocketMessageTransport": {
+    "ErrIncorrectMessageSize": "Invalid message size: {0}",
+    "ErrIncorrectServerResponse": "Bad server response received"
+  },
+  "Net/ClientObjectProxy": {
+    "ErrDisconnectedProxy": "Client proxy object disconnected",
+    "ErrInterfaceIdentifierMustNotBeNull": "Interface identifier must not be null",
+    "ErrInterfaceNotSupported": "{0} interface not supported by object",
+    "ErrInvalidArgument": "Invalid value of parameter {0}: {1}",
+    "ErrObjectIdIsNotCached": "ObjectId value is not cached"
+  },
+  "Net/Extended80Rec": {
+    "ErrOverflow": "Overflow while attempting to cast value to the Double type",
+    "ErrWrongByteCount": "The byte array length for TBGExtended80Rec must be exactly 10 bytes"
+  },
+  "Net/MessageTransport": {
+    "ErrConnectionFailure": "Remote host connection lost"
+  },
+  "Net/MessageTransportAsync": {
+    "ErrConnectionFailure": "Remote host connection lost"
+  },
+  "Net/PropertySelector": {
+    "ErrInvalidCountSelector": "countSelector must be of collection type => collection.Count",
+    "ErrInvalidItemSelector": "itemSelector must be of (collection, i) type => collection[i]",
+    "ErrInvalidSelector": "selector format must be source type => new { source.Prop1, source.Prop2 ... }",
+    "ErrNoPropertyAttribute": "{0} property does not contain RemotePropertyAttribute",
+    "ErrPropertySelectorValueTypeNotSupported": "{0} type of properties not supported"
+  },
+  "Net/RemoteMessageData": {
+    "ErrArrayLevelNotSupported": "Arrays nesting level above {0} is not supported",
+    "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
+    "ErrMessageSizeOverflow": "Maximum message size exceeded",
+    "ErrUnknownInterfaceGUID": "Interface with {0} identifier not registered",
+    "ErrUnknownInterfaceID": "Unknown interface identifier: {0}",
+    "ErrUnknownInterfaceName": "{0} interface not registered",
+    "ErrUnknownMethodID": "Unknown method identifier {0}",
+    "ErrUnsupportedParameterType": "Unsupported argument type"
+  },
+  "Net/ServerRemoteObjects": {
+    "ErrQueryInterfaceNotAllowed": "Failed to query interface with {0} identifier via QueryInterface",
+    "ErrUnknownMethodID": "Unknown method identifier {0}"
+  },
+  "Net/Session": {
+    "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while SessionHost closing",
+    "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Another RPC exception handler already registered",
+    "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
+    "ErrDisconnectedSession": "Connection lost",
+    "ErrDisconnectedSessionClientOnly": "Server connection lost",
+    "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
+    "ErrInvalidObjectID": "Invalid object identifier: {0}",
+    "ErrInvalidResponseMessageType": "Invalid response message type: {0}",
+    "ErrMainServerObjectNotRegistered": "The main server object is not registered",
+    "ErrMaxObjectIdReached": "Object identifiers limit of {0} values reached",
+    "ErrRpcVersionMismatch": "Client of {0} version cannot get connected to the server of {1} version",
+    "ErrUnknownInterfaceID": "Unknown interface identifier: {0}"
+  },
+  "Net/SessionThreaded": {
+    "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
+    "ErrInvalidMessageSignature": "Unsupported argument type",
+    "ErrUnknownInterfaceID": "Unknown interface identifier: {0}"
+  },
+  "Net/SparseArray": {
+    "ErrCannotAddDefaultValue": "Failed to add a default type value to the sparse array",
+    "ErrItemNotExist": "Item with {0} index does not exist"
+  },
+  "Net/System": {
+    "ErrGetProxyObjectIdCachedDelegateAlreadyAssigned": "GetProxyObjectIdCached delegate already initialized",
+    "ErrGetProxyObjectIdDelegateAlreadyAssigned": "GetProxyObjectId delegate already initialized",
+    "ErrIsDisposedProxyObjectDelegateAlreadyAssigned": "IsDisposedProxyObject delegate already initialized",
+    "ErrIsProxyObjectIdCachedDelegateAlreadyAssigned": "IsProxyObjectIdCached delegate already initialized"
+  },
+  "Net/WebSocketMessageTransport": {
+    "ErrConnectionClosed": "Connection closed by remote host",
+    "ErrFailedToConnectWebSocket": "Failed to connect to the web socket at the following address {0}"
+  }
+}

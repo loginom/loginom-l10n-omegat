@@ -1,0 +1,990 @@
+{
+  "Common/CodeExec/CodeModelComponentEngine": {
+    "CodeModelComponentEngine": {
+      "CodeConfigurableColumns": "Allow creating output columns in script"
+    }
+  },
+  "Common/HTTPClient/HTTPClientEngine": {
+    "HTTPClientEngine": {
+      "CustomHeadersConfigurator": "Custom header settings",
+      "ProduceErrorDescs": "Provide description of error codes",
+      "RequestDebug": "Request debug settings"
+    }
+  },
+  "Common/HTTPClient/HTTPHeaders": {
+    "CustomHeadersConfigurator": {
+      "CustomHeaders": "HTTP Headers"
+    },
+    "HTTPHeaderItem": {
+      "HeaderValue": "Value",
+      "Name": "Name"
+    }
+  },
+  "Common/HTTPClient/WSDLClientAuth": {
+    "WSDLAuthorization": {
+      "CertFileCredentials": "Реквизиты аутентификации пользовательским сертификатом",
+      "Mode": "Authentication Type",
+      "NamePassCredentials": "Username and Password Authentication Credentials",
+      "OAuthCredentials": "OAuth Token Authentication Credentials"
+    },
+    "WSDLCertFileAuthCredentials": {
+      "SSLCert": "User certificate",
+      "SSLKey": "Private key",
+      "SSLKeyPassword": "Private key password"
+    },
+    "WSDLNamePassAuthCredentials": {
+      "Password": "Password",
+      "UserName": "Username"
+    },
+    "WSDLOAuthCredentials": {
+      "Token": "OAuth Token"
+    }
+  },
+  "Common/HTTPClient/WSDLRequestDebug": {
+    "WSDLRequestDebug": {
+      "DumpRequest": "Сохранять текст запроса в папку",
+      "DumpRequestFolder": "Folder to save requests",
+      "ResponseStub": "File name supplied as response",
+      "UseResponseStub": "Simulate request with response in a file"
+    }
+  },
+  "components/assnrules": {
+    "AssnRulesEngine": {
+      "Params": "Algorithm parameters"
+    },
+    "AssnRulesParams": {
+      "ExcludeLargeSupportItems": "Exclude the items with the support exceeding the maximum one",
+      "ExcludeSingleItems": "Exclude single sets",
+      "MaxSupport": "Maximum support, %",
+      "MinConfidence": "Minimum rule confidence, %",
+      "MinLift": "Minimum rule lift",
+      "MinSupport": "Minimum support, %",
+      "NConsequentMax": "Maximum number of consequences",
+      "NItemsMax": "Maximum item count",
+      "SelectColumn": "Containing selected items"
+    }
+  },
+  "components/autocorrelation": {
+    "AutoCorrelationEngine": {
+      "CalcPacf": "Calculate PACF",
+      "DomainCalc": "ACF calculation domain",
+      "LagCount": "Lag count"
+    }
+  },
+  "components/binning": {
+    "BinningBinsDefExtension": {
+      "KindForBins": "Usage type"
+    },
+    "BinningContinuousBinItem": {
+      "LowerBound": "Lower bin bound",
+      "UpperBound": "Upper bin bound"
+    },
+    "BinningCountLinContMethodSettings": {
+      "BinsCount": "Count"
+    },
+    "BinningCustomBinItem": {
+      "BinLabel": "Bin caption",
+      "BinNumber": "Bin index",
+      "BoundModes": "Bin bound mode",
+      "RelativeVolume": "Relative bin volume"
+    },
+    "BinningDefExtension": {
+      "AlwaysDefaultSettings": "Use automatic method settings",
+      "BinsType": "Bins type",
+      "LabelTemplate": "Caption template",
+      "MethodType": "Method"
+    },
+    "BinningLinearCommonMethodSettings": {
+      "LowerLimitOpen": "Lower bound open",
+      "UpperLimitOpen": "Upper bound open"
+    },
+    "BinningLinearContinuousMethodSettings": {
+      "LowerLimit": "Lower bound",
+      "UpperLimit": "Upper bound"
+    },
+    "BinningSDMethodSettings": {
+      "SDMode": "From average"
+    },
+    "BinningTileDateTimeMethodSettings": {
+      "MatchingObservationsMode": "Ties",
+      "TileCount": "Count"
+    },
+    "BinningTileNumericMethodSettings": {
+      "SumValues": "From sums of values"
+    },
+    "BinningWidthLinDateTimeMethodSettings": {
+      "DateTimeSpanCount": "Width",
+      "DateTimeSpanType": "Bin type"
+    },
+    "BinningWidthLinNumMethodSettings": {
+      "BinWidth": "Width"
+    }
+  },
+  "components/calcdata": {
+    "CalcExprColumnItem": {
+      "Cached": "Cache values"
+    },
+    "ExprColumnItem": {
+      "DataType": "Data type",
+      "Description": "Description",
+      "DisplayName": "Caption",
+      "Expression": "Expression",
+      "Intermediate": "Intermediate expression",
+      "Name": "Name"
+    }
+  },
+  "components/clope": {
+    "ClopeEngine": {
+      "Params": "Algorithm parameters"
+    },
+    "ClopeParams": {
+      "LimitNClusters": "Limit the number of clusters",
+      "LimitNIters": "Limit the number of iterations",
+      "NClustersMax": "Maximum number of clusters",
+      "NItersMax": "Number of iterations",
+      "Repulsion": "Repulsion coefficient"
+    }
+  },
+  "components/clusterization": {
+    "ClusterizationEngine": {
+      "Params": "Algorithm parameters"
+    },
+    "ClusterizationParams": {
+      "NClusters": "Number of clusters",
+      "NClustersAutoSelect": "Auto selection of clusters",
+      "NClustersMax": "Maximum number of clusters",
+      "NClustersMin": "Minimum number of clusters",
+      "StatTestThreshold": "Cluster splitting significance threshold"
+    }
+  },
+  "components/coarseclasses": {
+    "CoarseClassesInputContinuousParams": {
+      "FineIntervalsCount": "Bin count",
+      "IncludeHighBounds": "Include upper interval bounds",
+      "UsePrequanting": "Prequanting"
+    },
+    "CoarseClassesInputDiscreteParams": {
+      "UseFineClassesBinning": "Fine classes as binning"
+    },
+    "CoarseClassesInputExternalParams": {
+      "BinningId": "External binning identifier"
+    },
+    "CoarseClassesInputParams": {
+      "MaxClassCount": "Maximum class count",
+      "MinClassRate": "Minimum class rate, %",
+      "UniformityCoef": "Uniformity"
+    },
+    "CoarseClassesTargetParams": {
+      "TuneEventValue": "Custom \"event\" value"
+    }
+  },
+  "components/columnflipping": {
+    "ColumnFlippingEngine": {
+      "SkipNullCases": "Skip null values"
+    }
+  },
+  "components/coluniondata": {
+    "ColUnionDataEngine": {
+      "RowsPaddingType": "Missing terminal rows filling",
+      "TailsAlignType": "Row count complies"
+    }
+  },
+  "components/condition": {
+    "Condition": {
+      "DebugMode": "Debug mode"
+    },
+    "ConditionComponentEngine": {
+      "Condition": "Condition"
+    },
+    "ConditionItem": {
+      "CaseSensitive": "Case-sensitive",
+      "CompareValue": "Compared value",
+      "FieldLink": "Compared field"
+    }
+  },
+  "components/crosstab": {
+    "CrossTabEngine": {
+      "DisplayNameSeparator": "Field caption parts separator",
+      "SlidingUniqueValues": "Sliding unique values",
+      "SlidingUniqueValuesLimit": "Value number limit",
+      "UniqueValueNames": "Unique values as field names"
+    }
+  },
+  "components/datarecovery": {
+    "DataRecoveryEngine": {
+      "MaxNullsPercent": "Allowable percentage of nulls",
+      "OrderedSample": "Source data ordered"
+    }
+  },
+  "components/datatoxml": {
+    "DataToXMLEngine": {
+      "Configurator": "Configure export",
+      "DocIDColumn": "Document ID",
+      "EscapeQuotes": "Escape single and double quotes",
+      "EscapeTabCRLFInAttr": "Escape tabs and line breaks in attributes",
+      "Prettify": "Add indents and line breaks",
+      "RowsDocIdenti": "Document Identification"
+    }
+  },
+  "components/elimoutlier": {
+    "ElimOutlierColumnDefExtension": {
+      "ActionExtr": "Extremes processing method",
+      "ActionOut": "Outliers elimination method",
+      "DetectEKvartil": "For extreme",
+      "DetectESko": "For extreme",
+      "DetectOKvartil": "For outlier",
+      "DetectOSko": "For outlier",
+      "ModeOE": "Detection method",
+      "SettedValueExtr": "Replace with",
+      "SettedValueOut": "Replace with"
+    },
+    "ElimOutlierEngine": {
+      "OrderedSample": "Source data ordered"
+    }
+  },
+  "components/em": {
+    "EMEngine": {
+      "Params": "Algorithm parameters"
+    },
+    "EMParams": {
+      "IndependentVariables": "Independent attributes",
+      "MedianModification": "Median modification"
+    }
+  },
+  "components/execcmd": {
+    "ExecCmdEngine": {
+      "TerminateByTimeout": "Terminate program by timeout",
+      "Timeout": "Node execution timeout (ms)"
+    }
+  },
+  "components/extractxml": {
+    "ExtractXMLEngine": {
+      "HaltOnParseErrors": "Halt on errors",
+      "IDColumn": "Column identifying XML document",
+      "ImportXMLSettings": "Configure XML import",
+      "InputColumn": "XML column",
+      "NeedUnescape": "Unescape XML entities",
+      "ProduceErrorDescs": "Provide description of error codes"
+    }
+  },
+  "components/factoranalysis": {
+    "FactorAnalysisEngine": {
+      "CumDispersion": "Variance threshold, %",
+      "EigenValuesThreshold": "Eigenvalue threshold",
+      "NFactors": "Number of factors",
+      "NOutFactorsMax": "Number of factors",
+      "PruneOutFactors": "Limit output factors number",
+      "RotationType": "Rotation type",
+      "SignificanceCriterion": "Significance criterion"
+    }
+  },
+  "components/filterdata": {
+    "FilterColumnItem": {
+      "CaseSensitive": "Case-sensitive",
+      "CompareValue": "Compare value",
+      "CompareValueList": "List of values",
+      "CompareValueLowerBound": "Lower bound",
+      "CompareValuePeriodBaseDate": "Base interval date",
+      "CompareValuePeriodCount": "Time span value",
+      "CompareValuePeriodType": "Time span unit",
+      "CompareValueUpperBound": "Upper bound",
+      "DataType": "Data type",
+      "Name": "Name",
+      "RelationType": "Relation type"
+    }
+  },
+  "components/forecast": {
+    "ARIMAXParams": {
+      "AutoStructure": "Auto detect structure",
+      "CalcConfidenceInterval": "Calculate confidence interval",
+      "CalcResiduals": "Calculate the approximation error",
+      "ConfidenceInterval": "Forecast confidence level, %",
+      "D": "Integration order",
+      "DS": "Seasonal integration order",
+      "ForecastHorizon": "Forecast horizon",
+      "IncludeIntercept": "Include intercept into the model",
+      "IncludeSeasonality": "Enable seasonality calculation",
+      "P": "AR part order",
+      "PS": "Seasonal AR part order",
+      "Q": "MA part order",
+      "QS": "Seasonal MA part order",
+      "SeasonalPeriod": "Period of the seasonal component"
+    },
+    "ForecastEngine": {
+      "ARIMAXParams": "ARIMAX Settings"
+    }
+  },
+  "components/groupdata": {
+    "GroupDataEngine": {
+      "DimValuesCached": "Cache group values",
+      "SortedResult": "Sort result data"
+    }
+  },
+  "components/joindata": {
+    "JoinDataEngine": {
+      "IncludeJoinedKeyFields": "Add joined key fields",
+      "JoinType": "Operation type"
+    }
+  },
+  "components/linregression": {
+    "LinRegressionEngine": {
+      "LinRegressionParams": "Linear regression settings"
+    },
+    "LinRegressionParams": {
+      "LinRegressionMethod": "Factor selection and protection against overfitting",
+      "LinRegSelQuality": "Factor selection criterion"
+    }
+  },
+  "components/logregression": {
+    "LogRegressionEngine": {
+      "LogRegressionParams": "Logistic regression settings"
+    },
+    "LogRegressionParams": {
+      "EventGeneralPerc": "Event weight in general sample (in percent)",
+      "LogRegressionMethod": "Factor selection and protection against overfitting",
+      "LogRegSelQuality": "Factor selection criterion",
+      "NoEventGeneralPerc": "Non-event weight in general sample (in percent)",
+      "UseScoring": "Scoring"
+    }
+  },
+  "components/loop": {
+    "LoopComponent": {
+      "AppendIterationIdentifiers": "Add iteration identifiers",
+      "CompareValue": "Value",
+      "ConditionVariableLink": "Loop exit condition variable",
+      "GroupCount": "Group count",
+      "GroupDataSourceSocket": "Port containing columns to group",
+      "GroupProcessingKind": "Type of batch processing",
+      "GroupSize": "Group row count",
+      "IgnoreErrors": "Ignore errors",
+      "IterationCount": "Iteration count",
+      "LoopKind": "Loop Type",
+      "LoopVariableLink": "Loop variable",
+      "MaxThreadCount": "Maximum thread count",
+      "ParallelProcessing": "Parallel processing",
+      "TerminateCondition": "Termination condition"
+    }
+  },
+  "components/neuralnet": {
+    "NeuralNetEngine": {
+      "NetworkParams": "Neural network parameters"
+    },
+    "NeuralNetworkAutofitParams": {
+      "DecayAutofit": "Decay degree autofit",
+      "MaxAutofitSeconds": "Autofit time not more (s)",
+      "MaxAutofitStages": "Autofit stages not more",
+      "StopAtZeroClsError": "Stop at zero classification error",
+      "StructureAutofit": "Structure autofit",
+      "SubSampleMaxSize": "Maximum sample size",
+      "SubSamplePercent": "Percent sample size",
+      "UseInitialDecay": "Start with the specified decay degree",
+      "UseInitialStructure": "Start with the specified structure",
+      "UseSubSampling": "Use a subset of the training set"
+    },
+    "NeuralNetworkParams": {
+      "AutofitParams": "Autofit parameters",
+      "StoppingCriteria": "Stopping criteria of training algorithm",
+      "StructureParams": "Neural network structure parameters",
+      "TrainingParams": "Training algorithm parameters"
+    },
+    "NeuralNetworkStoppingCriteria": {
+      "MaxEpochs": "Maximum number of epochs",
+      "WStep": "Minimum weight change threshold"
+    },
+    "NeuralNetworkStructureParams": {
+      "HiddenLayers": "Number of hidden layers",
+      "HiddenNeurons1": "Number of neurons in the first hidden layer",
+      "HiddenNeurons2": "Number of neurons in the second hidden layer",
+      "RegNNOutputInf": "Lower bound",
+      "RegNNOutputLayer": "Output value limit",
+      "RegNNOutputSup": "Upper bound"
+    },
+    "NeuralNetworkTrainingParams": {
+      "ContinueTraining": "Continue training",
+      "Decay": "Decay degree",
+      "NRestarts": "Number of restarts"
+    }
+  },
+  "components/partition": {
+    "PartitionEngine": {
+      "Partition": "Partitioning"
+    }
+  },
+  "components/python": {
+    "PythonEngine": {
+      "UseSeparateProcess": "Start in separate process",
+      "WaitTimeout": "Start wait timeout (ms)"
+    }
+  },
+  "components/reformcolumns": {
+    "ReformColumnsEngine": {
+      "CachingMethod": "Caching"
+    }
+  },
+  "components/replace": {
+    "ReplaceTable": {
+      "Items": "Варианты замены"
+    }
+  },
+  "components/sampling": {
+    "SamplingEngine": {
+      "Sampling": "Sampling"
+    }
+  },
+  "components/slidingwindow": {
+    "SlidingWindowEngine": {
+      "IncompleteRecordsProcessing": "Incomplete records processing method"
+    }
+  },
+  "components/smoothing": {
+    "SmoothingDefExtension": {
+      "Algorithm": "Smoothing algorithm",
+      "DecompositionLevel": "Decomposition level",
+      "EdgeExtension": "Bounds extension",
+      "Lambda": "Lambda parameter",
+      "LambdaAsPeriod": "Lambda parameter set by period",
+      "Period": "Smoothing period",
+      "WaveletOrder": "Wavelet order",
+      "WaveletType": "Wavelet type"
+    }
+  },
+  "components/sonn": {
+    "SONNEngine": {
+      "Params": "Algorithm parameters"
+    },
+    "SONNParams": {
+      "CellTopology": "Network topology",
+      "NX": "Network size X",
+      "NY": "Network size Y",
+      "NZ": "Network size Z",
+      "SONNType": "Self-organizing network type"
+    }
+  },
+  "components/sorting": {
+    "SortingEngine": {
+      "BufferWhole": "Кэшировать все данные"
+    }
+  },
+  "components/treetodata": {
+    "TreeToDataEngine": {
+      "CompositeColumnNames": "Generate composite field captions",
+      "RepeatParentNodeValues": "Repeat parent node values"
+    }
+  },
+  "components/ungroupdata": {
+    "UngroupDataEngine": {
+      "AbsentDataPoints": "Absent data points for position termination",
+      "AbsentPeriodFraction": "Absent periods for position termination",
+      "BalanceMethod": "Balance method",
+      "MaxDepthDataPoints": "Maximum number of points in each series",
+      "MaxDepthPeriodFraction": "Maximum number of seasonality periods",
+      "MaxRareDensity": "Point density of rare goods",
+      "NoveltyPeriodFraction": "Presence periods for the new position",
+      "NumSeasonalIndexes": "Number of calculated seasonal indexes",
+      "RoundFormat": "Rounding format",
+      "RoundParam": "Rounding parameter",
+      "SeasonalityMultiplier": "Given seasonality period",
+      "SeasonalityPeriod": "Seasonality period",
+      "UngroupMethod": "Ungrouping method"
+    }
+  },
+  "components/uniondata": {
+    "CustomUnionDataEngine": {
+      "ColumnDisplayNamePrefix": "Caption prefix",
+      "ColumnNamePrefix": "Name prefix",
+      "UsePrefixes": "Use prefixes"
+    }
+  },
+  "components/wsdlclient": {
+    "WSDLClient": {
+      "CompositeColumnNames": "Generate composite field captions",
+      "IgnoreAbsentValues": "Allow required fields skipping",
+      "ProduceRawOutput": "Produce \"raw\" server response",
+      "RepeatUniqueValues": "Repeat single values",
+      "RequestConfigurator": "Configure request data export",
+      "StrictValidation": "Check for strict XSD validation",
+      "TimeZone": "Default time zone"
+    }
+  },
+  "exports/database": {
+    "DBExport": {
+      "ExportType": "Export type",
+      "RecordCountForCommit": "Transaction commit frequency (rows)",
+      "TableName": "Table name"
+    }
+  },
+  "exports/excelfile": {
+    "ExportExcelFile": {
+      "FileType": "Excel file type",
+      "SheetName": "Sheet name",
+      "WebSetting": "Settings"
+    },
+    "ExportExcelWebSetting": {
+      "HeadersRow": "Headers row"
+    }
+  },
+  "exports/kafka": {
+    "KafkaExport": {
+      "BatchMessagesCount": "Count of batch messages while sending",
+      "ClientID": "Client ID",
+      "FlushTimeout": "Timeout of batch sending termination",
+      "Topic": "Topic"
+    }
+  },
+  "exports/native": {
+    "ExportNative": {
+      "Compression": "Compression",
+      "StringCacheMaxSize": "String cache size"
+    }
+  },
+  "exports/tableau": {
+    "ExportTableau": {
+      "Append": "Add records while publishing",
+      "CreateTableIfDoesntExist": "Create table if it doesn't exist",
+      "Overwrite": "Overwrite data while publishing",
+      "ProjectName": "Project name on server",
+      "PublishingEnabled": "Publish on server",
+      "RewriteFileOnExport": "Rewrite file when exporting",
+      "ServerFileName": "File name on server",
+      "TableName": "Table name"
+    }
+  },
+  "exports/textfile": {
+    "ExportTextFile": {
+      "CaptionType": "Header Row",
+      "CodePage": "Codepage",
+      "DateFormat": "Date format",
+      "DateSeparator": "Date separator",
+      "DecimalSeparator": "Decimal separator",
+      "DelimiterChar": "Column delimiter",
+      "FormatType": "Data format",
+      "LineEnding": "Перевод строк",
+      "TextQualifier": "Text qualifier",
+      "TimeFormat": "Time format",
+      "TimeSeparator": "Time separator",
+      "ValueFalse": "False",
+      "ValueNull": "Null",
+      "ValueTrue": "True",
+      "WriteBOM": "Добавить BOM"
+    }
+  },
+  "exports/xml": {
+    "ExportXML": {
+      "Configurator": "Configure export",
+      "EscapeQuotes": "Escape single and double quotes",
+      "EscapeTabCRLFInAttr": "Escape tabs and line breaks in attributes",
+      "Prettify": "Add indents and line breaks",
+      "WriteBOM": "Write Byte Order Mark"
+    }
+  },
+  "imports/database": {
+    "DBImport": {
+      "CommandText": "Таблица\/Представление"
+    }
+  },
+  "imports/excelfile": {
+    "ImportExcelFileEngine": {
+      "AllRows": "All rows",
+      "BlankRowAction": "Blank rows",
+      "ExplicitRange": "Range",
+      "ReferenceStyle": "Reference style",
+      "TableName": "Object name",
+      "TableNamingMethod": "Object selection",
+      "TitleRowCount": "Title row count",
+      "UsedRange": "Whole sheet"
+    }
+  },
+  "imports/kafka": {
+    "KafkaImport": {
+      "ClientID": "Client ID",
+      "GroupID": "Group ID",
+      "MaxNumberPollMessages": "Maximum number of messages",
+      "Offset": "Offset",
+      "OffsetMode": "Offset type",
+      "PollTimeout": "Message timeout (ms)",
+      "Topic": "Topic"
+    }
+  },
+  "imports/textfile": {
+    "ImportTextFile": {
+      "CodePage": "Codepage",
+      "DateFormat": "Date format",
+      "DateSeparator": "Date separator",
+      "DecimalSeparator": "Decimal separator",
+      "DelimiterChar": "Column delimiter",
+      "FirstLineAsTitle": "First line title",
+      "MultipleDelimiters": "Treat consecutive delimiters as one",
+      "RowsToSkip": "Skip rows",
+      "TextQualifier": "Text qualifier",
+      "TimeSeparator": "Time separator",
+      "ValueFalse": "False",
+      "ValueNull": "Null",
+      "ValueTrue": "True",
+      "VariantAsGeneralType": "Variable type"
+    }
+  },
+  "imports/xml": {
+    "ImportXML": {
+      "Configurator": "Configure XML import"
+    }
+  },
+  "Libraries/1CConnection/1CConnection": {
+    "1CConnectionConfigurator": {
+      "ConnectionString": "Connection string",
+      "Password": "Password",
+      "UserName": "Username"
+    }
+  },
+  "Libraries/1CConnection/1Cv8Connection": {
+    "1Cv8ConnectionConfigurator": {
+      "PlatformVersion": "Platform version"
+    }
+  },
+  "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
+    "ClickHouseDatabaseConfigurator": {
+      "CompressionMethod": "Data compression method",
+      "IsLocalTimeZone": "Use local time zone"
+    }
+  },
+  "Libraries/bgdbrtl/DB": {
+    "ConnPoolConfigurable": {
+      "PoolingOptions": "Pool settings"
+    },
+    "ConnPoolConfigurator": {
+      "ClearPoolOnDeactivate": "Clear pool when deactivated"
+    },
+    "DatabaseConfigurator": {
+      "CharacterSet": "Codepage",
+      "DatabasePath": "Connection string",
+      "Direct": "Do not use DBMS client",
+      "ObjectQuotes": "Configure quotes",
+      "Password": "Password",
+      "QuotedObjectNames": "Quote names",
+      "SystemTables": "Show system tables",
+      "UserName": "Username"
+    },
+    "DBSSLConfigurable": {
+      "SSLConfigurator": "SSL settings"
+    },
+    "DBSSLConfigurator": {
+      "SSLCA": "CA certificate",
+      "SSLCert": "User certificate",
+      "SSLKey": "Private key",
+      "SSLKeyPassword": "Private key password",
+      "UseSSL": "Use SSL"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
+    "BigQueryODBCUniDACDatabaseConfigurator": {
+      "Email": "Service account e-mail",
+      "IsRequestGoogleDrive": "Connect to Google Drive",
+      "KeyFilePath": "Path to secret key",
+      "SSLCA": "CA certificate",
+      "UseSystemTrustStore": "System certificate store"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
+    "MyUniDACDatabaseConfigurator": {
+      "WaitTimeoutTransaction": "Idle-in-transaction timeout"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
+    "SQLiteFunctionDefs": {
+      "CaseChangeUnicode": "lower, upper for UNICODE",
+      "LikeMode": "LIKE mode",
+      "NoCaseUnicode": "NOCASE в режиме UNICODE"
+    },
+    "SQLitePragmas": {
+      "CacheSize": "Cache size",
+      "JournalMode": "Transaction journal mode",
+      "Synchronous": "Sync mode"
+    },
+    "SQLiteUniDACDatabaseConfigurator": {
+      "CreateDBIfNotExists": "Create DB if it doesn't exist",
+      "Encrypted": "Encrypted DB",
+      "InMemoryDBMode": "База данных в памяти"
+    }
+  },
+  "Libraries/bgrtl/ColumnInfoLinks": {
+    "ColumnInfoLinkDef": {
+      "Name": "Column name"
+    }
+  },
+  "Libraries/bgrtl/DataSet": {
+    "ColumnDef": {
+      "DataKind": "Data kind",
+      "DataType": "Data type",
+      "DefaultUsageType": "Default usage type",
+      "DisplayName": "Caption",
+      "Index": "Index",
+      "Name": "Name",
+      "Size": "Maximum length (number of characters) of string column values",
+      "Usable": "Indicator of usage (UsageType surrogate)",
+      "UsageType": "Usage type"
+    },
+    "TuneColumnDef": {
+      "Extension": "Extension"
+    }
+  },
+  "Libraries/bgrtl/Interfaces": {
+    "CollectionItem": {
+      "ID": "Identifier",
+      "Name": "Name"
+    },
+    "LocaleSettingsConfigurator": {
+      "LocaleName": "Locale name"
+    },
+    "NamedItem": {
+      "Name": "Item name"
+    }
+  },
+  "Libraries/bgrtl/RandomConfigurator": {
+    "RandomConfigurator": {
+      "RandSeed": "Random seed"
+    }
+  },
+  "Libraries/bgrtl/Statistics": {
+    "StatInfo": {
+      "Avg": "Average",
+      "DataType": "Data type of values",
+      "Max": "Maximum",
+      "Min": "Minimum"
+    }
+  },
+  "Libraries/bgrtl/Variables": {
+    "VariableInfo": {
+      "DataType": "Data type"
+    }
+  },
+  "Libraries/DataPartition/LearnPartition": {
+    "LearnPartition": {
+      "Folds": "Cross validation fold",
+      "Iterations": "Resampling iterations",
+      "KFoldsSamplingMethod": "Sampling method",
+      "LearnPartitionMethod": "Partition method",
+      "LearnValidationMethod": "Validation method",
+      "PRowsCount": "Count of rows to be excluded",
+      "TrainDataSetSize": "Training set size",
+      "ValidationColumnIndex": "Given partition field",
+      "ValidationDataSetSize": "Validation set size"
+    }
+  },
+  "Libraries/DataPartition/Partition": {
+    "Partition": {
+      "CompleteUniqueValues": "Complete list of unique values",
+      "PartitionMethod": "Sampling method",
+      "TeachDataSetSize": "Training sample size",
+      "TeachGroupSize": "Training group size",
+      "TestDataSetSize": "Test sample size",
+      "TestGroupSize": "Test group size",
+      "TestPriority": "Test set priority",
+      "TestPriorityPosition": "Priority test set position"
+    }
+  },
+  "Libraries/DataSampling/Sampling": {
+    "Sampling": {
+      "CompleteUniqueValues": "Complete list of unique values",
+      "GroupSize": "Group size",
+      "SamplingMethod": "Sampling method",
+      "SamplingRecordCount": "Record count in the output sample"
+    }
+  },
+  "Libraries/DBConnection/DBConnection": {
+    "DBConnectionConfigurator": {
+      "DatabaseConfigurator": "DB connection settings"
+    }
+  },
+  "Libraries/ExportXMLConfigurator/ExportXMLConfigurator": {
+    "ExportXMLConfigurator": {
+      "SpecifyTimeZone": "Specify time zone"
+    }
+  },
+  "Libraries/FileConnection/ExportFileModelComponentEngine": {
+    "ExportFileModelComponentEngine": {
+      "FileName": "File name"
+    }
+  },
+  "Libraries/FileConnection/ImportFileModelComponentEngine": {
+    "ImportFileModelComponentEngine": {
+      "FileName": "File name"
+    }
+  },
+  "Libraries/ImportXMLConfigurator/ImportXMLConfigurator": {
+    "ImportXMLConfigurator": {
+      "CompositeColumnNames": "Generate composite field captions",
+      "IgnoreAbsentValues": "Allow required fields skipping",
+      "RepeatUniqueValues": "Repeat single values",
+      "StrictValidation": "Check for strict XSD validation",
+      "TimeZone": "Default time zone"
+    }
+  },
+  "Libraries/KafkaConnection/KafkaAuth": {
+    "KafkaAuth": {
+      "Password": "Password",
+      "SaslMechanism": "SASL Mechanism",
+      "SecurityProtocol": "Security Protocol",
+      "SSLCert": "User certificate",
+      "SSLKey": "Private key",
+      "SSLKeyPassword": "Private key password",
+      "Username": "Username"
+    }
+  },
+  "Libraries/KafkaConnection/KafkaConnection": {
+    "KafkaConnectionConfigurator": {
+      "KafkaAuth": "Authentification",
+      "Server": "Kafka cluster"
+    }
+  },
+  "Libraries/LDAP/LDAP": {
+    "LDAPConfigurator": {
+      "Account": "Account",
+      "BaseDN": "Base domain name",
+      "ConnectionSecurity": "Connection security",
+      "DefaultUserRole": "New user role",
+      "Filter": "LDAP filter",
+      "FullNameAttribute": "Full name attribute",
+      "Host": "Host",
+      "NameAttribute": "Name attribute",
+      "Password": "Password",
+      "Port": "Port",
+      "UseSASL": "Use SASL"
+    }
+  },
+  "Libraries/Log/LoggerConfigurator": {
+    "CustomLoggerConfigurator": {
+      "MinLogLevel": "Logging level"
+    },
+    "LoggerConfigurator": {
+      "LoggerType": "Тип логирования"
+    },
+    "LoggerConfiguratorFile": {
+      "LogFileMaxIndex": "Number of backup files",
+      "LogFileMaxSize": "Maximum file size",
+      "LogFileName": "File name",
+      "LogFileRewrite": "Rewrite file"
+    }
+  },
+  "Libraries/Model/Connections/ModelConnectionComponentEngine": {
+    "ModelConnectionComponentEngine": {
+      "Connection": "Connection"
+    }
+  },
+  "Libraries/Normalization/NormalDataSourceModelComponentEngine": {
+    "NormalDataSourceModelComponentEngine": {
+      "AllowMissingValues": "Allow null values",
+      "LearnPartition": "Component data partition with training"
+    }
+  },
+  "Libraries/Regression/Regression": {
+    "FactorSelectionParams": {
+      "AddSignificance": "Significance threshold in case of factor addition",
+      "Hierarchy": "Hierarchy of interactions",
+      "RemoveSignificance": "Significance threshold in case of factor exception"
+    },
+    "RegressionClassificationParams": {
+      "EventId": "Specified event index",
+      "EventType": "Event type",
+      "Threshold": "Cutoff"
+    },
+    "RegressionParams": {
+      "AutoMethod": "Auto setup",
+      "AutoPriority": "Auto setup priority",
+      "Denormalize": "Denormalize model coefficients",
+      "Epsilon": "Solution accuracy",
+      "FactorSelection": "Settings of stepwise factor selection",
+      "Intercept": "Include intercept into the model",
+      "Regularization": "Regularization settings",
+      "ShowRefCoeffs": "Show coefficients of reference categories",
+      "SimpleParams": "Parameters of simplified regression settings",
+      "Statistics": "Settings of factor selection statistics calculation",
+      "UseDetailedSettings": "Use detailed settings"
+    },
+    "RegressionSimpleParams": {
+      "ExactInexact": "Exact\/inexact data priority",
+      "FactLessMore": "Less\/more factors priority",
+      "QualitySpeed": "Accuracy\/speed priority"
+    },
+    "RegressionStatisticsParams": {
+      "PredictionIntervalLevel": "Confidence level, %"
+    },
+    "RegularizationParams": {
+      "LambdaLasso": "L1-regularization coefficient",
+      "LambdaRidge": "L2-regularization coefficient",
+      "LassoSetupMethod": "L1-regularization coefficient setup",
+      "RidgeSetupMethod": "L2-regularization coefficient setup"
+    }
+  },
+  "Libraries/RESTClientConnection/RESTClientConnection": {
+    "RESTClientConnectionConfigurator": {
+      "ClientAuth": "Authentication to execute request",
+      "ExchangeTimeOut": "Data exchange timeout (ms)",
+      "IgnoreCertificateErrors": "Ignore SSL certificate errors",
+      "RequestContentType": "Request Content-Type",
+      "ResponseContentType": "Allowable Response Content-Type",
+      "TimeOut": "Connection timeout (ms)",
+      "URL": "Service URL",
+      "Verb": "Method"
+    }
+  },
+  "Libraries/TableauRestConnection/TableauRestConnection": {
+    "TableauRestConnectionConfigurator": {
+      "ApiVersion": "Tableau REST API version",
+      "Password": "Password",
+      "ServerUrl": "Server Url",
+      "Site": "Site",
+      "UserName": "Username"
+    }
+  },
+  "Libraries/WSDLClientConnection/WSDLClientConnection": {
+    "WSDLClientConnectionConfigurator": {
+      "ClientAuth": "Authentication to execute request",
+      "ClientUsesWSDLAuth": "Authentication is the same as for WSDL",
+      "ExchangeTimeOut": "Data exchange timeout (ms)",
+      "IgnoreCertificateErrors": "Ignore SSL certificate errors",
+      "ReserveWSDLSource": "Reserve WSDL source",
+      "ReserveWSDLSourceOn": "Enable reserve WSDL source",
+      "TimeOut": "Connection timeout (ms)",
+      "WSDLAuth": "Authentication to get WSDL file",
+      "WSDLSource": "WSDL source",
+      "XSLT": "XSLT path",
+      "XSLTOn": "Transform WSDL description using XSLT"
+    }
+  },
+  "Studio/DeductorServerSettings": {
+    "DeductorServerSettings": {
+      "PackagePoolSize": "Package pool size",
+      "SessionBackupDirectory": "Directory containing session backups",
+      "StopTimeout": "Server stop timeout",
+      "ThreadPoolSize": "Thread pool size",
+      "TraceExceptions": "Trace exceptions",
+      "UserStorageDirectory": "Directory containing personal user folders"
+    },
+    "SocketDeductorServerSettings": {
+      "Bind": "IP address",
+      "PingPeriod": "Client connection check period",
+      "Port": "TCP port",
+      "SSLCertificateFile": "Certificate file name",
+      "SSLPrivateKeyFile": "Private key file name",
+      "UnixSocket": "Unix socket",
+      "WSPort": "WebSocket port",
+      "WSSPort": "WebSocket SSL\/TLS port"
+    }
+  },
+  "Warehouse2/DWImportTree": {
+    "DWImportTreeNode": {
+      "FilterParams": "Filtration parameters"
+    }
+  },
+  "Warehouse2/MDFilterParams": {
+    "MDCustomFilterParams": {
+      "MaxValue": "Upper bound",
+      "MinValue": "Lower bound",
+      "TheValue": "Compare value"
+    },
+    "MDDateFilterParams": {
+      "CustomPointDate": "User defined date",
+      "IntervalType": "Time span unit",
+      "UseIntervalCount": "Time span value"
+    }
+  }
+}
