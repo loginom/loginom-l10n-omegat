@@ -39,8 +39,8 @@
     "Schema": "Schema",
     "Uri": "URI",
     "Url": "URL: ",
-    "UrlExample": "Пример URL: ",
-    "UrlFormat": "Формат URL: "
+    "UrlExample": "URL example: ",
+    "UrlFormat": "URL format: "
   },
   "IntegratorCore/ServerConnectionManager": {
     "AddedPublishedPackage": "The published package \"{1}\" of the version \"{2}\" has been added on the server {0}",
