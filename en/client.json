@@ -33,7 +33,7 @@
     "LogFileName": "File name",
     "LogFileRewrite": "Rewrite file",
     "LoggerSettings": "Logging parameters",
-    "LogType": "Тип логирования",
+    "LogType": "Logging type",
     "MinLogLevel": "Logging level",
     "MsgNewLocaleAfterRestart": "New locale will be applied after restart.",
     "NotSet": "Unspecified ({0})",
@@ -240,11 +240,11 @@
     "CantFindGenericModelNode": "Supernode node not found",
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
-    "ComposeAnnotations": "Свернуть заметки в подмодель",
-    "ComposeExpandNode": "Свернуть элементы в подмодель \/ Развернуть подмодель",
-    "ComposeItems": "Свернуть элементы в подмодель",
+    "ComposeAnnotations": "Collapse annotations into supernode",
+    "ComposeExpandNode": "Collapse items into supernode \/ Expand supernode",
+    "ComposeItems": "Collapse items into supernode",
     "ComposeNodes": "Collapse nodes to supernode",
-    "ComposeSingleAnnotation": "Свернуть заметку в подмодель",
+    "ComposeSingleAnnotation": "Collapse annotation into supernode",
     "ComposeSingleNode": "Collapse node to supernode",
     "ConfigurePort": "Configure port...",
     "ConfirmCreatingAnotherDerivedVendor": "Derived \"{0}\" component already exists for this node.\nDo you really want to create one more component?",
@@ -261,7 +261,7 @@
     "EditPortDisplayNameWindowTitle": "Edit port caption",
     "EditPortFieldLabel": "Caption",
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
-    "ErrCommentPosNotSaved": "Не удалось сохранить позицию комментария",
+    "ErrCommentPosNotSaved": "Failed to save comment position",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "Error": "Error",
     "ErrPortNotCreated": "Failed to create new port",
@@ -293,7 +293,7 @@
     "PropertyInspectorLocale": "en",
     "RecreateBaseNodeForDerivedVendor": "Recreate base node",
     "RemoveComment": "Delete comment",
-    "RemoveSelectedConfirm": "Вы действительно хотите удалить выделенные объекты?",
+    "RemoveSelectedConfirm": "Do you really want to delete the selected objects?",
     "RenameNode": "Rename...",
     "ResetConfiguration": "Restore original node configuration",
     "SelectOneNode": "Select only one node",
@@ -325,10 +325,10 @@
     "ErrIncorrectVersionFormat": "Invalid version format",
     "ErrInvalidPackageName": "\"{0}\" is invalid package name",
     "Later": "Later",
-    "MsgNewCompareAfterReopen": "Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов.",
+    "MsgNewCompareAfterReopen": "Comparison of lines will be changed when the package and all opened dependent packages are closed.",
     "MsgNewLocaleAfterReopen": "New locale will be applied when the package and all opened dependent packages are closed.",
     "NotSet": "Unspecified ({0})",
-    "QuestionNewCompareSaveAndReopenPackage": "Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов.\nСохранить пакет и переоткрыть сейчас?",
+    "QuestionNewCompareSaveAndReopenPackage": "Comparison of lines will be changed when the package and all opened dependent packages are closed.\nDo you want to save the package and reopen it now?",
     "QuestionNewLocaleSaveAndReopenPackage": "New locale will be applied when packages and all opened packages that depend on it are closed.\nDo you want to save the package and reopen it now?",
     "Reopen": "Reopen"
   },
@@ -484,7 +484,7 @@
     "ContextMenuInsertFormateFmt": "Insert format: {0}",
     "ContextMenuInsertKeyFmt": "Insert key: {0}",
     "Desc": "Bin index",
-    "DescAVE": "Середина интервала",
+    "DescAVE": "Bin average",
     "DescCP": "Closing \")\" or \"]\" bracket",
     "DescFD": "Caption of quantized field (%FD[3-7] - from the 3rd to the 7th character inclusively)",
     "DescFN": "Name of quantized field (%FN[5] - the first 5 name characters)",
@@ -511,10 +511,10 @@
     "DescriptionA2Num": "Auto 2",
     "DescriptionA3Dat": "Auto 3",
     "DescriptionA3Num": "Auto 3",
-    "DescriptionAve": "Среднее",
-    "DescriptionExample1Num": "Подробный 1",
-    "DescriptionExample2Num": "Подробный 2",
-    "DescriptionExampleDat": "Подробный",
+    "DescriptionAve": "Average",
+    "DescriptionExample1Num": "Detailed 1",
+    "DescriptionExample2Num": "Detailed 2",
+    "DescriptionExampleDat": "Detailed",
     "DescriptionMax": "Maximum",
     "DescriptionMin": "Minimum",
     "DescriptionN": "Number",
@@ -825,7 +825,7 @@
     "ReformColumnsWizardTitle": "Configure fields features"
   },
   "components/replace/ReplaceEditor": {
-    "ConvertPrefix": "преобразовано из",
+    "ConvertPrefix": "transformed from",
     "EmptyValueMark": "<Empty string>"
   },
   "components/replace/ReplaceVariablesWizard": {
@@ -839,7 +839,7 @@
     "ErrFileFieldMiss": "Item is not file upload field",
     "ErrFileNotChoosed": "No file selected",
     "ErrTypeCastError": "Value {0} cannot be cast to {1} data type",
-    "OutputDataTypeError": "Выходные значения будут переменного типа, если не заменить остальные",
+    "OutputDataTypeError": "Output values will be related to the variable type without replacement of others",
     "ReplaceGroupCommon": "Exact match",
     "ReplaceGroupRegex": "Regular expressions",
     "ReplaceItemTypeError": "Value does not comply with used type",
@@ -856,18 +856,18 @@
     "UniqueValuesLimitErr": "Failed to show the unique values number of which exceeds {0}"
   },
   "components/restclient/MessageBody": {
-    "ErrNotCompatibleMessageBodyFmt": "Тип данных поля входного набора {0} несовместим с телом запроса"
+    "ErrNotCompatibleMessageBodyFmt": "Data type of the input data set field {0} is incompatible with request body"
   },
   "components/restclient/ParamLinks": {
     "AutoMapPromtTitle": "Auto Link",
     "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
     "ConfirmDeleteAll": "Do you want to delete all links?",
     "DeletePromtTitle": "Delete",
-    "ErrNoParamFmt": "Поле входного набора \"{0}\" назначено несуществующему параметру \"{1}\"",
-    "ErrNotCompatibleParamDataTypeFmt": "Тип данных поля входного набора \"{0}\" несовместим с параметром \"{1}\""
+    "ErrNoParamFmt": "Input data set field \"{0}\" has been assigned for nonexistent parameter \"{1}\"",
+    "ErrNotCompatibleParamDataTypeFmt": "Data type of the input data set field \"{0}\" is incompatible with parameter \"{1}\""
   },
   "components/restclient/RequestController": {
-    "UnknownConfigLabel": "Не настроен порт подключения к REST-сервису"
+    "UnknownConfigLabel": "Port of connection to REST service not configured"
   },
   "components/sampling/SamplingComponentWizard": {
     "SampleSetName": "Sampled"
@@ -971,7 +971,7 @@
     "TestConnectionTitle": "Test Connection"
   },
   "connections/webservice/AuthorizationForm": {
-    "ErrUnsupportedAuthModeFmt": "Режим аутентификации \"{0}\" не поддерживается",
+    "ErrUnsupportedAuthModeFmt": "Authentication mode \"{0}\" not supported",
     "ExpireCertDateError": "Expired certificate expiration date"
   },
   "connections/webservice/ConnectionWizard": {
@@ -1333,7 +1333,7 @@
     "DirectoryAlreadyExists": "A directory with the same name already exists",
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
-    "FullPathCopied": "Полные имена выделенных файлов скопированы в буфер обмена",
+    "FullPathCopied": "Full names of selected files were copied to clipboard",
     "HasNotStorageItems": "No files to be copied\/cut",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1420,33 +1420,33 @@
   },
   "imports/dbimport/DBImportSql": {
     "Parameter": "Parameter",
-    "SQLEditorPlaceholder": "Введите текст SQL запроса",
-    "Substitution": "Подстановка"
+    "SQLEditorPlaceholder": "Enter SQL query text",
+    "Substitution": "Substitution"
   },
   "imports/dbimport/DBImportTable": {
-    "DBObjectsNamesakesExists": "Обнаружено несколько таблиц с именем \"{0}\", выберите таблицу в списке или дополните именем схемы",
-    "ExistTableDoesNotMatchFilter": "Таблица(представление) \"{0}\" подготовлена к работе. Не удалось выделить в списке, т.к. не соответствует фильтру.",
-    "FieldDoesNotExist": "Поля \"{0}\" больше нет в таблице(представлении) \"{1}\"",
-    "ObjectDoesNotExist": "Таблица(представление) \"{0}\" не обнаружена"
+    "DBObjectsNamesakesExists": "Several tables with name \"{0}\" were found, select table in the list or add the schema name",
+    "ExistTableDoesNotMatchFilter": "Table(representation) \"{0}\" is prepared for work. Failed to select in the list because it does not match the filter.",
+    "FieldDoesNotExist": "Fileds \"{0}\" do not exist in table(representation) \"{1}\"",
+    "ObjectDoesNotExist": "Table(representation) \"{0}\" not found"
   },
   "imports/dbimport/DBImportWizard": {
-    "FieldsDoesNotExist": "Обнаружены несуществующие поля",
-    "FieldsNotSelected": "Выберите поля для предпросмотра",
-    "ImportFieldsNotSelected": "Необходимо выбрать поля для импорта",
-    "InsertTableMenuItemText": "Вставить имя в редактор SQL кода",
+    "FieldsDoesNotExist": "Nonexistent fields found",
+    "FieldsNotSelected": "Select fields for preview",
+    "ImportFieldsNotSelected": "Select fields for import",
+    "InsertTableMenuItemText": "Insert name into SQL code editor",
     "NoConnection": "No connection",
     "NotConnectedError": "No connection with database",
-    "ObjectDoesNotExist": "Таблица(представление) \"{0}\" не обнаружена",
-    "PreviewTableNotSelected": "Выберите таблицу для предпросмотра",
-    "SelectTableMenuItemText": "Выбрать таблицу"
+    "ObjectDoesNotExist": "Table(representation) \"{0}\" not found",
+    "PreviewTableNotSelected": "Select table for preview",
+    "SelectTableMenuItemText": "Select table"
   },
   "imports/dbimport/DBObjects": {
-    "DBObjectsFilterField": "Фильтрация",
+    "DBObjectsFilterField": "Filter",
     "DBObjTypeNone": "Other",
     "DBObjTypeSchema": "Schemas",
     "DBObjTypeTable": "Tables",
     "DBObjTypeView": "Views",
-    "ErrAccesToDbObject": "Невозможно получить доступ к объекту \"{0}\". Причина: \"{1}\""
+    "ErrAccesToDbObject": "Failed to get access to object \"{0}\". Reason: \"{1}\""
   },
   "imports/dwh/DWImportWizard": {
     "ConfirmDeleteAllFields": "Do you really want to delete all selected columns?",

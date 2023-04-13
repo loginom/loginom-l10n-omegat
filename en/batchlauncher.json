@@ -5,7 +5,7 @@
     "ErrExecutionError": "Batch execution error",
     "ErrInvalidCommandLineParameters": "Invalid command line parameters",
     "ErrLostConnectionToServer": "Server connection lost",
-    "ErrPackageCommandLineParameter": "Не указан обязательный параметр командной строки Package",
+    "ErrPackageCommandLineParameter": "Empty required Package command line parameter",
     "ErrUnknownCommandLineParameter": "Unknown command line parameter: %s",
     "ExampleTitle": "Example:",
     "OptionAddressDesc": "IP address or hostname (default: %s)",
