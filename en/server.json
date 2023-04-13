@@ -2805,7 +2805,7 @@
   },
   "Libraries/bgrtl/TextStream": {
     "ErrBadUnicodeStream": "Source data stream has invalid Unicode format",
-    "ErrCodePageNotSupported": "Кодовая страница с номером %d не поддерживается",
+    "ErrCodePageNotSupported": "Codepage with number %d not supported",
     "ErrReadAfterEnd": "Attempted to read outside the file",
     "ErrStreamNotAssigned": "Source data stream not initialized"
   },
@@ -2989,7 +2989,7 @@
     "ErrWrongElementsClass": "Invalid configuration node list class"
   },
   "Libraries/Config/ConfigBackupManagers": {
-    "AddAnnotationCaptionDef": "Добавлена заметка",
+    "AddAnnotationCaptionDef": "Annotation Added",
     "AddConnectionCaption": "\"%s\" Connection Added",
     "AddConnectionCaptionDef": "Connection Added",
     "AddLinkCaption": "\"%s.%s\" - \"%s.%s\" Link Added",
@@ -3006,7 +3006,7 @@
     "ConfigureNodeCaptionDef": "Node Configured",
     "ConfigureNodePortCaption": "Configured \"%s\" port of \"%s\" node",
     "ConfigureNodePortCaptionDef": "Node Port Configured",
-    "DeleteAnnotationCaptionDef": "Удалена заметка",
+    "DeleteAnnotationCaptionDef": "Annotation Deleted",
     "DeleteConnectionCaption": "Delete \"%s\" connection",
     "DeleteConnectionCaptionDef": "Delete Connection",
     "DeleteLinkCaption": "\"%s.%s\" - \"%s.%s\" Link Deleted",
@@ -3213,7 +3213,7 @@
     "LogErrKafkaCallBackFmt": "Kafka error: \"%s\", reason: \"%s\""
   },
   "Libraries/libxml2/LibXml2": {
-    "ErrLibXml2Common": "Ошибка libxml2 (код %d): %s",
+    "ErrLibXml2Common": "libxml2 error (code %d): %s",
     "ErrLibXml2Unknown": "Нераспознанная ошибка libxml2",
     "ErrXMLParse": "Ошибка при разборе XML (строка %d, позиция %d): %s",
     "ErrXMLParseUrl": "Ошибка при разборе XML по адресу \"%s\" (строка %d, позиция %d): %s"
