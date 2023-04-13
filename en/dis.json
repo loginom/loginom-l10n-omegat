@@ -1,8 +1,8 @@
 {
   "Integrator/Program": {
     "ErrInitializationException": "Exception occurred during the service initialization",
-    "StartingService": "Запуск сервиса, версия: {0}",
-    "StoppingService": "Остановка сервиса"
+    "StartingService": "Service start, version: {0}",
+    "StoppingService": "Service stop"
   },
   "IntegratorCore/ConfigurationSections": {
     "ErrNoColumnsSpecified": "No column was specified for log-in",
@@ -48,7 +48,7 @@
     "ChangedPublishedPackages": "The published packages list changed on {0} server",
     "ConnectedToServer": "Connected to server {0}",
     "DeletedPublishedPackage": "The published package \"{1}\" of version \"{2}\" was deleted on server {0}",
-    "ErrAddressOrUnixSocketIsRequired": "Атрибут address или unixsocket должен быть определен",
+    "ErrAddressOrUnixSocketIsRequired": "address or unixsocket attribute must be defined",
     "ErrCannotAddPublishedPackage": "\"{1}\" package of \"{2}\" version related to {0} server cannot be published: {3}",
     "ErrCannotConnectToServer": "{0} server connection failed",
     "ErrConnectionFailure": "{0} server connection lost",
@@ -66,12 +66,12 @@
     "ErrPackageHasNoPublishedNodes": "The package contains no published nodes",
     "ErrSavePackageDefsError": "Error of saving of packages for {0} server",
     "ErrServerDisconnectError": "Error of disconnection from {0} server",
-    "ErrUnixSocketIsRequired": "Атрибут unixsocket должен быть определен",
+    "ErrUnixSocketIsRequired": "unixsocket attribute must be defined",
     "ErrUpdatePackageDefsError": "Error of package update for {0} server"
   },
   "IntegratorCore/ServiceHelper": {
     "CalledUrl": "Url of called method: {0}",
-    "ErrDataSetRowCannotBeNull": "Строка набора данных не должна быть равна null",
+    "ErrDataSetRowCannotBeNull": "Data set row must not be null",
     "ErrInvalidColumnCount": "Invalid column count in the matrix of values: {0}; required: {1}",
     "ErrInvalidElementCount": "Invalid element count in the data set: {0}; required: {1}",
     "ErrInvalidRowCount": "Invalid row count in the variable value matrix: {0}",

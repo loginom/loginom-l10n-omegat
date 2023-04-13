@@ -1772,10 +1772,10 @@
     "VersionLabelFmt": "Version: {0}"
   },
   "mxgraph/annotation/Annotation": {
-    "ErrAnnotationNotSaved": "Не удалось сохранить заметку",
-    "ErrAnnotationSizeNotSaved": "Не удалось сохранить размеры заметки",
-    "ErrParseItemID": "Не удается получить номер стиля из itemID элемента меню",
-    "ErrStyleNum": "Номер стиля выходит за границы диапазона"
+    "ErrAnnotationNotSaved": "Failed to save annotation",
+    "ErrAnnotationSizeNotSaved": "Failed to save annotation sizes",
+    "ErrParseItemID": "Failed to get style number from itemID menu item",
+    "ErrStyleNum": "Style number is out of bin range"
   },
   "mxgraph/graph/Graph": {
     "ImplementThisInModelForm": "This function must be implemented in ModelForm",
@@ -1786,13 +1786,13 @@
   },
   "mxgraph/node/comment/Comment": {
     "CommentBtn": "Show\/Hide Comment",
-    "ErrCommentVisiblyNotSaved": "Не удалось сохранить состояние комментария",
+    "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
   "mxgraph/node/comment/Note": {
-    "ErrCommentExpandNotSaved": "Не удалось сохранить состояние комментария",
+    "ErrCommentExpandNotSaved": "Failed to save comment state",
     "ErrCommentNotSaved": "Failed to save comment",
-    "ErrCommentSizeNotSaved": "Не удалось сохранить размеры комментария",
+    "ErrCommentSizeNotSaved": "Failed to save comment sizes",
     "NodeIsLocked": "Comment change forbidden: node is locked",
     "WrongCommentValue": "Invalid comment value"
   },
@@ -1911,7 +1911,7 @@
   "propedit/PropEditUtils": {
     "ErrControlIsNil": "No editor specified",
     "ErrPropertyOwnerIsNil": "No interface specified",
-    "ErrPropertyPathIsNil": "Не задано имя свойства"
+    "ErrPropertyPathIsNil": "No property name specified"
   },
   "rpc/CustomClient": {
     "ErrConnectToServerEx": "Failed to connect to server.\nError: {0}.",
@@ -2132,7 +2132,7 @@
     "EmptyFilteredDimTooltip": "{0} • No values",
     "Expand": "Expand",
     "MultipleFilteredDimTooltip": "{0} [{1} of {2}]",
-    "NoDataFilteredDimTooltip": "{0} • Данные не готовы",
+    "NoDataFilteredDimTooltip": "{0} • Data not ready",
     "Original": "In original order",
     "SingleFilteredDimTooltip": "{0} • {1} [{2} of {3}]",
     "WarnDependencyCaseCalcCase": "• the calculated measure dependent on the field will become inactive (now the field is connected with the unused measure)",
@@ -2177,7 +2177,7 @@
   },
   "viewers/cube/DimensionsTunePanel": {
     "DimCols": "Columns",
-    "Dimensions": "Выбранные измерения",
+    "Dimensions": "Selected dimensions",
     "DimFree": "Filter",
     "DimRows": "Rows"
   },
@@ -2257,7 +2257,7 @@
     "NodeIsNotActive": "Node not activated"
   },
   "viewers/LockableView": {
-    "LockMaskText": "Загрузка"
+    "LockMaskText": "Loading"
   },
   "viewers/regression/LinRegressReportView": {
     "ModelInfoFValue": "F-statistic",
@@ -2291,7 +2291,7 @@
   "viewers/reports/ReportsForm": {
     "CantDeactivateBefore": "Error: Failed to deactivate the chain of previous nodes to update data",
     "CantShowSourceModelView": "Error: failed to find source visualizer",
-    "CardIsExists": "Элемент с именем \"{0}\" уже существует в этой группе",
+    "CardIsExists": "Item with name \"{0}\" already exists in this group",
     "ColumnTitle": "Name",
     "ConfirmDeleteAll": "Do you really want to delete all?",
     "ConfirmDeleteSelected": "Do you really want to delete the selection?",
@@ -2303,8 +2303,8 @@
     "ErrDeleting": "Error while deleting",
     "ErrDeletingGroup": "Error while group deleting",
     "ErrDeletingReport": "Error while visualizer uninstalling",
-    "MoveToReports": "Перенести в \"Отчеты\"",
-    "NeedNotEmptyGroupName": "Новую группу создать не удалось: имя группы не может быть пустым",
+    "MoveToReports": "Move to \"Reports\"",
+    "NeedNotEmptyGroupName": "Failed to create new group: group name cannot be empty",
     "SetNewGroupName": "New group name:",
     "ShowSourceModelView": "Go to source visualizer",
     "SourceNodeDoesntExists": "The visualizer source node does not exist for this report"
@@ -2587,10 +2587,10 @@
   },
   "wizards/random/RandSeedEdit": {
     "CopyError": "Error while copying to clipboard:",
-    "InvalidRandSeed": "Значение \"{0}\" не является целым числом",
-    "InvalidRandSeedMax": "Random seed должен быть меньше или равен 2147483647",
-    "InvalidRandSeedMin": "Random seed должен быть больше 0",
-    "NoHTTPSMsg": "Для данной операции необходимо соединение по протоколу HTTPS. Для копирования данных используйте горячие клавиши"
+    "InvalidRandSeed": "Value \"{0}\" is not integer",
+    "InvalidRandSeedMax": "Random seed must be less or equal to 2147483647",
+    "InvalidRandSeedMin": "Random seed must exceed 0",
+    "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation. Use hot keys to copy data"
   },
   "wizards/referencenode/ReferenceNodeComponentWizard": {
     "ErrNodeDeleted": "Target node has been deleted.",

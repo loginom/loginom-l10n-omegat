@@ -36,8 +36,8 @@
       "Absent": "Not required",
       "NamePass": "Username and password",
       "OAuth": "OAuth token",
-      "Cert": "Клиентский сертификат из хранилища",
-      "FileCert": "Файлы сертификата клиента"
+      "Cert": "Client certificate from storage",
+      "FileCert": "Client certificate files"
     }
   },
   "Common/WSDL/Processor/WSDLRequestProcessor": {
@@ -811,7 +811,7 @@
   },
   "exports/textfile": {
     "TextFileLineEnding": {
-      "$Caption": "Перевод строк",
+      "$Caption": "Word Wrap",
       "LF": "Unix (LF)",
       "CRLF": "Windows (CRLF)"
     }
@@ -1383,7 +1383,7 @@
     },
     "LogType": {
       "$Caption": "Logging Options",
-      "File": "Файл",
+      "File": "File",
       "Journald": "journald"
     }
   },

@@ -22,7 +22,7 @@
   },
   "Common/HTTPClient/WSDLClientAuth": {
     "WSDLAuthorization": {
-      "CertFileCredentials": "Реквизиты аутентификации пользовательским сертификатом",
+      "CertFileCredentials": "User certificate authentication credentials",
       "Mode": "Authentication Type",
       "NamePassCredentials": "Username and Password Authentication Credentials",
       "OAuthCredentials": "OAuth Token Authentication Credentials"
@@ -42,7 +42,7 @@
   },
   "Common/HTTPClient/WSDLRequestDebug": {
     "WSDLRequestDebug": {
-      "DumpRequest": "Сохранять текст запроса в папку",
+      "DumpRequest": "Save request text in folder",
       "DumpRequestFolder": "Folder to save requests",
       "ResponseStub": "File name supplied as response",
       "UseResponseStub": "Simulate request with response in a file"
@@ -423,7 +423,7 @@
   },
   "components/replace": {
     "ReplaceTable": {
-      "Items": "Варианты замены"
+      "Items": "Replacement options"
     }
   },
   "components/sampling": {
@@ -462,7 +462,7 @@
   },
   "components/sorting": {
     "SortingEngine": {
-      "BufferWhole": "Кэшировать все данные"
+      "BufferWhole": "Cache all data"
     }
   },
   "components/treetodata": {
@@ -558,14 +558,14 @@
       "DecimalSeparator": "Decimal separator",
       "DelimiterChar": "Column delimiter",
       "FormatType": "Data format",
-      "LineEnding": "Перевод строк",
+      "LineEnding": "Word Wrap",
       "TextQualifier": "Text qualifier",
       "TimeFormat": "Time format",
       "TimeSeparator": "Time separator",
       "ValueFalse": "False",
       "ValueNull": "Null",
       "ValueTrue": "True",
-      "WriteBOM": "Добавить BOM"
+      "WriteBOM": "Add BOM"
     }
   },
   "exports/xml": {
@@ -579,7 +579,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Таблица\/Представление"
+      "CommandText": "Table\/Representation"
     }
   },
   "imports/excelfile": {
@@ -692,7 +692,7 @@
     "SQLiteFunctionDefs": {
       "CaseChangeUnicode": "lower, upper for UNICODE",
       "LikeMode": "LIKE mode",
-      "NoCaseUnicode": "NOCASE в режиме UNICODE"
+      "NoCaseUnicode": "NOCASE in UNICODE mode"
     },
     "SQLitePragmas": {
       "CacheSize": "Cache size",
@@ -702,7 +702,7 @@
     "SQLiteUniDACDatabaseConfigurator": {
       "CreateDBIfNotExists": "Create DB if it doesn't exist",
       "Encrypted": "Encrypted DB",
-      "InMemoryDBMode": "База данных в памяти"
+      "InMemoryDBMode": "Database in memory"
     }
   },
   "Libraries/bgrtl/ColumnInfoLinks": {
@@ -855,7 +855,7 @@
       "MinLogLevel": "Logging level"
     },
     "LoggerConfigurator": {
-      "LoggerType": "Тип логирования"
+      "LoggerType": "Logging type"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Number of backup files",
