@@ -3214,15 +3214,15 @@
   },
   "Libraries/libxml2/LibXml2": {
     "ErrLibXml2Common": "libxml2 error (code %d): %s",
-    "ErrLibXml2Unknown": "Нераспознанная ошибка libxml2",
-    "ErrXMLParse": "Ошибка при разборе XML (строка %d, позиция %d): %s",
-    "ErrXMLParseUrl": "Ошибка при разборе XML по адресу \"%s\" (строка %d, позиция %d): %s"
+    "ErrLibXml2Unknown": "Unknown error libxml2",
+    "ErrXMLParse": "Error parsing XML (line %d, position %d): %s",
+    "ErrXMLParseUrl": "Error parsing XML at the following address \"%s\" (line %d, position %d): %s"
   },
   "Libraries/libxml2/LibXslt": {
-    "LibXsltNotLoaded": "Библиотека %s не найдена"
+    "LibXsltNotLoaded": "%s library not found"
   },
   "Libraries/Log/Logger_Journald": {
-    "LibSystemdNotLoaded": "Не найдена библиотека libsystemd.so"
+    "LibSystemdNotLoaded": "libsystemd.so library not found"
   },
   "Libraries/Log/Logger_Log4D": {
     "LogAnsiCodePage": "0"
@@ -3397,7 +3397,7 @@
     "GenericVendorCaption": "Supernode"
   },
   "Libraries/Model/Generic/ModelGenericSocketItems": {
-    "ErrOptionalChangeNotSupported": "Порт данного типа не поддерживает изменение флага необязательности"
+    "ErrOptionalChangeNotSupported": "The port related to this type does not support optionality flag change"
   },
   "Libraries/Model/Generic/ModelInnerComponent": {
     "ErrAlreadyConfiguringInnerSocket": "The external port component has already been configuring"
@@ -3475,7 +3475,7 @@
   },
   "Libraries/Model/ModelNodesCopyUtils": {
     "CopyNodesCaption": "Nodes Copied",
-    "ErrAnnotationNotConfigurable": "Не удалось создать копию заметки с GUID: %s",
+    "ErrAnnotationNotConfigurable": "Failed to create annotation copy with GUID: %s",
     "ErrCantPasteBaseInsideDerived": "Failed to move \"%s\" base component inside \"%s\" derived node.",
     "ErrCantPasteDerivedInsideBase": "Failed to move \"%s\" derived node inside \"%s\" base node",
     "ErrCantPasteInsideSelf": "Failed to move \"%s\" node inside itself",
@@ -3485,10 +3485,10 @@
     "ErrLinkPortNotConnetedToNode": "Link port with %s identifier not connected to node",
     "ErrMovedVendorUnavailableForNode": "Moved %s derived component is unavailable for %s node.",
     "ErrNodeNotConfigurable": "Failed to create the node copy with the following name: \"%s\" and GUID: %s",
-    "ErrNoNodesSpecified": "Не задан набор узлов и заметок",
+    "ErrNoNodesSpecified": "Set of nodes and annotations not set",
     "ErrNoSourceModelUnit": "Source module not found",
     "ErrNoTargetModelUnit": "Target module not found",
-    "ErrSomeAnnotationDisposed": "Одна или несколько исходных заметок были удалены или перемещены",
+    "ErrSomeAnnotationDisposed": "One or several source annotations were deleted or moved ",
     "ErrSomeNodeDisposed": "One or several source nodes have been deleted or moved",
     "ErrUnableToRestoreLinkBetween": "Failed to restore link between \"%s\" and \"%s\" nodes",
     "ErrVendorNotFound": "Derived \"%s\" component not found. Perhaps, this component could be deleted.",
@@ -3528,7 +3528,7 @@
     "CompatConvertRequired": "While opening \"%s\" package of %s version, converting will be performed.",
     "ErrCannotLoadPackageElement": "Package load error: failed to load \"%s\" element",
     "ErrCannotOpenFile": "Failed to open file: \"%s\"",
-    "ErrDecryptPackage": "Текущая версия приложения не может расшифровать пакет \"%s\": неподдерживаемый способ шифрования пакета",
+    "ErrDecryptPackage": "The current application version cannot decrypt \"%s\" package: unsupported method of package encryption",
     "WarnPackageCreatedInNewerVersion": "\"%s\" package was created in a newer version of Loginom %s. In the current version, a part of the functionality may not work correctly."
   },
   "Libraries/Model/ModelReports": {
@@ -3605,13 +3605,13 @@
     "ErrModelNodeAlreadyInitialized": "Node already initialized",
     "ErrMultipleVariablesFound": "Multiple variables with \"%s\" name found",
     "ErrNodeConfigNotInitialized": "Node configuration not initialized",
-    "ErrNodeInputPortCountChanged": "У узла \"%s\" изменилось количество входных портов",
+    "ErrNodeInputPortCountChanged": "Number of input ports was changed for \"%s\" node",
     "ErrNodeIsNoMemberOfModel": "Node does not belong to the workflow",
     "ErrNodeLocked": "\"%s\" node is locked",
     "ErrNodeNotFoundInModel": "The requested node does not belong to the workflow",
     "ErrNodeNotInitialized": "No component specified for \"%s\" node",
-    "ErrNodeOutputPortCountChanged": "У узла \"%s\" изменилось количество выходных портов",
-    "ErrNodeOutputPortTypeChanged": "У узла \"%s\" изменился тип выходного порта \"%s\"",
+    "ErrNodeOutputPortCountChanged": "Number of output ports was changed for \"%s\" node",
+    "ErrNodeOutputPortTypeChanged": "Type of \"%s\" output port was changed for \"%s\" node",
     "ErrNodeParametersChanged": "\"%s\" node parameters changed",
     "ErrParentProcessError": "Error in parent process",
     "ErrPortMismatch": "Incompatible component: node port list does not match",
@@ -3750,7 +3750,7 @@
   },
   "Libraries/Normalization/NormalColumnsManager": {
     "ErrIrremNotExcluded": "Irremovable factor \"%s\" cannot be excluded",
-    "ErrNotImplemented": "This functionality not implemented"
+    "ErrNotImplemented": "nThis functionality not implemented"
   },
   "Libraries/Normalization/NormalColumnsRange": {
     "ErrCursorNotReady": "The flag iterator cursor does not indicate value",
@@ -3888,7 +3888,7 @@
     "ErrIndexerCountNotFound": "No \"%2:s\" property in metadata for \"%0:s.%1:s\" interface",
     "ErrInterfaceNameNotFound": "Interface with \"%s\" name not registered",
     "ErrInterfaceParentNotFound": "Parent interface \"%s\" not found",
-    "ErrInvalidMetadata": "Ошибка чтения метаданных",
+    "ErrInvalidMetadata": "Metadata reading error",
     "ErrInvalidUTFInt": "Error reading packed integer number",
     "ErrParentNotInitialized": "Not initialized parent of \"%s.%s\" interface",
     "ErrReferenceIsNil": "Interface reference not initialized",
@@ -3931,10 +3931,10 @@
     "ErrInvalidURL": "Invalid service URL format",
     "ErrMustExplicitRequestContentType": "Data request Content-Type must be explicitly set",
     "ErrNoServiceURL": "Service URL not specified",
-    "ErrNotConnectedDefaultFmt": "Не удалось установить соединение. Причина: %s",
-    "ErrNotConnectedTimeoutFmt": "Не удалось установить соединение в течении %d мс. Причина: %s",
-    "ErrNotSecureConnectedFmt": "Не удалось установить защищенное соединение. Причина: %s",
-    "ErrUnsupportedAuthModeCert": "Аутентификация с помощью клиентского сертификата из хранилища не поддерживается"
+    "ErrNotConnectedDefaultFmt": "Failed to establish connection. Reason: %s",
+    "ErrNotConnectedTimeoutFmt": "Failed to establish connection within %d ms. Reason: %s",
+    "ErrNotSecureConnectedFmt": "Failed to establish secure connection. Reason: %s",
+    "ErrUnsupportedAuthModeCert": "Authentification using the client certificate from storage not supported"
   },
   "Libraries/RESTClientConnection/RESTClientConnectionVendor": {
     "RESTClientConnectionVendorCaption": "REST Service",
@@ -3959,7 +3959,7 @@
   },
   "Libraries/rpc/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Arrays nesting level above %d is not supported",
-    "ErrCodePageNotSupported": "Cтрока имеет неподдерживаемую кодовую страницу %d. Поддерживается только UTF-8 и UTF-16.",
+    "ErrCodePageNotSupported": "The line includes unsupported codepage %d. Only UTF-8 and UTF-16 are supported.",
     "ErrInvalidMessageSignature": "Invalid message signature",
     "ErrMessageSizeCannotBeNegative": "Message size cannot be negative",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
@@ -4045,7 +4045,7 @@
     "PublishedNodeDerivedVendorCaptionFormatString": "%s (published node)"
   },
   "Studio/Converters/Converter_202210131413_ModelNode_RemoveWrapWebServiceResult": {
-    "NodeSoapResponseFormatChanged": "Узел %s был опубликован в Loginom версии 6.2.5 или более ранней. Для данного узла изменится формат ответных сообщений при вызове через SOAP сервис."
+    "NodeSoapResponseFormatChanged": "%s node was published in Loginom 6.2.5 or earlier version. Format of reply messages will be changed for this node when calling via SOAP service."
   },
   "Studio/DeductorConsts": {
     "LgpFilesDesc": "Loginom packages"
@@ -4091,7 +4091,7 @@
     "ErrSessionBackupModified": "This session backup has already been changed by another client from the current account",
     "ErrUpdatePublishedPackageErrors": "Errors occurred while updating %s package publishing",
     "FileName": "File name",
-    "LicSessionCountExceeded": "Превышено количество сессий, допустимых по вашей лицензии",
+    "LicSessionCountExceeded": "Count of sessions allowed according to your license exceeded",
     "Namespace": "Namespace",
     "PackageClosedLogMsg": "\"%s\" package closed",
     "PackageOpenedEditLogMsg": "\"%s\" package opened in the edit mode",
@@ -4162,21 +4162,21 @@
     "UserMetaDesc": "User"
   },
   "Studio/RegistrationEditionDependentComponents": {
-    "1Cv8Connection": "Подключение к 1С:Предприятие 8",
+    "1Cv8Connection": "Connection to1С:Enterprise 8",
     "1Cv8QueryImport": "1C Query",
-    "AccessODBCUniDACDatabase": "Подключение к MS Access",
+    "AccessODBCUniDACDatabase": "Connection to MS Access",
     "DataToXMLEngine": "XML Generation",
-    "ErrComponentNotAvailable": "Компонент \"%s\" недоступен в текущей редакции Loginom",
-    "ExcelODBCUniDACDatabase": "Подключение к MS Excel",
+    "ErrComponentNotAvailable": "\"%s\" component is unavailable in the current Loginom version",
+    "ExcelODBCUniDACDatabase": "Connection to MS Excel",
     "ExecCmdEngine": "Program Execution",
-    "ExportTableau": "Экспорт в Tableau файл",
-    "ExtractXMLEngine": "Разбор XML",
+    "ExportTableau": "Export to Tableau file",
+    "ExtractXMLEngine": "XML parsing",
     "KafkaConnection": "Connection to Kafka",
-    "KafkaExport": "Экспорт в Kafka",
-    "KafkaImport": "Импорт из Kafka",
-    "MSSQLDDWConnection": "Подключение к Deductor Warehouse [MS SQL]",
-    "OraDDWConnection": "Подключение к Deductor Warehouse [Oracle]",
-    "TableauRestConnection": "Подключение к Tableau серверу",
+    "KafkaExport": "Export to Kafka",
+    "KafkaImport": "Import from Kafka",
+    "MSSQLDDWConnection": "Connection to Deductor Warehouse [MS SQL]",
+    "OraDDWConnection": "Connection to Deductor Warehouse [Oracle]",
+    "TableauRestConnection": "Connection to Tableau серверу",
     "WSDLClient": "SOAP Request",
     "WSDLClientConnection": "Connection to SOAP service"
   },
@@ -4240,7 +4240,7 @@
   },
   "Viewers/ClusterProfiles/ClusterProfilesView": {
     "Component": "Component",
-    "DetailingProcessCaption": "Профили кластеров. %s по кластерам %s",
+    "DetailingProcessCaption": "Cluster profiles. %s for %s clusters",
     "ErrNotDefinedComponent": "Undefined Clustering component",
     "ErrTableRowState": "Invalid change of the data field synchronization status occurred",
     "HistogramProcess": "Histogram building",
@@ -4321,7 +4321,7 @@
   },
   "Viewers/Cube/CubeView": {
     "CubeViewProcess": "Cube",
-    "DetailingProcessCaption": "Куб. %s по ячейке [%d, %d]",
+    "DetailingProcessCaption": "Cube. %s for cell [%d, %d]",
     "ErrAlreadyExporting": "Failed to export a crosstab until the current export is finished",
     "ErrExportCubeClosed": "Failed to export a crosstab when the Cube is inactive",
     "ErrExportDeactivate": "Export deactivated due to node deactivation",
@@ -4353,7 +4353,7 @@
     "ErrRequiredColumnNotFound": "No columns with the specified indexes in the input data source"
   },
   "Viewers/DataQuality/QualityViewDetailing": {
-    "DetailingProcessCaption": "Качество данных. %s по ячейке [%d, %d]"
+    "DetailingProcessCaption": "Data quality. %s for cell [%d, %d]"
   },
   "Viewers/DataQuality/QualityViewExport": {
     "HTMLContinueStatsTitle": "Data quality (Continuous fields)",
