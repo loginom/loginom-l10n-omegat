@@ -811,7 +811,7 @@
   },
   "exports/textfile": {
     "TextFileLineEnding": {
-      "$Caption": "Word Wrap",
+      "$Caption": "Line Ending",
       "LF": "Unix (LF)",
       "CRLF": "Windows (CRLF)"
     }

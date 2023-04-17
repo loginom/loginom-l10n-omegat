@@ -1543,7 +1543,7 @@
     "WarnExecuting": "Python already executing"
   },
   "components/python/PythonExeEngineImpl": {
-    "ErrCannotCreateProcess": "Не удалось запустить \"%s\"",
+    "ErrCannotCreateProcess": "Failed to start \"%s\"",
     "ErrInt32Overflow": "%d value exceeds allowable values of 32 bit integer",
     "ErrPythonExeNotFound": "Python interpreter path specified in application settings does not exist",
     "ErrRowLimitExceeded": "Maximum table row limit exceeded",

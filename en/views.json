@@ -510,7 +510,7 @@
       "tooltip": "Run all"
     },
     "btnAddAnnotation": {
-      "tooltip": "Создать заметку"
+      "tooltip": "Configure annotation"
     },
     "btnBatchMode": {
       "tooltip": "Configure node activation mode..."
@@ -683,7 +683,7 @@
       "tooltip": "Horizontal top alignment"
     },
     "mniStyle": {
-      "text": "Стиль"
+      "text": "Style"
     },
     "mniVerticalAlighCenter": {
       "text": "Align middle",
@@ -721,7 +721,7 @@
       "fieldLabel": "Locale"
     },
     "chbBinaryCmpUniqValues": {
-      "boxLabel": "Сравнивать строковые уникальные значения бинарно"
+      "boxLabel": "Compare string unique values in a binary manner"
     },
     "chbUseBasePackageFileStorage": {
       "boxLabel": "Use relative paths of base package"
@@ -1697,7 +1697,7 @@
       "text": "Type"
     },
     "frmConditionSocketsWizard": {
-      "title": "Настройка списка портов"
+      "title": "Configure list of ports"
     }
   },
   "components/corranalysis/CorrAnalysisWizard": {
@@ -1936,7 +1936,7 @@
       "title": "XML Document Identification"
     },
     "frmExtractXmlProperties": {
-      "title": "Параметры разбора XML"
+      "title": "XML Parsing Parameters"
     },
     "rbFull": {
       "boxLabel": "One request for the whole data set"
@@ -2262,7 +2262,7 @@
   },
   "components/restclient/MessageBody": {
     "edtMessageBodyColumn": {
-      "fieldLabel": "Поле с телом сообщения"
+      "fieldLabel": "Field with message body"
     }
   },
   "components/restclient/ParamLinks": {
@@ -3195,8 +3195,8 @@
       "tooltip": "Copy"
     },
     "btnCopyFullPath": {
-      "text": "Копировать полный путь",
-      "tooltip": "Копировать полный путь"
+      "text": "Copy full path",
+      "tooltip": "Copy full path"
     },
     "btnCreateDirectory": {
       "text": "New Folder",
@@ -3425,7 +3425,7 @@
       "text": "Connect"
     },
     "btnExtractAll": {
-      "text": "Извлекать всё"
+      "text": "Extract alll"
     },
     "btnPreview": {
       "text": "Preview"
@@ -3434,7 +3434,7 @@
       "fieldLabel": "Connection"
     },
     "colDataType": {
-      "text": "Тип в базе"
+      "text": "Type in base"
     },
     "colDisplayText": {
       "text": "Caption"
@@ -3455,40 +3455,40 @@
       "title": "Variables"
     },
     "lblAllFields": {
-      "text": "Выбрано извлечение всех полей"
+      "text": "Extraction of all fields selected"
     },
     "lblNoDBConnection": {
-      "text": "Нет подключения к базе данных"
+      "text": "No connection to database"
     },
     "lblObjectsTree": {
       "text": "Tables\/views"
     },
     "lblSelectFields": {
-      "text": "Подключитесь к базе и выберите поля"
+      "text": "Connect to database and select fields"
     },
     "lblVariables": {
       "text": "Variables"
     },
     "mniInsertFullName": {
-      "text": "Вставить полное имя в редактор SQL кода"
+      "text": "Insert full name into SQL code editor"
     },
     "mniParameter": {
       "text": ":VAR"
     },
     "mniSelect": {
-      "text": "Выбрать таблицу"
+      "text": "Select table"
     },
     "mniSubstitution": {
       "text": "%VAR%"
     },
     "pedTableName.valueConfig": {
-      "emptyText": "Выберите таблицу в списке или введите имя"
+      "emptyText": "Select table in the list or enter the name"
     },
     "rbSQL": {
       "boxLabel": "SQL Query"
     },
     "rbTable": {
-      "boxLabel": "Выбор таблицы"
+      "boxLabel": "Select table"
     },
     "txtFieldsFilterField": {
       "fieldLabel": "Label"
@@ -3678,7 +3678,7 @@
       "fieldLabel": "File Storage"
     },
     "edtFileName": {
-      "propDisplayName": "Имя файла \/ URL"
+      "propDisplayName": "File name \/ URL"
     },
     "frmImportFromFile": {
       "title": "Import from Excel File"
@@ -3755,7 +3755,7 @@
       "regexText": "Invalid codepage"
     },
     "edtFileName": {
-      "propDisplayName": "Имя файла \/ URL"
+      "propDisplayName": "File name \/ URL"
     },
     "frmImportFromFile": {
       "title": "Import from Text File"
@@ -3791,7 +3791,7 @@
       "fieldLabel": "File storage"
     },
     "edtFileName": {
-      "propDisplayName": "Имя файла \/ URL"
+      "propDisplayName": "File name \/ URL"
     },
     "frmImportXmlFile": {
       "title": "Import from XML File"
@@ -3974,7 +3974,7 @@
   },
   "viewers/browse/BrowseSorting": {
     "chkBufferWhole": {
-      "fieldLabel": "Кэшировать все данные"
+      "fieldLabel": "Cache all data"
     }
   },
   "viewers/browse/BrowseView": {
@@ -4541,7 +4541,7 @@
       "fieldLabel": "Value"
     },
     "frmCasesFilterPanel": {
-      "title": "Фильтр по фактам"
+      "title": "Measure Filter"
     }
   },
   "viewers/cube/CasesTunePanel": {
@@ -4582,7 +4582,7 @@
       "tooltip": "Move up"
     },
     "frmCasesTunePanel": {
-      "title": "Настройка фактов"
+      "title": "Configure Measures"
     },
     "pnlCases": {
       "title": "Available Measures"
@@ -4708,7 +4708,7 @@
       "tooltip": "Configure measures..."
     },
     "btnTuneDims": {
-      "tooltip": "Настроить измерения..."
+      "tooltip": "Configure dimensions..."
     },
     "colDisplayName": {
       "text": "Fields"
@@ -4849,7 +4849,7 @@
       "text": "Cancel"
     },
     "frmDimensionsTunePanel": {
-      "title": "Настройка измерений"
+      "title": "Configure Dimensions"
     }
   },
   "viewers/cube/EmbeddedBrowseForm": {
@@ -5257,15 +5257,15 @@
       "tooltip": "Delete all..."
     },
     "btnGrouping": {
-      "text": "Сгруппировать",
-      "tooltip": "Сгруппировать"
+      "text": "Grouping",
+      "tooltip": "Grouping"
     },
     "btnListView": {
       "tooltip": "Table"
     },
     "btnMoveData": {
-      "text": "Переместить",
-      "tooltip": "Переместить"
+      "text": "Move",
+      "tooltip": "Move"
     },
     "btnReloadViewData": {
       "text": "Reread data"
@@ -5275,7 +5275,7 @@
       "tooltip": "Rename"
     },
     "mniCreateGroup": {
-      "text": "Перенести в отчеты"
+      "text": "Move to reports"
     },
     "pnlReportsForm": {
       "title": "Reports"
@@ -6128,7 +6128,7 @@
       "text": "Name"
     },
     "colOptional": {
-      "text": "Необязательный"
+      "text": "Optional"
     },
     "colType": {
       "text": "Type"
@@ -6295,13 +6295,13 @@
   },
   "wizards/random/RandSeedEdit": {
     "mniAlwaysRandomize": {
-      "text": "Всегда случайно"
+      "text": "Always randomize"
     },
     "mniCopy": {
       "text": "Copy"
     },
     "mniGenerate": {
-      "text": "Генерировать"
+      "text": "Generate"
     }
   },
   "wizards/referencenode/ReferenceNodeComponentWizard": {

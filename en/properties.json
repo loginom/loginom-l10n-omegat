@@ -558,7 +558,7 @@
       "DecimalSeparator": "Decimal separator",
       "DelimiterChar": "Column delimiter",
       "FormatType": "Data format",
-      "LineEnding": "Word Wrap",
+      "LineEnding": "Line Ending",
       "TextQualifier": "Text qualifier",
       "TimeFormat": "Time format",
       "TimeSeparator": "Time separator",
