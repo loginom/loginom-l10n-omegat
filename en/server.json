@@ -3077,7 +3077,7 @@
     "ErrDuplicateSequenceItemIDChanged": "The collection contained base and derived items with the same identifier %d. The derived item identifier was changed to %d",
     "ErrDuplicateSequenceItemIDOverride": "The collection contained base and derived items with the same identifier %d. The base item was ignored",
     "ErrDuplicateSequenceItemIDs": "The collection contains more than one item with identifier %d",
-    "ErrDuplicateSequenceItemNameChanged": "The collection contained base and derived items with the same %s identifier. The derived item was renamed to %s",
+    "ErrDuplicateSequenceItemNameChanged": "The collection contained base and derived items with the same %s name. The derived item was renamed to %s",
     "ErrDuplicateSequenceItemNameOverride": "The collection contained base and derived items with the same %s name. The base item was ignored",
     "ErrDuplicateSequenceItemNames": "The collection contains more than one item with %s name",
     "ErrGetConfigWriterItemByIndexNotSupported": "Getting derived configuration item by index not supported",
@@ -3611,7 +3611,7 @@
     "ErrNodeNotFoundInModel": "The requested node does not belong to the workflow",
     "ErrNodeNotInitialized": "No component specified for \"%s\" node",
     "ErrNodeOutputPortCountChanged": "Number of output ports was changed for \"%s\" node",
-    "ErrNodeOutputPortTypeChanged": "Type of \"%s\" output port was changed for \"%s\" node",
+    "ErrNodeOutputPortTypeChanged": "Type of output \"%s\" port was changed for \"%s\" node",
     "ErrNodeParametersChanged": "\"%s\" node parameters changed",
     "ErrParentProcessError": "Error in parent process",
     "ErrPortMismatch": "Incompatible component: node port list does not match",
@@ -4162,7 +4162,7 @@
     "UserMetaDesc": "User"
   },
   "Studio/RegistrationEditionDependentComponents": {
-    "1Cv8Connection": "Connection to1С:Enterprise 8",
+    "1Cv8Connection": "Connection to 1C:Enterprise 8",
     "1Cv8QueryImport": "1C Query",
     "AccessODBCUniDACDatabase": "Connection to MS Access",
     "DataToXMLEngine": "XML Generation",
@@ -4176,7 +4176,7 @@
     "KafkaImport": "Import from Kafka",
     "MSSQLDDWConnection": "Connection to Deductor Warehouse [MS SQL]",
     "OraDDWConnection": "Connection to Deductor Warehouse [Oracle]",
-    "TableauRestConnection": "Connection to Tableau серверу",
+    "TableauRestConnection": "Connection to Tableau server",
     "WSDLClient": "SOAP Request",
     "WSDLClientConnection": "Connection to SOAP service"
   },
