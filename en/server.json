@@ -557,7 +557,7 @@
     "ErrZeroTileCount": "Bin (tile) count must be > 0",
     "NegativValueForTileSumm": "Negative values are invalid while generating bins by indicator sum",
     "SortProcessFmt": "%s field sorting",
-    "WarnNoRound": "\"Round limits\" option was ignored because \"Ties\" parameter is equal to \"Assign optimal\" "
+    "WarnNoRound": "\"Round limits\" option was ignored because \"Ties\" parameter is equal to \"Assign optimal\""
   },
   "components/binning/BinningQuantizers": {
     "ErrNoBins": "No bins defined for quantizer"
