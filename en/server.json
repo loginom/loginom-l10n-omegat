@@ -4240,7 +4240,7 @@
   },
   "Viewers/ClusterProfiles/ClusterProfilesView": {
     "Component": "Component",
-    "DetailingProcessCaption": "Cluster profiles. %s for %s clusters",
+    "DetailingProcessCaption": "Cluster profiles. Prepare %s from clusters %s",
     "ErrNotDefinedComponent": "Undefined Clustering component",
     "ErrTableRowState": "Invalid change of the data field synchronization status occurred",
     "HistogramProcess": "Histogram building",
@@ -4321,7 +4321,7 @@
   },
   "Viewers/Cube/CubeView": {
     "CubeViewProcess": "Cube",
-    "DetailingProcessCaption": "Cube. %s for cell [%d, %d]",
+    "DetailingProcessCaption": "Cube. Prepare %s from the [%d, %d] cell data",
     "ErrAlreadyExporting": "Failed to export a crosstab until the current export is finished",
     "ErrExportCubeClosed": "Failed to export a crosstab when the Cube is inactive",
     "ErrExportDeactivate": "Export deactivated due to node deactivation",
@@ -4353,7 +4353,7 @@
     "ErrRequiredColumnNotFound": "No columns with the specified indexes in the input data source"
   },
   "Viewers/DataQuality/QualityViewDetailing": {
-    "DetailingProcessCaption": "Data quality. %s for cell [%d, %d]"
+    "DetailingProcessCaption": "Data quality. Prepare %s from the [%d, %d] cell data"
   },
   "Viewers/DataQuality/QualityViewExport": {
     "HTMLContinueStatsTitle": "Data quality (Continuous fields)",
