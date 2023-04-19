@@ -902,7 +902,7 @@
   },
   "components/elimoutlier/ElimOutlier": {
     "ErrOutDataSetIndexOutOfRange": "The output data set index %d is out of [%d; %d] range",
-    "ErrSetValueRestricted": "Replacement with set value is prohibited in the ordered data set for \"%s\" column with continuous data kind ",
+    "ErrSetValueRestricted": "Replacement with set value is prohibited in the ordered data set for \"%s\" column with continuous data kind",
     "GenerationOutputSets": "Output data sets generation",
     "OutData": "Output data set",
     "OutDataExtr": "Extremes",
@@ -3488,7 +3488,7 @@
     "ErrNoNodesSpecified": "Set of nodes and annotations not set",
     "ErrNoSourceModelUnit": "Source module not found",
     "ErrNoTargetModelUnit": "Target module not found",
-    "ErrSomeAnnotationDisposed": "One or several source annotations were deleted or moved ",
+    "ErrSomeAnnotationDisposed": "One or several source annotations were deleted or moved",
     "ErrSomeNodeDisposed": "One or several source nodes have been deleted or moved",
     "ErrUnableToRestoreLinkBetween": "Failed to restore link between \"%s\" and \"%s\" nodes",
     "ErrVendorNotFound": "Derived \"%s\" component not found. Perhaps, this component could be deleted.",
