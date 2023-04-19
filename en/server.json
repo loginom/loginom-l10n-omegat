@@ -2039,7 +2039,7 @@
     "ErrLoadSheetData": "Failed to get Excel worksheet data"
   },
   "imports/excelfile/ImportExcelFile": {
-    "ErrBooleanTypeCast": "Failed to convert \"%s\" value in \"%s\" field to logical value.",
+    "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" field to logical value.",
     "ErrColumnExcistFmt": "\"%s\" field already exists",
     "ErrColumnInvalidIdentFmt": "\"%s\" cannot be an identifier",
     "ErrExcelNotOpen": "Operation failed, Excel file not open",
@@ -2142,10 +2142,10 @@
     "VendorDesc": "Import data from Loginom Data file"
   },
   "imports/textfile/ImportTextFile": {
-    "ErrBooleanTypeCast": "Failed to convert \"%s\" value in \"%s\" column to logical value.",
-    "ErrDateTimeTypeCast": "Failed to convert \"%s\" value in \"%s\" column to date\/time.",
-    "ErrFloatTypeCast": "Failed to convert \"%s\" value in \"%s\" column to real number.",
-    "ErrIntegerTypeCast": "Failed to convert \"%s\" value in \"%s\" column to integer.",
+    "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
+    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date\/time.",
+    "ErrFloatTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to real number.",
+    "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
     "ErrMaxBytesCountReaded": "While parsing the text file %d limit of reading of maximum number of bytes reached",
     "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length %d character faster than closing text qualifier was found. The file line number with multiline start: %d. The last file line included into the multiline: %d.",
     "ErrMultilineEofAchieved": "The text file end was reached faster than closing text qualifier was found. The file line number with multiline start: %d.",
@@ -2667,11 +2667,11 @@
   },
   "Libraries/bgrtl/IntfStream": {
     "ErrStreamIsReadOnly": "The data stream is open in the read-only mode",
-    "ErrStreamReadBuffer": "When reading bytes from the data stream, %d was read instead of %d",
+    "ErrStreamReadBuffer": "When reading bytes from the data stream, %1:d was read instead of %0:d",
     "ErrStreamReadBufferInvalidParams": "Invalid parameter values when reading from the data stream: Length = %d; Count = %d; Offset = %d",
     "ErrStreamReadBufferLength": "When reading from the data stream, the size of the resulting buffer %d is less than the number of bytes required for reading %d",
     "ErrStreamSeekOutOf2GbRange": "When moving, the cursor of the data stream went beyond 2 GB, it is required to use the 64-bit version of the function",
-    "ErrStreamWriteBuffer": "When writing bytes to the data stream, %d was written instead of %d",
+    "ErrStreamWriteBuffer": "When writing bytes to the data stream, %1:d was written instead of %0:d",
     "ErrStreamWriteBufferInvalidParams": "Invalid parameter values when writing to the data stream: Length = %d; Count = %d; Offset = %d",
     "ErrStreamWriteBufferLength": "When writing to the data stream, the size of the initial buffer %d is less than the number of bytes required for writing %d"
   },
@@ -3611,7 +3611,7 @@
     "ErrNodeNotFoundInModel": "The requested node does not belong to the workflow",
     "ErrNodeNotInitialized": "No component specified for \"%s\" node",
     "ErrNodeOutputPortCountChanged": "Number of output ports was changed for \"%s\" node",
-    "ErrNodeOutputPortTypeChanged": "Type of output \"%s\" port was changed for \"%s\" node",
+    "ErrNodeOutputPortTypeChanged": "Type of output \"%1:s\" port was changed for \"%0:s\" node",
     "ErrNodeParametersChanged": "\"%s\" node parameters changed",
     "ErrParentProcessError": "Error in parent process",
     "ErrPortMismatch": "Incompatible component: node port list does not match",
@@ -4314,7 +4314,7 @@
     "CountCaseDisplayName": "Count",
     "DefExprDisplayName": "Expression",
     "ErrCaseClassNotDynamic": "Measure is not calculated",
-    "ErrCaseFuncNotExist": "No \"%s\" aggregation for \"%s\" measure",
+    "ErrCaseFuncNotExist": "No \"%1:s\" aggregation for \"%0:s\" measure",
     "ErrCaseSubFuncNotExist": "\"%s\" measure with \"%s\" aggregation does not have \"%s\" display mode",
     "ErrIIDNotRegistered": "\"%s\" identifier not registered",
     "MsgMissingCase": "\"%s\" field matching \"%s\" measure not found in the data set."
