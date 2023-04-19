@@ -579,7 +579,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/Representation"
+      "CommandText": "Table\/View"
     }
   },
   "imports/excelfile": {
@@ -702,7 +702,7 @@
     "SQLiteUniDACDatabaseConfigurator": {
       "CreateDBIfNotExists": "Create DB if it doesn't exist",
       "Encrypted": "Encrypted DB",
-      "InMemoryDBMode": "Database in memory"
+      "InMemoryDBMode": "In-Memory Database"
     }
   },
   "Libraries/bgrtl/ColumnInfoLinks": {

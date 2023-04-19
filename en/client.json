@@ -325,10 +325,10 @@
     "ErrIncorrectVersionFormat": "Invalid version format",
     "ErrInvalidPackageName": "\"{0}\" is invalid package name",
     "Later": "Later",
-    "MsgNewCompareAfterReopen": "Comparison of lines will be changed when the package and all opened dependent packages are closed.",
+    "MsgNewCompareAfterReopen": "Comparison of strings will be changed when the package and all opened dependent packages are closed.",
     "MsgNewLocaleAfterReopen": "New locale will be applied when the package and all opened dependent packages are closed.",
     "NotSet": "Unspecified ({0})",
-    "QuestionNewCompareSaveAndReopenPackage": "Comparison of lines will be changed when the package and all opened dependent packages are closed.\nDo you want to save the package and reopen it now?",
+    "QuestionNewCompareSaveAndReopenPackage": "Comparison of strings will be changed when the package and all opened dependent packages are closed.\nDo you want to save the package and reopen it now?",
     "QuestionNewLocaleSaveAndReopenPackage": "New locale will be applied when packages and all opened packages that depend on it are closed.\nDo you want to save the package and reopen it now?",
     "Reopen": "Reopen"
   },
@@ -839,7 +839,7 @@
     "ErrFileFieldMiss": "Item is not file upload field",
     "ErrFileNotChoosed": "No file selected",
     "ErrTypeCastError": "Value {0} cannot be cast to {1} data type",
-    "OutputDataTypeError": "Output values will be related to the variable type without replacement of others",
+    "OutputDataTypeError": "Output values will be related to the variant type without replacement of others",
     "ReplaceGroupCommon": "Exact match",
     "ReplaceGroupRegex": "Regular expressions",
     "ReplaceItemTypeError": "Value does not comply with used type",
@@ -1425,9 +1425,9 @@
   },
   "imports/dbimport/DBImportTable": {
     "DBObjectsNamesakesExists": "Several tables with name \"{0}\" were found, select table in the list or add the schema name",
-    "ExistTableDoesNotMatchFilter": "Table(representation) \"{0}\" is prepared for work. Failed to select in the list because it does not match the filter.",
-    "FieldDoesNotExist": "Fileds \"{0}\" do not exist in table(representation) \"{1}\"",
-    "ObjectDoesNotExist": "Table(representation) \"{0}\" not found"
+    "ExistTableDoesNotMatchFilter": "Table(view) \"{0}\" is prepared for work. Failed to select in the list because it does not match the filter.",
+    "FieldDoesNotExist": "Fileds \"{0}\" do not exist in table(view) \"{1}\"",
+    "ObjectDoesNotExist": "Table(view) \"{0}\" not found"
   },
   "imports/dbimport/DBImportWizard": {
     "FieldsDoesNotExist": "Nonexistent fields found",
@@ -1436,7 +1436,7 @@
     "InsertTableMenuItemText": "Insert name into SQL code editor",
     "NoConnection": "No connection",
     "NotConnectedError": "No connection with database",
-    "ObjectDoesNotExist": "Table(representation) \"{0}\" not found",
+    "ObjectDoesNotExist": "Table(view) \"{0}\" not found",
     "PreviewTableNotSelected": "Select table for preview",
     "SelectTableMenuItemText": "Select table"
   },
@@ -1775,7 +1775,7 @@
     "ErrAnnotationNotSaved": "Failed to save annotation",
     "ErrAnnotationSizeNotSaved": "Failed to save annotation sizes",
     "ErrParseItemID": "Failed to get style number from itemID menu item",
-    "ErrStyleNum": "Style number is out of bin range"
+    "ErrStyleNum": "Style number is out of range"
   },
   "mxgraph/graph/Graph": {
     "ImplementThisInModelForm": "This function must be implemented in ModelForm",
@@ -1792,7 +1792,7 @@
   "mxgraph/node/comment/Note": {
     "ErrCommentExpandNotSaved": "Failed to save comment state",
     "ErrCommentNotSaved": "Failed to save comment",
-    "ErrCommentSizeNotSaved": "Failed to save comment sizes",
+    "ErrCommentSizeNotSaved": "Failed to save comment size",
     "NodeIsLocked": "Comment change forbidden: node is locked",
     "WrongCommentValue": "Invalid comment value"
   },

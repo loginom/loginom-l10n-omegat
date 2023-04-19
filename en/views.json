@@ -721,7 +721,7 @@
       "fieldLabel": "Locale"
     },
     "chbBinaryCmpUniqValues": {
-      "boxLabel": "Compare string unique values in a binary manner"
+      "boxLabel": "Compare string unique values binary"
     },
     "chbUseBasePackageFileStorage": {
       "boxLabel": "Use relative paths of base package"
@@ -3425,7 +3425,7 @@
       "text": "Connect"
     },
     "btnExtractAll": {
-      "text": "Extract alll"
+      "text": "Extract all"
     },
     "btnPreview": {
       "text": "Preview"
@@ -3434,7 +3434,7 @@
       "fieldLabel": "Connection"
     },
     "colDataType": {
-      "text": "Type in base"
+      "text": "DB type"
     },
     "colDisplayText": {
       "text": "Caption"

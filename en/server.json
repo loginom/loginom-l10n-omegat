@@ -361,7 +361,7 @@
   },
   "Common/XML/SAX/XMLSAX": {
     "ErrParserCantOpenFile": "Failed to open file",
-    "ErrParserCantURLResponse": "Failed to get response via URL",
+    "ErrParserCantURLResponse": "Failed to get response from URL",
     "ErrParserIsActive": "Failed to change parser properties during parsing",
     "ErrSAXParserImplementationNotRegistered": "SAX parser implementation for %s interface not registered"
   },
@@ -420,7 +420,7 @@
     "ErrDocumentHasNoRootElement": "No root element in XML document",
     "ErrInvalidNodeID": "Unknown node ID: %d",
     "ErrInvalidXMLNameChar": "XML \"%s\" identifier cannot contain \"%s\" character",
-    "ErrInvalidXMLNameStartChar": "XML \"%s\" identifier cannot start from \"%s\" character",
+    "ErrInvalidXMLNameStartChar": "XML \"%s\" identifier cannot start with \"%s\" character",
     "ErrOnlyOneRootElementAllowed": "Document root element already exists",
     "ErrPITargetXMLIsReserved": "\"xml\" parser instruction name reserved",
     "ErrSetSinkWrongNodeType": "XML recipient can only be the 'document' or 'element' node type"
@@ -433,7 +433,7 @@
     "ErrCantCreateXMLDOMDocument": "Error creating XML document tree",
     "ErrXSDElementExistsWithAnotherType": "%s item to be added from %s namespace already exists in the schema and has a different type",
     "ErrXSDNoAccess": "No access to %s document",
-    "NotImplementedContinueParseURIFunc": "libxml2 library does not contain support functionality of not ASCII characters in URI",
+    "NotImplementedContinueParseURIFunc": "libxml2 library does not have functionality of not ASCII characters in URI",
     "WarnXSDLocationSkipped": "Loading of %s to %s document was not performed because it cannot be checked via file storage"
   },
   "Common/XML/XSD_MSXML": {
@@ -976,7 +976,7 @@
   },
   "components/extractxml/ExtractXML": {
     "DocIDColumn": "Document ID",
-    "ErrExtractXML": "Error parsing XML from line %d of the input data set:\n  Error code: %d\n  Message: %s",
+    "ErrExtractXML": "Error parsing XML from row %d of the input data set:\n  Error code: %d\n  Message: %s",
     "ErrExtractXMLInitError": "XML parsing initialization error:\n  %s",
     "ErrImportNotConfigured": "Import tree not configured",
     "ErrInputFieldNotSelected": "It is required to specify XML containing field",
@@ -992,7 +992,7 @@
   },
   "components/extractxml/ExtractXMLVendor": {
     "VendorCaption": "XML Parsing",
-    "VendorDescription": "Parses the string field of the data set as XML and imports it to the output data set according to the set schema"
+    "VendorDescription": "Parses the string field of the data set as XML and imports it to the output data set according to the specified schema"
   },
   "components/factoranalysis/FactorAnalysis": {
     "ErrFactorMatrixAfterRot": "Ill-conditioned factor mapping matrix",
@@ -2148,7 +2148,7 @@
     "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
     "ErrMaxBytesCountReaded": "While parsing the text file %d limit of reading of maximum number of bytes reached",
     "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length %d character faster than closing text qualifier was found. The file line number with multiline start: %d. The last file line included into the multiline: %d.",
-    "ErrMultilineEofAchieved": "The text file end was reached faster than closing text qualifier was found. The file line number with multiline start: %d.",
+    "ErrMultilineEofAchieved": "The text file end was reached before closing text qualifier was found. The file line number with multiline start: %d.",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
     "ErrUnsupportedCodePage": "Codepage %d not supported",
     "ErrUsedColumnDefsNotSpecified": "Imported fields not specified",
@@ -3216,7 +3216,7 @@
     "ErrLibXml2Common": "libxml2 error (code %d): %s",
     "ErrLibXml2Unknown": "Unknown error libxml2",
     "ErrXMLParse": "Error parsing XML (line %d, position %d): %s",
-    "ErrXMLParseUrl": "Error parsing XML at the following address \"%s\" (line %d, position %d): %s"
+    "ErrXMLParseUrl": "Error parsing XML at address \"%s\" (line %d, position %d): %s"
   },
   "Libraries/libxml2/LibXslt": {
     "LibXsltNotLoaded": "%s library not found"
@@ -3485,7 +3485,7 @@
     "ErrLinkPortNotConnetedToNode": "Link port with %s identifier not connected to node",
     "ErrMovedVendorUnavailableForNode": "Moved %s derived component is unavailable for %s node.",
     "ErrNodeNotConfigurable": "Failed to create the node copy with the following name: \"%s\" and GUID: %s",
-    "ErrNoNodesSpecified": "Set of nodes and annotations not set",
+    "ErrNoNodesSpecified": "Set of nodes and annotations not specified",
     "ErrNoSourceModelUnit": "Source module not found",
     "ErrNoTargetModelUnit": "Target module not found",
     "ErrSomeAnnotationDisposed": "One or several source annotations were deleted or moved",
@@ -3750,7 +3750,7 @@
   },
   "Libraries/Normalization/NormalColumnsManager": {
     "ErrIrremNotExcluded": "Irremovable factor \"%s\" cannot be excluded",
-    "ErrNotImplemented": "nThis functionality not implemented"
+    "ErrNotImplemented": "This functionality not implemented"
   },
   "Libraries/Normalization/NormalColumnsRange": {
     "ErrCursorNotReady": "The flag iterator cursor does not indicate value",
@@ -3959,7 +3959,7 @@
   },
   "Libraries/rpc/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Arrays nesting level above %d is not supported",
-    "ErrCodePageNotSupported": "The line includes unsupported codepage %d. Only UTF-8 and UTF-16 are supported.",
+    "ErrCodePageNotSupported": "The string has unsupported codepage %d. Only UTF-8 and UTF-16 are supported.",
     "ErrInvalidMessageSignature": "Invalid message signature",
     "ErrMessageSizeCannotBeNegative": "Message size cannot be negative",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
