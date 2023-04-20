@@ -2147,7 +2147,7 @@
     "ErrFloatTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to real number.",
     "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
     "ErrMaxBytesCountReaded": "While parsing the text file %d limit of reading of maximum number of bytes reached",
-    "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length %d character faster than closing text qualifier was found. The file line number with multiline start: %d. The last file line included into the multiline: %d.",
+    "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length %d character before closing text qualifier was found. The file line number with multiline start: %d. The last file line included into the multiline: %d.",
     "ErrMultilineEofAchieved": "The text file end was reached before closing text qualifier was found. The file line number with multiline start: %d.",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
     "ErrUnsupportedCodePage": "Codepage %d not supported",

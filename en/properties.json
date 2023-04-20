@@ -423,7 +423,7 @@
   },
   "components/replace": {
     "ReplaceTable": {
-      "Items": "Replacement options"
+      "Items": "Replacement items"
     }
   },
   "components/sampling": {

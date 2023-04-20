@@ -832,7 +832,7 @@
     "VariablesTitle": "Variables"
   },
   "components/replace/ReplaceWizard": {
-    "DeleteAllPrompt": "Do you really want to remove all replacement options?",
+    "DeleteAllPrompt": "Do you really want to remove all replacement items?",
     "DeleteAllPromptTitle": "Delete replacement table",
     "EditorDisabled": "Include replacement to edit",
     "EditorNotChoosed": "Select replacement to edit.",
