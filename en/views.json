@@ -3488,7 +3488,7 @@
       "boxLabel": "SQL Query"
     },
     "rbTable": {
-      "boxLabel": "Select table"
+      "boxLabel": "Choose table"
     },
     "txtFieldsFilterField": {
       "fieldLabel": "Label"
