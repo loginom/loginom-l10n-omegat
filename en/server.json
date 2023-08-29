@@ -119,6 +119,9 @@
     "ErrStreamIsDirectReadOnly": "Random access to stream data is not possible",
     "ErrStreamSizeUnspecified": "Data stream size not defined"
   },
+  "Common/HTTP/UserAgent": {
+    "APP_NAME": "Loginom"
+  },
   "Common/HTTPClient/CertList": {
     "ErrCertListImplementationNotRegistered": "Certificate list implementation not registered"
   },
@@ -404,6 +407,8 @@
     "UnbalancedPop": "Unbalanced extraction operation"
   },
   "Common/XML/XML": {
+    "AppNamespacePrefix": "lgn",
+    "AppNamespaceUriPrefix": "loginom.",
     "ErrGenerateNamespacePrefixOverflow": "Counter overflow during namespace prefix generation",
     "ErrStrToValueIntBadTypeRefinement": "\"%s\" type of refinement is not allowed when converting from string to integer"
   },
@@ -614,7 +619,9 @@
     "ErrExprIsStringType": "\"%s\" expression of string type",
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
-    "NameNotExists": "No input variable or expression with \"%s\" name exists"
+    "NameNotExists": "No input variable or expression with \"%s\" name exists",
+    "PreviewProcess": "Calculations preview",
+    "WarnPreviewRunning": "Preview already running"
   },
   "components/calcvariables/CalcVariablesVendor": {
     "VendorCaption": "Calculator (variables)",
@@ -744,7 +751,7 @@
     "DataTypesColumnDisplayName": "Data types",
     "DisplayNamesColumnDisplayName": "Captions",
     "ErrRowCountExceedMaxValue": "Row count of the result data set exceeded maximum value",
-    "NamesColumnDisplayName": "Captions",
+    "NamesColumnDisplayName": "Names",
     "ValuesColumnDisplayName": "Values"
   },
   "components/columnflipping/ColumnFlippingVendor": {
@@ -818,6 +825,7 @@
   },
   "components/datarecovery/DataRecovery": {
     "DataRecovery": "Imputation",
+    "NullStrDefaultValue": "Unspecified",
     "PaymentAdditionalFeatures": "Calculation of the additional features",
     "QualityEngine": "Data quality",
     "ScanningInputData": "Input data scanning"
@@ -981,12 +989,14 @@
     "ErrImportNotConfigured": "Import tree not configured",
     "ErrInputFieldNotSelected": "It is required to specify XML containing field",
     "ErrInputSchemaHasChanged": "Input XSD schema does not comply with the node settings.",
+    "ErrLinuxTimeZoneNotSupported": "\"Default time zone\" configuration is not supported in the Linux application version (\"%s\" time zone is specified)",
     "ErrNoInputDataSource": "No input data source connected",
     "ErrNothingSelected": "No nodes selected for import",
     "ErrNoXSDInput": "There is no XSD schema at the component input",
     "ErrorCodeColumn": "Error Code",
     "ErrorDataSet": "Errors and exit codes",
     "ErrorDescColumn": "Error Description",
+    "ErrWindowsTimeZoneNotSupported": "\"%s\" time zone is not supported",
     "InputDataSource": "Input data source",
     "XSDConnection": "Connect to XSD schema source"
   },
@@ -1515,6 +1525,7 @@
   },
   "components/python/PythonComponentSettings": {
     "PythonExe": "Interpreter path",
+    "PythonExePassEnv": "Передавать переменные окружения узла",
     "PythonLib": "Library path"
   },
   "components/python/PythonEngine": {
@@ -1553,8 +1564,10 @@
     "PythonDumpInputTableDataN": "Write input #%d table data",
     "PythonDumpInputTablesData": "Write input tables data",
     "PythonExeFailed": "Python interpreter execution finished with %d error code",
+    "PythonExeTerminatedBySignal": "Выполнение интерпретатора Python было прервано сигналом %d",
     "PythonLoadOutputTable": "Read output table",
     "PythonScriptExecution": "Workflow execution",
+    "ShmBaseDir": "\/dev\/shm\/loginom",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/python/PythonInterface": {
@@ -1605,8 +1618,7 @@
     "SummaryTable": "Summary table"
   },
   "components/quality/QualityCommon": {
-    "ErrUnhandledDataType": "Unhandled data type",
-    "NullStrValue": "Unspecified"
+    "ErrUnhandledDataType": "Unhandled data type"
   },
   "components/quality/QualityVendor": {
     "VendorCaption": "Data Quality",
@@ -1842,6 +1854,8 @@
     "VendorDesc": "Create data set from variables set"
   },
   "components/wsdlclient/WSDLClient": {
+    "ErrLinuxTimeZoneNotSupported": "\"Default time zone\" configuration is not supported in the Linux application version (\"%s\" time zone is specified)",
+    "ErrWindowsTimeZoneNotSupported": "\"%s\" time zone is not supported",
     "FaultNameOutputColumn": "Exception name",
     "FaultsDataSet": "Exceptions (WSDL fault)",
     "FileNotAccessible": "\"%s\" file not available",
@@ -1875,7 +1889,15 @@
   "Embedded/EmbeddedMain": {
     "ErrOpenURL": "Failed to go to the following address: %s",
     "LocalStorageLoadFailed": "Local Storage load failed",
-    "LocalStorageSaveFailed": "Local Storage save failed"
+    "LocalStorageSaveFailed": "Local Storage save failed",
+    "OpenDialogTitle": "Открытие",
+    "SaveDialogTitle": "Сохранение"
+  },
+  "Embedded/GtkFileDialogs": {
+    "FileMustExist": "File must exist",
+    "FileNotExist": "The file \"%s\" does not exist.",
+    "FileReadOnly": "The file \"%s\" is not writable.",
+    "FileReadOnlyTitle": "File is not writable"
   },
   "Embedded/RelativeFileDialogs": {
     "AbsolutePath": "Absolute path",
@@ -1883,7 +1905,10 @@
   },
   "exports/database/DBExport": {
     "AddToTableNotify": "Addition of records to table",
+    "ConnectProcess": "Подключение к БД",
+    "CreateTableProcess": "Создание таблицы",
     "DeleteFromTableNotify": "Deletion of records from table",
+    "ErrCodeDisplayName": "Error Code",
     "ErrColumnNotFound": "\"%s\" column not found in the data source",
     "ErrColumnTypesMismatch": "\"%s\" column type is not compatible with \"%s\" source column type",
     "ErrDataSourceSelect": "No data source mapping provided",
@@ -1892,17 +1917,21 @@
     "ErrFieldForUpdateNotSelected": "No fields to update specified",
     "ErrFillTable": "Failed to fill \"%s\" table",
     "ErrKeyFieldForUpdateNotSelected": "No key field by which data should be updated specified",
+    "ErrMsgDisplayName": "Error message",
     "ErrNotConnectedToDatabase": "No connection with database",
     "ErrSyncKeyDeletedDest": "Synchronization error: \"%s\" key field not found in the table",
     "ErrSyncKeyDeletedSource": "Synchronization error: source field not found for \"%s\" key field",
     "ErrSyncKeyTypesMismatch": "Synchronization error: \"%s\" key field type is not compatible with \"%s\" source field type",
     "ErrTableNameNotSelected": "No table name specified",
-    "ErrUnknownExportType": "Unknown export type",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
+    "GetTablesProcess": "Получение списка таблиц",
     "GroupDataNotify": "Data grouping",
-    "UpdateRecordsNotify": "Update existing table records"
+    "ResultStatusVariables": "Статус выполнения",
+    "UpdateRecordsNotify": "Update existing table records",
+    "WarnDBConnectionIsBusy": "Подключение к БД занято"
   },
   "exports/database/DBExportVendor": {
+    "ResultStatus": "Статус выполнения",
     "VendorCaption": "Database",
     "VendorDesc": "Export to database through configured connection"
   },
@@ -1924,6 +1953,7 @@
     "ErrKeyFieldNotFound": "Key field with \"%s\" name not found",
     "ErrMessageFieldDataType": "Message field must be related to the string type",
     "ErrMessageFieldNotFound": "Message field with \"%s\" name not found",
+    "ErrProduceBatchFmt": "No message sent in %d iterations",
     "ExportProcess": "Sending messages to Kafka",
     "FlushProcess": "Messages sending finished",
     "LogProduceInfoFmt": "%d messages for batch from %d added to queue",
@@ -2021,17 +2051,25 @@
     "VendorDesc": "1C:Enterprise 8 - Query"
   },
   "imports/database/DBImport": {
+    "ConnectProcess": "Подключение к БД",
+    "ErrCodeDisplayName": "Error Code",
     "ErrExecQuery": "Error executing DB query.",
+    "ErrMsgDisplayName": "Error message",
     "ErrNotConnectedToDatabase": "No connection with database",
     "ErrSQLNotSpecified": "SQL request text not specified",
     "ErrTableNotSpecified": "Database table not specified",
     "ExecQueryProcess": "Query executing",
+    "ExecTimeoutExpired": "Execution time expired",
+    "GetTablesProcess": "Получение списка таблиц",
     "ImportDataProcess": "Data importing",
     "OpenTableProcess": "Table opening",
     "PrepareFieldList": "Field list query",
-    "PreviewProcess": "Data preview"
+    "PreviewProcess": "Data preview",
+    "ResultStatusVariables": "Статус выполнения",
+    "WarnDBConnectionIsBusy": "Подключение к БД занято"
   },
   "imports/database/DBImportVendor": {
+    "ResultStatus": "Статус выполнения",
     "VendorCaption": "Database",
     "VendorDesc": "Import from database by configured connection"
   },
@@ -2114,7 +2152,8 @@
     "BadNativeVariantData": "Invalid Variant data",
     "DifferentMetaData": "Metadata does not comply with the previously declared metadata",
     "NegativeRowsCount": "Invalid rows count %d is specified in the file header",
-    "OutOfMaximumRows": "File contains too many rows"
+    "OutOfMaximumRows": "File contains too many rows",
+    "TypeChangeNotSupported": "Смена типа столбца \"%s\" в Импорте LGD не поддерживается"
   },
   "imports/native/DDFTupleRowConverter": {
     "BadNativeStringData": "Invalid string data",
@@ -2135,11 +2174,16 @@
     "ErrSignature": "Signature mismatch",
     "ErrSystemUnsupported": "Bitness not supported",
     "ErrVersion": "Invalid version",
+    "UnknownCompression": "Неизвестное сжатие",
     "WarnCompatibilityMode": "File was opened in compatibility mode"
   },
   "imports/native/ImportNativeVendor": {
     "VendorCaption": "Loginom Data File",
     "VendorDesc": "Import data from Loginom Data file"
+  },
+  "imports/native/LZ4": {
+    "BlockError": "Ошибка LZ4-блока",
+    "ChecksumError": "Ошибка контрольной суммы"
   },
   "imports/textfile/ImportTextFile": {
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
@@ -2161,8 +2205,10 @@
   "imports/xml/ImportXML": {
     "ErrImportNotConfigured": "Import tree not configured",
     "ErrInputSchemaHasChanged": "Input XSD schema does not comply with the node settings.",
+    "ErrLinuxTimeZoneNotSupported": "\"Default time zone\" configuration is not supported in the Linux application version (\"%s\" time zone is specified)",
     "ErrNothingSelected": "No nodes selected for import",
     "ErrNoXSDInput": "There is no XSD schema at the component input",
+    "ErrWindowsTimeZoneNotSupported": "\"%s\" time zone is not supported",
     "ErrXMLImport": "Error importing XML:\n  Error code: %d\n  %s",
     "FileConnection": "Connect to file storage",
     "XSDConnection": "Connect to XSD schema source"
@@ -2218,15 +2264,18 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDBUtils": {
     "ErrClickHouse": "ClickHouse error: %s",
+    "ErrDate32OutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s; %s)",
     "ErrDateOutOfRange": "%s date is out of allowable range [%s; %s]"
   },
   "Libraries/bgdbrtl/DB": {
+    "ConnectionTimeout": "Тайм-аут подключения",
     "ErrCommandTypeNotYetSupported": "%s type of SQL command not supported yet",
     "ErrConnectionString": "Empty connection string",
     "ErrDatabasePathNotExists": "\"%s\" file not found",
     "ErrDBPath": "Failed to get path to DB",
     "ErrExecuteProcedure": "Error executing stored procedure \"%s\"",
     "ErrExecuteQuery": "Error while SQL executing:\n%s",
+    "ErrGetFieldDefs": "Ошибка получения полей таблицы \"%s\"",
     "ErrIncorrectConnectionString": "Invalid format of connection string",
     "ErrIncorrectDatabase": "Invalid database name",
     "ErrIncorrectPort": "Invalid port",
@@ -2241,6 +2290,7 @@
     "ErrTableNameNotSelect": "No table name specified",
     "ErrTestConnection": "Connection test error:\n%s",
     "ErrUnPrepareQuery": "Error clearing prepared query",
+    "LockTimeout": "Тайм-аут блокировки",
     "WarnQueryExecuting": "Query already executing"
   },
   "Libraries/bgdbrtl/DBSSL": {
@@ -2314,6 +2364,15 @@
     "Direct": "Do not use DBMS client",
     "ErrNotOwnSession": "Session does not belong to the database",
     "ServerListInaccessible": "List of DBMS servers unavailable"
+  },
+  "Libraries/bgrtl/ArchiveManager": {
+    "ErrCannotGetFilePath": "Не удалось получить путь до файла \"%s\"",
+    "ErrExtractCannotCreateFolder": "Ну удалось создать папку \"%s\" в процессе распаковки архива",
+    "ErrExtractFileNameTaken": "Не удалось распаковать файл \"%s\", папка с таким именем уже существует",
+    "ErrExtractFolderNameTaken": "Не удалось создать папку \"%s\", файл с таким именем уже существует"
+  },
+  "Libraries/bgrtl/BetaTestingService": {
+    "BetaTestingNameStarting": "LOGINOM_BETA_"
   },
   "Libraries/bgrtl/BigSet": {
     "ErrBitsIndex": "Bit index is out of range",
@@ -2603,6 +2662,8 @@
     "KeyFilesDesc": "Private key",
     "LgdFilesDesc": "Loginom Data file",
     "LogFilesDesc": "Registration log files",
+    "MASK_LGD_FILES": "*.lgd",
+    "MASK_LGP_FILES": "*.lgp",
     "MdbFilesDesc": "MS Access database",
     "MhtFilesDesc": "Web archive, one file",
     "ODSFilesDesc": "OpenDocument spreadsheet",
@@ -2758,6 +2819,7 @@
   "Libraries/bgrtl/StrUtils": {
     "ErrInvalidBoolean": "\"%s\" string cannot be converted to the boolean value",
     "ErrInvalidFloat": "\"%s\" string cannot be converted to the real type value",
+    "ErrInvalidHexStr": "\"%s\" string is not a valid view of the sexadecimal number",
     "LocaleInvariant": "Invariant",
     "NotSet": "Unspecified",
     "NullValue": "<Null>"
@@ -2890,7 +2952,6 @@
   },
   "Libraries/bgrtl/Utils": {
     "DaysNick": "days",
-    "ErrInvalidHexStr": "\"%s\" string is not a valid view of the sexadecimal number",
     "ErrIsNotValidSet": "\"%s\" string is not a valid set representation"
   },
   "Libraries/bgrtl/VariableDefs": {
@@ -3275,6 +3336,9 @@
     "ErrSettingIncompatibleType": "Value of incompatible type was passed to \"%s\" setting",
     "ErrSettingNotExists": "\"%s\" setting does not exist",
     "ErrSettingsAlreadyInitialized": "Settings already initialized"
+  },
+  "Libraries/Model/Connections/Connections": {
+    "WarnTestingInProcess": "Тестирование уже выполняется"
   },
   "Libraries/Model/Connections/ConnectionVendor": {
     "ConnectionVendorMetaDesc": "connection vendor"
@@ -3738,7 +3802,11 @@
   },
   "Libraries/Normalization/DataSourceMultiOutputNormModelComponentEngine": {
     "InputDataSource": "Input data source",
-    "OutputDataSource": "Output data set"
+    "OutputDataSource": "Output data set",
+    "PartitionColumnNotBoolean": "Колонка \"%s\" для разбиения по столбцу должна быть логического типа данных",
+    "PartitionColumnNotFound": "Отсутствует колонка %s для разбиения по столбцу",
+    "PartitionColumnNotSet": "Не задана колонка для разбиения по столбцу",
+    "PartitionColumnUsageTypeRedefined": "У колонки \"%s\" для разбиения по столбцу изменено назначение"
   },
   "Libraries/Normalization/FixedNormalData": {
     "ErrArrayExpceted": "Failed to denormalize a single element. Array from %d elements must be at the input.",
@@ -3977,9 +4045,10 @@
     "ErrUnknownMethodID": "Unknown method identifier: %d"
   },
   "Libraries/rpc/Session": {
+    "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: %d секунд",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while SessionHost closing",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Another RPC exception handler already registered",
-    "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
+    "ErrDifferentRpcVersionAlreadyRegistered": "Another RPC version number already registered",
     "ErrDisconnectedSession": "Connection lost",
     "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
     "ErrInvalidObjectID": "Invalid object identifier: %d",
@@ -3989,8 +4058,10 @@
     "ErrNegativeRangeBounds": "Range bounds [%d; %d] are negative",
     "ErrRangeLengthOutOfRange": "Range bounds [%d; %d] are not in the range of allowable values [%d; %d]",
     "ErrRpcVersionMismatch": "Client of %s version cannot get connected to the server of %s version",
+    "ErrSessionIsLocked": "Операция не может быть выполнена, так как сессия заблокирована",
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
-    "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d; %d]"
+    "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d; %d]",
+    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: %d секунд"
   },
   "Libraries/rpc/WebSocketRemoteServer": {
     "ErrSSLChangeAfterStart": "SSL parameters cannot be changed after server start"
@@ -4007,7 +4078,8 @@
   "Libraries/WSDLClientConnection/WSDLClientConnection": {
     "ErrNoWSDLSource": "No WSDL source specified",
     "ErrWSDLLoad": "Error loading WSDL:\nFile name: %s",
-    "WarnMainWSDLNotLoaded": "Loading of the main WSDL source (%s) failed (%s). Loading from the reserve source."
+    "WarnMainWSDLNotLoaded": "Loading of the main WSDL source (%s) failed (%s). Loading from the reserve source.",
+    "WarnTestingInProcess": "Тестирование уже выполняется"
   },
   "Libraries/WSDLClientConnection/WSDLClientConnectionVendor": {
     "WSDLClientConnectionVendorCaption": "SOAP Service",
@@ -4021,7 +4093,8 @@
     "XSDFilesConnectionVendorDesc": "Connection to the set of XSD schemas located in the file storage"
   },
   "Server/ServiceConsts": {
-    "ServiceDisplayName": "LoginomServer"
+    "ServiceDisplayName": "LoginomServer",
+    "ServiceName": "loginom"
   },
   "Studio/Converters/Converter_201805281036_NeuralNet_SummarySocket": {
     "SummarySocketDisplayName": "Summary"
@@ -4048,7 +4121,11 @@
     "NodeSoapResponseFormatChanged": "%s node was published in Loginom 6.2.5 or earlier version. Format of reply messages will be changed for this node when calling via SOAP service."
   },
   "Studio/DeductorConsts": {
-    "LgpFilesDesc": "Loginom packages"
+    "CompanyShortNameLinux": "loginom",
+    "CompanyShortNameWindows": "Loginom",
+    "LgpFilesDesc": "Loginom packages",
+    "MASK_LGP_FILES": "*.lgp",
+    "ProductShortName": "Loginom"
   },
   "Studio/DeductorServer": {
     "AutoRefresh": "Auto update publication",
@@ -4066,6 +4143,7 @@
     "ErrDeductorServerSessionNotInitialized": "Loginom server session not initialized",
     "ErrDuplicatePublishedNodeName": "The package contains more than one published node with \"%s\" name",
     "ErrEncryptedPackage": "Encrypted package \"%s\" cannot be opened to be viewed and edited",
+    "ErrFailedLoginTimeout": "Превышено максимальное количество попыток входа в учётную запись",
     "ErrFailedToRestorePackage": "Failed to restore %s package",
     "ErrFileAlreadyEditing": "Failed to save package in \"%s\" file. This file has already been used by another process",
     "ErrFileNameNotSpecified": "No file name specified",
@@ -4092,6 +4170,7 @@
     "ErrUpdatePublishedPackageErrors": "Errors occurred while updating %s package publishing",
     "FileName": "File name",
     "LicSessionCountExceeded": "Count of sessions allowed according to your license exceeded",
+    "LogFailedLogin": "Не удалось войти в учетную запись %s",
     "Namespace": "Namespace",
     "PackageClosedLogMsg": "\"%s\" package closed",
     "PackageOpenedEditLogMsg": "\"%s\" package opened in the edit mode",
@@ -4112,6 +4191,12 @@
   },
   "Studio/DeductorServerConnector": {
     "ErrCannotConfigureActiveConnection": "Cannot change active connection settings"
+  },
+  "Studio/DeductorServerSettings": {
+    "FailedLoginCountLimit": "Лимит попыток ввода пароля",
+    "FailedLoginTimeout": "Тайм-аут ввода пароля",
+    "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
+    "IdleLockTimeout": "Тайм-аут блокировки сессии"
   },
   "Studio/DeductorSessionsManager": {
     "ErrCloseSessionRestriction": "%s session closing forbidden",
@@ -4158,6 +4243,7 @@
     "LogDeleteGroup": "%s group deleted",
     "LogDeleteUser": "%s user deleted",
     "LogUserPropertySet": "%s account change: %s=%s",
+    "ReservedUserName": "loginom",
     "UseGlobalFileStorage": "Use global file storage",
     "UserMetaDesc": "User"
   },
@@ -4188,6 +4274,9 @@
     "LogAddDirectory": "%s shared directory created",
     "LogDeleteDirectory": "%s shared directory deleted",
     "SharedDirectoryMetaDesc": "Shared directory"
+  },
+  "Studio/SocketDeductorServerSettings": {
+    "UnixSocketFileName": "loginomd"
   },
   "Viewers/Browse/BrowseView": {
     "ErrExportBusy": "Failed to export table in the process of data modification",

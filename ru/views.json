@@ -244,6 +244,29 @@
       "title": "Добавление ссылки на пакет"
     }
   },
+  "app/AppMenuForm": {
+    "btnAbout": {
+      "text": "О программе"
+    },
+    "btnHelp": {
+      "text": "Справка"
+    },
+    "btnHomePage": {
+      "text": "Начало"
+    },
+    "btnLock": {
+      "text": "Заблокировать (Ctrl+Alt+L)"
+    },
+    "btnLogOut": {
+      "text": "Выход"
+    },
+    "btnQA": {
+      "text": "Задать вопрос"
+    },
+    "btnQuit": {
+      "text": "Закрыть"
+    }
+  },
   "app/ConfigureBatchProcModesForm": {
     "btnApply": {
       "text": "Применить"
@@ -380,46 +403,33 @@
       "title": "Описание"
     }
   },
-  "app/LoginomMenuForm": {
-    "btnAbout": {
-      "text": "О программе"
-    },
-    "btnHelp": {
-      "text": "Справка"
-    },
-    "btnHomePage": {
-      "text": "Начало"
-    },
-    "btnLogOut": {
-      "text": "Выход"
-    },
-    "btnQA": {
-      "text": "Задать вопрос"
-    },
-    "btnQuit": {
-      "text": "Закрыть"
-    }
-  },
   "app/MainForm": {
     "btnAdmin": {
+      "text": "Администрирование",
       "tooltip": "Администрирование"
     },
     "btnAvatar": {
-      "tooltip": "Меню"
+      "text": "Loginom",
+      "tooltip": "Loginom"
     },
     "btnFavorites": {
+      "text": "Избранное",
       "tooltip": "Избранное"
     },
     "btnFilestorage": {
+      "text": "Файлы",
       "tooltip": "Файлы"
     },
     "btnNavigator": {
+      "text": "Навигация",
       "tooltip": "Навигация"
     },
     "btnPackagesMenu": {
+      "text": "Пакеты",
       "tooltip": "Пакеты"
     },
     "btnProgress": {
+      "text": "Процессы",
       "tooltip": "Процессы"
     }
   },
@@ -768,9 +778,6 @@
     },
     "edtAutoSavePeriod": {
       "fieldLabel": "Сохранять каждые (минут)"
-    },
-    "lblDescription": {
-      "text": "Пакеты сохраняются с заданным интервалом в файлы с расширением .autosave рядом с .lgp файлами. Сами .lgp файлы при этом не перезаписываются."
     }
   },
   "app/PackagesListForm": {
@@ -1281,6 +1288,9 @@
       "text": "FALSE",
       "tooltip": "Ложь"
     },
+    "btnFields": {
+      "text": "Поля"
+    },
     "btnFieldsFilter": {
       "tooltip": "Фильтрация полей и переменных"
     },
@@ -1332,6 +1342,9 @@
       "text": "TRUE",
       "tooltip": "Истина"
     },
+    "btnVariables": {
+      "text": "Переменные"
+    },
     "btnXor": {
       "text": "XOR",
       "tooltip": "Логическое \"исключающее ИЛИ\""
@@ -1348,6 +1361,9 @@
     "colFieldName": {
       "text": "Имя"
     },
+    "colFieldValue": {
+      "text": "Значение"
+    },
     "ExprDragDrop": {
       "dragText": "Перетащите выражение"
     },
@@ -1361,7 +1377,7 @@
       "text": "Выражения"
     },
     "lblFieldsTitle": {
-      "text": "Поля/переменные"
+      "text": "Переменные"
     },
     "lblFuncs": {
       "text": "Список функций"
@@ -1373,6 +1389,9 @@
     },
     "grdVars": {
       "title": "Переменные"
+    },
+    "varRowNumberer": {
+      "text": "#"
     }
   },
   "components/calcdata/ExprEditForm": {
@@ -3202,6 +3221,10 @@
       "text": "Создать каталог",
       "tooltip": "Создать каталог..."
     },
+    "btnCreatePackage": {
+      "text": "Создать пакет",
+      "tooltip": "Создать пакет..."
+    },
     "btnCut": {
       "text": "Вырезать",
       "tooltip": "Вырезать"
@@ -3213,6 +3236,10 @@
     "btnDownload": {
       "text": "Скачать",
       "tooltip": "Скачать"
+    },
+    "btnExtract": {
+      "text": "Распаковать",
+      "tooltip": "Распаковать"
     },
     "btnPaste": {
       "text": "Вставить",
@@ -3261,6 +3288,22 @@
     },
     "colSize": {
       "text": "Размер"
+    },
+    "mniDownload": {
+      "text": "Скачать",
+      "tooltip": "Скачать"
+    },
+    "mniDownloadAsArchive": {
+      "text": "Скачать ZIP",
+      "tooltip": "Скачать как ZIP-архив"
+    },
+    "mniExtractHere": {
+      "text": "Распаковать здесь",
+      "tooltip": "Распаковать здесь"
+    },
+    "mniExtractInFolder": {
+      "text": "Распаковать в папке",
+      "tooltip": "Распаковать в папке"
     }
   },
   "filtersview/FilterItem": {
@@ -3483,6 +3526,9 @@
     },
     "pedTableName.valueConfig": {
       "emptyText": "Выберите таблицу в списке или введите имя"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
     },
     "rbSQL": {
       "boxLabel": "SQL запрос"
@@ -3713,6 +3759,9 @@
     },
     "edtDDFSystem": {
       "fieldLabel": "Разрядность"
+    },
+    "edtWrittenChecksum": {
+      "fieldLabel": "Контрольная сумма"
     },
     "frmImportFromFile": {
       "title": "Импорт из Loginom Data файла"
@@ -4011,6 +4060,9 @@
     },
     "btnHeaderSearch": {
       "tooltip": "Поиск"
+    },
+    "btnHeaderWordWrap": {
+      "tooltip": "Многострочные заголовки"
     },
     "btnLastPage": {
       "tooltip": "Последняя страница"
@@ -4605,6 +4657,55 @@
       "fieldLabel": "Серий"
     }
   },
+  "viewers/cube/CubeChartPanel": {
+    "btnCase": {
+      "text": "Выбрать факты...",
+      "tooltip": "Выбрать факты..."
+    },
+    "btnChartType": {
+      "text": "Тип",
+      "tooltip": "Тип диаграммы"
+    },
+    "btnExport": {
+      "tooltip": "Экспорт"
+    },
+    "btnRestrictions": {
+      "tooltip": "Ограничения..."
+    },
+    "btnSeriesPosition": {
+      "tooltip": "Расположение серий"
+    },
+    "btnShowSubLevels": {
+      "tooltip": "Уровень заголовков"
+    },
+    "btnShowTotal": {
+      "tooltip": "Итоги"
+    },
+    "mniExportChartJPEG": {
+      "text": "Экспорт в JPEG"
+    },
+    "mniExportChartPDF": {
+      "text": "Экспорт в PDF"
+    },
+    "mniExportChartPNG": {
+      "text": "Экспорт в PNG"
+    },
+    "mniExportChartSVG": {
+      "text": "Экспорт в SVG"
+    },
+    "mniHideSubLevels": {
+      "text": "Первый уровень"
+    },
+    "mniShowSubLevels": {
+      "text": "Все уровни"
+    },
+    "mniShowTotalAll": {
+      "text": "Показать"
+    },
+    "mniShowTotalNone": {
+      "text": "Скрыть"
+    }
+  },
   "viewers/cube/CubeFormatPanel": {
     "btnApply": {
       "text": "Применить"
@@ -4648,23 +4749,6 @@
       "text": "Диаграмма",
       "tooltip": "Диаграмма"
     },
-    "btnChartCase": {
-      "text": "Выбрать факты...",
-      "tooltip": "Выбрать факты..."
-    },
-    "btnChartRestrictions": {
-      "tooltip": "Ограничения..."
-    },
-    "btnChartShowSubLevels": {
-      "tooltip": "Уровень заголовков"
-    },
-    "btnChartShowTotal": {
-      "tooltip": "Итоги"
-    },
-    "btnChartType": {
-      "text": "Тип",
-      "tooltip": "Тип диаграммы"
-    },
     "btnCollapse": {
       "tooltip": "Свернуть"
     },
@@ -4680,9 +4764,6 @@
     "btnExpand": {
       "tooltip": "Развернуть"
     },
-    "btnExportChart": {
-      "tooltip": "Экспорт"
-    },
     "btnFields": {
       "tooltip": "Поля"
     },
@@ -4691,9 +4772,6 @@
     },
     "btnFormatCube": {
       "tooltip": "Форматирование..."
-    },
-    "btnSeriesPosition": {
-      "tooltip": "Расположение серий"
     },
     "btnShowTotal": {
       "tooltip": "Итоги"
@@ -4716,18 +4794,6 @@
     "mniAddCalcCase": {
       "text": "Добавить вычисляемый факт..."
     },
-    "mniChartHideSubLevels": {
-      "text": "Первый уровень"
-    },
-    "mniChartShowSubLevels": {
-      "text": "Все уровни"
-    },
-    "mniChartShowTotalAll": {
-      "text": "Показать"
-    },
-    "mniChartShowTotalNone": {
-      "text": "Скрыть"
-    },
     "mniCollapseAll": {
       "text": "Свернуть все"
     },
@@ -4745,18 +4811,6 @@
     },
     "mniExpandAllRows": {
       "text": "Развернуть строки"
-    },
-    "mniExportChartJPEG": {
-      "text": "Экспорт в JPEG"
-    },
-    "mniExportChartPDF": {
-      "text": "Экспорт в PDF"
-    },
-    "mniExportChartPNG": {
-      "text": "Экспорт в PNG"
-    },
-    "mniExportChartSVG": {
-      "text": "Экспорт в SVG"
     },
     "mniFilterCase": {
       "text": "Фильтровать факты..."
@@ -4850,11 +4904,6 @@
     },
     "frmDimensionsTunePanel": {
       "title": "Настройка измерений"
-    }
-  },
-  "viewers/cube/EmbeddedBrowseForm": {
-    "mniGoToLine": {
-      "tooltip": "Перейти к строке..."
     }
   },
   "viewers/dataquality/QualityView": {
@@ -6072,6 +6121,9 @@
     },
     "cbxRoot": {
       "fieldLabel": "Корневой элемент"
+    },
+    "chkUseDocumentationAsDisplayName": {
+      "boxLabel": "Формировать метки узлов по xsd:documentation"
     },
     "edtFilePath": {
       "fieldLabel": "XSD файл"

@@ -9,6 +9,10 @@
     "ErrSqlCommandAndTableBothSpecified": "It is forbidden to specify sqlCommand and table attributes simultaneously",
     "ErrSqlCommandOrTableNotSpecified": "Database element must contain sqlCommand or table attribute"
   },
+  "IntegratorCore/Consts": {
+    "CompanyShortName": "Loginom",
+    "ProductShortName": "Loginom"
+  },
   "IntegratorCore/LoggerManager": {
     "ErrUnknownLogLevel": "Unknown logging level: {0}"
   },
@@ -67,7 +71,8 @@
     "ErrSavePackageDefsError": "Error of saving of packages for {0} server",
     "ErrServerDisconnectError": "Error of disconnection from {0} server",
     "ErrUnixSocketIsRequired": "unixsocket attribute must be defined",
-    "ErrUpdatePackageDefsError": "Error of package update for {0} server"
+    "ErrUpdatePackageDefsError": "Error of package update for {0} server",
+    "UnixSocketFileName": "loginomd"
   },
   "IntegratorCore/ServiceHelper": {
     "CalledUrl": "Url of called method: {0}",
@@ -92,6 +97,7 @@
     "ErrNoPublishedPackages": "No published packages",
     "ErrRootNodeNotFound": "Root tree node not found",
     "ErrTreeMustHaveSingleRootNode": "Tree cannot contain more than one root node",
+    "Namespace": "http:\/\/schemas.loginom.com\/integration",
     "NoPublishedPackagesServiceDocumentation": "No packages have been published for now. To use packages as a web service, you must first publish them to Loginom Server."
   },
   "IntegratorCore/UriQueryParamsModelBinder": {

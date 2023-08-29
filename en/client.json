@@ -1,6 +1,8 @@
 {
   "about/About": {
+    "AppLersionAPI": "\/api\/v1\/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response for the latest version request",
+    "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
     "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
@@ -26,7 +28,12 @@
     "CurrentLocale": "Current locale is \"{0}\".",
     "DefaultLocaleModified": "modified",
     "DirectorySettings": "Folders",
+    "FailedLoginCountLimit": "Лимит попыток ввода пароля",
+    "FailedLoginTimeout": "Тайм-аут ввода пароля (сек)",
+    "IdleDisconnectTimeout": "Тайм-аут закрытия сессии (сек)",
+    "IdleLockTimeout": "Тайм-аут блокировки сессии (сек)",
     "LDAPSettings": "LDAP parameters",
+    "Limit": "Лимит",
     "Locale": "Locale",
     "LogFileMaxIndex": "Number of backup files",
     "LogFileMaxSize": "Maximum file size",
@@ -36,12 +43,17 @@
     "LogType": "Logging type",
     "MinLogLevel": "Logging level",
     "MsgNewLocaleAfterRestart": "New locale will be applied after restart.",
+    "NeedDN": "Разрешать доменные имена",
     "NotSet": "Unspecified ({0})",
     "NullAsDefault": "Default",
     "NullAsDisabled": "Off",
     "PackagePoolSize": "Package pool size",
     "PingPeriod": "Connection check period (s)",
     "Port": "TCP port",
+    "RAMLimit": "Максимум используемой памяти",
+    "RAMLimitDecreaseAfterRestart": "Лимит используемой памяти будет уменьшен после перезапуска.",
+    "RAMLimitRatio": "Доля используемой памяти",
+    "SecuritySettings": "Параметры безопасности",
     "ServerSettings": "Server parameters",
     "SessionBackupDirectory": "Session backups",
     "SSLCertificateFile": "Certificate file name",
@@ -50,7 +62,9 @@
     "ThreadPoolSize": "Thread pool size",
     "TraceExceptions": "Trace exceptions",
     "UnixSocket": "Unix socket",
+    "Unlimited": "Без ограничений",
     "UserStorageDirectory": "Users data",
+    "VmUsedData": "Выделено",
     "WSPort": "WebSocket port",
     "WSSPort": "WebSocket SSL\/TLS port"
   },
@@ -110,6 +124,12 @@
   "app/Application": {
     "MsgAppClose": "The application is closing. The current session and all unsaved changes will be lost."
   },
+  "app/AppMenuForm": {
+    "ConfirmQuit": "Есть несохранённые пакеты. Выйти без сохранения?",
+    "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
+    "Menu": "Menu",
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+  },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
     "ConfirmRemovingNode": "Do you really want to delete \"{0}\" node?",
@@ -146,24 +166,25 @@
     "NotObjects": "",
     "NumberObjects": "{0} objects"
   },
-  "app/LoginomMenuForm": {
-    "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
-    "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
-    "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+  "app/LockForm": {
+    "LoginText": "Разблокировать"
   },
   "app/MainForm": {
     "AskIfOpenPackageByLink": "The open package will be locked by you until it is closed. Do you want to open it?",
     "CantCreateShareLinks": "Failed to generate address for the current page",
     "CantFindPackage": "Failed to find package",
     "CantGetAbsolutePath": "Failed to get absolute path for \"{0}\" file",
+    "CollapseMainToolbar": "Collapse",
     "ConfirmCannotCloseModel": "Failed to close \"{0}\" module in \"{1}\" package.\nSome of the nodes are currently locked.\nDo you want to cancel the active processes and close the package without saving?",
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: \"{1}\".",
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
     "ErrUrlPathNotFound": "\"{0}\" path not found",
+    "ExpandMainToolbar": "Развернуть",
     "FavoritesTitle": "Favorites",
+    "MsgDisconnectedByDispatcher": "Администратор закрыл сессию через диспетчер",
+    "MsgDisconnectedByIdleTimeout": "Произошло закрытие сессии по тайм-ауту неактивности",
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
@@ -179,7 +200,9 @@
     "ErrNoPackageToClose": "No package to be closed was found.",
     "ErrNoPackageToSave": "There is no package to save.",
     "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
-    "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name"
+    "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name",
+    "NoRightsToCreatePackages": "У пользователя \"{0}\" нет прав для создания пакетов",
+    "NoRightsToOpenPackages": "У пользователя \"{0}\" нет прав для открытия пакетов"
   },
   "app/MapTree": {
     "About": "About",
@@ -296,6 +319,7 @@
     "RemoveSelectedConfirm": "Do you really want to delete the selected objects?",
     "RenameNode": "Rename...",
     "ResetConfiguration": "Restore original node configuration",
+    "SelectNode": "Сперва выделите узел на сценарии",
     "SelectOneNode": "Select only one node",
     "SelectSomething": "First select object in workflow",
     "SetNodeDerivedVendor": "Set derived node component...",
@@ -353,6 +377,7 @@
     "VisibilityTooltip": "Configure visibility..."
   },
   "app/PackagesAutoSavePanel": {
+    "AutoSavePeriodDescriptionFmt": "Packages are saved with the set period to the files with .autosave extension near {0} files. {0} files as such are not rewritten in this case.",
     "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages auto save period is specified",
     "ErrPackagesAutoSaveNotSpecified": "Packages auto save period is not specified"
   },
@@ -464,7 +489,8 @@
   },
   "app/Version": {
     "CompanyWebsite": "https:\/\/loginom.com",
-    "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017"
+    "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
+    "ProductName": "Loginom"
   },
   "app/WindowTitle": {
     "Close": "Close",
@@ -538,10 +564,6 @@
     "SelectMethodType": "Select method",
     "UpperInclusive": "<  x <="
   },
-  "components/calcdata/CalcDataFields": {
-    "Fields": "Fields",
-    "Vars": "Variables"
-  },
   "components/calcdata/CalcExpressionsAbstract": {
     "AddFirstExpressionToEdit": "Add expression to edit",
     "DeleteAllConfirm": "Do you really want to delete all expressions?",
@@ -558,14 +580,13 @@
     "SearchDef": "Filter"
   },
   "components/calcdata/CalcPreviewForm": {
+    "Label": "Метка",
+    "Name": "Name",
     "Value": "Value",
     "Variable": "Variable"
   },
   "components/calcdata/CodeMirrorController": {
     "ExprPlaceholder": "Enter expression code"
-  },
-  "components/calcvariables/CalcVariablesFields": {
-    "Vars": "Variables"
   },
   "components/coarseclasses/CalculateInformationValues": {
     "ChartTitle": "Dependence IV on Number of Classes",
@@ -645,7 +666,10 @@
     "UniqueValuesGroupTip": "Group of unique values: "
   },
   "components/datarecovery/DataRecoveryWizard": {
-    "NotUsedAction": "Not selected"
+    "NotUsedAction": "Not selected",
+    "SetNullValueLabel": "Значение для замены пропусков",
+    "SetNullValueWindowTitle": "Редактирование значения замены для пропусков",
+    "SetValueMethod": "Replace with"
   },
   "components/datatotree/DataToTreeWizard": {
     "ClearAllLinksPromtTitle": "Delete",
@@ -1011,7 +1035,8 @@
     "DefaultSheetName": "Sheet1"
   },
   "exports/kafka/KafkaExportWizard": {
-    "InvalidMessageFieldFmt": "Field with \"{0}\" messages not found"
+    "InvalidMessageFieldFmt": "Field with \"{0}\" messages not found",
+    "NoConnection": "No connection"
   },
   "exports/tableau/ExportTableauMappingWizard": {
     "colDisplayNameTitle": "Tableau Table Fields",
@@ -1052,11 +1077,9 @@
   },
   "ext/ExportUtils": {
     "CantSaveDownLoadedFile": "Failed to save the downloaded file",
-    "ErrUTF8ToUCS2Conversion": "Error converting string from UTF-8 to UCS-2",
     "ExcelMenuText": "XLS (html)",
     "ExecutionStarted": "Export has already started",
-    "ExportPrefix": "Export to ",
-    "XHRError": "XMLHttpRequest error, status: {0}"
+    "ExportPrefix": "Export to "
   },
   "ext/ExtJS": {
     "ErrEnumMenuItemNotFound": "Menu item not found",
@@ -1177,6 +1200,8 @@
     "AllTableauFilesDesc": "Tableau Data Extracts",
     "ArchiveFileDesc": "Archive",
     "ArchiveFilesDesc": "Archives",
+    "ArchiveFilesSupportedDesc": "Archives",
+    "ArchiveFileSupportedDesc": "Archive",
     "AudioFileDesc": "Audio File",
     "AudioFilesDesc": "Audio files",
     "BMPFileDesc": "Bitmap",
@@ -1226,6 +1251,9 @@
     "LGPFilesReservedCopyDesc": "Backup Loginom packages",
     "LogFileDesc": "Registration Log file",
     "LogFilesDesc": "Registration Log files",
+    "MASK_LGD_FILES": "*.lgd",
+    "MASK_LGP_FILES": "*.lgp",
+    "MASK_LGP_RESERVED_COPY_FILES": "*.~lgp",
     "MdbFileDesc": "MS Access database",
     "MdbFilesDesc": "MS Access databases",
     "MhtFileDesc": "Web archive, one file",
@@ -1315,8 +1343,14 @@
     "CantSaveDownLoadedFile": "Failed to save the downloaded file"
   },
   "filestorage/FileSenderManager": {
+    "FileAlreadyDownloading": "Файл \"{0}\" скачивается. Дождитесь окончания или отмените процесс скачивания.",
+    "FileAlreadyExistsMessage": "Файл с таким же именем уже существует в этом расположении:\n\"{0}\".\n\nСуществующий файл\n{1}\n\nКопируемый файл\n{2}",
     "FileAlreadyOpenForWriting": "\"{0}\" file to be loaded is simultaneously opened by someone to be written. The downloaded file may not contain the latest changes.",
-    "FileAlreayLoading": "\"{0}\" file download is already in progress. Wait until the completion or cancel the download process."
+    "FileAlreadyUploading": "Файл \"{0}\" загружается. Дождитесь окончания или отмените процесс загрузки.",
+    "FileConflictTitle": "Конфликт файлов с одинаковыми именами",
+    "FileModifiedDate": "Дата изменения: {0}",
+    "FileSize": "Размер: {0}",
+    "NotSupportedDescriptor": "Переданный объект \"{0}\" не является ни файлом, ни директорией."
   },
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
@@ -1326,27 +1360,37 @@
     "CantDownloadFolder": "Directory downloads have not been implemented yet",
     "ConfirmDeleteAll": "Do you really want to delete all?",
     "ConfirmDeleting": "Do you really want to delete the selection?",
+    "ConfirmExtract": "Файлы с совпадающими именами в текущей папке будут заменены.\nРаспаковать?",
+    "ConfirmExtractInFolder": "Файлы с совпадающими именами в папке \"{0}\" будут заменены.\nРаспаковать?",
+    "ConfirmExtractTitle": "Распаковка архива \"{0}\"",
     "ConfirmStopLoaders": "Active downloads will be canceled. Do you want to continue?",
     "CopyError": "Error while copying to clipboard:",
     "CreateDirectoryTitle": "New Folder",
+    "CreatePackageTitle": "Создание пакета",
     "DeleteAllTitle": "Delete All Directory Files",
     "DirectoryAlreadyExists": "A directory with the same name already exists",
+    "Download": "Download",
+    "ExtractInFolderText": "Распаковать в \"{0}\\\"",
+    "ExtractSuccessful": "Архив \"{0}\" был успешно распакован",
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
     "HasNotStorageItems": "No files to be copied\/cut",
+    "InvalidFileName": "Имя файла содержит недопустимые символы",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
     "Open": "Open",
     "RenamingStorageItem": "Rename",
     "SetNewDirectoryName": "New folder name:",
-    "SetNewName": "New name:"
+    "SetNewName": "New name:",
+    "SetNewPackageName": "Имя нового пакета:"
   },
   "filestorage/FileUploader": {
     "ErrFileMayBeDeleted": "File loading error. The file may have been deleted from the disk",
     "ErrFileUpload": "File loading error"
   },
   "filestorage/LoaderViewController": {
+    "DownloadAsArchiveTitle": "Архивация и скачивание файлов",
     "DownloadWindowTitle": "File Download",
     "ErrCancelLoaders": "Error cancelling operations",
     "UploadWindowTitle": "Upload Files to Server"
@@ -1402,7 +1446,9 @@
     "SandSignica": "Sand"
   },
   "homepage/Banner": {
+    "AppLersionAPI": "\/api\/v1\/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response with the information on the latest version",
+    "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
     "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0} is available"
@@ -1415,7 +1461,7 @@
     "NoNewsLog": "Failed to get news",
     "RemoveFromHistoryFmt": "No \"{0}\" file found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
     "RemoveFromHistoryTitle": "No file found",
-    "RemoveNoRightsFmt": "User \"{0}\" has no rights to open the package",
+    "RemoveNoRightsFmt": "У пользователя \"{0}\" нет прав для открытия пакетов",
     "RemoveNoRightsTitle": "Failed to open package"
   },
   "imports/dbimport/DBImportSql": {
@@ -1477,27 +1523,15 @@
     "SheetNotFoundByNameFmt": "\"{0}\" sheet not found in Excel workbook",
     "SheetNotFoundByNumberFmt": "Sheet #{0} not found in Excel workbook"
   },
+  "imports/kafka/KafkaImportWizard": {
+    "NoConnection": "No connection"
+  },
   "imports/onec8query/CodeMirrorOneCv8Controller": {
     "QueryPlaceholder": "Enter query text"
   },
   "imports/onec8query/OneC8QueryImportWizard": {
     "NoConnection": "No connection",
     "NotConnectedError": "No connection with database"
-  },
-  "imports/textfile/DateFormatStore": {
-    "Default": "Default"
-  },
-  "imports/textfile/DateSeparatorStore": {
-    "BackSlash": "Backslash (\\)",
-    "Default": "Default",
-    "Hyphen": "Hyphen (-)",
-    "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
-  },
-  "imports/textfile/DecimalSeparatorStore": {
-    "Comma": "Comma (,)",
-    "Default": "Default",
-    "Point": "Dot (.)"
   },
   "imports/textfile/DelimiterStore": {
     "Comma": "Comma",
@@ -1509,6 +1543,15 @@
     "Encoding1": "Cyrillic (1251)",
     "Encoding2": "West European (1252)"
   },
+  "imports/textfile/FormatOptions": {
+    "BackSlash": "Backslash (\\)",
+    "Colon": "Colon (:)",
+    "Comma": "Comma (,)",
+    "Default": "Unspecified",
+    "Hyphen": "Hyphen (-)",
+    "Point": "Dot (.)",
+    "Slash": "Slash (\/)"
+  },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
     "ExpandColumnDefsTuning": "Expand",
@@ -1519,14 +1562,6 @@
     "DoubleQuote": "Double quote (\")",
     "Empty": "None",
     "Quote": "Single quote (')"
-  },
-  "imports/textfile/TimeFormatStore": {
-    "Default": "Default"
-  },
-  "imports/textfile/TimeSeparatorStore": {
-    "Colon": "Colon (:)",
-    "Default": "Default",
-    "Point": "Dot (.)"
   },
   "imports/textfile/ValueFalseStore": {
     "False1": "False",
@@ -1744,6 +1779,10 @@
   },
   "lib/Message": {
     "AlwaysYes": "Yes, don't ask again",
+    "ConflictForAll": "For all",
+    "ConflictReplace": "Заменить",
+    "ConflictSkip": "Пропустить",
+    "CopyNotifyMsg": "Копировать текст сообщения",
     "ErrorTitle": "Error",
     "GoToNotifySource": "Go to",
     "InfoTitle": "Info",
@@ -1800,8 +1839,8 @@
     "ActionsBtn": "Other Actions",
     "ControlStopBtn": "Processing Stop",
     "DeactivateNodeBtn": "Deactivate Node",
-    "LaunchBtn": "Run node",
-    "SettingBtn": "Settings",
+    "LaunchBtn": "Выполнить узел (F9)",
+    "SettingBtn": "Настройка (Shift+Enter)",
     "SetupViewersBtn": "Configure Visualizers"
   },
   "mxgraph/node/informer/InfoMagicButton": {
@@ -2092,7 +2131,7 @@
     "SetNewGroupName": "New group name:",
     "ShowInReports": "Show in reports",
     "TitleUndefined": "visualizer",
-    "TuneViews": "Configure visualizers",
+    "TuneViews": "Визуализаторы",
     "VendorNotValid": "Visualizer incompatible with port selected",
     "VendorTreeViewers": "Visualizers",
     "VendorUndefined": "No visualizer selected on visualizer panel",
@@ -2124,6 +2163,20 @@
     "WarnDependencyPrefix": "On calculated measure delete, the following changes in the Cube state will occur:",
     "WarnDependencySuffix": "Do you want to continue action?"
   },
+  "viewers/cube/CubeChartPanel": {
+    "ChartCaseEmptyText": "No measures",
+    "ChartCaseManyText": "Measures ({0})",
+    "ChartYAxisTitle": "Факты",
+    "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}",
+    "EditSerieColor": "Change color...",
+    "EmptyChart": "No measures to display",
+    "HideAllSeries": "Hide all series",
+    "InvertSeries": "Invert series visibility",
+    "ResetSerieColor": "Reset color",
+    "SeriesOutOfBoundsMsg": "Chart limits exceeded.\nCurrent number of series: {0}.\nMaximum number of series: {1}",
+    "ShowAllSeries": "Show all series",
+    "TooltipMode": "Tooltip style"
+  },
   "viewers/cube/CubeDragDropController": {
     "Ascending": "Ascending",
     "Collapse": "Collapse",
@@ -2143,21 +2196,9 @@
     "WarnDependencySuffix": "Do you want to continue action?"
   },
   "viewers/cube/CubeView": {
-    "ChartCaseEmptyText": "No measures",
-    "ChartCaseManyText": "Measures ({0})",
-    "ChartYAxisTitle": "Measures",
-    "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}",
-    "EditSerieColor": "Change color...",
-    "EmptyChart": "No measures to display",
     "ErrExportFailed": "Failed to export the Cube crosstab:\n{0}",
     "ExportToastTitle": "Export from the Cube",
-    "HideAllSeries": "Hide all series",
     "HideSingleCase": "Hide single measure",
-    "InvertSeries": "Invert series visibility",
-    "ResetSerieColor": "Reset color",
-    "SeriesOutOfBoundsMsg": "Chart limits exceeded.\nCurrent number of series: {0}.\nMaximum number of series: {1}",
-    "ShowAllSeries": "Show all series",
-    "TooltipMode": "Tooltip style",
     "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
@@ -2475,6 +2516,9 @@
   },
   "wizards/connection/DBConnectionWizard": {
     "Filename": "File name"
+  },
+  "wizards/connection/LockTimeoutStore": {
+    "Default": "Default"
   },
   "wizards/datapartition/BiasedMethodForm": {
     "UniqueValuesLimitError": "{0} field cannot be used for biased sampling due to excess of the unique values number (over {1})"

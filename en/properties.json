@@ -120,19 +120,6 @@
       "BinWidth": "Width"
     }
   },
-  "components/calcdata": {
-    "CalcExprColumnItem": {
-      "Cached": "Cache values"
-    },
-    "ExprColumnItem": {
-      "DataType": "Data type",
-      "Description": "Description",
-      "DisplayName": "Caption",
-      "Expression": "Expression",
-      "Intermediate": "Intermediate expression",
-      "Name": "Name"
-    }
-  },
   "components/clope": {
     "ClopeEngine": {
       "Params": "Algorithm parameters"
@@ -254,7 +241,7 @@
   "components/execcmd": {
     "ExecCmdEngine": {
       "TerminateByTimeout": "Terminate program by timeout",
-      "Timeout": "Node execution timeout (ms)"
+      "Timeout": "Тайм-аут выполнения (мс)"
     }
   },
   "components/extractxml": {
@@ -510,6 +497,7 @@
     "DBExport": {
       "ExportType": "Export type",
       "RecordCountForCommit": "Transaction commit frequency (rows)",
+      "SilentActivation": "Ignore errors",
       "TableName": "Table name"
     }
   },
@@ -534,7 +522,8 @@
   "exports/native": {
     "ExportNative": {
       "Compression": "Compression",
-      "StringCacheMaxSize": "String cache size"
+      "StringCacheMaxSize": "String cache size",
+      "WriteChecksum": "Контрольная сумма"
     }
   },
   "exports/tableau": {
@@ -579,7 +568,9 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/View"
+      "CommandText": "Table\/View",
+      "SilentActivation": "Ignore errors",
+      "Timeout": "Тайм-аут импорта (с)"
     }
   },
   "imports/excelfile": {
@@ -603,6 +594,11 @@
       "OffsetMode": "Offset type",
       "PollTimeout": "Message timeout (ms)",
       "Topic": "Topic"
+    }
+  },
+  "imports/native": {
+    "ImportNative": {
+      "UseChecksum": "Проверять контрольную сумму"
     }
   },
   "imports/textfile": {
@@ -655,9 +651,10 @@
     },
     "DatabaseConfigurator": {
       "CharacterSet": "Codepage",
+      "ConnectionTimeout": "Тайм-аут подключения (с)",
       "DatabasePath": "Connection string",
       "Direct": "Do not use DBMS client",
-      "ObjectQuotes": "Configure quotes",
+      "LockTimeout": "Тайм-аут блокировки (с)",
       "Password": "Password",
       "QuotedObjectNames": "Quote names",
       "SystemTables": "Show system tables",
@@ -697,7 +694,8 @@
     "SQLitePragmas": {
       "CacheSize": "Cache size",
       "JournalMode": "Transaction journal mode",
-      "Synchronous": "Sync mode"
+      "Synchronous": "Sync mode",
+      "TempStore": "Хранилище TEMP"
     },
     "SQLiteUniDACDatabaseConfigurator": {
       "CreateDBIfNotExists": "Create DB if it doesn't exist",
@@ -763,9 +761,10 @@
       "KFoldsSamplingMethod": "Sampling method",
       "LearnPartitionMethod": "Partition method",
       "LearnValidationMethod": "Validation method",
+      "PartitionColumnName": "Поле с признаком тестового множества",
       "PRowsCount": "Count of rows to be excluded",
       "TrainDataSetSize": "Training set size",
-      "ValidationColumnIndex": "Given partition field",
+      "ValidationColumnName": "Колонка валидационного разбиения",
       "ValidationDataSetSize": "Validation set size"
     }
   },
@@ -855,7 +854,8 @@
       "MinLogLevel": "Logging level"
     },
     "LoggerConfigurator": {
-      "LoggerType": "Logging type"
+      "LoggerType": "Logging type",
+      "NeedDN": "Разрешать доменные имена"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Number of backup files",
@@ -952,7 +952,13 @@
   },
   "Studio/DeductorServerSettings": {
     "DeductorServerSettings": {
+      "FailedLoginCountLimit": "Лимит попыток ввода пароля",
+      "FailedLoginTimeout": "Тайм-аут ввода пароля",
+      "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
+      "IdleLockTimeout": "Тайм-аут блокировки сессии",
       "PackagePoolSize": "Package pool size",
+      "RAMLimitKB": "Максимум используемой памяти (КБ)",
+      "RAMLimitRatio": "Доля используемой памяти",
       "SessionBackupDirectory": "Directory containing session backups",
       "StopTimeout": "Server stop timeout",
       "ThreadPoolSize": "Thread pool size",
@@ -968,6 +974,11 @@
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
       "WSSPort": "WebSocket SSL\/TLS port"
+    }
+  },
+  "Warehouse2/DWConnection": {
+    "DWConnectionConfigurator": {
+      "SchemaName": "Schema name in database"
     }
   },
   "Warehouse2/DWImportTree": {

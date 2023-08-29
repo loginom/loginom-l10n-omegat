@@ -244,6 +244,29 @@
       "title": "Add Reference to Package"
     }
   },
+  "app/AppMenuForm": {
+    "btnAbout": {
+      "text": "About"
+    },
+    "btnHelp": {
+      "text": "Help"
+    },
+    "btnHomePage": {
+      "text": "Home"
+    },
+    "btnLock": {
+      "text": "Заблокировать (Ctrl+Alt+L)"
+    },
+    "btnLogOut": {
+      "text": "Log Out"
+    },
+    "btnQA": {
+      "text": "Ask a question"
+    },
+    "btnQuit": {
+      "text": "Close"
+    }
+  },
   "app/ConfigureBatchProcModesForm": {
     "btnApply": {
       "text": "Apply"
@@ -380,46 +403,33 @@
       "title": "Description"
     }
   },
-  "app/LoginomMenuForm": {
-    "btnAbout": {
-      "text": "About"
-    },
-    "btnHelp": {
-      "text": "Help"
-    },
-    "btnHomePage": {
-      "text": "Home"
-    },
-    "btnLogOut": {
-      "text": "Log Out"
-    },
-    "btnQA": {
-      "text": "Ask a question"
-    },
-    "btnQuit": {
-      "text": "Close"
-    }
-  },
   "app/MainForm": {
     "btnAdmin": {
+      "text": "Administration",
       "tooltip": "Administration"
     },
     "btnAvatar": {
-      "tooltip": "Menu"
+      "text": "Loginom",
+      "tooltip": "Loginom"
     },
     "btnFavorites": {
+      "text": "Favorites",
       "tooltip": "Favorites"
     },
     "btnFilestorage": {
+      "text": "Files",
       "tooltip": "Files"
     },
     "btnNavigator": {
+      "text": "Navigation",
       "tooltip": "Navigation"
     },
     "btnPackagesMenu": {
+      "text": "Packages",
       "tooltip": "Packages"
     },
     "btnProgress": {
+      "text": "Processes",
       "tooltip": "Processes"
     }
   },
@@ -768,9 +778,6 @@
     },
     "edtAutoSavePeriod": {
       "fieldLabel": "Save every (minutes)"
-    },
-    "lblDescription": {
-      "text": "Packages are saved with the set period to the files with .autosave extension near .lgp files. .lgp files as such are not rewritten in this case."
     }
   },
   "app/PackagesListForm": {
@@ -1281,6 +1288,9 @@
       "text": "FALSE",
       "tooltip": "False"
     },
+    "btnFields": {
+      "text": "Fields"
+    },
     "btnFieldsFilter": {
       "tooltip": "Filter fields and variables"
     },
@@ -1332,6 +1342,9 @@
       "text": "TRUE",
       "tooltip": "True"
     },
+    "btnVariables": {
+      "text": "Variables"
+    },
     "btnXor": {
       "text": "XOR",
       "tooltip": "Logical \"EXCLUSIVE OR\""
@@ -1348,6 +1361,9 @@
     "colFieldName": {
       "text": "Name"
     },
+    "colFieldValue": {
+      "text": "Value"
+    },
     "ExprDragDrop": {
       "dragText": "Drag expression"
     },
@@ -1361,7 +1377,7 @@
       "text": "Expressions"
     },
     "lblFieldsTitle": {
-      "text": "Fields\/Variables"
+      "text": "Переменные"
     },
     "lblFuncs": {
       "text": "Functions list"
@@ -1373,6 +1389,9 @@
     },
     "grdVars": {
       "title": "Variables"
+    },
+    "varRowNumberer": {
+      "text": "#"
     }
   },
   "components/calcdata/ExprEditForm": {
@@ -3202,6 +3221,10 @@
       "text": "New Folder",
       "tooltip": "New folder..."
     },
+    "btnCreatePackage": {
+      "text": "Создать пакет",
+      "tooltip": "New Package..."
+    },
     "btnCut": {
       "text": "Cut",
       "tooltip": "Cut"
@@ -3213,6 +3236,10 @@
     "btnDownload": {
       "text": "Download",
       "tooltip": "Download"
+    },
+    "btnExtract": {
+      "text": "Распаковать",
+      "tooltip": "Распаковать"
     },
     "btnPaste": {
       "text": "Paste",
@@ -3261,6 +3288,22 @@
     },
     "colSize": {
       "text": "Size"
+    },
+    "mniDownload": {
+      "text": "Download",
+      "tooltip": "Download"
+    },
+    "mniDownloadAsArchive": {
+      "text": "Скачать ZIP",
+      "tooltip": "Скачать как ZIP-архив"
+    },
+    "mniExtractHere": {
+      "text": "Распаковать здесь",
+      "tooltip": "Распаковать здесь"
+    },
+    "mniExtractInFolder": {
+      "text": "Распаковать в папке",
+      "tooltip": "Распаковать в папке"
     }
   },
   "filtersview/FilterItem": {
@@ -3483,6 +3526,9 @@
     },
     "pedTableName.valueConfig": {
       "emptyText": "Select table in the list or enter the name"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
     },
     "rbSQL": {
       "boxLabel": "SQL Query"
@@ -3713,6 +3759,9 @@
     },
     "edtDDFSystem": {
       "fieldLabel": "Bitness"
+    },
+    "edtWrittenChecksum": {
+      "fieldLabel": "Контрольная сумма"
     },
     "frmImportFromFile": {
       "title": "Import from Loginom Data File"
@@ -4011,6 +4060,9 @@
     },
     "btnHeaderSearch": {
       "tooltip": "Search"
+    },
+    "btnHeaderWordWrap": {
+      "tooltip": "Многострочные заголовки"
     },
     "btnLastPage": {
       "tooltip": "Last page"
@@ -4605,6 +4657,55 @@
       "fieldLabel": "Series"
     }
   },
+  "viewers/cube/CubeChartPanel": {
+    "btnCase": {
+      "text": "Select measures...",
+      "tooltip": "Select measures..."
+    },
+    "btnChartType": {
+      "text": "Type",
+      "tooltip": "Тип диаграммы"
+    },
+    "btnExport": {
+      "tooltip": "Export"
+    },
+    "btnRestrictions": {
+      "tooltip": "Restrictions..."
+    },
+    "btnSeriesPosition": {
+      "tooltip": "Расположение серий"
+    },
+    "btnShowSubLevels": {
+      "tooltip": "Level of headers"
+    },
+    "btnShowTotal": {
+      "tooltip": "Show total"
+    },
+    "mniExportChartJPEG": {
+      "text": "Export to JPEG"
+    },
+    "mniExportChartPDF": {
+      "text": "Export to PDF"
+    },
+    "mniExportChartPNG": {
+      "text": "Export to PNG"
+    },
+    "mniExportChartSVG": {
+      "text": "Export to SVG"
+    },
+    "mniHideSubLevels": {
+      "text": "First level"
+    },
+    "mniShowSubLevels": {
+      "text": "All levels"
+    },
+    "mniShowTotalAll": {
+      "text": "Show"
+    },
+    "mniShowTotalNone": {
+      "text": "Hide"
+    }
+  },
   "viewers/cube/CubeFormatPanel": {
     "btnApply": {
       "text": "Apply"
@@ -4648,23 +4749,6 @@
       "text": "Chart",
       "tooltip": "Chart"
     },
-    "btnChartCase": {
-      "text": "Select measures...",
-      "tooltip": "Select measures..."
-    },
-    "btnChartRestrictions": {
-      "tooltip": "Restrictions..."
-    },
-    "btnChartShowSubLevels": {
-      "tooltip": "Level of headers"
-    },
-    "btnChartShowTotal": {
-      "tooltip": "Show total"
-    },
-    "btnChartType": {
-      "text": "Type",
-      "tooltip": "Chart type"
-    },
     "btnCollapse": {
       "tooltip": "Collapse"
     },
@@ -4680,9 +4764,6 @@
     "btnExpand": {
       "tooltip": "Expand"
     },
-    "btnExportChart": {
-      "tooltip": "Export"
-    },
     "btnFields": {
       "tooltip": "Fields"
     },
@@ -4691,9 +4772,6 @@
     },
     "btnFormatCube": {
       "tooltip": "Formatting..."
-    },
-    "btnSeriesPosition": {
-      "tooltip": "Series position"
     },
     "btnShowTotal": {
       "tooltip": "Show total"
@@ -4716,18 +4794,6 @@
     "mniAddCalcCase": {
       "text": "Add calculated measure..."
     },
-    "mniChartHideSubLevels": {
-      "text": "First level"
-    },
-    "mniChartShowSubLevels": {
-      "text": "All levels"
-    },
-    "mniChartShowTotalAll": {
-      "text": "Show"
-    },
-    "mniChartShowTotalNone": {
-      "text": "Hide"
-    },
     "mniCollapseAll": {
       "text": "Collapse all"
     },
@@ -4745,18 +4811,6 @@
     },
     "mniExpandAllRows": {
       "text": "Expand rows"
-    },
-    "mniExportChartJPEG": {
-      "text": "Export to JPEG"
-    },
-    "mniExportChartPDF": {
-      "text": "Export to PDF"
-    },
-    "mniExportChartPNG": {
-      "text": "Export to PNG"
-    },
-    "mniExportChartSVG": {
-      "text": "Export to SVG"
     },
     "mniFilterCase": {
       "text": "Filter measures..."
@@ -4850,11 +4904,6 @@
     },
     "frmDimensionsTunePanel": {
       "title": "Configure Dimensions"
-    }
-  },
-  "viewers/cube/EmbeddedBrowseForm": {
-    "mniGoToLine": {
-      "tooltip": "Go to row..."
     }
   },
   "viewers/dataquality/QualityView": {
@@ -6072,6 +6121,9 @@
     },
     "cbxRoot": {
       "fieldLabel": "Root element"
+    },
+    "chkUseDocumentationAsDisplayName": {
+      "boxLabel": "Формировать метки узлов по xsd:documentation"
     },
     "edtFilePath": {
       "fieldLabel": "XSD file"

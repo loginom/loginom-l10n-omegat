@@ -9,6 +9,10 @@
     "ErrSqlCommandAndTableBothSpecified": "Недопустимо одновременно задавать атрибуты sqlCommand и table",
     "ErrSqlCommandOrTableNotSpecified": "Элемент database должен содержать атрибут sqlCommand или table"
   },
+  "IntegratorCore/Consts": {
+    "CompanyShortName": "Loginom",
+    "ProductShortName": "Loginom"
+  },
   "IntegratorCore/LoggerManager": {
     "ErrUnknownLogLevel": "Неизвестный уровень логирования: {0}"
   },
@@ -67,7 +71,8 @@
     "ErrSavePackageDefsError": "Ошибка сохранения пакетов для сервера {0}",
     "ErrServerDisconnectError": "Ошибка отключения от сервера {0}",
     "ErrUnixSocketIsRequired": "Атрибут unixsocket должен быть определен",
-    "ErrUpdatePackageDefsError": "Ошибка обновления пакетов для сервера {0}"
+    "ErrUpdatePackageDefsError": "Ошибка обновления пакетов для сервера {0}",
+    "UnixSocketFileName": "loginomd"
   },
   "IntegratorCore/ServiceHelper": {
     "CalledUrl": "Url вызываемого метода: {0}",
@@ -92,6 +97,7 @@
     "ErrNoPublishedPackages": "Не опубликовано ни одного пакета",
     "ErrRootNodeNotFound": "Не найден корневой узел дерева",
     "ErrTreeMustHaveSingleRootNode": "Дерево не может содержать более одного корневого узла",
+    "Namespace": "http://schemas.loginom.ru/integration",
     "NoPublishedPackagesServiceDocumentation": "В настоящий момент не опубликовано ни одного пакета. Для использования пакетов в качестве веб-сервиса необходимо предварительно опубликовать их в Loginom Server."
   },
   "IntegratorCore/UriQueryParamsModelBinder": {

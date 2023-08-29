@@ -187,14 +187,6 @@
       "UByte": "Целое беззнаковое, 8 бит"
     }
   },
-  "components/assnrules": {
-    "FrequentItemsetType": {
-      "$Caption": "Тип частых наборов",
-      "All": "Все",
-      "Maximal": "Максимальные",
-      "Closed": "Замкнутые"
-    }
-  },
   "components/autocorrelation": {
     "AutoCorrelationDomainCalc": {
       "$Caption": "Область расчета автокорреляционной функции",
@@ -491,11 +483,13 @@
       "Max": "Максимум",
       "Avg": "Среднее",
       "Median": "Медиана",
+      "Mode": "Мода",
       "StdDev": "Стандартное откл.",
       "UniqueCount": "Кол-во уникальных",
       "NullCount": "Кол-во пропусков",
       "First": "Первый",
-      "Last": "Последний"
+      "Last": "Последний",
+      "Only": "Единственный"
     }
   },
   "components/joindata": {
@@ -622,7 +616,7 @@
       "Mean": "Заменять средним",
       "Median": "Заменять медианой",
       "MostFreq": "Заменять наиболее вероятным",
-      "SetValue": "Заменять значением \"Не задано\"",
+      "SetValue": "Заменять заданным значением",
       "RandomValue": "Заменять случайными значениями",
       "LinearInterp": "Линейная интерполяция",
       "CubicInterp": "Кубическая интерполяция",
@@ -864,6 +858,12 @@
     }
   },
   "imports/native": {
+    "DDFChecksum": {
+      "$Caption": "Контрольная сумма",
+      "No": "Нет",
+      "CompressedOnly": "Сжатых данных",
+      "CompressedAndContent": "Сжатых и несжатых данных"
+    },
     "DDFCompression": {
       "$Caption": "Алгоритм сжатия",
       "None": "Без сжатия",
@@ -977,6 +977,12 @@
       "SyncNormal": "Нормальный",
       "SyncFull": "Полная",
       "SyncExtra": "Экстра"
+    },
+    "SQLiteTempStore": {
+      "$Caption": "Хранилище TEMP",
+      "TempDefault": "По умолчанию",
+      "TempFile": "Файловая система",
+      "TempMemory": "Оперативная память"
     }
   },
   "Libraries/bgrtl/EnumDescs": {
@@ -1022,7 +1028,8 @@
       "DimCol": "Измерение в колонках",
       "DimRow": "Измерение в строках",
       "Forecast": "Прогнозируемое",
-      "Weight": "Вес"
+      "Weight": "Вес",
+      "Partition": "Разбиение"
     },
     "DataKind": {
       "$Caption": "Вид данных",
@@ -1040,21 +1047,6 @@
       "Teach": "",
       "Test": "",
       "All": "Все вместе"
-    },
-    "DataStatus": {
-      "$Caption": "Назначение",
-      "UnUsable": "Неиспользуемое",
-      "Usable": "Используемое",
-      "Useless": "Непригодное",
-      "Key": "Ключ",
-      "Input": "Входное",
-      "Output": "Выходное",
-      "Info": "Информационное",
-      "Dimension": "Измерение",
-      "Property": "Атрибут",
-      "Case": "Факт",
-      "TransactionID": "Транзакция",
-      "ItemID": "Элемент"
     },
     "DataType": {
       "$Caption": "Тип данных",
@@ -1275,7 +1267,7 @@
       "$Caption": "Метод разбиения обучающего/тестового компонента с обучением",
       "Random": "Случайный",
       "Sequence": "Последовательный",
-      "Flag": "Разбиение задано"
+      "ByColumn": "По столбцу"
     },
     "LearnPartitionType": {
       "$Caption": "Вид множества данных компонента с обучением",

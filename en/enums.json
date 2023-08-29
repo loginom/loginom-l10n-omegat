@@ -187,14 +187,6 @@
       "UByte": "Unsigned integer, 8 bits"
     }
   },
-  "components/assnrules": {
-    "FrequentItemsetType": {
-      "$Caption": "Frequent Itemset Type",
-      "All": "All",
-      "Maximal": "Maximum",
-      "Closed": "Closed"
-    }
-  },
   "components/autocorrelation": {
     "AutoCorrelationDomainCalc": {
       "$Caption": "Autocorrelation Function Calculation Domain",
@@ -491,11 +483,13 @@
       "Max": "Maximum",
       "Avg": "Average",
       "Median": "Median",
+      "Mode": "Mode",
       "StdDev": "Standard deviation",
       "UniqueCount": "Unique count",
       "NullCount": "Null count",
       "First": "First",
-      "Last": "Last"
+      "Last": "Last",
+      "Only": "Единственный"
     }
   },
   "components/joindata": {
@@ -622,7 +616,7 @@
       "Mean": "Replace with average",
       "Median": "Replace with median",
       "MostFreq": "Replace with most frequent",
-      "SetValue": "Replace with \"Not defined\"",
+      "SetValue": "Заменять заданным значением",
       "RandomValue": "Replace with random values",
       "LinearInterp": "Linear interpolation",
       "CubicInterp": "Cubic interpolation",
@@ -864,6 +858,12 @@
     }
   },
   "imports/native": {
+    "DDFChecksum": {
+      "$Caption": "Контрольная сумма",
+      "No": "Нет",
+      "CompressedOnly": "Сжатых данных",
+      "CompressedAndContent": "Сжатых и несжатых данных"
+    },
     "DDFCompression": {
       "$Caption": "Compression Algorithm",
       "None": "None",
@@ -977,6 +977,12 @@
       "SyncNormal": "Normal",
       "SyncFull": "Full",
       "SyncExtra": "Extra"
+    },
+    "SQLiteTempStore": {
+      "$Caption": "Хранилище TEMP",
+      "TempDefault": "Default",
+      "TempFile": "Файловая система",
+      "TempMemory": "Оперативная память"
     }
   },
   "Libraries/bgrtl/EnumDescs": {
@@ -1022,7 +1028,8 @@
       "DimCol": "Dimension in columns",
       "DimRow": "Dimension in rows",
       "Forecast": "Forecast",
-      "Weight": "Weight"
+      "Weight": "Weight",
+      "Partition": "Time frames"
     },
     "DataKind": {
       "$Caption": "Data Kind",
@@ -1040,21 +1047,6 @@
       "Teach": "",
       "Test": "",
       "All": "All"
-    },
-    "DataStatus": {
-      "$Caption": "Usage Type",
-      "UnUsable": "Unused",
-      "Usable": "Used",
-      "Useless": "Useless",
-      "Key": "Key",
-      "Input": "Input",
-      "Output": "Output",
-      "Info": "Info",
-      "Dimension": "Dimension",
-      "Property": "Attribute",
-      "Case": "Fact",
-      "TransactionID": "Transaction",
-      "ItemID": "Item"
     },
     "DataType": {
       "$Caption": "Data Type",
@@ -1275,7 +1267,7 @@
       "$Caption": "Method of Training\/Test Component Partitioning with Training",
       "Random": "Random",
       "Sequence": "Sequence",
-      "Flag": "Partition specified"
+      "ByColumn": "По столбцу"
     },
     "LearnPartitionType": {
       "$Caption": "Type of the Training Component Data Set",

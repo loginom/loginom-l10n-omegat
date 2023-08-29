@@ -1,6 +1,8 @@
 {
   "about/About": {
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Неверный ответ сервиса с информацией о последней версии",
+    "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https://loginom.ru/downloads/",
     "NewVersionHref": "https://loginom.ru/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Актуальная версия {0}"
@@ -26,7 +28,12 @@
     "CurrentLocale": "Текущая локаль \"{0}\".",
     "DefaultLocaleModified": "изменена",
     "DirectorySettings": "Папки",
+    "FailedLoginCountLimit": "Лимит попыток ввода пароля",
+    "FailedLoginTimeout": "Тайм-аут ввода пароля (сек)",
+    "IdleDisconnectTimeout": "Тайм-аут закрытия сессии (сек)",
+    "IdleLockTimeout": "Тайм-аут блокировки сессии (сек)",
     "LDAPSettings": "Параметры LDAP",
+    "Limit": "Лимит",
     "Locale": "Локаль",
     "LogFileMaxIndex": "Количество резервных файлов",
     "LogFileMaxSize": "Максимальный размер файла",
@@ -36,21 +43,28 @@
     "LogType": "Тип логирования",
     "MinLogLevel": "Уровень логирования",
     "MsgNewLocaleAfterRestart": "Новая локаль будет применена после перезапуска.",
+    "NeedDN": "Разрешать доменные имена",
     "NotSet": "Не задана ({0})",
     "NullAsDefault": "По умолчанию",
     "NullAsDisabled": "Отключено",
     "PackagePoolSize": "Размер пула пакетов",
     "PingPeriod": "Период проверки соединения (сек)",
     "Port": "TCP порт",
+    "RAMLimit": "Максимум используемой памяти",
+    "RAMLimitDecreaseAfterRestart": "Лимит используемой памяти будет уменьшен после перезапуска.",
+    "RAMLimitRatio": "Доля используемой памяти",
+    "SecuritySettings": "Параметры безопасности",
     "ServerSettings": "Параметры сервера",
     "SessionBackupDirectory": "Резервные копии сессий",
     "SSLCertificateFile": "Имя файла сертификата",
     "SSLPrivateKeyFile": "Имя файла закрытого ключа",
-    "StopTimeout": "Таймаут остановки сервера (сек)",
+    "StopTimeout": "Тайм-аут остановки сервера (сек)",
     "ThreadPoolSize": "Размер пула потоков",
     "TraceExceptions": "Трассировка исключений",
     "UnixSocket": "Unix socket",
+    "Unlimited": "Без ограничений",
     "UserStorageDirectory": "Личные данные пользователей",
+    "VmUsedData": "Выделено",
     "WSPort": "WebSocket порт",
     "WSSPort": "WebSocket SSL/TLS порт"
   },
@@ -59,10 +73,10 @@
     "ConfirmPackageStop": "Остановить выполнение пакета \"{0}\"?",
     "ConfirmSessionClose": "Закрыть сессию \"{0}\" без сохранения изменений?",
     "ConfirmSessionStop": "Остановить выполнение сессии \"{0}\"?",
-    "ErrCannotClosePackage": "Не удалось закрыть пакет. Пакет содержит активные процессы, которые не завершились в течение таймаута.",
-    "ErrCannotCloseSession": "Не удалось закрыть сессию. Сессия содержит активные процессы, которые не завершились в течение таймаута.",
-    "ErrCannotStopPackage": "Не удалось остановить выполнение пакета. Пакет содержит активные процессы, которые не завершились в течение таймаута.",
-    "ErrCannotStopSession": "Не удалось остановить выполнение сессии. Сессия содержит активные процессы, которые не завершились в течение таймаута.",
+    "ErrCannotClosePackage": "Не удалось закрыть пакет. Пакет содержит активные процессы, которые не завершились в течение тайм-аута.",
+    "ErrCannotCloseSession": "Не удалось закрыть сессию. Сессия содержит активные процессы, которые не завершились в течение тайм-аута.",
+    "ErrCannotStopPackage": "Не удалось остановить выполнение пакета. Пакет содержит активные процессы, которые не завершились в течение тайм-аута.",
+    "ErrCannotStopSession": "Не удалось остановить выполнение сессии. Сессия содержит активные процессы, которые не завершились в течение тайм-аута.",
     "PackageRefCountTip": "Количество сессий ссылающихся на пакет",
     "ReadOnlyPackageNamePostfix": "(только чтение)",
     "RoleTipFormat": "Сессия запущена пользователем с ролью {0}",
@@ -110,6 +124,12 @@
   "app/Application": {
     "MsgAppClose": "Приложение закрывается. Текущий сеанс работы и все несохраненные данные будут потеряны."
   },
+  "app/AppMenuForm": {
+    "ConfirmQuit": "Есть несохранённые пакеты. Выйти без сохранения?",
+    "ErrCannotCloseApplication": "Не удалось закрыть приложение из-за наличия активных процессов, которые не завершились в течение тайм-аута.",
+    "Menu": "Меню",
+    "QAHref": "https://qa.loginom.ru/questions/"
+  },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nВы действительно хотите удалить компонент \"{1}\"?",
     "ConfirmRemovingNode": "Вы действительно хотите удалить узел \"{0}\"?",
@@ -146,24 +166,25 @@
     "NotObjects": "",
     "NumberObjects": "{0} объектов"
   },
-  "app/LoginomMenuForm": {
-    "ConfirmQuit": "Есть не сохранённые пакеты. Выйти без сохранения?",
-    "ErrCannotCloseApplication": "Не удалось закрыть приложение из-за наличия активных процессов, которые не завершились в течение таймаута.",
-    "Menu": "Меню",
-    "QAHref": "https://qa.loginom.ru/questions/"
+  "app/LockForm": {
+    "LoginText": "Разблокировать"
   },
   "app/MainForm": {
     "AskIfOpenPackageByLink": "Открытый пакет будет заблокирован вами до момента его закрытия. Открыть?",
     "CantCreateShareLinks": "Не удалось сгенерировать адрес для текущей страницы",
     "CantFindPackage": "Не удалось найти пакет",
     "CantGetAbsolutePath": "Не удалось получить абсолютный путь для файла \"{0}\"",
+    "CollapseMainToolbar": "Свернуть",
     "ConfirmCannotCloseModel": "Невозможно закрыть модуль \"{0}\" в пакете \"{1}\".\nНекоторые из узлов в данный момент заблокированы.\nВы хотите отменить активные процессы и закрыть пакет без сохранения?",
     "ConfirmQuitSave": "Сохранить изменения в пакете \"{0}\"?",
     "ErrOpenUrlPath": "Не удается открыть URL \"{0}\".\nОшибка: \"{1}\".",
     "ErrPackageDontExists": "Пакет с именем \"{0}\" не найден",
     "ErrPackageNotSaved": "Текущий пакет не сохранен",
     "ErrUrlPathNotFound": "Ветка с именем \"{0}\" не найдена.",
+    "ExpandMainToolbar": "Развернуть",
     "FavoritesTitle": "Избранное",
+    "MsgDisconnectedByDispatcher": "Администратор закрыл сессию через диспетчер",
+    "MsgDisconnectedByIdleTimeout": "Произошло закрытие сессии по тайм-ауту неактивности",
     "MsgManagedPackageClosed": "Пакет {0} был закрыт из диспетчера",
     "MsgNodeNotFound": "Указанный узел не найден. Переход невозможен.",
     "MsgTransportError": "Произошёл разрыв связи с сервером",
@@ -179,7 +200,9 @@
     "ErrNoPackageToClose": "Не найден пакет, который можно закрыть.",
     "ErrNoPackageToSave": "Нет пакета для сохранения.",
     "ErrOpenReadOnlyPackage": "Пакет \"{0}\" открыт только на чтение, потому что он уже открыт другим пользователем, либо к файлу есть доступ только на чтение. Сохранение возможно только под другим именем.",
-    "ErrSaveReadOnlyPackage": "Нельзя сохранить пакет \"{0}\" открытый только на чтение, без изменения имени"
+    "ErrSaveReadOnlyPackage": "Нельзя сохранить пакет \"{0}\" открытый только на чтение, без изменения имени",
+    "NoRightsToCreatePackages": "У пользователя \"{0}\" нет прав для создания пакетов",
+    "NoRightsToOpenPackages": "У пользователя \"{0}\" нет прав для открытия пакетов"
   },
   "app/MapTree": {
     "About": "О программе",
@@ -188,7 +211,7 @@
     "ConfirmCloseOtherPackages": "Закрыть другие пакеты?",
     "ConnectionDisplayNameDefault": "Подключение",
     "Connections": "Подключения",
-    "ErrCannotClosePackage": "Не удалось закрыть пакет. Пакет содержит активные процессы, которые не завершились в течение таймаута.",
+    "ErrCannotClosePackage": "Не удалось закрыть пакет. Пакет содержит активные процессы, которые не завершились в течение тайм-аута.",
     "ErrInstanceAlreadyExist": "Идентификатору уже сопоставлен визуальный узел",
     "ErrInstanceNotFound": "Для идентификатора не существует сопоставленного визуального узла",
     "FileStorage": "Файлы",
@@ -296,6 +319,7 @@
     "RemoveSelectedConfirm": "Вы действительно хотите удалить выделенные объекты?",
     "RenameNode": "Переименовать...",
     "ResetConfiguration": "Восстановить исходную конфигурацию узла",
+    "SelectNode": "Сперва выделите узел на сценарии",
     "SelectOneNode": "Выберите только один узел",
     "SelectSomething": "Сперва выделите объект на сценарии",
     "SetNodeDerivedVendor": "Задать производный компонент узла...",
@@ -353,6 +377,7 @@
     "VisibilityTooltip": "Настроить область видимости..."
   },
   "app/PackagesAutoSavePanel": {
+    "AutoSavePeriodDescriptionFmt": "Пакеты сохраняются с заданным интервалом в файлы с расширением .autosave рядом с {0} файлами. Сами {0} файлы при этом не перезаписываются.",
     "ErrPackagesAutoSaveInvalidPeriod": "Указано недопустимое значение периода автосохранения пакетов",
     "ErrPackagesAutoSaveNotSpecified": "Не указан период автосохранения пакетов"
   },
@@ -464,7 +489,8 @@
   },
   "app/Version": {
     "CompanyWebsite": "https://loginom.ru",
-    "LegalCopyright": "© ООО «Аналитические технологии» 2017"
+    "LegalCopyright": "© ООО «Аналитические технологии» 2017",
+    "ProductName": "Loginom"
   },
   "app/WindowTitle": {
     "Close": "Закрыть",
@@ -538,10 +564,6 @@
     "SelectMethodType": "Выберите метод",
     "UpperInclusive": "<  x <="
   },
-  "components/calcdata/CalcDataFields": {
-    "Fields": "Поля",
-    "Vars": "Переменные"
-  },
   "components/calcdata/CalcExpressionsAbstract": {
     "AddFirstExpressionToEdit": "Добавьте выражение, чтобы можно было редактировать",
     "DeleteAllConfirm": "Вы действительно хотите удалить все выражения?",
@@ -558,14 +580,13 @@
     "SearchDef": "Фильтрация"
   },
   "components/calcdata/CalcPreviewForm": {
+    "Label": "Метка",
+    "Name": "Имя",
     "Value": "Значение",
     "Variable": "Переменная"
   },
   "components/calcdata/CodeMirrorController": {
     "ExprPlaceholder": "Введите код выражения"
-  },
-  "components/calcvariables/CalcVariablesFields": {
-    "Vars": "Переменные"
   },
   "components/coarseclasses/CalculateInformationValues": {
     "ChartTitle": "Зависимость IV от количества классов",
@@ -645,7 +666,10 @@
     "UniqueValuesGroupTip": "Группа уникальных значений: "
   },
   "components/datarecovery/DataRecoveryWizard": {
-    "NotUsedAction": "Не выбран"
+    "NotUsedAction": "Не выбран",
+    "SetNullValueLabel": "Значение для замены пропусков",
+    "SetNullValueWindowTitle": "Редактирование значения замены для пропусков",
+    "SetValueMethod": "Заменять на"
   },
   "components/datatotree/DataToTreeWizard": {
     "ClearAllLinksPromtTitle": "Удаление",
@@ -1011,7 +1035,8 @@
     "DefaultSheetName": "Лист1"
   },
   "exports/kafka/KafkaExportWizard": {
-    "InvalidMessageFieldFmt": "Поле с сообщениями \"{0}\" не найдено"
+    "InvalidMessageFieldFmt": "Поле с сообщениями \"{0}\" не найдено",
+    "NoConnection": "Нет подключения"
   },
   "exports/tableau/ExportTableauMappingWizard": {
     "colDisplayNameTitle": "Поля таблицы Tableau",
@@ -1052,11 +1077,9 @@
   },
   "ext/ExportUtils": {
     "CantSaveDownLoadedFile": "Не удалось сохранить скачанный файл",
-    "ErrUTF8ToUCS2Conversion": "Ошибка преобразования строки из UTF-8 в UCS-2",
     "ExcelMenuText": "XLS (html)",
     "ExecutionStarted": "Экспорт уже начался",
-    "ExportPrefix": "Экспорт в ",
-    "XHRError": "Ошибка XMLHttpRequest, статус: {0}"
+    "ExportPrefix": "Экспорт в "
   },
   "ext/ExtJS": {
     "ErrEnumMenuItemNotFound": "Элемент меню не найден",
@@ -1177,6 +1200,8 @@
     "AllTableauFilesDesc": "Tableau Data Extracts",
     "ArchiveFileDesc": "Архив",
     "ArchiveFilesDesc": "Архивы",
+    "ArchiveFilesSupportedDesc": "Архивы",
+    "ArchiveFileSupportedDesc": "Архив",
     "AudioFileDesc": "Аудио файл",
     "AudioFilesDesc": "Аудио файлы",
     "BMPFileDesc": "Точечный рисунок",
@@ -1226,6 +1251,9 @@
     "LGPFilesReservedCopyDesc": "Резервные копии пакетов Loginom",
     "LogFileDesc": "Файл журнала регистрации",
     "LogFilesDesc": "Файлы журналов регистрации",
+    "MASK_LGD_FILES": "*.lgd",
+    "MASK_LGP_FILES": "*.lgp",
+    "MASK_LGP_RESERVED_COPY_FILES": "*.~lgp",
     "MdbFileDesc": "База данных MS Access",
     "MdbFilesDesc": "Базы данных MS Access",
     "MhtFileDesc": "Веб-архив, один файл",
@@ -1315,8 +1343,14 @@
     "CantSaveDownLoadedFile": "Не удалось сохранить скачанный файл"
   },
   "filestorage/FileSenderManager": {
+    "FileAlreadyDownloading": "Файл \"{0}\" скачивается. Дождитесь окончания или отмените процесс скачивания.",
+    "FileAlreadyExistsMessage": "Файл с таким же именем уже существует в этом расположении:\n\"{0}\".\n\nСуществующий файл\n{1}\n\nКопируемый файл\n{2}",
     "FileAlreadyOpenForWriting": "Скачиваемый файл \"{0}\" параллельно открыт кем-то на запись. Полученный файл может не содержать все последние изменения.",
-    "FileAlreayLoading": "Файл \"{0}\" уже загружается. Дождитесь окончания или отмените процесс загрузки."
+    "FileAlreadyUploading": "Файл \"{0}\" загружается. Дождитесь окончания или отмените процесс загрузки.",
+    "FileConflictTitle": "Конфликт файлов с одинаковыми именами",
+    "FileModifiedDate": "Дата изменения: {0}",
+    "FileSize": "Размер: {0}",
+    "NotSupportedDescriptor": "Переданный объект \"{0}\" не является ни файлом, ни директорией."
   },
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "Данная операция не поддерживается в вашем браузере.",
@@ -1326,27 +1360,37 @@
     "CantDownloadFolder": "Пока что нельзя скачивать каталоги",
     "ConfirmDeleteAll": "Вы действительно хотите удалить все?",
     "ConfirmDeleting": "Вы действительно хотите удалить выделенное?",
+    "ConfirmExtract": "Файлы с совпадающими именами в текущей папке будут заменены.\nРаспаковать?",
+    "ConfirmExtractInFolder": "Файлы с совпадающими именами в папке \"{0}\" будут заменены.\nРаспаковать?",
+    "ConfirmExtractTitle": "Распаковка архива \"{0}\"",
     "ConfirmStopLoaders": "Активные загрузки будут отменены. Продолжить?",
     "CopyError": "Ошибка копирования в буфер обмена:",
     "CreateDirectoryTitle": "Создание каталога",
+    "CreatePackageTitle": "Создание пакета",
     "DeleteAllTitle": "Удаление всех файлов каталога",
     "DirectoryAlreadyExists": "Каталог с таким именем уже существует",
+    "Download": "Скачать",
+    "ExtractInFolderText": "Распаковать в \"{0}\\\"",
+    "ExtractSuccessful": "Архив \"{0}\" был успешно распакован",
     "FileAlreadyExists": "Файл с таким именем уже существует",
     "FileStorageNotConnected": "Нет соединения с файловым хранилищем",
     "FullPathCopied": "Полные имена выделенных файлов скопированы в буфер обмена",
     "HasNotStorageItems": "Нет файлов для копирования/вырезания",
+    "InvalidFileName": "Имя файла содержит недопустимые символы",
     "NeedNotEmptyFolderName": "Необходимо задать непустое имя каталога",
     "NoHTTPSMsg": "Для данной операции необходимо соединение по протоколу HTTPS.",
     "Open": "Открыть",
     "RenamingStorageItem": "Переименование",
     "SetNewDirectoryName": "Имя нового каталога:",
-    "SetNewName": "Новое имя:"
+    "SetNewName": "Новое имя:",
+    "SetNewPackageName": "Имя нового пакета:"
   },
   "filestorage/FileUploader": {
     "ErrFileMayBeDeleted": "Ошибка загрузки файла. Возможно, файл был удален с диска",
     "ErrFileUpload": "Ошибка загрузки файла"
   },
   "filestorage/LoaderViewController": {
+    "DownloadAsArchiveTitle": "Архивация и скачивание файлов",
     "DownloadWindowTitle": "Скачивание файлов",
     "ErrCancelLoaders": "Ошибка отмены операций",
     "UploadWindowTitle": "Загрузка файлов на сервер"
@@ -1402,7 +1446,9 @@
     "SandSignica": "Песчаная"
   },
   "homepage/Banner": {
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Неверный ответ сервиса с информацией о последней версии",
+    "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https://loginom.ru/downloads/",
     "NewVersionHref": "https://loginom.ru/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Доступна актуальная версия {0}"
@@ -1415,7 +1461,7 @@
     "NoNewsLog": "Не удалось получить новости",
     "RemoveFromHistoryFmt": "Не удалось найти файл \"{0}\". Возможно, он переименован, перемещён или удалён. Вы хотите удалить этот пакет из списка недавних пакетов?",
     "RemoveFromHistoryTitle": "Не удалось найти файл",
-    "RemoveNoRightsFmt": "У пользователя \"{0}\" нет прав для открытия пакета",
+    "RemoveNoRightsFmt": "У пользователя \"{0}\" нет прав для открытия пакетов",
     "RemoveNoRightsTitle": "Не удалось открыть пакет"
   },
   "imports/dbimport/DBImportSql": {
@@ -1477,27 +1523,15 @@
     "SheetNotFoundByNameFmt": "Лист \"{0}\" не найден в книге Excel",
     "SheetNotFoundByNumberFmt": "Лист №{0} не найден в книге Excel"
   },
+  "imports/kafka/KafkaImportWizard": {
+    "NoConnection": "Нет подключения"
+  },
   "imports/onec8query/CodeMirrorOneCv8Controller": {
     "QueryPlaceholder": "Введите текст запроса"
   },
   "imports/onec8query/OneC8QueryImportWizard": {
     "NoConnection": "Нет подключения",
     "NotConnectedError": "Соединение с базой данных не установлено"
-  },
-  "imports/textfile/DateFormatStore": {
-    "Default": "По умолчанию"
-  },
-  "imports/textfile/DateSeparatorStore": {
-    "BackSlash": "Обратный слэш (\\)",
-    "Default": "По умолчанию",
-    "Hyphen": "Дефис (-)",
-    "Point": "Точка (.)",
-    "Slash": "Слэш (/)"
-  },
-  "imports/textfile/DecimalSeparatorStore": {
-    "Comma": "Запятая (,)",
-    "Default": "По умолчанию",
-    "Point": "Точка (.)"
   },
   "imports/textfile/DelimiterStore": {
     "Comma": "Запятая",
@@ -1509,6 +1543,15 @@
     "Encoding1": "Кириллическая (1251)",
     "Encoding2": "Западноевропейская (1252)"
   },
+  "imports/textfile/FormatOptions": {
+    "BackSlash": "Обратный слэш (\\)",
+    "Colon": "Двоеточие (:)",
+    "Comma": "Запятая (,)",
+    "Default": "Не задано",
+    "Hyphen": "Дефис (-)",
+    "Point": "Точка (.)",
+    "Slash": "Слэш (/)"
+  },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Свернуть",
     "ExpandColumnDefsTuning": "Развернуть",
@@ -1519,14 +1562,6 @@
     "DoubleQuote": "Двойная кавычка (\")",
     "Empty": "Нет",
     "Quote": "Одинарная кавычка (')"
-  },
-  "imports/textfile/TimeFormatStore": {
-    "Default": "По умолчанию"
-  },
-  "imports/textfile/TimeSeparatorStore": {
-    "Colon": "Двоеточие (:)",
-    "Default": "По умолчанию",
-    "Point": "Точка (.)"
   },
   "imports/textfile/ValueFalseStore": {
     "False1": "False",
@@ -1744,6 +1779,10 @@
   },
   "lib/Message": {
     "AlwaysYes": "Да, больше не спрашивать",
+    "ConflictForAll": "Для всех",
+    "ConflictReplace": "Заменить",
+    "ConflictSkip": "Пропустить",
+    "CopyNotifyMsg": "Копировать текст сообщения",
     "ErrorTitle": "Ошибка",
     "GoToNotifySource": "Перейти",
     "InfoTitle": "Информация",
@@ -1800,8 +1839,8 @@
     "ActionsBtn": "Другие действия",
     "ControlStopBtn": "Остановка обработки",
     "DeactivateNodeBtn": "Деактивировать узел",
-    "LaunchBtn": "Выполнить узел",
-    "SettingBtn": "Настройка",
+    "LaunchBtn": "Выполнить узел (F9)",
+    "SettingBtn": "Настройка (Shift+Enter)",
     "SetupViewersBtn": "Настройка визуализаторов"
   },
   "mxgraph/node/informer/InfoMagicButton": {
@@ -2092,7 +2131,7 @@
     "SetNewGroupName": "Имя новой группы:",
     "ShowInReports": "Показать в Отчетах",
     "TitleUndefined": "визуализатор",
-    "TuneViews": "Настройка визуализаторов",
+    "TuneViews": "Визуализаторы",
     "VendorNotValid": "Выбран несовместимый с портом визуализатор",
     "VendorTreeViewers": "Визуализаторы",
     "VendorUndefined": "На панели визуализаторов не выбран визуализатор",
@@ -2124,6 +2163,20 @@
     "WarnDependencyPrefix": "При удалении вычисляемого факта произойдут следующие изменения состояния Куба:",
     "WarnDependencySuffix": "Продолжить действие?"
   },
+  "viewers/cube/CubeChartPanel": {
+    "ChartCaseEmptyText": "Нет фактов",
+    "ChartCaseManyText": "Факты ({0})",
+    "ChartYAxisTitle": "Факты",
+    "DotsOutOfBoundsMsg": "Превышение ограничений диаграммы.\nТекущее кол-во точек: {0}.\nМаксимальное кол-во точек: {1}",
+    "EditSerieColor": "Изменить цвет...",
+    "EmptyChart": "Нет фактов для отображения",
+    "HideAllSeries": "Скрыть все серии",
+    "InvertSeries": "Инвертировать серии",
+    "ResetSerieColor": "Сбросить цвет",
+    "SeriesOutOfBoundsMsg": "Превышение ограничений диаграммы.\nТекущее кол-во серий: {0}.\nМаксимальное кол-во серий: {1}",
+    "ShowAllSeries": "Показать все серии",
+    "TooltipMode": "Тип подсказок"
+  },
   "viewers/cube/CubeDragDropController": {
     "Ascending": "По возрастанию",
     "Collapse": "Свернуть",
@@ -2143,21 +2196,9 @@
     "WarnDependencySuffix": "Продолжить действие?"
   },
   "viewers/cube/CubeView": {
-    "ChartCaseEmptyText": "Нет фактов",
-    "ChartCaseManyText": "Факты ({0})",
-    "ChartYAxisTitle": "Факты",
-    "DotsOutOfBoundsMsg": "Превышение ограничений диаграммы.\nТекущее кол-во точек: {0}.\nМаксимальное кол-во точек: {1}",
-    "EditSerieColor": "Изменить цвет...",
-    "EmptyChart": "Нет фактов для отображения",
     "ErrExportFailed": "Не удалось экспортировать кросс-таблицу Куба:\n{0}",
     "ExportToastTitle": "Экспорт из Куба",
-    "HideAllSeries": "Скрыть все серии",
     "HideSingleCase": "Скрыть единственный факт",
-    "InvertSeries": "Инвертировать серии",
-    "ResetSerieColor": "Сбросить цвет",
-    "SeriesOutOfBoundsMsg": "Превышение ограничений диаграммы.\nТекущее кол-во серий: {0}.\nМаксимальное кол-во серий: {1}",
-    "ShowAllSeries": "Показать все серии",
-    "TooltipMode": "Тип подсказок",
     "WarnExportTableSizeWarning": "Текущий размер кросс-таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} Mb.\nВы действительно хотите начать экспорт?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
@@ -2475,6 +2516,9 @@
   },
   "wizards/connection/DBConnectionWizard": {
     "Filename": "Имя файла"
+  },
+  "wizards/connection/LockTimeoutStore": {
+    "Default": "По умолчанию"
   },
   "wizards/datapartition/BiasedMethodForm": {
     "UniqueValuesLimitError": "Поле {0} нельзя использовать для выборки со смещением из-за превышения количества уникальных значений (больше {1})"

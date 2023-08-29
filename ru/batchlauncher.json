@@ -8,6 +8,7 @@
     "ErrPackageCommandLineParameter": "Не указан обязательный параметр командной строки Package",
     "ErrUnknownCommandLineParameter": "Неизвестный параметр командной строки: %s",
     "ExampleTitle": "Пример:",
+    "LGP_FILE": ".lgp",
     "OptionAddressDesc": "IP адрес или имя хоста (по умолчанию: %s)",
     "OptionNodeNameDesc": "Имя или GUID узла",
     "OptionPackageFileNameDesc": "Путь и имя файла пакета (обязательный параметр)",

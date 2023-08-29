@@ -262,6 +262,11 @@
       "Description": "IsNull(Argument)",
       "Output": "Checks whether the Argument is null. Returns the logical value."
     },
+    "ISO8601ToDate": {
+      "Arguments": "Аргумент - строковое выражение, содержащее дату\/время в формате ISO 8601",
+      "Description": "ISO8601ToDate(Аргумент)",
+      "Output": "Функция конвертирует строку, содержащую дату\/время в формате ISO 8601 в значение типа \"Дата\/Время\".\nПри указанном смещении времени относительно UTC дата\/время приводится к текущей временной зоне.\nЕсли смещение времени не указано, дата\/время остаётся без изменений."
+    },
     "Left": {
       "Arguments": "String - expression of the string type.",
       "Description": "Left(String, Count_of_characters)",
@@ -435,7 +440,7 @@
     "StrToDate": {
       "Arguments": "Argument - the string expression containing date\/time\nFormat - optional parameter date\/time format in terms of D, M, Y, H, N, S, Z",
       "Description": "StrToDate(Argument [, Format])",
-      "Output": "Function converts the string containing the date into the \"Date\/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - means that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD\/MM\/YY\/HH:NN:SS\" - means that the Argument contains strings of the following type: \"25\/12\/04\/12:44:54\";"
+      "Output": "Function converts the string containing the date into the \"Date\/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD\/MM\/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25\/12\/04 12:44:54\";"
     },
     "StrZero": {
       "Arguments": "Expression - numeric expression.\nTotal_length - length of the resulting string",
