@@ -125,7 +125,7 @@
     "MsgAppClose": "The application is closing. The current session and all unsaved changes will be lost."
   },
   "app/AppMenuForm": {
-    "ConfirmQuit": "Есть несохранённые пакеты. Выйти без сохранения?",
+    "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
     "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
     "Menu": "Menu",
     "QAHref": "https:\/\/qa.loginom.com\/questions\/"
@@ -167,7 +167,7 @@
     "NumberObjects": "{0} objects"
   },
   "app/LockForm": {
-    "LoginText": "Разблокировать"
+    "LoginText": "Unlock"
   },
   "app/MainForm": {
     "AskIfOpenPackageByLink": "The open package will be locked by you until it is closed. Do you want to open it?",
@@ -181,7 +181,7 @@
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
     "ErrUrlPathNotFound": "\"{0}\" path not found",
-    "ExpandMainToolbar": "Развернуть",
+    "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
     "MsgDisconnectedByDispatcher": "Администратор закрыл сессию через диспетчер",
     "MsgDisconnectedByIdleTimeout": "Произошло закрытие сессии по тайм-ауту неактивности",
@@ -1839,8 +1839,8 @@
     "ActionsBtn": "Other Actions",
     "ControlStopBtn": "Processing Stop",
     "DeactivateNodeBtn": "Deactivate Node",
-    "LaunchBtn": "Выполнить узел (F9)",
-    "SettingBtn": "Настройка (Shift+Enter)",
+    "LaunchBtn": "Run node (F9)",
+    "SettingBtn": "Settings (Shift+Enter)",
     "SetupViewersBtn": "Configure Visualizers"
   },
   "mxgraph/node/informer/InfoMagicButton": {
@@ -2131,7 +2131,7 @@
     "SetNewGroupName": "New group name:",
     "ShowInReports": "Show in reports",
     "TitleUndefined": "visualizer",
-    "TuneViews": "Визуализаторы",
+    "TuneViews": "Visualizers",
     "VendorNotValid": "Visualizer incompatible with port selected",
     "VendorTreeViewers": "Visualizers",
     "VendorUndefined": "No visualizer selected on visualizer panel",
@@ -2166,7 +2166,7 @@
   "viewers/cube/CubeChartPanel": {
     "ChartCaseEmptyText": "No measures",
     "ChartCaseManyText": "Measures ({0})",
-    "ChartYAxisTitle": "Факты",
+    "ChartYAxisTitle": "Measures",
     "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}",
     "EditSerieColor": "Change color...",
     "EmptyChart": "No measures to display",
