@@ -263,9 +263,9 @@
       "Output": "Checks whether the Argument is null. Returns the logical value."
     },
     "ISO8601ToDate": {
-      "Arguments": "Аргумент - строковое выражение, содержащее дату\/время в формате ISO 8601",
-      "Description": "ISO8601ToDate(Аргумент)",
-      "Output": "Функция конвертирует строку, содержащую дату\/время в формате ISO 8601 в значение типа \"Дата\/Время\".\nПри указанном смещении времени относительно UTC дата\/время приводится к текущей временной зоне.\nЕсли смещение времени не указано, дата\/время остаётся без изменений."
+      "Arguments": "Argument - the string expression containing date\/time in ISO 8601 format",
+      "Description": "ISO8601ToDate(Argument)",
+      "Output": "Function converts the string containing date\/time in ISO 8601 format into the \"Date\/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date\/time is set to the current time zone.\nIf the time offset is not specified, the date\/time remains unchanged."
     },
     "Left": {
       "Arguments": "String - expression of the string type.",
