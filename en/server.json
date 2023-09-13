@@ -4045,7 +4045,7 @@
     "ErrUnknownMethodID": "Unknown method identifier: %d"
   },
   "Libraries/rpc/Session": {
-    "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: %d секунд",
+    "ConnectionTimedOut": "Connection was closed by idle timeout: %d seconds",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while SessionHost closing",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Another RPC exception handler already registered",
     "ErrDifferentRpcVersionAlreadyRegistered": "Another RPC version number already registered",
@@ -4058,10 +4058,10 @@
     "ErrNegativeRangeBounds": "Range bounds [%d; %d] are negative",
     "ErrRangeLengthOutOfRange": "Range bounds [%d; %d] are not in the range of allowable values [%d; %d]",
     "ErrRpcVersionMismatch": "Client of %s version cannot get connected to the server of %s version",
-    "ErrSessionIsLocked": "Операция не может быть выполнена, так как сессия заблокирована",
+    "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d; %d]",
-    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: %d секунд"
+    "IdleLockTimeOut": "Session was locked by idle timeout: {0} seconds"
   },
   "Libraries/rpc/WebSocketRemoteServer": {
     "ErrSSLChangeAfterStart": "SSL parameters cannot be changed after server start"
@@ -4079,7 +4079,7 @@
     "ErrNoWSDLSource": "No WSDL source specified",
     "ErrWSDLLoad": "Error loading WSDL:\nFile name: %s",
     "WarnMainWSDLNotLoaded": "Loading of the main WSDL source (%s) failed (%s). Loading from the reserve source.",
-    "WarnTestingInProcess": "Тестирование уже выполняется"
+    "WarnTestingInProcess": "Testing already executing"
   },
   "Libraries/WSDLClientConnection/WSDLClientConnectionVendor": {
     "WSDLClientConnectionVendorCaption": "SOAP Service",
@@ -4143,7 +4143,7 @@
     "ErrDeductorServerSessionNotInitialized": "Loginom server session not initialized",
     "ErrDuplicatePublishedNodeName": "The package contains more than one published node with \"%s\" name",
     "ErrEncryptedPackage": "Encrypted package \"%s\" cannot be opened to be viewed and edited",
-    "ErrFailedLoginTimeout": "Превышено максимальное количество попыток входа в учётную запись",
+    "ErrFailedLoginTimeout": "Maximum number of account login attempts was exceeded",
     "ErrFailedToRestorePackage": "Failed to restore %s package",
     "ErrFileAlreadyEditing": "Failed to save package in \"%s\" file. This file has already been used by another process",
     "ErrFileNameNotSpecified": "No file name specified",
@@ -4170,7 +4170,7 @@
     "ErrUpdatePublishedPackageErrors": "Errors occurred while updating %s package publishing",
     "FileName": "File name",
     "LicSessionCountExceeded": "Count of sessions allowed according to your license exceeded",
-    "LogFailedLogin": "Не удалось войти в учетную запись %s",
+    "LogFailedLogin": "Failed to log into %s account",
     "Namespace": "Namespace",
     "PackageClosedLogMsg": "\"%s\" package closed",
     "PackageOpenedEditLogMsg": "\"%s\" package opened in the edit mode",
@@ -4193,10 +4193,10 @@
     "ErrCannotConfigureActiveConnection": "Cannot change active connection settings"
   },
   "Studio/DeductorServerSettings": {
-    "FailedLoginCountLimit": "Лимит попыток ввода пароля",
-    "FailedLoginTimeout": "Тайм-аут ввода пароля",
-    "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
-    "IdleLockTimeout": "Тайм-аут блокировки сессии"
+    "FailedLoginCountLimit": "Password entry attempts limit",
+    "FailedLoginTimeout": "Password entry timeout",
+    "IdleDisconnectTimeout": "Session closure timeout",
+    "IdleLockTimeout": "Session lock timeout"
   },
   "Studio/DeductorSessionsManager": {
     "ErrCloseSessionRestriction": "%s session closing forbidden",
