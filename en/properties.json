@@ -241,7 +241,7 @@
   "components/execcmd": {
     "ExecCmdEngine": {
       "TerminateByTimeout": "Terminate program by timeout",
-      "Timeout": "Тайм-аут выполнения (мс)"
+      "Timeout": "Execution timeout (ms)"
     }
   },
   "components/extractxml": {
@@ -523,7 +523,7 @@
     "ExportNative": {
       "Compression": "Compression",
       "StringCacheMaxSize": "String cache size",
-      "WriteChecksum": "Контрольная сумма"
+      "WriteChecksum": "Check sum"
     }
   },
   "exports/tableau": {
@@ -570,7 +570,7 @@
     "DBImport": {
       "CommandText": "Table\/View",
       "SilentActivation": "Ignore errors",
-      "Timeout": "Тайм-аут импорта (с)"
+      "Timeout": "Import timeout (s)"
     }
   },
   "imports/excelfile": {
@@ -598,7 +598,7 @@
   },
   "imports/native": {
     "ImportNative": {
-      "UseChecksum": "Проверять контрольную сумму"
+      "UseChecksum": "Verify check sum"
     }
   },
   "imports/textfile": {
@@ -651,10 +651,10 @@
     },
     "DatabaseConfigurator": {
       "CharacterSet": "Codepage",
-      "ConnectionTimeout": "Тайм-аут подключения (с)",
+      "ConnectionTimeout": "Connection timeout (s)",
       "DatabasePath": "Connection string",
       "Direct": "Do not use DBMS client",
-      "LockTimeout": "Тайм-аут блокировки (с)",
+      "LockTimeout": "Lock timeout (s)",
       "Password": "Password",
       "QuotedObjectNames": "Quote names",
       "SystemTables": "Show system tables",
@@ -695,7 +695,7 @@
       "CacheSize": "Cache size",
       "JournalMode": "Transaction journal mode",
       "Synchronous": "Sync mode",
-      "TempStore": "Хранилище TEMP"
+      "TempStore": "TEMP storage"
     },
     "SQLiteUniDACDatabaseConfigurator": {
       "CreateDBIfNotExists": "Create DB if it doesn't exist",
@@ -761,10 +761,10 @@
       "KFoldsSamplingMethod": "Sampling method",
       "LearnPartitionMethod": "Partition method",
       "LearnValidationMethod": "Validation method",
-      "PartitionColumnName": "Поле с признаком тестового множества",
+      "PartitionColumnName": "Field with test set flag",
       "PRowsCount": "Count of rows to be excluded",
       "TrainDataSetSize": "Training set size",
-      "ValidationColumnName": "Колонка валидационного разбиения",
+      "ValidationColumnName": "Validation partition column",
       "ValidationDataSetSize": "Validation set size"
     }
   },
@@ -855,7 +855,7 @@
     },
     "LoggerConfigurator": {
       "LoggerType": "Logging type",
-      "NeedDN": "Разрешать доменные имена"
+      "NeedDN": "Allow domain names"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Number of backup files",
@@ -952,13 +952,13 @@
   },
   "Studio/DeductorServerSettings": {
     "DeductorServerSettings": {
-      "FailedLoginCountLimit": "Лимит попыток ввода пароля",
-      "FailedLoginTimeout": "Тайм-аут ввода пароля",
-      "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
-      "IdleLockTimeout": "Тайм-аут блокировки сессии",
+      "FailedLoginCountLimit": "Password entry attempts limit",
+      "FailedLoginTimeout": "Password entry timeout",
+      "IdleDisconnectTimeout": "Session closure timeout",
+      "IdleLockTimeout": "Session lock timeout",
       "PackagePoolSize": "Package pool size",
-      "RAMLimitKB": "Максимум используемой памяти (КБ)",
-      "RAMLimitRatio": "Доля используемой памяти",
+      "RAMLimitKB": "Used memory maximum (KB)",
+      "RAMLimitRatio": "Used memory maximum",
       "SessionBackupDirectory": "Directory containing session backups",
       "StopTimeout": "Server stop timeout",
       "ThreadPoolSize": "Thread pool size",

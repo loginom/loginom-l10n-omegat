@@ -489,7 +489,7 @@
       "NullCount": "Null count",
       "First": "First",
       "Last": "Last",
-      "Only": "Единственный"
+      "Only": "Only"
     }
   },
   "components/joindata": {
@@ -616,7 +616,7 @@
       "Mean": "Replace with average",
       "Median": "Replace with median",
       "MostFreq": "Replace with most frequent",
-      "SetValue": "Заменять заданным значением",
+      "SetValue": "Replace with set value",
       "RandomValue": "Replace with random values",
       "LinearInterp": "Linear interpolation",
       "CubicInterp": "Cubic interpolation",
@@ -859,10 +859,10 @@
   },
   "imports/native": {
     "DDFChecksum": {
-      "$Caption": "Контрольная сумма",
-      "No": "Нет",
-      "CompressedOnly": "Сжатых данных",
-      "CompressedAndContent": "Сжатых и несжатых данных"
+      "$Caption": "Check Sum",
+      "No": "No",
+      "CompressedOnly": "Compressed data",
+      "CompressedAndContent": "Compressed and uncompressed data"
     },
     "DDFCompression": {
       "$Caption": "Compression Algorithm",
@@ -979,10 +979,10 @@
       "SyncExtra": "Extra"
     },
     "SQLiteTempStore": {
-      "$Caption": "Хранилище TEMP",
+      "$Caption": "TEMP Storage",
       "TempDefault": "Default",
-      "TempFile": "Файловая система",
-      "TempMemory": "Оперативная память"
+      "TempFile": "File system",
+      "TempMemory": "Short term memory"
     }
   },
   "Libraries/bgrtl/EnumDescs": {
@@ -1267,7 +1267,7 @@
       "$Caption": "Method of Training\/Test Component Partitioning with Training",
       "Random": "Random",
       "Sequence": "Sequence",
-      "ByColumn": "По столбцу"
+      "ByColumn": "By column"
     },
     "LearnPartitionType": {
       "$Caption": "Type of the Training Component Data Set",

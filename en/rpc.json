@@ -45,7 +45,7 @@
     "ErrUnknownMethodID": "Unknown method identifier {0}"
   },
   "Net/Session": {
-    "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: {0} секунд",
+    "ConnectionTimedOut": "Session was closed by idle timeout: {0} s",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while SessionHost closing",
     "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Another RPC exception handler already registered",
     "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
@@ -57,9 +57,9 @@
     "ErrMainServerObjectNotRegistered": "The main server object is not registered",
     "ErrMaxObjectIdReached": "Object identifiers limit of {0} values reached",
     "ErrRpcVersionMismatch": "Client of {0} version cannot get connected to the server of {1} version",
-    "ErrSessionIsLocked": "Операция не может быть выполнена, так как сессия заблокирована",
+    "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: {0}",
-    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: {0} секунд"
+    "IdleLockTimeOut": "Session was locked by idle timeout: {0} seconds"
   },
   "Net/SessionThreaded": {
     "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
