@@ -6123,7 +6123,7 @@
       "fieldLabel": "Root element"
     },
     "chkUseDocumentationAsDisplayName": {
-      "boxLabel": "Формировать метки узлов по xsd:documentation"
+      "boxLabel": "Generate node captions by xsd:documentation"
     },
     "edtFilePath": {
       "fieldLabel": "XSD file"
