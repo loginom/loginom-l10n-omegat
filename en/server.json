@@ -1525,7 +1525,7 @@
   },
   "components/python/PythonComponentSettings": {
     "PythonExe": "Interpreter path",
-    "PythonExePassEnv": "Передавать переменные окружения узла",
+    "PythonExePassEnv": "Pass variable node environment",
     "PythonLib": "Library path"
   },
   "components/python/PythonEngine": {
@@ -1564,7 +1564,7 @@
     "PythonDumpInputTableDataN": "Write input #%d table data",
     "PythonDumpInputTablesData": "Write input tables data",
     "PythonExeFailed": "Python interpreter execution finished with %d error code",
-    "PythonExeTerminatedBySignal": "Выполнение интерпретатора Python было прервано сигналом %d",
+    "PythonExeTerminatedBySignal": "Python interpreter execution was interrupted by %d signal",
     "PythonLoadOutputTable": "Read output table",
     "PythonScriptExecution": "Workflow execution",
     "ShmBaseDir": "\/dev\/shm\/loginom",
@@ -1890,13 +1890,13 @@
     "ErrOpenURL": "Failed to go to the following address: %s",
     "LocalStorageLoadFailed": "Local Storage load failed",
     "LocalStorageSaveFailed": "Local Storage save failed",
-    "OpenDialogTitle": "Открытие",
-    "SaveDialogTitle": "Сохранение"
+    "OpenDialogTitle": "Open",
+    "SaveDialogTitle": "Save"
   },
   "Embedded/GtkFileDialogs": {
     "FileMustExist": "File must exist",
-    "FileNotExist": "The file \"%s\" does not exist.",
-    "FileReadOnly": "The file \"%s\" is not writable.",
+    "FileNotExist": "File \"%s\" does not exist.",
+    "FileReadOnly": "File \"%s\" is not writable.",
     "FileReadOnlyTitle": "File is not writable"
   },
   "Embedded/RelativeFileDialogs": {
@@ -1905,8 +1905,8 @@
   },
   "exports/database/DBExport": {
     "AddToTableNotify": "Addition of records to table",
-    "ConnectProcess": "Подключение к БД",
-    "CreateTableProcess": "Создание таблицы",
+    "ConnectProcess": "Connection to DB",
+    "CreateTableProcess": "Create table",
     "DeleteFromTableNotify": "Deletion of records from table",
     "ErrCodeDisplayName": "Error Code",
     "ErrColumnNotFound": "\"%s\" column not found in the data source",
@@ -1924,14 +1924,14 @@
     "ErrSyncKeyTypesMismatch": "Synchronization error: \"%s\" key field type is not compatible with \"%s\" source field type",
     "ErrTableNameNotSelected": "No table name specified",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
-    "GetTablesProcess": "Получение списка таблиц",
+    "GetTablesProcess": "Table list query",
     "GroupDataNotify": "Data grouping",
-    "ResultStatusVariables": "Статус выполнения",
+    "ResultStatusVariables": "Execution status",
     "UpdateRecordsNotify": "Update existing table records",
-    "WarnDBConnectionIsBusy": "Подключение к БД занято"
+    "WarnDBConnectionIsBusy": "Connection to DB is busy"
   },
   "exports/database/DBExportVendor": {
-    "ResultStatus": "Статус выполнения",
+    "ResultStatus": "Execution status",
     "VendorCaption": "Database",
     "VendorDesc": "Export to database through configured connection"
   },
@@ -2051,7 +2051,7 @@
     "VendorDesc": "1C:Enterprise 8 - Query"
   },
   "imports/database/DBImport": {
-    "ConnectProcess": "Подключение к БД",
+    "ConnectProcess": "Connection to DB",
     "ErrCodeDisplayName": "Error Code",
     "ErrExecQuery": "Error executing DB query.",
     "ErrMsgDisplayName": "Error message",
@@ -2060,16 +2060,16 @@
     "ErrTableNotSpecified": "Database table not specified",
     "ExecQueryProcess": "Query executing",
     "ExecTimeoutExpired": "Execution time expired",
-    "GetTablesProcess": "Получение списка таблиц",
+    "GetTablesProcess": "Table list query",
     "ImportDataProcess": "Data importing",
     "OpenTableProcess": "Table opening",
     "PrepareFieldList": "Field list query",
     "PreviewProcess": "Data preview",
-    "ResultStatusVariables": "Статус выполнения",
-    "WarnDBConnectionIsBusy": "Подключение к БД занято"
+    "ResultStatusVariables": "Execution status",
+    "WarnDBConnectionIsBusy": "Connection to DB is busy"
   },
   "imports/database/DBImportVendor": {
-    "ResultStatus": "Статус выполнения",
+    "ResultStatus": "Execution status",
     "VendorCaption": "Database",
     "VendorDesc": "Import from database by configured connection"
   },
@@ -2153,7 +2153,7 @@
     "DifferentMetaData": "Metadata does not comply with the previously declared metadata",
     "NegativeRowsCount": "Invalid rows count %d is specified in the file header",
     "OutOfMaximumRows": "File contains too many rows",
-    "TypeChangeNotSupported": "Смена типа столбца \"%s\" в Импорте LGD не поддерживается"
+    "TypeChangeNotSupported": "Change of \"%s\" column type is not supported in LGD Import"
   },
   "imports/native/DDFTupleRowConverter": {
     "BadNativeStringData": "Invalid string data",
@@ -2174,7 +2174,7 @@
     "ErrSignature": "Signature mismatch",
     "ErrSystemUnsupported": "Bitness not supported",
     "ErrVersion": "Invalid version",
-    "UnknownCompression": "Неизвестное сжатие",
+    "UnknownCompression": "Unknown compression",
     "WarnCompatibilityMode": "File was opened in compatibility mode"
   },
   "imports/native/ImportNativeVendor": {
@@ -2182,8 +2182,8 @@
     "VendorDesc": "Import data from Loginom Data file"
   },
   "imports/native/LZ4": {
-    "BlockError": "Ошибка LZ4-блока",
-    "ChecksumError": "Ошибка контрольной суммы"
+    "BlockError": "LZ4-block error",
+    "ChecksumError": "Check sum error"
   },
   "imports/textfile/ImportTextFile": {
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
@@ -2264,18 +2264,18 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDBUtils": {
     "ErrClickHouse": "ClickHouse error: %s",
-    "ErrDate32OutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s; %s)",
+    "ErrDate32OutOfRange": "%s date is out of allowable range [%s; %s)",
     "ErrDateOutOfRange": "%s date is out of allowable range [%s; %s]"
   },
   "Libraries/bgdbrtl/DB": {
-    "ConnectionTimeout": "Тайм-аут подключения",
+    "ConnectionTimeout": "Connection timeout",
     "ErrCommandTypeNotYetSupported": "%s type of SQL command not supported yet",
     "ErrConnectionString": "Empty connection string",
     "ErrDatabasePathNotExists": "\"%s\" file not found",
     "ErrDBPath": "Failed to get path to DB",
     "ErrExecuteProcedure": "Error executing stored procedure \"%s\"",
     "ErrExecuteQuery": "Error while SQL executing:\n%s",
-    "ErrGetFieldDefs": "Ошибка получения полей таблицы \"%s\"",
+    "ErrGetFieldDefs": "Error when receiving table fields \"%s\"",
     "ErrIncorrectConnectionString": "Invalid format of connection string",
     "ErrIncorrectDatabase": "Invalid database name",
     "ErrIncorrectPort": "Invalid port",
@@ -2290,7 +2290,7 @@
     "ErrTableNameNotSelect": "No table name specified",
     "ErrTestConnection": "Connection test error:\n%s",
     "ErrUnPrepareQuery": "Error clearing prepared query",
-    "LockTimeout": "Тайм-аут блокировки",
+    "LockTimeout": "Lock timeout",
     "WarnQueryExecuting": "Query already executing"
   },
   "Libraries/bgdbrtl/DBSSL": {
@@ -2366,10 +2366,10 @@
     "ServerListInaccessible": "List of DBMS servers unavailable"
   },
   "Libraries/bgrtl/ArchiveManager": {
-    "ErrCannotGetFilePath": "Не удалось получить путь до файла \"%s\"",
-    "ErrExtractCannotCreateFolder": "Ну удалось создать папку \"%s\" в процессе распаковки архива",
-    "ErrExtractFileNameTaken": "Не удалось распаковать файл \"%s\", папка с таким именем уже существует",
-    "ErrExtractFolderNameTaken": "Не удалось создать папку \"%s\", файл с таким именем уже существует"
+    "ErrCannotGetFilePath": "Failed to get path to \"%s\" file",
+    "ErrExtractCannotCreateFolder": "Failed to create \"%s\" folder while archive extraction",
+    "ErrExtractFileNameTaken": "Failed to extract \"%s\" file, a folder with the same name already exists",
+    "ErrExtractFolderNameTaken": "Failed to create \"%s\" folder, a file with the same name already exists\n"
   },
   "Libraries/bgrtl/BetaTestingService": {
     "BetaTestingNameStarting": "LOGINOM_BETA_"
@@ -3338,7 +3338,7 @@
     "ErrSettingsAlreadyInitialized": "Settings already initialized"
   },
   "Libraries/Model/Connections/Connections": {
-    "WarnTestingInProcess": "Тестирование уже выполняется"
+    "WarnTestingInProcess": "Testing already executing"
   },
   "Libraries/Model/Connections/ConnectionVendor": {
     "ConnectionVendorMetaDesc": "connection vendor"
@@ -3803,10 +3803,10 @@
   "Libraries/Normalization/DataSourceMultiOutputNormModelComponentEngine": {
     "InputDataSource": "Input data source",
     "OutputDataSource": "Output data set",
-    "PartitionColumnNotBoolean": "Колонка \"%s\" для разбиения по столбцу должна быть логического типа данных",
-    "PartitionColumnNotFound": "Отсутствует колонка %s для разбиения по столбцу",
-    "PartitionColumnNotSet": "Не задана колонка для разбиения по столбцу",
-    "PartitionColumnUsageTypeRedefined": "У колонки \"%s\" для разбиения по столбцу изменено назначение"
+    "PartitionColumnNotBoolean": "\"%s\" column for partition by column must be related to the logical data type",
+    "PartitionColumnNotFound": "No %s column for partition by column",
+    "PartitionColumnNotSet": "No column for partition by column set",
+    "PartitionColumnUsageTypeRedefined": "Usage type was changed for \"%s\" column for partition by column"
   },
   "Libraries/Normalization/FixedNormalData": {
     "ErrArrayExpceted": "Failed to denormalize a single element. Array from %d elements must be at the input.",
