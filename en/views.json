@@ -3238,8 +3238,8 @@
       "tooltip": "Download"
     },
     "btnExtract": {
-      "text": "Распаковать",
-      "tooltip": "Распаковать"
+      "text": "Extract",
+      "tooltip": "Extract"
     },
     "btnPaste": {
       "text": "Paste",
@@ -3294,16 +3294,16 @@
       "tooltip": "Download"
     },
     "mniDownloadAsArchive": {
-      "text": "Скачать ZIP",
-      "tooltip": "Скачать как ZIP-архив"
+      "text": "Download ZIP",
+      "tooltip": "Download as ZIP-archive"
     },
     "mniExtractHere": {
-      "text": "Распаковать здесь",
-      "tooltip": "Распаковать здесь"
+      "text": "Extract here",
+      "tooltip": "Extract here"
     },
     "mniExtractInFolder": {
-      "text": "Распаковать в папке",
-      "tooltip": "Распаковать в папке"
+      "text": "Extract in folder",
+      "tooltip": "Extract in folder"
     }
   },
   "filtersview/FilterItem": {
@@ -3761,7 +3761,7 @@
       "fieldLabel": "Bitness"
     },
     "edtWrittenChecksum": {
-      "fieldLabel": "Контрольная сумма"
+      "fieldLabel": "Check sum"
     },
     "frmImportFromFile": {
       "title": "Import from Loginom Data File"
@@ -4062,7 +4062,7 @@
       "tooltip": "Search"
     },
     "btnHeaderWordWrap": {
-      "tooltip": "Многострочные заголовки"
+      "tooltip": "Multiline headers"
     },
     "btnLastPage": {
       "tooltip": "Last page"
