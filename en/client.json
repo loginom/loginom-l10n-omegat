@@ -183,8 +183,8 @@
     "ErrUrlPathNotFound": "\"{0}\" path not found",
     "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
-    "MsgDisconnectedByDispatcher": "Администратор закрыл сессию через диспетчер",
-    "MsgDisconnectedByIdleTimeout": "Произошло закрытие сессии по тайм-ауту неактивности",
+    "MsgDisconnectedByDispatcher": "Admin closed session via Session Manager",
+    "MsgDisconnectedByIdleTimeout": "Session was closed by idle timeout",
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
@@ -201,8 +201,8 @@
     "ErrNoPackageToSave": "There is no package to save.",
     "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
     "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name",
-    "NoRightsToCreatePackages": "У пользователя \"{0}\" нет прав для создания пакетов",
-    "NoRightsToOpenPackages": "У пользователя \"{0}\" нет прав для открытия пакетов"
+    "NoRightsToCreatePackages": "\"{0}\" user has no rights to create packages",
+    "NoRightsToOpenPackages": "\"{0}\" user has no rights to open packages"
   },
   "app/MapTree": {
     "About": "About",
@@ -319,7 +319,7 @@
     "RemoveSelectedConfirm": "Do you really want to delete the selected objects?",
     "RenameNode": "Rename...",
     "ResetConfiguration": "Restore original node configuration",
-    "SelectNode": "Сперва выделите узел на сценарии",
+    "SelectNode": "First select node in workflow",
     "SelectOneNode": "Select only one node",
     "SelectSomething": "First select object in workflow",
     "SetNodeDerivedVendor": "Set derived node component...",
@@ -580,7 +580,7 @@
     "SearchDef": "Filter"
   },
   "components/calcdata/CalcPreviewForm": {
-    "Label": "Метка",
+    "Label": "Caption",
     "Name": "Name",
     "Value": "Value",
     "Variable": "Variable"
@@ -667,8 +667,8 @@
   },
   "components/datarecovery/DataRecoveryWizard": {
     "NotUsedAction": "Not selected",
-    "SetNullValueLabel": "Значение для замены пропусков",
-    "SetNullValueWindowTitle": "Редактирование значения замены для пропусков",
+    "SetNullValueLabel": "Nulls replace value",
+    "SetNullValueWindowTitle": "Edit nulls replace value",
     "SetValueMethod": "Replace with"
   },
   "components/datatotree/DataToTreeWizard": {
@@ -1343,14 +1343,14 @@
     "CantSaveDownLoadedFile": "Failed to save the downloaded file"
   },
   "filestorage/FileSenderManager": {
-    "FileAlreadyDownloading": "Файл \"{0}\" скачивается. Дождитесь окончания или отмените процесс скачивания.",
-    "FileAlreadyExistsMessage": "Файл с таким же именем уже существует в этом расположении:\n\"{0}\".\n\nСуществующий файл\n{1}\n\nКопируемый файл\n{2}",
+    "FileAlreadyDownloading": "\"{0}\" file is being downloaded. Wait until the end or cancel the process of downloading.",
+    "FileAlreadyExistsMessage": "A file with the same name already exists at this destination:\n\"{0}\".\n\nExisting file\n{1}\n\nCopied file\n{2}",
     "FileAlreadyOpenForWriting": "\"{0}\" file to be loaded is simultaneously opened by someone to be written. The downloaded file may not contain the latest changes.",
-    "FileAlreadyUploading": "Файл \"{0}\" загружается. Дождитесь окончания или отмените процесс загрузки.",
-    "FileConflictTitle": "Конфликт файлов с одинаковыми именами",
-    "FileModifiedDate": "Дата изменения: {0}",
-    "FileSize": "Размер: {0}",
-    "NotSupportedDescriptor": "Переданный объект \"{0}\" не является ни файлом, ни директорией."
+    "FileAlreadyUploading": "\"{0}\" file is being uploaded. Wait until the end or cancel the process of uploading.",
+    "FileConflictTitle": "Conflict of Files with the Same Names",
+    "FileModifiedDate": "Change date: {0}",
+    "FileSize": "Size: {0}",
+    "NotSupportedDescriptor": "The passed \"{0}\" object is neither file, nor directory."
   },
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
