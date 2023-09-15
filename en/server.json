@@ -2369,7 +2369,7 @@
     "ErrCannotGetFilePath": "Failed to get path to \"%s\" file",
     "ErrExtractCannotCreateFolder": "Failed to create \"%s\" folder while archive extraction",
     "ErrExtractFileNameTaken": "Failed to extract \"%s\" file, a folder with the same name already exists",
-    "ErrExtractFolderNameTaken": "Failed to create \"%s\" folder, a file with the same name already exists\n"
+    "ErrExtractFolderNameTaken": "Failed to create \"%s\" folder, a file with the same name already exists"
   },
   "Libraries/bgrtl/BetaTestingService": {
     "BetaTestingNameStarting": "LOGINOM_BETA_"
@@ -4061,7 +4061,7 @@
     "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d; %d]",
-    "IdleLockTimeOut": "Session was locked by idle timeout: {0} seconds"
+    "IdleLockTimeOut": "Session was locked by idle timeout: %d seconds"
   },
   "Libraries/rpc/WebSocketRemoteServer": {
     "ErrSSLChangeAfterStart": "SSL parameters cannot be changed after server start"
