@@ -3761,7 +3761,7 @@
       "fieldLabel": "Bitness"
     },
     "edtWrittenChecksum": {
-      "fieldLabel": "Check sum"
+      "fieldLabel": "Checksum"
     },
     "frmImportFromFile": {
       "title": "Import from Loginom Data File"

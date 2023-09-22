@@ -53,7 +53,7 @@
       "Params": "Algorithm parameters"
     },
     "AssnRulesParams": {
-      "ExcludeLargeSupportItems": "Exclude the items with the support exceeding the maximum one",
+      "ExcludeLargeSupportItems": "Exclude items with support greater than maximume",
       "ExcludeSingleItems": "Exclude single sets",
       "MaxSupport": "Maximum support, %",
       "MinConfidence": "Minimum rule confidence, %",
@@ -523,7 +523,7 @@
     "ExportNative": {
       "Compression": "Compression",
       "StringCacheMaxSize": "String cache size",
-      "WriteChecksum": "Check sum"
+      "WriteChecksum": "Checksum"
     }
   },
   "exports/tableau": {
@@ -598,7 +598,7 @@
   },
   "imports/native": {
     "ImportNative": {
-      "UseChecksum": "Verify check sum"
+      "UseChecksum": "Verify checksum"
     }
   },
   "imports/textfile": {
@@ -695,7 +695,7 @@
       "CacheSize": "Cache size",
       "JournalMode": "Transaction journal mode",
       "Synchronous": "Sync mode",
-      "TempStore": "TEMP storage"
+      "TempStore": "TEMP store"
     },
     "SQLiteUniDACDatabaseConfigurator": {
       "CreateDBIfNotExists": "Create DB if it doesn't exist",
@@ -855,7 +855,7 @@
     },
     "LoggerConfigurator": {
       "LoggerType": "Logging type",
-      "NeedDN": "Allow domain names"
+      "NeedDN": "Resolve domain names"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Number of backup files",
@@ -954,7 +954,7 @@
     "DeductorServerSettings": {
       "FailedLoginCountLimit": "Password entry attempts limit",
       "FailedLoginTimeout": "Password entry timeout",
-      "IdleDisconnectTimeout": "Session closure timeout",
+      "IdleDisconnectTimeout": "Session disconnection timeout",
       "IdleLockTimeout": "Session lock timeout",
       "PackagePoolSize": "Package pool size",
       "RAMLimitKB": "Used memory maximum (KB)",

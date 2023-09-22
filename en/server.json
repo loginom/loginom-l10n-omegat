@@ -1895,8 +1895,8 @@
   },
   "Embedded/GtkFileDialogs": {
     "FileMustExist": "File must exist",
-    "FileNotExist": "File \"%s\" does not exist.",
-    "FileReadOnly": "File \"%s\" is not writable.",
+    "FileNotExist": "The file \"%s\" does not exist.",
+    "FileReadOnly": "The file \"%s\" is not writable.",
     "FileReadOnlyTitle": "File is not writable"
   },
   "Embedded/RelativeFileDialogs": {
@@ -1924,7 +1924,7 @@
     "ErrSyncKeyTypesMismatch": "Synchronization error: \"%s\" key field type is not compatible with \"%s\" source field type",
     "ErrTableNameNotSelected": "No table name specified",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
-    "GetTablesProcess": "Table list query",
+    "GetTablesProcess": "Querying table list",
     "GroupDataNotify": "Data grouping",
     "ResultStatusVariables": "Execution status",
     "UpdateRecordsNotify": "Update existing table records",
@@ -2060,7 +2060,7 @@
     "ErrTableNotSpecified": "Database table not specified",
     "ExecQueryProcess": "Query executing",
     "ExecTimeoutExpired": "Execution time expired",
-    "GetTablesProcess": "Table list query",
+    "GetTablesProcess": "Querying table list",
     "ImportDataProcess": "Data importing",
     "OpenTableProcess": "Table opening",
     "PrepareFieldList": "Field list query",
@@ -2183,7 +2183,7 @@
   },
   "imports/native/LZ4": {
     "BlockError": "LZ4-block error",
-    "ChecksumError": "Check sum error"
+    "ChecksumError": "Checksum error"
   },
   "imports/textfile/ImportTextFile": {
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
@@ -4195,7 +4195,7 @@
   "Studio/DeductorServerSettings": {
     "FailedLoginCountLimit": "Password entry attempts limit",
     "FailedLoginTimeout": "Password entry timeout",
-    "IdleDisconnectTimeout": "Session closure timeout",
+    "IdleDisconnectTimeout": "Session disconnection timeout",
     "IdleLockTimeout": "Session lock timeout"
   },
   "Studio/DeductorSessionsManager": {

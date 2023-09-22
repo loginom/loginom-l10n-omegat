@@ -859,7 +859,7 @@
   },
   "imports/native": {
     "DDFChecksum": {
-      "$Caption": "Check Sum",
+      "$Caption": "Checksum",
       "No": "No",
       "CompressedOnly": "Compressed data",
       "CompressedAndContent": "Compressed and uncompressed data"
@@ -979,10 +979,10 @@
       "SyncExtra": "Extra"
     },
     "SQLiteTempStore": {
-      "$Caption": "TEMP Storage",
+      "$Caption": "TEMP Store",
       "TempDefault": "Default",
       "TempFile": "File system",
-      "TempMemory": "Short term memory"
+      "TempMemory": "Memory"
     }
   },
   "Libraries/bgrtl/EnumDescs": {
