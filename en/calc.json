@@ -21,6 +21,38 @@
       "Output": "Function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     }
   },
+  "DataFunctions": {
+    "CumulativeSum": {
+      "Arguments": "FieldName - the field which is required to receive the cumulative sum\nGroupFieldName - the field by which data is grouped. This parameter is not particularly required. If this parameter is specified, it is required to calculate the cumulative sums within groups.",
+      "Description": "CumulativeSum(\"FieldName\" [, \"GroupFieldName\"])",
+      "Output": "Function returns the cumulative sum according to the field.\nNote: FieldName and GroupFieldName are string values, namely, the explicitly given FieldName and GroupFieldName must be specified in quotation marks.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
+    },
+    "Data": {
+      "Arguments": "FieldName - name of the field data of which is to be received\nRowNumber - number of the row value of which is to be received. Row numbering starts from 0.",
+      "Description": "Data(\"FieldName\",RowNumber)",
+      "Output": "Function returns the FieldName field value taken from the RowNumber row.\nIn case of the recursive usage of this function it is required to set the \"Cache the calculated expression values\" flag in the \"Expression parameters\" window.\nNote: FieldName - the string value, namely, the explicitly given FieldName must be specified in quotation marks.\nFor example, Data(\"COL1\", 2)"
+    },
+    "DisplayName": {
+      "Arguments": "FieldName - name of field, variable or expression",
+      "Description": "DisplayName([\"FieldName\"])",
+      "Output": "Function returns the caption (display name) according to the field name, variable or expression.\nIf the function is called without arguments, it returns the caption of the current calculated expression.\nNote: FieldName - the string value, namely, the explicitly given FieldName must be specified in quotation marks.\nFor example: DisplayName(\"COL1\")"
+    },
+    "RowCount": {
+      "Arguments": "Arguments are absent.",
+      "Description": "RowCount()",
+      "Output": "Function returns the row count in the data source."
+    },
+    "RowNum": {
+      "Arguments": "Arguments are absent.",
+      "Description": "RowNum()",
+      "Output": "Function returns the current row number of the data source. Row numbering starts from 0."
+    },
+    "Stat": {
+      "Arguments": "FieldName - the field by which receipt of the indicator value is required\nType - the statistics indicator that is required to receive",
+      "Description": "Stat(\"FieldName\", \"Type\")",
+      "Output": "Function returns the value of one of the statistical indicators.\nThe type can adopt one of the following values:\n       Min - minimum value\n       Max - maximum value\n       Avg - average value\n       StdDev - standard deviation\n       Sum - sum of values\n       SumSq - sum of square values\n       Count - count of values\n       UniqueCount - count of unique values\n       NullCount - count of null values\n       Mode - most frequently occurring value\nNote: FieldName and Type - string values, namely, explicitly given FieldName and Type must be in quotation marks.\nFor example: Stat(\"COL1\", \"Min\")"
+    }
+  },
   "Functions": {
     "Abs": {
       "Arguments": "Argument - numeric expression.",
@@ -33,27 +65,39 @@
       "Output": "Returns the absolute error of two arguments."
     },
     "AddDay": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddDay(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of days. The number can also be negative. In this case, the function will return the date to the given number of days before the specified date."
     },
+    "AddHour": {
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type."
+    },
+    "AddMillisecond": {
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type."
+    },
+    "AddMinute": {
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type."
+    },
     "AddMonth": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddMonth(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month."
     },
     "AddQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddQuarter(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting quarter, the function will set the date to the last day of the resulting quarter."
     },
+    "AddSecond": {
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type."
+    },
     "AddWeek": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddWeek(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date."
     },
     "AddYear": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddYear(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date."
     },
@@ -112,30 +156,20 @@
       "Description": "CreateGUID([Format = \"B\", UpperCase = True])",
       "Output": "Function returns GUID string representation in the specified format:\n  \"N\" - 32 digits;\n  \"D\" - 32 hyphenated digits;\n  \"B\" - 32 hyphenated digits and digits in curved brackets;\n  \"P\" - 32 hyphenated digits and digits in round brackets.\nIf the format is not specified, use of \"B\" format is required. By default, hexadecimal digits are written in uppercase.\nAs GUID will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is \"Cache\" expression parameter."
     },
-    "CumulativeSum": {
-      "Arguments": "FieldName - the field which is required to receive the cumulative sum\nGroupFieldName - the field by which data is grouped. This parameter is not particularly required. If this parameter is specified, it is required to calculate the cumulative sums within groups.",
-      "Description": "CumulativeSum(\"FieldName\" [, \"GroupFieldName\"])",
-      "Output": "Function returns the cumulative sum according to the field.\nNote: FieldName and GroupFieldName are string values, namely, the explicitly given FieldName and GroupFieldName must be specified in quotation marks.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
-    },
     "DamLevDist": {
       "Arguments": "String1,\nString2 - expressions of the string type.",
       "Description": "DamLevDist(String1, String2)",
       "Output": "Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another."
     },
-    "Data": {
-      "Arguments": "FieldName - name of the field data of which is to be received\nRowNumber - number of the row value of which is to be received. Row numbering starts from 0.",
-      "Description": "Data(\"FieldName\",RowNumber)",
-      "Output": "Function returns the FieldName field value taken from the RowNumber row.\nIn case of the recursive usage of this function it is required to set the \"Cache the calculated expression values\" flag in the \"Expression parameters\" window.\nNote: FieldName - the string value, namely, the explicitly given FieldName must be specified in quotation marks.\nFor example, Data(\"COL1\", 2)"
-    },
     "DateTimeToStr": {
-      "Arguments": "Date_time - expression of the date\/time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
+      "Arguments": "Date_time - expression of the date/time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
       "Description": "DateTimeToStr(Date_time [, Date_format [, Time_format]])",
-      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
+      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM/DD/YYYY\" - converts the date into the \"month.day.year\" format (\"12/25/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
     },
     "DateToStr": {
-      "Arguments": "Date - expression of the date\/time type.\nFormat - optional parameter date format in terms of D, M, Y.",
+      "Arguments": "Date - expression of the date/time type.\nFormat - optional parameter date format in terms of D, M, Y.",
       "Description": "DateToStr(Date [, Format])",
-      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")"
+      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM/DD/YYYY\" - converts the date into the \"month.day.year\" format (\"12/25/2004\")"
     },
     "Day": {
       "Arguments": "Date - the date type field.",
@@ -148,8 +182,8 @@
       "Output": "Returns the week day according to the specified date."
     },
     "DaysBetween": {
-      "Arguments": "Date1, Date2 - the date type field.",
-      "Description": "DaysBetween(Date1, Date2)",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\n\nСтарый перевод:\nDate1, Date2 - the date type field.",
+      "Description.NOTE": "Старый исходник:\nDaysBetween(Дата1, Дата2)\n\nСтарый перевод:\nDaysBetween(Date1, Date2)",
       "Output": "Returns the total number of days between two dates."
     },
     "Decode": {
@@ -160,12 +194,12 @@
     "DecodeF": {
       "Arguments": "Expression - any numeric expression value of which is used for comparison.\nError - the numeric expression, comparison error.\nValueN - the numeric expression value of which is compared with the Expression argument.\nResultN - the value that is returned if |ValueN - ExpressionN| <= Error.\nDefault_value - the numeric expression the result of which is returned if none of the ValuesN is equal to the Expression (by default 0).",
       "Description": "DecodeF(Expression, Error, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
     },
     "DecodeN": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date\/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date\/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
+      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
       "Description": "DecodeN(Expression, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
     },
     "DecodeS": {
       "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
@@ -177,10 +211,8 @@
       "Description": "DecodeV(Expression, Value, Result [, Value, Result]... [, Default_value = Null])",
       "Output": " Implements IF - THEN - ELSE feature.\n All Result expressions are calculated before the Expression and Values comparison."
     },
-    "DisplayName": {
-      "Arguments": "FieldName - name of field, variable or expression",
-      "Description": "DisplayName([\"FieldName\"])",
-      "Output": "Function returns the caption (display name) according to the field name, variable or expression.\nIf the function is called without arguments, it returns the caption of the current calculated expression.\nNote: FieldName - the string value, namely, the explicitly given FieldName must be specified in quotation marks.\nFor example: DisplayName(\"COL1\")"
+    "Div": {
+      "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression."
     },
     "EncodeDate": {
       "Arguments": "Year - year in the form of a number,\nMonth - month in the form of a number,\nDay - day in the form of a number.",
@@ -197,6 +229,18 @@
       "Description": "EncodeTime(Hours, Minutes, Seconds)",
       "Output": "Function returns the time formed from the specified arguments."
     },
+    "EndOfTheMonth": {
+      "Arguments": "Date - argument of the Date/Time type."
+    },
+    "EndOfTheQuarter": {
+      "Arguments": "Date - argument of the Date/Time type."
+    },
+    "EndOfTheWeek": {
+      "Arguments": "Date - argument of the Date/Time type."
+    },
+    "EndOfTheYear": {
+      "Arguments": "Date - argument of the Date/Time type."
+    },
     "Exp": {
       "Arguments": "Degree - numeric expression.",
       "Description": "Exp(Degree)",
@@ -205,7 +249,7 @@
     "ExpMovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "ExpMovingAverage(X{t}, X{t-1} ...)",
-      "Output": "It is used for construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 \/ (n + 1), where n - window width."
+      "Output": "It is used for construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 / (n + 1), where n - window width."
     },
     "Factorial": {
       "Arguments": "Argument - integer positive numeric expression.",
@@ -228,9 +272,9 @@
       "Output": "Returns the fractional part of the Argument."
     },
     "Hour": {
-      "Arguments": "DateTime - the date\/time type field.",
+      "Arguments": "DateTime - the date/time type field.",
       "Description": "Hour(DateTime)",
-      "Output": "Returns the hour according to the specified date\/time."
+      "Output": "Returns the hour according to the specified date/time."
     },
     "IF": {
       "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - expressions of any types",
@@ -238,7 +282,7 @@
       "Output": "Returns Value1 if the Antecedent is true or Value2 if it is false. The function result has the variant type"
     },
     "IFF": {
-      "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - numeric expressions or expressions of the Date\/time type",
+      "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - numeric expressions or expressions of the Date/time type",
       "Description": "IFF(Antecedent, Value1, Value2)",
       "Output": "Returns Value1 if the Antecedent is true or Value2 if it is false."
     },
@@ -263,9 +307,9 @@
       "Output": "Checks whether the Argument is null. Returns the logical value."
     },
     "ISO8601ToDate": {
-      "Arguments": "Argument - the string expression containing date\/time in ISO 8601 format",
+      "Arguments": "Argument - the string expression containing date/time in ISO 8601 format",
       "Description": "ISO8601ToDate(Argument)",
-      "Output": "Function converts the string containing date\/time in ISO 8601 format into the \"Date\/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date\/time is set to the current time zone.\nIf the time offset is not specified, the date\/time remains unchanged."
+      "Output": "Function converts the string containing date/time in ISO 8601 format into the \"Date/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date/time is set to the current time zone.\nIf the time offset is not specified, the date/time remains unchanged."
     },
     "Left": {
       "Arguments": "String - expression of the string type.",
@@ -303,9 +347,9 @@
       "Output": "Returns the minimum argument."
     },
     "Minute": {
-      "Arguments": "DateTime - the date\/time type field.",
+      "Arguments": "DateTime - the date/time type field.",
       "Description": "Minute(DateTime)",
-      "Output": "Returns minutes according to the specified date\/time."
+      "Output": "Returns minutes according to the specified date/time."
     },
     "Mod": {
       "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression.",
@@ -318,14 +362,14 @@
       "Output": "Returns the month according to the specified date."
     },
     "MonthsBetween": {
-      "Arguments": "Date1, Date2 - the date type field.",
-      "Description": "MonthsBetween(Date1, Date2)",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\n\nСтарый перевод:\nDate1, Date2 - the date type field.",
+      "Description.NOTE": "Старый исходник:\nMonthsBetween(Дата1, Дата2)\n\nСтарый перевод:\nMonthsBetween(Date1, Date2)",
       "Output": "Returns the total number of months between two dates."
     },
     "MovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "MovingAverage(X{t}, X{t-1} ...)",
-      "Output": "It is used for construction of the user model of the simple moving average in the user models.\n\nFormula of the moving average calculation:\nMA = (X(t) + ... + X(t - n))\/n. "
+      "Output": "It is used for construction of the user model of the simple moving average in the user models.\n\nFormula of the moving average calculation:\nMA = (X(t) + ... + X(t - n))/n. "
     },
     "Now": {
       "Arguments": "Arguments are absent.",
@@ -382,20 +426,16 @@
       "Description": "Round(Argument1 [, Argument2 = 0])",
       "Output": "Rounds up the real number to the nearest number that has the specified number of digits following the decimal point."
     },
-    "RowCount": {
-      "Arguments": "Arguments are absent.",
-      "Description": "RowCount()",
-      "Output": "Function returns the row count in the data source."
+    "RoundDown": {
+      "Arguments": "Argument1 - numeric expression,\nArgument2 - optional parameter, the number of digits following the decimal point, integer."
     },
-    "RowNum": {
-      "Arguments": "Arguments are absent.",
-      "Description": "RowNum()",
-      "Output": "Function returns the current row number of the data source. Row numbering starts from 0."
+    "RoundUp": {
+      "Arguments": "Argument1 - numeric expression,\nArgument2 - optional parameter, the number of digits following the decimal point, integer."
     },
     "Second": {
-      "Arguments": "DateTime - the date\/time type field.",
+      "Arguments": "DateTime - the date/time type field.",
       "Description": "Second(DateTime)",
-      "Output": "Returns seconds according to the specified date\/time."
+      "Output": "Returns seconds according to the specified date/time."
     },
     "Sign": {
       "Arguments": "Argument - numeric expression;",
@@ -417,15 +457,19 @@
       "Description": "Sqrt(Argument)",
       "Output": "Returns the argument square root."
     },
+    "StartOfTheMonth": {
+      "Arguments": "Date - argument of the Date/Time type."
+    },
+    "StartOfTheQuarter": {
+      "Arguments": "Date - argument of the Date/Time type."
+    },
     "StartOfTheWeek": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "StartOfTheWeek(Date)",
       "Output": "Function returns the date of the specified week start according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday."
     },
-    "Stat": {
-      "Arguments": "FieldName - the field by which receipt of the indicator value is required\nType - the statistics indicator that is required to receive",
-      "Description": "Stat(\"FieldName\", \"Type\")",
-      "Output": "Function returns the value of one of the statistical indicators.\nThe type can adopt one of the following values:\n       Min - minimum value\n       Max - maximum value\n       Avg - average value\n       StdDev - standard deviation\n       Sum - sum of values\n       SumSq - sum of square values\n       Count - count of values\n       UniqueCount - count of unique values\n       NullCount - count of null values\n       Mode - most frequently occurring value\nNote: FieldName and Type - string values, namely, explicitly given FieldName and Type must be in quotation marks.\nFor example: Stat(\"COL1\", \"Min\")"
+    "StartOfTheYear": {
+      "Arguments": "Date - argument of the Date/Time type."
     },
     "StdDev": {
       "Arguments": "Arguments - any numeric expressions.",
@@ -438,9 +482,9 @@
       "Output": "Returns the Argument as a string taking into account locale."
     },
     "StrToDate": {
-      "Arguments": "Argument - the string expression containing date\/time\nFormat - optional parameter date\/time format in terms of D, M, Y, H, N, S, Z",
+      "Arguments": "Argument - the string expression containing date/time\nFormat - optional parameter date/time format in terms of D, M, Y, H, N, S, Z",
       "Description": "StrToDate(Argument [, Format])",
-      "Output": "Function converts the string containing the date into the \"Date\/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD\/MM\/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25\/12\/04 12:44:54\";"
+      "Output": "Function converts the string containing the date into the \"Date/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD/MM/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25/12/04 12:44:54\";"
     },
     "StrZero": {
       "Arguments": "Expression - numeric expression.\nTotal_length - length of the resulting string",
@@ -513,8 +557,8 @@
       "Output": "Returns the year according to the specified date."
     },
     "YearsBetween": {
-      "Arguments": "Date1, Date2 - the date type field.",
-      "Description": "YearsBetween(Date1, Date2)",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\n\nСтарый перевод:\nDate1, Date2 - the date type field.",
+      "Description.NOTE": "Старый исходник:\nYearsBetween(Дата1, Дата2)\n\nСтарый перевод:\nYearsBetween(Date1, Date2)",
       "Output": "Returns the total number of years between two dates."
     }
   },
@@ -585,6 +629,20 @@
       "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
       "Description": "PKhi2(Degrees_of_freedom, Argument)",
       "Output": "Returns one-sided probability of Chi-square distribution."
+    }
+  },
+  "TreeFunctions": {
+    "ItemCount": {
+      "Arguments": "Arguments are absent."
+    },
+    "ItemIndex": {
+      "Arguments": "Arguments are absent."
+    },
+    "Location": {
+      "Arguments": "Arguments are absent."
+    },
+    "Parent": {
+      "Arguments": "Arguments are absent."
     }
   }
 }

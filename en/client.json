@@ -1,10 +1,10 @@
 {
   "about/About": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response for the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/LDAPSettings": {
@@ -19,6 +19,9 @@
     "LDAPPassword": "Password",
     "LDAPPort": "Port",
     "UseSASL": "Use SASL"
+  },
+  "admin/OpenIDSettings": {
+    "DefaultUserRole.NOTE": "Имеющиеся переводы:\nNew user role\nNew User Role"
   },
   "admin/ServerSettingsForm": {
     "AppSettings": "Application parameters",
@@ -66,7 +69,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL\/TLS port"
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -102,7 +105,7 @@
     "AllowPublish": "Publish packages",
     "AuthMode": "Authentification",
     "Blocked": "Blocked",
-    "DeleteUserConfirm": "Do you want to delete user folder from the file system?",
+    "DeleteUserConfirm.NOTE": "Старый исходник:\nУдалить папку пользователя из файловой системы?\n\nСтарый перевод:\nDo you want to delete user folder from the file system?",
     "DisplayName": "Full caption",
     "GlobalFileStorage": "Access to all files",
     "Name": "Login",
@@ -118,17 +121,17 @@
   "app/AddPackageLinkForm": {
     "ErrAddPackageLinkErrors": "Errors occurred while adding reference to package.",
     "ErrPathNotSpecified": "Path to the package file is not specified.",
-    "PackageNotSaved": "Package not saved",
+    "PackageNotSaved.NOTE": "Старый исходник:\nПакет не сохранен\n\nСтарый перевод:\nPackage not saved",
     "ReadOnlyPackageNamePostfix": " (read-only)"
   },
   "app/Application": {
-    "MsgAppClose": "The application is closing. The current session and all unsaved changes will be lost."
+    "MsgAppClose.NOTE": "Старый исходник:\nПриложение закрывается. Текущий сеанс работы и все несохраненные данные будут потеряны.\n\nСтарый перевод:\nThe application is closing. The current session and all unsaved changes will be lost."
   },
   "app/AppMenuForm": {
     "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
     "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "QAHref": "https://qa.loginom.com/questions/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -149,8 +152,6 @@
     "SaveBtnText": "Save"
   },
   "app/FindNodeForm": {
-    "ErrorInvalidGUIDFormat": "GUID value not in {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} format",
-    "ErrorInvalidNameFormat": "Name value is invalid identifier",
     "NodeNotFinded": "No node found by the given search criteria"
   },
   "app/LicenseItem": {
@@ -177,9 +178,10 @@
     "CollapseMainToolbar": "Collapse",
     "ConfirmCannotCloseModel": "Failed to close \"{0}\" module in \"{1}\" package.\nSome of the nodes are currently locked.\nDo you want to cancel the active processes and close the package without saving?",
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
+    "ErrAccessDenied": "Access denied",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: \"{1}\".",
     "ErrPackageDontExists": "\"{0}\" package not found",
-    "ErrPackageNotSaved": "Current package not saved",
+    "ErrPackageNotSaved.NOTE": "Старый исходник:\nТекущий пакет не сохранен\n\nСтарый перевод:\nCurrent package not saved",
     "ErrUrlPathNotFound": "\"{0}\" path not found",
     "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
@@ -264,7 +266,7 @@
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
     "ComposeAnnotations": "Collapse annotations into supernode",
-    "ComposeExpandNode": "Collapse items into supernode \/ Expand supernode",
+    "ComposeExpandNode": "Collapse items into supernode / Expand supernode",
     "ComposeItems": "Collapse items into supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation into supernode",
@@ -419,7 +421,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "DisNamespace": "http://schemas.loginom.com/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -447,12 +449,36 @@
     "Update": "Refresh",
     "VersionMask": "Version"
   },
+  "app/scheduler/JobEditor": {
+    "AddVariableWindowApplyText": "Add",
+    "DeleteAllVariablesPrompt": "Do you really want to delete all variables?",
+    "EditVariableWindowApplyText": "Change",
+    "EditVariableWindowTitle": "Edit Variable",
+    "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
+    "PeriodTypeDay": "days",
+    "PeriodTypeMonth": "months",
+    "PeriodTypeWeek": "weeks"
+  },
+  "app/scheduler/JobVariableEditor": {
+    "GetValueList": "Get list"
+  },
+  "app/scheduler/SchedulerForm": {
+    "AddJobWindowApplyText": "Add",
+    "EditJobWindowApplyText": "Save",
+    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
+    "ErrPathNotFound": "The specified path was not found \"{0}\".",
+    "StopAllSessionsYesText": "Stop",
+    "WhateverEditJobWindowApplyText": "Save Whatever"
+  },
+  "app/scheduler/SchedulerUtils": {
+    "MaximizeTooltip.NOTE": "Имеющиеся переводы:\nExpand\nMaximize"
+  },
+  "app/scheduler/TreeNodeSelector": {
+    "ErrNoRefModelNodeTreeNode": "No reference to IBGModelNodeTreeNode"
+  },
   "app/SelectBaseVendorForm": {
     "CantChangeVendor": "Failed to set component",
     "ThereIsNodeVendors": "The list of components is empty. Create derived component from the compatible node."
-  },
-  "app/ServerConnection": {
-    "ErrSyncSocketPluginNotInstalledOrDisabled": "SyncSocket plugin is not installed or disabled."
   },
   "app/ShareForm": {
     "CopiedHint": "Copied"
@@ -474,6 +500,7 @@
   },
   "app/VendorsListForm": {
     "BaseNodeHeader": "Base Node",
+    "BaseNodeIsMissing.NOTE": "Имеющиеся переводы:\nNone\nMissing",
     "BaseNodeTooltip": "Reference to base node",
     "Delete": "Delete",
     "DeleteTooltip": "Delete...",
@@ -488,7 +515,7 @@
     "VisibilityHeader": "Visibility"
   },
   "app/Version": {
-    "CompanyWebsite": "https:\/\/loginom.com",
+    "CompanyWebsite": "https://loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom"
   },
@@ -498,7 +525,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "QAHref": "https://qa.loginom.com/questions/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -552,8 +579,8 @@
     "LabelTamplateA3Dat": "%FD[5] %OP%MIN..%MAX%CP",
     "LabelTamplateA3Num": "%FD[5] %OP%MIN[4]..%MAX[4]%CP",
     "LabelTamplateAve": "%AVE",
-    "LabelTamplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #. ####]",
-    "LabelTamplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #. ####]",
+    "LabelTamplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #.####]",
+    "LabelTamplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #.####]",
     "LabelTamplateExampleDat": "%FN (%FD[5]) %OP%MIN[d-mmm-yy h:mm]..%MAX[d-mmm-yy h:mm]%CP",
     "LabelTamplateMax": "%MAX",
     "LabelTamplateMin": "%MIN",
@@ -588,6 +615,14 @@
   "components/calcdata/CodeMirrorController": {
     "ExprPlaceholder": "Enter expression code"
   },
+  "components/calcdata/ExprEditForm": {
+    "AddBtnText": "Add",
+    "ModifyBtnText": "Apply"
+  },
+  "components/calctree/CalcTreeWizard": {
+    "ErrNodeNameAlreadyExists": "Node with \"{0}\" name already exists",
+    "ExprGoToNode": "Go to Node"
+  },
   "components/coarseclasses/CalculateInformationValues": {
     "ChartTitle": "Dependence IV on Number of Classes",
     "XAxisTitle": "Class Count",
@@ -595,7 +630,6 @@
   },
   "components/coarseclasses/ClassesChartWrapper": {
     "ActualTitleSuffix": " (actual)",
-    "FineClassTooltip": "Value",
     "FineClassXaxisTitle": "Fine Class"
   },
   "components/coarseclasses/CoarseClassesEditor": {
@@ -603,7 +637,7 @@
     "CalculateInformationValuesApplyText": "Calculate",
     "CalculateInformationValuesTitle": "Calculate",
     "ChangeColumnPurposeToInput": "'{0}' field is locked due to usage of the external or locked binning. Do you want to unlock and continue?",
-    "CurrentBinningNotSaved": "Current binning contains unsaved changes",
+    "CurrentBinningNotSaved.NOTE": "Старый исходник:\nТекущее разбиение содержит несохраненные изменения\n\nСтарый перевод:\nCurrent binning contains unsaved changes",
     "LockAll": "Lock all",
     "LockSelected": "Lock selected",
     "SplitClass": "Bound split",
@@ -683,7 +717,7 @@
     "WarnCannotDeleteRootNode": "It is not possible to delete root node"
   },
   "components/datatovariables/DataToVariablesWizard": {
-    "DataToVariablesTitle": "Table into Variables",
+    "DataToVariablesTitle": "Table to Variables",
     "GroupDataFactor": "Variables"
   },
   "components/datatoxml/DataToXmlRequestWizard": {
@@ -717,7 +751,7 @@
     "ExecNodeWizardTitle": "Node Execution",
     "NotifyVendorNotSelected": "No target component selected.",
     "Vendors": "Components",
-    "WarnNodeLoadLimitExceeded": "\"{0}\" target component is not selected.\n {1} limit of loaded node levels ha s been exceeded."
+    "WarnNodeLoadLimitExceeded": "\"{0}\" target component is not selected.\n The limit {1} of loaded node levels has been exceeded."
   },
   "components/filterdata/FilterColumnItem": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
@@ -763,6 +797,10 @@
     "FilterPreview": "Filter"
   },
   "components/groupdata/GroupDataWizard": {
+    "Ascending": "Ascending",
+    "CommaSeparator": "Comma (,)",
+    "ConcatWrapper": "Text qualifier",
+    "Descending": "Descending",
     "FactorsEditTooltip": "Edit",
     "FactorTooltip": "Aggregation methods for {0}:",
     "FactorTooltipError": "No aggregation methods specified",
@@ -991,26 +1029,28 @@
   "connections/restservice/ConnectionWizard": {
     "DeleteAllParamsPrompt": "Do you really want to delete all parameters?",
     "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists",
-    "TestConnectionSuccess": "Successful connection test",
-    "TestConnectionTitle": "Test Connection"
+    "TestConnectionSuccess": "Connection successful",
+    "TestConnectionTitle": "Connection test"
   },
   "connections/webservice/AuthorizationForm": {
     "ErrUnsupportedAuthModeFmt": "Authentication mode \"{0}\" not supported",
     "ExpireCertDateError": "Expired certificate expiration date"
   },
   "connections/webservice/ConnectionWizard": {
-    "TestConnectionSuccess": "Successful connection test",
-    "TestConnectionTitle": "Test Connection"
+    "TestConnectionSuccess": "Connection successful",
+    "TestConnectionTitle": "Connection test"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
     "ErrFileNameAdd": "{0} file cannot be added to the list. Perhaps, it has already been added."
   },
   "exports/dbexport/DBCreateTableDialog": {
+    "CancelOperation": "Cancel",
+    "ContinueEdit": "Edit",
+    "CreateTableBtnText": "Create Table",
     "DublicateFieldName": "A field with the same name already exists",
-    "ErrCreateTable": "Error creating table",
+    "ErrCreateTable.NOTE": "Старый исходник:\nПри создании таблицы возникла ошибка\n\nСтарый перевод:\nError creating table",
     "ErrFieldSize": "Size of {0} field must be more than 0",
-    "ErrTableName": "Invalid table name",
-    "InvalidFieldNameChar": "Invalid character in field name"
+    "ErrTableName": "Invalid table name"
   },
   "exports/dbexport/DBExportMappingWizard": {
     "colDisplayNameTitle": "Database table fields",
@@ -1067,7 +1107,7 @@
     "Pallete": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open\/close was found"
+    "ToggleRowNotFoundRow": "No row to open/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Data set not active"
@@ -1079,7 +1119,9 @@
     "CantSaveDownLoadedFile": "Failed to save the downloaded file",
     "ExcelMenuText": "XLS (html)",
     "ExecutionStarted": "Export has already started",
-    "ExportPrefix": "Export to "
+    "ExportPrefix": "Export to ",
+    "HtmFileDesc": "Webpage",
+    "XlsFileDesc": "MS Excel file"
   },
   "ext/ExtJS": {
     "ErrEnumMenuItemNotFound": "Menu item not found",
@@ -1087,6 +1129,8 @@
     "LongProcessingMessage": "Please wait, data processing is in progress"
   },
   "ext/FieldUtils": {
+    "ErrorInvalidGUID": "GUID value not in {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} format",
+    "ErrorInvalidName": "Name value is invalid identifier",
     "ErrRadioGroupNotPrepared": "Radio group not prepared",
     "InvalidBooleanValue": "Invalid Boolean value",
     "InvalidDateTimeValue": "Invalid datetime value",
@@ -1123,7 +1167,6 @@
     "DeleteText": "Delete",
     "ErrStoreType": "Ext.data.Store or Ext.data.ChainedStore repository is required for activity controller",
     "GridViewDragDropNotFound": "Failed to prepare table for dragging rows, gridviewdragdrop plug-in not found",
-    "LinkIsMissing": "Missing",
     "MoveDownActionText": "Move down",
     "MoveUpActionText": "Move up"
   },
@@ -1325,13 +1368,12 @@
     "TitleSave": "Save File"
   },
   "filestorage/CopyPasteManager": {
-    "CantCopyInTheSameDirectory": "Failed to copy into the same directory",
     "CantPasteFile": "Failed to paste file",
     "CantPasteFolder": "Failed to paste folder",
     "Copied": "Copied",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied\/cut",
-    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied/cut",
+    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message: "
   },
@@ -1350,7 +1392,7 @@
     "FileConflictTitle": "Conflict of Files with the Same Names",
     "FileModifiedDate": "Change date: {0}",
     "FileSize": "Size: {0}",
-    "NotSupportedDescriptor": "The passed \"{0}\" object is neither file, nor directory."
+    "NotSupportedDescriptor": "The passed \"{0}\" entry is neither file, nor directory."
   },
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
@@ -1375,7 +1417,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied\/cut",
+    "HasNotStorageItems": "No files to be copied/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1428,29 +1470,12 @@
     "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
     "DeleteAllTitle": "Delete all Conditions"
   },
-  "highcharts/Extensions": {
-    "HighchartsAreNotLoaded": "To add extensions it is required to load Highchats first"
-  },
-  "highcharts/Localization": {
-    "Loading": "Loading..."
-  },
-  "highcharts/Themes": {
-    "Dark": "Dark",
-    "DarkBlue": "Navy",
-    "DarkGreen": "Dark green",
-    "Default": "Standard",
-    "Gray": "Grey",
-    "Grid": "Table",
-    "GridLight": "Light table",
-    "NoThemeFmt": "Theme with \"{0}\" name not found. Default theme will be used",
-    "SandSignica": "Sand"
-  },
   "homepage/Banner": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response with the information on the latest version",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0} is available"
   },
   "homepage/HomePage": {
@@ -1463,6 +1488,12 @@
     "RemoveFromHistoryTitle": "No file found",
     "RemoveNoRightsFmt": "User \"{0}\" has no rights to open the packages",
     "RemoveNoRightsTitle": "Failed to open package"
+  },
+  "imports/dbimport/DBImportFilterWizard": {
+    "Activation": "Input port activation",
+    "FilterApply": "Apply filter",
+    "FilterPreview": "Filter",
+    "NoConnection": "No connection"
   },
   "imports/dbimport/DBImportSql": {
     "Parameter": "Parameter",
@@ -1550,7 +1581,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
+    "Slash": "Slash (/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -1575,6 +1606,10 @@
   },
   "imports/xml/CommonImport": {
     "ExpandLimitWarning": "Not all nodes were opened because the number of opened nodes exceeded the allowable limit."
+  },
+  "imports/xml/DisplayNameSeparatorStore": {
+    "Hyphen": "Hyphen (-)",
+    "Period": "Dot (.)"
   },
   "imports/xml/ImportXmlFieldsWizard": {
     "EmptyNamespace": "Empty namespace"
@@ -1796,6 +1831,8 @@
     "GigaBytesSuffix": "GB",
     "KiloBytesSuffix": "KB",
     "MegaBytesSuffix": "MB",
+    "TimeSpanDay": "d ",
+    "TimeSpanHour": "h ",
     "TrueText": "true"
   },
   "lib/ViewController": {
@@ -1811,7 +1848,6 @@
     "VersionLabelFmt": "Version: {0}"
   },
   "mxgraph/annotation/Annotation": {
-    "ErrAnnotationNotSaved": "Failed to save annotation",
     "ErrAnnotationSizeNotSaved": "Failed to save annotation sizes",
     "ErrParseItemID": "Failed to get style number from itemID menu item",
     "ErrStyleNum": "Style number is out of range"
@@ -1823,8 +1859,11 @@
   "mxgraph/handler/PortConnectionAbstract": {
     "CycleLinksForbiden": "Cyclic references are not possible"
   },
+  "mxgraph/link/LinkLabel": {
+    "DefaultLabelValue.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+  },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show\/Hide Comment",
+    "CommentBtn": "Show/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -1857,7 +1896,6 @@
     "GenericEnterLabel": "Enter"
   },
   "mxgraph/node/label/Label": {
-    "ErrLabelNotSaved": "Failed to save caption",
     "NodeIsLocked": "Caption edit forbidden: node is locked",
     "NodeLabel": "Node caption",
     "WrongLabelValue": "Invalid caption value"
@@ -1874,9 +1912,9 @@
     "AddPortDisplayName": "Add another port."
   },
   "mxgraph/port/Port": {
-    "NoAutoMapping": "Automapping of fields disabled",
+    "NoAutoMapping.NOTE": "Старый исходник:\nАвтоматическая синхронизация полей отключена\n\nСтарый перевод:\nAutomapping of fields disabled",
     "OptionalPortParam": "Optional port",
-    "RequiredPortParam": "Required port (connection is required to run the node)"
+    "RequiredPortParam.NOTE": "Старый исходник:\nОбязательный порт (требуется связь для выполнения узла)\n\nСтарый перевод:\nRequired port (connection is required to run the node)"
   },
   "mxgraph/port/PortAbstract": {
     "CONNECTION": "Connection",
@@ -1893,6 +1931,9 @@
     "REFERENCE": "Reference",
     "TYPE_UNDEFINED": "Undefined port type",
     "VARIABLES": "Variables"
+  },
+  "mxgraph/vertex/LabelAbstract": {
+    "ErrLabelNotSaved": "Failed to save edited value"
   },
   "navigation/NavigationPanel": {
     "PathBeforeText": "Path:",
@@ -1934,11 +1975,7 @@
     "MsgProcessingAborted": "Processing aborted",
     "MsgStoplText": "Do you want to cancel all processes?",
     "ProcessActionDeleteTip": "Delete process",
-    "ProcessActionStopTip": "Cancel process",
-    "TimeSpanDay": "d ",
-    "TimeSpanFormat": "s\\s u\\m\\s",
-    "TimeSpanHour": "h ",
-    "TimeSpanMinutesFormat": "i\\m "
+    "ProcessActionStopTip": "Cancel process"
   },
   "propedit/CustomPropEdit": {
     "ErrDataType": "Property data type is incompatible with component",
@@ -2030,8 +2067,8 @@
     "ErrMaxPage": "There is no page with the index larger than the last index",
     "ErrMinPage": "There is no page with index smaller than the starting index",
     "ErrOverRowLimitFmt": "Failed to set row index more than {0}",
-    "ErrPageIndexOutOfRangeFmt": "Invalid {0} page index",
-    "ErrRowIndexOutOfRangeFmt": "Invalid {0} row index",
+    "ErrPageIndexOutOfRangeFmt": "Invalid page index {0}",
+    "ErrRowIndexOutOfRangeFmt": "Invalid row index {0}",
     "ExportFileTitle": "Table",
     "ExportFormFileTitle": "Form",
     "ExportFormToastTitle": "Export from Form",
@@ -2099,7 +2136,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " \/ ",
+    "CompareTo": " / ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -2163,19 +2200,21 @@
     "WarnDependencyPrefix": "On calculated measure delete, the following changes in the Cube state will occur:",
     "WarnDependencySuffix": "Do you want to continue action?"
   },
+  "viewers/cube/CubeChartController": {
+    "Charts": "Charts"
+  },
   "viewers/cube/CubeChartPanel": {
     "ChartCaseEmptyText": "No measures",
     "ChartCaseManyText": "Measures ({0})",
     "ChartYAxisTitle": "Measures",
-    "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}",
-    "EditSerieColor": "Change color...",
+    "DotsOutOfBoundsMsg.NOTE": "Старый исходник:\nПревышение ограничений диаграммы.\nТекущее кол-во точек: {0}.\nМаксимальное кол-во точек: {1}\n\nСтарый перевод:\nExceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}",
+    "EditColor": "Change color...",
     "EmptyChart": "No measures to display",
-    "HideAllSeries": "Hide all series",
-    "InvertSeries": "Invert series visibility",
-    "ResetSerieColor": "Reset color",
-    "SeriesOutOfBoundsMsg": "Chart limits exceeded.\nCurrent number of series: {0}.\nMaximum number of series: {1}",
-    "ShowAllSeries": "Show all series",
-    "TooltipMode": "Tooltip style"
+    "HideAllTraces": "Hide all series",
+    "InvertTraces": "Invert series visibility",
+    "ResetColor": "Reset color",
+    "ShowAllTraces": "Show all series",
+    "TooltipLoading": "Loading..."
   },
   "viewers/cube/CubeDragDropController": {
     "Ascending": "Ascending",
@@ -2291,7 +2330,7 @@
     "MaxRowFmt": "from {0}",
     "RowNumbererHeaderSymbol": "No"
   },
-  "viewers/fastpreview/DataTreeForm": {
+  "viewers/fastpreview/DataTreeStoreController": {
     "LoadedNodesLimitNote": "Only the first {0} are shown from the sorted nodes"
   },
   "viewers/fastpreview/FastPreviewForm": {
@@ -2476,8 +2515,8 @@
     "MoveButtonTooltip": "Move to {0}"
   },
   "wizards/connection/ConnectionConfigWizard": {
-    "TestConnectionSuccess": "Successful connection test",
-    "TestConnectionTitle": "Test Connection",
+    "TestConnectionSuccess": "Connection successful",
+    "TestConnectionTitle": "Connection test",
     "WizardTitle": "connection parameters"
   },
   "wizards/connection/ConnectionReferenceComponentWizard": {
@@ -2486,7 +2525,7 @@
   },
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
-    "BtnShowVendorsEdit": "Show\/Hide Connection Class Tree",
+    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipConnect": "Activate connection",
     "BtnTooltipDelete": "Delete connection...",
@@ -2510,8 +2549,8 @@
     "NoConnections": "Available extended connections",
     "PropertyInspectorLocale": "en",
     "TestConnectionsError": "Multiple connections test error",
-    "TestConnectionSuccess": "Successful connection test",
-    "VendorTreeCaption": "Connections",
+    "TestConnectionSuccess": "Connection successful",
+    "VendorTreeCaption": "Connectors",
     "VendorTreeConnections": "Data sources"
   },
   "wizards/connection/DBConnectionWizard": {
@@ -2587,7 +2626,7 @@
     "ActionDeleteAll": "Delete all...",
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
-    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",

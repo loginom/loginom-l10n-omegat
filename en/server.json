@@ -1,12 +1,11 @@
 {
   "Common/1Cv8/1Cv8Query": {
-    "ErrConnect": "1C connection error",
     "ErrEofArrived": "Data set end reached",
-    "ErrExecuteQuery": "Error executing 1C request",
-    "ErrPrepareFields": "Error preparing 1C request fields",
-    "ErrPrepareQuery": "Error preparing 1C request",
+    "ErrExecuteQuery": "Error executing 1C query",
+    "ErrPrepareFields": "Error preparing 1C query fields",
+    "ErrPrepareQuery": "Error preparing 1C query",
     "ErrQueryNotActive": "Query is not active",
-    "ErrUnloadResults": "Error of 1C request results loading"
+    "ErrUnloadResults": "Error loading 1C query results"
   },
   "Common/1Cv8/1Cv8SessionManager": {
     "ErrEmptyConnectionString": "Empty connection string"
@@ -114,7 +113,7 @@
   },
   "Common/HTTP/SynapseHTTPSend": {
     "ErrHTTPResult": "Error executing HTTP request. Status code %d: %s",
-    "ErrHTTPSocket": "Error executing HTTP request. TCP\/IP Socket error %d: %s",
+    "ErrHTTPSocket": "Error executing HTTP request. TCP/IP Socket error %d: %s",
     "ErrMaximumRedirectReached": "Maximum number of redirects exceeded: %s",
     "ErrStreamIsDirectReadOnly": "Random access to stream data is not possible",
     "ErrStreamSizeUnspecified": "Data stream size not defined"
@@ -181,7 +180,7 @@
     "ErrColumnIndexOutOfRange": "HTTP messages encoder is configured to export the column with index #%d, however the data source contains only %d values",
     "ErrDuplicateSearchPattern": "\"%s\" search string occurring more than once",
     "ErrEncoderNotInitialized": "HTTP messages encoder not initialized",
-    "ErrInfNaNNotAllowed": "Infinities and NaN are not valid floating point numbers to be passed in GET\/POST requests URL Encoded\/URL Replacement",
+    "ErrInfNaNNotAllowed": "Infinities and NaN are not valid floating point numbers to be passed in GET/POST requests URL Encoded/URL Replacement",
     "ErrNoInputMessage": "\"%s\" operation does not contain the incoming message description",
     "ErrNonHttpBinding": "\"%s\" is not HTTP binding",
     "ErrNonHttpMessage": "\"%s\" message of \"%s\" operation is not HTTP message",
@@ -220,7 +219,7 @@
     "ErrBindingOperationExtensionCollision": "Types of \"%s\" binding extensions and \"%s\" operations do not match",
     "ErrCantDefineTransmissionPrimitive": "Failed to define data exchange primitive for %s operation, %s port type",
     "ErrFaultMustHaveExactlyOnePart": "Error defining %s operation, %s port type: fault message must contain exactly one part",
-    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation\/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
+    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
     "ErrHttpPartReferencesComplexElement": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to %s{%s} XSD schema element related to the complex type",
     "ErrHttpPartReferencesComplexType": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to the complex type of %s{%s} XSD schema",
     "ErrInputMimeTypeContainsWildcard": "The incoming service message content must relate to the specific MIME type (actually - %s)",
@@ -231,10 +230,10 @@
     "ErrMessageDefNotFound": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding not found",
     "ErrMessageMustSpecifyExtension": "\"%s\" message extension (\"%s\" operation of \"%s\" binding) not specified or not supported",
     "ErrMessageSoapVersionConflict": "SOAP version of %s message conflicts with %s operation version",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s\/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
     "ErrMimeContentReferencesComplexElement": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to %s{%s} XSD schema element related to the complex type",
     "ErrMimeContentReferencesComplexType": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to the complex type of %s{%s} XSD schema",
-    "ErrNoDefinitionsElement": "<definitions\/> element of WSDL description is missing or does not belong to the WSDL namespace",
+    "ErrNoDefinitionsElement": "<definitions/> element of WSDL description is missing or does not belong to the WSDL namespace",
     "ErrNotArrayType": "\"%s\" is not an array type description",
     "ErrOpDefNotFoundInPortType": "\"%s\" operation referenced by \"%s\" binding not found in \"%s\" port type definition",
     "ErrOperationMustSpecifyExtension": "\"%s\" operation extension of \"%s\" port binding not specified or not supported",
@@ -246,8 +245,8 @@
     "ErrPortTypeNotFound": "\"%s\" port type for \"%s\" binding not found",
     "ErrSchemaDoesNotContainPartElement": "\"%s\" part references \"%s\"{\"%s\"} element not found in XSD schema",
     "ErrSchemaDoesNotContainPartType": "\"%s\" part references \"%s\"{\"%s\"} type not found in XSD schema",
-    "ErrSeveralElementsNotAllowed": "More than one <%s\/> element not allowed in WSDL description",
-    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation\/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
+    "ErrSeveralElementsNotAllowed": "More than one <%s/> element not allowed in WSDL description",
+    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
     "ErrSoapBodyInNonSoapMessage": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding is not SOAP message, but it contains SOAP body",
     "ErrSoapDocumentEncoded": "\"Document\" style SOAP messages with \"encoded\" usage type are not supported",
     "ErrSoapDocumentLiteralPartRefersToType": "Unsupported combination of parameters: \"%s\" part referenced as XSD schema type is assigned to document style SOAP message with literal usage type",
@@ -266,7 +265,7 @@
     "ErrBindingOperationExtensionCollision": "Types of \"%s\" binding extensions and \"%s\" operations do not match",
     "ErrCantDefineTransmissionPrimitive": "Failed to define data exchange primitive for %s operation, %s port type",
     "ErrFaultMustHaveExactlyOnePart": "Error defining %s operation, %s port type: fault message must contain exactly one part",
-    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation\/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
+    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
     "ErrHttpPartReferencesComplexElement": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to %s{%s} XSD schema element related to the complex type",
     "ErrHttpPartReferencesComplexType": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to the complex type of %s{%s} XSD schema",
     "ErrInputMimeTypeContainsWildcard": "The incoming service message content must relate to the specific MIME type (actually - %s)",
@@ -277,10 +276,10 @@
     "ErrMessageDefNotFound": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding not found",
     "ErrMessageMustSpecifyExtension": "\"%s\" message extension (\"%s\" operation of \"%s\" binding) not specified or not supported",
     "ErrMessageSoapVersionConflict": "SOAP version of %s message conflicts with %s operation version",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s\/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
     "ErrMimeContentReferencesComplexElement": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to %s{%s} XSD schema element related to the complex type",
     "ErrMimeContentReferencesComplexType": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to the complex type of %s{%s} XSD schema",
-    "ErrNoDefinitionsElement": "<definitions\/> element of WSDL description is missing or does not belong to the WSDL namespace",
+    "ErrNoDefinitionsElement": "<definitions/> element of WSDL description is missing or does not belong to the WSDL namespace",
     "ErrNotArrayType": "\"%s\" is not an array type description",
     "ErrOpDefNotFoundInPortType": "\"%s\" operation referenced by \"%s\" binding not found in \"%s\" port type definition",
     "ErrOperationMustSpecifyExtension": "\"%s\" operation extension of \"%s\" port binding not specified or not supported",
@@ -292,8 +291,8 @@
     "ErrPortTypeNotFound": "\"%s\" port type for \"%s\" binding not found",
     "ErrSchemaDoesNotContainPartElement": "\"%s\" part references \"%s\"{\"%s\"} element not found in XSD schema",
     "ErrSchemaDoesNotContainPartType": "\"%s\" part references \"%s\"{\"%s\"} type not found in XSD schema",
-    "ErrSeveralElementsNotAllowed": "More than one <%s\/> element not allowed in WSDL description",
-    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation\/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
+    "ErrSeveralElementsNotAllowed": "More than one <%s/> element not allowed in WSDL description",
+    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
     "ErrSoapBodyInNonSoapMessage": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding is not SOAP message, but it contains SOAP body",
     "ErrSoapDocumentEncoded": "\"Document\" style SOAP messages with \"encoded\" usage type are not supported",
     "ErrSoapDocumentLiteralPartRefersToType": "Unsupported combination of parameters: \"%s\" part referenced as XSD schema type is assigned to document style SOAP message with literal usage type",
@@ -321,7 +320,7 @@
     "NodePath": "Tree node path"
   },
   "Common/XML/Processor/XMLImportImpl": {
-    "ErrCDATAInNonStringType": "%s element from %s namespace cannot contain <CDATA\/> section because it is of '%s' type",
+    "ErrCDATAInNonStringType": "%s element from %s namespace cannot contain <CDATA/> section because it is of '%s' type",
     "ErrMaxOccExceeded": "Maximum number of \"%s\" element occurrences exceeded (%d allowed)",
     "ErrNoParentElement": "No parent element in \"%s\" element",
     "ErrSiblingAttributionFailed": "It is not possible to define \"%1:s{%2:s}\" sibling corresponding the schema for \"%0:s\" element",
@@ -353,9 +352,9 @@
     "ErrNoneValueAttempt": "Attempt to set or get a value for the node with dtNone data type",
     "ErrParentPathOnTreeRoot": "Attempt to get the parent node path for the tree root node",
     "ErrRootElementPathOnTreeRoot": "Attempt to get the schema root element path for the tree root node",
-    "ErrSetAsStringDatetimeAttempt": "Attempt to set the SetAsString based value for the \"Date\/time\" data type node",
+    "ErrSetAsStringDatetimeAttempt": "Attempt to set the SetAsString based value for the \"Date/time\" data type node",
     "ErrSetAsStringVariantAttempt": "Attempt to set the SetAsString based value for the \"Variable\" data type node",
-    "ErrSetDateTimeAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Date\/time\" data type",
+    "ErrSetDateTimeAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Date/time\" data type",
     "ErrSetVariantAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Variant\" data type",
     "ErrTreeSelectionUpdate": "EndUpdateSelection method called without BeginUpdateSelection method",
     "ErrValueConversionImpossible": "Failed to convert \"%s\" string to \"%s\" value",
@@ -541,7 +540,7 @@
     "ErrLowerLimit": "No lower bins bound specified",
     "ErrNoDefineExternalBins": "No external bins found",
     "ErrNoDefineExternalBound": "No bounds for external bins found",
-    "ErrSkoAvgFmt": "Failed to get SD\/mean for %s field",
+    "ErrSkoAvgFmt": "Failed to get SD/mean for %s field",
     "ErrStatFmt": "Failed to get minimum maximum for %s field",
     "ErrTooManyBinsFmt": "Too many bins defined for %s integer field",
     "ErrUpperLimit": "No upper bins bound specified",
@@ -587,6 +586,7 @@
     "InputVariables": "Input variables",
     "NameNotExists": "No field, variable or expression with \"%s\" name exists",
     "PreviewProcess": "Calculations preview",
+    "PreviewSourceColumnSuffix": "to",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/calcdata/CalcDataVendor": {
@@ -614,6 +614,21 @@
     "ErrQuote": "Unclosed string constant in %d line",
     "ErrUnknownFunction": "Unknown function: %s"
   },
+  "components/calctree/CalcTree": {
+    "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
+    "ErrCannotGetNodeExistFlag": "Failed to get the node exist flag with identifier %d: the node is not a simple container",
+    "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
+    "ErrCannotGetRowRange": "Failed to get the row range for the node with identifier %d: the node is not an array",
+    "ErrInvalidNodeInfoID": "Invalid node identifier: %d",
+    "InputVariables.NOTE": "Имеющиеся переводы:\nInput Variables\nInput variables",
+    "PreviewProcess": "Calculations preview",
+    "PreviewSourceNodeSuffix": "to",
+    "WarnPreviewRunning": "Preview already running"
+  },
+  "components/calctree/CalcTreeItemChakra": {
+    "ErrExprParse": "Error parsing \"%s\" expression",
+    "ErrExprUsesUndefinedVariable": "%1:s undefined variable used in \"%0:s\" expression"
+  },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Error calculating \"%s\" expression",
     "ErrExprIsStringType": "\"%s\" expression of string type",
@@ -621,6 +636,7 @@
     "ErrVarValueSet": "Error setting \"%s\" expression value",
     "NameNotExists": "No input variable or expression with \"%s\" name exists",
     "PreviewProcess": "Calculations preview",
+    "PreviewSourceVariableSuffix": "to",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/calcvariables/CalcVariablesVendor": {
@@ -859,7 +875,7 @@
     "FindMedianNotify": "Median calculating"
   },
   "components/datatovariables/DataToVariablesVendor": {
-    "VendorCaption": "Table into Variables",
+    "VendorCaption": "Table to Variables",
     "VendorDesc": "Aggregate data into variables"
   },
   "components/datatoxml/DataToXML": {
@@ -881,19 +897,19 @@
     "IDName": "ID",
     "WriteXMLFileProcessCaption": "XML document generation",
     "XMLName": "XML",
-    "XSDConnection": "Connect to XSD schema source"
+    "XSDConnection": "Connection to XSD schema source"
   },
   "components/datatoxml/DataToXMLVendor": {
     "VendorCaption": "XML Generation",
     "VendorDesc": "XML document generation according to given XSD schema"
   },
   "components/datereform/DateReform": {
-    "ErrFormatingString": "Error converting date\/time to string with %s format",
+    "ErrFormatingString": "Error converting date/time to string with %s format",
     "ISO8601": "ISO8601"
   },
   "components/datereform/DateReformVendor": {
     "VendorCaption": "Date and Time",
-    "VendorDescription": "Reform date\/time"
+    "VendorDescription": "Reform date/time"
   },
   "components/duplicates/DuplicatesEngine": {
     "Contradiction": "Contradiction",
@@ -998,7 +1014,7 @@
     "ErrorDescColumn": "Error Description",
     "ErrWindowsTimeZoneNotSupported": "\"%s\" time zone is not supported",
     "InputDataSource": "Input data source",
-    "XSDConnection": "Connect to XSD schema source"
+    "XSDConnection": "Connection to XSD schema source"
   },
   "components/extractxml/ExtractXMLVendor": {
     "VendorCaption": "XML Parsing",
@@ -1026,7 +1042,6 @@
     "DayFirstPostfix": "first",
     "DayLastPostfix": "last",
     "ErrColumnNotFound": "Field is specified incorrectly",
-    "ErrCompareValueIsNull": "The compared value not defined",
     "ErrDatePeriodUndefined": "Failed to define time span",
     "ErrDateSourceTypeDataNotSupported": "Use date from data set is not supported to define time span",
     "ErrEmptyCompareValueList": "No list of values specified",
@@ -1230,8 +1245,8 @@
     "RegressionCoefsNamePostfix": "|Coefficients",
     "RegressionColumn": "%s|Regression",
     "RegressionLBoundNamePostfix": "|CI lower bound",
-    "RegressionPValueNamePostfix": "|Significance",
-    "RegressionStdErrorNamePostfix": "|Std. dev.",
+    "RegressionPValueNamePostfix.NOTE": "Старый исходник:\n|Значимость\n\nСтарый перевод:\n|Significance",
+    "RegressionStdErrorNamePostfix.NOTE": "Старый исходник:\n|Стд. откл.\n\nСтарый перевод:\n|Std. dev.",
     "RegressionTStatNamePostfix": "|T-statistic",
     "RegressionUBoundNamePostfix": "|CI upper bound",
     "StdDev": "Standard deviation",
@@ -1319,7 +1334,7 @@
     "RegressionLBoundNamePostfix": "|CI lower bound of odds ratio",
     "RegressionOddsRatioPostfix": "|Odds ratio",
     "RegressionScoreNamePostfix": "|Score",
-    "RegressionStdErrorNamePostfix": "|Std. dev.",
+    "RegressionStdErrorNamePostfix.NOTE": "Старый исходник:\n|Стд. откл.\n\nСтарый перевод:\n|Std. dev.",
     "RegressionUBoundNamePostfix": "|CI upper bound of odds ratio",
     "RegressionWaldPValueNamePostfix": "|P-value",
     "RegressionWaldStatNamePostfix": "|Wald statistic",
@@ -1419,13 +1434,13 @@
     "DecayDegree": "Decay degree",
     "ErrCannotContinueTraining": "Failed to continue training since the structure of the trained neural network does not correspond to the new training parameters",
     "ErrClassifierUnknownClass": "Unknown class is present in the output classifier column",
-    "ErrDataSourceNumInputsMismatch": "Input data %d dimension mismatches the number of neural network inputs %d",
+    "ErrDataSourceNumInputsMismatch": "The input data dimensionality %d mismatches the neural network inputs number %d",
     "ErrInvalidNeuronKind": "Invalid neuron kind: %d",
     "ErrLayerNeuronCountMismatch": "The layer neuron count mismatches the required value %d",
     "ErrMissingOrInfiniteValue": "Only non-empty final values are allowed in the data",
     "ErrMustSetEqualLayerSizes": "Before requesting the coarse size of the neural network, the setting of the same number of neurons in the hidden layers is required",
     "ErrNetworkUntrained": "Failed to perform the requested operation using the untrained neural network",
-    "ErrNeuronWeightsCountMismatch": "The specified count of input neuron weights %d mismatches the required %d value",
+    "ErrNeuronWeightsCountMismatch": "The specified number of the input neuron weights %d mismatches the required number %d",
     "ErrNoInputColumns": "Neural network input data columns not set",
     "ErrNoOutputColumns": "Neural network output data columns not set",
     "ErrNotEnoughClasses": "Representatives of at least 2 classes (currently %d) must be present in the training set",
@@ -1525,20 +1540,20 @@
   },
   "components/python/PythonComponentSettings": {
     "PythonExe": "Interpreter path",
-    "PythonExePassEnv": "Pass variable node environment",
+    "PythonExePassEnv": "Pass node environment variables",
     "PythonLib": "Library path"
   },
   "components/python/PythonEngine": {
     "CodeIsHere": "Data processing code can be here",
     "ConfigureOutputTable": "Preparing output columns",
-    "CreateDateFrameFromInputTable": "Create pd.DataFrame by input data set No1",
+    "CreateDateFrameFromInputTable": "Create pd.DataFrame from input data set No1",
     "ErrCurrentDirectory": "Failed to get current directory",
     "ErrDisallowedExecution": "Python execution forbidden in security settings",
-    "ErrGetNativePath": "Failed to resolve the file system path by the \"%s\" path of the file storage",
+    "ErrGetNativePath": "Failed to resolve the file system path from the \"%s\" path in the file storage",
     "ErrPythonInProcessNotSupported": "Python execution inside the process is not supported, Python is started in the separate process.",
-    "InputPortOptional": "Optional input port",
-    "OutputDataFrameExample": "Received output pd.DataFrame",
-    "PrepareCompatibleComment": "If \"Allow creating output columns in script\" option is enabled, the output data set structure can be prepared by pd.DataFrame"
+    "InputPortOptional": "Input port is optional",
+    "OutputDataFrameExample": "Resulting output pd.DataFrame",
+    "PrepareCompatibleComment": "If \"Allow creating output columns in script\" option is enabled, the output data set structure can be prepared from pd.DataFrame"
   },
   "components/python/PythonEngineImpl": {
     "ErrPreviewPythonIsBusy": "Python is busy. Failed to start preview",
@@ -1546,7 +1561,7 @@
     "ErrWaitTimeoutElapsed": "Failed to capture Python during the set timeout as Python code is still executing in another node."
   },
   "components/python/PythonExecutor": {
-    "DocFileStoragePathFunc": "filestoragepath(path)\n--\n\nResolve the path in the file system by the path of the file storage\nArguments:\n  path: str\n    Path in the file storage.\nResult:\n  Path in the file system.",
+    "DocFileStoragePathFunc": "filestoragepath(path)\n--\n\nResolve the path in the file system from the path in the file storage\nArguments:\n  path: str\n    Path in the file storage.\nResult:\n  Path in the file system.",
     "ErrNumExprFinalize": "Failed to finalize numexpr module",
     "ErrResNotFound": "%s resource not found",
     "ErrTCLFinalize": "Error occurred during TCL finalization",
@@ -1555,19 +1570,19 @@
   },
   "components/python/PythonExeEngineImpl": {
     "ErrCannotCreateProcess": "Failed to start \"%s\"",
-    "ErrInt32Overflow": "%d value exceeds allowable values of 32 bit integer",
+    "ErrInt32Overflow": "Value %d is out of 32-bit integer range",
     "ErrPythonExeNotFound": "Python interpreter path specified in application settings does not exist",
     "ErrRowLimitExceeded": "Maximum table row limit exceeded",
     "PreviewProcess": "Data preview",
-    "PythonDumpData": "Write input data",
-    "PythonDumpInputTableData": "Write input table data",
-    "PythonDumpInputTableDataN": "Write input #%d table data",
-    "PythonDumpInputTablesData": "Write input tables data",
-    "PythonExeFailed": "Python interpreter execution finished with %d error code",
-    "PythonExeTerminatedBySignal": "Python interpreter execution was interrupted by %d signal",
-    "PythonLoadOutputTable": "Read output table",
-    "PythonScriptExecution": "Workflow execution",
-    "ShmBaseDir": "\/dev\/shm\/loginom",
+    "PythonDumpData": "Writing input data",
+    "PythonDumpInputTableData": "Writing input table data",
+    "PythonDumpInputTableDataN": "Writing input table #%d data",
+    "PythonDumpInputTablesData": "Writing input tables data",
+    "PythonExeFailed": "Python interpreter execution finished with error code %d",
+    "PythonExeTerminatedBySignal": "Python interpreter execution was interrupted by signal %d",
+    "PythonLoadOutputTable": "Reading output table",
+    "PythonScriptExecution": "Executing script",
+    "ShmBaseDir": "/dev/shm/loginom",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/python/PythonInterface": {
@@ -1577,24 +1592,24 @@
     "ErrPythonLibraryNotFound": "Python library not found"
   },
   "components/python/PythonModuleData": {
-    "ColumnGet": "Get($self, row, \/)\n--\n\nGet column cell value\nArguments:\n  row: int\n    Table row index.\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
-    "ColumnIsNull": "IsNull($self, row, \/)\n--\n\nCheck if there is a value in the column cell\nArguments:\n  row: int\n    Table row index.\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
-    "ColumnSet": "Set($self, value, \/)\n--\n\nSet value in the column cell of the appended row\nArguments:\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None.\nResult:\n  None",
+    "ColumnGet": "Get($self, row, /)\n--\n\nGet column cell value\nArguments:\n  row: int\n    Table row index.\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
+    "ColumnIsNull": "IsNull($self, row, /)\n--\n\nCheck if there is a value in the column cell\nArguments:\n  row: int\n    Table row index.\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
+    "ColumnSet": "Set($self, value, /)\n--\n\nSet value in the column cell of the appended row\nArguments:\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None.\nResult:\n  None",
     "ErrColumnInfoNoRequiredProperty": "Column definition does not contain required '%s' property",
     "ErrInvalidColumnDataKind": "Invalid data kind",
     "ErrInvalidColumnDataType": "Invalid data type",
     "ErrInvalidColumnUsageType": "Invalid usage type",
     "ErrNoCorrespondingObject": "Python object not associated with work object",
     "TableAddColumn": "AddColumn($self, ColumnInfo=None, Name=None, DisplayName=None, DataType=None, DataKind=None, DefaultUsageType=None)\n--\n\nAdd new column\nArguments:\n  ColumnInfo\n    Any object with the column metadata, for example, another column. Name is a required attribute; DisplayName, DataType, DataKind, DefaultUsageType are optional.\n  Name: str\n    Column name.\n  DisplayName: str\n    Column caption.\n  DataType: int\n    Column data type.\n  DataKind: int\n    Column data kind.\n  DefaultUsageType: int\n    Column default usage type.\nResult:\n  A new table column. Unspecified attributes of the new column are initialized with default values.",
-    "TableAppend": "Append($self, \/)\n--\n\nAppend new row\n\nResult:\n  None",
-    "TableAssignColumns": "AssignColumns($self, source, \/)\n--\n\nCreate columns by decriptions\nArguments:\n  source: Iterable\n    The object returning iterator over the column metadata objects, for example, InputTable.Columns. The column metadata object must contain the Name attribute and optionally DisplayName, DataType, DataKind, DefaultUsageType.",
-    "TableClearColumns": "ClearColumns($self, \/)\n--\n\nDelete all columns\nResult:\n  None",
-    "TableDeleteColumn": "DeleteColumn($self, col, \/)\n--\n\nDelete column by index or name\nArguments:\n  col: Union[int, str]\n    Index or name of deleted column.\nResult:\n  None",
-    "TableGet": "Get($self, row, col, \/)\n--\n\nGet table cell value\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
-    "TableGetColumn": "GetColumn($self, col, \/)\n--\n\nGet column by index or name\n\nArguments:\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Table column",
+    "TableAppend": "Append($self, /)\n--\n\nAppend new row\n\nResult:\n  None",
+    "TableAssignColumns": "AssignColumns($self, source, /)\n--\n\nCreate columns by decriptions\nArguments:\n  source: Iterable\n    The object returning iterator over the column metadata objects, for example, InputTable.Columns. The column metadata object must contain the Name attribute and optionally DisplayName, DataType, DataKind, DefaultUsageType.",
+    "TableClearColumns": "ClearColumns($self, /)\n--\n\nDelete all columns\nResult:\n  None",
+    "TableDeleteColumn": "DeleteColumn($self, col, /)\n--\n\nDelete column by index or name\nArguments:\n  col: Union[int, str]\n    Index or name of deleted column.\nResult:\n  None",
+    "TableGet": "Get($self, row, col, /)\n--\n\nGet table cell value\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
+    "TableGetColumn": "GetColumn($self, col, /)\n--\n\nGet column by index or name\n\nArguments:\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Table column",
     "TableInsertColumn": "InsertColumn($self, Index, ColumnInfo=None, Name=None, DisplayName=None, DataType=None, DataKind=None, DefaultUsageType=None)\n--\n\nInsert a new column according to the given index\nArguments:\n  Index: int\n    The index according to which the column is inserted.\n  ColumnInfo\n    Any object with the column metadata, for example, another column. Name is a required attribute; DisplayName, DataType, DataKind, DefaultUsageType are optional.\n  Name: str\n    Column name.\n  DisplayName: str\n    Column caption.\n  DataType: int\n    Column data type.\n  DataKind: int\n    Column data kind.\n  DefaultUsageType: int\n    Column default usage type.\nResult:\n  A new table column. Unspecified attributes of the new column are initialized with default values.",
-    "TableIsNull": "IsNull($self, row, col, \/)\n--\n\nCheck if there is a value in the table cell\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
-    "TableSet": "Set($self, col, value, \/)\n--\n\nSet value in the cell of the appended row\nArguments:\n  col: Union[int, str]\n    Index or name of table column\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None\nResult:\n  None"
+    "TableIsNull": "IsNull($self, row, col, /)\n--\n\nCheck if there is a value in the table cell\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
+    "TableSet": "Set($self, col, value, /)\n--\n\nSet value in the cell of the appended row\nArguments:\n  col: Union[int, str]\n    Index or name of table column\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None\nResult:\n  None"
   },
   "components/python/PythonUtils": {
     "ErrLoadedExtensionRegistrationFailed": "Error executing service code of Python extensions loading registration",
@@ -1667,8 +1682,8 @@
     "OutputDataSet": "Service Response",
     "RequestIDOutputColumn": "Request identifier",
     "ResponseColumn": "Server response",
-    "RESTClientConnection": "Connect to REST service",
-    "RESTClientErrorRowID": "Error executing request generated from %d row of the input data set:\n%s"
+    "RESTClientConnection": "Connection to REST service",
+    "RESTClientErrorRowID": "Error executing request generated from row %d of the input data set:\n%s"
   },
   "components/restclient/RESTClientSend": {
     "ErrCodePageNotSupported": "\"%s\" codepage not supported",
@@ -1684,7 +1699,7 @@
     "VendorDesc": "Selection of representative subset"
   },
   "components/slidingwindow/SlidingWindow": {
-    "ErrOutputColCountOverflow": "Too high values are specified for Depth period and\/or Forecast horizon"
+    "ErrOutputColCountOverflow": "Too high values are specified for Depth period and/or Forecast horizon"
   },
   "components/slidingwindow/SlidingWindowVendor": {
     "VendorCaption": "Lag",
@@ -1735,7 +1750,6 @@
     "VendorDesc": "Data sorting"
   },
   "components/treetodata/TreeToDataEngine": {
-    "CompositeDisplayNameSeparator": "|",
     "ComputeRowCountProcess": "Compute row count",
     "ErrInvalidGlobalIndexDataType": "Invalid data type of the global node index: %s",
     "ErrNoDataNodeSelected": "No data node selected",
@@ -1889,19 +1903,10 @@
   "Embedded/EmbeddedMain": {
     "ErrOpenURL": "Failed to go to the following address: %s",
     "LocalStorageLoadFailed": "Local Storage load failed",
-    "LocalStorageSaveFailed": "Local Storage save failed",
-    "OpenDialogTitle": "Open",
-    "SaveDialogTitle": "Save"
+    "LocalStorageSaveFailed": "Local Storage save failed"
   },
-  "Embedded/GtkFileDialogs": {
-    "FileMustExist": "File must exist",
-    "FileNotExist": "The file \"%s\" does not exist.",
-    "FileReadOnly": "The file \"%s\" is not writable.",
-    "FileReadOnlyTitle": "File is not writable"
-  },
-  "Embedded/RelativeFileDialogs": {
-    "AbsolutePath": "Absolute path",
-    "RelativePath": "Relative path"
+  "Embedded/EmbeddedTiny": {
+    "EnvVarKDEFileDialog": "NO_LOGINOM_KDE_FILE_DIALOG"
   },
   "exports/database/DBExport": {
     "AddToTableNotify": "Addition of records to table",
@@ -1913,6 +1918,7 @@
     "ErrColumnTypesMismatch": "\"%s\" column type is not compatible with \"%s\" source column type",
     "ErrDataSourceSelect": "No data source mapping provided",
     "ErrDuringExportError": "Error while exporting to DB",
+    "ErrExecQuery": "Error executing DB query.",
     "ErrFieldForDeleteNotSelected": "No fields by which data should be deleted specified",
     "ErrFieldForUpdateNotSelected": "No fields to update specified",
     "ErrFillTable": "Failed to fill \"%s\" table",
@@ -1924,6 +1930,7 @@
     "ErrSyncKeyTypesMismatch": "Synchronization error: \"%s\" key field type is not compatible with \"%s\" source field type",
     "ErrTableNameNotSelected": "No table name specified",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
+    "ExecQueryProcess": "Query executing",
     "GetTablesProcess": "Querying table list",
     "GroupDataNotify": "Data grouping",
     "ResultStatusVariables": "Execution status",
@@ -1936,7 +1943,7 @@
     "VendorDesc": "Export to database through configured connection"
   },
   "exports/excelfile/ExportExcelFile": {
-    "PropErrErrSheetName": "The excel sheet name cannot contain the following characters: ? * \/ [ ]",
+    "PropErrErrSheetName": "The excel sheet name cannot contain the following characters: ? * / [ ]",
     "PropErrLongSheetName": "Excel sheet name cannot be longer than 31 characters",
     "PropErrNoSheetName": "No sheet name specified",
     "SaveExcelBookProcess": "Saving to file",
@@ -1999,9 +2006,9 @@
     "ErrTableAlreadyExists": "\"%s\" table already exists",
     "ErrTableNameNotSelected": "No table name specified",
     "ErrTableNotFound": "No \"%s\" table found",
-    "FileConnection": "Connect to file storage",
+    "FileConnection": "Connection to file storage",
     "PublishToServerNotify": "Publish file on server",
-    "TableauRestConnection": "Connect to Tableau server"
+    "TableauRestConnection": "Connection to Tableau server"
   },
   "exports/tableau/ExportTableauVendor": {
     "VendorCaption": "Tableau file",
@@ -2030,9 +2037,9 @@
     "ErrUnmappedNodeNotOwnedByExportTree": "%s node for which link reset is requested is not included into the export tree",
     "ErrXMLExport": "Error exporting XML:\n  Error code: %d\n  %s",
     "ExportDataSetProcessCaption": "Data set exporting",
-    "FileConnection": "Connect to file storage",
+    "FileConnection": "Connection to file storage",
     "WriteXMLFileProcessCaption": "XML file writing",
-    "XSDConnection": "Connect to XSD schema source"
+    "XSDConnection": "Connection to XSD schema source"
   },
   "exports/xml/ExportXMLVendor": {
     "VendorCaption": "XML File",
@@ -2056,7 +2063,7 @@
     "ErrExecQuery": "Error executing DB query.",
     "ErrMsgDisplayName": "Error message",
     "ErrNotConnectedToDatabase": "No connection with database",
-    "ErrSQLNotSpecified": "SQL request text not specified",
+    "ErrSQLNotSpecified": "SQL query text not specified",
     "ErrTableNotSpecified": "Database table not specified",
     "ExecQueryProcess": "Query executing",
     "ExecTimeoutExpired": "Execution time expired",
@@ -2087,7 +2094,7 @@
     "ErrOpenExcelBook": "Failed to open %s Excel file",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
     "ErrPropInvalidNamedRange": "Invalid named range",
-    "ErrPropInvalidSheetName": "The excel sheet name cannot contain the following characters: ? * \/ [ ]",
+    "ErrPropInvalidSheetName": "The excel sheet name cannot contain the following characters: ? * / [ ]",
     "ErrPropNamedRange": "Named range name not specified",
     "ErrPropNamedRangeNotFound": "\"%s\" named range not found in \"%s\" file",
     "ErrPropSheetName": "Excel sheet name not specified",
@@ -2187,10 +2194,10 @@
   },
   "imports/textfile/ImportTextFile": {
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
-    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date\/time.",
+    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date/time.",
     "ErrFloatTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to real number.",
     "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
-    "ErrMaxBytesCountReaded": "While parsing the text file %d limit of reading of maximum number of bytes reached",
+    "ErrMaxBytesCountReaded": "While parsing the text file, the reading limit of %d bytes was reached",
     "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length %d character before closing text qualifier was found. The file line number with multiline start: %d. The last file line included into the multiline: %d.",
     "ErrMultilineEofAchieved": "The text file end was reached before closing text qualifier was found. The file line number with multiline start: %d.",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
@@ -2210,8 +2217,8 @@
     "ErrNoXSDInput": "There is no XSD schema at the component input",
     "ErrWindowsTimeZoneNotSupported": "\"%s\" time zone is not supported",
     "ErrXMLImport": "Error importing XML:\n  Error code: %d\n  %s",
-    "FileConnection": "Connect to file storage",
-    "XSDConnection": "Connect to XSD schema source"
+    "FileConnection": "Connection to file storage",
+    "XSDConnection": "Connection to XSD schema source"
   },
   "imports/xml/ImportXMLVendor": {
     "VendorCaption": "XML File",
@@ -2240,9 +2247,9 @@
     "ErrRowOutOfRange": "Row number %d is out of [%d; %d] range"
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseBlockWriter": {
-    "ErrColNotNullable": "\"%s\" column (%s type) cannot have Null values",
+    "ErrColNotNullable": "Column \"%s\" (type %s) cannot have Null values",
     "ErrColOutOfRange": "Column number %d is out of [%d; %d] range",
-    "ErrColValueLenOutOfRangeString": "%d string length exceeds the length allowed for \"%s\" column (%s type)",
+    "ErrColValueLenOutOfRangeString": "String length %d exceeds the length allowed for column \"%s\" (type %s)",
     "ErrColValueOutOfRange": "Value %g is out of allowed range for column \"%s\" (type %s)",
     "ErrColValueOutOfRangeInt": "Value %d is out of allowed range for column \"%s\" (type %s)",
     "ErrConvertFloatToDecimal": "Failed to convert the real value %g to the Decimal value (\"%s\" column)",
@@ -2341,12 +2348,13 @@
   },
   "Libraries/bgdbrtl/UniDAC/ODBCUniDACDB": {
     "DatabaseTypeName": "ODBC",
+    "ErrDriverDoesNotSupportQuotes": "Data source does not support quoted identifiers, \"%s\" driver",
     "ErrFileDSNForbidden": "Connections through file DSN are forbidden",
-    "ErrInvalidTableName": "Invalid table name"
+    "ErrInvalidTableNameRedundantDot": "Redundant number of \".\" delimiters in \"%s\" table name"
   },
   "Libraries/bgdbrtl/UniDAC/OracleUniDACDB": {
     "DatabaseTypeName": "Oracle",
-    "ErrInvalidTableName": "Invalid table name"
+    "ErrInvalidTableNameRedundantDot": "Redundant number of \".\" delimiters in \"%s\" table name"
   },
   "Libraries/bgdbrtl/UniDAC/PostgresUniDACDB": {
     "DatabaseTypeName": "PostgreSQL"
@@ -2383,11 +2391,11 @@
     "ErrRowCountLimitReached": "Maximum row count limit reached"
   },
   "Libraries/bgrtl/CachedDataTree": {
-    "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with %d identifier: the node is not an array",
-    "ErrCannotGetNodeExistFlag": "Failed to get the node exist flag with %d identifier: the node is not a simple container",
-    "ErrCannotGetNodeValue": "Failed to get the node value with %d identifier: the node is a container",
-    "ErrCannotGetRowCount": "Failed to get the row count for the node with %d identifier: the node is not an array",
-    "ErrCannotGetRowRange": "Failed to get the row range for the node with %d identifier: the node is not an array",
+    "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
+    "ErrCannotGetNodeExistFlag": "Failed to get the node exist flag with identifier %d: the node is not a simple container",
+    "ErrCannotGetNodeValue": "Failed to get the node value with identifier %d: the node is a container",
+    "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
+    "ErrCannotGetRowRange": "Failed to get the row range for the node with identifier %d: the node is not an array",
     "ErrColumnIndexOutOfRange": "Column number %d is out of [%d; %d] range",
     "ErrInvalidNodeInfo": "Invalid node description: %s",
     "ErrInvalidNodeInfoID": "Invalid node identifier: %d",
@@ -2423,7 +2431,7 @@
     "ObjMetaDesc": "object"
   },
   "Libraries/bgrtl/ClipboardAdapter": {
-    "ErrHTMLFormatNotImplemented": "Invalid clipboard format. Only text\/plain is supported",
+    "ErrHTMLFormatNotImplemented": "Invalid clipboard format. Only text/plain is supported",
     "ErrReadForbidden": "It is forbidden to read values",
     "ErrUnsupportedDelimiter": "Only CR+LF and LF line breaks are supported",
     "ErrWriteForbidden": "It is forbidden to write values"
@@ -2542,6 +2550,10 @@
     "ErrTargetColumnWithoutSource": "The required output column %s has not been mapped to the input column"
   },
   "Libraries/bgrtl/DerivedDataTree": {
+    "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
+    "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
+    "ErrCannotGetRowRange": "Failed to get the row range for the node with identifier %d: the node is not an array",
+    "ErrInvalidNodeInfoID": "Invalid node identifier: %d",
     "ErrNodeTypesMismatch": "%s node type is not compatible with %s source node type",
     "ErrNoMappingForRequiredNode": "The required input node %s has not been mapped to the output node",
     "ErrSourceNodeNotFound": "Failed to find source %s node for output %s node",
@@ -2601,11 +2613,11 @@
     "ErrUninstallFromParallelThreadNotSupported": "The execution context deletion from the parallel thread is not supported while the thread in which it has been created exists"
   },
   "Libraries/bgrtl/ExportHTMLTable": {
-    "ErrTableCellsOverflow": "Number of cells in the exported table exceeds the allowable maximum of %d cells",
-    "ErrTableColsOverflow": "Number of columns in the exported table exceeds the allowable maximum of %d columns",
-    "ErrTableRowsOverflow": "Number of rows in the exported table exceeds the allowable maximum of %d rows",
-    "ErrTableTooManyCols": "Number of columns in the exported %d table exceeds the allowable maximum of %d columns",
-    "ErrTableTooManyRows": "Number of rows in the exported %d table exceeds the allowable maximum of %d rows",
+    "ErrTableCellsOverflow": "Number of cells in the exported table exceeds the allowable maximum of %d",
+    "ErrTableColsOverflow": "Number of columns in the exported table exceeds the allowable maximum of %d",
+    "ErrTableRowsOverflow": "Number of rows in the exported table exceeds the allowable maximum of %d",
+    "ErrTableTooManyCols": "Number of columns %d in the exported table exceeds the allowable maximum of %d",
+    "ErrTableTooManyRows": "Number of rows %d in the exported table exceeds the allowable maximum of %d",
     "ExcelSheetDefaultName": "Sheet1"
   },
   "Libraries/bgrtl/ExportStream": {
@@ -2730,19 +2742,18 @@
     "ErrStreamIsReadOnly": "The data stream is open in the read-only mode",
     "ErrStreamReadBuffer": "When reading bytes from the data stream, %1:d was read instead of %0:d",
     "ErrStreamReadBufferInvalidParams": "Invalid parameter values when reading from the data stream: Length = %d; Count = %d; Offset = %d",
-    "ErrStreamReadBufferLength": "When reading from the data stream, the size of the resulting buffer %d is less than the number of bytes required for reading %d",
+    "ErrStreamReadBufferLength": "When reading from the data stream, the resulting buffer size of %d is less than the number of bytes %d required for reading",
     "ErrStreamSeekOutOf2GbRange": "When moving, the cursor of the data stream went beyond 2 GB, it is required to use the 64-bit version of the function",
     "ErrStreamWriteBuffer": "When writing bytes to the data stream, %1:d was written instead of %0:d",
     "ErrStreamWriteBufferInvalidParams": "Invalid parameter values when writing to the data stream: Length = %d; Count = %d; Offset = %d",
-    "ErrStreamWriteBufferLength": "When writing to the data stream, the size of the initial buffer %d is less than the number of bytes required for writing %d"
+    "ErrStreamWriteBufferLength": "When writing to the data stream, the initial buffer size of %d is less than the number of bytes %d required for writing"
   },
   "Libraries/bgrtl/LocaleUtils": {
-    "ErrLocaleNotSupported": "\"%s\" locale not supported"
+    "ErrLocaleNotSupported": "\"%s\" locale not supported",
+    "LocaleName": "Locale"
   },
   "Libraries/bgrtl/MathUtils": {
-    "ErrBadMatrix": "Two-dimensional dynamic array is not rectangular matrix",
-    "ErrDeterminantIsZero": "It is impossible to calculate the inverse matrix: determinant is zero.",
-    "ErrQuickSelectLeftRight": "The left bound %d has been set higher than the right one %d in QuickSelect function"
+    "ErrBadMatrix": "Two-dimensional dynamic array is not rectangular matrix"
   },
   "Libraries/bgrtl/MSequence": {
     "ErrMSequenceCountOutOfBounds": "The required M-sequence length must be more than 0",
@@ -2788,6 +2799,9 @@
   "Libraries/bgrtl/ServiceVariables": {
     "ErrServiceVariablesAlreadyInitialized": "Service variables have already been initialized"
   },
+  "Libraries/bgrtl/SortUtils": {
+    "ErrQuickSelectLeftRight": "The left bound %d has been set higher than the right one %d in QuickSelect function"
+  },
   "Libraries/bgrtl/SparseArray": {
     "ErrItemNotExist": "Item with index %d does not exist"
   },
@@ -2811,7 +2825,7 @@
     "ErrWrongSyncClass": "Invalid synchronization source class. Expected instance of %s class, actually %s"
   },
   "Libraries/bgrtl/StrDateUtils": {
-    "ErrInvalidDateTime": "\"%s\" string cannot be converted to the date\/time value"
+    "ErrInvalidDateTime": "\"%s\" string cannot be converted to the date/time value"
   },
   "Libraries/bgrtl/Streams": {
     "ErrCachedStreamSeek0AfterLargeRead": "It is not possible to move to the stream start as %d bytes already are read and it exceeds %d cache size"
@@ -2840,12 +2854,12 @@
     "ErrObjectDeleteRefCount": "Failed to delete the object of %s class due to interface references to it: %d"
   },
   "Libraries/bgrtl/System": {
-    "ErrConvertDateTimeToBool": "Failed to convert the Date\/time value %g to the boolean value",
-    "ErrConvertDateTimeToInt": "Failed to convert the Date\/time value %g to integer",
+    "ErrConvertDateTimeToBool": "Failed to convert the Date/time value %g to the boolean value",
+    "ErrConvertDateTimeToInt": "Failed to convert the Date/time value %g to integer",
     "ErrConvertFloatToBool": "Failed to convert the real value %g to the boolean value",
-    "ErrConvertFloatToDateTime": "Failed to convert the real value %g to the Date\/time value",
+    "ErrConvertFloatToDateTime": "Failed to convert the real value %g to the Date/time value",
     "ErrConvertFloatToInt": "Failed to convert the real value %g to integer",
-    "ErrConvertIntToDateTime": "Failed to convert the integer value %d to the Date\/time value",
+    "ErrConvertIntToDateTime": "Failed to convert the integer value %d to the Date/time value",
     "ErrConvertIntToFloat": "Failed to convert the integer value %d to the real number without accuracy loss",
     "ErrConvertIntToSet": "Failed to convert number %d of %d bits to the set of %d bits",
     "ErrConvertSetToInt": "Failed to convert the set of %d bits to the number of %d bits",
@@ -3146,11 +3160,11 @@
     "HintConvertAtomicConfigElement": "When reading the atomic element of %s configuration converting will be performed"
   },
   "Libraries/Config/ConfigXML": {
-    "ErrErrorReadingAttribute": "Failed to read the value of \"%s\"attribute",
+    "ErrErrorReadingAttribute": "Failed to read the value of attribute \"%s\"",
     "ErrInvalidBoolean": "\"%s\" string cannot be converted to the boolean value",
     "ErrInvalidChar": "\"%s\" string cannot be converted to the \"character\" value",
     "ErrInvalidFloat": "\"%s\" string cannot be converted to the real type value",
-    "ErrXmlParseError": "Xml parsing error: \"%s\" description, string %d, column %d"
+    "ErrXmlParseError": "XML parsing error: message \"%s\", row %d, column %d"
   },
   "Libraries/Config/DelphiConfigScheme": {
     "ErrBindedConfigSchemeTypeNotFound": "Binded configuration schema type for %s type not found",
@@ -3250,7 +3264,8 @@
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "File name cannot be empty",
-    "ErrFileNotFound": "\"%s\" file not found"
+    "ErrFileNotFound": "\"%s\" file not found",
+    "FileName": "File name"
   },
   "Libraries/KafkaConnection/KafkaAuth": {
     "ErrFileNoAccess": "\"%s\" file unavailable",
@@ -3265,13 +3280,25 @@
   },
   "Libraries/KafkaConnection/KafkaConnectionVendor": {
     "KafkaConnectionVendorCaption": "Kafka",
-    "KafkaConnectionVendorDesc": "Connection to Kafka"
+    "KafkaConnectionVendorDesc": "Kafka connector"
   },
   "Libraries/KafkaConnection/KafkaUtils": {
     "DebugCallBackMsgFmt": "%s|%s| %s",
     "ErrUnableToCreateConsumer": "Failed to create Consumer - %s",
     "ErrUnableToCreateProducer": "Failed to create Producer - %s",
     "LogErrKafkaCallBackFmt": "Kafka error: \"%s\", reason: \"%s\""
+  },
+  "Libraries/LDAP/LDAPConfigurator": {
+    "Account": "User",
+    "ConnectionSecurity.NOTE": "Имеющиеся переводы:\nConnection security\nConnection Security",
+    "DefaultUserRole.NOTE": "Имеющиеся переводы:\nNew user role\nNew User Role",
+    "Filter": "Filter",
+    "FullNameAttribute": "Full name attribute",
+    "Host": "Host",
+    "NameAttribute": "Name attribute",
+    "Password": "Password",
+    "Port": "Port",
+    "UseSASL": "Use SASL"
   },
   "Libraries/libxml2/LibXml2": {
     "ErrLibXml2Common": "libxml2 error (code %d): %s",
@@ -3289,7 +3316,16 @@
     "LogAnsiCodePage": "0"
   },
   "Libraries/Log/LoggerConfigurator": {
-    "ErrCannotConfigureLogger": "Failed to use logging parameters"
+    "ErrCannotConfigureLogger": "Failed to use logging parameters",
+    "LoggerType": "Logging type",
+    "MinLogLevel.NOTE": "Имеющиеся переводы:\nLogging level\nLogging Level",
+    "NeedDN": "Resolve domain names"
+  },
+  "Libraries/Log/LoggerConfigurator_Log4D": {
+    "LogFileMaxIndex": "Number of backup files",
+    "LogFileMaxSize": "Maximum file size",
+    "LogFileName": "File name",
+    "LogFileRewrite": "Rewrite file"
   },
   "Libraries/Math/AutoCorrelation": {
     "ErrNullData": "Data contains null values"
@@ -3297,11 +3333,15 @@
   "Libraries/Math/LagOpPolynom": {
     "ErrPrepareLagMatrixIncorrectData": "Incorrect data passed to PrepareLagMatrix procedure"
   },
+  "Libraries/Math/MatrixAlgebra": {
+    "ErrBadMatrix": "Two-dimensional dynamic array is not rectangular matrix",
+    "ErrDeterminantIsZero": "It is impossible to calculate the inverse matrix: determinant is zero."
+  },
   "Libraries/Math/SparseSolvers": {
     "ErrCreateSolver": "Error creating sparse solver with type: %s",
     "ErrNoMatrixOrRhs": "Matrix or right side not set",
     "ErrNonSquareSuperMatrixNotSupportedYet": "Solver SuperLU does not support non-square matrices yet",
-    "ErrSizesNotEqual": "The matrix column count and dimension of the right part\/solution do not match",
+    "ErrSizesNotEqual": "The matrix column count and dimension of the right part/solution do not match",
     "ErrSuperLUSolver": "SuperLU Solver procedure failed",
     "ErrSuperMatrixNotConverted": "Matrix not converted to SuperLU format",
     "ErrWrongArrayType": "Unsupported array type: %s",
@@ -3384,6 +3424,10 @@
     "InputDataSource": "Input data source",
     "OutputDataSource": "Output data set"
   },
+  "Libraries/Model/DataSet/DataSourceOutputSocket": {
+    "Columns": "Columns",
+    "Rows": "Rows"
+  },
   "Libraries/Model/DataSet/DataSourceVariablesMultiInputDataSetOutputModelComponentEngine": {
     "InputVariables": "Input variables"
   },
@@ -3410,6 +3454,10 @@
   },
   "Libraries/Model/DataSet/SocketFieldInfoLinks": {
     "ErrFieldInfoDoesNotBelongToComponent": "\"%s\" field does not belong to the current component"
+  },
+  "Libraries/Model/DataTree/DataTreeModelComponentEngine": {
+    "InputDataTree": "Input data tree",
+    "OutputDataTree": "Output data tree"
   },
   "Libraries/Model/DataTree/InputDataTreeSocketDef": {
     "InputDataTreeSocketDefVendorCaption": "Data tree"
@@ -3570,6 +3618,7 @@
     "ErrCannotRevivePackageLinkAlternativeHintPath": "Failed to restore reference to the package with \"%s\" file name and %s version. Instead \"%s\" file was found. Perhaps, invalid path to the file was specified in the package reference settings.",
     "ErrCircularPackageLinksNotAllowed": "Circular references between packages \"%s\" and \"%s\" are not possible",
     "ErrLocaleNotSupported": "\"%s\" locale is not supported by the system",
+    "ErrModelNodeNotFound": "Node %s not found",
     "ErrPackageLinkAlreadyExists": "Reference to \"%s\" package already exists",
     "ErrPackageLinkToSelfNotAllowed": "Package cannot have a self-reference",
     "ErrPackageNameCannotBeEmpty": "Package name cannot be empty",
@@ -3653,6 +3702,7 @@
     "DeleteElementsCaption": "Elements deleted",
     "DeleteInputSocketCaption": "\"%s\" Input of \"%s\" Node Deleted",
     "DependentNodeOutputPort": "Dependent nodes",
+    "ErrActivateFromWebServiceCanceled": "Request processing cancelled",
     "ErrActivateModelNodes": "Error occurred while activating nodes",
     "ErrAllNodesLocked": "All workflow nodes locked",
     "ErrAlreadyConfiguringSocket": "\"%s\" node already in the port configuring state",
@@ -3669,14 +3719,13 @@
     "ErrModelNodeAlreadyInitialized": "Node already initialized",
     "ErrMultipleVariablesFound": "Multiple variables with \"%s\" name found",
     "ErrNodeConfigNotInitialized": "Node configuration not initialized",
-    "ErrNodeInputPortCountChanged": "Number of input ports was changed for \"%s\" node",
     "ErrNodeIsNoMemberOfModel": "Node does not belong to the workflow",
     "ErrNodeLocked": "\"%s\" node is locked",
     "ErrNodeNotFoundInModel": "The requested node does not belong to the workflow",
     "ErrNodeNotInitialized": "No component specified for \"%s\" node",
     "ErrNodeOutputPortCountChanged": "Number of output ports was changed for \"%s\" node",
     "ErrNodeOutputPortTypeChanged": "Type of output \"%1:s\" port was changed for \"%0:s\" node",
-    "ErrNodeParametersChanged": "\"%s\" node parameters changed",
+    "ErrNodeParametersChanged": "\"%s\" tree node parameters changed",
     "ErrParentProcessError": "Error in parent process",
     "ErrPortMismatch": "Incompatible component: node port list does not match",
     "ErrPortParentIsNil": "Reference to the node port is not included into list",
@@ -3708,7 +3757,7 @@
     "WarnModelNotSupportOutPort": "Failed to create output port for \"%s\" port"
   },
   "Libraries/Model/PackageEditableVariables": {
-    "ErrVariableRestriction": "Variable change forbidden",
+    "ErrVariableRestriction.NOTE": "Старый исходник:\nЗапрещено изменение переменной\n\nСтарый перевод:\nVariable change forbidden",
     "ErrVariablesRestriction": "Variable list change forbidden"
   },
   "Libraries/Model/ReferenceNode/ReferenceNodeComponentEngine": {
@@ -3785,12 +3834,19 @@
     "TableDataVendorGroupCaption": "Table View"
   },
   "Libraries/Model/WebServiceInputNode/WebServiceInputNodeComponent": {
-    "ErrDataRowNotFound": "The string with %d index not found in the matrix of values",
+    "ErrColumnDataTypeChanged": "\"%s\" column data type changed",
+    "ErrDataRowNotFound": "The string with index %d is not found in the matrix of values",
     "ErrInvalidInputColumnCount": "Invalid column count in the input matrix of values: %d; required: %d",
     "ErrInvalidInputElementCount": "Invalid element count in the input array: %d; required: %d",
     "ErrInvalidInputRowCount": "Invalid row count in the variable value matrix: %d",
     "ErrInvalidTreeDataRowLength": "Invalid element count in the array of %s node values: %d; required: %d",
-    "ErrRootElementMustBeSingle": "Matrix of values must contain only one root element"
+    "ErrNodeInputPortCountChanged": "Number of input ports was changed for \"%s\" node",
+    "ErrNodeInputPortTypeChanged": "Type of \"%1:s\" input port was changed for \"%0:s\" node",
+    "ErrNodeParametersChanged": "Parameters of \"%s\" tree node were changed",
+    "ErrRootElementMustBeSingle": "Matrix of values must contain only one root element",
+    "ErrUnexpectedColumn": "\"%s\" column nonexisting at the moment of publication was detected in data set",
+    "ErrUnexpectedNode": "\"%s\" node nonexisting at the moment of publication was detected in data tree",
+    "ErrVariableDataTypeChanged": "\"%s\" variable data type changed"
   },
   "Libraries/Model/WorkFlow": {
     "ErrCircularLink": "Circular link between nodes is not possible",
@@ -3839,7 +3895,7 @@
     "UnsupportedPrenormInDataType": "Unsupported type of the normalizer data of the normalized string"
   },
   "Libraries/Normalization/NormalDataArray": {
-    "ErrWrongBufferSize": "String size of results %d is less than the size of the normalized string %d"
+    "ErrWrongBufferSize": "The size of the results string %d is less than the size of the normalized string %d"
   },
   "Libraries/Normalization/NormalDataFactory": {
     "ErrFactoryAlreadyRegistered": "Factory for this normalized data set format has already been registered",
@@ -3863,7 +3919,7 @@
   },
   "Libraries/Normalization/NormalizerSettings": {
     "ErrMinMaxNormTypeNotSupported": "The selected \"%s\" normalization type is not supported by Min-Max normalization settings",
-    "ErrMinMaxStatNaN": "Failed to calculate the maximum\/minimum value for the range normalization settings, \"%s\" column",
+    "ErrMinMaxStatNaN": "Failed to calculate the maximum/minimum value for the range normalization settings, \"%s\" column",
     "ErrNanDivisor": "Failed to calculate divisor to normalize relations, \"%s\" column",
     "ErrQuotientNormTypeNotSupported": "The selected \"%s\" normalization type is not supported by the relation normalization settings",
     "ErrQuotientStatNotSupported": "Use of the selected statistics parameter \"%s\" as divisor in the relation normalization settings is not allowed",
@@ -3916,6 +3972,10 @@
   "Libraries/Normalization/TuneNormDataSourceSocketDef": {
     "ErrNotImplemented": "This functionality not implemented"
   },
+  "Libraries/OpenID/OpenIDConfigurator": {
+    "DefaultUserRole.NOTE": "Имеющиеся переводы:\nNew user role\nNew User Role",
+    "OpenIDScope": "Visibility"
+  },
   "Libraries/Optimization/Optimization": {
     "ErrAbsentSubstitution": "Parameter with index %d is not listed",
     "ErrConstraintsParameterNotFound": "Parameter with index %d not found in the constraints list",
@@ -3957,7 +4017,6 @@
     "ErrInterfaceNameNotFound": "Interface with \"%s\" name not registered",
     "ErrInterfaceParentNotFound": "Parent interface \"%s\" not found",
     "ErrInvalidMetadata": "Metadata reading error",
-    "ErrInvalidUTFInt": "Error reading packed integer number",
     "ErrParentNotInitialized": "Not initialized parent of \"%s.%s\" interface",
     "ErrReferenceIsNil": "Interface reference not initialized",
     "ErrReferenceNotFound": "Failed to find the implemented interface",
@@ -4006,7 +4065,7 @@
   },
   "Libraries/RESTClientConnection/RESTClientConnectionVendor": {
     "RESTClientConnectionVendorCaption": "REST Service",
-    "RESTClientConnectionVendorDesc": "Connection to GET\/POST web service"
+    "RESTClientConnectionVendorDesc": "Connector to GET/POST web service"
   },
   "Libraries/rpc/BaseSocketMessageTransport": {
     "ErrCouldNotConnectToServer": "Failed to establish connection: %s",
@@ -4027,7 +4086,7 @@
   },
   "Libraries/rpc/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Arrays nesting level above %d is not supported",
-    "ErrCodePageNotSupported": "The string has unsupported codepage %d. Only UTF-8 and UTF-16 are supported.",
+    "ErrCodePageNotSupported.NOTE": "Старый исходник:\nCтрока имеет неподдерживаемую кодовую страницу %d. Поддерживается только UTF-8 и UTF-16.\n\nСтарый перевод:\nThe string has unsupported codepage %d. Only UTF-8 and UTF-16 are supported.",
     "ErrInvalidMessageSignature": "Invalid message signature",
     "ErrMessageSizeCannotBeNegative": "Message size cannot be negative",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
@@ -4073,7 +4132,7 @@
   },
   "Libraries/TableauRestConnection/TableauRestConnectionVendor": {
     "TableauRestConnectionVendorCaption": "Tableau Server",
-    "TableauRestConnectionVendorDesc": "Connect to Tableau server by REST API"
+    "TableauRestConnectionVendorDesc": "Connector to Tableau server by REST API"
   },
   "Libraries/WSDLClientConnection/WSDLClientConnection": {
     "ErrNoWSDLSource": "No WSDL source specified",
@@ -4083,18 +4142,22 @@
   },
   "Libraries/WSDLClientConnection/WSDLClientConnectionVendor": {
     "WSDLClientConnectionVendorCaption": "SOAP Service",
-    "WSDLClientConnectionVendorDesc": "Connection to SOAP service specified by WSDL document"
+    "WSDLClientConnectionVendorDesc": "Connector to SOAP service specified by WSDL document"
   },
   "Libraries/XSDFilesConnection/XSDFilesConnection": {
     "ErrLoadXSD": "Error loading XSD files"
   },
   "Libraries/XSDFilesConnection/XSDFilesConnectionVendor": {
     "XSDFilesConnectionVendorCaption": "Set of XSD Schemas",
-    "XSDFilesConnectionVendorDesc": "Connection to the set of XSD schemas located in the file storage"
+    "XSDFilesConnectionVendorDesc": "Connector to the set of XSD schemas located in the file storage"
   },
   "Server/ServiceConsts": {
     "ServiceDisplayName": "LoginomServer",
     "ServiceName": "loginom"
+  },
+  "Server/SocketRemoteDeductorServer": {
+    "LogUserLockedSession": "Session was locked by user",
+    "LogUserUnlockedSession": "Session was unlocked by user"
   },
   "Studio/Converters/Converter_201805281036_NeuralNet_SummarySocket": {
     "SummarySocketDisplayName": "Summary"
@@ -4171,6 +4234,7 @@
     "FileName": "File name",
     "LicSessionCountExceeded": "Count of sessions allowed according to your license exceeded",
     "LogFailedLogin": "Failed to log into %s account",
+    "LogLDAPCaption": "LDAP",
     "Namespace": "Namespace",
     "PackageClosedLogMsg": "\"%s\" package closed",
     "PackageOpenedEditLogMsg": "\"%s\" package opened in the edit mode",
@@ -4196,7 +4260,15 @@
     "FailedLoginCountLimit": "Password entry attempts limit",
     "FailedLoginTimeout": "Password entry timeout",
     "IdleDisconnectTimeout": "Session disconnection timeout",
-    "IdleLockTimeout": "Session lock timeout"
+    "IdleLockTimeout": "Session lock timeout",
+    "PackagePoolSize": "Package pool size",
+    "RAMLimitKB": "Memory limit (KB)",
+    "RAMLimitRatio": "Memory usage ratio",
+    "SessionBackupDirectory": "Session backups",
+    "StopTimeout": "Server stop timeout",
+    "ThreadPoolSize": "Thread pool size",
+    "TraceExceptions": "Trace exceptions",
+    "UserStorageDirectory": "Users data"
   },
   "Studio/DeductorSessionsManager": {
     "ErrCloseSessionRestriction": "%s session closing forbidden",
@@ -4221,11 +4293,11 @@
     "ErrApplicationModeNotAllowed": "Connection in \"%s\" mode not allowed",
     "ErrCannotDeleteStandartUserGroup": "Failed to delete the standard group",
     "ErrFileStorageNotReadyYet": "User file storage is still being prepared",
+    "ErrGetFullName": "Failed to get the full name of %s user",
     "ErrInvalidPasswordHashInConfig": "Configuration file contains invalid password hash",
     "ErrInvalidUserNameOrPassword": "Invalid username or password",
     "ErrLastAdminChangeDenied": "Failed to delete or change the single %s admin account with local authentication",
     "ErrLDAPAuthentifyDisabled": "LDAP authentication not supported",
-    "ErrLDAPGetFullName": "Failed to get the full name of %s user",
     "ErrLDAPUserNotFound": "%s user not found in the directory service",
     "ErrLeadingOrTrailingWhitespaceInPassword": "Password must not begin or end with a space",
     "ErrNoUsersWithAdminPrivileges": "There are no users with admin privileges",
@@ -4242,29 +4314,32 @@
     "LogAddUser": "%s user added",
     "LogDeleteGroup": "%s group deleted",
     "LogDeleteUser": "%s user deleted",
-    "LogUserPropertySet": "%s account change: %s=%s",
+    "LogUserPropertySet.NOTE": "Старый исходник:\nИзменение учетной записи %s: %s=%s\n\nСтарый перевод:\n%s account change: %s=%s",
     "ReservedUserName": "loginom",
     "UseGlobalFileStorage": "Use global file storage",
     "UserMetaDesc": "User"
   },
   "Studio/RegistrationEditionDependentComponents": {
-    "1Cv8Connection": "Connection to 1C:Enterprise 8",
+    "1Cv8Connection": "1C:Enterprise 8 connector",
     "1Cv8QueryImport": "1C Query",
-    "AccessODBCUniDACDatabase": "Connection to MS Access",
+    "AccessODBCUniDACDatabase": "MS Access connector",
     "DataToXMLEngine": "XML Generation",
     "ErrComponentNotAvailable": "\"%s\" component is unavailable in the current Loginom version",
-    "ExcelODBCUniDACDatabase": "Connection to MS Excel",
+    "ExcelODBCUniDACDatabase": "MS Excel connector",
     "ExecCmdEngine": "Program Execution",
     "ExportTableau": "Export to Tableau file",
     "ExtractXMLEngine": "XML parsing",
-    "KafkaConnection": "Connection to Kafka",
+    "KafkaConnection": "Kafka connector",
     "KafkaExport": "Export to Kafka",
     "KafkaImport": "Import from Kafka",
-    "MSSQLDDWConnection": "Connection to Deductor Warehouse [MS SQL]",
-    "OraDDWConnection": "Connection to Deductor Warehouse [Oracle]",
-    "TableauRestConnection": "Connection to Tableau server",
+    "MSSQLDDWConnection": "Deductor Warehouse [MS SQL] connector",
+    "OraDDWConnection": "Deductor Warehouse [Oracle] connector",
+    "TableauRestConnection": "Tableau server connector",
     "WSDLClient": "SOAP Request",
-    "WSDLClientConnection": "Connection to SOAP service"
+    "WSDLClientConnection": "SOAP service connector"
+  },
+  "Studio/Scheduler": {
+    "SchedulerJobVariableMetaDesc": "Variable"
   },
   "Studio/SharedDirectories": {
     "ErrSharedDirectoryAlreadyDeleted": "Shared directory already deleted",
@@ -4276,7 +4351,15 @@
     "SharedDirectoryMetaDesc": "Shared directory"
   },
   "Studio/SocketDeductorServerSettings": {
-    "UnixSocketFileName": "loginomd"
+    "Bind": "IP address",
+    "PingPeriod": "Client connection check period",
+    "Port": "TCP port",
+    "SSLCertificateFile": "Certificate file name",
+    "SSLPrivateKeyFile": "Private key file name",
+    "UnixSocket": "Unix socket",
+    "UnixSocketFileName": "loginomd",
+    "WSPort": "WebSocket port",
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "Viewers/Browse/BrowseView": {
     "ErrExportBusy": "Failed to export table in the process of data modification",
@@ -4637,7 +4720,7 @@
   },
   "Warehouse2/Deductor/DDWConnectionVendor": {
     "DWConnectionVendorCaption": "Deductor Warehouse",
-    "DWConnectionVendorDesc": "Connect to the Deductor Data Warehouse"
+    "DWConnectionVendorDesc": "Connector to the Deductor Data Warehouse"
   },
   "Warehouse2/Deductor/DDWEngine": {
     "ErrDimensionValueIsNull": "Value of \"%1:s\" [%2:s] dimension in \"%0:d\" row is null.",
@@ -4674,19 +4757,19 @@
   },
   "Warehouse2/Deductor/Ver6/FBDDWConnectionVendor": {
     "DWConnectionVendorCaption": "Deductor Warehouse [Firebird]",
-    "DWConnectionVendorDesc": "Connection to the Deductor Data Warehouse on Firebird DBMS"
+    "DWConnectionVendorDesc": "Connector to the Deductor Data Warehouse on Firebird DBMS"
   },
   "Warehouse2/Deductor/Ver6/MSSQLDDWConnectionVendor": {
     "DWConnectionVendorCaption": "Deductor Warehouse [MS SQL]",
-    "DWConnectionVendorDesc": "Connection to the Deductor Data Warehouse on MS SQL DBMS"
+    "DWConnectionVendorDesc": "Connector to the Deductor Data Warehouse on MS SQL DBMS"
   },
   "Warehouse2/Deductor/Ver6/OraDDWConnectionVendor": {
     "DWConnectionVendorCaption": "Deductor Warehouse [Oracle]",
-    "DWConnectionVendorDesc": "Connection to the Deductor Data Warehouse on Oracle DBMS"
+    "DWConnectionVendorDesc": "Connector to the Deductor Data Warehouse on Oracle DBMS"
   },
   "Warehouse2/DWConnectionVendor": {
     "DWConnectionVendorCaption": "Data Warehouse",
-    "DWConnectionVendorDesc": "Connect to Data Warehouse"
+    "DWConnectionVendorDesc": "Connector to Data Warehouse"
   },
   "Warehouse2/DWDataEngine": {
     "ErrDimNotSourceName": "No field from the data source specified for \"%s\" dimension.",

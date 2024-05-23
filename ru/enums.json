@@ -489,7 +489,8 @@
       "NullCount": "Кол-во пропусков",
       "First": "Первый",
       "Last": "Последний",
-      "Only": "Единственный"
+      "Only": "Единственный",
+      "Concat": "Список"
     }
   },
   "components/joindata": {
@@ -741,7 +742,7 @@
       "$Caption": "Метод разгруппировки",
       "QuotaIsGiven": "По заданным долям",
       "QuotaCalcTotalSample": "С расчетом долей по всей выборке",
-      "QuotaCalcSpline": "С учетом временных колебаний и сезонности опорных данных"
+      "QuotaCalcSpline": "С учётом временных колебаний и сезонности опорных данных"
     },
     "UngroupRoundFormat": {
       "$Caption": "Формат округления",
@@ -762,6 +763,7 @@
       "$Caption": "Режим экспорта",
       "Append": "Дополнить таблицу данными",
       "Overload": "Очистить таблицу и заполнить данными",
+      "TruncateAndRefill": "Выполнить TRUNCATE и заполнить данными",
       "Delete": "Удалить записи по ключевым полям",
       "Refresh": "Удалить записи по ключевым полям и дополнить таблицу данными",
       "Update": "Обновить существующие записи в таблице"
@@ -960,9 +962,9 @@
     },
     "SQLiteLikeMode": {
       "$Caption": "Режим работы LIKE",
-      "LikeNoCase": "Без учета регистра ASCII символов",
-      "LikeCase": "С учетом регистра",
-      "LikeUnicode": "Без учета регистра"
+      "LikeNoCase": "Без учёта регистра ASCII символов",
+      "LikeCase": "С учётом регистра",
+      "LikeUnicode": "Без учёта регистра"
     },
     "SQLiteLockingMode": {
       "$Caption": "Режим блокировки БД",
@@ -1320,6 +1322,18 @@
       "Relative": "Относительная"
     }
   },
+  "Libraries/FileConnection/ImportFileModelComponentEngine": {
+    "FileInfoColumnsType": {
+      "$Caption": "Информация о файле",
+      "None": "Нет",
+      "Name": "Имя файла",
+      "RelativePath": "Относительный путь",
+      "AbsolutePath": "Абсолютный путь",
+      "NameTimeModified": "Имя файла, Время модификации",
+      "RelativePathTimeModified": "Относительный путь, Время модификации",
+      "AbsolutePathTimeModified": "Абсолютный путь, Время модификации"
+    }
+  },
   "Libraries/FileConnection/TextFileTypes": {
     "TextFileCaptionType": {
       "$Caption": "Заголовки столбцов",
@@ -1475,6 +1489,23 @@
       "Same": "SAME"
     }
   },
+  "Libraries/OpenID/OpenID": {
+    "OpenIDPermission": {
+      "$Caption": "Роли и права пользователя",
+      "Designer": "Проектирование сценариев",
+      "Viewer": "Просмотр отчетов",
+      "Admin": "Администратор",
+      "UseGlobalFileStorage": "Использование глобального файлового хранилища",
+      "AllowPublish": "Разрешить публикацию пакетов",
+      "SchedulerFullAccess": "Доступ ко всем задачам в планировщике"
+    },
+    "OpenIDUserRole": {
+      "$Caption": "Роль нового пользователя",
+      "None": "Отсутствует",
+      "Designer": "Проектирование сценариев",
+      "Viewer": "Просмотр отчетов"
+    }
+  },
   "Libraries/Optimization/Optimization": {
     "ConstraintType": {
       "$Caption": "Тип ограничений оптимизируемых параметров",
@@ -1546,7 +1577,8 @@
       "$Caption": "Аутентификация",
       "None": "Нет",
       "Local": "Локальная",
-      "LDAP": "LDAP"
+      "LDAP": "LDAP",
+      "OpenID": "OpenID"
     }
   },
   "Viewers/Browse/BrowseViewSearch": {

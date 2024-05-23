@@ -45,6 +45,61 @@
       "text": "Копировать информацию"
     }
   },
+  "admin/ClaimsToVariablesForm": {
+    "btnAdd": {
+      "tooltip": "Добавить клейм"
+    },
+    "btnApply": {
+      "text": "Применить"
+    },
+    "btnCancel": {
+      "text": "Отменить"
+    },
+    "btnDelete": {
+      "tooltip": "Удалить выбранные"
+    },
+    "btnDeleteAll": {
+      "tooltip": "Удалить все..."
+    },
+    "btnEdit": {
+      "tooltip": "Редактировать клейм"
+    },
+    "btnMoveDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveUp": {
+      "tooltip": "Переместить вверх"
+    },
+    "colClaim": {
+      "text": "Клеймы"
+    },
+    "colDelete": {
+      "tooltip": "Удалить все"
+    },
+    "colDelete.0": {
+      "tooltip": "Удалить"
+    },
+    "frmClaimsToVariablesForm": {
+      "title": "Список переменных взятых из токена"
+    }
+  },
+  "admin/RoleMapingForm": {
+    "btnApply": {
+      "text": "Применить"
+    },
+    "btnCancel": {
+      "text": "Отменить"
+    },
+    "colName": {
+      "text": "Роль или право в приложении"
+    },
+    "colValue": {
+      "text": "Роль в токене"
+    },
+    "frmRoleMapingForm": {
+      "title": "Сопоставление ролей пользователя"
+    }
+  },
   "admin/ServerSettingsForm": {
     "btnRefresh": {
       "text": "Обновить",
@@ -73,6 +128,9 @@
       "text": "Закрыть",
       "tooltip": "Закрыть сессию или пакет"
     },
+    "btnMaintenance": {
+      "tooltip": "Ввод/Вывод сервера из режима обслуживания..."
+    },
     "btnRefresh": {
       "text": "Обновить",
       "tooltip": "Обновить"
@@ -84,6 +142,13 @@
     "btnSearch": {
       "text": "Поиск",
       "tooltip": "Найти сессию или пакет"
+    },
+    "btnSendMessage": {
+      "text": "Отправить сообщение",
+      "tooltip": "Отправить сообщение пользователю..."
+    },
+    "btnSendMessageToAll": {
+      "tooltip": "Отправить сообщение всем активным пользователям..."
     },
     "btnStop": {
       "text": "Остановить",
@@ -205,6 +270,9 @@
     "chkRunner": {
       "boxLabel": "Пакетное выполнение"
     },
+    "chkSchedulerFullAccess": {
+      "boxLabel": "Доступ ко всем задачам в планировщике"
+    },
     "chkViewer": {
       "boxLabel": "Просмотр отчетов"
     },
@@ -248,6 +316,9 @@
     "btnAbout": {
       "text": "О программе"
     },
+    "btnAppearance": {
+      "text": "Внешний вид"
+    },
     "btnHelp": {
       "text": "Справка"
     },
@@ -255,7 +326,7 @@
       "text": "Начало"
     },
     "btnLock": {
-      "text": "Заблокировать (Ctrl+Alt+L)"
+      "text": "Заблокировать"
     },
     "btnLogOut": {
       "text": "Выход"
@@ -265,6 +336,18 @@
     },
     "btnQuit": {
       "text": "Закрыть"
+    },
+    "mniFullScreen": {
+      "text": "Полный экран"
+    },
+    "mniZoomIn": {
+      "text": "Увеличить масштаб"
+    },
+    "mniZoomOut": {
+      "text": "Уменьшить масштаб"
+    },
+    "mniZoomReset": {
+      "text": "Сбросить масштаб"
     }
   },
   "app/ConfigureBatchProcModesForm": {
@@ -334,6 +417,30 @@
     },
     "tabProgress": {
       "title": "Процессы"
+    }
+  },
+  "app/DBLoginPromptForm": {
+    "btnApply": {
+      "text": "Подключиться"
+    },
+    "btnCancel": {
+      "text": "Отмена"
+    },
+    "edtDatabasePath": {
+      "fieldLabel": "Строка подключения"
+    },
+    "edtDatabaseTag": {
+      "fieldLabel": "Подключение"
+    },
+    "edtLogin": {
+      "fieldLabel": "Логин"
+    },
+    "edtPassword": {
+      "emptyText": "••••••••",
+      "fieldLabel": "Пароль"
+    },
+    "frmDatabaseLogin": {
+      "title": "Подключение к БД"
     }
   },
   "app/FindNodeForm": {
@@ -431,6 +538,14 @@
     "btnProgress": {
       "text": "Процессы",
       "tooltip": "Процессы"
+    },
+    "btnScheduler": {
+      "text": "Планировщик",
+      "tooltip": "Планировщик"
+    },
+    "btnWebService": {
+      "text": "Веб-сервисы",
+      "tooltip": "Веб-сервисы"
     }
   },
   "app/MainMenuForm": {
@@ -465,6 +580,12 @@
   "app/MapTreeForm": {
     "btnAddNode": {
       "tooltip": "Добавить"
+    },
+    "btnAddSchedulerJob": {
+      "tooltip": "Добавить задачу в планировщик..."
+    },
+    "btnAddSchedulerJobByNode": {
+      "tooltip": "Добавить задачу в планировщик..."
     },
     "btnClosePackage": {
       "tooltip": "Закрыть пакет"
@@ -543,6 +664,9 @@
     "btnCut": {
       "tooltip": "Вырезать"
     },
+    "btnDeactivateAll": {
+      "tooltip": "Деактивировать все"
+    },
     "btnDeriveModelNode": {
       "tooltip": "Создать производный компонент..."
     },
@@ -575,6 +699,9 @@
     "btnRetrain": {
       "tooltip": "Переобучить узел"
     },
+    "btnSettingComponents": {
+      "tooltip": "Настроить панель"
+    },
     "btnSetup": {
       "tooltip": "Настроить узел..."
     },
@@ -589,6 +716,9 @@
     },
     "btnShowVendors": {
       "tooltip": "Показать/скрыть панель компонентов"
+    },
+    "btnSocketItemCountToggle": {
+      "tooltip": "Показывать количество на выходных портах"
     },
     "btnStyle0": {
       "text": "Абв"
@@ -668,6 +798,15 @@
     "btnWorkFlow": {
       "tooltip": "Показать в виде сценария"
     },
+    "mniAddLinkLabel": {
+      "text": "Добавить метку..."
+    },
+    "mniAddNewNode": {
+      "text": "Добавить узел в сценарий"
+    },
+    "mniAddToFavorite": {
+      "text": "Добавить в избранное"
+    },
     "mniAnnotationCopy": {
       "text": "Копировать"
     },
@@ -680,6 +819,21 @@
     "mniAnnotationPaste": {
       "text": "Вставить"
     },
+    "mniCollapseAllGroups": {
+      "text": "Свернуть группы"
+    },
+    "mniDeleteLink": {
+      "text": "Удалить связь..."
+    },
+    "mniEditLinkLabel": {
+      "text": "Редактировать метку..."
+    },
+    "mniExpandAllGroups": {
+      "text": "Развернуть группы"
+    },
+    "mniFrequentlyUsedVisibility": {
+      "text": "Часто используемые"
+    },
     "mniHorizontalAlignBottom": {
       "text": "По нижнему краю",
       "tooltip": "Горизонтальное выравнивание по нижнему краю"
@@ -691,6 +845,15 @@
     "mniHorizontalAlignTop": {
       "text": "По верхнему краю",
       "tooltip": "Горизонтальное выравнивание по верхнему краю"
+    },
+    "mniRemoveFromFavorite": {
+      "text": "Убрать из избранного"
+    },
+    "mniRemoveFromFrequentlyUsed": {
+      "text": "Убрать из часто используемых"
+    },
+    "mniRemoveLinkLabel": {
+      "text": "Удалить метку"
     },
     "mniStyle": {
       "text": "Стиль"
@@ -781,6 +944,10 @@
     }
   },
   "app/PackagesListForm": {
+    "btnAddSchedulerJob": {
+      "text": "Добавить задачу в планировщик...",
+      "tooltip": "Добавить задачу в планировщик..."
+    },
     "btnAutoSave": {
       "text": "Автосохранение",
       "tooltip": "Настройка автосохранения пакетов..."
@@ -807,7 +974,7 @@
     },
     "btnPublish": {
       "text": "Опубликовать",
-      "tooltip": "Опубликовать"
+      "tooltip": "Опубликовать..."
     },
     "btnSave": {
       "text": "Сохранить",
@@ -1022,6 +1189,446 @@
     "pmiRevealInExplorer": {
       "text": "Показать пакет в папке",
       "tooltip": "Показать пакет в папке"
+    }
+  },
+  "app/scheduler/ActiveSessions": {
+    "colActiveJobCaption": {
+      "text": "Метка задачи"
+    },
+    "colActiveProcessTime": {
+      "text": "Время выполнения"
+    },
+    "colActiveSessionID": {
+      "text": "Номер сессии"
+    },
+    "colActiveStartTime": {
+      "text": "Начало"
+    },
+    "colPercentCompleted": {
+      "text": "%"
+    },
+    "colProgress": {
+      "text": "Обработка"
+    },
+    "colStopSession": {
+      "tooltip": "Остановить все сессии..."
+    },
+    "colStopSession.0": {
+      "tooltip": "Остановить сессию"
+    },
+    "mniStopSession": {
+      "text": "Остановить сессию"
+    }
+  },
+  "app/scheduler/GridNodeSelector": {
+    "colDisplayName": {
+      "text": "Метка"
+    },
+    "colGuid": {
+      "menuText": "Guid",
+      "text": "Guid"
+    },
+    "colName": {
+      "menuText": "Имя",
+      "text": "Имя"
+    },
+    "colPath": {
+      "text": "Путь"
+    }
+  },
+  "app/scheduler/JobEditor": {
+    "btnAddVariable": {
+      "tooltip": "Добавить..."
+    },
+    "btnApril": {
+      "text": "Апрель"
+    },
+    "btnAugust": {
+      "text": "Август"
+    },
+    "btnDay1": {
+      "text": "1"
+    },
+    "btnDay10": {
+      "text": "10"
+    },
+    "btnDay11": {
+      "text": "11"
+    },
+    "btnDay12": {
+      "text": "12"
+    },
+    "btnDay13": {
+      "text": "13"
+    },
+    "btnDay14": {
+      "text": "14"
+    },
+    "btnDay15": {
+      "text": "15"
+    },
+    "btnDay16": {
+      "text": "16"
+    },
+    "btnDay17": {
+      "text": "17"
+    },
+    "btnDay18": {
+      "text": "18"
+    },
+    "btnDay19": {
+      "text": "19"
+    },
+    "btnDay2": {
+      "text": "2"
+    },
+    "btnDay20": {
+      "text": "20"
+    },
+    "btnDay21": {
+      "text": "21"
+    },
+    "btnDay22": {
+      "text": "22"
+    },
+    "btnDay23": {
+      "text": "23"
+    },
+    "btnDay24": {
+      "text": "24"
+    },
+    "btnDay25": {
+      "text": "25"
+    },
+    "btnDay26": {
+      "text": "26"
+    },
+    "btnDay27": {
+      "text": "27"
+    },
+    "btnDay28": {
+      "text": "28"
+    },
+    "btnDay29": {
+      "text": "29"
+    },
+    "btnDay3": {
+      "text": "3"
+    },
+    "btnDay30": {
+      "text": "30"
+    },
+    "btnDay31": {
+      "text": "31"
+    },
+    "btnDay4": {
+      "text": "4"
+    },
+    "btnDay5": {
+      "text": "5"
+    },
+    "btnDay6": {
+      "text": "6"
+    },
+    "btnDay7": {
+      "text": "7"
+    },
+    "btnDay8": {
+      "text": "8"
+    },
+    "btnDay9": {
+      "text": "9"
+    },
+    "btnDecember": {
+      "text": "Декабрь"
+    },
+    "btnDelete": {
+      "tooltip": "Удалить выбранные"
+    },
+    "btnDeselectAllDays": {
+      "text": "Отменить выбор"
+    },
+    "btnDeselectAllMonths": {
+      "text": "Отменить выбор"
+    },
+    "btnEditVariable": {
+      "tooltip": "Редактировать..."
+    },
+    "btnFebruary": {
+      "text": "Февраль"
+    },
+    "btnFriday": {
+      "text": "Пт"
+    },
+    "btnJanuary": {
+      "text": "Январь"
+    },
+    "btnJuly": {
+      "text": "Июль"
+    },
+    "btnJune": {
+      "text": "Июнь"
+    },
+    "btnLastDayOfMonth": {
+      "text": "Последний день"
+    },
+    "btnMarch": {
+      "text": "Март"
+    },
+    "btnMay": {
+      "text": "Май"
+    },
+    "btnMonday": {
+      "text": "Пн"
+    },
+    "btnMoveVariableDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveVariableUp": {
+      "tooltip": "Переместить вверх"
+    },
+    "btnNovember": {
+      "text": "Ноябрь"
+    },
+    "btnOctober": {
+      "text": "Октябрь"
+    },
+    "btnSaturday": {
+      "text": "Сб"
+    },
+    "btnSelectAllDays": {
+      "text": "Выбрать все"
+    },
+    "btnSelectAllMonths": {
+      "text": "Выбрать все"
+    },
+    "btnSeptember": {
+      "text": "Сентябрь"
+    },
+    "btnSunday": {
+      "text": "Вс"
+    },
+    "btnThursday": {
+      "text": "Чт"
+    },
+    "btnTuesday": {
+      "text": "Вт"
+    },
+    "btnWednesday": {
+      "text": "Ср"
+    },
+    "cbxPackageFileName": {
+      "fieldLabel": "Запускаемый пакет"
+    },
+    "chkEnabled": {
+      "fieldLabel": "Разрешить выполнение"
+    },
+    "chkRepeat": {
+      "fieldLabel": "Повтор"
+    },
+    "chkSavePackage": {
+      "fieldLabel": "Сохранять пакет после переобучения"
+    },
+    "chkSkipOverlappedExecution": {
+      "fieldLabel": "Пропускать запуск при наличии активной сессии"
+    },
+    "chkStartIfMissedSchedule": {
+      "fieldLabel": "Запустить сразу если пропущен запуск"
+    },
+    "chkTeach": {
+      "fieldLabel": "Переобучать модели при запуске"
+    },
+    "colDeleteVariable": {
+      "tooltip": "Удалить все..."
+    },
+    "colDeleteVariable.0": {
+      "tooltip": "Удалить"
+    },
+    "colName": {
+      "text": "Имя"
+    },
+    "colValue": {
+      "text": "Значение"
+    },
+    "edtCaption": {
+      "fieldLabel": "Метка"
+    },
+    "edtDescription": {
+      "fieldLabel": "Описание"
+    },
+    "edtEndTime": {
+      "fieldLabel": "Окончание"
+    },
+    "edtHistoryCount": {
+      "fieldLabel": "Лимит количества логов",
+      "minText": "Количество записей в истории не должно быть отрицательным"
+    },
+    "edtNodeKey": {
+      "emptyText": "Весь пакет",
+      "fieldLabel": "Запускаемый узел"
+    },
+    "edtPeriodCount": {
+      "fieldLabel": "Повтор каждые"
+    },
+    "edtStartTime": {
+      "fieldLabel": "Запуск"
+    },
+    "pnlMainSetting": {
+      "title": "Основные"
+    },
+    "pnlMonth": {
+      "fieldLabel": "Месяцы"
+    },
+    "pnlSchedule": {
+      "title": "Расписание"
+    },
+    "pnlSetting": {
+      "title": "Параметры запуска"
+    },
+    "rbMonth": {
+      "boxLabel": "Дни месяца"
+    },
+    "rbWeek": {
+      "boxLabel": "Дни недели"
+    }
+  },
+  "app/scheduler/JobVariableEditor": {
+    "cbxNullValue": {
+      "boxLabel": "Пропущенное значение",
+      "fieldLabel": "Значение"
+    },
+    "edtName": {
+      "fieldLabel": "Имя"
+    }
+  },
+  "app/scheduler/LogEntries": {
+    "colErrorMessage": {
+      "text": "Ошибка"
+    },
+    "colLogFinishTime": {
+      "text": "Окончание"
+    },
+    "colLogJobCaption": {
+      "text": "Метка задачи"
+    },
+    "colLogProcessTime": {
+      "text": "Время выполнения"
+    },
+    "colLogSessionID": {
+      "text": "Номер сессии"
+    },
+    "colLogStartTime": {
+      "text": "Начало"
+    },
+    "colStatus": {
+      "text": "Статус"
+    }
+  },
+  "app/scheduler/NodeSelector": {
+    "btnNamedOnly": {
+      "text": "Именованные",
+      "tooltip": "Отфильтровать узлы, у которых задано имя"
+    },
+    "btnTableMode": {
+      "text": "Список"
+    },
+    "btnTreeMode": {
+      "text": "Дерево"
+    },
+    "edtNodeFilter": {
+      "emptyText": "Фильтрация"
+    }
+  },
+  "app/scheduler/SchedulerForm": {
+    "btnAdd": {
+      "text": "Добавить",
+      "tooltip": "Добавить..."
+    },
+    "btnClone": {
+      "text": "Клонировать",
+      "tooltip": "Клонировать"
+    },
+    "btnCloseDetails": {
+      "tooltip": "Закрыть"
+    },
+    "btnDelete": {
+      "text": "Удалить",
+      "tooltip": "Удалить..."
+    },
+    "btnDetails": {
+      "text": "Журнал",
+      "tooltip": "Журнал"
+    },
+    "btnEdit": {
+      "text": "Редактировать",
+      "tooltip": "Редактировать..."
+    },
+    "btnRefresh": {
+      "text": "Обновить список",
+      "tooltip": "Обновить список"
+    },
+    "btnRun": {
+      "text": "Запустить",
+      "tooltip": "Запустить"
+    },
+    "btnStop": {
+      "text": "Остановить",
+      "tooltip": "Остановить все сессии..."
+    },
+    "colCaption": {
+      "text": "Метка"
+    },
+    "colDelete": {
+      "tooltip": "Удалить все..."
+    },
+    "colDelete.0": {
+      "tooltip": "Удалить"
+    },
+    "colLastStartTime": {
+      "text": "Предыдущий запуск"
+    },
+    "colNextStartTime": {
+      "text": "Следующий запуск"
+    },
+    "colNodeKey": {
+      "text": "Узел"
+    },
+    "colPackageFileName": {
+      "text": "Пакет"
+    },
+    "colUserName": {
+      "text": "Владелец"
+    },
+    "mniDisable": {
+      "text": "Запретить выполнение"
+    },
+    "mniEnable": {
+      "text": "Разрешить выполнение"
+    },
+    "mniGoToJob": {
+      "text": "Перейти к задаче"
+    },
+    "mniRevealInExplorer": {
+      "text": "Показать пакет в папке"
+    },
+    "mniShowNode": {
+      "text": "Открыть узел в пакете"
+    },
+    "mniShowPackage": {
+      "text": "Открыть пакет"
+    }
+  },
+  "app/scheduler/TreeNodeSelector": {
+    "colTreeDisplayName": {
+      "text": "Метка"
+    },
+    "colTreeGuid": {
+      "menuText": "Guid",
+      "text": "Guid"
+    },
+    "colTreeName": {
+      "menuText": "Имя",
+      "text": "Имя"
     }
   },
   "app/SelectBaseVendorForm": {
@@ -1279,7 +1886,10 @@
       "tooltip": "Переместить вниз"
     },
     "btnExprEdit": {
-      "tooltip": "Редактировать выражение"
+      "tooltip": "Редактировать параметры выражения..."
+    },
+    "btnExprGoToEditor": {
+      "tooltip": "Перейти к выражению"
     },
     "btnExprUp": {
       "tooltip": "Переместить вверх"
@@ -1296,6 +1906,21 @@
     },
     "btnFuncFilter": {
       "tooltip": "Фильтрация функций"
+    },
+    "btnGoToExpression": {
+      "tooltip": "Перейти к выражению"
+    },
+    "btnGoToField": {
+      "tooltip": "Перейти к полю"
+    },
+    "btnInsertExprInExprAbsolute": {
+      "tooltip": "Вставить в выражение абсолютно"
+    },
+    "btnInsertExprInExprRelative": {
+      "tooltip": "Вставить в текст выражения"
+    },
+    "btnInsertInExpr": {
+      "tooltip": "Вставить в текст выражения"
     },
     "btnLess": {
       "text": "<",
@@ -1332,6 +1957,12 @@
       "text": "Предпросмотр...",
       "tooltip": "Предпросмотр..."
     },
+    "btnReplaceField": {
+      "tooltip": "Заменять поле"
+    },
+    "btnSpawnExpr": {
+      "tooltip": "Заменить вычисляемым выражением"
+    },
     "btnString": {
       "tooltip": "Строка"
     },
@@ -1353,7 +1984,7 @@
       "text": "Метка"
     },
     "colExpressionName": {
-      "text": "Имя"
+      "text": "Имя выражения"
     },
     "colFieldDisplayName": {
       "text": "Метка"
@@ -1364,17 +1995,11 @@
     "colFieldValue": {
       "text": "Значение"
     },
-    "ExprDragDrop": {
-      "dragText": "Перетащите выражение"
-    },
     "frmCalcData": {
-      "title": "Калькулятор"
+      "title": "Редактирование выражений"
     },
     "grdFunc": {
       "title": "Список функций"
-    },
-    "lblExpressions": {
-      "text": "Выражения"
     },
     "lblFieldsTitle": {
       "text": "Переменные"
@@ -1395,17 +2020,119 @@
     }
   },
   "components/calcdata/ExprEditForm": {
+    "btnApply": {
+      "text": "Применить"
+    },
+    "btnCancel": {
+      "text": "Отменить"
+    },
     "cbxDataType": {
-      "fieldLabel": "Тип"
+      "fieldLabel": "Тип данных"
     },
     "chbCached": {
+      "boxLabel": " ",
       "fieldLabel": "Кэшировать"
     },
     "chbIntermediate": {
+      "boxLabel": " ",
       "fieldLabel": "Промежуточное"
+    },
+    "edtDisplayName": {
+      "fieldLabel": "Метка"
+    },
+    "edtName": {
+      "fieldLabel": "Имя"
+    },
+    "edtPath": {
+      "fieldLabel": "Путь"
+    },
+    "frmExprEditForm": {
+      "title": "Параметры выражения"
     },
     "txtDescription": {
       "fieldLabel": "Описание"
+    }
+  },
+  "components/calctree/CalcTreeInputs": {
+    "btnAddChildExpr": {
+      "tooltip": "Добавить дочерний узел"
+    },
+    "btnAddExprContainer": {
+      "tooltip": "Добавить контейнер"
+    },
+    "btnAddSiblingExpr": {
+      "tooltip": "Добавить соседний узел"
+    },
+    "btnDeleteExprNode": {
+      "tooltip": "Удалить"
+    },
+    "btnEditExpr": {
+      "tooltip": "Редактировать параметры..."
+    },
+    "btnFilter": {
+      "tooltip": "Фильтрация узлов и переменных"
+    },
+    "btnGoToExpr": {
+      "tooltip": "Перейти к выражению"
+    },
+    "btnInsertNodeInExprAbsolute": {
+      "tooltip": "Вставить в выражение абсолютно"
+    },
+    "btnInsertNodeInExprRelative": {
+      "tooltip": "Вставить в выражение относительно"
+    },
+    "btnInsertVariableInExpr": {
+      "tooltip": "Вставить в текст выражения"
+    },
+    "btnNodes": {
+      "text": "Узлы"
+    },
+    "btnReplaceNodeByExpr": {
+      "tooltip": "Заменить вычисляемым выражением"
+    },
+    "btnVariables": {
+      "text": "Переменные"
+    },
+    "colDisplayName": {
+      "text": "Метка"
+    },
+    "colName": {
+      "text": "Имя"
+    },
+    "colVarDisplayName": {
+      "text": "Метка"
+    },
+    "colVarName": {
+      "text": "Имя"
+    },
+    "colVarValue": {
+      "text": "Значение"
+    },
+    "edtSearchField": {
+      "emptyText": "Фильтрация"
+    }
+  },
+  "components/calctree/CalcTreePreviewForm": {
+    "colTreeNode": {
+      "text": "Метка"
+    },
+    "colTreeNodeName": {
+      "text": "Имя"
+    },
+    "colTreeNumber": {
+      "text": "№"
+    },
+    "colTreeValue": {
+      "text": "Значение"
+    },
+    "frmCalcTreePreviewForm": {
+      "title": "Предпросмотр"
+    },
+    "grdVars": {
+      "title": "Переменные"
+    },
+    "varRowNumberer": {
+      "text": "#"
     }
   },
   "components/clope/ClopeWizard": {
@@ -2664,6 +3391,12 @@
   "connections/onec8/OneC8ConnectionParams": {
     "btnTestConnection": {
       "text": "Тестировать"
+    },
+    "frmPoolConfig": {
+      "title": "Параметры пула"
+    },
+    "pedPoolTimeout.valueConfig": {
+      "emptyText": "∞"
     }
   },
   "connections/onec8/OneC8ConnectionStringForm": {
@@ -2868,13 +3601,13 @@
       "text": "Тип поля"
     },
     "fldTableName": {
-      "fieldLabel": "Название таблицы"
+      "fieldLabel": "Имя таблицы"
     },
     "frmDBCreateTableDialog": {
       "title": "Создание новой таблицы"
     },
     "tabFields": {
-      "title": "Настройка"
+      "title": "Поля таблицы"
     },
     "tabSql": {
       "title": "SQL-запрос"
@@ -2991,9 +3724,6 @@
     },
     "cntConnection": {
       "fieldLabel": "Хранилище файлов"
-    },
-    "edtDDFSystem": {
-      "fieldLabel": "Разрядность"
     },
     "edtStringCacheMaxSize.valueConfig": {
       "regexText": "Недопустимый размер кэша строк"
@@ -3209,6 +3939,10 @@
     }
   },
   "filestorage/FileStorageForm": {
+    "btnAddSchedulerJob": {
+      "text": "Добавить задачу в планировщик...",
+      "tooltip": "Добавить задачу в планировщик..."
+    },
     "btnCopy": {
       "text": "Копировать",
       "tooltip": "Копировать"
@@ -3247,7 +3981,7 @@
     },
     "btnPublish": {
       "text": "Опубликовать",
-      "tooltip": "Опубликовать"
+      "tooltip": "Опубликовать..."
     },
     "btnRefresh": {
       "tooltip": "Обновить список"
@@ -3461,6 +4195,17 @@
     },
     "pnlHomePage": {
       "title": "Начало"
+    }
+  },
+  "imports/dbimport/DBImportFilterWizard": {
+    "btnConnect": {
+      "text": "Подключить"
+    },
+    "cntConnection": {
+      "fieldLabel": "Подключение"
+    },
+    "frmFilterDataWizard": {
+      "title": "Фильтрация данных"
     }
   },
   "imports/dbimport/DBImportWizard": {
@@ -3868,6 +4613,9 @@
       "href": "https://loginom.ru/platform/quick-start/",
       "text": "Быстрый старт"
     },
+    "btnGetToken": {
+      "text": "Войти через OpenID"
+    },
     "btnHelp": {
       "href": "https://help.loginom.ru/",
       "text": "Документация"
@@ -4024,6 +4772,9 @@
   "viewers/browse/BrowseSorting": {
     "chkBufferWhole": {
       "fieldLabel": "Кэшировать все данные"
+    },
+    "chkLocaleAware": {
+      "fieldLabel": "Сравнивать с учётом локали"
     }
   },
   "viewers/browse/BrowseView": {
@@ -4666,8 +5417,17 @@
       "text": "Тип",
       "tooltip": "Тип диаграммы"
     },
+    "btnCursorMode": {
+      "tooltip": "Режим мыши"
+    },
+    "btnDelete": {
+      "tooltip": "Удалить диаграмму"
+    },
     "btnExport": {
       "tooltip": "Экспорт"
+    },
+    "btnMove": {
+      "tooltip": "Переместить диаграмму"
     },
     "btnRestrictions": {
       "tooltip": "Ограничения..."
@@ -4680,6 +5440,15 @@
     },
     "btnShowTotal": {
       "tooltip": "Итоги"
+    },
+    "btnZoomReset": {
+      "tooltip": "Сбросить маштаб"
+    },
+    "mniCollapse": {
+      "text": "Свернуть"
+    },
+    "mniDragMode": {
+      "text": "Режим перетаскивания"
     },
     "mniExportChartJPEG": {
       "text": "Экспорт в JPEG"
@@ -4696,6 +5465,21 @@
     "mniHideSubLevels": {
       "text": "Первый уровень"
     },
+    "mniMove": {
+      "text": "Переместить"
+    },
+    "mniMoveDown": {
+      "text": "Вниз"
+    },
+    "mniMoveLeft": {
+      "text": "Влево"
+    },
+    "mniMoveRight": {
+      "text": "Вправо"
+    },
+    "mniMoveUp": {
+      "text": "Вверх"
+    },
     "mniShowSubLevels": {
       "text": "Все уровни"
     },
@@ -4704,6 +5488,24 @@
     },
     "mniShowTotalNone": {
       "text": "Скрыть"
+    },
+    "mniTitleEdit": {
+      "text": "Редактировать заголовок..."
+    },
+    "mniTooltipMode": {
+      "text": "Тип подсказок"
+    },
+    "mniZoomIn": {
+      "text": "Приблизить"
+    },
+    "mniZoomMode": {
+      "text": "Режим приближения"
+    },
+    "mniZoomOut": {
+      "text": "Отдалить"
+    },
+    "mniZoomResetY": {
+      "text": "Сбросить масштаб Y"
     }
   },
   "viewers/cube/CubeFormatPanel": {
@@ -4745,9 +5547,8 @@
     "btnCaseCaption": {
       "text": "Факты"
     },
-    "btnChart": {
-      "text": "Диаграмма",
-      "tooltip": "Диаграмма"
+    "btnChartAdd": {
+      "tooltip": "Создать диаграмму"
     },
     "btnCollapse": {
       "tooltip": "Свернуть"
@@ -5535,7 +6336,8 @@
       "fieldLabel": "Число интервалов"
     },
     "fldNumberOfDecimals": {
-      "fieldLabel": "Десятичных знаков"
+      "fieldLabel": "Десятичных знаков",
+      "minText": " "
     },
     "lblRowCount": {
       "html": "Количество строк"
@@ -6024,6 +6826,9 @@
     "btnShowInvalidRelations": {
       "text": "Отображать потерянные связи"
     },
+    "btnSkipRootNode": {
+      "tooltip": "Исключить корневой узел при публикации"
+    },
     "btnSync": {
       "tooltip": "Синхронизировать"
     },
@@ -6251,12 +7056,16 @@
       "tooltip": "Переместить вверх"
     },
     "btnSortAsc": {
-      "text": "Сортировать по возрастанию",
+      "text": "По возрастанию",
       "tooltip": "Сортировать по возрастанию"
     },
     "btnSortDesc": {
-      "text": "Сортировать по убыванию",
+      "text": "По убыванию",
       "tooltip": "Сортировать по убыванию"
+    },
+    "btnUniqueValues": {
+      "text": "Получить значения",
+      "tooltip": "Получить уникальные значения"
     },
     "cbxReferenceType": {
       "fieldLabel": "Опорное значение"

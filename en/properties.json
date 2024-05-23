@@ -53,7 +53,7 @@
       "Params": "Algorithm parameters"
     },
     "AssnRulesParams": {
-      "ExcludeLargeSupportItems": "Exclude items with support greater than maximume",
+      "ExcludeLargeSupportItems": "Exclude items with support greater than maximum",
       "ExcludeSingleItems": "Exclude single sets",
       "MaxSupport": "Maximum support, %",
       "MinConfidence": "Minimum rule confidence, %",
@@ -454,7 +454,7 @@
   },
   "components/treetodata": {
     "TreeToDataEngine": {
-      "CompositeColumnNames": "Generate composite field captions",
+      "CompositeColumnNames.NOTE": "Старый исходник:\nГенерировать составные метки полей\n\nСтарый перевод:\nGenerate composite field captions",
       "RepeatParentNodeValues": "Repeat parent node values"
     }
   },
@@ -484,12 +484,12 @@
   },
   "components/wsdlclient": {
     "WSDLClient": {
-      "CompositeColumnNames": "Generate composite field captions",
+      "CompositeColumnNames.NOTE": "Старый исходник:\nГенерировать составные метки полей\n\nСтарый перевод:\nGenerate composite field captions",
       "IgnoreAbsentValues": "Allow required fields skipping",
       "ProduceRawOutput": "Produce \"raw\" server response",
       "RepeatUniqueValues": "Repeat single values",
       "RequestConfigurator": "Configure request data export",
-      "StrictValidation": "Check for strict XSD validation",
+      "StrictValidation.NOTE": "Старый исходник:\nПроверять на строгое соответствие XSD\n\nСтарый перевод:\nCheck for strict XSD validation",
       "TimeZone": "Default time zone"
     }
   },
@@ -568,7 +568,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/View",
+      "CommandText": "Table/View",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
     }
@@ -633,7 +633,8 @@
   },
   "Libraries/1CConnection/1Cv8Connection": {
     "1Cv8ConnectionConfigurator": {
-      "PlatformVersion": "Platform version"
+      "PlatformVersion": "Platform version",
+      "PoolCapacity": "Size"
     }
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
@@ -810,10 +811,10 @@
   },
   "Libraries/ImportXMLConfigurator/ImportXMLConfigurator": {
     "ImportXMLConfigurator": {
-      "CompositeColumnNames": "Generate composite field captions",
+      "CompositeColumnNames.NOTE": "Старый исходник:\nГенерировать составные метки полей\n\nСтарый перевод:\nGenerate composite field captions",
       "IgnoreAbsentValues": "Allow required fields skipping",
       "RepeatUniqueValues": "Repeat single values",
-      "StrictValidation": "Check for strict XSD validation",
+      "StrictValidation.NOTE": "Старый исходник:\nПроверять на строгое соответствие XSD\n\nСтарый перевод:\nCheck for strict XSD validation",
       "TimeZone": "Default time zone"
     }
   },
@@ -875,6 +876,12 @@
       "LearnPartition": "Component data partition with training"
     }
   },
+  "Libraries/OpenID/OpenID": {
+    "OpenIDConfigurator": {
+      "DefaultUserRole.NOTE": "Имеющиеся переводы:\nNew user role\nNew User Role",
+      "OpenIDScope": "Visibility"
+    }
+  },
   "Libraries/Regression/Regression": {
     "FactorSelectionParams": {
       "AddSignificance": "Significance threshold in case of factor addition",
@@ -900,9 +907,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact\/inexact data priority",
-      "FactLessMore": "Less\/more factors priority",
-      "QualitySpeed": "Accuracy\/speed priority"
+      "ExactInexact": "Exact/inexact data priority",
+      "FactLessMore": "Less/more factors priority",
+      "QualitySpeed": "Accuracy/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -957,8 +964,8 @@
       "IdleDisconnectTimeout": "Session disconnection timeout",
       "IdleLockTimeout": "Session lock timeout",
       "PackagePoolSize": "Package pool size",
-      "RAMLimitKB": "Used memory maximum (KB)",
-      "RAMLimitRatio": "Used memory maximum",
+      "RAMLimitKB": "Memory limit (KB)",
+      "RAMLimitRatio": "Memory usage ratio",
       "SessionBackupDirectory": "Directory containing session backups",
       "StopTimeout": "Server stop timeout",
       "ThreadPoolSize": "Thread pool size",
@@ -973,7 +980,7 @@
       "SSLPrivateKeyFile": "Private key file name",
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL\/TLS port"
+      "WSSPort": "WebSocket SSL/TLS port"
     }
   },
   "Warehouse2/DWConnection": {

@@ -1,6 +1,5 @@
 {
   "Common/1Cv8/1Cv8Query": {
-    "ErrConnect": "Ошибка подключения к 1С",
     "ErrEofArrived": "Достигнут конец набора данных",
     "ErrExecuteQuery": "Ошибка выполнения запроса 1С",
     "ErrPrepareFields": "Ошибка подготовки полей запроса 1С",
@@ -8,12 +7,17 @@
     "ErrQueryNotActive": "Запрос не активен",
     "ErrUnloadResults": "Ошибка выгрузки результатов запроса 1С"
   },
+  "Common/1Cv8/1Cv8Session": {
+    "ErrComConnectorConnect": "Ошибка выполнения 1С ComConnector.Connect"
+  },
   "Common/1Cv8/1Cv8SessionManager": {
     "ErrEmptyConnectionString": "Не указана строка подключения"
   },
   "Common/CalcFunctions/CalcFunctions": {
     "ErrCreateGuid": "Системная ошибка при создании GUID",
-    "ErrGuidFormat": "Некорректный формат GUID: %s (поддерживаются [\"N\",\"D\",\"B\",\"P\"])"
+    "ErrGuidFormat": "Некорректный формат GUID: %s (поддерживаются [\"N\",\"D\",\"B\",\"P\"])",
+    "ErrIntervalFormat": "Некорректный тип интервала: %s (поддерживается [\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"])",
+    "NumberOfIntervalsMustBePositive": "Число интервалов должно быть положительным"
   },
   "Common/CalcFunctions/FuncDesc": {
     "ErrFuncDescNotFound": "Описание функции \"%s\" не найдено"
@@ -583,10 +587,14 @@
     "ErrExceededRecursiveCalls": "Превышено максимальное количество рекурсивных вызовов (%d) функции Data в выражении \"%s\".\nДля решения этой проблемы необходимо включить Кэширование.",
     "ErrExprIsStringType": "Выражение \"%s\" имеет строковый тип",
     "ErrGetVarArrayUnsupported": "Массивы переменного типа могут возвращать только промежуточные выражения (выражение \"%s\", строка %d)",
+    "ErrReplacingInputColumnNotFound": "Не найдено входное поле для замены выражением \"%s\"",
     "ErrVarExprAmbiguity": "\"%0:s\" может быть входной переменной или промежуточным выражением. Чтобы разрешить неоднозначность используйте \"%1:s%0:s\" для обращения к переменной или переименуйте выражение \"%0:s\".",
+    "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
     "InputVariables": "Входные переменные",
     "NameNotExists": "Поля, переменной или выражения с именем \"%s\" не существует",
     "PreviewProcess": "Предварительный просмотр вычислений",
+    "PreviewSourceColumnSuffix": "до",
+    "VarNameNotExists": "Переменной с именем \"%s\" не существует",
     "WarnPreviewRunning": "Предпросмотр уже запущен"
   },
   "components/calcdata/CalcDataVendor": {
@@ -614,13 +622,45 @@
     "ErrQuote": "В строке %d имеется незакрытая строковая константа",
     "ErrUnknownFunction": "Неизвестная функция: %s"
   },
+  "components/calctree/CalcTree": {
+    "ErrCannotAddExprChild": "Невозможно добавить выражение \"%s\", т.к. существует выражение \"%s\"",
+    "ErrCannotAddExprReplaceContainer": "Невозможно добавить выражение \"%s\", т.к. есть выражения по пути \"%s.\"",
+    "ErrCannotCastNodeInfoID": "Невозможно выполнить приведение типа данных для узла с идентификатором %d",
+    "ErrCannotGetForeignKey": "Невозможно получить внешний ключ для узла с идентификатором %d: узел не является массивом",
+    "ErrCannotGetNodeExistFlag": "Невозможно получить флаг наличия узла с идентификатором %d: узел не является простым контейнером",
+    "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
+    "ErrCannotGetRowRange": "Невозможно получить диапазон строк для узла с идентификатором %d: узел не является массивом",
+    "ErrExceededRecursiveCalls": "Превышено максимальное количество рекурсивных вызовов (%d) в выражении \"%s\".",
+    "ErrGetVarArrayUnsupported": "Массивы переменного типа могут возвращать только промежуточные выражения (выражение \"%s\")",
+    "ErrInvalidNodeInfoID": "Недопустимый идентификатор узла: %d",
+    "ErrReplacingInputNodeNotFound": "Не найден входной узел для замены выражением \"%s\"",
+    "InputVariables": "Входные переменные",
+    "NameNotExists": "Узла, переменной или выражения с именем \"%s\" не существует",
+    "PreviewProcess": "Предварительный просмотр вычислений",
+    "PreviewSourceNodeSuffix": "до",
+    "VarNameNotExists": "Переменной с именем \"%s\" не существует",
+    "WarnPreviewRunning": "Предпросмотр уже запущен"
+  },
+  "components/calctree/CalcTreeItemChakra": {
+    "ErrExprParse": "Ошибка разбора выражения \"%s\"",
+    "ErrExprUsesUndefinedVariable": "В выражении \"%s\" используется неопределенная переменная %s",
+    "ErrNodeArrayTooBig": "Ошибка при создании объекта Array \"%s\". Число узлов %d превышает максимальную длину массива JavaScript: 4_294_967_295",
+    "ExprCalculateError": "Ошибка вычисления выражения \"%s\", путь \"%s\""
+  },
+  "components/calctree/CalcTreeVendor": {
+    "VendorCaption": "Калькулятор (дерево)",
+    "VendorDesc": "Создание вычисляемых узлов дерева"
+  },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Ошибка вычисления выражения \"%s\"",
     "ErrExprIsStringType": "Выражение \"%s\" имеет строковый тип",
     "ErrExprParse": "Ошибка разбора выражения \"%s\"",
+    "ErrReplacingInputVariableNotFound": "Не найдена входная переменная для замены выражением \"%s\"",
     "ErrVarValueSet": "Ошибка при установке значения выражения \"%s\"",
+    "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
     "NameNotExists": "Входной переменной или выражения с именем \"%s\" не существует",
     "PreviewProcess": "Предварительный просмотр вычислений",
+    "PreviewSourceVariableSuffix": "до",
     "WarnPreviewRunning": "Предпросмотр уже запущен"
   },
   "components/calcvariables/CalcVariablesVendor": {
@@ -852,6 +892,9 @@
     "VendorCaption": "Таблица в дерево",
     "VendorDesc": "Формирование дерева данных из таблицы данных"
   },
+  "components/datatovariables/DataToVariables": {
+    "ErrMaxStringLengthReached": "Превышена максимальная длинна строки в %d символов"
+  },
   "components/datatovariables/DataToVariablesEngine": {
     "DataToVariablesNotify": "Расчет переменных",
     "ErrNoColumnsForProcessing": "Не указаны столбцы для обработки",
@@ -1026,7 +1069,6 @@
     "DayFirstPostfix": "первый",
     "DayLastPostfix": "последний",
     "ErrColumnNotFound": "Поле указано не верно",
-    "ErrCompareValueIsNull": "Сравниваемое значение не определено",
     "ErrDatePeriodUndefined": "Не удалось определить временной промежуток",
     "ErrDateSourceTypeDataNotSupported": "Использование даты из набора данных для определении интервала времени не поддерживается",
     "ErrEmptyCompareValueList": "Не указан список значений",
@@ -1158,6 +1200,9 @@
     "GroupDataNotify": "Группировка данных",
     "SortNotify": "Сортировка результата"
   },
+  "components/groupdata/GroupDataSet": {
+    "ErrMaxStringLengthReached": "Превышена максимальная длинна строки в %d символов"
+  },
   "components/groupdata/GroupDataVendor": {
     "VendorCaption": "Группировка",
     "VendorDesc": "Группировка данных"
@@ -1230,8 +1275,8 @@
     "RegressionCoefsNamePostfix": "|Коэффициенты",
     "RegressionColumn": "%s|Регрессия",
     "RegressionLBoundNamePostfix": "|Нижняя граница д.и.",
-    "RegressionPValueNamePostfix": "|Значимость",
-    "RegressionStdErrorNamePostfix": "|Стд. откл.",
+    "RegressionPValueNamePostfix": "|P-значение",
+    "RegressionStdErrorNamePostfix": "|Стд. ошибка",
     "RegressionTStatNamePostfix": "|T-статистика",
     "RegressionUBoundNamePostfix": "|Верхняя граница д.и.",
     "StdDev": "Стандартное отклонение",
@@ -1319,7 +1364,7 @@
     "RegressionLBoundNamePostfix": "|Нижняя граница д.и. отношения шансов",
     "RegressionOddsRatioPostfix": "|Отношение шансов",
     "RegressionScoreNamePostfix": "|Балл",
-    "RegressionStdErrorNamePostfix": "|Стд. откл.",
+    "RegressionStdErrorNamePostfix": "|Стд. ошибка",
     "RegressionUBoundNamePostfix": "|Верхняя граница д.и. отношения шансов",
     "RegressionWaldPValueNamePostfix": "|P-значение",
     "RegressionWaldStatNamePostfix": "|Статистика Вальда",
@@ -1547,6 +1592,7 @@
   },
   "components/python/PythonExecutor": {
     "DocFileStoragePathFunc": "filestoragepath(path)\n--\n\nПолучить путь в файловой системе по пути файлового хранилища\nАргументы:\n  path: str\n    Путь в файловом хранилище.\nРезультат:\n  Путь в файловой системе.",
+    "DocGetLocaleFunc": "getLocale()\n--\n\nПолучить имя локали текущего узла\nРезультат:\n  Имя локали текущего узла в соответствии с RFC 4646.",
     "ErrNumExprFinalize": "Не удалось финализировать модуль numexpr",
     "ErrResNotFound": "Ресурс %s не найден",
     "ErrTCLFinalize": "Ошибка при финализации TCL",
@@ -1735,7 +1781,6 @@
     "VendorDesc": "Сортировка данных"
   },
   "components/treetodata/TreeToDataEngine": {
-    "CompositeDisplayNameSeparator": "|",
     "ComputeRowCountProcess": "Расчёт количества строк",
     "ErrInvalidGlobalIndexDataType": "Недопустимый тип данных глобального индекса узла: %s",
     "ErrNoDataNodeSelected": "Не выбрано ни одного узла с данными",
@@ -1889,19 +1934,10 @@
   "Embedded/EmbeddedMain": {
     "ErrOpenURL": "Невозможно перейти по адресу: %s",
     "LocalStorageLoadFailed": "Local Storage не прочитано",
-    "LocalStorageSaveFailed": "Local Storage не сохранено",
-    "OpenDialogTitle": "Открытие",
-    "SaveDialogTitle": "Сохранение"
+    "LocalStorageSaveFailed": "Local Storage не сохранено"
   },
-  "Embedded/GtkFileDialogs": {
-    "FileMustExist": "File must exist",
-    "FileNotExist": "The file \"%s\" does not exist.",
-    "FileReadOnly": "The file \"%s\" is not writable.",
-    "FileReadOnlyTitle": "File is not writable"
-  },
-  "Embedded/RelativeFileDialogs": {
-    "AbsolutePath": "Абсолютный путь",
-    "RelativePath": "Относительный путь"
+  "Embedded/EmbeddedTiny": {
+    "EnvVarKDEFileDialog": "NO_LOGINOM_KDE_FILE_DIALOG"
   },
   "exports/database/DBExport": {
     "AddToTableNotify": "Добавление записей в таблицу",
@@ -1913,6 +1949,7 @@
     "ErrColumnTypesMismatch": "Тип столбца \"%s\" не совместим с типом исходного столбца \"%s\"",
     "ErrDataSourceSelect": "Не указано ни одного соответствия с источником данных",
     "ErrDuringExportError": "Ошибка при выполнении экспорта в БД",
+    "ErrExecQuery": "Ошибка при выполнении запроса к базе данных.",
     "ErrFieldForDeleteNotSelected": "Не указано ни одного поля, по которому необходимо удалить данные",
     "ErrFieldForUpdateNotSelected": "Не указано ни одного поля, которое необходимо обновить",
     "ErrFillTable": "Заполнить таблицу \"%s\" не удалось",
@@ -1923,10 +1960,13 @@
     "ErrSyncKeyDeletedSource": "Ошибка синхронизации: не найдено поле-источник для ключевого поля \"%s\"",
     "ErrSyncKeyTypesMismatch": "Ошибка синхронизации: тип ключевого поля \"%s\" не совместим с типом исходного поля \"%s\"",
     "ErrTableNameNotSelected": "Не указано имя таблицы",
+    "ErrTruncateNotSupported": "Операция TRUNCATE не поддерживается текущей базой данных",
     "ErrUpdateNotSupported": "Операция обновления записей по ключу не поддерживается текущей базой данных",
+    "ExecQueryProcess": "Выполнение запроса",
     "GetTablesProcess": "Получение списка таблиц",
     "GroupDataNotify": "Группировка данных",
     "ResultStatusVariables": "Статус выполнения",
+    "TruncateTableNotify": "Выполнение TRUNCATE таблицы",
     "UpdateRecordsNotify": "Обновить существующие записи в таблице",
     "WarnDBConnectionIsBusy": "Подключение к БД занято"
   },
@@ -2270,6 +2310,7 @@
   "Libraries/bgdbrtl/DB": {
     "ConnectionTimeout": "Тайм-аут подключения",
     "ErrCommandTypeNotYetSupported": "Тип SQL-команды %s пока не поддерживается",
+    "ErrConnectionCancelled": "Подключение прервано",
     "ErrConnectionString": "Не указана строка подключения",
     "ErrDatabasePathNotExists": "Файл \"%s\" не найден",
     "ErrDBPath": "Не удалось получить путь к БД",
@@ -2282,6 +2323,7 @@
     "ErrIncorrectServer": "Сервер указан неверно",
     "ErrIndexColumnsNotSelect": "Не указаны столбцы по которым необходимо сделать индекс",
     "ErrLocalDBForbidden": "Подключения к локальным БД сервера запрещены",
+    "ErrLoginTimeout": "Время ожидания ввода логина и пароля для подключения истекло",
     "ErrOpenQuery": "Ошибка открытия SQL:\n%s",
     "ErrParameterTypesDoNotMatch": "Типы параметров не совпадают",
     "ErrPrepareProcedure": "Ошибка подготовки хранимой процедуры \"%s\"",
@@ -2291,6 +2333,7 @@
     "ErrTestConnection": "Ошибка проверки подключения:\n%s",
     "ErrUnPrepareQuery": "Ошибка очистки подготовленного запроса",
     "LockTimeout": "Тайм-аут блокировки",
+    "WarnNoPassword": "Не указан пароль для подключения к \"%s\"",
     "WarnQueryExecuting": "Запрос уже выполняется"
   },
   "Libraries/bgdbrtl/DBSSL": {
@@ -2341,12 +2384,13 @@
   },
   "Libraries/bgdbrtl/UniDAC/ODBCUniDACDB": {
     "DatabaseTypeName": "ODBC",
+    "ErrDriverDoesNotSupportQuotes": "Источник данных не поддерживает идентификаторы в кавычках, драйвер \"%s\"",
     "ErrFileDSNForbidden": "Подключения через файловые DSN запрещены",
-    "ErrInvalidTableName": "Неверно указано имя таблицы"
+    "ErrInvalidTableNameRedundantDot": "Избыточное число разделителей \".\" в имени таблицы \"%s\""
   },
   "Libraries/bgdbrtl/UniDAC/OracleUniDACDB": {
     "DatabaseTypeName": "Oracle",
-    "ErrInvalidTableName": "Неверно указано имя таблицы"
+    "ErrInvalidTableNameRedundantDot": "Избыточное число разделителей \".\" в имени таблицы \"%s\""
   },
   "Libraries/bgdbrtl/UniDAC/PostgresUniDACDB": {
     "DatabaseTypeName": "PostgreSQL"
@@ -2367,7 +2411,7 @@
   },
   "Libraries/bgrtl/ArchiveManager": {
     "ErrCannotGetFilePath": "Не удалось получить путь до файла \"%s\"",
-    "ErrExtractCannotCreateFolder": "Ну удалось создать папку \"%s\" в процессе распаковки архива",
+    "ErrExtractCannotCreateFolder": "Не удалось создать папку \"%s\" в процессе распаковки архива",
     "ErrExtractFileNameTaken": "Не удалось распаковать файл \"%s\", папка с таким именем уже существует",
     "ErrExtractFolderNameTaken": "Не удалось создать папку \"%s\", файл с таким именем уже существует"
   },
@@ -2542,6 +2586,10 @@
     "ErrTargetColumnWithoutSource": "Выходному столбцу %s не сопоставлен входной столбец"
   },
   "Libraries/bgrtl/DerivedDataTree": {
+    "ErrCannotGetForeignKey": "Невозможно получить внешний ключ для узла с идентификатором %d: узел не является массивом",
+    "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
+    "ErrCannotGetRowRange": "Невозможно получить диапазон строк для узла с идентификатором %d: узел не является массивом",
+    "ErrInvalidNodeInfoID": "Недопустимый идентификатор узла: %d",
     "ErrNodeTypesMismatch": "Тип узла %s не совместим с типом исходного узла %s",
     "ErrNoMappingForRequiredNode": "Обязательному входному узлу %s не сопоставлен выходной",
     "ErrSourceNodeNotFound": "Не удалось найти исходный узел %s для выходного узла %s",
@@ -2577,6 +2625,8 @@
     "ErrFloatParamIsNan": "Значение параметра \"%s\" равное NaN недопустимо",
     "ErrFunctionRefIsNull": "Ссылка на функцию %s должна быть проинициализирована",
     "ErrInvalidIndex": "Значение индекса %d параметра \"%s\" вне диапазона [%d; %d]",
+    "ErrInvalidMethodParam": "Недопустимое значение параметра %s метода %s: \"%s\"",
+    "ErrInvalidParam": "Недопустимое значение параметра %s: \"%s\"",
     "ErrMethodParamIsNull": "Параметр %s метода %s должен быть проинициализирован",
     "ErrMustGreaterOrEqualThan": "Значение %g параметра \"%s\" должно быть больше или равно %g",
     "ErrMustGreaterOrEqualThanInt": "Значение %d параметра \"%s\" должно быть больше или равно %d",
@@ -2737,12 +2787,11 @@
     "ErrStreamWriteBufferLength": "При записи в поток данных размер исходного буфера %d меньше чем число байт необходимое для записи %d"
   },
   "Libraries/bgrtl/LocaleUtils": {
-    "ErrLocaleNotSupported": "Локаль \"%s\" не поддерживается"
+    "ErrLocaleNotSupported": "Локаль \"%s\" не поддерживается",
+    "LocaleName": "Локаль"
   },
   "Libraries/bgrtl/MathUtils": {
-    "ErrBadMatrix": "Двумерный динамический массив не является прямоугольной матрицей",
-    "ErrDeterminantIsZero": "Невозможно вычислить обратную матрицу: определитель равен нулю.",
-    "ErrQuickSelectLeftRight": "В функции QuickSelect левая граница %d задана больше правой %d"
+    "ErrBadMatrix": "Двумерный динамический массив не является прямоугольной матрицей"
   },
   "Libraries/bgrtl/MSequence": {
     "ErrMSequenceCountOutOfBounds": "Необходимая длина M-последовательности должна быть больше 0",
@@ -2787,6 +2836,9 @@
   },
   "Libraries/bgrtl/ServiceVariables": {
     "ErrServiceVariablesAlreadyInitialized": "Служебные переменные уже проинициализированы"
+  },
+  "Libraries/bgrtl/SortUtils": {
+    "ErrQuickSelectLeftRight": "В функции QuickSelect левая граница %d задана больше правой %d"
   },
   "Libraries/bgrtl/SparseArray": {
     "ErrItemNotExist": "Элемент с индексом %d не существует"
@@ -3150,7 +3202,7 @@
     "ErrInvalidBoolean": "Строка \"%s\" не может быть преобразована в значение логического типа",
     "ErrInvalidChar": "Строка \"%s\" не может быть преобразована в значение типа \"символ\"",
     "ErrInvalidFloat": "Строка \"%s\" не может быть преобразована в значение вещественного типа",
-    "ErrXmlParseError": "Ошибка разбора xml: описание \"%s\", строка %d, столбец %d"
+    "ErrXmlParseError": "Ошибка разбора XML: сообщение \"%s\", строка %d, столбец %d"
   },
   "Libraries/Config/DelphiConfigScheme": {
     "ErrBindedConfigSchemeTypeNotFound": "Связанный тип схемы конфигурации для типа %s не найден",
@@ -3250,7 +3302,9 @@
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "Имя файла не может быть пустым",
-    "ErrFileNotFound": "Файл \"%s\" не найден"
+    "ErrFileNotFound": "Файл \"%s\" не найден",
+    "FileName": "Имя файла",
+    "FileTimeDisplayName": "Время модификации"
   },
   "Libraries/KafkaConnection/KafkaAuth": {
     "ErrFileNoAccess": "Файл \"%s\" недоступен",
@@ -3273,6 +3327,19 @@
     "ErrUnableToCreateProducer": "Не удалось создать Producer: %s",
     "LogErrKafkaCallBackFmt": "Ошибка Kafka: \"%s\", причина: \"%s\""
   },
+  "Libraries/LDAP/LDAPConfigurator": {
+    "Account": "Пользователь",
+    "BaseDN": "База",
+    "ConnectionSecurity": "Безопасность соединения",
+    "DefaultUserRole": "Роль нового пользователя",
+    "Filter": "Фильтр",
+    "FullNameAttribute": "Атрибут полного имени",
+    "Host": "Хост",
+    "NameAttribute": "Атрибут имени",
+    "Password": "Пароль",
+    "Port": "Порт",
+    "UseSASL": "Использовать SASL"
+  },
   "Libraries/libxml2/LibXml2": {
     "ErrLibXml2Common": "Ошибка libxml2 (код %d): %s",
     "ErrLibXml2Unknown": "Нераспознанная ошибка libxml2",
@@ -3289,13 +3356,27 @@
     "LogAnsiCodePage": "1251"
   },
   "Libraries/Log/LoggerConfigurator": {
-    "ErrCannotConfigureLogger": "Не удалось применить параметры логирования"
+    "ErrCannotConfigureLogger": "Не удалось применить параметры логирования",
+    "LoggerType": "Тип логирования",
+    "MinLogLevel": "Уровень логирования",
+    "NeedDN": "Разрешать доменные имена",
+    "NeedPackageName": "Логировать имя пакета у узла"
+  },
+  "Libraries/Log/LoggerConfigurator_Log4D": {
+    "LogFileMaxIndex": "Количество резервных файлов",
+    "LogFileMaxSize": "Максимальный размер файла",
+    "LogFileName": "Имя файла",
+    "LogFileRewrite": "Перезапись файла"
   },
   "Libraries/Math/AutoCorrelation": {
     "ErrNullData": "Данные содержат пустые значения"
   },
   "Libraries/Math/LagOpPolynom": {
     "ErrPrepareLagMatrixIncorrectData": "В процедуру PrepareLagMatrix переданы некорректные данные"
+  },
+  "Libraries/Math/MatrixAlgebra": {
+    "ErrBadMatrix": "Двумерный динамический массив не является прямоугольной матрицей",
+    "ErrDeterminantIsZero": "Невозможно вычислить обратную матрицу: определитель равен нулю."
   },
   "Libraries/Math/SparseSolvers": {
     "ErrCreateSolver": "Ошибка при создании разреженного солвера с типом: %s",
@@ -3384,6 +3465,10 @@
     "InputDataSource": "Входной источник данных",
     "OutputDataSource": "Выходной набор данных"
   },
+  "Libraries/Model/DataSet/DataSourceOutputSocket": {
+    "Columns": "Столбцов",
+    "Rows": "Строк"
+  },
   "Libraries/Model/DataSet/DataSourceVariablesMultiInputDataSetOutputModelComponentEngine": {
     "InputVariables": "Входные переменные"
   },
@@ -3410,6 +3495,10 @@
   },
   "Libraries/Model/DataSet/SocketFieldInfoLinks": {
     "ErrFieldInfoDoesNotBelongToComponent": "Поле \"%s\" не принадлежит текущему компоненту"
+  },
+  "Libraries/Model/DataTree/DataTreeModelComponentEngine": {
+    "InputDataTree": "Входное дерево данных",
+    "OutputDataTree": "Выходное дерево данных"
   },
   "Libraries/Model/DataTree/InputDataTreeSocketDef": {
     "InputDataTreeSocketDefVendorCaption": "Дерево данных"
@@ -3481,6 +3570,9 @@
   },
   "Libraries/Model/Generic/ModelOutputComponentVendor": {
     "VendorCaption": "Выходной узел"
+  },
+  "Libraries/Model/ModelBlocks": {
+    "Position": "Позиция"
   },
   "Libraries/Model/ModelCommon": {
     "ErrPortParentIsNil": "Ссылка на порт узла не входит в какой-либо список",
@@ -3570,6 +3662,7 @@
     "ErrCannotRevivePackageLinkAlternativeHintPath": "Не удалось восстановить ссылку на пакет с именем файла \"%s\" и версией %s. Вместо этого найден файл \"%s\". Возможно, в настройках ссылки на пакет неверно указан путь к файлу.",
     "ErrCircularPackageLinksNotAllowed": "Невозможно создать циклические ссылки между пакетами \"%s\" и \"%s\"",
     "ErrLocaleNotSupported": "Локаль \"%s\" не поддерживается системой",
+    "ErrModelNodeNotFound": "Узел %s не найден",
     "ErrPackageLinkAlreadyExists": "Ссылка на пакет \"%s\" уже существует",
     "ErrPackageLinkToSelfNotAllowed": "В пакете нельзя добавить ссылку на самого себя",
     "ErrPackageNameCannotBeEmpty": "Имя пакета не может быть пустым",
@@ -3579,6 +3672,7 @@
     "ErrPackageWithNameLinkAlreadyExists": "Ссылка на пакет с именем \"%s\" уже существует",
     "ErrVariableNamesAndValuesCountMustBeEqual": "Количество имён и значений переменных должно быть одинаковым",
     "ErrVariableNotFound": "Переменная с именем \"%s\" не найдена",
+    "ErrVariableValuesMustBeInOneArray": "Значения переменных должны содержаться только в одном массиве",
     "LogPackageSetVersion": "Версия пакета %s изменена на %s",
     "ModelUnitDisplayNameDefault": "Модуль",
     "RestoreVariablesBackupProcessCaption": "Восстановление значений переменных пакета"
@@ -3653,6 +3747,7 @@
     "DeleteElementsCaption": "Удалены элементы",
     "DeleteInputSocketCaption": "Удален вход \"%s\" узла \"%s\"",
     "DependentNodeOutputPort": "Зависимые узлы",
+    "ErrActivateFromWebServiceCanceled": "Обработка запроса отменена",
     "ErrActivateModelNodes": "При активизации узлов возникла ошибка",
     "ErrAllNodesLocked": "Все узлы сценария заблокированы",
     "ErrAlreadyConfiguringSocket": "Узел \"%s\" уже находится в состоянии настройки порта",
@@ -3669,14 +3764,13 @@
     "ErrModelNodeAlreadyInitialized": "Узел уже проинициализирован",
     "ErrMultipleVariablesFound": "Обнаружено несколько переменных с именем \"%s\"",
     "ErrNodeConfigNotInitialized": "Конфигурация узла не проинициализирована",
-    "ErrNodeInputPortCountChanged": "У узла \"%s\" изменилось количество входных портов",
     "ErrNodeIsNoMemberOfModel": "Узел не принадлежит сценарию",
     "ErrNodeLocked": "Узел \"%s\" заблокирован",
     "ErrNodeNotFoundInModel": "Запрашиваемый узел не принадлежит сценарию",
     "ErrNodeNotInitialized": "У узла \"%s\" не задан компонент",
     "ErrNodeOutputPortCountChanged": "У узла \"%s\" изменилось количество выходных портов",
     "ErrNodeOutputPortTypeChanged": "У узла \"%s\" изменился тип выходного порта \"%s\"",
-    "ErrNodeParametersChanged": "Изменились параметры узла \"%s\"",
+    "ErrNodeParametersChanged": "Изменились параметры узла дерева \"%s\"",
     "ErrParentProcessError": "Ошибка в родительском процессе",
     "ErrPortMismatch": "Несовместимый компонент: не совпадает список портов узла",
     "ErrPortParentIsNil": "Ссылка на порт узла не входит в какой-либо список",
@@ -3687,10 +3781,13 @@
     "ErrVariableDataTypeChanged": "Изменился тип данных переменной \"%s\"",
     "ErrVariableNamesAndValuesCountMustBeEqual": "Количество имён и значений переменных должно быть одинаковым",
     "ErrVariableNotFound": "Переменная с именем \"%s\" не найдена",
+    "ErrVariableValuesMustBeInOneArray": "Значения переменных должны содержаться только в одном массиве",
     "ErrVendorMalfunction": "Компонент узла \"%s\" неисправен",
     "ExplodeGenericModel": "Подмодель \"%s\" развернута",
     "LogActivateNodeStart": "Активация узла \"%s\" GUID=%s",
     "LogActivateNodeSuccess": "Успешно активирован узел \"%s\" GUID=%s",
+    "LogActivatePackagedNodeStart": "Активация узла \"%s\" GUID=%s Пакет=%s",
+    "LogActivatePackagedNodeSuccess": "Успешно активирован узел \"%s\" GUID=%s Пакет=%s",
     "LogDeactivateNode": "Деактивирован узел \"%s\" GUID=%s",
     "LogNodeActivationError": "Ошибка активации узла \"%s\" GUID=%s",
     "LogPackagedNodeActivationError": "Ошибка активации узла \"%s\" GUID=%s Пакет=%s",
@@ -3708,7 +3805,7 @@
     "WarnModelNotSupportOutPort": "Невозможно создать выходной порт для порта \"%s\""
   },
   "Libraries/Model/PackageEditableVariables": {
-    "ErrVariableRestriction": "Запрещено изменение переменной",
+    "ErrVariableRestriction": "Запрещено изменение переменной %s",
     "ErrVariablesRestriction": "Запрещено изменение списка переменных"
   },
   "Libraries/Model/ReferenceNode/ReferenceNodeComponentEngine": {
@@ -3773,6 +3870,9 @@
     "InputVariables": "Входные переменные",
     "OutputVariables": "Выходные переменные"
   },
+  "Libraries/Model/Variables/VariablesOutputSocket": {
+    "VariablesCount": "Переменных"
+  },
   "Libraries/Model/Views/ModelViewDataSource": {
     "InputDataSource": "Набор данных"
   },
@@ -3785,12 +3885,19 @@
     "TableDataVendorGroupCaption": "Табличное представление"
   },
   "Libraries/Model/WebServiceInputNode/WebServiceInputNodeComponent": {
+    "ErrColumnDataTypeChanged": "Изменился тип данных столбца \"%s\"",
     "ErrDataRowNotFound": "В матрице значений не найдена строка с индексом %d",
     "ErrInvalidInputColumnCount": "Недопустимое количество столбцов во входной матрице значений: %d; необходимо: %d",
     "ErrInvalidInputElementCount": "Недопустимое количество элементов во входном массиве: %d; необходимо: %d",
     "ErrInvalidInputRowCount": "Недопустимое количество строк в матрице значений переменных: %d",
     "ErrInvalidTreeDataRowLength": "Недопустимое количество элементов в массиве значений узла %s: %d; необходимо: %d",
-    "ErrRootElementMustBeSingle": "Матрица значений должна содержать только один корневой элемент"
+    "ErrNodeInputPortCountChanged": "У узла \"%s\" изменилось количество входных портов",
+    "ErrNodeInputPortTypeChanged": "У узла \"%s\" изменился тип входного порта \"%s\"",
+    "ErrNodeParametersChanged": "Изменились параметры узла дерева \"%s\"",
+    "ErrRootElementMustBeSingle": "Матрица значений должна содержать только один корневой элемент",
+    "ErrUnexpectedColumn": "В наборе данных обнаружен столбец \"%s\", которого не существовало на момент публикации",
+    "ErrUnexpectedNode": "В дереве данных обнаружен узел \"%s\", которого не существовало на момент публикации",
+    "ErrVariableDataTypeChanged": "Изменился тип данных переменной \"%s\""
   },
   "Libraries/Model/WorkFlow": {
     "ErrCircularLink": "Невозможно создать циклическую связь между узлами",
@@ -3916,6 +4023,31 @@
   "Libraries/Normalization/TuneNormDataSourceSocketDef": {
     "ErrNotImplemented": "Данный функционал не реализован"
   },
+  "Libraries/OpenID/OpenID": {
+    "InvalidToken": "Ошибочный токен",
+    "TokenNotIncludeRolesClame": "Токен не содержит списка ролей с клеймом %s",
+    "TokenRequestError": "Ошибка получения токена. %s"
+  },
+  "Libraries/OpenID/OpenIDConfigurator": {
+    "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
+    "AuthEndpoint": "URL запроса аутентификации",
+    "AutoGetToken": "Автоматическое получения токена",
+    "ClaimsToVariables": "Клеймы извлекаемые в переменные",
+    "DefaultUserRole": "Роль нового пользователя",
+    "FoldersClaim": "Клейм списка общих папок",
+    "OpenIDClient": "Идентификатор клиента",
+    "OpenIDProviderName": "Название OpenID провайдера",
+    "OpenIDScope": "Область видимости",
+    "OpenIDSecret": "Ключ клиента",
+    "RedirectURI": "Адрес получателя токена",
+    "RolesClaim": "Клейм списка ролей",
+    "TokenEndpoint": "URL запроса OpenID токена",
+    "UpdateUserRole": "Обновлять роль пользователя",
+    "UserFullNameClaim": "Клейм полного имени пользователя в токене",
+    "UserInfoEndpoint": "URL запроса информации о пользователе",
+    "UserNameClaim": "Клейм имени пользователя в токене",
+    "UserRoleNameMap": "Список имен ролей для сопоставления ролям пользователя"
+  },
   "Libraries/Optimization/Optimization": {
     "ErrAbsentSubstitution": "Параметр с индексом %d отсутствует в списке",
     "ErrConstraintsParameterNotFound": "Параметр с индексом %d отсутствует в списке ограничений",
@@ -3957,7 +4089,6 @@
     "ErrInterfaceNameNotFound": "Интерфейс с именем \"%s\" не зарегистрирован",
     "ErrInterfaceParentNotFound": "Не найден родительский интерфейс \"%s\"",
     "ErrInvalidMetadata": "Ошибка чтения метаданных",
-    "ErrInvalidUTFInt": "Ошибка чтения целого упакованного числа",
     "ErrParentNotInitialized": "У интерфейса \"%s.%s\" не проинициализирован родитель",
     "ErrReferenceIsNil": "Интерфейсная ссылка не инициализирована",
     "ErrReferenceNotFound": "Не удалось найти реализуемый интерфейс",
@@ -4027,7 +4158,7 @@
   },
   "Libraries/rpc/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Уровень вложенности массивов более %d не поддерживается",
-    "ErrCodePageNotSupported": "Cтрока имеет неподдерживаемую кодовую страницу %d. Поддерживается только UTF-8 и UTF-16.",
+    "ErrCodePageNotSupported": "Строка имеет неподдерживаемую кодовую страницу %d. Поддерживается только UTF-8 и UTF-16.",
     "ErrInvalidMessageSignature": "Неверная сигнатура сообщения",
     "ErrMessageSizeCannotBeNegative": "Размер сообщения не должен быть отрицательным",
     "ErrMessageSizeIncrementCannotBeNegative": "Инкремент размера сообщения не должен быть отрицательным",
@@ -4096,6 +4227,10 @@
     "ServiceDisplayName": "LoginomServer",
     "ServiceName": "loginom"
   },
+  "Server/SocketRemoteDeductorServer": {
+    "LogUserLockedSession": "Пользователь заблокировал сессию",
+    "LogUserUnlockedSession": "Пользователь разблокировал сессию"
+  },
   "Studio/Converters/Converter_201805281036_NeuralNet_SummarySocket": {
     "SummarySocketDisplayName": "Сводка"
   },
@@ -4120,6 +4255,13 @@
   "Studio/Converters/Converter_202210131413_ModelNode_RemoveWrapWebServiceResult": {
     "NodeSoapResponseFormatChanged": "Узел %s был опубликован в Loginom версии 6.2.5 или более ранней. Для данного узла изменится формат ответных сообщений при вызове через SOAP сервис."
   },
+  "Studio/Converters/Converter_202404041818_CubeView_ChartCaseGuid": {
+    "WarnDeletedDerived": "В производном кубе %s не удалось сконвертировать настройки факта в диаграмме.\nСкрытое в диаграмме отображение факта %s будет отображено.",
+    "WarnDerivedDrop": "В производном кубе %s не удалось сконвертировать настройки факта в диаграмме.\nНастройки отображения факта %s в диаграмме будут сброшены до таковых в базовом кубе."
+  },
+  "Studio/Converters/Converter_202404041818_CubeView_MultipleCharts": {
+    "ChartTitle": "Диаграмма 1"
+  },
   "Studio/DeductorConsts": {
     "CompanyShortNameLinux": "loginom",
     "CompanyShortNameWindows": "Loginom",
@@ -4131,7 +4273,9 @@
     "AutoRefresh": "Автообновление публикации",
     "AutoSavePackageError": "Возникла ошибка при автосохранении пакета \"%s\"",
     "AutoSavePackagesFailed": "Не удалось выполнить автосохранение пакетов",
+    "EnteredMaintenanceMode": "Сервер введён в режим обслуживания",
     "ErrAccessDenied": "Отказано в доступе",
+    "ErrApplicationModeRunNotAllowed": "У текущего пользователя отсутствуют права на пакетное выполнение",
     "ErrCannotCreateDirectory": "Не удалось создать директорию \"%s\"",
     "ErrCannotDeleteBasePackage": "Невозможно удалить базовый пакет %s, не удаляя зависимый пакет %s, который на него ссылается",
     "ErrCannotGetPackageLinkRef": "Не удалось получить объектную ссылку на ссылку на пакет с именем %s",
@@ -4169,20 +4313,38 @@
     "ErrSessionBackupModified": "Данная резервная копия сессии была изменена другим клиентом из-под текущей учётной записи",
     "ErrUpdatePublishedPackageErrors": "При обновлении публикации пакета %s возникли ошибки",
     "FileName": "Имя файла",
+    "LeftMaintenanceMode": "Сервер выведен из режима обслуживания",
     "LicSessionCountExceeded": "Превышено количество сессий, допустимых по вашей лицензии",
     "LogFailedLogin": "Не удалось войти в учетную запись %s",
+    "LogFailedToken": "Не удалось войти в учетную запись",
+    "LogFailedTokenVariables": "Ошибка подготовки переменных из OpenID токена",
+    "LogLDAPCaption": "LDAP",
+    "LogLoggingCaption": "Логирование",
+    "LogMaintenanceStateUnchanged": "Статус режима обслуживания не изменился",
+    "LogOpenIDCaption": "OpenID",
+    "LogSettingsChanged": "Изменился параметр сервера \"%s\"",
+    "LogSettingsComponentChanged": "Изменился параметр компонента сервера %s:\"%s\"",
+    "LogTokenClaimNone": "Токен не содержит клейм %s",
+    "LogTokenClaimTypeErr": "Значение клейма %s в неправильном формате",
     "Namespace": "Пространство имён",
     "PackageClosedLogMsg": "Закрыт пакет \"%s\"",
     "PackageOpenedEditLogMsg": "Открыт пакет \"%s\" в режиме редактирования",
     "PackageOpenedReadLogMsg": "Открыт пакет \"%s\" в режиме только для чтения",
     "PackageSavedLogMsg": "Сохранён пакет \"%s\"",
     "ProcessCaptionFormat": "%s. %s",
+    "PublishedPackageAdded": "Опубликован пакет \"%s\"",
+    "PublishedPackageRemoved": "Завершена публикация пакета \"%s\"",
+    "PublishedPackagesAutoUpdate": "Выполнено автоматическое обновление публикации пакетов",
+    "PublishedPackageUpdated": "Обновлена публикация пакета \"%s\"",
+    "ServerIsInMaintenance": "Сервер находится в режиме обслуживания",
     "ServerStartLogMsg": "%s запущен",
     "SessionBatch": "Пакетная обработка",
     "SessionCloseLogMsg": "Закрыта сессия для пользователя %s",
     "SessionInitializedLogMsg": "Инициализирована сессия для пользователя %s",
     "SessionIntegrator": "Запрос из интегратора",
     "SessionInteractive": "Интерактивная сессия",
+    "UnsavedPackageClosedLogMsg": "Закрыт черновик пакета",
+    "UnsavedPackageCreatedLogMsg": "Создан черновик пакета",
     "WarnClosePackageFailed": "Не удалось закрыть пакет %s из диспетчера, возможно, сессия уже закрыта",
     "WarnCloseSessionFailed": "Не удалось закрыть сессию из диспетчера, возможно, она уже закрыта",
     "WarnSessionStopTimeout": "Не удалось остановить сессию пользователя %s в течение %d миллисекунд. Количество не завершённых процессов: %d. Список активных подпроцессов: %s. Список не запущенных подпроцессов: %s.",
@@ -4196,7 +4358,19 @@
     "FailedLoginCountLimit": "Лимит попыток ввода пароля",
     "FailedLoginTimeout": "Тайм-аут ввода пароля",
     "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
-    "IdleLockTimeout": "Тайм-аут блокировки сессии"
+    "IdleLockTimeout": "Тайм-аут блокировки сессии",
+    "Maintenance": "Режим облуживания",
+    "MaintenanceMessage": "Сообщение обслуживания",
+    "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
+    "PackagePoolSize": "Размер пула пакетов",
+    "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
+    "RAMLimitKB": "Максимум используемой памяти (КБ)",
+    "RAMLimitRatio": "Доля используемой памяти",
+    "SessionBackupDirectory": "Резервные копии сессий",
+    "StopTimeout": "Тайм-аут остановки сервера",
+    "ThreadPoolSize": "Размер пула потоков",
+    "TraceExceptions": "Трассировка исключений",
+    "UserStorageDirectory": "Личные данные пользователей"
   },
   "Studio/DeductorSessionsManager": {
     "ErrCloseSessionRestriction": "Запрещено закрывать сессию %s",
@@ -4209,6 +4383,8 @@
     "LogManagedPackageStopped": "Пакет %s остановлен из диспетчера",
     "LogManagedSessionClosed": "Сессия %s закрыта из диспетчера",
     "LogManagedSessionStopped": "Сессия %s остановлена из диспетчера",
+    "LogSendMessageToAllUsers": "Всем активным пользователям было отправлено сообщение",
+    "LogSendMessageToUser": "Пользователю было отправлено сообщение",
     "NotResolvedIP": "Не доступно",
     "PackagePoolNodeName": "Пул пакетов",
     "SharedPackagesNodeName": "Общие пакеты"
@@ -4221,14 +4397,17 @@
     "ErrApplicationModeNotAllowed": "Не разрешено подключение в режиме \"%s\"",
     "ErrCannotDeleteStandartUserGroup": "Нельзя удалить стандартную группу",
     "ErrFileStorageNotReadyYet": "Файловое хранилище пользователя пока не подготовлено",
+    "ErrGetFullName": "Не удалось получить полное имя пользователя %s",
     "ErrInvalidPasswordHashInConfig": "Файл конфигурации содержит некорректный хеш пароля",
     "ErrInvalidUserNameOrPassword": "Неверное имя пользователя или пароль",
     "ErrLastAdminChangeDenied": "Невозможно удалить или изменить единственную учетную запись администратора %s с локальной аутентификацией",
     "ErrLDAPAuthentifyDisabled": "Не поддерживается аутентификация через LDAP",
-    "ErrLDAPGetFullName": "Не удалось получить полное имя пользователя %s",
     "ErrLDAPUserNotFound": "Пользователь %s не найден в службе каталогов",
     "ErrLeadingOrTrailingWhitespaceInPassword": "Пароль не должен начинаться или заканчиваться пробелом",
+    "ErrLoginNameChanged": "Не допускается изменение имени пользователя",
     "ErrNoUsersWithAdminPrivileges": "Не существует ни одного пользователя с правами администратора",
+    "ErrOpenIDUserNotFound": "Пользователь не найден",
+    "ErrTokenUserName": "Токен не содержит имя пользователя",
     "ErrUserAlreadyDeleted": "Пользователь уже удалён",
     "ErrUserHasActiveSessions": "У пользователя %s есть активные сессии",
     "ErrUserNameConflictsWithSharedDirectory": "Имя пользователя не может совпадать с именем общей директории %s",
@@ -4242,8 +4421,9 @@
     "LogAddUser": "Добавлен пользователь %s",
     "LogDeleteGroup": "Удалена группа %s",
     "LogDeleteUser": "Удален пользователь %s",
-    "LogUserPropertySet": "Изменение учетной записи %s: %s=%s",
+    "LogUserPropertySet": "Изменение учетной записи %s",
     "ReservedUserName": "loginom",
+    "SchedulerFullAccess": "Доступ ко всем задачам в планировщике",
     "UseGlobalFileStorage": "Использование глобального файлового хранилища",
     "UserMetaDesc": "Пользователь"
   },
@@ -4266,6 +4446,33 @@
     "WSDLClient": "SOAP-запрос",
     "WSDLClientConnection": "Подключение к SOAP-сервису"
   },
+  "Studio/Scheduler": {
+    "ErrCannotStartDisabledJob": "Выполнение задачи \"%s\" запрещено",
+    "ErrHistoryCountMustNotBeNegative": "Количество записей в истории не должно быть отрицательным",
+    "ErrInvalidExceptionInfoFormat": "Информация об исключении имеет некорректный формат",
+    "ErrPeriodCountMustBePositive": "Количество периодов повтора должно быть положительным",
+    "ErrSchedulerInitException": "Возникло исключение при инициализации планировшика задач",
+    "ErrSchedulerJobAlreadyDeleted": "Задача уже удалена",
+    "ErrSchedulerJobIsNotConfiguring": "Задача не находится в состоянии конфигурирования",
+    "ErrSchedulerNotInitialized": "Инициализация планировщика задач была завершена с ошибкой",
+    "ErrSchedulerThreadException": "Возникло исключение в главном потоке планировшика задач",
+    "LogAddJob": "В планировщике создана задача \"%s\", принадлежащая пользователю %s",
+    "LogClearJobs": "В планировщике удалены все задачи",
+    "LogClearJobsOfUser": "В планировщике удалены все задачи, принадлежащие пользователю %s",
+    "LogCloneJob": "В планировщике клонирована задача \"%s\", принадлежащая пользователю %s",
+    "LogDeleteJob": "В планировщике удалена задача \"%s\", принадлежащая пользователю %s",
+    "LogEditJob": "В планировщике перенастроена задача \"%s\", принадлежащая пользователю %s",
+    "LogForceEditJob": "При перенастройке задачи \"%s\", принадлежащей пользователю %s, были принудительно перезаписаны изменения, внесённые в другой сессии",
+    "LogJobCanceled": "Задача \"%s\" отменена",
+    "LogJobError": "Задача \"%s\" завершена с ошибкой",
+    "LogJobSuccess": "Задача \"%s\" завершена успешно",
+    "LogStartJob": "Запуск задачи \"%s\"",
+    "LogStartJobSkipped": "Запуск задачи \"%s\" не выполнен. Причина: %s.",
+    "LogStartJobSkippedMaintenanceState": "сервер находится в режиме обслуживания",
+    "LogStartJobSkippedOverlappedExecution": "задача уже выполняется",
+    "SchedulerJobMetaDesc": "Задача планировщика",
+    "SchedulerJobVariableMetaDesc": "Переменная"
+  },
   "Studio/SharedDirectories": {
     "ErrSharedDirectoryAlreadyDeleted": "Общая директория уже удалена",
     "ErrSharedDirectoryNameConflictsWithUser": "Имя общей директории не может совпадать с именем пользователя %s",
@@ -4273,10 +4480,21 @@
     "ErrSharedDirectoryNameMustBeValid": "Имя общей директории может состоять из латинских букв, цифр, символов _ - . и пробела,\nно не может заканчиваться точкой или пробелом.",
     "LogAddDirectory": "Создана общая директория %s",
     "LogDeleteDirectory": "Удалена общая директория %s",
+    "LogGroupPermissionsGranted": "Выданы права доступа к общей директории %s",
+    "LogGroupPermissionsRevoked": "Отозваны права доступа к общей директории %s",
+    "LogNotFindDirectory": "Нельзя назначить права на отсутствующую общую директорию %s",
     "SharedDirectoryMetaDesc": "Общая директория"
   },
   "Studio/SocketDeductorServerSettings": {
-    "UnixSocketFileName": "loginomd"
+    "Bind": "IP адрес",
+    "PingPeriod": "Период проверки соединения с клиентом",
+    "Port": "TCP порт",
+    "SSLCertificateFile": "Имя файла сертификата",
+    "SSLPrivateKeyFile": "Имя файла закрытого ключа",
+    "UnixSocket": "Unix socket",
+    "UnixSocketFileName": "loginomd",
+    "WSPort": "WebSocket порт",
+    "WSSPort": "WebSocket SSL/TLS порт"
   },
   "Viewers/Browse/BrowseView": {
     "ErrExportBusy": "Нельзя экспортировать таблицу во время изменения данных",
@@ -4411,13 +4629,15 @@
   "Viewers/Cube/CubeView": {
     "CubeViewProcess": "Куб",
     "DetailingProcessCaption": "Куб. %s по ячейке [%d, %d]",
+    "ErrAllChartsCreated": "Нельзя создать более 3-х диаграмм в Кубе",
     "ErrAlreadyExporting": "Нельзя экспортировать кросс-таблицу, пока не будет завершен текущий экспорт",
     "ErrExportCubeClosed": "Нельзя экспортировать кросс-таблицу, когда Куб не активен",
     "ErrExportDeactivate": "Экспорт прерван из-за деактивации узла",
     "ErrPhantomCaseBracketsOpened": "Нельзя начать создание временного факта, пока не удален существующий временный факт",
     "ErrSortCountExceeded": "Число отсортированных колонок не может превышать %d",
     "IncLoadMatrixNotify": "Инкрементный расчет фактов",
-    "LoadMatrixNotify": "Расчет фактов"
+    "LoadMatrixNotify": "Расчет фактов",
+    "WarnChartOverflow": "При загрузке конфигурации проигнорировано %d диаграмм из-за достижения ограничения: максимум %d диаграмм"
   },
   "Viewers/Cube/CubeViewVendor": {
     "VendorCaption": "Куб",

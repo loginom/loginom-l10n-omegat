@@ -2,6 +2,7 @@
   "Integrator/Program": {
     "ErrInitializationException": "При инициализации сервиса возникло исключение",
     "StartingService": "Запуск сервиса, версия: {0}",
+    "StoppedService": "Сервис остановлен",
     "StoppingService": "Остановка сервиса"
   },
   "IntegratorCore/ConfigurationSections": {
@@ -53,6 +54,7 @@
     "ConnectedToServer": "Выполнено подключение к серверу {0}",
     "DeletedPublishedPackage": "На сервере {0} удален опубликованный пакет \"{1}\" версии \"{2}\"",
     "ErrAddressOrUnixSocketIsRequired": "Атрибут address или unixsocket должен быть определен",
+    "ErrCancelExecuteNodeFailure": "Не удалось отменить обработку пакета \"{0}\", выполнение узла с идентификатором {1}",
     "ErrCannotAddPublishedPackage": "Пакет \"{1}\" версии \"{2}\", принадлежащий серверу {0}, не может быть опубликован: {3}",
     "ErrCannotConnectToServer": "Не удалось подключиться к серверу {0}",
     "ErrConnectionFailure": "Потеряно соединение с сервером {0}",

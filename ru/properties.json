@@ -449,12 +449,15 @@
   },
   "components/sorting": {
     "SortingEngine": {
-      "BufferWhole": "Кэшировать все данные"
+      "BufferWhole": "Кэшировать все данные",
+      "LocaleAware": "Сравнивать с учётом локали"
     }
   },
   "components/treetodata": {
     "TreeToDataEngine": {
-      "CompositeColumnNames": "Генерировать составные метки полей",
+      "CompositeColumnDisplayNames": "Составные метки полей",
+      "CompositeColumnNames": "Составные имена полей",
+      "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "RepeatParentNodeValues": "Дублировать значения родительских узлов"
     }
   },
@@ -484,18 +487,21 @@
   },
   "components/wsdlclient": {
     "WSDLClient": {
-      "CompositeColumnNames": "Генерировать составные метки полей",
+      "CompositeColumnDisplayNames": "Составные метки полей",
+      "CompositeColumnNames": "Составные имена полей",
+      "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "IgnoreAbsentValues": "Разрешить пропуск обязательных полей",
       "ProduceRawOutput": "Выдавать \"сырой\" ответ сервера",
       "RepeatUniqueValues": "Дублировать единичные значения",
       "RequestConfigurator": "Настройки экспорта данных запроса",
-      "StrictValidation": "Проверять на строгое соответствие XSD",
+      "StrictValidation": "Проверять на соответствие XSD",
       "TimeZone": "Временная зона по умолчанию"
     }
   },
   "exports/database": {
     "DBExport": {
       "ExportType": "Тип экспорта",
+      "MaxParamSets": "Число строк в пачке",
       "RecordCountForCommit": "Периодичность фиксации транзакции (строк)",
       "SilentActivation": "Игнорировать ошибки",
       "TableName": "Имя таблицы"
@@ -578,6 +584,7 @@
       "AllRows": "До последней строки",
       "BlankRowAction": "Пустые строки",
       "ExplicitRange": "Диапазон",
+      "FileInfoColumnsType": "Информация о файле",
       "ReferenceStyle": "Стиль ссылок",
       "TableName": "Имя объекта",
       "TableNamingMethod": "Выбор объекта",
@@ -608,6 +615,7 @@
       "DateSeparator": "Разделитель даты",
       "DecimalSeparator": "Десятичный разделитель",
       "DelimiterChar": "Разделитель столбцов",
+      "FileInfoColumnsType": "Информация о файле",
       "FirstLineAsTitle": "Заголовок в первой строке",
       "MultipleDelimiters": "Считать последовательные разделители одним",
       "RowsToSkip": "Пропустить строк",
@@ -633,7 +641,9 @@
   },
   "Libraries/1CConnection/1Cv8Connection": {
     "1Cv8ConnectionConfigurator": {
-      "PlatformVersion": "Версия платформы"
+      "PlatformVersion": "Версия платформы",
+      "PoolCapacity": "Размер",
+      "PoolTimeout": "Тайм-аут (с)"
     }
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
@@ -655,6 +665,7 @@
       "DatabasePath": "Строка подключения",
       "Direct": "Не использовать клиент СУБД",
       "LockTimeout": "Тайм-аут блокировки (с)",
+      "LoginPrompt": "Спрашивать пароль",
       "Password": "Пароль",
       "QuotedObjectNames": "Обрамлять имена кавычками",
       "SystemTables": "Показывать системные таблицы",
@@ -810,10 +821,12 @@
   },
   "Libraries/ImportXMLConfigurator/ImportXMLConfigurator": {
     "ImportXMLConfigurator": {
-      "CompositeColumnNames": "Генерировать составные метки полей",
+      "CompositeColumnDisplayNames": "Составные метки полей",
+      "CompositeColumnNames": "Составные имена полей",
+      "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "IgnoreAbsentValues": "Разрешить пропуск обязательных полей",
       "RepeatUniqueValues": "Дублировать единичные значения",
-      "StrictValidation": "Проверять на строгое соответствие XSD",
+      "StrictValidation": "Проверять на соответствие XSD",
       "TimeZone": "Временная зона по умолчанию"
     }
   },
@@ -855,7 +868,8 @@
     },
     "LoggerConfigurator": {
       "LoggerType": "Тип логирования",
-      "NeedDN": "Разрешать доменные имена"
+      "NeedDN": "Разрешать доменные имена",
+      "NeedPackageName": "Логировать имя пакета у узла"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Количество резервных файлов",
@@ -873,6 +887,28 @@
     "NormalDataSourceModelComponentEngine": {
       "AllowMissingValues": "Разрешить пропущенные значения",
       "LearnPartition": "Разбиение данных компонента с обучением"
+    }
+  },
+  "Libraries/OpenID/OpenID": {
+    "OpenIDConfigurator": {
+      "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
+      "AuthEndpoint": "URL запроса аутентификации",
+      "AutoGetToken": "Автоматическое получения токена",
+      "ClaimsToVariables": "Клеймы извлекаемые в переменные",
+      "DefaultUserRole": "Роль нового пользователя",
+      "FoldersClaim": "Клейм списка общих папок",
+      "OpenIDClient": "Идентификатор клиента",
+      "OpenIDProviderName": "Метка сервиса",
+      "OpenIDScope": "Область видимости",
+      "OpenIDSecret": "Ключ клиента",
+      "RedirectURI": "Адрес получателя токена",
+      "RolesClaim": "Клейм списка ролей пользователя",
+      "TokenEndpoint": "URL запроса токена",
+      "UpdateUserRole": "Обновлять роль пользователя",
+      "UserFullNameClaim": "Клейм полного имени пользователя",
+      "UserInfoEndpoint": "URL запроса информации о пользователе",
+      "UserNameClaim": "Клейм имени пользователя",
+      "UserRoleNameMap": "Список ролей"
     }
   },
   "Libraries/Regression/Regression": {
@@ -956,7 +992,9 @@
       "FailedLoginTimeout": "Тайм-аут ввода пароля",
       "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
       "IdleLockTimeout": "Тайм-аут блокировки сессии",
+      "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
       "PackagePoolSize": "Размер пула пакетов",
+      "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
       "RAMLimitKB": "Максимум используемой памяти (КБ)",
       "RAMLimitRatio": "Доля используемой памяти",
       "SessionBackupDirectory": "Директория, содержащая резервные копии сессий",
