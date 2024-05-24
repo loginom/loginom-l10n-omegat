@@ -895,7 +895,7 @@
       "AuthEndpoint": "URL запроса аутентификации",
       "AutoGetToken": "Автоматическое получения токена",
       "ClaimsToVariables": "Клеймы извлекаемые в переменные",
-      "DefaultUserRole": "Роль нового пользователя",
+      "DefaultUserRole": "New user role",
       "FoldersClaim": "Клейм списка общих папок",
       "OpenIDClient": "Идентификатор клиента",
       "OpenIDProviderName": "Метка сервиса",

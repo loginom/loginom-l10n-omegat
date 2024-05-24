@@ -71,17 +71,17 @@
     },
     "AddHour": {
       "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
-      "Description": "AddHour(Дата, Количество)",
+      "Description": "AddHour(Date, Number)",
       "Output": "Функция возвращает значение аргумента Дата, увеличенного на указанное Количество часов. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество часов раньше указанной даты."
     },
     "AddMillisecond": {
       "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
-      "Description": "AddMillisecond(Дата, Количество)",
+      "Description": "AddMillisecond(Date, Number)",
       "Output": "Функция возвращает значение аргумента Дата, увеличенного на указанное Количество миллисекунд. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество миллисекунд раньше указанной даты."
     },
     "AddMinute": {
       "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
-      "Description": "AddMinute(Дата, Количество)",
+      "Description": "AddMinute(Date, Number)",
       "Output": "Функция возвращает значение аргумента Дата, увеличенного на указанное Количество минут. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество минут раньше указанной даты."
     },
     "AddMonth": {
@@ -96,7 +96,7 @@
     },
     "AddSecond": {
       "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
-      "Description": "AddSecond(Дата, Количество)",
+      "Description": "AddSecond(Date, Number)",
       "Output": "Функция возвращает значение аргумента Дата, увеличенного на указанное Количество секунд. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество секунд раньше указанной даты."
     },
     "AddWeek": {
@@ -221,7 +221,7 @@
     },
     "Div": {
       "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression.",
-      "Description": "Div(Делимое, Делитель)",
+      "Description": "Div(Dividend, Divisor)",
       "Output": "Возвращает частное целочисленного деления Делимого на Делитель."
     },
     "EncodeDate": {
@@ -241,22 +241,22 @@
     },
     "EndOfTheMonth": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "EndOfTheMonth(Дата)",
+      "Description": "EndOfTheMonth(Date)",
       "Output": "Функция возвращает дату и время окончания месяца, указанного в Дата"
     },
     "EndOfTheQuarter": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "EndOfTheQuarter(Дата)",
+      "Description": "EndOfTheQuarter(Date)",
       "Output": "Функция возвращает дату и время окончания квартала, к которому относится указанная Дата"
     },
     "EndOfTheWeek": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "EndOfTheWeek(Дата)",
+      "Description": "EndOfTheWeek(Date)",
       "Output": "Функция возвращает дату и время окончания указанной недели в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем."
     },
     "EndOfTheYear": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "EndOfTheYear(Дата)",
+      "Description": "EndOfTheYear(Date)",
       "Output": "Функция возвращает дату и время окончания года, указанного в Дата"
     },
     "Exp": {
@@ -511,12 +511,12 @@
     },
     "StartOfTheMonth": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "StartOfTheMonth(Дата)",
+      "Description": "StartOfTheMonth(Date)",
       "Output": "Функция возвращает дату начала месяца, указанного в Дата"
     },
     "StartOfTheQuarter": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "StartOfTheQuarter(Дата)",
+      "Description": "StartOfTheQuarter(Date)",
       "Output": "Функция возвращает дату начала квартала, к которому относится указанная Дата"
     },
     "StartOfTheWeek": {
@@ -526,7 +526,7 @@
     },
     "StartOfTheYear": {
       "Arguments": "Date - argument of the Date\/Time type.",
-      "Description": "StartOfTheYear(Дата)",
+      "Description": "StartOfTheYear(Date)",
       "Output": "Функция возвращает дату начала года, указанного в Дата"
     },
     "StdDev": {

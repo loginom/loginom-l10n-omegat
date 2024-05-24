@@ -65,16 +65,16 @@
       "tooltip": "Редактировать клейм"
     },
     "btnMoveDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnMoveUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move up"
     },
     "colClaim": {
       "text": "Клеймы"
     },
     "colDelete": {
-      "tooltip": "Удалить все"
+      "tooltip": "Delete all"
     },
     "colDelete.0": {
       "tooltip": "Delete"
@@ -326,7 +326,7 @@
       "text": "Home"
     },
     "btnLock": {
-      "text": "Заблокировать"
+      "text": "Lock"
     },
     "btnLogOut": {
       "text": "Log Out"
@@ -427,13 +427,13 @@
       "text": "Cancel"
     },
     "edtDatabasePath": {
-      "fieldLabel": "Строка подключения"
+      "fieldLabel": "Connection string"
     },
     "edtDatabaseTag": {
       "fieldLabel": "Connection"
     },
     "edtLogin": {
-      "fieldLabel": "Логин"
+      "fieldLabel": "Username"
     },
     "edtPassword": {
       "emptyText": "••••••••",
@@ -540,12 +540,12 @@
       "tooltip": "Processes"
     },
     "btnScheduler": {
-      "text": "Планировщик",
-      "tooltip": "Планировщик"
+      "text": "Scheduler",
+      "tooltip": "Scheduler"
     },
     "btnWebService": {
-      "text": "Веб-сервисы",
-      "tooltip": "Веб-сервисы"
+      "text": "Web services",
+      "tooltip": "Web services"
     }
   },
   "app/MainMenuForm": {
@@ -974,7 +974,7 @@
     },
     "btnPublish": {
       "text": "Publish",
-      "tooltip": "Опубликовать..."
+      "tooltip": "Publish..."
     },
     "btnSave": {
       "text": "Save",
@@ -1202,7 +1202,7 @@
       "text": "Номер сессии"
     },
     "colActiveStartTime": {
-      "text": "Начало"
+      "text": "Start"
     },
     "colPercentCompleted": {
       "text": "%"
@@ -1222,7 +1222,7 @@
   },
   "app/scheduler/GridNodeSelector": {
     "colDisplayName": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colGuid": {
       "menuText": "Guid",
@@ -1241,10 +1241,10 @@
       "tooltip": "Add..."
     },
     "btnApril": {
-      "text": "Апрель"
+      "text": "April"
     },
     "btnAugust": {
-      "text": "Август"
+      "text": "August"
     },
     "btnDay1": {
       "text": "1"
@@ -1340,7 +1340,7 @@
       "text": "9"
     },
     "btnDecember": {
-      "text": "Декабрь"
+      "text": "December"
     },
     "btnDelete": {
       "tooltip": "Delete selected"
@@ -1355,46 +1355,46 @@
       "tooltip": "Edit..."
     },
     "btnFebruary": {
-      "text": "Февраль"
+      "text": "February"
     },
     "btnFriday": {
-      "text": "Пт"
+      "text": "Fr"
     },
     "btnJanuary": {
-      "text": "Январь"
+      "text": "January"
     },
     "btnJuly": {
-      "text": "Июль"
+      "text": "July"
     },
     "btnJune": {
-      "text": "Июнь"
+      "text": "June"
     },
     "btnLastDayOfMonth": {
       "text": "Last day"
     },
     "btnMarch": {
-      "text": "Март"
+      "text": "March"
     },
     "btnMay": {
-      "text": "Май"
+      "text": "May"
     },
     "btnMonday": {
-      "text": "Пн"
+      "text": "Mo"
     },
     "btnMoveVariableDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnMoveVariableUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move up"
     },
     "btnNovember": {
-      "text": "Ноябрь"
+      "text": "November"
     },
     "btnOctober": {
-      "text": "Октябрь"
+      "text": "October"
     },
     "btnSaturday": {
-      "text": "Сб"
+      "text": "Sa"
     },
     "btnSelectAllDays": {
       "text": "Check all"
@@ -1403,19 +1403,19 @@
       "text": "Check all"
     },
     "btnSeptember": {
-      "text": "Сентябрь"
+      "text": "September"
     },
     "btnSunday": {
-      "text": "Вс"
+      "text": "Su"
     },
     "btnThursday": {
-      "text": "Чт"
+      "text": "Th"
     },
     "btnTuesday": {
-      "text": "Вт"
+      "text": "Tu"
     },
     "btnWednesday": {
-      "text": "Ср"
+      "text": "We"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Запускаемый пакет"
@@ -1451,7 +1451,7 @@
       "text": "Value"
     },
     "edtCaption": {
-      "fieldLabel": "Метка"
+      "fieldLabel": "Caption"
     },
     "edtDescription": {
       "fieldLabel": "Description"
@@ -1518,10 +1518,10 @@
       "text": "Номер сессии"
     },
     "colLogStartTime": {
-      "text": "Начало"
+      "text": "Start"
     },
     "colStatus": {
-      "text": "Статус"
+      "text": "Status"
     }
   },
   "app/scheduler/NodeSelector": {
@@ -1576,7 +1576,7 @@
       "tooltip": "Остановить все сессии..."
     },
     "colCaption": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colDelete": {
       "tooltip": "Delete all..."
@@ -1620,7 +1620,7 @@
   },
   "app/scheduler/TreeNodeSelector": {
     "colTreeDisplayName": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colTreeGuid": {
       "menuText": "Guid",
@@ -2027,7 +2027,7 @@
       "text": "Cancel"
     },
     "cbxDataType": {
-      "fieldLabel": "Тип данных"
+      "fieldLabel": "Data type"
     },
     "chbCached": {
       "boxLabel": " ",
@@ -2038,7 +2038,7 @@
       "fieldLabel": "Intermediate"
     },
     "edtDisplayName": {
-      "fieldLabel": "Метка"
+      "fieldLabel": "Caption"
     },
     "edtName": {
       "fieldLabel": "Name"
@@ -2094,13 +2094,13 @@
       "text": "Variables"
     },
     "colDisplayName": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colName": {
       "text": "Name"
     },
     "colVarDisplayName": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colVarName": {
       "text": "Name"
@@ -2114,7 +2114,7 @@
   },
   "components/calctree/CalcTreePreviewForm": {
     "colTreeNode": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colTreeNodeName": {
       "text": "Name"
@@ -3601,7 +3601,7 @@
       "text": "Field type"
     },
     "fldTableName": {
-      "fieldLabel": "Имя таблицы"
+      "fieldLabel": "Table name"
     },
     "frmDBCreateTableDialog": {
       "title": "Create New Table"
@@ -3981,7 +3981,7 @@
     },
     "btnPublish": {
       "text": "Publish",
-      "tooltip": "Опубликовать..."
+      "tooltip": "Publish..."
     },
     "btnRefresh": {
       "tooltip": "Refresh list"
@@ -4205,7 +4205,7 @@
       "fieldLabel": "Connection"
     },
     "frmFilterDataWizard": {
-      "title": "Фильтрация данных"
+      "title": "Data Filter"
     }
   },
   "imports/dbimport/DBImportWizard": {
@@ -5478,7 +5478,7 @@
       "text": "Вправо"
     },
     "mniMoveUp": {
-      "text": "Вверх"
+      "text": "Up"
     },
     "mniShowSubLevels": {
       "text": "All levels"
@@ -7056,11 +7056,11 @@
       "tooltip": "Move up"
     },
     "btnSortAsc": {
-      "text": "По возрастанию",
+      "text": "Ascending",
       "tooltip": "Sort ascending"
     },
     "btnSortDesc": {
-      "text": "По убыванию",
+      "text": "Descending",
       "tooltip": "Sort descending"
     },
     "btnUniqueValues": {

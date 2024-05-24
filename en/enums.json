@@ -1325,7 +1325,7 @@
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "FileInfoColumnsType": {
       "$Caption": "Информация о файле",
-      "None": "Нет",
+      "None": "None",
       "Name": "File name",
       "RelativePath": "Относительный путь",
       "AbsolutePath": "Абсолютный путь",
@@ -1500,8 +1500,8 @@
       "SchedulerFullAccess": "Доступ ко всем задачам в планировщике"
     },
     "OpenIDUserRole": {
-      "$Caption": "Роль нового пользователя",
-      "None": "Отсутствует",
+      "$Caption": "New User Role",
+      "None": "None",
       "Designer": "Workflows design",
       "Viewer": "View reports"
     }

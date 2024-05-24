@@ -31,7 +31,7 @@
     "AuthEndpoint": "URL точки аутентификации",
     "AutoGetToken": "Автоматическое получение токена",
     "ClaimsToVariables": "Клеймы извлекаемые в переменные",
-    "DefaultUserRole": "Роль нового пользователя",
+    "DefaultUserRole": "New user role",
     "FoldersClaim": "Клейм списка общих папок",
     "NoClaimsToVariables": "Нет извлекаемых клеймов",
     "NoFoldersClaim": "Нет назначения прав на папки",
@@ -169,11 +169,11 @@
   "app/AddPackageLinkForm": {
     "ErrAddPackageLinkErrors": "Errors occurred while adding reference to package.",
     "ErrPathNotSpecified": "Path to the package file is not specified.",
-    "PackageNotSaved": "Пакет не сохранён",
+    "PackageNotSaved": "Package not saved",
     "ReadOnlyPackageNamePostfix": " (read-only)"
   },
   "app/Application": {
-    "MsgAppClose": "Приложение закрывается. Текущий сеанс работы и все несохранённые данные будут потеряны.",
+    "MsgAppClose": "The application is closing. The current session and all unsaved changes will be lost.",
     "NotifyMsgFromAdminTitle": "Сообщение от Администратора"
   },
   "app/AppMenuForm": {
@@ -230,7 +230,7 @@
     "ErrAccessDenied": "Access denied",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: \"{1}\".",
     "ErrPackageDontExists": "\"{0}\" package not found",
-    "ErrPackageNotSaved": "Текущий пакет не сохранён",
+    "ErrPackageNotSaved": "Current package not saved",
     "ErrUrlPathNotFound": "\"{0}\" path not found",
     "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
@@ -278,7 +278,7 @@
     "ReadOnlyPackageNamePostfix": " (read-only)",
     "References": "References",
     "Reports": "Reports",
-    "Scheduler": "Планировщик",
+    "Scheduler": "Scheduler",
     "ServiceInputPorts": "Service input ports",
     "ServiceOutputPorts": "Service output ports",
     "SharedDirectories": "Shared folders",
@@ -527,8 +527,8 @@
     "PeriodTypeMonth": "months",
     "PeriodTypeSecond": "секунд",
     "PeriodTypeWeek": "weeks",
-    "StartDay": "1",
-    "VariablesTitleFmt": "Переменные ({0})"
+    "StartDay": "0",
+    "VariablesTitleFmt": "Variables ({0})"
   },
   "app/scheduler/JobVariableEditor": {
     "ErrorInvalidNameFmt": "Значение имени переменной \"{0}\" не является правильным идентификатором",
@@ -577,7 +577,7 @@
     "WhateverEditJobWindowApplyText": "Save Whatever"
   },
   "app/scheduler/SchedulerUtils": {
-    "MaximizeTooltip": "Развернуть",
+    "MaximizeTooltip": "Maximize",
     "RestoreTooltip": "Свернуть в окно"
   },
   "app/scheduler/TreeNodeSelector": {
@@ -608,7 +608,7 @@
   },
   "app/VendorsListForm": {
     "BaseNodeHeader": "Base Node",
-    "BaseNodeIsMissing": "Отсутствует",
+    "BaseNodeIsMissing": "Missing",
     "BaseNodeTooltip": "Reference to base node",
     "Delete": "Delete",
     "DeleteTooltip": "Delete...",
@@ -788,7 +788,7 @@
     "CalculateInformationValuesApplyText": "Calculate",
     "CalculateInformationValuesTitle": "Calculate",
     "ChangeColumnPurposeToInput": "'{0}' field is locked due to usage of the external or locked binning. Do you want to unlock and continue?",
-    "CurrentBinningNotSaved": "Текущее разбиение содержит несохранённые изменения",
+    "CurrentBinningNotSaved": "Current binning contains unsaved changes",
     "LockAll": "Lock all",
     "LockSelected": "Lock selected",
     "SplitClass": "Bound split",
@@ -2057,7 +2057,7 @@
     "CycleLinksForbiden": "Cyclic references are not possible"
   },
   "mxgraph/link/LinkLabel": {
-    "DefaultLabelValue": "Метка"
+    "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
     "CommentBtn": "Show\/Hide Comment",
@@ -2112,7 +2112,7 @@
     "ItemCountOnDemand": "Количество недоступно",
     "NoAutoMapping": "Автосинхронизация отключена",
     "OptionalPortParam": "Optional port",
-    "RequiredPortParam": "Обязательный порт"
+    "RequiredPortParam": "Required port"
   },
   "mxgraph/port/PortAbstract": {
     "CONNECTION": "Connection",
@@ -2410,7 +2410,7 @@
     "ChartCaseEmptyText": "No measures",
     "ChartCaseManyText": "Measures ({0})",
     "ChartYAxisTitle": "Measures",
-    "DotsOutOfBoundsMsg": "Превышение ограничений диаграммы.\nТекущее кол-во точек: {0}.\nМаксимальное кол-во точек: {1}.",
+    "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}.",
     "EditColor": "Change color...",
     "EditTitleWindow": "Редактирование заголовка диаграммы",
     "EmptyChart": "No measures to display",
