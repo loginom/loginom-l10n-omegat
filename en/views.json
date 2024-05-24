@@ -1,7 +1,7 @@
 {
   "about/About": {
     "btnBugReport": {
-      "href": "https://loginom.com/company/feedback?type=2",
+      "href": "https:\/\/loginom.com\/company\/feedback?type=2",
       "text": "Report a problem"
     },
     "btnLicenseAgreement": {
@@ -14,7 +14,7 @@
       "text": "Open Source Software"
     },
     "btnWhatsNew": {
-      "href": "https://loginom.com/tags/release-notes/",
+      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
       "text": "What's new?"
     },
     "frmAbout": {
@@ -46,6 +46,9 @@
     }
   },
   "admin/ClaimsToVariablesForm": {
+    "btnAdd": {
+      "tooltip": "Добавить клейм"
+    },
     "btnApply": {
       "text": "Apply"
     },
@@ -58,17 +61,26 @@
     "btnDeleteAll": {
       "tooltip": "Delete all..."
     },
+    "btnEdit": {
+      "tooltip": "Редактировать клейм"
+    },
     "btnMoveDown": {
-      "tooltip.NOTE": "Имеющиеся переводы:\nMove down\nMove Down"
+      "tooltip": "Переместить вниз"
     },
     "btnMoveUp": {
-      "tooltip.NOTE": "Имеющиеся переводы:\nMove up\nMove Up"
+      "tooltip": "Переместить вверх"
+    },
+    "colClaim": {
+      "text": "Клеймы"
     },
     "colDelete": {
-      "tooltip.NOTE": "Имеющиеся переводы:\nDelete all\nDelete All"
+      "tooltip": "Удалить все"
     },
     "colDelete.0": {
       "tooltip": "Delete"
+    },
+    "frmClaimsToVariablesForm": {
+      "title": "Список переменных взятых из токена"
     }
   },
   "admin/RoleMapingForm": {
@@ -77,6 +89,15 @@
     },
     "btnCancel": {
       "text": "Cancel"
+    },
+    "colName": {
+      "text": "Роль или право в приложении"
+    },
+    "colValue": {
+      "text": "Роль в токене"
+    },
+    "frmRoleMapingForm": {
+      "title": "Сопоставление ролей пользователя"
     }
   },
   "admin/ServerSettingsForm": {
@@ -107,6 +128,9 @@
       "text": "Close",
       "tooltip": "Close session or package"
     },
+    "btnMaintenance": {
+      "tooltip": "Ввод\/Вывод сервера из режима обслуживания..."
+    },
     "btnRefresh": {
       "text": "Refresh",
       "tooltip": "Refresh"
@@ -118,6 +142,13 @@
     "btnSearch": {
       "text": "Search",
       "tooltip": "Find session or package"
+    },
+    "btnSendMessage": {
+      "text": "Отправить сообщение",
+      "tooltip": "Отправить сообщение пользователю..."
+    },
+    "btnSendMessageToAll": {
+      "tooltip": "Отправить сообщение всем активным пользователям..."
     },
     "btnStop": {
       "text": "Stop",
@@ -239,6 +270,9 @@
     "chkRunner": {
       "boxLabel": "Batch processing"
     },
+    "chkSchedulerFullAccess": {
+      "boxLabel": "Доступ ко всем задачам в планировщике"
+    },
     "chkViewer": {
       "boxLabel": "View reports"
     },
@@ -282,6 +316,9 @@
     "btnAbout": {
       "text": "About"
     },
+    "btnAppearance": {
+      "text": "Внешний вид"
+    },
     "btnHelp": {
       "text": "Help"
     },
@@ -289,7 +326,7 @@
       "text": "Home"
     },
     "btnLock": {
-      "text.NOTE": "Старый исходник:\nЗаблокировать (Ctrl+Alt+L)\n\nСтарый перевод:\nLock (Ctrl+Alt+L)"
+      "text": "Заблокировать"
     },
     "btnLogOut": {
       "text": "Log Out"
@@ -299,6 +336,9 @@
     },
     "btnQuit": {
       "text": "Close"
+    },
+    "mniFullScreen": {
+      "text": "Полный экран"
     },
     "mniZoomIn": {
       "text": "Zoom in"
@@ -380,19 +420,23 @@
     }
   },
   "app/DBLoginPromptForm": {
+    "btnApply": {
+      "text": "Подключиться"
+    },
     "btnCancel": {
       "text": "Cancel"
     },
     "edtDatabasePath": {
-      "fieldLabel.NOTE": "Имеющиеся переводы:\nConnection string\nConnection String"
+      "fieldLabel": "Строка подключения"
     },
     "edtDatabaseTag": {
       "fieldLabel": "Connection"
     },
     "edtLogin": {
-      "fieldLabel.NOTE": "Имеющиеся переводы:\nLogin\nUsername"
+      "fieldLabel": "Логин"
     },
     "edtPassword": {
+      "emptyText": "••••••••",
       "fieldLabel": "Password"
     },
     "frmDatabaseLogin": {
@@ -451,7 +495,7 @@
       "tooltip": "Set up..."
     },
     "btnShowDescription": {
-      "tooltip": "Show/hide property inspector"
+      "tooltip": "Show\/hide property inspector"
     },
     "btnTable": {
       "tooltip": "Table"
@@ -495,9 +539,13 @@
       "text": "Processes",
       "tooltip": "Processes"
     },
+    "btnScheduler": {
+      "text": "Планировщик",
+      "tooltip": "Планировщик"
+    },
     "btnWebService": {
-      "text.NOTE": "Имеющиеся переводы:\nWeb services\nWeb Services",
-      "tooltip.NOTE": "Имеющиеся переводы:\nWeb services\nWeb Services"
+      "text": "Веб-сервисы",
+      "tooltip": "Веб-сервисы"
     }
   },
   "app/MainMenuForm": {
@@ -533,6 +581,12 @@
     "btnAddNode": {
       "tooltip": "Add"
     },
+    "btnAddSchedulerJob": {
+      "tooltip": "Добавить задачу в планировщик..."
+    },
+    "btnAddSchedulerJobByNode": {
+      "tooltip": "Добавить задачу в планировщик..."
+    },
     "btnClosePackage": {
       "tooltip": "Close package"
     },
@@ -552,7 +606,7 @@
       "tooltip": "Expand"
     },
     "btnExpandToNodes": {
-      "tooltip": "Expand/collapse to nodes"
+      "tooltip": "Expand\/collapse to nodes"
     },
     "btnFindNode": {
       "tooltip": "Find node..."
@@ -564,7 +618,7 @@
       "tooltip": "Delete node..."
     },
     "btnSetNodeActive": {
-      "tooltip": "Open/close node"
+      "tooltip": "Open\/close node"
     },
     "btnShow": {
       "tooltip": "Open"
@@ -599,7 +653,7 @@
       "tooltip": "Clone node"
     },
     "btnComposeExpandGenericModel": {
-      "tooltip": "Collapse nodes into supernode / Expand supernode"
+      "tooltip": "Collapse nodes into supernode \/ Expand supernode"
     },
     "btnCopy": {
       "tooltip": "Copy"
@@ -609,6 +663,9 @@
     },
     "btnCut": {
       "tooltip": "Cut"
+    },
+    "btnDeactivateAll": {
+      "tooltip": "Деактивировать все"
     },
     "btnDeriveModelNode": {
       "tooltip": "Create derived component ..."
@@ -642,6 +699,9 @@
     "btnRetrain": {
       "tooltip": "Retrain node"
     },
+    "btnSettingComponents": {
+      "tooltip": "Настроить панель"
+    },
     "btnSetup": {
       "tooltip": "Configure node..."
     },
@@ -655,7 +715,10 @@
       "tooltip": "Show source nodes for Reference Nodes"
     },
     "btnShowVendors": {
-      "tooltip": "Show/hide component panel"
+      "tooltip": "Show\/hide component panel"
+    },
+    "btnSocketItemCountToggle": {
+      "tooltip": "Показывать количество на выходных портах"
     },
     "btnStyle0": {
       "text": "Abc"
@@ -730,10 +793,13 @@
       "tooltip": "Run node"
     },
     "btnTogglePropInspector": {
-      "tooltip": "Show/hide property inspector"
+      "tooltip": "Show\/hide property inspector"
     },
     "btnWorkFlow": {
       "tooltip": "Show as workflow"
+    },
+    "mniAddLinkLabel": {
+      "text": "Добавить метку..."
     },
     "mniAddNewNode": {
       "text": "Add node to workflow"
@@ -753,8 +819,20 @@
     "mniAnnotationPaste": {
       "text": "Paste"
     },
+    "mniCollapseAllGroups": {
+      "text": "Свернуть группы"
+    },
     "mniDeleteLink": {
       "text": "Delete link..."
+    },
+    "mniEditLinkLabel": {
+      "text": "Редактировать метку..."
+    },
+    "mniExpandAllGroups": {
+      "text": "Развернуть группы"
+    },
+    "mniFrequentlyUsedVisibility": {
+      "text": "Часто используемые"
     },
     "mniHorizontalAlignBottom": {
       "text": "Align bottom",
@@ -770,6 +848,12 @@
     },
     "mniRemoveFromFavorite": {
       "text": "Remove from favorite"
+    },
+    "mniRemoveFromFrequentlyUsed": {
+      "text": "Убрать из часто используемых"
+    },
+    "mniRemoveLinkLabel": {
+      "text": "Удалить метку"
     },
     "mniStyle": {
       "text": "Style"
@@ -860,6 +944,10 @@
     }
   },
   "app/PackagesListForm": {
+    "btnAddSchedulerJob": {
+      "text": "Добавить задачу в планировщик...",
+      "tooltip": "Добавить задачу в планировщик..."
+    },
     "btnAutoSave": {
       "text": "Auto save",
       "tooltip": "Configure packages auto save..."
@@ -886,7 +974,7 @@
     },
     "btnPublish": {
       "text": "Publish",
-      "tooltip.NOTE": "Старый исходник:\nОпубликовать\n\nСтарый перевод:\nPublish"
+      "tooltip": "Опубликовать..."
     },
     "btnSave": {
       "text": "Save",
@@ -1082,7 +1170,7 @@
       "text": "Change date"
     },
     "colLabel": {
-      "text": "Path / Caption"
+      "text": "Path \/ Caption"
     },
     "colName": {
       "text": "Name"
@@ -1104,19 +1192,41 @@
     }
   },
   "app/scheduler/ActiveSessions": {
+    "colActiveJobCaption": {
+      "text": "Метка задачи"
+    },
+    "colActiveProcessTime": {
+      "text": "Время выполнения"
+    },
+    "colActiveSessionID": {
+      "text": "Номер сессии"
+    },
     "colActiveStartTime": {
-      "text.NOTE": "Имеющиеся переводы:\nHome\nStart"
+      "text": "Начало"
     },
     "colPercentCompleted": {
       "text": "%"
     },
     "colProgress": {
       "text": "Processing"
+    },
+    "colStopSession": {
+      "tooltip": "Остановить все сессии..."
+    },
+    "colStopSession.0": {
+      "tooltip": "Остановить сессию"
+    },
+    "mniStopSession": {
+      "text": "Остановить сессию"
     }
   },
   "app/scheduler/GridNodeSelector": {
     "colDisplayName": {
-      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "text": "Метка"
+    },
+    "colGuid": {
+      "menuText": "Guid",
+      "text": "Guid"
     },
     "colName": {
       "menuText": "Name",
@@ -1130,26 +1240,203 @@
     "btnAddVariable": {
       "tooltip": "Add..."
     },
+    "btnApril": {
+      "text": "Апрель"
+    },
+    "btnAugust": {
+      "text": "Август"
+    },
+    "btnDay1": {
+      "text": "1"
+    },
+    "btnDay10": {
+      "text": "10"
+    },
+    "btnDay11": {
+      "text": "11"
+    },
+    "btnDay12": {
+      "text": "12"
+    },
+    "btnDay13": {
+      "text": "13"
+    },
+    "btnDay14": {
+      "text": "14"
+    },
+    "btnDay15": {
+      "text": "15"
+    },
+    "btnDay16": {
+      "text": "16"
+    },
+    "btnDay17": {
+      "text": "17"
+    },
+    "btnDay18": {
+      "text": "18"
+    },
+    "btnDay19": {
+      "text": "19"
+    },
+    "btnDay2": {
+      "text": "2"
+    },
+    "btnDay20": {
+      "text": "20"
+    },
+    "btnDay21": {
+      "text": "21"
+    },
+    "btnDay22": {
+      "text": "22"
+    },
+    "btnDay23": {
+      "text": "23"
+    },
+    "btnDay24": {
+      "text": "24"
+    },
+    "btnDay25": {
+      "text": "25"
+    },
+    "btnDay26": {
+      "text": "26"
+    },
+    "btnDay27": {
+      "text": "27"
+    },
+    "btnDay28": {
+      "text": "28"
+    },
+    "btnDay29": {
+      "text": "29"
+    },
+    "btnDay3": {
+      "text": "3"
+    },
+    "btnDay30": {
+      "text": "30"
+    },
+    "btnDay31": {
+      "text": "31"
+    },
+    "btnDay4": {
+      "text": "4"
+    },
+    "btnDay5": {
+      "text": "5"
+    },
+    "btnDay6": {
+      "text": "6"
+    },
+    "btnDay7": {
+      "text": "7"
+    },
+    "btnDay8": {
+      "text": "8"
+    },
+    "btnDay9": {
+      "text": "9"
+    },
+    "btnDecember": {
+      "text": "Декабрь"
+    },
     "btnDelete": {
       "tooltip": "Delete selected"
+    },
+    "btnDeselectAllDays": {
+      "text": "Отменить выбор"
+    },
+    "btnDeselectAllMonths": {
+      "text": "Отменить выбор"
     },
     "btnEditVariable": {
       "tooltip": "Edit..."
     },
+    "btnFebruary": {
+      "text": "Февраль"
+    },
+    "btnFriday": {
+      "text": "Пт"
+    },
+    "btnJanuary": {
+      "text": "Январь"
+    },
+    "btnJuly": {
+      "text": "Июль"
+    },
+    "btnJune": {
+      "text": "Июнь"
+    },
     "btnLastDayOfMonth": {
       "text": "Last day"
     },
+    "btnMarch": {
+      "text": "Март"
+    },
+    "btnMay": {
+      "text": "Май"
+    },
+    "btnMonday": {
+      "text": "Пн"
+    },
     "btnMoveVariableDown": {
-      "tooltip.NOTE": "Имеющиеся переводы:\nMove down\nMove Down"
+      "tooltip": "Переместить вниз"
     },
     "btnMoveVariableUp": {
-      "tooltip.NOTE": "Имеющиеся переводы:\nMove up\nMove Up"
+      "tooltip": "Переместить вверх"
+    },
+    "btnNovember": {
+      "text": "Ноябрь"
+    },
+    "btnOctober": {
+      "text": "Октябрь"
+    },
+    "btnSaturday": {
+      "text": "Сб"
     },
     "btnSelectAllDays": {
       "text": "Check all"
     },
     "btnSelectAllMonths": {
       "text": "Check all"
+    },
+    "btnSeptember": {
+      "text": "Сентябрь"
+    },
+    "btnSunday": {
+      "text": "Вс"
+    },
+    "btnThursday": {
+      "text": "Чт"
+    },
+    "btnTuesday": {
+      "text": "Вт"
+    },
+    "btnWednesday": {
+      "text": "Ср"
+    },
+    "cbxPackageFileName": {
+      "fieldLabel": "Запускаемый пакет"
+    },
+    "chkEnabled": {
+      "fieldLabel": "Разрешить выполнение"
+    },
+    "chkRepeat": {
+      "fieldLabel": "Повтор"
+    },
+    "chkSavePackage": {
+      "fieldLabel": "Сохранять пакет после переобучения"
+    },
+    "chkSkipOverlappedExecution": {
+      "fieldLabel": "Пропускать запуск при наличии активной сессии"
+    },
+    "chkStartIfMissedSchedule": {
+      "fieldLabel": "Запустить сразу если пропущен запуск"
+    },
+    "chkTeach": {
+      "fieldLabel": "Переобучать модели при запуске"
     },
     "colDeleteVariable": {
       "tooltip": "Delete all..."
@@ -1164,13 +1451,45 @@
       "text": "Value"
     },
     "edtCaption": {
-      "fieldLabel.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "fieldLabel": "Метка"
     },
     "edtDescription": {
       "fieldLabel": "Description"
     },
+    "edtEndTime": {
+      "fieldLabel": "Окончание"
+    },
+    "edtHistoryCount": {
+      "fieldLabel": "Лимит количества логов",
+      "minText": "Количество записей в истории не должно быть отрицательным"
+    },
+    "edtNodeKey": {
+      "emptyText": "Весь пакет",
+      "fieldLabel": "Запускаемый узел"
+    },
+    "edtPeriodCount": {
+      "fieldLabel": "Повтор каждые"
+    },
+    "edtStartTime": {
+      "fieldLabel": "Запуск"
+    },
     "pnlMainSetting": {
       "title": "Main"
+    },
+    "pnlMonth": {
+      "fieldLabel": "Месяцы"
+    },
+    "pnlSchedule": {
+      "title": "Расписание"
+    },
+    "pnlSetting": {
+      "title": "Параметры запуска"
+    },
+    "rbMonth": {
+      "boxLabel": "Дни месяца"
+    },
+    "rbWeek": {
+      "boxLabel": "Дни недели"
     }
   },
   "app/scheduler/JobVariableEditor": {
@@ -1186,11 +1505,30 @@
     "colErrorMessage": {
       "text": "Error"
     },
+    "colLogFinishTime": {
+      "text": "Окончание"
+    },
+    "colLogJobCaption": {
+      "text": "Метка задачи"
+    },
+    "colLogProcessTime": {
+      "text": "Время выполнения"
+    },
+    "colLogSessionID": {
+      "text": "Номер сессии"
+    },
     "colLogStartTime": {
-      "text.NOTE": "Имеющиеся переводы:\nHome\nStart"
+      "text": "Начало"
+    },
+    "colStatus": {
+      "text": "Статус"
     }
   },
   "app/scheduler/NodeSelector": {
+    "btnNamedOnly": {
+      "text": "Именованные",
+      "tooltip": "Отфильтровать узлы, у которых задано имя"
+    },
     "btnTableMode": {
       "text": "List"
     },
@@ -1217,6 +1555,10 @@
       "text": "Delete",
       "tooltip": "Delete..."
     },
+    "btnDetails": {
+      "text": "Журнал",
+      "tooltip": "Журнал"
+    },
     "btnEdit": {
       "text": "Edit",
       "tooltip": "Edit..."
@@ -1225,11 +1567,16 @@
       "text": "Refresh list",
       "tooltip": "Refresh list"
     },
+    "btnRun": {
+      "text": "Запустить",
+      "tooltip": "Запустить"
+    },
     "btnStop": {
-      "text": "Stop"
+      "text": "Stop",
+      "tooltip": "Остановить все сессии..."
     },
     "colCaption": {
-      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "text": "Метка"
     },
     "colDelete": {
       "tooltip": "Delete all..."
@@ -1237,11 +1584,29 @@
     "colDelete.0": {
       "tooltip": "Delete"
     },
+    "colLastStartTime": {
+      "text": "Предыдущий запуск"
+    },
+    "colNextStartTime": {
+      "text": "Следующий запуск"
+    },
     "colNodeKey": {
       "text": "Node"
     },
     "colPackageFileName": {
       "text": "Package"
+    },
+    "colUserName": {
+      "text": "Владелец"
+    },
+    "mniDisable": {
+      "text": "Запретить выполнение"
+    },
+    "mniEnable": {
+      "text": "Разрешить выполнение"
+    },
+    "mniGoToJob": {
+      "text": "Перейти к задаче"
     },
     "mniRevealInExplorer": {
       "text": "Show package in folder"
@@ -1255,7 +1620,11 @@
   },
   "app/scheduler/TreeNodeSelector": {
     "colTreeDisplayName": {
-      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "text": "Метка"
+    },
+    "colTreeGuid": {
+      "menuText": "Guid",
+      "text": "Guid"
     },
     "colTreeName": {
       "menuText": "Name",
@@ -1316,10 +1685,10 @@
       "tooltip": "Copy"
     },
     "txtAbsoluteUrl": {
-      "fieldLabel": "Absolute <i>(for shared use)</i>"
+      "fieldLabel": "Absolute <i>(for shared use)<\/i>"
     },
     "txtRelativeUrl": {
-      "fieldLabel": "Relative <i>(for personal use)</i>"
+      "fieldLabel": "Relative <i>(for personal use)<\/i>"
     }
   },
   "components/assnrules/AssnRulesWizard": {
@@ -1517,7 +1886,10 @@
       "tooltip": "Move down"
     },
     "btnExprEdit": {
-      "tooltip.NOTE": "Старый исходник:\nРедактировать выражение\n\nСтарый перевод:\nEdit expression"
+      "tooltip": "Редактировать параметры выражения..."
+    },
+    "btnExprGoToEditor": {
+      "tooltip": "Перейти к выражению"
     },
     "btnExprUp": {
       "tooltip": "Move up"
@@ -1534,6 +1906,21 @@
     },
     "btnFuncFilter": {
       "tooltip": "Functions filter"
+    },
+    "btnGoToExpression": {
+      "tooltip": "Перейти к выражению"
+    },
+    "btnGoToField": {
+      "tooltip": "Перейти к полю"
+    },
+    "btnInsertExprInExprAbsolute": {
+      "tooltip": "Вставить в выражение абсолютно"
+    },
+    "btnInsertExprInExprRelative": {
+      "tooltip": "Вставить в текст выражения"
+    },
+    "btnInsertInExpr": {
+      "tooltip": "Вставить в текст выражения"
     },
     "btnLess": {
       "text": "<",
@@ -1570,6 +1957,12 @@
       "text": "Preview...",
       "tooltip": "Preview..."
     },
+    "btnReplaceField": {
+      "tooltip": "Заменять поле"
+    },
+    "btnSpawnExpr": {
+      "tooltip": "Заменить вычисляемым выражением"
+    },
     "btnString": {
       "tooltip": "String"
     },
@@ -1591,7 +1984,7 @@
       "text": "Caption"
     },
     "colExpressionName": {
-      "text.NOTE": "Старый исходник:\nИмя\n\nСтарый перевод:\nName"
+      "text": "Имя выражения"
     },
     "colFieldDisplayName": {
       "text": "Caption"
@@ -1603,7 +1996,7 @@
       "text": "Value"
     },
     "frmCalcData": {
-      "title.NOTE": "Старый исходник:\nКалькулятор\n\nСтарый перевод:\nCalculator"
+      "title": "Редактирование выражений"
     },
     "grdFunc": {
       "title": "Functions List"
@@ -1634,7 +2027,7 @@
       "text": "Cancel"
     },
     "cbxDataType": {
-      "fieldLabel.NOTE": "Старый исходник:\nТип\n\nСтарый перевод:\nType"
+      "fieldLabel": "Тип данных"
     },
     "chbCached": {
       "boxLabel": " ",
@@ -1645,13 +2038,16 @@
       "fieldLabel": "Intermediate"
     },
     "edtDisplayName": {
-      "fieldLabel.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "fieldLabel": "Метка"
     },
     "edtName": {
       "fieldLabel": "Name"
     },
     "edtPath": {
       "fieldLabel": "Path"
+    },
+    "frmExprEditForm": {
+      "title": "Параметры выражения"
     },
     "txtDescription": {
       "fieldLabel": "Description"
@@ -1661,26 +2057,50 @@
     "btnAddChildExpr": {
       "tooltip": "Add child node"
     },
+    "btnAddExprContainer": {
+      "tooltip": "Добавить контейнер"
+    },
     "btnAddSiblingExpr": {
       "tooltip": "Add neighboring node"
     },
     "btnDeleteExprNode": {
       "tooltip": "Delete"
     },
+    "btnEditExpr": {
+      "tooltip": "Редактировать параметры..."
+    },
+    "btnFilter": {
+      "tooltip": "Фильтрация узлов и переменных"
+    },
+    "btnGoToExpr": {
+      "tooltip": "Перейти к выражению"
+    },
+    "btnInsertNodeInExprAbsolute": {
+      "tooltip": "Вставить в выражение абсолютно"
+    },
+    "btnInsertNodeInExprRelative": {
+      "tooltip": "Вставить в выражение относительно"
+    },
+    "btnInsertVariableInExpr": {
+      "tooltip": "Вставить в текст выражения"
+    },
     "btnNodes": {
       "text": "Nodes"
+    },
+    "btnReplaceNodeByExpr": {
+      "tooltip": "Заменить вычисляемым выражением"
     },
     "btnVariables": {
       "text": "Variables"
     },
     "colDisplayName": {
-      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "text": "Метка"
     },
     "colName": {
       "text": "Name"
     },
     "colVarDisplayName": {
-      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "text": "Метка"
     },
     "colVarName": {
       "text": "Name"
@@ -1694,7 +2114,7 @@
   },
   "components/calctree/CalcTreePreviewForm": {
     "colTreeNode": {
-      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+      "text": "Метка"
     },
     "colTreeNodeName": {
       "text": "Name"
@@ -2206,7 +2626,7 @@
       "text": "Time frames"
     },
     "frmDateReform": {
-      "title": "Reform Date/Time"
+      "title": "Reform Date\/Time"
     }
   },
   "components/elimoutlier/ElimOutlierWizard": {
@@ -2563,7 +2983,7 @@
       "text": "Logical"
     },
     "itmTypeChangeDTime": {
-      "text": "Date/Time"
+      "text": "Date\/Time"
     },
     "itmTypeChangeFloat": {
       "text": "Real"
@@ -2972,6 +3392,9 @@
     "btnTestConnection": {
       "text": "Test"
     },
+    "frmPoolConfig": {
+      "title": "Параметры пула"
+    },
     "pedPoolTimeout.valueConfig": {
       "emptyText": "∞"
     }
@@ -3057,7 +3480,7 @@
       "regexText": "Invalid Content-Type value format"
     },
     "pedURL.valueConfig": {
-      "emptyText": "http://example.com/operation-path"
+      "emptyText": "http:\/\/example.com\/operation-path"
     }
   },
   "connections/tableaurest/TableauRestConnectionParams": {
@@ -3178,13 +3601,13 @@
       "text": "Field type"
     },
     "fldTableName": {
-      "fieldLabel.NOTE": "Старый исходник:\nНазвание таблицы\n\nСтарый перевод:\nTable name"
+      "fieldLabel": "Имя таблицы"
     },
     "frmDBCreateTableDialog": {
       "title": "Create New Table"
     },
     "tabFields": {
-      "title.NOTE": "Старый исходник:\nНастройка\n\nСтарый перевод:\nConfigure"
+      "title": "Поля таблицы"
     },
     "tabSql": {
       "title": "SQL Query"
@@ -3218,7 +3641,7 @@
       "boxLabel": "Add values of dimensions<br><br> automatically. Add missing dimension values to the data warehouse on data loading into the process automatically."
     },
     "ckbDisableConstraint": {
-      "boxLabel": "Disable/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading"
+      "boxLabel": "Disable\/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading"
     },
     "ckbRebuildCube": {
       "boxLabel": "Update cubes<br><br>After data loading, rebuild all cubes with enabled \"Dynamic update\" option and inherited from the loaded process."
@@ -3516,6 +3939,10 @@
     }
   },
   "filestorage/FileStorageForm": {
+    "btnAddSchedulerJob": {
+      "text": "Добавить задачу в планировщик...",
+      "tooltip": "Добавить задачу в планировщик..."
+    },
     "btnCopy": {
       "text": "Copy",
       "tooltip": "Copy"
@@ -3554,7 +3981,7 @@
     },
     "btnPublish": {
       "text": "Publish",
-      "tooltip.NOTE": "Старый исходник:\nОпубликовать\n\nСтарый перевод:\nPublish"
+      "tooltip": "Опубликовать..."
     },
     "btnRefresh": {
       "tooltip": "Refresh list"
@@ -3661,7 +4088,7 @@
       "text": "License Agreement"
     },
     "btnPersonalOffer": {
-      "href": "https://loginom.com/platform/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
+      "href": "https:\/\/loginom.com\/platform\/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
       "text": "More"
     },
     "lblCommunityBannerText": {
@@ -3682,56 +4109,56 @@
       "text": "New Draft"
     },
     "btnExamples": {
-      "href": "https://examples.loginom.com/",
+      "href": "https:\/\/examples.loginom.com\/",
       "text": "Examples"
     },
     "btnFacebook": {
-      "href": "https://facebook.com/lg.platform/"
+      "href": "https:\/\/facebook.com\/lg.platform\/"
     },
     "btnFastStart": {
-      "href": "https://loginom.com/platform/quick-start/",
+      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
       "text": "Quick Start"
     },
     "btnInstagram": {
-      "href": "https://instagram.com/loginom_company/"
+      "href": "https:\/\/instagram.com\/loginom_company\/"
     },
     "btnIntro": {
-      "href": "https://loginom.com/welcome-video/",
+      "href": "https:\/\/loginom.com\/welcome-video\/",
       "text": "Introduction to Loginom"
     },
     "btnLearning": {
-      "href": "https://loginom.com/learning/",
+      "href": "https:\/\/loginom.com\/learning\/",
       "text": "Learning"
     },
     "btnLinkedin": {
-      "href": "https://linkedin.com/company/loginom/"
+      "href": "https:\/\/linkedin.com\/company\/loginom\/"
     },
     "btnMoreNews": {
-      "href": "https://loginom.com/blog/",
+      "href": "https:\/\/loginom.com\/blog\/",
       "text": "More News"
     },
     "btnOpenPackage": {
       "text": "Open Package..."
     },
     "btnRreleaseNotes": {
-      "href": "https://loginom.com/tags/release-notes/",
+      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
       "text": "What's new in Loginom?"
     },
     "btnSupport": {
-      "href": "https://loginom.com/company/support/",
+      "href": "https:\/\/loginom.com\/company\/support\/",
       "text": "Support"
     },
     "btnTelegram": {
-      "href": "https://t.me/loginom/"
+      "href": "https:\/\/t.me\/loginom\/"
     },
     "btnTwitter": {
-      "href": "https://twitter.com/loginom_company/"
+      "href": "https:\/\/twitter.com\/loginom_company\/"
     },
     "btnVk": {
-      "href": "https://vk.com/lg.platform/"
+      "href": "https:\/\/vk.com\/lg.platform\/"
     },
     "btnYouTube": {
-      "href": "https://youtube.com/loginom/"
+      "href": "https:\/\/youtube.com\/loginom\/"
     },
     "colActionClean": {
       "tooltip": "Clean list..."
@@ -3778,7 +4205,7 @@
       "fieldLabel": "Connection"
     },
     "frmFilterDataWizard": {
-      "title.NOTE": "Имеющиеся переводы:\nData filtering\nData Filter"
+      "title": "Фильтрация данных"
     }
   },
   "imports/dbimport/DBImportWizard": {
@@ -3822,7 +4249,7 @@
       "text": "No connection to database"
     },
     "lblObjectsTree": {
-      "text": "Tables/views"
+      "text": "Tables\/views"
     },
     "lblSelectFields": {
       "text": "Connect to database and select fields"
@@ -4042,7 +4469,7 @@
       "fieldLabel": "File Storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name / URL"
+      "propDisplayName": "File name \/ URL"
     },
     "frmImportFromFile": {
       "title": "Import from Excel File"
@@ -4122,7 +4549,7 @@
       "regexText": "Invalid codepage"
     },
     "edtFileName": {
-      "propDisplayName": "File name / URL"
+      "propDisplayName": "File name \/ URL"
     },
     "frmImportFromFile": {
       "title": "Import from Text File"
@@ -4158,7 +4585,7 @@
       "fieldLabel": "File storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name / URL"
+      "propDisplayName": "File name \/ URL"
     },
     "frmImportXmlFile": {
       "title": "Import from XML File"
@@ -4183,22 +4610,25 @@
   },
   "login/Login": {
     "btnFastStart": {
-      "href": "https://loginom.com/platform/quick-start/",
+      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
       "text": "Quick Start"
     },
+    "btnGetToken": {
+      "text": "Войти через OpenID"
+    },
     "btnHelp": {
-      "href": "https://help.loginom.com/",
+      "href": "https:\/\/help.loginom.com\/",
       "text": "Documentation"
     },
     "btnIntro": {
-      "href": "https://loginom.com/welcome-video/",
+      "href": "https:\/\/loginom.com\/welcome-video\/",
       "text": "Introduction to Loginom"
     },
     "btnLogin": {
       "text": "Login"
     },
     "btnQA": {
-      "href": "https://qa.loginom.com/",
+      "href": "https:\/\/qa.loginom.com\/",
       "text": "Q&A"
     },
     "chkRememberUser": {
@@ -4342,6 +4772,9 @@
   "viewers/browse/BrowseSorting": {
     "chkBufferWhole": {
       "fieldLabel": "Cache all data"
+    },
+    "chkLocaleAware": {
+      "fieldLabel": "Сравнивать с учётом локали"
     }
   },
   "viewers/browse/BrowseView": {
@@ -4984,8 +5417,17 @@
       "text": "Type",
       "tooltip": "Chart type"
     },
+    "btnCursorMode": {
+      "tooltip": "Режим мыши"
+    },
+    "btnDelete": {
+      "tooltip": "Удалить диаграмму"
+    },
     "btnExport": {
       "tooltip": "Export"
+    },
+    "btnMove": {
+      "tooltip": "Переместить диаграмму"
     },
     "btnRestrictions": {
       "tooltip": "Restrictions..."
@@ -4998,6 +5440,9 @@
     },
     "btnShowTotal": {
       "tooltip": "Show total"
+    },
+    "btnZoomReset": {
+      "tooltip": "Сбросить маштаб"
     },
     "mniCollapse": {
       "text": "Collapse"
@@ -5026,8 +5471,14 @@
     "mniMoveDown": {
       "text": "Down"
     },
+    "mniMoveLeft": {
+      "text": "Влево"
+    },
+    "mniMoveRight": {
+      "text": "Вправо"
+    },
     "mniMoveUp": {
-      "text.NOTE": "Имеющиеся переводы:\nGo up\nUp"
+      "text": "Вверх"
     },
     "mniShowSubLevels": {
       "text": "All levels"
@@ -5037,6 +5488,9 @@
     },
     "mniShowTotalNone": {
       "text": "Hide"
+    },
+    "mniTitleEdit": {
+      "text": "Редактировать заголовок..."
     },
     "mniTooltipMode": {
       "text": "Tooltip style"
@@ -5092,6 +5546,9 @@
     },
     "btnCaseCaption": {
       "text": "Measures"
+    },
+    "btnChartAdd": {
+      "tooltip": "Создать диаграмму"
     },
     "btnCollapse": {
       "tooltip": "Collapse"
@@ -5215,7 +5672,7 @@
       "tooltip": "Copy marked"
     },
     "btnExclusive": {
-      "tooltip": "Inclusive/exclusive filter"
+      "tooltip": "Inclusive\/exclusive filter"
     },
     "btnFilterType": {
       "tooltip": "Filter mode"
@@ -6094,7 +6551,7 @@
       "tooltip": "Delete selected"
     },
     "txtFilterField": {
-      "emptyText": "Filter/Search"
+      "emptyText": "Filter\/Search"
     }
   },
   "wizards/columnsdisposition/ColumnsDispositionWizard": {
@@ -6369,6 +6826,9 @@
     "btnShowInvalidRelations": {
       "text": "Show Lost Links"
     },
+    "btnSkipRootNode": {
+      "tooltip": "Исключить корневой узел при публикации"
+    },
     "btnSync": {
       "tooltip": "Map nodes"
     },
@@ -6596,11 +7056,11 @@
       "tooltip": "Move up"
     },
     "btnSortAsc": {
-      "text.NOTE": "Старый исходник:\nСортировать по возрастанию\n\nСтарый перевод:\nSort Ascending",
+      "text": "По возрастанию",
       "tooltip": "Sort ascending"
     },
     "btnSortDesc": {
-      "text.NOTE": "Старый исходник:\nСортировать по убыванию\n\nСтарый перевод:\nSort Descending",
+      "text": "По убыванию",
       "tooltip": "Sort descending"
     },
     "btnUniqueValues": {

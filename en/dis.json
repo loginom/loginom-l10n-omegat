@@ -2,6 +2,7 @@
   "Integrator/Program": {
     "ErrInitializationException": "Exception occurred during the service initialization",
     "StartingService": "Service start, version: {0}",
+    "StoppedService": "Сервис остановлен",
     "StoppingService": "Service stop"
   },
   "IntegratorCore/ConfigurationSections": {
@@ -53,6 +54,7 @@
     "ConnectedToServer": "Connected to server {0}",
     "DeletedPublishedPackage": "The published package \"{1}\" of version \"{2}\" was deleted on server {0}",
     "ErrAddressOrUnixSocketIsRequired": "address or unixsocket attribute must be defined",
+    "ErrCancelExecuteNodeFailure": "Не удалось отменить обработку пакета \"{0}\", выполнение узла с идентификатором {1}",
     "ErrCannotAddPublishedPackage": "\"{1}\" package of \"{2}\" version related to {0} server cannot be published: {3}",
     "ErrCannotConnectToServer": "{0} server connection failed",
     "ErrConnectionFailure": "{0} server connection lost",
@@ -97,7 +99,7 @@
     "ErrNoPublishedPackages": "No published packages",
     "ErrRootNodeNotFound": "Root tree node not found",
     "ErrTreeMustHaveSingleRootNode": "Tree cannot contain more than one root node",
-    "Namespace": "http://schemas.loginom.com/integration",
+    "Namespace": "http:\/\/schemas.loginom.com\/integration",
     "NoPublishedPackagesServiceDocumentation": "No packages have been published for now. To use packages as a web service, you must first publish them to Loginom Server."
   },
   "IntegratorCore/UriQueryParamsModelBinder": {

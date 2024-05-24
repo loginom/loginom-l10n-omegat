@@ -449,12 +449,15 @@
   },
   "components/sorting": {
     "SortingEngine": {
-      "BufferWhole": "Cache all data"
+      "BufferWhole": "Cache all data",
+      "LocaleAware": "Сравнивать с учётом локали"
     }
   },
   "components/treetodata": {
     "TreeToDataEngine": {
-      "CompositeColumnNames.NOTE": "Старый исходник:\nГенерировать составные метки полей\n\nСтарый перевод:\nGenerate composite field captions",
+      "CompositeColumnDisplayNames": "Составные метки полей",
+      "CompositeColumnNames": "Составные имена полей",
+      "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "RepeatParentNodeValues": "Repeat parent node values"
     }
   },
@@ -484,18 +487,21 @@
   },
   "components/wsdlclient": {
     "WSDLClient": {
-      "CompositeColumnNames.NOTE": "Старый исходник:\nГенерировать составные метки полей\n\nСтарый перевод:\nGenerate composite field captions",
+      "CompositeColumnDisplayNames": "Составные метки полей",
+      "CompositeColumnNames": "Составные имена полей",
+      "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "IgnoreAbsentValues": "Allow required fields skipping",
       "ProduceRawOutput": "Produce \"raw\" server response",
       "RepeatUniqueValues": "Repeat single values",
       "RequestConfigurator": "Configure request data export",
-      "StrictValidation.NOTE": "Старый исходник:\nПроверять на строгое соответствие XSD\n\nСтарый перевод:\nCheck for strict XSD validation",
+      "StrictValidation": "Проверять на соответствие XSD",
       "TimeZone": "Default time zone"
     }
   },
   "exports/database": {
     "DBExport": {
       "ExportType": "Export type",
+      "MaxParamSets": "Число строк в пачке",
       "RecordCountForCommit": "Transaction commit frequency (rows)",
       "SilentActivation": "Ignore errors",
       "TableName": "Table name"
@@ -568,7 +574,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table/View",
+      "CommandText": "Table\/View",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
     }
@@ -578,6 +584,7 @@
       "AllRows": "All rows",
       "BlankRowAction": "Blank rows",
       "ExplicitRange": "Range",
+      "FileInfoColumnsType": "Информация о файле",
       "ReferenceStyle": "Reference style",
       "TableName": "Object name",
       "TableNamingMethod": "Object selection",
@@ -608,6 +615,7 @@
       "DateSeparator": "Date separator",
       "DecimalSeparator": "Decimal separator",
       "DelimiterChar": "Column delimiter",
+      "FileInfoColumnsType": "Информация о файле",
       "FirstLineAsTitle": "First line title",
       "MultipleDelimiters": "Treat consecutive delimiters as one",
       "RowsToSkip": "Skip rows",
@@ -634,7 +642,8 @@
   "Libraries/1CConnection/1Cv8Connection": {
     "1Cv8ConnectionConfigurator": {
       "PlatformVersion": "Platform version",
-      "PoolCapacity": "Size"
+      "PoolCapacity": "Size",
+      "PoolTimeout": "Тайм-аут (с)"
     }
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
@@ -656,6 +665,7 @@
       "DatabasePath": "Connection string",
       "Direct": "Do not use DBMS client",
       "LockTimeout": "Lock timeout (s)",
+      "LoginPrompt": "Спрашивать пароль",
       "Password": "Password",
       "QuotedObjectNames": "Quote names",
       "SystemTables": "Show system tables",
@@ -811,10 +821,12 @@
   },
   "Libraries/ImportXMLConfigurator/ImportXMLConfigurator": {
     "ImportXMLConfigurator": {
-      "CompositeColumnNames.NOTE": "Старый исходник:\nГенерировать составные метки полей\n\nСтарый перевод:\nGenerate composite field captions",
+      "CompositeColumnDisplayNames": "Составные метки полей",
+      "CompositeColumnNames": "Составные имена полей",
+      "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "IgnoreAbsentValues": "Allow required fields skipping",
       "RepeatUniqueValues": "Repeat single values",
-      "StrictValidation.NOTE": "Старый исходник:\nПроверять на строгое соответствие XSD\n\nСтарый перевод:\nCheck for strict XSD validation",
+      "StrictValidation": "Проверять на соответствие XSD",
       "TimeZone": "Default time zone"
     }
   },
@@ -856,7 +868,8 @@
     },
     "LoggerConfigurator": {
       "LoggerType": "Logging type",
-      "NeedDN": "Resolve domain names"
+      "NeedDN": "Resolve domain names",
+      "NeedPackageName": "Логировать имя пакета у узла"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Number of backup files",
@@ -878,8 +891,24 @@
   },
   "Libraries/OpenID/OpenID": {
     "OpenIDConfigurator": {
-      "DefaultUserRole.NOTE": "Имеющиеся переводы:\nNew user role\nNew User Role",
-      "OpenIDScope": "Visibility"
+      "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
+      "AuthEndpoint": "URL запроса аутентификации",
+      "AutoGetToken": "Автоматическое получения токена",
+      "ClaimsToVariables": "Клеймы извлекаемые в переменные",
+      "DefaultUserRole": "Роль нового пользователя",
+      "FoldersClaim": "Клейм списка общих папок",
+      "OpenIDClient": "Идентификатор клиента",
+      "OpenIDProviderName": "Метка сервиса",
+      "OpenIDScope": "Visibility",
+      "OpenIDSecret": "Ключ клиента",
+      "RedirectURI": "Адрес получателя токена",
+      "RolesClaim": "Клейм списка ролей пользователя",
+      "TokenEndpoint": "URL запроса токена",
+      "UpdateUserRole": "Обновлять роль пользователя",
+      "UserFullNameClaim": "Клейм полного имени пользователя",
+      "UserInfoEndpoint": "URL запроса информации о пользователе",
+      "UserNameClaim": "Клейм имени пользователя",
+      "UserRoleNameMap": "Список ролей"
     }
   },
   "Libraries/Regression/Regression": {
@@ -907,9 +936,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact/inexact data priority",
-      "FactLessMore": "Less/more factors priority",
-      "QualitySpeed": "Accuracy/speed priority"
+      "ExactInexact": "Exact\/inexact data priority",
+      "FactLessMore": "Less\/more factors priority",
+      "QualitySpeed": "Accuracy\/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -963,7 +992,9 @@
       "FailedLoginTimeout": "Password entry timeout",
       "IdleDisconnectTimeout": "Session disconnection timeout",
       "IdleLockTimeout": "Session lock timeout",
+      "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
       "PackagePoolSize": "Package pool size",
+      "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
       "RAMLimitKB": "Memory limit (KB)",
       "RAMLimitRatio": "Memory usage ratio",
       "SessionBackupDirectory": "Directory containing session backups",
@@ -980,7 +1011,7 @@
       "SSLPrivateKeyFile": "Private key file name",
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL/TLS port"
+      "WSSPort": "WebSocket SSL\/TLS port"
     }
   },
   "Warehouse2/DWConnection": {
