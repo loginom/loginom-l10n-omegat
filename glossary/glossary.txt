@@ -321,7 +321,7 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Линейная зависимость	Linear relationship
 Коэффициент ранговой корреляции	Rank correlation coefficient
 Конец набора данных	Data set limit
-Неверный ответ сервиса	Wrong service response
+Неверный ответ сервиса	Bad service response
 В данный момент используются	Are currently in use
 Построение пользовательской модели экспоненциально сглаженного скользящего среднего	Construction of the user model of the exponentially smoothed moving average
 Простое скользящее среднее	Simple moving average
