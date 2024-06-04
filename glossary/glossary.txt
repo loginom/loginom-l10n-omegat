@@ -1,3 +1,4 @@
+# Glossary in tab-separated format -*- coding: utf-8 -*-
 Делитель	Divisor
 Делимое	Dividend
 Задано неверно	Is invalid
@@ -435,3 +436,4 @@ P-значение	P-value
 Верхняя граница диапазонов открыта	Upper bin bound open
 Нижняя граница диапазонов открыта	Lower bin bound open
 Актуальная версия	Latest stable version
+имя	caption	когда в ключе DisplayName
