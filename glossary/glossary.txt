@@ -437,3 +437,5 @@ P-значение	P-value
 Нижняя граница диапазонов открыта	Lower bin bound open
 Актуальная версия	Latest stable version
 имя	caption	когда в ключе DisplayName
+задачa	job	в планировщике (scheduler)
+задача	job	в планировщике (scheduler)
