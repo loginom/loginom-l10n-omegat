@@ -111,7 +111,7 @@
     "ErrReadStreamBufferLength": "The provided buffer size %d is too small to read %d bytes"
   },
   "Common/HTTP/HTTPContext_Synapse": {
-    "ErrUnsupportedAuthModeCert": "Authentification using the client certificate from storage not supported"
+    "ErrUnsupportedAuthModeCert": "Authentication using the client certificate from storage not supported"
   },
   "Common/HTTP/HTTPNetRequest": {
     "ErrHTTPNetRequest": "Request to \"%s\" URL failed"
@@ -3647,9 +3647,9 @@
     "ErrSomeAnnotationDisposed": "One or several source annotations were deleted or moved",
     "ErrSomeNodeDisposed": "One or several source nodes have been deleted or moved",
     "ErrUnableToRestoreLinkBetween": "Failed to restore link between \"%s\" and \"%s\" nodes",
-    "ErrVendorNotFound": "Derived \"%s\" component not found. Perhaps, this component could be deleted.",
+    "ErrVendorNotFound": "Derived component \"%s\" not found. The component could have been deleted.",
     "ErrVendorUnavailableForMovedNode": "%s derived component is unavailable for moved %s node.",
-    "ErrVendorWithDependentNodeNotFound": "Derived \"%s\" component referenced by \"%s\" node not found. Perhaps, this component could be deleted.",
+    "ErrVendorWithDependentNodeNotFound": "Derived component  \"%s\" referenced by \"%s\" node not found. The component could have been deleted.",
     "ForceRepeatMovingForbidden": "Repeated forced move operation is forbidden",
     "MoveNodesCaption": "Nodes Moved",
     "OperationCanceled": "Operation canceled",
@@ -4133,7 +4133,7 @@
     "ErrNotConnectedDefaultFmt": "Failed to establish connection. Reason: %s",
     "ErrNotConnectedTimeoutFmt": "Failed to establish connection within %d ms. Reason: %s",
     "ErrNotSecureConnectedFmt": "Failed to establish secure connection. Reason: %s",
-    "ErrUnsupportedAuthModeCert": "Authentification using the client certificate from storage not supported"
+    "ErrUnsupportedAuthModeCert": "Authentication using the client certificate from storage not supported"
   },
   "Libraries/RESTClientConnection/RESTClientConnectionVendor": {
     "RESTClientConnectionVendorCaption": "REST Service",
@@ -4359,8 +4359,8 @@
     "FailedLoginTimeout": "Password entry timeout",
     "IdleDisconnectTimeout": "Session disconnection timeout",
     "IdleLockTimeout": "Session lock timeout",
-    "Maintenance": "Режим облуживания",
-    "MaintenanceMessage": "Сообщение обслуживания",
+    "Maintenance": "!НЕ ПЕРЕВОДИТЬ",
+    "MaintenanceMessage": "!НЕ ПЕРЕВОДИТЬ",
     "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
     "PackagePoolSize": "Package pool size",
     "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
@@ -4665,9 +4665,9 @@
     "DetailingProcessCaption": "Data quality. Prepare %s from the [%d, %d] cell data"
   },
   "Viewers/DataQuality/QualityViewExport": {
-    "HTMLContinueStatsTitle": "Data quality (Continuous fields)",
-    "HTMLDiscreteStatsTitle": "Data quality (Discrete fields)",
-    "HTMLOverviewTitle": "Data quality (Summary)",
+    "HTMLContinueStatsTitle": "Data Quality (Continuous Fields)",
+    "HTMLDiscreteStatsTitle": "Data Quality (Discrete Fields)",
+    "HTMLOverviewTitle": "Data Quality (Summary)",
     "NotAvailable": "Not available",
     "NotCalculated": "Not calculated"
   },
@@ -4761,10 +4761,10 @@
     "BreakEvenChartYLabel": "TPR, PPV",
     "Cutoff": "Cutoff",
     "ErrSerieCountConfigLoadError": "Incorrect series count in configuration",
-    "EventsChartTitle": "% captured response chart",
+    "EventsChartTitle": "% of Captured Response Chart",
     "EventsChartXLabel": "Bin",
     "EventsChartYLabel": "Captured response, %",
-    "EventsCumChartTitle": "% captured response chart (cumulative)",
+    "EventsCumChartTitle": "% of Captured Response Chart (Cumulative)",
     "EventsCumChartXLabel": "Percentile",
     "EventsCumChartYLabel": "Captured response, %",
     "FNR": "FNR (1-Sensitivity)",

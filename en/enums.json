@@ -936,8 +936,8 @@
   "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
     "BigQueryAuthMechanismType": {
       "$Caption": "Authentication Mechanism",
-      "ServiceAcc": "Service authentification",
-      "UserAcc": "User authentification"
+      "ServiceAcc": "Service authentication",
+      "UserAcc": "User authentication"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
@@ -1574,7 +1574,7 @@
   },
   "Studio/DeductorUsers": {
     "DeductorUserAuthMode": {
-      "$Caption": "Authentification",
+      "$Caption": "Authentication",
       "None": "None",
       "Local": "Local",
       "LDAP": "LDAP",

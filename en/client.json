@@ -8,10 +8,10 @@
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
-    "DeleteAllClaimsPrompt": "Вы действительно хотите удалить все клеймы?",
-    "DublicateClaimName": "Дубликаты имен клеймов запрещены",
-    "EmptyClaimName": "Имя клейма не может быть пустым",
-    "FailClaimName": "В имени клейма разрешены только символы латиницы, цифры и точка"
+    "DeleteAllClaimsPrompt": "Do you really want to delete all claims?",
+    "DublicateClaimName": "Duplicates of claim names are not allowed",
+    "EmptyClaimName": "A claim name cannot be empty",
+    "FailClaimName": "A claim name may only contain Latin letters, numbers, and dots"
   },
   "admin/LDAPSettings": {
     "ConnectionSecurity": "Connection security",
@@ -27,27 +27,27 @@
     "UseSASL": "Use SASL"
   },
   "admin/OpenIDSettings": {
-    "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
-    "AuthEndpoint": "URL точки аутентификации",
-    "AutoGetToken": "Автоматическое получение токена",
-    "ClaimsToVariables": "Клеймы извлекаемые в переменные",
+    "AllowUsersWithoutRole": "Allow login for users without roles",
+    "AuthEndpoint": "Authentication point URL",
+    "AutoGetToken": "Automatic token allocation",
+    "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
-    "FoldersClaim": "Клейм списка общих папок",
-    "NoClaimsToVariables": "Нет извлекаемых клеймов",
-    "NoFoldersClaim": "Нет назначения прав на папки",
-    "NoRoleMapping": "Нет назначения ролей",
-    "OpenIDClient": "Идентификатор клиента",
-    "OpenIDProviderName": "Название OpenID провайдера",
-    "OpenIDScope": "Область действия",
-    "OpenIDSecret": "Ключ клиента",
-    "RedirectURI": "Адрес клиента",
-    "RolesClaim": "Клейм списка ролей",
-    "TokenEndpoint": "URL запроса токена",
-    "UpdateUserRole": "Обновлять роль пользователя",
-    "UserFullNameClaim": "Клейм полного имени пользователя",
-    "UserInfoEndpoint": "URL запроса информации о пользователе",
-    "UserNameClaim": "Клейм имени пользователя",
-    "UserRoleNameMap": "Список имен ролей"
+    "FoldersClaim": "A claim of the list of shared folders",
+    "NoClaimsToVariables": "No extractable claims",
+    "NoFoldersClaim": "No folder permissions mapping",
+    "NoRoleMapping": "No role mapping",
+    "OpenIDClient": "Client identifier",
+    "OpenIDProviderName": "The OpenID provider's name",
+    "OpenIDScope": "Scope",
+    "OpenIDSecret": "Client secret",
+    "RedirectURI": "Сlient URL",
+    "RolesClaim": "Role list claim",
+    "TokenEndpoint": "Token endpoint URL",
+    "UpdateUserRole": "Refresh user role",
+    "UserFullNameClaim": "Full username claim ",
+    "UserInfoEndpoint": "User information endpoint URL",
+    "UserNameClaim": "Username claim",
+    "UserRoleNameMap": "List of role names"
   },
   "admin/ServerSettingsForm": {
     "AppSettings": "Application parameters",
@@ -70,19 +70,19 @@
     "LogFileRewrite": "Rewrite file",
     "LoggerSettings": "Logging parameters",
     "LogType": "Logging type",
-    "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
+    "MaxSchedulerHistoryDays": "Scheduler history log (days)",
     "MinLogLevel": "Logging level",
     "MsgNewLocaleAfterRestart": "New locale will be applied after restart.",
     "NeedDN": "Resolve domain names",
-    "NeedPackageName": "Логировать имя пакета у узла",
+    "NeedPackageName": "Log the package name for the node",
     "NotSet": "Unspecified ({0})",
     "NullAsDefault": "Default",
     "NullAsDisabled": "Off",
-    "OpenIDSettings": "Параметры OpenID",
+    "OpenIDSettings": "OpenID parameters",
     "PackagePoolSize": "Package pool size",
     "PingPeriod": "Connection check period (s)",
     "Port": "TCP port",
-    "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов (сек)",
+    "PublishedPackagesUpdatePeriod": "Web services change check period (s)",
     "RAMLimit": "Memory limit",
     "RAMLimitDecreaseAfterRestart": "Memory limit will be decreased after restart.",
     "RAMLimitRatio": "Memory usage ratio",
@@ -106,28 +106,28 @@
     "ConfirmPackageStop": "Do you want to cancel execution of \"{0}\" package?",
     "ConfirmSessionClose": "Do you want to close \"{0}\" session without saving changes?",
     "ConfirmSessionStop": "Do you want to cancel execution of \"{0}\" session?",
-    "EnteredMaintenanceMode": "Сервер введён в режим обслуживания.",
-    "EnterMaintenanceMsgText": "Войти в режим обслуживания?",
-    "EnterMaintenanceTooltip": "Ввод сервера в режим обслуживания...",
+    "EnteredMaintenanceMode": "Server entered maintenance mode.",
+    "EnterMaintenanceMsgText": "Enter maintenance mode?",
+    "EnterMaintenanceTooltip": "Entering server maintenance mode...",
     "ErrCannotClosePackage": "Failed to close package. The package contains the active processes that have not been finished while timeout.",
     "ErrCannotCloseSession": "Failed to close session. The session contains the active processes that have not been finished while timeout.",
     "ErrCannotStopPackage": "Failed to stop execution of package. The package contains the active processes that have not been finished while timeout.",
     "ErrCannotStopSession": "Failed to stop execution of session. The session contains the active processes that have not been finished while timeout.",
-    "InvalidMessageLength": "Максимальная длинна сообщения: {0}",
-    "LeaveMaintenanceMsgText": "Вы действительно хотите выйти из режима обслуживания?",
-    "LeaveMaintenanceTooltip": "Вывод сервера из режима обслуживания...",
-    "LeftMaintenanceMode": "Сервер выведен из режима обслуживания",
-    "MaintenanceMessageOnLoginDefault": "Сервер находится в режиме обслуживания",
-    "MaintenanceMessageOnLoginLabel": "Сообщение при попытке входа:",
-    "MaintenanceModeDesc": "В режиме обслуживания запрещается вход в учётные записи всем, кроме Администраторов.\n\nАктивные сессии продолжат работать для возможности сохранения изменений.",
-    "MaintenanceModeMessage": "\n\nСообщение:\n\"{0}\"",
-    "MaintenanceModeTitle": "Режим обслуживания",
-    "MessageContents": "Текст сообщения:",
+    "InvalidMessageLength": "Message length limit: {0}",
+    "LeaveMaintenanceMsgText": "Do you really want to leave the maintenance mode?",
+    "LeaveMaintenanceTooltip": "Leaving server maintenance mode...",
+    "LeftMaintenanceMode": "The server has left the maintenance mode",
+    "MaintenanceMessageOnLoginDefault": "The server is in maintenance mode",
+    "MaintenanceMessageOnLoginLabel": "Login attempt response message",
+    "MaintenanceModeDesc": "Account login during maintenance mode is allowed to Administrators only.\n\nActive sessions continue working to enable saving changes.",
+    "MaintenanceModeMessage": "\n\nMessage:\n\"{0}\"",
+    "MaintenanceModeTitle": "Maintenance Mode",
+    "MessageContents": "Message body:",
     "PackageRefCountTip": "Count of sessions referring to package",
     "ReadOnlyPackageNamePostfix": "(read-only)",
-    "RoleTipFormat": "Session with {0} role has been started by user",
-    "SendMessageToAllUsersTitle": "Отправка сообщения всем пользователям",
-    "SendMessageToUserTitle": "Отправка сообщения пользователю",
+    "RoleTipFormat": "Session was started by user with the {0} role",
+    "SendMessageToAllUsersTitle": "Send Message to All Users",
+    "SendMessageToUserTitle": "Send Message to User",
     "SessionCapacity": "{0} of {1}",
     "SessionLastTimeDisposing": "Deleting"
   },
@@ -148,16 +148,16 @@
   },
   "admin/UserListForm": {
     "AllowPublish": "Publish packages",
-    "AuthMode": "Authentification",
+    "AuthMode": "Authentication",
     "Blocked": "Blocked",
-    "DeleteUserConfirm": "При удалении пользователя можно также удалить его папку и задачи в планировщике.\nУдалить пользователя {0}?",
-    "DeleteUserConfirmNo": "Удалить только пользователя",
-    "DeleteUserConfirmYes": "Удалить пользователя и данные",
+    "DeleteUserConfirm": "When deleting a user, you can also delete their folder and tasks in the scheduler.\nDo you want to delete user {0}?",
+    "DeleteUserConfirmNo": "Delete the user only",
+    "DeleteUserConfirmYes": "Delete the user and the data",
     "DisplayName": "Full caption",
     "GlobalFileStorage": "Access to all files",
     "Name": "Login",
     "Roles": "Roles",
-    "SchedulerFullAccess": "Доступ ко всем задачам",
+    "SchedulerFullAccess": "Access to all tasks",
     "Update": "Refresh"
   },
   "admin/UserModel": {
@@ -174,7 +174,7 @@
   },
   "app/Application": {
     "MsgAppClose": "The application is closing. The current session and all unsaved changes will be lost.",
-    "NotifyMsgFromAdminTitle": "Сообщение от Администратора"
+    "NotifyMsgFromAdminTitle": "Administrator Message"
   },
   "app/AppMenuForm": {
     "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
@@ -221,7 +221,7 @@
   },
   "app/MainForm": {
     "AskIfOpenPackageByLink": "The open package will be locked by you until it is closed. Do you want to open it?",
-    "CantCreateShareLinks": "Failed to generate address for the current page",
+    "CantCreateShareLinks": "Failed to generate url for the current page",
     "CantFindPackage": "Failed to find package",
     "CantGetAbsolutePath": "Failed to get absolute path for \"{0}\" file",
     "CollapseMainToolbar": "Collapse",
@@ -291,7 +291,7 @@
   "app/MapTreeForm": {
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
     "DisplayName": "Caption",
-    "DraftAddSchedulerJobFailed": "Невозможно добавить задачу для черновика \"{0}\"",
+    "DraftAddSchedulerJobFailed": "Failed to add task for draft \"{0}\"",
     "DraftPublishFailed": "It is not possible to publish \"{0}\" draft",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
@@ -312,22 +312,22 @@
     "AddNewExecNode": "Add Execution node to workflow",
     "AddNewLoop": "Add Loop node to workflow",
     "AddNewNode": "Add node to workflow",
-    "AddSchedulerJobByNode": "Добавить задачу в планировщик...",
+    "AddSchedulerJobByNode": "Add task to scheduler...",
     "CancelOperation": "Cancel operation",
-    "CantFindGenericModelNode": "Supernode node not found",
+    "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
-    "ComposeAnnotations": "Collapse annotations into supernode",
-    "ComposeExpandNode": "Collapse items into supernode \/ Expand supernode",
-    "ComposeItems": "Collapse items into supernode",
+    "ComposeAnnotations": "Collapse annotations to supernode",
+    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
+    "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
-    "ComposeSingleAnnotation": "Collapse annotation into supernode",
+    "ComposeSingleAnnotation": "Collapse annotation to supernode",
     "ComposeSingleNode": "Collapse node to supernode",
     "ConfigurePort": "Configure port...",
-    "ConfirmCreatingAnotherDerivedVendor": "Derived \"{0}\" component already exists for this node.\nDo you really want to create one more component?",
+    "ConfirmCreatingAnotherDerivedVendor": "Derived component \"{0}\" already exists for this node.\nDo you really want to create one more component?",
     "CopyNode": "Copy node",
     "CutNode": "Cut node",
-    "DeactivateAllSubNodes": "Деактивировать все подузлы",
+    "DeactivateAllSubNodes": "Deactivate all subnodes",
     "DeactivateCurrent": "Deactivate node",
     "DeleteDerivedVendor": "Delete...",
     "DeleteLink": "Delete link...",
@@ -336,7 +336,7 @@
     "DerivedNodeAllowed": "Derived node creation is allowed",
     "DeriveNode": "Create derived component ...",
     "EditPortDisplayName": "Edit port caption...",
-    "EditPortDisplayNameWindowTitle": "Edit port caption",
+    "EditPortDisplayNameWindowTitle": "Edit Port Caption",
     "EditPortFieldLabel": "Caption",
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
     "ErrCommentPosNotSaved": "Failed to save comment position",
@@ -376,7 +376,7 @@
     "ResetConfiguration": "Restore original node configuration",
     "SelectNode": "First select node in workflow",
     "SelectOneNode": "Select only one node",
-    "SelectOneNodeOrLink": "Выберите только один узел или связь",
+    "SelectOneNodeOrLink": "Select only one node or connection",
     "SelectSomething": "First select object in workflow",
     "SetNodeDerivedVendor": "Set derived node component...",
     "SetupConnection": "Configure connection...",
@@ -396,7 +396,7 @@
     "ErrNoRefModelNodeTreeNode": "No reference to IBGModelNodeTreeNode"
   },
   "app/PackageForm": {
-    "ApplyLocaleTitle": "Apply new locale",
+    "ApplyLocaleTitle": "Apply New Locale",
     "Cancel": "Cancel",
     "Confirm": "Apply",
     "ConfirmLocaleChangeMsg": "After locale change strings may be compared in a different way.\nDo you really want to change locale?",
@@ -482,7 +482,7 @@
     "PackageAlreadyPublished": "\"{0}\" package already published",
     "PackageNameAlreadyPublished": "Package with \"{0}\" name already published",
     "UpdateButtonText": "Update",
-    "UpdateFormTitle": "Edit web service"
+    "UpdateFormTitle": "Edit Web Service"
   },
   "app/PublishedPackagesListForm": {
     "ConfirmFinish": "Do you want to unpublish {0} package?",
@@ -504,81 +504,81 @@
     "VersionMask": "Version"
   },
   "app/scheduler/ActiveSessions": {
-    "ActiveSessionsTitle": "Активные"
+    "ActiveSessionsTitle": "Active"
   },
   "app/scheduler/JobEditor": {
     "AddVariableWindowApplyText": "Add",
-    "AddVariableWindowTitle": "Добавление переменной",
-    "CaptionNotSet": "Не задана",
+    "AddVariableWindowTitle": "Add Variable",
+    "CaptionNotSet": "Unspecified",
     "DeleteAllVariablesPrompt": "Do you really want to delete all variables?",
-    "EditVariablesWindowTitle": "Редактирование переменных",
+    "EditVariablesWindowTitle": "Edit Variables",
     "EditVariableWindowApplyText": "Change",
     "EditVariableWindowTitle": "Edit Variable",
-    "ErrInvalidNodeKey": "Введенное значение не является правильным идентификатором или GUID в формате {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}.",
+    "ErrInvalidNodeKey": "The value entered is not a valid identifier or GUID in the {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} format.",
     "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
-    "MillisecondCountMinTextErrFmt": "Количество миллисекунд должно быть более или равно {0}",
-    "NodeSelectorApplyText": "Выбрать",
-    "NodeSelectorTitle": "Выбор узла",
-    "PeriodCountMinTextErr": "Количество периодов повтора должно быть положительным",
+    "MillisecondCountMinTextErrFmt": "Millisecond count must be more or equal to {0}",
+    "NodeSelectorApplyText": "Select",
+    "NodeSelectorTitle": "Select Node",
+    "PeriodCountMinTextErr": "Repeat period count must be positive",
     "PeriodTypeDay": "days",
-    "PeriodTypeHour": "часов",
-    "PeriodTypeMillisecond": "миллисекунд",
-    "PeriodTypeMinute": "минут",
+    "PeriodTypeHour": "hours",
+    "PeriodTypeMillisecond": "milliseconds",
+    "PeriodTypeMinute": "minutes",
     "PeriodTypeMonth": "months",
-    "PeriodTypeSecond": "секунд",
+    "PeriodTypeSecond": "seconds",
     "PeriodTypeWeek": "weeks",
     "StartDay": "0",
     "VariablesTitleFmt": "Variables ({0})"
   },
   "app/scheduler/JobVariableEditor": {
-    "ErrorInvalidNameFmt": "Значение имени переменной \"{0}\" не является правильным идентификатором",
-    "ErrorInvalidPortFmt": "Значение имени порта \"{0}\" не является правильным идентификатором",
+    "ErrorInvalidNameFmt": "The name value of variable \"{0}\" name is not a valid identifier",
+    "ErrorInvalidPortFmt": "The name value of port \"{0}\" is not a valid identifier",
     "GetValueList": "Get list",
-    "VariableListIsEmpty": "Нет переменных"
+    "VariableListIsEmpty": "No variables"
   },
   "app/scheduler/LogEntries": {
-    "LogEntriesTitle": "Завершенные"
+    "LogEntriesTitle": "Completed"
   },
   "app/scheduler/SchedulerForm": {
-    "ActiveSessionsReceiveErr": "Не удалось получит список активных сессий для выбранных задач",
+    "ActiveSessionsReceiveErr": "Failed to receive the list of active sessions for the selected jobs",
     "AddJobWindowApplyText": "Add",
-    "AddJobWindowTitle": "Добавление задачи",
-    "DeleteAllJobsPrompt": "Удалить все задачи и остановить активные сессии?",
-    "DeleteAllJobsPromptTitle": "Удаление всех задач",
-    "DeleteJobPrompt": "Удалить задачу и остановить активные сессии?",
-    "DeleteJobPromptNo": "Только удалить",
-    "DeleteJobPromptTitle": "Удаление задачи",
-    "DeleteJobPromptYes": "Удалить и остановить",
-    "DeleteJobsPrompt": "Удалить выбранные задачи и остановить активные сессии?",
-    "DeleteJobsPromptTitle": "Удаление выбранных задач",
+    "AddJobWindowTitle": "Add Job",
+    "DeleteAllJobsPrompt": "Do you want to delete all jobs and terminate active sessions?",
+    "DeleteAllJobsPromptTitle": "Delete All Jobs",
+    "DeleteJobPrompt": "Do you want to delete the job and terminate active sessions?",
+    "DeleteJobPromptNo": "Delete only",
+    "DeleteJobPromptTitle": "Delete Job",
+    "DeleteJobPromptYes": "Delete and terminate",
+    "DeleteJobsPrompt": "Do you want to delete the selected jobs and terminate active sessions?",
+    "DeleteJobsPromptTitle": "Delete Selected Jobs",
     "EditJobWindowApplyText": "Save",
-    "EditJobWindowTitle": "Редактирование задачи",
-    "EmptyPackageFileNameErr": "Запускаемый пакет не указан",
-    "ErrDeleteJobFmt": "Не удалось удалить задачу \"{0}\", возможно она удалена в другой сессии",
-    "ErrDisableJobsFailFmt": "Не удалось запретить выполнение задач: \"{0}\"",
-    "ErrEnableJobsFailFmt": "Не удалось разрешить выполнение задач: \"{0}\"",
-    "ErrJobNotFoundFmt": "Задача планировщика \"{0}\" удалена",
+    "EditJobWindowTitle": "Edit Job",
+    "EmptyPackageFileNameErr": "The package to start is not specified",
+    "ErrDeleteJobFmt": "Failed to delete job \"{0}\", probably deleted in other session",
+    "ErrDisableJobsFailFmt": "Failed to disable execution of jobs: \"{0}\"",
+    "ErrEnableJobsFailFmt": "Failed to allow execution of jobs: \"{0}\"",
+    "ErrJobNotFoundFmt": "Job \"{0}\" was deleted from scheduler",
     "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
     "ErrPathNotFound": "The specified path was not found \"{0}\".",
-    "JobVersionChangedPromptFmt": "Задача планировщика \"{0}\" изменена в другой сессии. Перезаписать изменения своими?",
-    "JobVersionChangedPromptNo": "Закрыть без сохранения",
-    "JobVersionChangedPromptTitle": "Конфликт изменения задачи",
-    "JobVersionChangedPromptYes": "Перезаписать",
-    "NoRightsToViewNodePackages": "У пользователя \"{0}\" нет прав для просмотра узлов пакетов",
-    "NotFoundNodeFmt": "В пакете \"{0}\", не удалось найти узел \"{1}\"",
-    "NotFoundPackageFileErr": "Не удалось найти запускаемый пакет \"{0}\"",
-    "RootJobModelCaption": "Все задачи",
-    "StopAllSessionsByJobPromptFmt": "Остановить выполнение всех сессий для задачи \"{0}\"?",
-    "StopAllSessionsByJobsPrompt": "Остановить выполнение всех сессий для выбранных задач?",
-    "StopAllSessionsPrompt": "Остановить выполнение всех сессий?",
-    "StopAllSessionsTitle": "Остановка сессий",
+    "JobVersionChangedPromptFmt": "Scheduled job \"{0}\" was changed in other session. Overwrite with your changes?",
+    "JobVersionChangedPromptNo": "Close without saving",
+    "JobVersionChangedPromptTitle": "Job Change Conflict",
+    "JobVersionChangedPromptYes": "Overwrite",
+    "NoRightsToViewNodePackages": "User \"{0}\" has no rights to view package nodes",
+    "NotFoundNodeFmt": "Failed to find node \"{1}\" in package \"{0}\"",
+    "NotFoundPackageFileErr": "Failed to find package \"{0}\" to start",
+    "RootJobModelCaption": "All jobs",
+    "StopAllSessionsByJobPromptFmt": "Do you want to stop execution of all sessions for job \"{0}\"?",
+    "StopAllSessionsByJobsPrompt": "Do you want to stop execution of all sessions for selected jobs?",
+    "StopAllSessionsPrompt": "Do you want to stop execution of all sessions?",
+    "StopAllSessionsTitle": "Stop Sessions",
     "StopAllSessionsYesText": "Stop",
-    "WhateverAddJobWindowApplyText": "Всё равно добавить",
+    "WhateverAddJobWindowApplyText": "Add job anyway",
     "WhateverEditJobWindowApplyText": "Save Whatever"
   },
   "app/scheduler/SchedulerUtils": {
     "MaximizeTooltip": "Maximize",
-    "RestoreTooltip": "Свернуть в окно"
+    "RestoreTooltip": "Collapse to window"
   },
   "app/scheduler/TreeNodeSelector": {
     "ErrNoRefModelNodeTreeNode": "No reference to IBGModelNodeTreeNode"
@@ -593,7 +593,7 @@
   "app/TabForm": {
     "DeactivateNodeConfirmationMsg": "Node configuration will cause its deactivation.\nDo you really want to start node configuration?",
     "DeactivateNodeForPortConfirmationMsg": "Port configuration will cause node deactivation.\nDo you really want to start port configuration?",
-    "DraftAddSchedulerJobFailed": "Невозможно добавить задачу для черновика \"{0}\"",
+    "DraftAddSchedulerJobFailed": "Failed to add job for draft \"{0}\"",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrPrepareContainer": "When switching to \"{0}.{1}\" error occurred.\n{2}",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
@@ -623,7 +623,7 @@
     "VisibilityHeader": "Visibility"
   },
   "app/VendorsQuickAccess": {
-    "QuickAccessGroupName": "Быстрый доступ"
+    "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
     "CompanyWebsite": "https:\/\/loginom.com",
@@ -703,16 +703,16 @@
     "UpperInclusive": "<  x <="
   },
   "components/calcdata/CalcDataWizard": {
-    "ExprReplace": "Заменяет входное поле"
+    "ExprReplace": "Replaces input field"
   },
   "components/calcdata/CalcExpressionsAbstract": {
     "AddFirstExpressionToEdit": "Add expression to edit",
     "DeleteAllConfirm": "Do you really want to delete all expressions?",
     "DeleteAllMsgTitle": "Delete All Expressions",
-    "ExprAlreadyExists": "Выражение с именем {0} уже существует"
+    "ExprAlreadyExists": "Expression with {0} name already exists"
   },
   "components/calcdata/CalcFieldsAbstract": {
-    "ErrReplacingFieldNotFound": "Не найдено входное поле для замены выражением \"{0}\"",
+    "ErrReplacingFieldNotFound": "Input field to replace with expression \"{0}\" not found",
     "SearchDef": "Filter"
   },
   "components/calcdata/CalcFunctions": {
@@ -733,46 +733,46 @@
   },
   "components/calcdata/ExprEditForm": {
     "AddBtnText": "Add",
-    "AddExrTitle": "Добавление выражения",
-    "ErrExprEmptyName": "Имя Выражения не может быть пустым",
-    "ErrExprInvalidIdentifier": "Введенное имя Выражения \"{0}\" не является правильным идентификатором",
+    "AddExrTitle": "Add Expression",
+    "ErrExprEmptyName": "Expression name cannot be empty",
+    "ErrExprInvalidIdentifier": "The name entered for Expression \"{0}\" is not a valid identifier",
     "ModifyBtnText": "Apply",
-    "ModifyExprTitle": "Параметры выражения"
+    "ModifyExprTitle": "Expression Parameters"
   },
   "components/calctree/CalcTreeExpressions": {
-    "ExprCannotReplaceContainer": "Выражение не может заменять узел-контейнер",
-    "ExprCannotReplaceExpr": "Операция не применима для узлов-выражений"
+    "ExprCannotReplaceContainer": "Expression cannot replace container node",
+    "ExprCannotReplaceExpr": "Operation not aplicable to expression nodes"
   },
   "components/calctree/CalcTreeFields": {
-    "AddExprContainerTitle": "Добавление контейнера выражений",
-    "ContainerNameCaption": "Имя контейнера:",
-    "ErrInvalidIdentifier": "Введенное имя не является правильным идентификатором",
-    "ErrNodeAlreadyExists": "Узел \"{0}\" уже существует",
-    "ErrReplacingNodeNotFound": "Не найден входной узел для замены выражением \"{0}\"",
-    "RenameExprContainerTitle": "Переименование контейнера выражений"
+    "AddExprContainerTitle": "Add Expression Container",
+    "ContainerNameCaption": "Container name:",
+    "ErrInvalidIdentifier": "The name entered is not a valid identifier",
+    "ErrNodeAlreadyExists": "Node \"{0}\" already exists",
+    "ErrReplacingNodeNotFound": "Input node to replace with expression \"{0}\" not found",
+    "RenameExprContainerTitle": "Rename Expression Container"
   },
   "components/calctree/CalcTreeInputs": {
-    "ErrInsertDuplicateNode": "Вставка запрещена. У узла \"{0}\" уже существует дочерний узел с именем \"{1}\"."
+    "ErrInsertDuplicateNode": "Insert forbidden. Node \"{0}\" already has a child node with name \"{1}\". "
   },
   "components/calctree/CalcTreeWizard": {
-    "ErrExprContainerEmpty": "Контейнер выражений \"{0}\" не содержит ни одного выражения",
+    "ErrExprContainerEmpty": "Expression container \"{0}\" contains no expressions",
     "ErrNodeNameAlreadyExists": "Node with \"{0}\" name already exists",
     "ExprGoToNode": "Go to Node",
-    "ExprReplace": "Заменяет входной узел",
-    "ExprReplaceAction": "Заменять узел",
-    "InsertInExprRelative": "Вставить в выражение относительно"
+    "ExprReplace": "Replaces input node",
+    "ExprReplaceAction": "Replace node",
+    "InsertInExprRelative": "Insert to expression relatively"
   },
   "components/calctree/TreeExprEditForm": {
-    "ErrExprNotInRoot": "Путь должен начинаться от корня \"{0}\"",
-    "ErrExprPathEmptyPart": "Введённый путь \"{0}\" содержит пустое имя",
-    "ErrExprPathInvalidIdentifier": "Введённый путь \"{0}\" содержит имя \"{1}\", не являющееся правильным идентификатором"
+    "ErrExprNotInRoot": "The path should start from root \"{0}\"",
+    "ErrExprPathEmptyPart": "The entered path \"{0}\" has an empty name",
+    "ErrExprPathInvalidIdentifier": "The entered path \"{0}\" has name \"{1}\", which is not a valid identifier"
   },
   "components/calcvariables/CalcVariablesFields": {
-    "ErrReplacingVariableNotFound": "Не найдена входная переменная для замены выражением \"{0}\""
+    "ErrReplacingVariableNotFound": "Input variable to replace with expression \"{0}\" not found"
   },
   "components/calcvariables/CalcVariablesWizard": {
-    "ExprReplace": "Заменяет входную переменную",
-    "ExprReplaceAction": "Заменять переменную"
+    "ExprReplace": "Replaces the input variable",
+    "ExprReplaceAction": "Replace variable"
   },
   "components/coarseclasses/CalculateInformationValues": {
     "ChartTitle": "Dependence IV on Number of Classes",
@@ -853,7 +853,7 @@
   "components/datarecovery/DataRecoveryWizard": {
     "NotUsedAction": "Not selected",
     "SetNullValueLabel": "Nulls replace value",
-    "SetNullValueWindowTitle": "Edit nulls replace value",
+    "SetNullValueWindowTitle": "Edit Null Replace Value",
     "SetValueMethod": "Replace with"
   },
   "components/datatotree/DataToTreeWizard": {
@@ -950,9 +950,9 @@
   "components/groupdata/GroupDataWizard": {
     "Ascending": "Ascending",
     "CommaSeparator": "Comma (,)",
-    "CommaSpaceSeparator": "Запятая с пробелом (,␣)",
-    "ConcatAggregationSettings": "Настройки варианта агрегации \"Список\"",
-    "ConcatSeparator": "Разделитель",
+    "CommaSpaceSeparator": "Comma with space (,␣)",
+    "ConcatAggregationSettings": "Configure \"List\" aggregation option",
+    "ConcatSeparator": "Separator",
     "ConcatWrapper": "Text qualifier",
     "Descending": "Descending",
     "FactorsEditTooltip": "Edit",
@@ -963,15 +963,15 @@
     "GroupDataDimensionTooltipName": "Group",
     "GroupDataFactor": "Parameters",
     "GroupDataTitle": "Grouping",
-    "NoSeparator": "Без разделителя",
-    "NoSorting": "Без сортировки",
-    "NoWrapper": "Без ограничителя строк",
-    "QuoteWrapper": "Кавычки (\")",
-    "SemicolonSeparator": "Точка с запятой (;)",
-    "SemicolonSpaceSeparator": "Точка с запятой с пробелом (;␣)",
-    "SingleQuoteWrapper": "Одинарные кавычки (')",
-    "SpaceSeparator": "Пробел (␣)",
-    "UniqueOnly": "Только уникальные"
+    "NoSeparator": "No separator",
+    "NoSorting": "No sorting",
+    "NoWrapper": "No text qualifier",
+    "QuoteWrapper": "Quotes (\")",
+    "SemicolonSeparator": "Semicolon (;)",
+    "SemicolonSpaceSeparator": "Semicolon with space (;␣)",
+    "SingleQuoteWrapper": "Single quotes (')",
+    "SpaceSeparator": "Space (␣)",
+    "UniqueOnly": "Unique only"
   },
   "components/javascript/JavaScriptCodeMirrorController": {
     "CodePlaceholder": "Enter script"
@@ -1034,7 +1034,7 @@
     "CodePlaceholder": "Enter script"
   },
   "components/python/PythonColumnsWizard": {
-    "frmPythonOutputTableTitle": "Configure columns of output Python table"
+    "frmPythonOutputTableTitle": "Configure Сolumns of Python Output Table"
   },
   "components/python/PythonOutputPreviewForm": {
     "OutputStdErrSymbolsSkipped": "stderr characters omitted",
@@ -1047,7 +1047,7 @@
   "components/reformcolumns/ReformColumnsWizard": {
     "ColumnCachingMethodText": "Caching",
     "ColumnExcludedText": "Exclude",
-    "ReformColumnsWizardTitle": "Configure fields features"
+    "ReformColumnsWizardTitle": "Configure Field Features"
   },
   "components/replace/ReplaceEditor": {
     "ConvertPrefix": "transformed from",
@@ -1058,13 +1058,13 @@
   },
   "components/replace/ReplaceWizard": {
     "DeleteAllPrompt": "Do you really want to remove all replacement items?",
-    "DeleteAllPromptTitle": "Delete replacement table",
+    "DeleteAllPromptTitle": "Delete Replacement Table",
     "EditorDisabled": "Include replacement to edit",
     "EditorNotChoosed": "Select replacement to edit.",
     "ErrFileFieldMiss": "Item is not file upload field",
     "ErrFileNotChoosed": "No file selected",
     "ErrTypeCastError": "Value {0} cannot be cast to {1} data type",
-    "FileSizeExceeds": "Размер файла превышает максимально допустимый {0}.\nФайл будет обрабатываться слишком долго.",
+    "FileSizeExceeds": "File size exceeds allowable maximum {0}.\nFile processing will take too long.",
     "OutputDataTypeError": "Output values will be related to the variant type without replacement of others",
     "ReplaceGroupCommon": "Exact match",
     "ReplaceGroupRegex": "Regular expressions",
@@ -1194,7 +1194,7 @@
     "DeleteAllParamsPrompt": "Do you really want to delete all parameters?",
     "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists",
     "TestConnectionSuccess": "Connection successful",
-    "TestConnectionTitle": "Connection test"
+    "TestConnectionTitle": "Connection Test"
   },
   "connections/webservice/AuthorizationForm": {
     "ErrUnsupportedAuthModeFmt": "Authentication mode \"{0}\" not supported",
@@ -1210,28 +1210,28 @@
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Cancel",
     "ContinueEdit": "Edit",
-    "ContinueReset": "Сбросить",
+    "ContinueReset": "Reset",
     "CreateTableBtnText": "Create Table",
     "DublicateFieldName": "A field with the same name already exists",
-    "EditorModeQuestionBody": "Внимание! В редакторе допустимы любые стандартные DDL-запросы.\nИспользуйте данный SQL-запрос исключительно для создания таблицы.",
-    "EditorModeQuestionTitle": "Редактирование SQL-запроса",
-    "ErrCreateTable": "При формировании SQL-запроса создания таблицы возникла ошибка:",
-    "ErrEmptySQLText": "Текст SQL-запроса не должен быть пустым",
-    "ErrFieldInvalidIdentifier": "Введенное имя поля не является правильным идентификатором",
+    "EditorModeQuestionBody": "Attention! Any standard DDL queries are allowed in the editor.\nUse this SQL query only to create a table.",
+    "EditorModeQuestionTitle": "Edit SQL Query",
+    "ErrCreateTable": "Error when forming SQL table creation query",
+    "ErrEmptySQLText": "SQL query text must not be empty",
+    "ErrFieldInvalidIdentifier": "The field name entered is not a valid identifier",
     "ErrFieldSize": "Size of {0} field must be more than 0",
     "ErrTableName": "Invalid table name",
-    "ExecuteSQLRequestBtnText": "Выполнить запрос",
-    "ResetQuestionBody": "Сбросить изменения SQL-запроса?",
-    "ResetQuestionTitle": "Сброс изменений"
+    "ExecuteSQLRequestBtnText": "Execute query",
+    "ResetQuestionBody": "Do you want to reset the SQL query changes?",
+    "ResetQuestionTitle": "Reset Changes"
   },
   "exports/dbexport/DBCreateTableSqlEditor": {
-    "SQLEditorPlaceholder": "Введите текст SQL-запроса",
-    "TooltipEditorMode": "Редактировать SQL-запрос",
-    "TooltipReset": "Сбросить изменения"
+    "SQLEditorPlaceholder": "Enter SQL query text",
+    "TooltipEditorMode": "Edit SQL query",
+    "TooltipReset": "Reset changes"
   },
   "exports/dbexport/DBExportMappingWizard": {
-    "colDisplayNameTitle": "Database table fields",
-    "colSourceNameTitle": "Source columns",
+    "colDisplayNameTitle": "Database Table Fields",
+    "colSourceNameTitle": "Source Columns",
     "ErrAbsentDataSourceSourceDetails": "List of absent source columns used previously:",
     "ErrAbsentFieldsDetails": "List of absent table columns used previously:",
     "ErrUpdateFieldsDetails": "List of table columns in which changes occurred:",
@@ -1241,7 +1241,7 @@
   },
   "exports/dbexport/DBExportParamsWizard": {
     "ErrTableNameNotSelected": "No table name specified",
-    "ErrTruncateNotSupported": "Операция TRUNCATE не поддерживается текущей базой данных",
+    "ErrTruncateNotSupported": "TRUNCATE operation not supported by the current database",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
     "NoConnection": "No connection"
   },
@@ -1546,11 +1546,11 @@
     "TitleSave": "Save File"
   },
   "filestorage/CopyPasteManager": {
-    "CannotCutInTheSameDirectory": "Нельзя вырезать и вставлять в тот же самый каталог",
+    "CannotCutInTheSameDirectory": "Pasting to the same directory after cutting is not possible",
     "CantPasteFile": "Failed to paste file",
     "CantPasteFolder": "Failed to paste folder",
     "Copied": "Copied",
-    "CopySuffix": "копия",
+    "CopySuffix": "Copy",
     "Cuted": "Cut",
     "HasNotStorageItems": "No files to be copied\/cut",
     "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
@@ -1562,7 +1562,7 @@
     "EmptyDirectoryText": "Folder is empty. Drag files to this area to upload them"
   },
   "filestorage/FileArchiver": {
-    "ZipFileDesc": "ZIP-архив"
+    "ZipFileDesc": "ZIP archive"
   },
   "filestorage/FileDownloader": {
     "CantSaveDownLoadedFile": "Failed to save the downloaded file"
@@ -1587,11 +1587,11 @@
     "ConfirmDeleting": "Do you really want to delete the selection?",
     "ConfirmExtract": "Files with matching names in the current folder will be replaced.\nDo you want to extract?",
     "ConfirmExtractInFolder": "Files with matching names in \"{0}\" folder will be replaced.\nDo you want to extract?",
-    "ConfirmExtractTitle": "\"{0}\" archive extraction",
+    "ConfirmExtractTitle": "\"{0}\" Archive Extraction",
     "ConfirmStopLoaders": "Active downloads will be canceled. Do you want to continue?",
     "CopyError": "Error while copying to clipboard:",
     "CreateDirectoryTitle": "New Folder",
-    "CreatePackageTitle": "Create package",
+    "CreatePackageTitle": "Create Package",
     "DeleteAllTitle": "Delete All Directory Files",
     "DirectoryAlreadyExists": "A directory with the same name already exists",
     "Download": "Download",
@@ -1651,7 +1651,7 @@
   },
   "filtersview/FiltersView": {
     "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
-    "DeleteAllTitle": "Delete all Conditions"
+    "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
     "AppLersionAPI": "\/api\/v1\/loginom-version",
@@ -1668,9 +1668,9 @@
     "HomePageLocale": "en",
     "NoNewsLog": "Failed to get news",
     "RemoveFromHistoryFmt": "No \"{0}\" file found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
-    "RemoveFromHistoryTitle": "No file found",
+    "RemoveFromHistoryTitle": "No File Found",
     "RemoveNoRightsFmt": "User \"{0}\" has no rights to open the packages",
-    "RemoveNoRightsTitle": "Failed to open package"
+    "RemoveNoRightsTitle": "Failed to Open Package"
   },
   "imports/dbimport/DBImportFilterWizard": {
     "Activation": "Input port activation",
@@ -1793,9 +1793,9 @@
   "imports/xml/DisplayNameSeparatorStore": {
     "Hyphen": "Hyphen (-)",
     "Period": "Dot (.)",
-    "Space": "Пробел ( )",
-    "Underscore": "Подчёркивание (_)",
-    "VerticalBar": "Вертикальная черта (|)"
+    "Space": "Space ( )",
+    "Underscore": "Underscore (_)",
+    "VerticalBar": "Vertical bar (|)"
   },
   "imports/xml/ImportXmlFieldsWizard": {
     "EmptyNamespace": "Empty namespace"
@@ -2037,12 +2037,12 @@
     "VersionLabelFmt": "Version: {0}"
   },
   "login/LoginToken": {
-    "AuthResponseNotJSON": "Ответ на запрос точки аутентификации не является JSON строкой",
-    "EmptyAuthURI": "Не задан URL точки аутентификации",
-    "OpenIDResponseNotJSON": "Ответ на запрос OpenID конфигурации не является JSON строкой",
-    "ServerDisconnected": "Сервер не доступен",
-    "TokenButtonText": "Войти через",
-    "UnknownToken": "Не найден запрос соответствующий полученному токену"
+    "AuthResponseNotJSON": "Response to authentication point request is not a JSON string",
+    "EmptyAuthURI": "Authentication point URL not specified",
+    "OpenIDResponseNotJSON": "Response to OpenID configuration request is not a JSON string",
+    "ServerDisconnected": "Server unavailable",
+    "TokenButtonText": "Login through",
+    "UnknownToken": "Request matching the received token not found"
   },
   "mxgraph/annotation/Annotation": {
     "ErrAnnotationSizeNotSaved": "Failed to save annotation sizes",
@@ -2109,8 +2109,8 @@
     "AddPortDisplayName": "Add another port."
   },
   "mxgraph/port/Port": {
-    "ItemCountOnDemand": "Количество недоступно",
-    "NoAutoMapping": "Автосинхронизация отключена",
+    "ItemCountOnDemand": "Count unavailable",
+    "NoAutoMapping": "Automapping disabled",
     "OptionalPortParam": "Optional port",
     "RequiredPortParam": "Required port"
   },
@@ -2320,7 +2320,7 @@
     "DefaultSerieName": "Series"
   },
   "viewers/clusterprofiles/CachedState": {
-    "InactiveWelcome": "Невозможно отобразить данные",
+    "InactiveWelcome": "Failed to display data",
     "TotalClusterDisplayName": "Total"
   },
   "viewers/clusterprofiles/ClusterProfilesUtils": {
@@ -2401,10 +2401,10 @@
   },
   "viewers/cube/CubeChartController": {
     "Charts": "Charts",
-    "CollapseAll": "Свернуть диаграммы",
-    "DefaultTitle": "Диаграмма {0}",
-    "ExpandAll": "Развернуть диаграммы",
-    "WarnDelete": "Вы действительно хотите удалить диаграмму \"{0}\"?"
+    "CollapseAll": "Collapse charts",
+    "DefaultTitle": "Chart {0}",
+    "ExpandAll": "Expand charts",
+    "WarnDelete": "Do you really want to delete diagram \"{0}\"?"
   },
   "viewers/cube/CubeChartPanel": {
     "ChartCaseEmptyText": "No measures",
@@ -2412,17 +2412,17 @@
     "ChartYAxisTitle": "Measures",
     "DotsOutOfBoundsMsg": "Exceeding chart bounds.\nCurrent number of dots: {0}.\nMaximum number of dots: {1}.",
     "EditColor": "Change color...",
-    "EditTitleWindow": "Редактирование заголовка диаграммы",
+    "EditTitleWindow": "Edit chart title",
     "EmptyChart": "No measures to display",
     "HideAllTraces": "Hide all series",
     "InvertTraces": "Invert series visibility",
-    "NoData": "Нет данных для отображения",
+    "NoData": "No data to display",
     "ResetColor": "Reset color",
     "ShowAllTraces": "Show all series",
-    "Title": "Заголовок:",
+    "Title": "Title:",
     "TooltipLoading": "Loading...",
-    "TooltipOverflowMsg": "\n...и ещё {0}",
-    "TracesOutOfBoundsMsg": "Превышение ограничений диаграммы.\nТекущее кол-во серий: {0}.\nМаксимальное кол-во серий: {1}."
+    "TooltipOverflowMsg": "\n...and {0} more",
+    "TracesOutOfBoundsMsg": "Chart bounds exceeded.\nCurrent number of sessions: {0}.\nMaximum number of sessions: {1}."
   },
   "viewers/cube/CubeDragDropController": {
     "Ascending": "Ascending",
@@ -2444,12 +2444,12 @@
   },
   "viewers/cube/CubeView": {
     "ErrExportFailed": "Failed to export the Cube crosstab:\n{0}",
-    "ExportToastTitle": "Export from the Cube",
+    "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
     "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
-    "DimensionFilterSelectionPanelTitle": "Check by pattern"
+    "DimensionFilterSelectionPanelTitle": "Check by Pattern"
   },
   "viewers/cube/DimensionsFilterPanel": {
     "AndMore": "\nand also {0} values.",
@@ -2586,7 +2586,7 @@
     "ConfirmDeletingGroup": "Do you really want to delete the reports group?",
     "ConfirmDeletingReportView": "Do you really want to delete the visualizer from the reports?",
     "ConfirmLongReload": "Recalculation may take a long time. Do you want to continue?",
-    "CreateGroupTitle": "Create group",
+    "CreateGroupTitle": "Create Group",
     "Enter": "Enter",
     "ErrDeleting": "Error while deleting",
     "ErrDeletingGroup": "Error while group deleting",
@@ -2629,8 +2629,8 @@
     "Gini": "Gini index",
     "KS": "KS",
     "KS_Tooltip": "Kolmogorov-Smirnov statistics",
-    "NoDataSelected": "Выберите множества для отображения",
-    "NoDataToDisplay": "Нет данных для отображения",
+    "NoDataSelected": "Select sets to display",
+    "NoDataToDisplay": "No data to display",
     "PPVShort": "PPV",
     "TPRShort": "TPR"
   },
@@ -2727,7 +2727,7 @@
   "wizards/connection/ConnectionConfigWizard": {
     "TestConnectionSuccess": "Connection successful",
     "TestConnectionTitle": "Connection test",
-    "WizardTitle": "connection parameters"
+    "WizardTitle": "Connection Parameters"
   },
   "wizards/connection/ConnectionReferenceComponentWizard": {
     "ConnectionReferenceTitle": "Connection Reference",
@@ -2735,7 +2735,7 @@
   },
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
-    "BtnDeactivateAll": "Деактивировать все",
+    "BtnDeactivateAll": "Deactivate all",
     "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipConnect": "Activate connection",

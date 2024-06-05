@@ -120,9 +120,9 @@
       "Output": "Returns the value arccosine, namely, the angle in radians the cosine of which is equal to the Value."
     },
     "ArcSin": {
-      "Arguments": "Value - the sinus value for which it is required to determine the angle.",
+      "Arguments": "Value - the value of the sine whose angle should be found.",
       "Description": "ArcSin(Value)",
-      "Output": "Returns the value arcsine, namely, the angle in radians the sinus of which is equal to the Value."
+      "Output": "Returns the arcsine of the value, i.e., the angle in radians whose sine is the Value."
     },
     "ArcTan": {
       "Arguments": "Value - the tangent value for which it is required to determine the angle.",
@@ -190,7 +190,7 @@
       "Output": "Returns the week day according to the specified date."
     },
     "DaysBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return a negative value",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "DaysBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of days between two dates."
     },
@@ -295,7 +295,7 @@
       "Output": "Returns the hour according to the specified date\/time."
     },
     "HoursBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return a negative value",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "HoursBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of hours between two dates."
     },
@@ -365,7 +365,7 @@
       "Output": "Returns the maximum argument."
     },
     "MillisecondsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return a negative value",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "MillisecondsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of milliseconds between two dates."
     },
@@ -380,7 +380,7 @@
       "Output": "Returns minutes according to the specified date\/time."
     },
     "MinutesBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return a negative value",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "MinutesBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of minutes between two dates."
     },
@@ -395,7 +395,7 @@
       "Output": "Returns the month according to the specified date."
     },
     "MonthsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return a negative value",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "MonthsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of months between two dates."
     },
@@ -480,7 +480,7 @@
       "Output": "Returns seconds according to the specified date\/time."
     },
     "SecondsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return the value False",
+      "Arguments": "Дата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения",
       "Description": "SecondsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of seconds between two dates."
     },
@@ -492,7 +492,7 @@
     "Sin": {
       "Arguments": "Angle - angle value in radians.",
       "Description": "Sin(Angle)",
-      "Output": "Returns sinus of the set angle."
+      "Output": "Returns the sine of the set angle."
     },
     "Space": {
       "Arguments": "Count_of_spaces - integer.",
@@ -502,10 +502,10 @@
     "Sqrt": {
       "Arguments": "Argument - positive numeric expression.",
       "Description": "Sqrt(Argument)",
-      "Output": "Returns the argument square root."
+      "Output": "Returns the square root of the argument."
     },
     "StartOfInterval": {
-      "Arguments": "Date - argument of the Date\/Time type.\nInterval_count - number of the given type intervals included in the interval; a positive integer number\nInterval_Type - type of the time interval.\nStarting_Point - a Date\/Time argument with which the time interval count starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default)\n\nIf Starting_Point does not correspond with the start of the chosen type of the interval, computations get corrected.\nIf Interval_Type is month and Starting_Point is November 15, 2023, the intervals will be counted starting with November 1, 2023",
+      "Arguments": "Date - an argument of the Date\/Time type.\nInterval_Count - the number of the given type intervals included in the interval; a positive integer number\nInterval_Type - the type of the time interval.\nStarting_Point - a Date\/Time argument with which the time interval count starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default)\n\nIf Starting_Point does not correspond with the start of the chosen type of the interval, computations get corrected.\nIf Interval_Type is month and Starting_Point is November 15, 2023, the intervals will be counted starting with November 1, 2023",
       "Description": "StartOfInterval(Date, Interval_Count, Interval_Type[, Starting_Point])",
       "Output": "The function calculates the start of an arbitrary time interval"
     },
@@ -605,14 +605,14 @@
       "Output": "Returns the uppercase argument."
     },
     "Val": {
-      "Arguments": "String - string expression.",
-      "Description": "Val(String)",
-      "Output": "Converts the given string into a number, taking locale into account"
+      "Arguments": "String - a string expression.\nDecimal_Separator - an optional parameter of the string type used to separate the integer part from the fractional part of a number.\nDecimal_Separator must be a single character.\nThousands_Separator - an optional parameter of the string, boolean or numeric type used to separate digit groups in large numbers. If Thousands_Separator is of the string data type, it must be a single character.\nFor the Decimal_Separator and Thousands_Separator parameters, any ASCII characters are acceptable except numbers, +- signs and letter E. Thousands_Separator may also be the NBSP character.\nWhenever the parameters Decimal_Separator and Thousands_Separator are set, their values must not be the same. If only the Decimal_Separator parameter is set, it must differ from the thousands separator specified in the current package locale.",
+      "Description": "Val(String, [Decimal_Separator, Thousands_Separator])",
+      "Output": "Converts the specified string to a number using the Decimal_Separator and Thousands_Separator parameters.\nIf Decimal_Separator is not set, the string is converted using the decimal separator specified in the current package locale.\nIf Thousands_Separator is not set of is True, the string is converted using the thousands separator specified in the current package locale.\nIf Thousands_Separator is False or 0, the convertion does not involve thousands separators.\nIf Thousands_separator is of the numeric data type and not 0, the convertion utilizes the thousands separator specified in the current package locale."
     },
     "Week": {
       "Arguments": "Date - the date type field.",
       "Description": "Week(Date)",
-      "Output": "Returns the week number of the year by the set date according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday. The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned."
+      "Output": "Returns the number of the given date's week within the year according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday. The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned."
     },
     "Year": {
       "Arguments": "Date - the date type field.",
@@ -620,7 +620,7 @@
       "Output": "Returns the year according to the specified date."
     },
     "YearsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter. If Date2 is less than Date1, the function will return the value False",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "YearsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of years between two dates."
     }
@@ -629,12 +629,12 @@
     "RegExDomain": {
       "Arguments": "InputString - the input string in which domain name will be searched;\nOccurenceNumber - the index of domain name in the searched string.",
       "Description": "RegExDomain(InputString [, OccurenceNumber = 1])",
-      "Output": "Returns OccurencesNumber domain name from the InputString string, not including www till the top level domain, inclusively.\nRegular expressions are used for search."
+      "Output": "Returns OccurenceNumber domain name from the InputString string, not including www till the top level domain, inclusively.\nRegular expressions are used for search."
     },
     "RegExEmail": {
       "Arguments": "InputString - the input string in which Email-address will be searched;\nOccurenceNumber - the index of Email-address in the searched string.",
       "Description": "RegExEmail(InputString [, OccurenceNumber = 1])",
-      "Output": "Extracts OccurencesNumber Email-address from the InputString string.\nRegular expressions are used for search."
+      "Output": "Retrieves the OccurrenceNumber-th email address from the InputString.\nRegular expressions are used for the search."
     },
     "RegExMatch": {
       "Arguments": "RegularExpression - the regular expressions string;\nString - the input string.",
@@ -696,36 +696,36 @@
   },
   "TreeFunctions": {
     "DisplayName": {
-      "Arguments": "ПутьУзла - путь узла, переменной или выражения",
-      "Description": "DisplayName([\"ПутьУзла\"])",
-      "Output": "Функция возвращает метку (отображаемое имя) по пути узла, переменной или выражения.\nЕсли функция вызывается без аргументов, то она возвращает метку текущего вычисляемого выражения.\nПримечание: ПутьУзла - строковое значение, т.е. явно заданное ПутьУзла должно быть указано в кавычках.\nНапример: DisplayName(\"Root.Node1\")"
+      "Arguments": "NodePath - the path to a node, variable or expression",
+      "Description": "DisplayName([\"NodePath\"])",
+      "Output": "The function returns the caption (display name) based on the path to a node, variable or expression.\nIf the function is activated without arguments, it returns the caption of the expression being currently computed.\nNote: NodePath is a string value, so an explicitely specified NodePath must be in quotes.\nFor example: DisplayName(\"Root.Node1\") "
     },
     "ItemCount": {
       "Arguments": "Arguments are absent.",
       "Description": "ItemCount()",
-      "Output": "Функция возвращает число выражений внутри массива."
+      "Output": "The function returns the number of expressions within an array."
     },
     "ItemIndex": {
       "Arguments": "Arguments are absent.",
       "Description": "ItemIndex()",
-      "Output": "Функция возвращает индекс выражения внутри массива. Нумерация начинается с 0."
+      "Output": "The function returns the index of an expression within an array. The numbering starts with 0."
     },
     "Location": {
       "Arguments": "Arguments are absent.",
       "Description": "Location()",
-      "Output": "Функция возвращает путь от корня дерева до выражения."
+      "Output": "The function returns the path from the tree root to the expression."
     },
     "Parent": {
       "Arguments": "Arguments are absent.",
       "Description": "Parent()",
-      "Output": "Функция возвращает родительский узел текущего узла выражения."
+      "Output": "The function returns the parent node of the expression's current node."
     }
   },
   "VariablesFunctions": {
     "DisplayName": {
-      "Arguments": "ИмяПеременной - имя переменной или выражения",
-      "Description": "DisplayName([\"ИмяПеременной\"])",
-      "Output": "Функция возвращает метку (отображаемое имя) по имени переменной или выражения.\nЕсли функция вызывается без аргументов, то она возвращает метку текущего вычисляемого выражения.\nПримечание: ИмяПеременной - строковое значение, т.е. явно заданное ИмяПеременной должно быть указано в кавычках.\nНапример: DisplayName(\"VAR1\")"
+      "Arguments": "VariableName - the name of a variable or an expression",
+      "Description": "DisplayName([\"VariableName\"])",
+      "Output": "The function returns the caption (display name) based on the name of a variable or an expression.\nIf the function is activated without arguments, it returns the caption of the expression being currently computed.\nNote: VariableName is a string value, so an explicitely specified VariableName must be in quotes.\nFor example: DisplayName(\"VAR1\")"
     }
   }
 }

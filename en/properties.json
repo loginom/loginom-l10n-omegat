@@ -616,7 +616,7 @@
       "DecimalSeparator": "Decimal separator",
       "DelimiterChar": "Column delimiter",
       "FileInfoColumnsType": "Информация о файле",
-      "FirstLineAsTitle": "First line title",
+      "FirstLineAsTitle": "First Line Title",
       "MultipleDelimiters": "Treat consecutive delimiters as one",
       "RowsToSkip": "Skip rows",
       "TextQualifier": "Text qualifier",
@@ -843,7 +843,7 @@
   },
   "Libraries/KafkaConnection/KafkaConnection": {
     "KafkaConnectionConfigurator": {
-      "KafkaAuth": "Authentification",
+      "KafkaAuth": "Authentication",
       "Server": "Kafka cluster"
     }
   },
