@@ -4270,6 +4270,7 @@
     "ProductShortName": "Loginom"
   },
   "Studio/DeductorServer": {
+    "AutoRefresh": "Автообновление публикации",
     "AutoSavePackageError": "Возникла ошибка при автосохранении пакета \"%s\"",
     "AutoSavePackagesFailed": "Не удалось выполнить автосохранение пакетов",
     "EnteredMaintenanceMode": "Сервер введён в режим обслуживания",
@@ -4311,6 +4312,7 @@
     "ErrSessionBackupAlreadyRestored": "Данная резервная копия сессии уже была восстановлена другим клиентом из-под текущей учётной записи",
     "ErrSessionBackupModified": "Данная резервная копия сессии была изменена другим клиентом из-под текущей учётной записи",
     "ErrUpdatePublishedPackageErrors": "При обновлении публикации пакета %s возникли ошибки",
+    "FileName": "Имя файла",
     "LeftMaintenanceMode": "Сервер выведен из режима обслуживания",
     "LicSessionCountExceeded": "Превышено количество сессий, допустимых по вашей лицензии",
     "LogFailedLogin": "Не удалось войти в учетную запись %s",
@@ -4324,6 +4326,7 @@
     "LogSettingsComponentChanged": "Изменился параметр компонента сервера %s:\"%s\"",
     "LogTokenClaimNone": "Токен не содержит клейм %s",
     "LogTokenClaimTypeErr": "Значение клейма %s в неправильном формате",
+    "Namespace": "Пространство имён",
     "PackageClosedLogMsg": "Закрыт пакет \"%s\"",
     "PackageOpenedEditLogMsg": "Открыт пакет \"%s\" в режиме редактирования",
     "PackageOpenedReadLogMsg": "Открыт пакет \"%s\" в режиме только для чтения",
@@ -4356,6 +4359,8 @@
     "FailedLoginTimeout": "Тайм-аут ввода пароля",
     "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
     "IdleLockTimeout": "Тайм-аут блокировки сессии",
+    "Maintenance": "Режим облуживания",
+    "MaintenanceMessage": "Сообщение обслуживания",
     "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
     "PackagePoolSize": "Размер пула пакетов",
     "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
