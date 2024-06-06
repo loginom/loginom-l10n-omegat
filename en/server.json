@@ -8,7 +8,7 @@
     "ErrUnloadResults": "Error loading 1C query results"
   },
   "Common/1Cv8/1Cv8Session": {
-    "ErrComConnectorConnect": "Error executing 1С ComConnector.Connect"
+    "ErrComConnectorConnect": "Error executing 1C ComConnector.Connect"
   },
   "Common/1Cv8/1Cv8SessionManager": {
     "ErrEmptyConnectionString": "Empty connection string"
@@ -4034,7 +4034,7 @@
     "AutoGetToken": "Automatic reception of token",
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
-    "FoldersClaim": "Сlaim of the list of shared folders",
+    "FoldersClaim": "Claim of the list of shared folders",
     "OpenIDClient": "Client ID",
     "OpenIDProviderName": "The OpenID provider's name",
     "OpenIDScope": "Visibility",

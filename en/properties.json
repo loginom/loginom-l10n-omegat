@@ -896,7 +896,7 @@
       "AutoGetToken": "Automatic reception of token",
       "ClaimsToVariables": "Claims extracted to variables",
       "DefaultUserRole": "New user role",
-      "FoldersClaim": "Сlaim of the list of shared folders",
+      "FoldersClaim": "Claim of the list of shared folders",
       "OpenIDClient": "Client ID",
       "OpenIDProviderName": "Service caption",
       "OpenIDScope": "Visibility",

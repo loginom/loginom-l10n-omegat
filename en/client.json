@@ -32,7 +32,7 @@
     "AutoGetToken": "Automatic reception of token",
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
-    "FoldersClaim": "Сlaim of the list of shared folders",
+    "FoldersClaim": "Claim of the list of shared folders",
     "NoClaimsToVariables": "No extractable claims",
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
@@ -40,7 +40,7 @@
     "OpenIDProviderName": "The OpenID provider's name",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
-    "RedirectURI": "Сlient URL",
+    "RedirectURI": "Client URL",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint URL",
     "UpdateUserRole": "Update user role",
@@ -1034,7 +1034,7 @@
     "CodePlaceholder": "Enter script"
   },
   "components/python/PythonColumnsWizard": {
-    "frmPythonOutputTableTitle": "Configure Сolumns of Python Output Table"
+    "frmPythonOutputTableTitle": "Configure Columns of Python Output Table"
   },
   "components/python/PythonOutputPreviewForm": {
     "OutputStdErrSymbolsSkipped": "stderr characters omitted",
