@@ -47,7 +47,7 @@
   },
   "admin/ClaimsToVariablesForm": {
     "btnAdd": {
-      "tooltip": "Добавить клейм"
+      "tooltip": "Add claim"
     },
     "btnApply": {
       "text": "Apply"
@@ -62,7 +62,7 @@
       "tooltip": "Delete all..."
     },
     "btnEdit": {
-      "tooltip": "Редактировать клейм"
+      "tooltip": "Edit claim"
     },
     "btnMoveDown": {
       "tooltip": "Move down"
@@ -71,7 +71,7 @@
       "tooltip": "Move up"
     },
     "colClaim": {
-      "text": "Клеймы"
+      "text": "Claims"
     },
     "colDelete": {
       "tooltip": "Delete all"
@@ -80,7 +80,7 @@
       "tooltip": "Delete"
     },
     "frmClaimsToVariablesForm": {
-      "title": "Список переменных взятых из токена"
+      "title": "List of Variables Taken from Token"
     }
   },
   "admin/RoleMapingForm": {
@@ -91,13 +91,13 @@
       "text": "Cancel"
     },
     "colName": {
-      "text": "Роль или право в приложении"
+      "text": "Role or Right in Application"
     },
     "colValue": {
-      "text": "Роль в токене"
+      "text": "Role in Token"
     },
     "frmRoleMapingForm": {
-      "title": "Сопоставление ролей пользователя"
+      "title": "User Roles Mapping"
     }
   },
   "admin/ServerSettingsForm": {
@@ -129,7 +129,7 @@
       "tooltip": "Close session or package"
     },
     "btnMaintenance": {
-      "tooltip": "Ввод\/Вывод сервера из режима обслуживания..."
+      "tooltip": "Enter\/Leave server maintenance mode..."
     },
     "btnRefresh": {
       "text": "Refresh",
@@ -144,11 +144,11 @@
       "tooltip": "Find session or package"
     },
     "btnSendMessage": {
-      "text": "Отправить сообщение",
-      "tooltip": "Отправить сообщение пользователю..."
+      "text": "Send message",
+      "tooltip": "Send message to user..."
     },
     "btnSendMessageToAll": {
-      "tooltip": "Отправить сообщение всем активным пользователям..."
+      "tooltip": "Send message to all active users..."
     },
     "btnStop": {
       "text": "Stop",
@@ -271,7 +271,7 @@
       "boxLabel": "Batch processing"
     },
     "chkSchedulerFullAccess": {
-      "boxLabel": "Доступ ко всем задачам в планировщике"
+      "boxLabel": "Access to all scheduler jobs"
     },
     "chkViewer": {
       "boxLabel": "View reports"
@@ -317,7 +317,7 @@
       "text": "About"
     },
     "btnAppearance": {
-      "text": "Внешний вид"
+      "text": "Appearance"
     },
     "btnHelp": {
       "text": "Help"
@@ -338,7 +338,7 @@
       "text": "Close"
     },
     "mniFullScreen": {
-      "text": "Полный экран"
+      "text": "Full screen"
     },
     "mniZoomIn": {
       "text": "Zoom in"
@@ -421,7 +421,7 @@
   },
   "app/DBLoginPromptForm": {
     "btnApply": {
-      "text": "Подключиться"
+      "text": "Connect"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -582,10 +582,10 @@
       "tooltip": "Add"
     },
     "btnAddSchedulerJob": {
-      "tooltip": "Добавить задачу в планировщик..."
+      "tooltip": "Add job to scheduler..."
     },
     "btnAddSchedulerJobByNode": {
-      "tooltip": "Добавить задачу в планировщик..."
+      "tooltip": "Add job to scheduler..."
     },
     "btnClosePackage": {
       "tooltip": "Close package"
@@ -665,7 +665,7 @@
       "tooltip": "Cut"
     },
     "btnDeactivateAll": {
-      "tooltip": "Деактивировать все"
+      "tooltip": "Deactivate all"
     },
     "btnDeriveModelNode": {
       "tooltip": "Create derived component ..."
@@ -700,7 +700,7 @@
       "tooltip": "Retrain node"
     },
     "btnSettingComponents": {
-      "tooltip": "Настроить панель"
+      "tooltip": "Configure panel"
     },
     "btnSetup": {
       "tooltip": "Configure node..."
@@ -718,7 +718,7 @@
       "tooltip": "Show\/hide component panel"
     },
     "btnSocketItemCountToggle": {
-      "tooltip": "Показывать количество на выходных портах"
+      "tooltip": "Show count in output ports"
     },
     "btnStyle0": {
       "text": "Abc"
@@ -799,7 +799,7 @@
       "tooltip": "Show as workflow"
     },
     "mniAddLinkLabel": {
-      "text": "Добавить метку..."
+      "text": "Add caption..."
     },
     "mniAddNewNode": {
       "text": "Add node to workflow"
@@ -820,19 +820,19 @@
       "text": "Paste"
     },
     "mniCollapseAllGroups": {
-      "text": "Свернуть группы"
+      "text": "Collapse groups"
     },
     "mniDeleteLink": {
       "text": "Delete link..."
     },
     "mniEditLinkLabel": {
-      "text": "Редактировать метку..."
+      "text": "Edit caption..."
     },
     "mniExpandAllGroups": {
-      "text": "Развернуть группы"
+      "text": "Expand groups"
     },
     "mniFrequentlyUsedVisibility": {
-      "text": "Часто используемые"
+      "text": "Frequently used"
     },
     "mniHorizontalAlignBottom": {
       "text": "Align bottom",
@@ -850,10 +850,10 @@
       "text": "Remove from favorite"
     },
     "mniRemoveFromFrequentlyUsed": {
-      "text": "Убрать из часто используемых"
+      "text": "Remove from frequently used"
     },
     "mniRemoveLinkLabel": {
-      "text": "Удалить метку"
+      "text": "Remove caption"
     },
     "mniStyle": {
       "text": "Style"
@@ -945,8 +945,8 @@
   },
   "app/PackagesListForm": {
     "btnAddSchedulerJob": {
-      "text": "Добавить задачу в планировщик...",
-      "tooltip": "Добавить задачу в планировщик..."
+      "text": "Add job to scheduler...",
+      "tooltip": "Add job to scheduler..."
     },
     "btnAutoSave": {
       "text": "Auto save",
@@ -1193,13 +1193,13 @@
   },
   "app/scheduler/ActiveSessions": {
     "colActiveJobCaption": {
-      "text": "Метка задачи"
+      "text": "Job Captioin"
     },
     "colActiveProcessTime": {
-      "text": "Время выполнения"
+      "text": "Processing Time"
     },
     "colActiveSessionID": {
-      "text": "Номер сессии"
+      "text": "Session Number"
     },
     "colActiveStartTime": {
       "text": "Start"
@@ -1211,13 +1211,13 @@
       "text": "Processing"
     },
     "colStopSession": {
-      "tooltip": "Остановить все сессии..."
+      "tooltip": "Stop all sessions..."
     },
     "colStopSession.0": {
-      "tooltip": "Остановить сессию"
+      "tooltip": "Stop session"
     },
     "mniStopSession": {
-      "text": "Остановить сессию"
+      "text": "Stop session"
     }
   },
   "app/scheduler/GridNodeSelector": {
@@ -1346,10 +1346,10 @@
       "tooltip": "Delete selected"
     },
     "btnDeselectAllDays": {
-      "text": "Отменить выбор"
+      "text": "Cancel Selection"
     },
     "btnDeselectAllMonths": {
-      "text": "Отменить выбор"
+      "text": "Cancel Selection"
     },
     "btnEditVariable": {
       "tooltip": "Edit..."
