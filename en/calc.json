@@ -480,7 +480,7 @@
       "Output": "Returns seconds according to the specified date\/time."
     },
     "SecondsBetween": {
-      "Arguments": "Дата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения",
+      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "SecondsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the total number of seconds between two dates."
     },
