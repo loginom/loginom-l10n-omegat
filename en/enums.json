@@ -1,7 +1,7 @@
 {
   "Common/CalcFunctions/FuncDesc": {
     "CalcFuncCategory": {
-      "$Caption": "Function Category",
+      "$Caption": "Function Categorylib\/StrUtils.TimeSpaneSecond",
       "Financical": "Financial",
       "DateTime": "Date\/Time",
       "Mathematic": "Math",
@@ -763,7 +763,7 @@
       "$Caption": "Export Mode",
       "Append": "Append data to table",
       "Overload": "Clear table and append data",
-      "TruncateAndRefill": "Выполнить TRUNCATE и заполнить данными",
+      "TruncateAndRefill": "Execute TRUNCATE and refill with data",
       "Delete": "Delete records by key fields",
       "Refresh": "Delete records by key fields and insert data into table",
       "Update": "Update existing table records"
@@ -1324,14 +1324,14 @@
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "FileInfoColumnsType": {
-      "$Caption": "Информация о файле",
+      "$Caption": "File info",
       "None": "None",
       "Name": "File name",
-      "RelativePath": "Относительный путь",
-      "AbsolutePath": "Абсолютный путь",
-      "NameTimeModified": "Имя файла, Время модификации",
-      "RelativePathTimeModified": "Относительный путь, Время модификации",
-      "AbsolutePathTimeModified": "Абсолютный путь, Время модификации"
+      "RelativePath": "Relative path",
+      "AbsolutePath": "Absolute path",
+      "NameTimeModified": "File name, Modification time",
+      "RelativePathTimeModified": "Relative path, Modification time",
+      "AbsolutePathTimeModified": "Absolute path, Modification time"
     }
   },
   "Libraries/FileConnection/TextFileTypes": {
@@ -1491,13 +1491,13 @@
   },
   "Libraries/OpenID/OpenID": {
     "OpenIDPermission": {
-      "$Caption": "Роли и права пользователя",
+      "$Caption": "User Roles and Rights",
       "Designer": "Workflows design",
       "Viewer": "View reports",
       "Admin": "Admin",
       "UseGlobalFileStorage": "Use global file storage",
       "AllowPublish": "Allow packages publishing",
-      "SchedulerFullAccess": "Доступ ко всем задачам в планировщике"
+      "SchedulerFullAccess": "Access to all scheduler jobs"
     },
     "OpenIDUserRole": {
       "$Caption": "New User Role",

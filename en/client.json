@@ -32,7 +32,7 @@
     "AutoGetToken": "Automatic token allocation",
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
-    "FoldersClaim": "A claim of the list of shared folders",
+    "FoldersClaim": "Сlaim of the list of shared folders",
     "NoClaimsToVariables": "No extractable claims",
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
@@ -2018,10 +2018,10 @@
     "KiloBytesSuffix": "KB",
     "MegaBytesSuffix": "MB",
     "TimeSpanDay": "d ",
-    "TimeSpaneSecond": "с ",
+    "TimeSpaneSecond": "s ",
     "TimeSpanHour": "h ",
-    "TimeSpanMillisecond": "мс",
-    "TimeSpanMinute": "м ",
+    "TimeSpanMillisecond": "ms",
+    "TimeSpanMinute": "m ",
     "TrueText": "true"
   },
   "lib/ViewController": {

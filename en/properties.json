@@ -450,14 +450,14 @@
   "components/sorting": {
     "SortingEngine": {
       "BufferWhole": "Cache all data",
-      "LocaleAware": "Сравнивать с учётом локали"
+      "LocaleAware": "Compare considering locale"
     }
   },
   "components/treetodata": {
     "TreeToDataEngine": {
-      "CompositeColumnDisplayNames": "Составные метки полей",
-      "CompositeColumnNames": "Составные имена полей",
-      "CompositeDisplayNameSeparator": "Разделитель составных меток",
+      "CompositeColumnDisplayNames": "Composite field captions",
+      "CompositeColumnNames": "Composite field names",
+      "CompositeDisplayNameSeparator": "Composite captions separator",
       "RepeatParentNodeValues": "Repeat parent node values"
     }
   },
@@ -494,14 +494,14 @@
       "ProduceRawOutput": "Produce \"raw\" server response",
       "RepeatUniqueValues": "Repeat single values",
       "RequestConfigurator": "Configure request data export",
-      "StrictValidation": "Проверять на соответствие XSD",
+      "StrictValidation": "Validate against XSD",
       "TimeZone": "Default time zone"
     }
   },
   "exports/database": {
     "DBExport": {
       "ExportType": "Export type",
-      "MaxParamSets": "Число строк в пачке",
+      "MaxParamSets": "Count of rows in a batch",
       "RecordCountForCommit": "Transaction commit frequency (rows)",
       "SilentActivation": "Ignore errors",
       "TableName": "Table name"
@@ -584,7 +584,7 @@
       "AllRows": "All rows",
       "BlankRowAction": "Blank rows",
       "ExplicitRange": "Range",
-      "FileInfoColumnsType": "Информация о файле",
+      "FileInfoColumnsType": "File info",
       "ReferenceStyle": "Reference style",
       "TableName": "Object name",
       "TableNamingMethod": "Object selection",
@@ -615,7 +615,7 @@
       "DateSeparator": "Date separator",
       "DecimalSeparator": "Decimal separator",
       "DelimiterChar": "Column delimiter",
-      "FileInfoColumnsType": "Информация о файле",
+      "FileInfoColumnsType": "File info",
       "FirstLineAsTitle": "First Line Title",
       "MultipleDelimiters": "Treat consecutive delimiters as one",
       "RowsToSkip": "Skip rows",
@@ -643,7 +643,7 @@
     "1Cv8ConnectionConfigurator": {
       "PlatformVersion": "Platform version",
       "PoolCapacity": "Size",
-      "PoolTimeout": "Тайм-аут (с)"
+      "PoolTimeout": "Timeout (s)"
     }
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
@@ -665,7 +665,7 @@
       "DatabasePath": "Connection string",
       "Direct": "Do not use DBMS client",
       "LockTimeout": "Lock timeout (s)",
-      "LoginPrompt": "Спрашивать пароль",
+      "LoginPrompt": "Request password",
       "Password": "Password",
       "QuotedObjectNames": "Quote names",
       "SystemTables": "Show system tables",
@@ -821,12 +821,12 @@
   },
   "Libraries/ImportXMLConfigurator/ImportXMLConfigurator": {
     "ImportXMLConfigurator": {
-      "CompositeColumnDisplayNames": "Составные метки полей",
-      "CompositeColumnNames": "Составные имена полей",
-      "CompositeDisplayNameSeparator": "Разделитель составных меток",
+      "CompositeColumnDisplayNames": "Composite field captions",
+      "CompositeColumnNames": "Composite field names",
+      "CompositeDisplayNameSeparator": "Composite captions separator",
       "IgnoreAbsentValues": "Allow required fields skipping",
       "RepeatUniqueValues": "Repeat single values",
-      "StrictValidation": "Проверять на соответствие XSD",
+      "StrictValidation": "Validate against XSD",
       "TimeZone": "Default time zone"
     }
   },
@@ -869,7 +869,7 @@
     "LoggerConfigurator": {
       "LoggerType": "Logging type",
       "NeedDN": "Resolve domain names",
-      "NeedPackageName": "Логировать имя пакета у узла"
+      "NeedPackageName": "Log the package name for the node"
     },
     "LoggerConfiguratorFile": {
       "LogFileMaxIndex": "Number of backup files",
@@ -891,12 +891,12 @@
   },
   "Libraries/OpenID/OpenID": {
     "OpenIDConfigurator": {
-      "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
-      "AuthEndpoint": "URL запроса аутентификации",
-      "AutoGetToken": "Автоматическое получения токена",
-      "ClaimsToVariables": "Клеймы извлекаемые в переменные",
+      "AllowUsersWithoutRole": "Allow login for users without roles",
+      "AuthEndpoint": "Authentication request URL",
+      "AutoGetToken": "Automatic token allocation",
+      "ClaimsToVariables": "Claims extracted to variables",
       "DefaultUserRole": "New user role",
-      "FoldersClaim": "Клейм списка общих папок",
+      "FoldersClaim": "Сlaim of the list of shared folders",
       "OpenIDClient": "Идентификатор клиента",
       "OpenIDProviderName": "Метка сервиса",
       "OpenIDScope": "Visibility",

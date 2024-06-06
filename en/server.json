@@ -8,7 +8,7 @@
     "ErrUnloadResults": "Error loading 1C query results"
   },
   "Common/1Cv8/1Cv8Session": {
-    "ErrComConnectorConnect": "Ошибка выполнения 1С ComConnector.Connect"
+    "ErrComConnectorConnect": "Error executing 1С ComConnector.Connect"
   },
   "Common/1Cv8/1Cv8SessionManager": {
     "ErrEmptyConnectionString": "Empty connection string"
@@ -16,8 +16,8 @@
   "Common/CalcFunctions/CalcFunctions": {
     "ErrCreateGuid": "System error while creating GUID",
     "ErrGuidFormat": "Incorrect GUID format: %s ([\"N\", \"D\", \"B\", \"P\"] supported)",
-    "ErrIntervalFormat": "Некорректный тип интервала: %s (поддерживается [\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"])",
-    "NumberOfIntervalsMustBePositive": "Число интервалов должно быть положительным"
+    "ErrIntervalFormat": "Incorrect interval type: %s ([\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"] supported)",
+    "NumberOfIntervalsMustBePositive": "The number of intervals must be positive"
   },
   "Common/CalcFunctions/FuncDesc": {
     "ErrFuncDescNotFound": "Description of \"%s\" function not found"
@@ -587,14 +587,14 @@
     "ErrExceededRecursiveCalls": "Maximum number of (%d) recursive calls of Data function in \"%s\" expression exceeded.\nTo solve this problem it is required to enable Caching.",
     "ErrExprIsStringType": "\"%s\" expression of string type",
     "ErrGetVarArrayUnsupported": "The arrays related to the variant type can return only intermediate expressions (\"%s\" expression, %d row)",
-    "ErrReplacingInputColumnNotFound": "Не найдено входное поле для замены выражением \"%s\"",
+    "ErrReplacingInputColumnNotFound": "Input field to replace with expression \"%s\" not found",
     "ErrVarExprAmbiguity": "\"%0:s\" can be input variable or intermediate expression. To allow nonuniqueness, use \"%1:s%0:s\" to access the variable or rename \"%0:s\" expression.",
-    "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
+    "ExprNameNotExists": "No expression with name \"%s\" exists",
     "InputVariables": "Input variables",
     "NameNotExists": "No field, variable or expression with \"%s\" name exists",
     "PreviewProcess": "Calculations preview",
     "PreviewSourceColumnSuffix": "to",
-    "VarNameNotExists": "Переменной с именем \"%s\" не существует",
+    "VarNameNotExists": "No variable with name \"%s\" exists",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/calcdata/CalcDataVendor": {
@@ -623,41 +623,41 @@
     "ErrUnknownFunction": "Unknown function: %s"
   },
   "components/calctree/CalcTree": {
-    "ErrCannotAddExprChild": "Невозможно добавить выражение \"%s\", т.к. существует выражение \"%s\"",
-    "ErrCannotAddExprReplaceContainer": "Невозможно добавить выражение \"%s\", т.к. есть выражения по пути \"%s.\"",
-    "ErrCannotCastNodeInfoID": "Невозможно выполнить приведение типа данных для узла с идентификатором %d",
+    "ErrCannotAddExprChild": "Failed to add expression \"%s\" as expression \"%s\" exists",
+    "ErrCannotAddExprReplaceContainer": "Failed to add expression \"%s\" as expressions with \"%s\" path exist.",
+    "ErrCannotCastNodeInfoID": "Failed to perform type casting for the node with identifier %d",
     "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
     "ErrCannotGetNodeExistFlag": "Failed to get the node exist flag with identifier %d: the node is not a simple container",
     "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
     "ErrCannotGetRowRange": "Failed to get the row range for the node with identifier %d: the node is not an array",
-    "ErrExceededRecursiveCalls": "Превышено максимальное количество рекурсивных вызовов (%d) в выражении \"%s\".",
-    "ErrGetVarArrayUnsupported": "Массивы переменного типа могут возвращать только промежуточные выражения (выражение \"%s\")",
+    "ErrExceededRecursiveCalls": "Maximum number of recursive calls (%d) in expression \"%s\" exceeded.",
+    "ErrGetVarArrayUnsupported": "Variable-type arrays can return intermediate expressions (expression \"%s\") only",
     "ErrInvalidNodeInfoID": "Invalid node identifier: %d",
-    "ErrReplacingInputNodeNotFound": "Не найден входной узел для замены выражением \"%s\"",
+    "ErrReplacingInputNodeNotFound": "Input node to replace with expression \"%s\" not found",
     "InputVariables": "Input variables",
-    "NameNotExists": "Узла, переменной или выражения с именем \"%s\" не существует",
+    "NameNotExists": "No node, variable or expression with name \"%s\" exists",
     "PreviewProcess": "Calculations preview",
     "PreviewSourceNodeSuffix": "to",
-    "VarNameNotExists": "Переменной с именем \"%s\" не существует",
+    "VarNameNotExists": "No variable with name \"%s\" exists",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/calctree/CalcTreeItemChakra": {
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrExprUsesUndefinedVariable": "%1:s undefined variable used in \"%0:s\" expression",
-    "ErrNodeArrayTooBig": "Ошибка при создании объекта Array \"%s\". Число узлов %d превышает максимальную длину массива JavaScript: 4_294_967_295",
-    "ExprCalculateError": "Ошибка вычисления выражения \"%s\", путь \"%s\""
+    "ErrNodeArrayTooBig": "Error creating the object Array \"%s\". The number of nodes %d exceeds maximum length of JavaScript array: 4_294_967_295",
+    "ExprCalculateError": "Error calculating expression \"%s\", path \"%s\""
   },
   "components/calctree/CalcTreeVendor": {
-    "VendorCaption": "Калькулятор (дерево)",
-    "VendorDesc": "Создание вычисляемых узлов дерева"
+    "VendorCaption": "Calculator (Tree)",
+    "VendorDesc": "Creating calculatable tree nodes"
   },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Error calculating \"%s\" expression",
     "ErrExprIsStringType": "\"%s\" expression of string type",
     "ErrExprParse": "Error parsing \"%s\" expression",
-    "ErrReplacingInputVariableNotFound": "Не найдена входная переменная для замены выражением \"%s\"",
+    "ErrReplacingInputVariableNotFound": "Input variable to replace with expression \"%s\" not found",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
-    "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
+    "ExprNameNotExists": "No expression with name \"%s\" exists",
     "NameNotExists": "No input variable or expression with \"%s\" name exists",
     "PreviewProcess": "Calculations preview",
     "PreviewSourceVariableSuffix": "to",
@@ -893,7 +893,7 @@
     "VendorDesc": "Create data tree from data table"
   },
   "components/datatovariables/DataToVariables": {
-    "ErrMaxStringLengthReached": "Превышена максимальная длинна строки в %d символов"
+    "ErrMaxStringLengthReached": "Maximum string length of %d characters exceeded"
   },
   "components/datatovariables/DataToVariablesEngine": {
     "DataToVariablesNotify": "Variable calculating",
@@ -1276,7 +1276,7 @@
     "RegressionColumn": "%s|Regression",
     "RegressionLBoundNamePostfix": "|CI lower bound",
     "RegressionPValueNamePostfix": "|P-value",
-    "RegressionStdErrorNamePostfix": "|Стд. ошибка",
+    "RegressionStdErrorNamePostfix": "|Std. error",
     "RegressionTStatNamePostfix": "|T-statistic",
     "RegressionUBoundNamePostfix": "|CI upper bound",
     "StdDev": "Standard deviation",
@@ -1364,7 +1364,7 @@
     "RegressionLBoundNamePostfix": "|CI lower bound of odds ratio",
     "RegressionOddsRatioPostfix": "|Odds ratio",
     "RegressionScoreNamePostfix": "|Score",
-    "RegressionStdErrorNamePostfix": "|Стд. ошибка",
+    "RegressionStdErrorNamePostfix": "|Std. error",
     "RegressionUBoundNamePostfix": "|CI upper bound of odds ratio",
     "RegressionWaldPValueNamePostfix": "|P-value",
     "RegressionWaldStatNamePostfix": "|Wald statistic",
@@ -1592,7 +1592,7 @@
   },
   "components/python/PythonExecutor": {
     "DocFileStoragePathFunc": "filestoragepath(path)\n--\n\nResolve the path in the file system from the path in the file storage\nArguments:\n  path: str\n    Path in the file storage.\nResult:\n  Path in the file system.",
-    "DocGetLocaleFunc": "getLocale()\n--\n\nПолучить имя локали текущего узла\nРезультат:\n  Имя локали текущего узла в соответствии с RFC 4646.",
+    "DocGetLocaleFunc": "getLocale()\n--\n\nGet locale name of the current node\nResult:\n Locale name of the current node under RFC 4646.",
     "ErrNumExprFinalize": "Failed to finalize numexpr module",
     "ErrResNotFound": "%s resource not found",
     "ErrTCLFinalize": "Error occurred during TCL finalization",
@@ -1960,13 +1960,13 @@
     "ErrSyncKeyDeletedSource": "Synchronization error: source field not found for \"%s\" key field",
     "ErrSyncKeyTypesMismatch": "Synchronization error: \"%s\" key field type is not compatible with \"%s\" source field type",
     "ErrTableNameNotSelected": "No table name specified",
-    "ErrTruncateNotSupported": "Операция TRUNCATE не поддерживается текущей базой данных",
+    "ErrTruncateNotSupported": "TRUNCATE operation not supported by the current database",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
     "ExecQueryProcess": "Query executing",
     "GetTablesProcess": "Querying table list",
     "GroupDataNotify": "Data grouping",
     "ResultStatusVariables": "Execution status",
-    "TruncateTableNotify": "Выполнение TRUNCATE таблицы",
+    "TruncateTableNotify": "Executing TRUNCATE table",
     "UpdateRecordsNotify": "Update existing table records",
     "WarnDBConnectionIsBusy": "Connection to DB is busy"
   },
@@ -2310,7 +2310,7 @@
   "Libraries/bgdbrtl/DB": {
     "ConnectionTimeout": "Connection timeout",
     "ErrCommandTypeNotYetSupported": "%s type of SQL command not supported yet",
-    "ErrConnectionCancelled": "Подключение прервано",
+    "ErrConnectionCancelled": "Connection aborted",
     "ErrConnectionString": "Empty connection string",
     "ErrDatabasePathNotExists": "\"%s\" file not found",
     "ErrDBPath": "Failed to get path to DB",
@@ -2323,7 +2323,7 @@
     "ErrIncorrectServer": "Invalid server",
     "ErrIndexColumnsNotSelect": "No columns to make an index are specified",
     "ErrLocalDBForbidden": "Connections to local databases on server are forbidden",
-    "ErrLoginTimeout": "Время ожидания ввода логина и пароля для подключения истекло",
+    "ErrLoginTimeout": "Username and password entry timed out",
     "ErrOpenQuery": "Error while SQL opening :\n%s",
     "ErrParameterTypesDoNotMatch": "Parameter types do not match",
     "ErrPrepareProcedure": "Error preparing stored procedure \"%s\"",
@@ -2333,7 +2333,7 @@
     "ErrTestConnection": "Connection test error:\n%s",
     "ErrUnPrepareQuery": "Error clearing prepared query",
     "LockTimeout": "Lock timeout",
-    "WarnNoPassword": "Не указан пароль для подключения к \"%s\"",
+    "WarnNoPassword": "Password for connection to \"%s\" not provided",
     "WarnQueryExecuting": "Query already executing"
   },
   "Libraries/bgdbrtl/DBSSL": {
@@ -2625,8 +2625,8 @@
     "ErrFloatParamIsNan": "\"%s\" parameter value equal to NaN is not allowed",
     "ErrFunctionRefIsNull": "Reference to %s function must be initialized",
     "ErrInvalidIndex": "Index value %d of \"%s\" parameter is out of [%d; %d] range",
-    "ErrInvalidMethodParam": "Недопустимое значение параметра %s метода %s: \"%s\"",
-    "ErrInvalidParam": "Недопустимое значение параметра %s: \"%s\"",
+    "ErrInvalidMethodParam": "Invalid value of %s parameter for %s method: \"%s\"",
+    "ErrInvalidParam": "Invalid value of %s parameter: \"%s\"",
     "ErrMethodParamIsNull": "%s parameter of %s method must be initialized",
     "ErrMustGreaterOrEqualThan": "Value %g of \"%s\" parameter must be more than or equal to %g",
     "ErrMustGreaterOrEqualThanInt": "Value %d of \"%s\" parameter must be more than or equal to %d",
@@ -3304,7 +3304,7 @@
     "ErrFileNameEmpty": "File name cannot be empty",
     "ErrFileNotFound": "\"%s\" file not found",
     "FileName": "File name",
-    "FileTimeDisplayName": "Время модификации"
+    "FileTimeDisplayName": "Modification time"
   },
   "Libraries/KafkaConnection/KafkaAuth": {
     "ErrFileNoAccess": "\"%s\" file unavailable",
@@ -3329,7 +3329,7 @@
   },
   "Libraries/LDAP/LDAPConfigurator": {
     "Account": "User",
-    "BaseDN": "База",
+    "BaseDN": "Base",
     "ConnectionSecurity": "Connection security",
     "DefaultUserRole": "New user role",
     "Filter": "Filter",
@@ -3360,7 +3360,7 @@
     "LoggerType": "Logging type",
     "MinLogLevel": "Logging level",
     "NeedDN": "Resolve domain names",
-    "NeedPackageName": "Логировать имя пакета у узла"
+    "NeedPackageName": "Log the package name for the node"
   },
   "Libraries/Log/LoggerConfigurator_Log4D": {
     "LogFileMaxIndex": "Number of backup files",
@@ -3572,7 +3572,7 @@
     "VendorCaption": "Output Node"
   },
   "Libraries/Model/ModelBlocks": {
-    "Position": "Позиция"
+    "Position": "Position"
   },
   "Libraries/Model/ModelCommon": {
     "ErrPortParentIsNil": "Reference to the node port is not included into list",
@@ -3672,7 +3672,7 @@
     "ErrPackageWithNameLinkAlreadyExists": "Link to the package with \"%s\" name already exists",
     "ErrVariableNamesAndValuesCountMustBeEqual": "Number of names and variables values must be the same",
     "ErrVariableNotFound": "Variable with \"%s\" name not found",
-    "ErrVariableValuesMustBeInOneArray": "Значения переменных должны содержаться только в одном массиве",
+    "ErrVariableValuesMustBeInOneArray": "Variable values must be contained in one array only",
     "LogPackageSetVersion": "%s package version changed to %s",
     "ModelUnitDisplayNameDefault": "Module",
     "RestoreVariablesBackupProcessCaption": "Restore Values of the Package Variables"
@@ -3781,13 +3781,13 @@
     "ErrVariableDataTypeChanged": "\"%s\" variable data type changed",
     "ErrVariableNamesAndValuesCountMustBeEqual": "Number of names and variables values must be the same",
     "ErrVariableNotFound": "Variable with \"%s\" name not found",
-    "ErrVariableValuesMustBeInOneArray": "Значения переменных должны содержаться только в одном массиве",
+    "ErrVariableValuesMustBeInOneArray": "Variable values must be contained in one array only",
     "ErrVendorMalfunction": "\"%s\" node component is malfunctioning",
     "ExplodeGenericModel": "Expanded \"%s\" supernode",
     "LogActivateNodeStart": "Activating \"%s\" GUID=%s node",
     "LogActivateNodeSuccess": "Successfully activated \"%s\" GUID=%s node",
-    "LogActivatePackagedNodeStart": "Активация узла \"%s\" GUID=%s Пакет=%s",
-    "LogActivatePackagedNodeSuccess": "Успешно активирован узел \"%s\" GUID=%s Пакет=%s",
+    "LogActivatePackagedNodeStart": "Activate node \"%s\" GUID=%s Package=%s",
+    "LogActivatePackagedNodeSuccess": "Node \"%s\" GUID=%s Package=%s successfully activated",
     "LogDeactivateNode": "\"%s\" GUID=%s node deactivated",
     "LogNodeActivationError": "Error activating \"%s\" node, GUID=%s",
     "LogPackagedNodeActivationError": "Error while \"%s\" node activation GUID=%s Package=%s",
@@ -3805,7 +3805,7 @@
     "WarnModelNotSupportOutPort": "Failed to create output port for \"%s\" port"
   },
   "Libraries/Model/PackageEditableVariables": {
-    "ErrVariableRestriction": "Запрещено изменение переменной %s",
+    "ErrVariableRestriction": "Changing variable %s is forbidden",
     "ErrVariablesRestriction": "Variable list change forbidden"
   },
   "Libraries/Model/ReferenceNode/ReferenceNodeComponentEngine": {
@@ -3871,7 +3871,7 @@
     "OutputVariables": "Output variables"
   },
   "Libraries/Model/Variables/VariablesOutputSocket": {
-    "VariablesCount": "Переменных"
+    "VariablesCount": "Variables"
   },
   "Libraries/Model/Views/ModelViewDataSource": {
     "InputDataSource": "Data set"
@@ -4024,9 +4024,9 @@
     "ErrNotImplemented": "This functionality not implemented"
   },
   "Libraries/OpenID/OpenID": {
-    "InvalidToken": "Ошибочный токен",
-    "TokenNotIncludeRolesClame": "Токен не содержит списка ролей с клеймом %s",
-    "TokenRequestError": "Ошибка получения токена. %s"
+    "InvalidToken": "Invalid token",
+    "TokenNotIncludeRolesClame": "Token has no list of roles with claim %s",
+    "TokenRequestError": "Error receiving token. %s"
   },
   "Libraries/OpenID/OpenIDConfigurator": {
     "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
