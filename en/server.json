@@ -530,7 +530,7 @@
     "Nothing": " "
   },
   "components/binning/BinningMethod": {
-    "ErrInvalidBinFmt": "Failed to generate bins for \"%s\" field"
+    "ErrInvalidBinFmt": "Failed to generate bins for %s field"
   },
   "components/binning/BinningMethodsImplementations": {
     "ErrBadLimits": "The lower bound cannot exceed the upper one",
@@ -2483,7 +2483,7 @@
     "ErrInvalidUsageType": "Usage type \"%s\" is not valid for the configurable column \"%s\""
   },
   "Libraries/bgrtl/ColumnInfoLinks": {
-    "ErrLinkedColumnInfoNotFound": "Column with \"%s\" name not found",
+    "ErrLinkedColumnInfoNotFound": "Column with %s name not found",
     "ErrLinkedColumnInfoNotSpecified": "No column link set",
     "ErrLinkedColumnInfoTypesMismatch": "%s column type is not compatible with the source column type"
   },
@@ -3939,7 +3939,7 @@
     "ErrUnbalancedSync": "EndSynchronize call without corresponding BeginSynchronize",
     "ErrUnexpectedEndUpdate": "EndUpdate call without corresponding BeginUpdate",
     "ErrUnexpectedUnlockedState": "Calling nested BeginUpdate cache of the normalized data set must be locked",
-    "ErrWrongArraySize": "Size %1:d of '%0:s' array not equal to the expected %2:d",
+    "ErrWrongArraySize": "Size %1:d of %0:s array not equal to the expected %2:d",
     "ErrWrongNormalizerParams": "Error adding \"%s\" factor: the output column count of %d normalizer does not match the expected %d",
     "InterceptDisplayName": "Intercept",
     "NormDSTypeNotSupported": "Unsupported type of the requested normalized data set",

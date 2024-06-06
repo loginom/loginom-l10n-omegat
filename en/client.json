@@ -480,7 +480,7 @@
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
     "PackageAlreadyPublished": "\"{0}\" package already published",
-    "PackageNameAlreadyPublished": "Package with \"{0}\" name already published",
+    "PackageNameAlreadyPublished": "Package with {0} name already published",
     "UpdateButtonText": "Update",
     "UpdateFormTitle": "Edit Web Service"
   },

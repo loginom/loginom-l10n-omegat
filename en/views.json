@@ -1035,7 +1035,7 @@
       "tooltip": "Save package"
     },
     "pmiSaveAs": {
-      "text": "Save as...",
+      "text": "Save as",
       "tooltip": "Save package as..."
     }
   },
@@ -3315,7 +3315,7 @@
     },
     "btnLinksDel": {
       "text": "Delete All Links",
-      "tooltip": "Delete all links"
+      "tooltip": "Delete all links..."
     },
     "colColumnName": {
       "text": "Field"
@@ -3641,7 +3641,7 @@
       "boxLabel": "Add values of dimensions<br><br> automatically. Add missing dimension values to the data warehouse on data loading into the process automatically."
     },
     "ckbDisableConstraint": {
-      "boxLabel": "Disable\/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading"
+      "boxLabel": "Disable\/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
     },
     "ckbRebuildCube": {
       "boxLabel": "Update cubes<br><br>After data loading, rebuild all cubes with enabled \"Dynamic update\" option and inherited from the loaded process."
