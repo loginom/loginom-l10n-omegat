@@ -538,7 +538,7 @@
     "ErrBinsCountLimitFmt": "Bin count must not exceed %d",
     "ErrBinWidthFmt": "Failed to define bin width for %s field",
     "ErrGenerateBins": "Failed to generate binning ranges",
-    "ErrInfinityFmt": "Bins for %s field were not created. The field contains the \"infinity\" value.",
+    "ErrInfinityFmt": "Bins for %s field were not created. The field contains the \"infinity\" value",
     "ErrInvalidBinRowFmt": "Failed to generate bin for %s field from row %d",
     "ErrInvalidRangeWidthFmt": "The initial bin boundary exceeds the final boundary for %s field",
     "ErrLogBinsCountLimitFmt": ", for %s field.",
@@ -624,7 +624,7 @@
   },
   "components/calctree/CalcTree": {
     "ErrCannotAddExprChild": "Failed to add expression \"%s\" as expression \"%s\" exists",
-    "ErrCannotAddExprReplaceContainer": "Failed to add expression \"%s\" as expressions with \"%s\" path exist.",
+    "ErrCannotAddExprReplaceContainer": "Failed to add expression \"%s\" because expressions with \"%s.\" path exist",
     "ErrCannotCastNodeInfoID": "Failed to perform type casting for the node with identifier %d",
     "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
     "ErrCannotGetNodeExistFlag": "Failed to get the node exist flag with identifier %d: the node is not a simple container",
@@ -996,13 +996,13 @@
     "VendorDescription": "Enrich data using guides"
   },
   "components/execcmd/ExecCmd": {
-    "ErrBadCmdLine": "Failed to determine executable file name",
-    "ErrCmdLineIsEmpty": "Empty command line",
+    "ErrBadCmdLine": "Failed to determine executable file name.",
+    "ErrCmdLineIsEmpty": "Empty command line.",
     "ErrCurrentDirectory": "Failed to get current directory",
     "ErrDisallowedExecution": "Node execution forbidden by security settings",
     "ErrMsgDisplayName": "Error message",
     "ErrResultCmdLineIsEmpty": "Empty result command line.",
-    "ExecTimeoutExpired": "Execution time expired",
+    "ExecTimeoutExpired": "Execution time expired.",
     "ResultDisplayName": "Execution result"
   },
   "components/execcmd/ExecCmdVendor": {
@@ -2099,7 +2099,7 @@
     "ErrSQLNotSpecified": "SQL query text not specified",
     "ErrTableNotSpecified": "Database table not specified",
     "ExecQueryProcess": "Query executing",
-    "ExecTimeoutExpired": "Execution time expired",
+    "ExecTimeoutExpired": "Execution time expired.",
     "GetTablesProcess": "Querying table list",
     "ImportDataProcess": "Data importing",
     "OpenTableProcess": "Table opening",
@@ -2519,7 +2519,7 @@
     "ErrCannotPostNodeBeforeChildNodes": "Post method calling for \"%s\" node before the Post call for the child nodes is forbidden",
     "ErrCannotPostNodeWithoutAppend": "Post method calling for \"%s\" node without the Append call is forbidden",
     "ErrCannotRepeatAppendNode": "Repeated Append calling for \"%s\" node without the Post call is forbidden",
-    "ErrCanOnlyAppendContainerOrArray": "Append calling method for \"%s\" node that is not a container or array is forbidden.",
+    "ErrCanOnlyAppendContainerOrArray": "Append calling method for \"%s\" node that is not a container or array is forbidden",
     "ErrDataTreeActive": "Data tree is not in the closed state",
     "ErrDataTreeClosed": "Data tree is not in the opened state",
     "ErrDataTreeNotConfigured": "Data tree not configured",
@@ -2528,7 +2528,7 @@
     "ErrUnexpectedEndUpdate": "Failed to call EndUpdate method without calling BeginUpdate first"
   },
   "Libraries/bgrtl/DataTreeNodeDefs": {
-    "ErrCannotInitializeNodeWithDifferentContainerFlag": "Failed to initialize the node from the source node, which differs by the container flag value.",
+    "ErrCannotInitializeNodeWithDifferentContainerFlag": "Failed to initialize the node from the source node which differs by the container flag value",
     "ErrChangeDataKindNotAllowed": "Failed to change the data kind of the node that is a container",
     "ErrChangeDataTypeNotAllowed": "Failed to change the data type of the node that is a container",
     "ErrChangeIsContainerNotAllowed": "Failed to change the container indicator of a node that is a root node, or contains child nodes",
@@ -3097,7 +3097,7 @@
     "ErrConfigElementByNameNotFound": "Configuration element with %s name not found",
     "ErrRefToClassNotInitOrWrongClass": "Collection reference has not been initialized or relates to an invalid class",
     "ErrUnmatchedAttrType": "Error occurred while accessing %s attribute value of %s type as the value of %s type",
-    "ErrUnsupportedPropertyType": "Unsupported property type",
+    "ErrUnsupportedPropertyType": "Unsupported property type.",
     "ErrVectorLengthOverflow": "Length of array %d exceeds the allowable %d limit",
     "ErrWrongElementsClass": "Invalid configuration node list class"
   },
@@ -3170,7 +3170,7 @@
     "ErrElementByNameNotFound": "Schema element with \"%s\" name was not found.",
     "ErrItemNameNotFound": "Enumeration item with \"%s\" name was not found.",
     "ErrSameAttributeAndElementName": "Type of \"%s\" schema contains attribute and element with the same \"%s\" name",
-    "ErrTypeByNameNotFound": "Type with \"%s\" name not found",
+    "ErrTypeByNameNotFound": "Type with \"%s\" name not found.",
     "ValueDesc": "Value"
   },
   "Libraries/Config/ConfigUtils": {
@@ -4256,8 +4256,8 @@
     "NodeSoapResponseFormatChanged": "%s node was published in Loginom 6.2.5 or earlier version. Format of reply messages will be changed for this node when calling via SOAP service."
   },
   "Studio/Converters/Converter_202404041818_CubeView_ChartCaseGuid": {
-    "WarnDeletedDerived": "Failed to convert measure settings in chart of derived cube %s.\nMeasure %s hidden in the chart will be displayed",
-    "WarnDerivedDrop": "Failed to convert measure settings in the chart of derived cube %s.\nDisplay settings for measure %s in the chart will be reset to the base cube settings"
+    "WarnDeletedDerived": "Failed to convert measure settings in chart of derived cube %s.\nMeasure %s hidden in the chart will be displayed.",
+    "WarnDerivedDrop": "Failed to convert measure settings in the chart of derived cube %s.\nDisplay settings for measure %s in the chart will be reset to the base cube settings."
   },
   "Studio/Converters/Converter_202404041818_CubeView_MultipleCharts": {
     "ChartTitle": "Chart 1"
@@ -4305,7 +4305,7 @@
     "ErrPublishedModelNodeNotFound": "Failed to find published node with %s identifier",
     "ErrPublishedNodeNameIsEmpty": "No name for published node with \"%s\" caption specified",
     "ErrPublishedPackageNotFound": "Failed to find the published package with %s name and %s version",
-    "ErrSaveAsAlreadyOpenedPackage": "Failed to save package in \"%s\" file. The package with such file has already been opened in the current session.",
+    "ErrSaveAsAlreadyOpenedPackage": "Failed to save package in \"%s\" file. The package with such file has already been opened in the current session",
     "ErrSavePackagePermissionDenied": "No appropriate rights to save package with %s name",
     "ErrSessionAlreadyContainsPackage": "%s package already open in the current session",
     "ErrSessionBackupAlreadyDeleted": "This session backup has already been deleted by another client from the current account",
@@ -4911,7 +4911,7 @@
   "Warehouse2/DWDataEngine": {
     "ErrDimNotSourceName": "No field from the data source specified for \"%s\" dimension.",
     "ErrDimSourceNameNotFound": "\"%s\" field specified for \"%s\" dimension not found in the data source.",
-    "ErrSourceNameNotFound": "\"%s\" field specified for \"%s\" not found in the data source"
+    "ErrSourceNameNotFound": "\"%s\" field specified for \"%s\" not found in the data source."
   },
   "Warehouse2/DWExport": {
     "ErrDimNotSourceName": "No field from the data source specified for \"%s\" dimension.",

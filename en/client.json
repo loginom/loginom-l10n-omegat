@@ -44,7 +44,7 @@
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint URL",
     "UpdateUserRole": "Update user role",
-    "UserFullNameClaim": "Full username claim ",
+    "UserFullNameClaim": "Full username claim",
     "UserInfoEndpoint": "User information endpoint URL",
     "UserNameClaim": "Username claim",
     "UserRoleNameMap": "List of role names"
@@ -118,7 +118,7 @@
     "LeaveMaintenanceTooltip": "Leaving server maintenance mode...",
     "LeftMaintenanceMode": "Server left maintenance mode",
     "MaintenanceMessageOnLoginDefault": "The server is in maintenance mode",
-    "MaintenanceMessageOnLoginLabel": "Login attempt response message",
+    "MaintenanceMessageOnLoginLabel": "Login attempt response message:",
     "MaintenanceModeDesc": "Account login during maintenance mode is allowed to Administrators only.\n\nActive sessions continue working to enable saving changes.",
     "MaintenanceModeMessage": "\n\nMessage:\n\"{0}\"",
     "MaintenanceModeTitle": "Maintenance Mode",
@@ -231,7 +231,7 @@
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: \"{1}\".",
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
-    "ErrUrlPathNotFound": "\"{0}\" path not found",
+    "ErrUrlPathNotFound": "\"{0}\" path not found.",
     "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
     "MsgDisconnectedByDispatcher": "Admin closed session via Session Manager",
@@ -246,7 +246,7 @@
   },
   "app/MainMenuForm": {
     "EmptyPackageName": "Package not selected",
-    "ErrCannotSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package",
+    "ErrCannotSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package.",
     "ErrLoadPackageErrors": "Errors occurred while \"{0}\" package opening",
     "ErrNoPackageToClose": "No package to be closed was found.",
     "ErrNoPackageToSave": "There is no package to save.",
@@ -585,7 +585,7 @@
   },
   "app/SelectBaseVendorForm": {
     "CantChangeVendor": "Failed to set component",
-    "ThereIsNodeVendors": "The list of components is empty. Create derived component from the compatible node."
+    "ThereIsNodeVendors": "The list of components is empty. Create derived component from the compatible node"
   },
   "app/ShareForm": {
     "CopiedHint": "Copied"
@@ -752,7 +752,7 @@
     "RenameExprContainerTitle": "Rename Expression Container"
   },
   "components/calctree/CalcTreeInputs": {
-    "ErrInsertDuplicateNode": "Insert forbidden. Node \"{0}\" already has a child node with name \"{1}\". "
+    "ErrInsertDuplicateNode": "Insert forbidden. Node \"{0}\" already has a child node with name \"{1}\"."
   },
   "components/calctree/CalcTreeWizard": {
     "ErrExprContainerEmpty": "Expression container \"{0}\" contains no expressions",
@@ -797,7 +797,7 @@
   },
   "components/coarseclasses/CoarseClassesViewer": {
     "ActualSuffix": " (actual)",
-    "BuildActualStatConfirm": "Calculate Actual Coarse Classes statistics",
+    "BuildActualStatConfirm": "Calculate Actual Coarse Classes statistics?",
     "BuildActualStatConfirmYes": "Calculate",
     "EventCountTooltip": "Number of events",
     "EventRateTooltip": "Event rates",
@@ -1060,7 +1060,7 @@
     "DeleteAllPrompt": "Do you really want to remove all replacement items?",
     "DeleteAllPromptTitle": "Delete Replacement Table",
     "EditorDisabled": "Include replacement to edit",
-    "EditorNotChoosed": "Select replacement to edit.",
+    "EditorNotChoosed": "Select replacement to edit",
     "ErrFileFieldMiss": "Item is not file upload field",
     "ErrFileNotChoosed": "No file selected",
     "ErrTypeCastError": "Value {0} cannot be cast to {1} data type",
@@ -1205,7 +1205,7 @@
     "TestConnectionTitle": "Connection test"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
-    "ErrFileNameAdd": "{0} file cannot be added to the list. Perhaps, it has already been added."
+    "ErrFileNameAdd": "{0} file cannot be added to the list. Perhaps, it has already been added"
   },
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Cancel",
@@ -1215,7 +1215,7 @@
     "DublicateFieldName": "A field with the same name already exists",
     "EditorModeQuestionBody": "Attention! Any standard DDL queries are allowed in the editor.\nUse this SQL query only to create a table.",
     "EditorModeQuestionTitle": "Edit SQL Query",
-    "ErrCreateTable": "Error when forming SQL table creation query",
+    "ErrCreateTable": "Error when forming SQL table creation query:",
     "ErrEmptySQLText": "SQL query text must not be empty",
     "ErrFieldInvalidIdentifier": "The field name entered is not a valid identifier",
     "ErrFieldSize": "Size of {0} field must be more than 0",
@@ -1411,7 +1411,7 @@
     "VersionMaskIncorrect": "Invalid format of version range"
   },
   "filedialog/Dialogs": {
-    "UseBaseFileStorageToolTip": "The relative paths of the base package are used."
+    "UseBaseFileStorageToolTip": "The relative paths of the base package are used"
   },
   "filedialog/FileMask": {
     "ACCDBFileDesc": "MS Access 2007 Database",
@@ -2790,7 +2790,7 @@
   "wizards/datapartition/SizeGridForm": {
     "SizeTypePercentTooltip": "Switch to size in rows",
     "SizeTypeRowTooltip": "Switch to size in percent",
-    "SummaryAbsOverflowErr": "The total row count exceeds the input set row count.",
+    "SummaryAbsOverflowErr": "The total row count exceeds the input set row count",
     "SummaryRelOverflowErr": "Total percentage must not exceed 100%",
     "SummarySetName": "Total:",
     "UnknownValue": "Unknown value"
@@ -2891,7 +2891,7 @@
     "ErrNodeDeletedFmt": "\"{0}\" target node has been deleted.",
     "ErrNodeNotFound": "Target node was not found, it may have been deleted or became unavailable.",
     "ErrNodeNotFoundFmt": "\"{0}\" target node was not found, it may have been deleted or became unavailable.",
-    "NotifyNodeNotSelected": "No target node selected",
+    "NotifyNodeNotSelected": "No target node selected.",
     "ReferenceNodeWizardTitle": "Reference Node",
     "WarnNodeLoadLimitExceeded": "\"{0}\" target node is not selected.\n {1} limit of loaded node levels has been exceeded."
   },

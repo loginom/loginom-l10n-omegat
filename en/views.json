@@ -1196,7 +1196,7 @@
       "text": "Job Captioin"
     },
     "colActiveProcessTime": {
-      "text": "Processing Time"
+      "text": "Execution Time"
     },
     "colActiveSessionID": {
       "text": "Session Number"
@@ -1418,25 +1418,25 @@
       "text": "We"
     },
     "cbxPackageFileName": {
-      "fieldLabel": "Запускаемый пакет"
+      "fieldLabel": "Package to start"
     },
     "chkEnabled": {
-      "fieldLabel": "Разрешить выполнение"
+      "fieldLabel": "Enable execution"
     },
     "chkRepeat": {
-      "fieldLabel": "Повтор"
+      "fieldLabel": "Repeat"
     },
     "chkSavePackage": {
-      "fieldLabel": "Сохранять пакет после переобучения"
+      "fieldLabel": "Save package after retraining"
     },
     "chkSkipOverlappedExecution": {
-      "fieldLabel": "Пропускать запуск при наличии активной сессии"
+      "fieldLabel": "Skip the start if there is an active session"
     },
     "chkStartIfMissedSchedule": {
-      "fieldLabel": "Запустить сразу если пропущен запуск"
+      "fieldLabel": "Start immediately if the start was skipped"
     },
     "chkTeach": {
-      "fieldLabel": "Переобучать модели при запуске"
+      "fieldLabel": "Retrain models upon the start"
     },
     "colDeleteVariable": {
       "tooltip": "Delete all..."
@@ -1457,39 +1457,39 @@
       "fieldLabel": "Description"
     },
     "edtEndTime": {
-      "fieldLabel": "Окончание"
+      "fieldLabel": "End"
     },
     "edtHistoryCount": {
-      "fieldLabel": "Лимит количества логов",
-      "minText": "Количество записей в истории не должно быть отрицательным"
+      "fieldLabel": "Log count limit",
+      "minText": "Count of history records must not be negative"
     },
     "edtNodeKey": {
-      "emptyText": "Весь пакет",
-      "fieldLabel": "Запускаемый узел"
+      "emptyText": "Entire package",
+      "fieldLabel": "Node to start"
     },
     "edtPeriodCount": {
-      "fieldLabel": "Повтор каждые"
+      "fieldLabel": "Repeat every"
     },
     "edtStartTime": {
-      "fieldLabel": "Запуск"
+      "fieldLabel": "Start"
     },
     "pnlMainSetting": {
       "title": "Main"
     },
     "pnlMonth": {
-      "fieldLabel": "Месяцы"
+      "fieldLabel": "Months"
     },
     "pnlSchedule": {
-      "title": "Расписание"
+      "title": "Schedule"
     },
     "pnlSetting": {
-      "title": "Параметры запуска"
+      "title": "Start Parameters"
     },
     "rbMonth": {
-      "boxLabel": "Дни месяца"
+      "boxLabel": "Days of the month"
     },
     "rbWeek": {
-      "boxLabel": "Дни недели"
+      "boxLabel": "Days of the week"
     }
   },
   "app/scheduler/JobVariableEditor": {
@@ -1506,16 +1506,16 @@
       "text": "Error"
     },
     "colLogFinishTime": {
-      "text": "Окончание"
+      "text": "Finish"
     },
     "colLogJobCaption": {
-      "text": "Метка задачи"
+      "text": "Job Caption"
     },
     "colLogProcessTime": {
-      "text": "Время выполнения"
+      "text": "Execution Time"
     },
     "colLogSessionID": {
-      "text": "Номер сессии"
+      "text": "Session Number"
     },
     "colLogStartTime": {
       "text": "Start"
@@ -1526,8 +1526,8 @@
   },
   "app/scheduler/NodeSelector": {
     "btnNamedOnly": {
-      "text": "Именованные",
-      "tooltip": "Отфильтровать узлы, у которых задано имя"
+      "text": "Named",
+      "tooltip": "Filter named nodes"
     },
     "btnTableMode": {
       "text": "List"
@@ -1556,8 +1556,8 @@
       "tooltip": "Delete..."
     },
     "btnDetails": {
-      "text": "Журнал",
-      "tooltip": "Журнал"
+      "text": "Log",
+      "tooltip": "Log"
     },
     "btnEdit": {
       "text": "Edit",
@@ -1568,12 +1568,12 @@
       "tooltip": "Refresh list"
     },
     "btnRun": {
-      "text": "Запустить",
-      "tooltip": "Запустить"
+      "text": "Run",
+      "tooltip": "Run"
     },
     "btnStop": {
       "text": "Stop",
-      "tooltip": "Остановить все сессии..."
+      "tooltip": "Stop all sessions..."
     },
     "colCaption": {
       "text": "Caption"
@@ -1585,10 +1585,10 @@
       "tooltip": "Delete"
     },
     "colLastStartTime": {
-      "text": "Предыдущий запуск"
+      "text": "Previous Start"
     },
     "colNextStartTime": {
-      "text": "Следующий запуск"
+      "text": "Next Start"
     },
     "colNodeKey": {
       "text": "Node"
@@ -1597,16 +1597,16 @@
       "text": "Package"
     },
     "colUserName": {
-      "text": "Владелец"
+      "text": "Owner"
     },
     "mniDisable": {
-      "text": "Запретить выполнение"
+      "text": "Disable execution"
     },
     "mniEnable": {
-      "text": "Разрешить выполнение"
+      "text": "Enable execution"
     },
     "mniGoToJob": {
-      "text": "Перейти к задаче"
+      "text": "Move to job"
     },
     "mniRevealInExplorer": {
       "text": "Show package in folder"
@@ -1886,10 +1886,10 @@
       "tooltip": "Move down"
     },
     "btnExprEdit": {
-      "tooltip": "Редактировать параметры выражения..."
+      "tooltip": "Edit expression parameters..."
     },
     "btnExprGoToEditor": {
-      "tooltip": "Перейти к выражению"
+      "tooltip": "Move to expression"
     },
     "btnExprUp": {
       "tooltip": "Move up"
@@ -1908,19 +1908,19 @@
       "tooltip": "Functions filter"
     },
     "btnGoToExpression": {
-      "tooltip": "Перейти к выражению"
+      "tooltip": "Move to expression"
     },
     "btnGoToField": {
-      "tooltip": "Перейти к полю"
+      "tooltip": "Move to field"
     },
     "btnInsertExprInExprAbsolute": {
-      "tooltip": "Вставить в выражение абсолютно"
+      "tooltip": "Insert to expression absolutely"
     },
     "btnInsertExprInExprRelative": {
-      "tooltip": "Вставить в текст выражения"
+      "tooltip": "Insert to expression text"
     },
     "btnInsertInExpr": {
-      "tooltip": "Вставить в текст выражения"
+      "tooltip": "Insert to expression text"
     },
     "btnLess": {
       "text": "<",
@@ -1958,10 +1958,10 @@
       "tooltip": "Preview..."
     },
     "btnReplaceField": {
-      "tooltip": "Заменять поле"
+      "tooltip": "Replace field"
     },
     "btnSpawnExpr": {
-      "tooltip": "Заменить вычисляемым выражением"
+      "tooltip": "Replace with calculated expression"
     },
     "btnString": {
       "tooltip": "String"
@@ -1984,7 +1984,7 @@
       "text": "Caption"
     },
     "colExpressionName": {
-      "text": "Имя выражения"
+      "text": "Expression Name"
     },
     "colFieldDisplayName": {
       "text": "Caption"
@@ -1996,7 +1996,7 @@
       "text": "Value"
     },
     "frmCalcData": {
-      "title": "Редактирование выражений"
+      "title": "Edit Expressions"
     },
     "grdFunc": {
       "title": "Functions List"
@@ -2047,7 +2047,7 @@
       "fieldLabel": "Path"
     },
     "frmExprEditForm": {
-      "title": "Параметры выражения"
+      "title": "Expression Parameters"
     },
     "txtDescription": {
       "fieldLabel": "Description"
@@ -2058,7 +2058,7 @@
       "tooltip": "Add child node"
     },
     "btnAddExprContainer": {
-      "tooltip": "Добавить контейнер"
+      "tooltip": "Add container"
     },
     "btnAddSiblingExpr": {
       "tooltip": "Add neighboring node"
@@ -2067,28 +2067,28 @@
       "tooltip": "Delete"
     },
     "btnEditExpr": {
-      "tooltip": "Редактировать параметры..."
+      "tooltip": "Edit parameters..."
     },
     "btnFilter": {
-      "tooltip": "Фильтрация узлов и переменных"
+      "tooltip": "Filter nodes and variables"
     },
     "btnGoToExpr": {
-      "tooltip": "Перейти к выражению"
+      "tooltip": "Move to expression"
     },
     "btnInsertNodeInExprAbsolute": {
-      "tooltip": "Вставить в выражение абсолютно"
+      "tooltip": "Insert to expression absolutely"
     },
     "btnInsertNodeInExprRelative": {
-      "tooltip": "Вставить в выражение относительно"
+      "tooltip": "Insert to expression relatively"
     },
     "btnInsertVariableInExpr": {
-      "tooltip": "Вставить в текст выражения"
+      "tooltip": "Insert to expression text"
     },
     "btnNodes": {
       "text": "Nodes"
     },
     "btnReplaceNodeByExpr": {
-      "tooltip": "Заменить вычисляемым выражением"
+      "tooltip": "Replace with calculated expression"
     },
     "btnVariables": {
       "text": "Variables"
@@ -3393,7 +3393,7 @@
       "text": "Test"
     },
     "frmPoolConfig": {
-      "title": "Параметры пула"
+      "title": "Pool Parameters"
     },
     "pedPoolTimeout.valueConfig": {
       "emptyText": "∞"
@@ -3607,7 +3607,7 @@
       "title": "Create New Table"
     },
     "tabFields": {
-      "title": "Поля таблицы"
+      "title": "Table Fields"
     },
     "tabSql": {
       "title": "SQL Query"
@@ -3940,8 +3940,8 @@
   },
   "filestorage/FileStorageForm": {
     "btnAddSchedulerJob": {
-      "text": "Добавить задачу в планировщик...",
-      "tooltip": "Добавить задачу в планировщик..."
+      "text": "Add Job to Scheduler...",
+      "tooltip": "Add job to scheduler..."
     },
     "btnCopy": {
       "text": "Copy",
@@ -4098,7 +4098,7 @@
       "text": "We use cookies. By continuing to use this application, you consent to the use of cookies."
     },
     "lblPersonalBannerAdText": {
-      "text": "This is a non-commercial Community Edition. Personal Edition provides more capabilities."
+      "text": "This is a non-commercial Community Edition. Personal Edition provides more capabilities"
     }
   },
   "homepage/HomePage": {
@@ -4614,7 +4614,7 @@
       "text": "Quick Start"
     },
     "btnGetToken": {
-      "text": "Войти через OpenID"
+      "text": "Login with OpenID"
     },
     "btnHelp": {
       "href": "https:\/\/help.loginom.com\/",
@@ -4774,7 +4774,7 @@
       "fieldLabel": "Cache all data"
     },
     "chkLocaleAware": {
-      "fieldLabel": "Сравнивать с учётом локали"
+      "fieldLabel": "Compare considering locale"
     }
   },
   "viewers/browse/BrowseView": {
@@ -5418,16 +5418,16 @@
       "tooltip": "Chart type"
     },
     "btnCursorMode": {
-      "tooltip": "Режим мыши"
+      "tooltip": "Cursor mode"
     },
     "btnDelete": {
-      "tooltip": "Удалить диаграмму"
+      "tooltip": "Delete chart"
     },
     "btnExport": {
       "tooltip": "Export"
     },
     "btnMove": {
-      "tooltip": "Переместить диаграмму"
+      "tooltip": "Move chart"
     },
     "btnRestrictions": {
       "tooltip": "Restrictions..."
@@ -5442,7 +5442,7 @@
       "tooltip": "Show total"
     },
     "btnZoomReset": {
-      "tooltip": "Сбросить маштаб"
+      "tooltip": "Reset zoom"
     },
     "mniCollapse": {
       "text": "Collapse"
@@ -5472,10 +5472,10 @@
       "text": "Down"
     },
     "mniMoveLeft": {
-      "text": "Влево"
+      "text": "Left"
     },
     "mniMoveRight": {
-      "text": "Вправо"
+      "text": "Right"
     },
     "mniMoveUp": {
       "text": "Up"
@@ -5490,7 +5490,7 @@
       "text": "Hide"
     },
     "mniTitleEdit": {
-      "text": "Редактировать заголовок..."
+      "text": "Edit title..."
     },
     "mniTooltipMode": {
       "text": "Tooltip style"
@@ -5548,7 +5548,7 @@
       "text": "Measures"
     },
     "btnChartAdd": {
-      "tooltip": "Создать диаграмму"
+      "tooltip": "Create charts"
     },
     "btnCollapse": {
       "tooltip": "Collapse"
@@ -6827,7 +6827,7 @@
       "text": "Show Lost Links"
     },
     "btnSkipRootNode": {
-      "tooltip": "Исключить корневой узел при публикации"
+      "tooltip": "Skip root node upon publishing"
     },
     "btnSync": {
       "tooltip": "Map nodes"

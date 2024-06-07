@@ -140,7 +140,7 @@
       "Output": "Returns the arithmetic mean of arguments."
     },
     "Chr": {
-      "Arguments": "Argument - numerical code of Unicode character",
+      "Arguments": "Argument - numerical code of Unicode character.",
       "Description": "Chr(Argument)",
       "Output": "Returns Unicode character according to its code."
     },
@@ -217,7 +217,7 @@
     "DecodeV": {
       "Arguments": "Expression - the expression value of which is alternately compared with the values of the Value arguments.\nValue - the expression value of which is compared with the Expression argument.\nResult - the expression that is returned if the Expression = Value.\nDefault_value - the expression, the result of which is returned if the Expression is equal to none of the Values (if it is not stated then it is equal to Null).",
       "Description": "DecodeV(Expression, Value, Result [, Value, Result]... [, Default_value = Null])",
-      "Output": " Implements IF - THEN - ELSE feature.\n All Result expressions are calculated before the Expression and Values comparison."
+      "Output": " Implements IF - THEN - ELSE feature.\n All Result expressions are calculated before the Expression and Values comparison"
     },
     "Div": {
       "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression.",
@@ -252,7 +252,7 @@
     "EndOfTheWeek": {
       "Arguments": "Date - argument of the Date\/Time type.",
       "Description": "EndOfTheWeek(Date)",
-      "Output": "The function returns "
+      "Output": "The function returns the ending date and time of the specified week following the ISO 8601 standard, under which weeks start on Monday and end on Sunday."
     },
     "EndOfTheYear": {
       "Arguments": "Date - argument of the Date\/Time type.",
@@ -676,7 +676,7 @@
     "DKhi2": {
       "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
       "Description": "DKhi2(Degrees_of_freedom, Argument)",
-      "Output": "Density function of gamma distribution of Chi-square"
+      "Output": "The density function of the chi-square gamma distribution."
     },
     "FKhi2": {
       "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
@@ -698,7 +698,7 @@
     "DisplayName": {
       "Arguments": "NodePath - the path to a node, variable or expression",
       "Description": "DisplayName([\"NodePath\"])",
-      "Output": "The function returns the caption (display name) based on the path to a node, variable or expression.\nIf the function is activated without arguments, it returns the caption of the expression being currently computed.\nNote: NodePath is a string value, so an explicitely specified NodePath must be in quotes.\nFor example: DisplayName(\"Root.Node1\") "
+      "Output": "The function returns the caption (display name) based on the path to a node, variable or expression.\nIf the function is activated without arguments, it returns the caption of the expression being currently computed.\nNote: NodePath is a string value, so an explicitely specified NodePath must be in quotes.\nFor example: DisplayName(\"Root.Node1\")"
     },
     "ItemCount": {
       "Arguments": "Arguments are absent.",
