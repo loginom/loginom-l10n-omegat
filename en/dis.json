@@ -54,7 +54,7 @@
     "ConnectedToServer": "Connected to server {0}",
     "DeletedPublishedPackage": "The published package \"{1}\" of version \"{2}\" was deleted on server {0}",
     "ErrAddressOrUnixSocketIsRequired": "address or unixsocket attribute must be defined",
-    "ErrCancelExecuteNodeFailure": "Failed to cancel processing of package \"{0}\" and execution of node with {1} identifier",
+    "ErrCancelExecuteNodeFailure": "Failed to cancel processing of package \"{0}\", execution of node with {1} identifier",
     "ErrCannotAddPublishedPackage": "\"{1}\" package of \"{2}\" version related to {0} server cannot be published: {3}",
     "ErrCannotConnectToServer": "{0} server connection failed",
     "ErrConnectionFailure": "{0} server connection lost",

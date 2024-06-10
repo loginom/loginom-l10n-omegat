@@ -537,7 +537,7 @@
     "Str": {
       "Arguments": "Argument - expression of the numeric type.",
       "Description": "Str(Argument)",
-      "Output": "Returns the Argument as a string taking into account locale."
+      "Output": "Returns the Argument as a string taking into locale aware."
     },
     "StrToDate": {
       "Arguments": "Argument - the string expression containing date\/time\nFormat - optional parameter date\/time format in terms of D, M, Y, H, N, S, Z",

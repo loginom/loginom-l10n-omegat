@@ -27,8 +27,8 @@
     "UseSASL": "Use SASL"
   },
   "admin/OpenIDSettings": {
-    "AllowUsersWithoutRole": "Allow login for users without roles",
-    "AuthEndpoint": "Authentication point URL",
+    "AllowUsersWithoutRole": "Allow login for users without a role",
+    "AuthEndpoint": "Authentication endpoint",
     "AutoGetToken": "Automatic reception of token",
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
@@ -42,10 +42,10 @@
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Client URL",
     "RolesClaim": "Role list claim",
-    "TokenEndpoint": "Token endpoint URL",
+    "TokenEndpoint": "Token endpoint",
     "UpdateUserRole": "Update user role",
     "UserFullNameClaim": "Full username claim",
-    "UserInfoEndpoint": "User information endpoint URL",
+    "UserInfoEndpoint": "User information endpoint",
     "UserNameClaim": "Username claim",
     "UserRoleNameMap": "List of role names"
   },
@@ -122,7 +122,7 @@
     "MaintenanceModeDesc": "Account login during maintenance mode is allowed to Administrators only.\n\nActive sessions continue working to enable saving changes.",
     "MaintenanceModeMessage": "\n\nMessage:\n\"{0}\"",
     "MaintenanceModeTitle": "Maintenance Mode",
-    "MessageContents": "Message body:",
+    "MessageContents": "Message text:",
     "PackageRefCountTip": "Count of sessions referring to package",
     "ReadOnlyPackageNamePostfix": "(read-only)",
     "RoleTipFormat": "Session was started by user with the {0} role",
@@ -150,14 +150,14 @@
     "AllowPublish": "Publish packages",
     "AuthMode": "Authentication",
     "Blocked": "Blocked",
-    "DeleteUserConfirm": "When deleting a user, you can also delete their folder and tasks in the scheduler.\nDo you want to delete user {0}?",
+    "DeleteUserConfirm": "When deleting a user, you can also delete their folder and jobs in the scheduler.\nDo you want to delete user {0}?",
     "DeleteUserConfirmNo": "Delete the user only",
     "DeleteUserConfirmYes": "Delete the user and the data",
     "DisplayName": "Full caption",
     "GlobalFileStorage": "Access to all files",
     "Name": "Login",
     "Roles": "Roles",
-    "SchedulerFullAccess": "Access to all tasks",
+    "SchedulerFullAccess": "Access to all jobs",
     "Update": "Refresh"
   },
   "admin/UserModel": {
@@ -291,7 +291,7 @@
   "app/MapTreeForm": {
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
     "DisplayName": "Caption",
-    "DraftAddSchedulerJobFailed": "Failed to add task for draft \"{0}\"",
+    "DraftAddSchedulerJobFailed": "Failed to add job for draft \"{0}\"",
     "DraftPublishFailed": "It is not possible to publish \"{0}\" draft",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
@@ -312,7 +312,7 @@
     "AddNewExecNode": "Add Execution node to workflow",
     "AddNewLoop": "Add Loop node to workflow",
     "AddNewNode": "Add node to workflow",
-    "AddSchedulerJobByNode": "Add task to scheduler...",
+    "AddSchedulerJobByNode": "Add job to scheduler...",
     "CancelOperation": "Cancel operation",
     "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
@@ -376,7 +376,7 @@
     "ResetConfiguration": "Restore original node configuration",
     "SelectNode": "First select node in workflow",
     "SelectOneNode": "Select only one node",
-    "SelectOneNodeOrLink": "Select only one node or connection",
+    "SelectOneNodeOrLink": "Select only one node or link",
     "SelectSomething": "First select object in workflow",
     "SetNodeDerivedVendor": "Set derived node component...",
     "SetupConnection": "Configure connection...",
@@ -573,7 +573,7 @@
     "StopAllSessionsPrompt": "Do you want to stop execution of all sessions?",
     "StopAllSessionsTitle": "Stop Sessions",
     "StopAllSessionsYesText": "Stop",
-    "WhateverAddJobWindowApplyText": "Add job anyway",
+    "WhateverAddJobWindowApplyText": "Add Job Anyway",
     "WhateverEditJobWindowApplyText": "Save Whatever"
   },
   "app/scheduler/SchedulerUtils": {
@@ -1220,7 +1220,7 @@
     "ErrFieldInvalidIdentifier": "The field name entered is not a valid identifier",
     "ErrFieldSize": "Size of {0} field must be more than 0",
     "ErrTableName": "Invalid table name",
-    "ExecuteSQLRequestBtnText": "Execute query",
+    "ExecuteSQLRequestBtnText": "Execute Query",
     "ResetQuestionBody": "Do you want to reset the SQL query changes?",
     "ResetQuestionTitle": "Reset Changes"
   },
@@ -2041,7 +2041,7 @@
     "EmptyAuthURI": "Authentication point URL not specified",
     "OpenIDResponseNotJSON": "Response to OpenID configuration request is not a JSON string",
     "ServerDisconnected": "Server unavailable",
-    "TokenButtonText": "Login through",
+    "TokenButtonText": "Login With",
     "UnknownToken": "Request matching the received token not found"
   },
   "mxgraph/annotation/Annotation": {

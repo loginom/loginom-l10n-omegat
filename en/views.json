@@ -144,7 +144,7 @@
       "tooltip": "Find session or package"
     },
     "btnSendMessage": {
-      "text": "Send message",
+      "text": "Send Message",
       "tooltip": "Send message to user..."
     },
     "btnSendMessageToAll": {
@@ -4614,7 +4614,7 @@
       "text": "Quick Start"
     },
     "btnGetToken": {
-      "text": "Login with OpenID"
+      "text": "Login With OpenID"
     },
     "btnHelp": {
       "href": "https:\/\/help.loginom.com\/",
@@ -4774,7 +4774,7 @@
       "fieldLabel": "Cache all data"
     },
     "chkLocaleAware": {
-      "fieldLabel": "Compare considering locale"
+      "fieldLabel": "Compare with locale awareness"
     }
   },
   "viewers/browse/BrowseView": {
