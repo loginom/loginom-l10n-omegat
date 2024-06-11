@@ -6484,7 +6484,7 @@
       "text": "Usage type"
     },
     "frmColumnsMapping": {
-      "title": "Adjustment of Columns Mapping"
+      "title": "Columns Mapping Settings"
     },
     "rbLinks": {
       "boxLabel": "Links"
@@ -6866,7 +6866,7 @@
       "text": "Output tree"
     },
     "frmDataTreeMapping": {
-      "title": "Adjustment of Data Trees Mapping"
+      "title": "Data Trees Mapping Settings"
     },
     "rbLinks": {
       "boxLabel": "Links"
