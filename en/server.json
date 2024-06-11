@@ -2323,7 +2323,7 @@
     "ErrIncorrectServer": "Invalid server",
     "ErrIndexColumnsNotSelect": "No columns to make an index are specified",
     "ErrLocalDBForbidden": "Connections to local databases on server are forbidden",
-    "ErrLoginTimeout": "The time for entering the username and password has expired",
+    "ErrLoginTimeout": "The time for entering the username and password for connection has expired",
     "ErrOpenQuery": "Error while SQL opening :\n%s",
     "ErrParameterTypesDoNotMatch": "Parameter types do not match",
     "ErrPrepareProcedure": "Error preparing stored procedure \"%s\"",
@@ -3524,7 +3524,7 @@
     "ErrParentVendorIsDeleted": "Base component deleted",
     "ErrParentVendorNotFound": "Base component not found",
     "ErrUnknownCouplerDefType": "Unknown type of the coupler definition",
-    "UpdateBaseConfigNodeLocked": "Failed to update configuration of derived \"%s\" component: base node locked"
+    "UpdateBaseConfigNodeLocked": "Failed to update configuration of derived component \"%s\": base node locked"
   },
   "Libraries/Model/DerivedModelUnitAspects": {
     "ErrCannotChangeDerivedName": "It is not possible to change the derived ports name",
