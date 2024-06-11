@@ -1592,7 +1592,7 @@
   },
   "components/python/PythonExecutor": {
     "DocFileStoragePathFunc": "filestoragepath(path)\n--\n\nResolve the path in the file system from the path in the file storage\nArguments:\n  path: str\n    Path in the file storage.\nResult:\n  Path in the file system.",
-    "DocGetLocaleFunc": "getLocale()\n--\n\nGet locale name of the current node\nResult:\n Locale name of the current node under RFC 4646.",
+    "DocGetLocaleFunc": "getLocale()\n--\n\nGet locale name of the current node\nResult:\n  Locale name of the current node according to RFC 4646.",
     "ErrNumExprFinalize": "Failed to finalize numexpr module",
     "ErrResNotFound": "%s resource not found",
     "ErrTCLFinalize": "Error occurred during TCL finalization",
@@ -3304,7 +3304,7 @@
     "ErrFileNameEmpty": "File name cannot be empty",
     "ErrFileNotFound": "\"%s\" file not found",
     "FileName": "File name",
-    "FileTimeDisplayName": "Modification time"
+    "FileTimeDisplayName": "File time"
   },
   "Libraries/KafkaConnection/KafkaAuth": {
     "ErrFileNoAccess": "\"%s\" file unavailable",
@@ -4036,7 +4036,7 @@
     "DefaultUserRole": "New user role",
     "FoldersClaim": "Claim of the list of shared folders",
     "OpenIDClient": "Client ID",
-    "OpenIDProviderName": "The OpenID provider's name",
+    "OpenIDProviderName": "The OpenID provider's caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Token receiver's URL",

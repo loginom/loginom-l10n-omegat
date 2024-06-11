@@ -37,7 +37,7 @@
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
     "OpenIDClient": "Client ID",
-    "OpenIDProviderName": "The OpenID provider's name",
+    "OpenIDProviderName": "The OpenID provider's caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Client URL",
@@ -2404,7 +2404,7 @@
     "CollapseAll": "Collapse charts",
     "DefaultTitle": "Chart {0}",
     "ExpandAll": "Expand charts",
-    "WarnDelete": "Do you really want to delete diagram \"{0}\"?"
+    "WarnDelete": "Do you really want to delete chart \"{0}\"?"
   },
   "viewers/cube/CubeChartPanel": {
     "ChartCaseEmptyText": "No measures",
