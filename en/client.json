@@ -37,7 +37,7 @@
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
     "OpenIDClient": "Client ID",
-    "OpenIDProviderName": "The OpenID provider's caption",
+    "OpenIDProviderName": "Login button caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Client URL",
@@ -760,7 +760,7 @@
     "ExprGoToNode": "Go to Node",
     "ExprReplace": "Replaces input node",
     "ExprReplaceAction": "Replace node",
-    "InsertInExprRelative": "Insert to expression relatively"
+    "InsertInExprRelative": "Insert relative name into expression"
   },
   "components/calctree/TreeExprEditForm": {
     "ErrExprNotInRoot": "The path should start from root \"{0}\"",

@@ -450,7 +450,7 @@
   "components/sorting": {
     "SortingEngine": {
       "BufferWhole": "Cache all data",
-      "LocaleAware": "Compare with locale awareness"
+      "LocaleAware": "Locale-aware comparison"
     }
   },
   "components/treetodata": {
@@ -898,7 +898,7 @@
       "DefaultUserRole": "New user role",
       "FoldersClaim": "Claim of the list of shared folders",
       "OpenIDClient": "Client ID",
-      "OpenIDProviderName": "Service caption",
+      "OpenIDProviderName": "Login button caption",
       "OpenIDScope": "Scope",
       "OpenIDSecret": "Client secret",
       "RedirectURI": "Token receiver's URL",

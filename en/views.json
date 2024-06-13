@@ -80,7 +80,7 @@
       "tooltip": "Delete"
     },
     "frmClaimsToVariablesForm": {
-      "title": "List of Variables Taken from Token"
+      "title": "List of Variables Obtained from Token"
     }
   },
   "admin/RoleMapingForm": {
@@ -1193,13 +1193,13 @@
   },
   "app/scheduler/ActiveSessions": {
     "colActiveJobCaption": {
-      "text": "Job Captioin"
+      "text": "Job Caption"
     },
     "colActiveProcessTime": {
       "text": "Execution Time"
     },
     "colActiveSessionID": {
-      "text": "Session Number"
+      "text": "Session ID"
     },
     "colActiveStartTime": {
       "text": "Start"
@@ -1515,7 +1515,7 @@
       "text": "Execution Time"
     },
     "colLogSessionID": {
-      "text": "Session Number"
+      "text": "Session ID"
     },
     "colLogStartTime": {
       "text": "Start"
@@ -1914,10 +1914,10 @@
       "tooltip": "Move to field"
     },
     "btnInsertExprInExprAbsolute": {
-      "tooltip": "Insert to expression absolutely"
+      "tooltip": "Insert full name into expression"
     },
     "btnInsertExprInExprRelative": {
-      "tooltip": "Insert to expression text"
+      "tooltip": "Insert relative name into expression"
     },
     "btnInsertInExpr": {
       "tooltip": "Insert to expression text"
@@ -2076,10 +2076,10 @@
       "tooltip": "Move to expression"
     },
     "btnInsertNodeInExprAbsolute": {
-      "tooltip": "Insert to expression absolutely"
+      "tooltip": "Insert full name into expression"
     },
     "btnInsertNodeInExprRelative": {
-      "tooltip": "Insert to expression relatively"
+      "tooltip": "Insert relative name into expression"
     },
     "btnInsertVariableInExpr": {
       "tooltip": "Insert to expression text"
@@ -4774,7 +4774,7 @@
       "fieldLabel": "Cache all data"
     },
     "chkLocaleAware": {
-      "fieldLabel": "Compare with locale awareness"
+      "fieldLabel": "Locale-aware comparison"
     }
   },
   "viewers/browse/BrowseView": {
