@@ -1914,10 +1914,10 @@
       "tooltip": "Move to field"
     },
     "btnInsertExprInExprAbsolute": {
-      "tooltip": "Вставить полное имя в выражение"
+      "tooltip": "Insert full name into expression"
     },
     "btnInsertExprInExprRelative": {
-      "tooltip": "Вставить относительное имя в выражение"
+      "tooltip": "Insert relative name into expression"
     },
     "btnInsertInExpr": {
       "tooltip": "Insert to expression text"
@@ -2076,10 +2076,10 @@
       "tooltip": "Move to expression"
     },
     "btnInsertNodeInExprAbsolute": {
-      "tooltip": "Вставить полное имя в выражение"
+      "tooltip": "Insert full name into expression"
     },
     "btnInsertNodeInExprRelative": {
-      "tooltip": "Вставить относительное имя в выражение"
+      "tooltip": "Insert relative name into expression"
     },
     "btnInsertVariableInExpr": {
       "tooltip": "Insert to expression text"

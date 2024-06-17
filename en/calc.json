@@ -170,12 +170,12 @@
       "Output": "Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another."
     },
     "DateTimeToStr": {
-      "Arguments": "Дата_время - выражение типа Дата\/Время.\nФормат_даты - необязательный параметр формат даты в терминах D, M, Y.\nФормат_времени - необязательный параметр формат времени в терминах H, N, S, Z.",
+      "Arguments": "Date_time - expression of the Date\/Time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
       "Description": "DateTimeToStr(Date_time [, Date_format [, Time_format]])",
       "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
     },
     "DateToStr": {
-      "Arguments": "Дата - выражение типа Дата\/Время.\nФормат - необязательный параметр формат даты в терминах D, M, Y.",
+      "Arguments": "Date - expression of the Date\/Time type.\nFormat - optional parameter date format in terms of D, M, Y.",
       "Description": "DateToStr(Date [, Format])",
       "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")"
     },
@@ -312,7 +312,7 @@
     "IN": {
       "Arguments": "Value - value of the target element;\nElement1,\nElement2,\nElementN - values of the list elements",
       "Description": "N(Value, Element1, Element2, ..., ElementN)",
-      "Output": "Функция возвращает значение логического типа True (истина), если Значение содержится в списке, иначе результат равен False (ложь)."
+      "Output": "Function returns the True value of the logical type if the Value is in the list, otherwise the result is False."
     },
     "Int": {
       "Arguments": "Argument - numeric expression.",

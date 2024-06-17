@@ -30,14 +30,14 @@
     "AllowUsersWithoutRole": "Allow login for users without a role",
     "AuthEndpoint": "Authentication endpoint",
     "AutoGetToken": "Automatic reception of token",
-    "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
+    "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
     "FoldersClaim": "Claim of the list of shared folders",
     "NoClaimsToVariables": "No extractable claims",
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
     "OpenIDClient": "Client ID",
-    "OpenIDProviderName": "Текст кнопки входа",
+    "OpenIDProviderName": "Login button caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Client URL",
@@ -113,7 +113,7 @@
     "ErrCannotCloseSession": "Failed to close session. The session contains the active processes that have not been finished while timeout.",
     "ErrCannotStopPackage": "Failed to stop execution of package. The package contains the active processes that have not been finished while timeout.",
     "ErrCannotStopSession": "Failed to stop execution of session. The session contains the active processes that have not been finished while timeout.",
-    "InvalidMessageLength": "Максимальная длина сообщения: {0}",
+    "InvalidMessageLength": "Message length limit: {0}",
     "LeaveMaintenanceMsgText": "Do you really want to leave the maintenance mode?",
     "LeaveMaintenanceTooltip": "Leaving server maintenance mode...",
     "LeftMaintenanceMode": "Server left maintenance mode",
@@ -251,7 +251,7 @@
     "ErrNoPackageToClose": "No package to be closed was found.",
     "ErrNoPackageToSave": "There is no package to save.",
     "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
-    "ErrSaveReadOnlyPackage": "Нельзя сохранить пакет \"{0}\", открытый только на чтение, без изменения имени",
+    "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name",
     "NoRightsToCreatePackages": "\"{0}\" user has no rights to create packages",
     "NoRightsToOpenPackages": "\"{0}\" user has no rights to open packages"
   },
@@ -306,8 +306,8 @@
     "ActivateCurrent": "Run node",
     "ActivateFrom": "Activate subsequent nodes",
     "AddComment": "Add comment",
-    "AddNewConnectionInheritedNode": "Добавить узел подключения в сценарий",
-    "AddNewConnectionReferenceNode": "Добавить ссылку на подключение в сценарий",
+    "AddNewConnectionInheritedNode": "Add connection node to workflow",
+    "AddNewConnectionReferenceNode": "Add reference to connection into workflow",
     "AddNewDerivedNode": "Add derived node to workflow",
     "AddNewExecNode": "Add Execution node to workflow",
     "AddNewLoop": "Add Loop node to workflow",
@@ -540,7 +540,7 @@
     "LogEntriesTitle": "Completed"
   },
   "app/scheduler/SchedulerForm": {
-    "ActiveSessionsReceiveErr": "Не удалось получить список активных сессий для выбранных задач",
+    "ActiveSessionsReceiveErr": "Failed to receive the list of active sessions for the selected jobs",
     "AddJobWindowApplyText": "Add",
     "AddJobWindowTitle": "Add Job",
     "DeleteAllJobsPrompt": "Do you want to delete all jobs and terminate active sessions?",
@@ -760,7 +760,7 @@
     "ExprGoToNode": "Go to Node",
     "ExprReplace": "Replaces input node",
     "ExprReplaceAction": "Replace node",
-    "InsertInExprRelative": "Вставить относительное имя в выражение"
+    "InsertInExprRelative": "Insert relative name into expression"
   },
   "components/calctree/TreeExprEditForm": {
     "ErrExprNotInRoot": "The path should start from root \"{0}\"",

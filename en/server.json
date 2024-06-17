@@ -893,7 +893,7 @@
     "VendorDesc": "Create data tree from data table"
   },
   "components/datatovariables/DataToVariables": {
-    "ErrMaxStringLengthReached": "Превышена максимальная длина строки в %d символов"
+    "ErrMaxStringLengthReached": "Maximum string length of %d characters exceeded"
   },
   "components/datatovariables/DataToVariablesEngine": {
     "DataToVariablesNotify": "Variable calculating",
@@ -1202,7 +1202,7 @@
     "SortNotify": "Grouped data sorting"
   },
   "components/groupdata/GroupDataSet": {
-    "ErrMaxStringLengthReached": "Превышена максимальная длина строки в %d символов"
+    "ErrMaxStringLengthReached": "Maximum string length of %d characters exceeded"
   },
   "components/groupdata/GroupDataVendor": {
     "VendorCaption": "Grouping",
@@ -4032,12 +4032,12 @@
   "Libraries/OpenID/OpenIDConfigurator": {
     "AllowUsersWithoutRole": "Allow login for users without a role",
     "AuthEndpoint": "Authentication request endpoint",
-    "AutoGetToken": "Автоматическое получение токена",
-    "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
+    "AutoGetToken": "Automatic reception of token",
+    "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
     "FoldersClaim": "Claim of the list of shared folders",
     "OpenIDClient": "Client ID",
-    "OpenIDProviderName": "Текст кнопки входа",
+    "OpenIDProviderName": "Login button caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Token receiver's URL",
@@ -4466,7 +4466,7 @@
     "LogStartJobSkipped": "Job \"%s\" start failed. Reason: %s.",
     "LogStartJobSkippedMaintenanceState": "the server is in maintenance mode",
     "LogStartJobSkippedOverlappedExecution": "the job is already being executed",
-    "SchedulerJobMetaDesc": "Задача",
+    "SchedulerJobMetaDesc": "Job",
     "SchedulerJobVariableMetaDesc": "Variable"
   },
   "Studio/SharedDirectories": {
