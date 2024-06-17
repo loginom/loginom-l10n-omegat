@@ -2041,7 +2041,7 @@
     "EmptyAuthURI": "Authentication endpoint not specified",
     "OpenIDResponseNotJSON": "Response to OpenID configuration request is not a JSON string",
     "ServerDisconnected": "Server unavailable",
-    "TokenButtonTextFmt": "Войти через {0}",
+    "TokenButtonTextFmt": "Login With {0}",
     "UnknownToken": "Request matching the received token not found"
   },
   "mxgraph/annotation/Annotation": {
