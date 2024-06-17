@@ -1914,10 +1914,10 @@
       "tooltip": "Перейти к полю"
     },
     "btnInsertExprInExprAbsolute": {
-      "tooltip": "Вставить в выражение абсолютно"
+      "tooltip": "Вставить полное имя в выражение"
     },
     "btnInsertExprInExprRelative": {
-      "tooltip": "Вставить в текст выражения"
+      "tooltip": "Вставить относительное имя в выражение"
     },
     "btnInsertInExpr": {
       "tooltip": "Вставить в текст выражения"
@@ -2076,10 +2076,10 @@
       "tooltip": "Перейти к выражению"
     },
     "btnInsertNodeInExprAbsolute": {
-      "tooltip": "Вставить в выражение абсолютно"
+      "tooltip": "Вставить полное имя в выражение"
     },
     "btnInsertNodeInExprRelative": {
-      "tooltip": "Вставить в выражение относительно"
+      "tooltip": "Вставить относительное имя в выражение"
     },
     "btnInsertVariableInExpr": {
       "tooltip": "Вставить в текст выражения"

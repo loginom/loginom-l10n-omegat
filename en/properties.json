@@ -574,7 +574,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/View",
+      "CommandText": "Table/View",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
     }
@@ -894,11 +894,11 @@
       "AllowUsersWithoutRole": "Allow login for users without a role",
       "AuthEndpoint": "Authentication request endpoint",
       "AutoGetToken": "Automatic reception of token",
-      "ClaimsToVariables": "Claims extracted to variables",
+      "ClaimsToVariables.NOTE": "Старый исходник:\nКлеймы извлекаемые в переменные\n\nСтарый перевод:\nClaims extracted to variables",
       "DefaultUserRole": "New user role",
       "FoldersClaim": "Claim of the list of shared folders",
       "OpenIDClient": "Client ID",
-      "OpenIDProviderName": "Login button caption",
+      "OpenIDProviderName.NOTE": "Старый исходник:\nМетка сервиса\n\nСтарый перевод:\nLogin button caption",
       "OpenIDScope": "Scope",
       "OpenIDSecret": "Client secret",
       "RedirectURI": "Token receiver's URL",
@@ -936,9 +936,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact\/inexact data priority",
-      "FactLessMore": "Less\/more factors priority",
-      "QualitySpeed": "Accuracy\/speed priority"
+      "ExactInexact": "Exact/inexact data priority",
+      "FactLessMore": "Less/more factors priority",
+      "QualitySpeed": "Accuracy/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -1011,7 +1011,7 @@
       "SSLPrivateKeyFile": "Private key file name",
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL\/TLS port"
+      "WSSPort": "WebSocket SSL/TLS port"
     }
   },
   "Warehouse2/DWConnection": {

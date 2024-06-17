@@ -11,7 +11,7 @@
     "DeleteAllClaimsPrompt": "Вы действительно хотите удалить все клеймы?",
     "DublicateClaimName": "Дубликаты имен клеймов запрещены",
     "EmptyClaimName": "Имя клейма не может быть пустым",
-    "FailClaimName": "В имени клейма разрешены только символы латиницы, цифры и точки"
+    "FailClaimName": "В имени клейма разрешены только символы латиницы, цифры и точка"
   },
   "admin/LDAPSettings": {
     "ConnectionSecurity": "Безопасность соединения",
@@ -30,14 +30,14 @@
     "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
     "AuthEndpoint": "URL точки аутентификации",
     "AutoGetToken": "Автоматическое получение токена",
-    "ClaimsToVariables": "Клеймы извлекаемые в переменные",
+    "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
     "DefaultUserRole": "Роль нового пользователя",
     "FoldersClaim": "Клейм списка общих папок",
     "NoClaimsToVariables": "Нет извлекаемых клеймов",
     "NoFoldersClaim": "Нет назначения прав на папки",
     "NoRoleMapping": "Нет назначения ролей",
     "OpenIDClient": "Идентификатор клиента",
-    "OpenIDProviderName": "Название OpenID провайдера",
+    "OpenIDProviderName": "Текст кнопки входа",
     "OpenIDScope": "Область действия",
     "OpenIDSecret": "Ключ клиента",
     "RedirectURI": "Адрес клиента",
@@ -113,7 +113,7 @@
     "ErrCannotCloseSession": "Не удалось закрыть сессию. Сессия содержит активные процессы, которые не завершились в течение тайм-аута.",
     "ErrCannotStopPackage": "Не удалось остановить выполнение пакета. Пакет содержит активные процессы, которые не завершились в течение тайм-аута.",
     "ErrCannotStopSession": "Не удалось остановить выполнение сессии. Сессия содержит активные процессы, которые не завершились в течение тайм-аута.",
-    "InvalidMessageLength": "Максимальная длинна сообщения: {0}",
+    "InvalidMessageLength": "Максимальная длина сообщения: {0}",
     "LeaveMaintenanceMsgText": "Вы действительно хотите выйти из режима обслуживания?",
     "LeaveMaintenanceTooltip": "Вывод сервера из режима обслуживания...",
     "LeftMaintenanceMode": "Сервер выведен из режима обслуживания",
@@ -251,7 +251,7 @@
     "ErrNoPackageToClose": "Не найден пакет, который можно закрыть.",
     "ErrNoPackageToSave": "Нет пакета для сохранения.",
     "ErrOpenReadOnlyPackage": "Пакет \"{0}\" открыт только на чтение, потому что он уже открыт другим пользователем, либо к файлу есть доступ только на чтение. Сохранение возможно только под другим именем.",
-    "ErrSaveReadOnlyPackage": "Нельзя сохранить пакет \"{0}\" открытый только на чтение, без изменения имени",
+    "ErrSaveReadOnlyPackage": "Нельзя сохранить пакет \"{0}\", открытый только на чтение, без изменения имени",
     "NoRightsToCreatePackages": "У пользователя \"{0}\" нет прав для создания пакетов",
     "NoRightsToOpenPackages": "У пользователя \"{0}\" нет прав для открытия пакетов"
   },
@@ -306,8 +306,8 @@
     "ActivateCurrent": "Выполнить узел",
     "ActivateFrom": "Активировать последующие узлы",
     "AddComment": "Добавить комментарий",
-    "AddNewConnectionInheritedNode": "Добавить узел подключения в Сценарий",
-    "AddNewConnectionReferenceNode": "Добавить ссылку на подключение в Сценарий",
+    "AddNewConnectionInheritedNode": "Добавить узел подключения в сценарий",
+    "AddNewConnectionReferenceNode": "Добавить ссылку на подключение в сценарий",
     "AddNewDerivedNode": "Добавить производный узел в сценарий",
     "AddNewExecNode": "Добавить узел Выполнение узла в сценарий",
     "AddNewLoop": "Добавить узел Цикл в сценарий",
@@ -540,7 +540,7 @@
     "LogEntriesTitle": "Завершенные"
   },
   "app/scheduler/SchedulerForm": {
-    "ActiveSessionsReceiveErr": "Не удалось получит список активных сессий для выбранных задач",
+    "ActiveSessionsReceiveErr": "Не удалось получить список активных сессий для выбранных задач",
     "AddJobWindowApplyText": "Добавить",
     "AddJobWindowTitle": "Добавление задачи",
     "DeleteAllJobsPrompt": "Удалить все задачи и остановить активные сессии?",
@@ -557,10 +557,10 @@
     "ErrDeleteJobFmt": "Не удалось удалить задачу \"{0}\", возможно она удалена в другой сессии",
     "ErrDisableJobsFailFmt": "Не удалось запретить выполнение задач: \"{0}\"",
     "ErrEnableJobsFailFmt": "Не удалось разрешить выполнение задач: \"{0}\"",
-    "ErrJobNotFoundFmt": "Задача планировщика \"{0}\" удалена",
+    "ErrJobNotFoundFmt": "Задача \"{0}\" удалена",
     "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: \"{1}\".",
     "ErrPathNotFound": "Указанный путь не найден \"{0}\".",
-    "JobVersionChangedPromptFmt": "Задача планировщика \"{0}\" изменена в другой сессии. Перезаписать изменения своими?",
+    "JobVersionChangedPromptFmt": "Задача \"{0}\" изменена в другой сессии. Перезаписать изменения своими?",
     "JobVersionChangedPromptNo": "Закрыть без сохранения",
     "JobVersionChangedPromptTitle": "Конфликт изменения задачи",
     "JobVersionChangedPromptYes": "Перезаписать",
@@ -760,7 +760,7 @@
     "ExprGoToNode": "Перейти к узлу",
     "ExprReplace": "Заменяет входной узел",
     "ExprReplaceAction": "Заменять узел",
-    "InsertInExprRelative": "Вставить в выражение относительно"
+    "InsertInExprRelative": "Вставить относительное имя в выражение"
   },
   "components/calctree/TreeExprEditForm": {
     "ErrExprNotInRoot": "Путь должен начинаться от корня \"{0}\"",
@@ -2041,7 +2041,7 @@
     "EmptyAuthURI": "Не задан URL точки аутентификации",
     "OpenIDResponseNotJSON": "Ответ на запрос OpenID конфигурации не является JSON строкой",
     "ServerDisconnected": "Сервер не доступен",
-    "TokenButtonText": "Войти через",
+    "TokenButtonTextFmt": "Войти через {0}",
     "UnknownToken": "Не найден запрос соответствующий полученному токену"
   },
   "mxgraph/annotation/Annotation": {

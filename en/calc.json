@@ -65,47 +65,47 @@
       "Output": "Returns the absolute error of two arguments."
     },
     "AddDay": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddDay(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of days. The number can also be negative. In this case, the function will return the date to the given number of days before the specified date."
     },
     "AddHour": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddHour(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of hours. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of hours from the given date."
     },
     "AddMillisecond": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddMillisecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of milliseconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of milliseconds from the given date."
     },
     "AddMinute": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddMinute(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of minutes. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of minutes from the given date."
     },
     "AddMonth": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddMonth(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month."
     },
     "AddQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddQuarter(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting quarter, the function will set the date to the last day of the resulting quarter."
     },
     "AddSecond": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddSecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of seconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of seconds from the given date."
     },
     "AddWeek": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddWeek(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date."
     },
     "AddYear": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - argument of the Date/Time type\nNumber - argument of the integer type.",
       "Description": "AddYear(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date."
     },
@@ -120,9 +120,9 @@
       "Output": "Returns the value arccosine, namely, the angle in radians the cosine of which is equal to the Value."
     },
     "ArcSin": {
-      "Arguments": "Value - the value of the sine whose angle should be found.",
+      "Arguments": "Value - the sine value for which it is required to determine the angle.",
       "Description": "ArcSin(Value)",
-      "Output": "Returns the arcsine of the value, i.e., the angle in radians whose sine is the Value."
+      "Output": "Returns the value arcsine, namely, the angle in radians the sine of which is equal to the Value."
     },
     "ArcTan": {
       "Arguments": "Value - the tangent value for which it is required to determine the angle.",
@@ -167,32 +167,32 @@
     "DamLevDist": {
       "Arguments": "String1,\nString2 - expressions of the string type.",
       "Description": "DamLevDist(String1, String2)",
-      "Output": "Function returns the value of the Damerau-Levenshtein distance for String1, String2. The Damerau-Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another."
+      "Output": "Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another."
     },
     "DateTimeToStr": {
-      "Arguments": "Date_time - expression of the date\/time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
+      "Arguments.NOTE": "Старый исходник:\nДата_время - выражение типа дата/время.\nФормат_даты - необязательный параметр формат даты в терминах D, M, Y.\nФормат_времени - необязательный параметр формат времени в терминах H, N, S, Z.\n\nСтарый перевод:\nDate_time - expression of the date/time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
       "Description": "DateTimeToStr(Date_time [, Date_format [, Time_format]])",
-      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
+      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM/DD/YYYY\" - converts the date into the \"month.day.year\" format (\"12/25/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
     },
     "DateToStr": {
-      "Arguments": "Date - expression of the date\/time type.\nFormat - optional parameter date format in terms of D, M, Y.",
+      "Arguments.NOTE": "Старый исходник:\nДата - выражение типа дата/время.\nФормат - необязательный параметр формат даты в терминах D, M, Y.\n\nСтарый перевод:\nDate - expression of the date/time type.\nFormat - optional parameter date format in terms of D, M, Y.",
       "Description": "DateToStr(Date [, Format])",
-      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")"
+      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM/DD/YYYY\" - converts the date into the \"month.day.year\" format (\"12/25/2004\")"
     },
     "Day": {
-      "Arguments": "Date - the date type field.",
+      "Arguments.NOTE": "Старый исходник:\nДата - поле типа дата.\n\nСтарый перевод:\nDate - the date type field.",
       "Description": "Day(Date)",
       "Output": "Returns the day according to the specified date."
     },
     "DayOfWeek": {
-      "Arguments": "Date - the date type field.",
+      "Arguments.NOTE": "Старый исходник:\nДата - поле типа дата.\n\nСтарый перевод:\nDate - the date type field.",
       "Description": "DayOfWeek(Date)",
       "Output": "Returns the week day according to the specified date."
     },
     "DaysBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "DaysBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of days between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество дней между двумя датами.\n\nСтарый перевод:\nReturns the total number of days between two dates."
     },
     "Decode": {
       "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
@@ -202,12 +202,12 @@
     "DecodeF": {
       "Arguments": "Expression - any numeric expression value of which is used for comparison.\nError - the numeric expression, comparison error.\nValueN - the numeric expression value of which is compared with the Expression argument.\nResultN - the value that is returned if |ValueN - ExpressionN| <= Error.\nDefault_value - the numeric expression the result of which is returned if none of the ValuesN is equal to the Expression (by default 0).",
       "Description": "DecodeF(Expression, Error, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
     },
     "DecodeN": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date\/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date\/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
+      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
       "Description": "DecodeN(Expression, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
     },
     "DecodeS": {
       "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
@@ -240,22 +240,22 @@
       "Output": "Function returns the time formed from the specified arguments."
     },
     "EndOfTheMonth": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "EndOfTheMonth(Date)",
       "Output": "The function returns the ending date and time of the month specified in Date"
     },
     "EndOfTheQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "EndOfTheQuarter(Date)",
       "Output": "The function returns the ending date and time of the quarter to which the specified Date belongs"
     },
     "EndOfTheWeek": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "EndOfTheWeek(Date)",
       "Output": "The function returns the ending date and time of the specified week following the ISO 8601 standard, under which weeks start on Monday and end on Sunday."
     },
     "EndOfTheYear": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "EndOfTheYear(Date)",
       "Output": "The function returns the ending date and time of the year specified in Date"
     },
@@ -267,7 +267,7 @@
     "ExpMovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "ExpMovingAverage(X{t}, X{t-1} ...)",
-      "Output": "It is used for construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 \/ (n + 1), where n - window width."
+      "Output": "It is used for construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 / (n + 1), where n - window width."
     },
     "Factorial": {
       "Arguments": "Argument - integer positive numeric expression.",
@@ -290,14 +290,14 @@
       "Output": "Returns the fractional part of the Argument."
     },
     "Hour": {
-      "Arguments": "DateTime - the date\/time type field.",
+      "Arguments.NOTE": "Старый исходник:\nДатаВремя - поле типа дата/время.\n\nСтарый перевод:\nDateTime - the date/time type field.",
       "Description": "Hour(DateTime)",
-      "Output": "Returns the hour according to the specified date\/time."
+      "Output": "Returns the hour according to the specified date/time."
     },
     "HoursBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "HoursBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of hours between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество часов между двумя датами.\n\nСтарый перевод:\nReturns the total number of hours between two dates."
     },
     "IF": {
       "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - expressions of any types",
@@ -305,14 +305,14 @@
       "Output": "Returns Value1 if the Antecedent is true or Value2 if it is false. The function result has the variant type"
     },
     "IFF": {
-      "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - numeric expressions or expressions of the Date\/time type",
+      "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - numeric expressions or expressions of the Date/time type",
       "Description": "IFF(Antecedent, Value1, Value2)",
       "Output": "Returns Value1 if the Antecedent is true or Value2 if it is false."
     },
     "IN": {
       "Arguments": "Value - value of the target element;\nElement1,\nElement2,\nElementN - values of the list elements",
       "Description": "N(Value, Element1, Element2, ..., ElementN)",
-      "Output": "Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE."
+      "Output.NOTE": "Старый исходник:\nФункция возвращает значение логического типа TRUE (истина), если Значение содержится в списке, иначе результат равен FALSE (ложь).\n\nСтарый перевод:\nFunction returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE."
     },
     "Int": {
       "Arguments": "Argument - numeric expression.",
@@ -330,9 +330,9 @@
       "Output": "Checks whether the Argument is null. Returns the logical value."
     },
     "ISO8601ToDate": {
-      "Arguments": "Argument - the string expression containing date\/time in ISO 8601 format",
+      "Arguments": "Argument - the string expression containing date/time in ISO 8601 format",
       "Description": "ISO8601ToDate(Argument)",
-      "Output": "Function converts the string containing date\/time in ISO 8601 format into the \"Date\/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date\/time is set to the current time zone.\nIf the time offset is not specified, the date\/time remains unchanged."
+      "Output": "Function converts the string containing date/time in ISO 8601 format into the \"Date/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date/time is set to the current time zone.\nIf the time offset is not specified, the date/time remains unchanged."
     },
     "Left": {
       "Arguments": "String - expression of the string type.",
@@ -365,9 +365,9 @@
       "Output": "Returns the maximum argument."
     },
     "MillisecondsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "MillisecondsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of milliseconds between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество миллисекунд между двумя датами.\n\nСтарый перевод:\nReturns the total number of milliseconds between two dates."
     },
     "Min": {
       "Arguments": "Argument1,\nArgument2,\n... - numeric expressions.",
@@ -375,14 +375,14 @@
       "Output": "Returns the minimum argument."
     },
     "Minute": {
-      "Arguments": "DateTime - the date\/time type field.",
+      "Arguments.NOTE": "Старый исходник:\nДатаВремя - поле типа дата/время.\n\nСтарый перевод:\nDateTime - the date/time type field.",
       "Description": "Minute(DateTime)",
-      "Output": "Returns minutes according to the specified date\/time."
+      "Output": "Returns minutes according to the specified date/time."
     },
     "MinutesBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "MinutesBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of minutes between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество минут между двумя датами.\n\nСтарый перевод:\nReturns the total number of minutes between two dates."
     },
     "Mod": {
       "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression.",
@@ -390,19 +390,19 @@
       "Output": "Returns remainder from integer division of the Dividend by the Divisor."
     },
     "Month": {
-      "Arguments": "Date - the date type field.",
+      "Arguments.NOTE": "Старый исходник:\nДата - поле типа дата.\n\nСтарый перевод:\nDate - the date type field.",
       "Description": "Month(Date)",
       "Output": "Returns the month according to the specified date."
     },
     "MonthsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата. \nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "MonthsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of months between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество месяцев между двумя датами.\n\nСтарый перевод:\nReturns the total number of months between two dates."
     },
     "MovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "MovingAverage(X{t}, X{t-1} ...)",
-      "Output": "It is used for construction of the user model of the simple moving average in the user models.\n\nFormula of the moving average calculation:\nMA = (X(t) + ... + X(t - n))\/n. "
+      "Output": "It is used for construction of the user model of the simple moving average in the user models.\n\nFormula of the moving average calculation:\nMA = (X(t) + ... + X(t - n))/n. "
     },
     "Now": {
       "Arguments": "Arguments are absent.",
@@ -475,14 +475,14 @@
       "Output": "Rounds a real number up to the number with the specified number of digits after the decimal point."
     },
     "Second": {
-      "Arguments": "DateTime - the date\/time type field.",
+      "Arguments.NOTE": "Старый исходник:\nДатаВремя - поле типа дата/время.\n\nСтарый перевод:\nDateTime - the date/time type field.",
       "Description": "Second(DateTime)",
-      "Output": "Returns seconds according to the specified date\/time."
+      "Output": "Returns seconds according to the specified date/time."
     },
     "SecondsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "SecondsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of seconds between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество секунд между двумя датами.\n\nСтарый перевод:\nReturns the total number of seconds between two dates."
     },
     "Sign": {
       "Arguments": "Argument - numeric expression;",
@@ -492,7 +492,7 @@
     "Sin": {
       "Arguments": "Angle - angle value in radians.",
       "Description": "Sin(Angle)",
-      "Output": "Returns the sine of the set angle."
+      "Output": "Returns sine of the set angle."
     },
     "Space": {
       "Arguments": "Count_of_spaces - integer.",
@@ -502,30 +502,30 @@
     "Sqrt": {
       "Arguments": "Argument - positive numeric expression.",
       "Description": "Sqrt(Argument)",
-      "Output": "Returns the square root of the argument."
+      "Output": "Returns the argument square root."
     },
     "StartOfInterval": {
-      "Arguments": "Date - an argument of the Date\/Time type.\nInterval_Count - the number of the given type intervals included in the interval; a positive integer number\nInterval_Type - the type of the time interval.\nStarting_Point - a Date\/Time argument with which the time interval count starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default)\n\nIf Starting_Point does not correspond with the start of the chosen type of the interval, computations get corrected.\nIf Interval_Type is month and Starting_Point is November 15, 2023, the intervals will be counted starting with November 1, 2023",
+      "Arguments.NOTE": "Старый исходник:\nДата - аргумент типа Дата/Время.\nКоличество_интервалов - количество интервалов заданного типа, составляющих интервал; целое положительное число\nТип_Интервала - тип временного интервала.\nНачальная_Точка - аргумент типа Дата/Время, от которого начинают отсчитываться временные интервалы.\nТип_Интервала может принимать следующие значения:\n \"Year\" - интервал задан в годах (начало отсчёта по умолчанию - 0 год);\n \"Quarter\" - интервал задан в кварталах (начало отсчёта по умолчанию - первый квартал 1 года);\n \"Month\" - интервал задан в месяцах (начало отсчёта по умолчанию - январь 1 года);\n \"Week\" - интервал задан в неделях (начало отсчёта по умолчанию - 1 января 1900 года);\n \"Day\" - интервал задан в днях (начало отсчёта по умолчанию - 30 декабря 1899 года);\n \"Hour\" - интервал задан в часах (начало отсчёта по умолчанию - 30 декабря 1899 года);\n \"Minute\" - интервал задан в минутах (начало отсчёта по умолчанию - полночь 30 декабря 1899 года);\n \"Second\" - интервал задан в секундах (начало отсчёта по умолчанию - полночь 30 декабря 1899 года)\n\nЕсли Начальная_Точка не совпадает с началом интервала выбранного типа, то производится корректировка расчетов. \nЕсли Тип_Интервала - месяц, а Начальная_Точка - 15 ноября 2023 года, то интервалы будут рассчитаны относительно 1 ноября 2023 года\n\nСтарый перевод:\nDate - an argument of the Date/Time type.\nInterval_Count - the number of the given type intervals included in the interval; a positive integer number\nInterval_Type - the type of the time interval.\nStarting_Point - a Date/Time argument with which the time interval count starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default)\n\nIf Starting_Point does not correspond with the start of the chosen type of the interval, computations get corrected.\nIf Interval_Type is month and Starting_Point is November 15, 2023, the intervals will be counted starting with November 1, 2023",
       "Description": "StartOfInterval(Date, Interval_Count, Interval_Type[, Starting_Point])",
-      "Output": "The function calculates the start of an arbitrary time interval"
+      "Output.NOTE": "Старый исходник:\nФункция рассчитывает начало произвольного временного интервала\n\nСтарый перевод:\nThe function calculates the start of an arbitrary time interval"
     },
     "StartOfTheMonth": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "StartOfTheMonth(Date)",
       "Output": "The function returns the first date of the month specified in Date"
     },
     "StartOfTheQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "StartOfTheQuarter(Date)",
       "Output": "The function returns the first date of the quarter to which the specified Date belongs"
     },
     "StartOfTheWeek": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "StartOfTheWeek(Date)",
       "Output": "Function returns the date of the specified week start according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday."
     },
     "StartOfTheYear": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - argument of the Date/Time type.",
       "Description": "StartOfTheYear(Date)",
       "Output": "The function returns the first date of the year specified in Date"
     },
@@ -540,9 +540,9 @@
       "Output": "Returns the Argument as a string taking into account locale."
     },
     "StrToDate": {
-      "Arguments": "Argument - the string expression containing date\/time\nFormat - optional parameter date\/time format in terms of D, M, Y, H, N, S, Z",
+      "Arguments": "Argument - the string expression containing date/time\nFormat - optional parameter date/time format in terms of D, M, Y, H, N, S, Z",
       "Description": "StrToDate(Argument [, Format])",
-      "Output": "Function converts the string containing the date into the \"Date\/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD\/MM\/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25\/12\/04 12:44:54\";"
+      "Output": "Function converts the string containing the date into the \"Date/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD/MM/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25/12/04 12:44:54\";"
     },
     "StrZero": {
       "Arguments": "Expression - numeric expression.\nTotal_length - length of the resulting string",
@@ -595,9 +595,9 @@
       "Output": "Returns the Argument without trailing spaces."
     },
     "UnixToDateTime": {
-      "Arguments": "Date - the initial date in UnixTime format, integer;\nInitial_Date_in_UTC - an optional boolean argument.",
-      "Description": "UnixToDateTime(Date[, Initial_Date_in_UTC = True])",
-      "Output": "The function converts time from UnixTime to the Date\/Time format.\nIf Initial_Date_in_UTC = false, the function's output will be adjusted to the local time zone."
+      "Arguments.NOTE": "Старый исходник:\nДата - исходная дата в формате UnixTime, целое число;\nИсходная_Дата_в_UTC - необязательный аргумент логического типа.\n\nСтарый перевод:\nDate - the initial date in UnixTime format, integer;\nInitial_Date_in_UTC - an optional boolean argument.",
+      "Description.NOTE": "Старый исходник:\nUnixToDateTime(Дата[, Исходная_Дата_в_UTC = True])\n\nСтарый перевод:\nUnixToDateTime(Date[, Initial_Date_in_UTC = True])",
+      "Output.NOTE": "Старый исходник:\nФункция конвертирует время из UnixTime в формат Дата/Время.\nЕсли Исходная_Дата_В_UTC = false, то результат вызова функции будет приведён к местному времени.\n\nСтарый перевод:\nThe function converts time from UnixTime to the Date/Time format.\nIf Initial_Date_in_UTC = false, the function's output will be adjusted to the local time zone."
     },
     "Upper": {
       "Arguments": "Argument - string expression.",
@@ -605,36 +605,36 @@
       "Output": "Returns the uppercase argument."
     },
     "Val": {
-      "Arguments": "String - a string expression.\nDecimal_Separator - an optional parameter of the string type used to separate the integer part from the fractional part of a number.\nDecimal_Separator must be a single character.\nThousands_Separator - an optional parameter of the string, boolean or numeric type used to separate digit groups in large numbers. If Thousands_Separator is of the string data type, it must be a single character.\nFor the Decimal_Separator and Thousands_Separator parameters, any ASCII characters are acceptable except numbers, +- signs and letter E. Thousands_Separator may also be the NBSP character.\nWhenever the parameters Decimal_Separator and Thousands_Separator are set, their values must not be the same. If only the Decimal_Separator parameter is set, it must differ from the thousands separator specified in the current package locale.",
-      "Description": "Val(String, [Decimal_Separator, Thousands_Separator])",
-      "Output": "Converts the specified string to a number using the Decimal_Separator and Thousands_Separator parameters.\nIf Decimal_Separator is not set, the string is converted using the decimal separator specified in the current package locale.\nIf Thousands_Separator is not set of is True, the string is converted using the thousands separator specified in the current package locale.\nIf Thousands_Separator is False or 0, the convertion does not involve thousands separators.\nIf Thousands_separator is of the numeric data type and not 0, the convertion utilizes the thousands separator specified in the current package locale."
+      "Arguments.NOTE": "Старый исходник:\nСтрока - строковое выражение.\nДесятичный_Разделитель - необязательный параметр строкового типа, используемый в качестве разделителя между целой и дробной частью числа.\nДесятичный_Разделитель должен иметь длину в один символ.\nРазделитель_Групп_Разрядов - необязательный параметр строкового, логического или числового типа, используемый для разделения групп разрядов в больших числах.Если Разделитель_Групп_Разрядов имеет строковый тип данных, то он должен быть длиной в один символ.\nДля параметров Десятичный_Разделитель и Разделитель_Групп_Разрядов допустимы все символы ASCII, кроме цифр, знаков + - и буквы E. Для Разделитель_Групп_Разрядов также допустим символ NBSP.\nЕсли параметры Десятичный_Разделитель и Разделитель_Групп_Разрядов заданы, то их значения не должны совпадать. Если задан только параметр Десятичный_Разделитель, то он не должен совпадать с разделителем групп разрядов, указанным в текущей локали пакета.\n\nСтарый перевод:\nString - a string expression.\nDecimal_Separator - an optional parameter of the string type used to separate the integer part from the fractional part of a number.\nDecimal_Separator must be a single character.\nThousands_Separator - an optional parameter of the string, boolean or numeric type used to separate digit groups in large numbers. If Thousands_Separator is of the string data type, it must be a single character.\nFor the Decimal_Separator and Thousands_Separator parameters, any ASCII characters are acceptable except numbers, +- signs and letter E. Thousands_Separator may also be the NBSP character.\nWhenever the parameters Decimal_Separator and Thousands_Separator are set, their values must not be the same. If only the Decimal_Separator parameter is set, it must differ from the thousands separator specified in the current package locale.",
+      "Description.NOTE": "Старый исходник:\nVal(Строка, [Десятичный_Разделитель, Разделитель_Групп_Разрядов])\n\nСтарый перевод:\nVal(String, [Decimal_Separator, Thousands_Separator])",
+      "Output.NOTE": "Старый исходник:\nПреобразует заданную строку в число с учётом параметров Десятичный_Разделитель и Разделитель_Групп_Разрядов.\nЕсли Десятичный_Разделитель не задан, преобразование производится с учётом десятичного разделителя, указанного в текущей локали пакета.\nЕсли Разделитель_Групп_Разрядов не задан или равен True, преобразование производится с учётом разделителя групп разрядов, указанного в текущей локали пакета.\nЕсли Разделитель_Групп_Разрядов равен False или 0, преобразование производится без учёта разделителей групп разрядов.\nЕсли Разделитель_Групп_Разрядов имеет числовой тип данных и не равен 0, то преобразование производится с учётом разделителя групп разрядов, указанного в текущей локали пакета.\n\nСтарый перевод:\nConverts the specified string to a number using the Decimal_Separator and Thousands_Separator parameters.\nIf Decimal_Separator is not set, the string is converted using the decimal separator specified in the current package locale.\nIf Thousands_Separator is not set of is True, the string is converted using the thousands separator specified in the current package locale.\nIf Thousands_Separator is False or 0, the convertion does not involve thousands separators.\nIf Thousands_separator is of the numeric data type and not 0, the convertion utilizes the thousands separator specified in the current package locale."
     },
     "Week": {
-      "Arguments": "Date - the date type field.",
+      "Arguments.NOTE": "Старый исходник:\nДата - поле типа дата.\n\nСтарый перевод:\nDate - the date type field.",
       "Description": "Week(Date)",
-      "Output": "Returns the number of the given date's week within the year according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday. The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned."
+      "Output.NOTE": "Старый исходник:\nВозвращает номер недели в году по заданной дате в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем. Первая неделя года начинается с понедельника, для дней с 1 января по первый понедельник возвращается номер последней недели предыдущего года.\n\nСтарый перевод:\nReturns the week number of the year by the set date according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday. The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned."
     },
     "Year": {
-      "Arguments": "Date - the date type field.",
+      "Arguments.NOTE": "Старый исходник:\nДата - поле типа дата.\n\nСтарый перевод:\nDate - the date type field.",
       "Description": "Year(Date)",
       "Output": "Returns the year according to the specified date."
     },
     "YearsBetween": {
-      "Arguments": "Date1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
+      "Arguments.NOTE": "Старый исходник:\nДата1, Дата2 - поля типа дата.\nАбсолютное_Значение - необязательный параметр логического типа.\nЕсли Дата2 меньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_значение = True, то функция вернёт модуль значения\n\nСтарый перевод:\nDate1, Date2 - fields of the date type.\nAbsolute_Value - an optional boolean parameter.\nIf Date2 is less than Date1 and Absolute_Value = False, then the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value",
       "Description": "YearsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of years between two dates."
+      "Output.NOTE": "Старый исходник:\nВозвращает полное количество лет между двумя датами.\n\nСтарый перевод:\nReturns the total number of years between two dates."
     }
   },
   "RegExFunctions": {
     "RegExDomain": {
-      "Arguments": "InputString - the input string in which domain name will be searched;\nOccurenceNumber - the index of domain name in the searched string.",
-      "Description": "RegExDomain(InputString [, OccurenceNumber = 1])",
-      "Output": "Returns OccurenceNumber domain name from the InputString string, not including www till the top level domain, inclusively.\nRegular expressions are used for search."
+      "Arguments.NOTE": "Старый исходник:\nВх.Строка - входная строка, в которой будет искаться домен;\nНом.Вхожд - порядковый номер домена, в искомой строке.\n\nСтарый перевод:\nInputString - the input string in which domain name will be searched;\nOccurrenceNumber - the index of domain name in the searched string.",
+      "Description": "RegExDomain(InputString [, OccurrenceNumber = 1])",
+      "Output.NOTE": "Старый исходник:\nВозвращает Ном.Вхожд-й доменного имени из строки Вх.Строка не включая www до домена 1-го уровня включительно.\nДля поиска используются регулярные выражения.\n\nСтарый перевод:\nReturns OccurrenceNumber domain name from the InputString string, not including www till the top level domain, inclusively.\nRegular expressions are used for search."
     },
     "RegExEmail": {
-      "Arguments": "InputString - the input string in which Email-address will be searched;\nOccurenceNumber - the index of Email-address in the searched string.",
-      "Description": "RegExEmail(InputString [, OccurenceNumber = 1])",
-      "Output": "Retrieves the OccurrenceNumber-th email address from the InputString.\nRegular expressions are used for the search."
+      "Arguments.NOTE": "Старый исходник:\nВх.Строка - входная строка, в которой будет искаться Email-адрес;\nНом.Вхожд - порядковый номер Email-адрес-а, в искомой строке.\n\nСтарый перевод:\nInputString - the input string in which Email-address will be searched;\nOccurrenceNumber - the index of Email-address in the searched string.",
+      "Description": "RegExEmail(InputString [, OccurrenceNumber = 1])",
+      "Output.NOTE": "Старый исходник:\nИзвлекает Ном.Вхожд-й Email-адрес из строки Вх.Строка.\nДля поиска используются регулярные выражения.\n\nСтарый перевод:\nExtracts OccurrenceNumber Email-address from the InputString string.\nRegular expressions are used for search."
     },
     "RegExMatch": {
       "Arguments": "RegularExpression - the regular expressions string;\nString - the input string.",
@@ -647,51 +647,51 @@
       "Output": "Returns the number of the string parts matching the regular expression.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     },
     "RegExMatchedExp": {
-      "Arguments": "RegularExpression - the regular expression string;\nString - the input string;\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.",
+      "Arguments.NOTE": "Старый исходник:\nРег.Выр. - строка регулярного выражения;\nСтрока - входная строка;\nНомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.\n\nСтарый перевод:\nRegularExpression - the regular expression string;\nString - the input string;\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.",
       "Description": "RegExMatchedExp(RegularExpression, String [, PartNumber = 1])",
       "Output": "Returns the string part matching the regular expression.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     },
     "RegExMatchedNamedSubExp": {
-      "Arguments": "RegularExpression - the regular expression string;\nString - the input string;\nGroupName - name of the group defined by metacharacters (...);\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.",
+      "Arguments.NOTE": "Старый исходник:\nРег.Выр. - строка регулярного выражения;\nСтрока - входная строка;\nИмяГруппы - имя группы, определяемой метасимволами (...);\nНомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.\n\nСтарый перевод:\nRegularExpression - the regular expression string;\nString - the input string;\nGroupName - name of the group defined by metacharacters (...);\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.",
       "Description": "RegExMatchedNamedSubExp(RegularExpression, String, GroupName [, PartNumber = 1])",
       "Output": "Returns the named string part group matching the regular expression.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     },
     "RegExMatchedSubExp": {
-      "Arguments": "RegularExpression - the regular expression string;\nString - the input string;\nGroupNumber - index number of the group defined by metacharacters (...);\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.",
+      "Arguments.NOTE": "Старый исходник:\nРег.Выр. - строка регулярного выражения;\nСтрока - входная строка;\nНомерГруппы - порядковый номер группы, определяемой метасимволами (...);\nНомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.\n\nСтарый перевод:\nRegularExpression - the regular expression string;\nString - the input string;\nGroupNumber - index number of the group defined by metacharacters (...);\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.",
       "Description": "RegExMatchedSubExp(RegularExpression, String, GroupNumber [, PartNumber = 1])",
       "Output": "Returns the string part group matching the regular expression.\nGroups are numbered from left to right according to occurrence of opening brackets.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     },
     "RegExReplace": {
-      "Arguments": "RegularExpression - the regular expression string;\nInputString - the input string that will be replaced;\nReplaceString - the string that will be inserted instead of the input string part matching the regular expression;\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.\nExtendedSyntax - extended replacement syntax (PCRE2 library is used)",
+      "Arguments.NOTE": "Старый исходник:\nРег.Выр. - строка регулярного выражения;\nВх.Строка - входная строка, которая будет подвержена замене;\nСтрокаЗамены - строка, которая будет вставлена вместо части входной строки, соответствующией регулярному выражению;\nНомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.\nРасш.Синтаксис - расширенный синтаксис замены (используется библиотека PCRE2)\n\nСтарый перевод:\nRegularExpression - the regular expression string;\nInputString - the input string that will be replaced;\nReplaceString - the string that will be inserted instead of the input string part matching the regular expression;\nPartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.\nExtendedSyntax - extended replacement syntax (PCRE2 library is used)",
       "Description": "RegExReplace(RegularExpression, InputString, ReplaceString [, PartNumber = 1, ExtendedSyntax = False])",
       "Output": "Returns the InputString in which the PartNumber expression occurrence of the RegularExpression will be replaced with the ReplaceString.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     },
     "RegExReplaceAll": {
-      "Arguments": "RegularExpression - the regular expression string;\nInputString - the input string that will be replaced;\nReplaceString - the string that will be inserted instead of the input string parts matching the regular expression;\nExtendedSyntax - extended replacement syntax (PCRE2 library is used)",
+      "Arguments.NOTE": "Старый исходник:\nРег.Выр. - строка регулярного выражения;\nВх.Строка - входная строка, которая будет подвержена замене;\nСтрокаЗамены - строка, которая будет вставлена вместо частей входной строки, соответствующих регулярному выражению.\nРасш.Синтаксис - расширенный синтаксис замены (используется библиотека PCRE2)\n\nСтарый перевод:\nRegularExpression - the regular expression string;\nInputString - the input string that will be replaced;\nReplaceString - the string that will be inserted instead of the input string parts matching the regular expression;\nExtendedSyntax - extended replacement syntax (PCRE2 library is used)",
       "Description": "RegExReplaceAll(RegularExpression, InputString, ReplaceString [, ExtendedSyntax = False])",
       "Output": "Returns the InputString in which all occurrences of the RegularExpression expression will be replaced with the ReplaceString.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     }
   },
   "StatFunctions": {
     "DKhi2": {
-      "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
+      "Arguments.NOTE": "Старый исходник:\nСтепени_свободы - число степеней свободы.\nАргумент - значение, для которого требуется вычислить плотность распределения.\n\nСтарый перевод:\nDegrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
       "Description": "DKhi2(Degrees_of_freedom, Argument)",
-      "Output": "The density function of the chi-square gamma distribution."
+      "Output.NOTE": "Старый исходник:\nФункция плотности гамма-распределения хи-квадрат.\n\nСтарый перевод:\nDensity function of gamma distribution of Chi-square."
     },
     "FKhi2": {
-      "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
+      "Arguments.NOTE": "Старый исходник:\nСтепени_свободы - число степеней свободы.\nАргумент - значение, для которого требуется вычислить плотность распределения.\n\nСтарый перевод:\nDegrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
       "Description": "FKhi2(Degrees_of_freedom, Argument)",
-      "Output": "Integral function of gamma distribution equal to (1 - one-sided probability of Chi-square distribution) with n degrees of freedom."
+      "Output.NOTE": "Старый исходник:\nИнтегральная функция гамма-распределения, равная (1 - односторонняя вероятность распределения хи-квадрат) с n степенями свободы.\n\nСтарый перевод:\nIntegral function of gamma distribution equal to (1 - one-sided probability of Chi-square distribution) with n degrees of freedom."
     },
     "InvKhi2": {
-      "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nProbability - the probability connected with gamma distribution.",
+      "Arguments.NOTE": "Старый исходник:\nСтепени_свободы - число степеней свободы.\nВероятность - вероятность, связанная с гамма-распределением.\n\nСтарый перевод:\nDegrees_of_freedom - number of degrees of freedom.\nProbability - the probability connected with gamma distribution.",
       "Description": "InvKhi2(Degrees_of_freedom, Probability)",
-      "Output": "Returns inverse gamma distribution for the integral function equal to (1 - one-sided probability of Chi-square distribution). If p=FKhi2(N, X) then InvKhi2(N, P) = X"
+      "Output.NOTE": "Старый исходник:\nВозвращает обратное гамма-распределение для интегральной функции, равной (1 - односторонняя вероятность распределения хи-квадрат). Если p=FKhi2(N, X), то InvKhi2(N, P) = X\n\nСтарый перевод:\nReturns inverse gamma distribution for the integral function equal to (1 - one-sided probability of Chi-square distribution). If p=FKhi2(N, X) then InvKhi2(N, P) = X"
     },
     "PKhi2": {
-      "Arguments": "Degrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
+      "Arguments.NOTE": "Старый исходник:\nСтепени_свободы - число степеней свободы.\nАргумент - значение, для которого требуется вычислить плотность распределения.\n\nСтарый перевод:\nDegrees_of_freedom - number of degrees of freedom.\nArgument - value for which it is required to calculate the distribution density.",
       "Description": "PKhi2(Degrees_of_freedom, Argument)",
-      "Output": "Returns one-sided probability of Chi-square distribution."
+      "Output.NOTE": "Старый исходник:\nВозвращает одностороннюю вероятность распределения хи-квадрат.\n\nСтарый перевод:\nReturns one-sided probability of Chi-square distribution."
     }
   },
   "TreeFunctions": {

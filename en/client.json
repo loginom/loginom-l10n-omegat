@@ -1,10 +1,10 @@
 {
   "about/About": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response for the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
@@ -30,14 +30,14 @@
     "AllowUsersWithoutRole": "Allow login for users without a role",
     "AuthEndpoint": "Authentication endpoint",
     "AutoGetToken": "Automatic reception of token",
-    "ClaimsToVariables": "Claims extracted to variables",
+    "ClaimsToVariables.NOTE": "Старый исходник:\nКлеймы извлекаемые в переменные\n\nСтарый перевод:\nClaims extracted to variables",
     "DefaultUserRole": "New user role",
     "FoldersClaim": "Claim of the list of shared folders",
     "NoClaimsToVariables": "No extractable claims",
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
     "OpenIDClient": "Client ID",
-    "OpenIDProviderName": "Login button caption",
+    "OpenIDProviderName.NOTE": "Старый исходник:\nНазвание OpenID провайдера\n\nСтарый перевод:\nLogin button caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Client URL",
@@ -99,7 +99,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL\/TLS port"
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -113,7 +113,7 @@
     "ErrCannotCloseSession": "Failed to close session. The session contains the active processes that have not been finished while timeout.",
     "ErrCannotStopPackage": "Failed to stop execution of package. The package contains the active processes that have not been finished while timeout.",
     "ErrCannotStopSession": "Failed to stop execution of session. The session contains the active processes that have not been finished while timeout.",
-    "InvalidMessageLength": "Message length limit: {0}",
+    "InvalidMessageLength.NOTE": "Старый исходник:\nМаксимальная длинна сообщения: {0}\n\nСтарый перевод:\nMessage length limit: {0}",
     "LeaveMaintenanceMsgText": "Do you really want to leave the maintenance mode?",
     "LeaveMaintenanceTooltip": "Leaving server maintenance mode...",
     "LeftMaintenanceMode": "Server left maintenance mode",
@@ -125,7 +125,7 @@
     "MessageContents": "Message text:",
     "PackageRefCountTip": "Count of sessions referring to package",
     "ReadOnlyPackageNamePostfix": "(read-only)",
-    "RoleTipFormat": "Session was started by user with the {0} role",
+    "RoleTipFormat": "Session with {0} role has been started by user",
     "SendMessageToAllUsersTitle": "Send Message to All Users",
     "SendMessageToUserTitle": "Send Message to User",
     "SessionCapacity": "{0} of {1}",
@@ -180,7 +180,7 @@
     "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
     "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "QAHref": "https://qa.loginom.com/questions/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -251,7 +251,7 @@
     "ErrNoPackageToClose": "No package to be closed was found.",
     "ErrNoPackageToSave": "There is no package to save.",
     "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
-    "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name",
+    "ErrSaveReadOnlyPackage.NOTE": "Старый исходник:\nНельзя сохранить пакет \"{0}\" открытый только на чтение, без изменения имени\n\nСтарый перевод:\nFailed to save \"{0}\" read-only package without changing the name",
     "NoRightsToCreatePackages": "\"{0}\" user has no rights to create packages",
     "NoRightsToOpenPackages": "\"{0}\" user has no rights to open packages"
   },
@@ -306,8 +306,8 @@
     "ActivateCurrent": "Run node",
     "ActivateFrom": "Activate subsequent nodes",
     "AddComment": "Add comment",
-    "AddNewConnectionInheritedNode": "Add connection node to workflow",
-    "AddNewConnectionReferenceNode": "Add reference to connection into workflow",
+    "AddNewConnectionInheritedNode.NOTE": "Старый исходник:\nДобавить узел подключения в Сценарий\n\nСтарый перевод:\nAdd connection node to workflow",
+    "AddNewConnectionReferenceNode.NOTE": "Старый исходник:\nДобавить ссылку на подключение в Сценарий\n\nСтарый перевод:\nAdd reference to connection into workflow",
     "AddNewDerivedNode": "Add derived node to workflow",
     "AddNewExecNode": "Add Execution node to workflow",
     "AddNewLoop": "Add Loop node to workflow",
@@ -317,11 +317,11 @@
     "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
-    "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
-    "ComposeItems": "Collapse items to supernode",
+    "ComposeAnnotations": "Collapse annotations into supernode",
+    "ComposeExpandNode": "Collapse items into supernode / Expand supernode",
+    "ComposeItems": "Collapse items into supernode",
     "ComposeNodes": "Collapse nodes to supernode",
-    "ComposeSingleAnnotation": "Collapse annotation to supernode",
+    "ComposeSingleAnnotation": "Collapse annotation into supernode",
     "ComposeSingleNode": "Collapse node to supernode",
     "ConfigurePort": "Configure port...",
     "ConfirmCreatingAnotherDerivedVendor": "Derived component \"{0}\" already exists for this node.\nDo you really want to create one more component?",
@@ -475,7 +475,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "DisNamespace": "http://schemas.loginom.com/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -540,7 +540,7 @@
     "LogEntriesTitle": "Completed"
   },
   "app/scheduler/SchedulerForm": {
-    "ActiveSessionsReceiveErr": "Failed to receive the list of active sessions for the selected jobs",
+    "ActiveSessionsReceiveErr.NOTE": "Старый исходник:\nНе удалось получит список активных сессий для выбранных задач\n\nСтарый перевод:\nFailed to receive the list of active sessions for the selected jobs",
     "AddJobWindowApplyText": "Add",
     "AddJobWindowTitle": "Add Job",
     "DeleteAllJobsPrompt": "Do you want to delete all jobs and terminate active sessions?",
@@ -557,10 +557,10 @@
     "ErrDeleteJobFmt": "Failed to delete job \"{0}\", probably deleted in other session",
     "ErrDisableJobsFailFmt": "Failed to disable execution of jobs: \"{0}\"",
     "ErrEnableJobsFailFmt": "Failed to allow execution of jobs: \"{0}\"",
-    "ErrJobNotFoundFmt": "Job \"{0}\" was deleted from scheduler",
+    "ErrJobNotFoundFmt.NOTE": "Старый исходник:\nЗадача планировщика \"{0}\" удалена\n\nСтарый перевод:\nJob \"{0}\" was deleted from scheduler",
     "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
     "ErrPathNotFound": "The specified path was not found \"{0}\".",
-    "JobVersionChangedPromptFmt": "Scheduled job \"{0}\" was changed in other session. Overwrite with your changes?",
+    "JobVersionChangedPromptFmt.NOTE": "Старый исходник:\nЗадача планировщика \"{0}\" изменена в другой сессии. Перезаписать изменения своими?\n\nСтарый перевод:\nScheduled job \"{0}\" was changed in other session. Overwrite with your changes?",
     "JobVersionChangedPromptNo": "Close without saving",
     "JobVersionChangedPromptTitle": "Job Change Conflict",
     "JobVersionChangedPromptYes": "Overwrite",
@@ -626,7 +626,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https:\/\/loginom.com",
+    "CompanyWebsite": "https://loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom"
   },
@@ -636,7 +636,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "QAHref": "https://qa.loginom.com/questions/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -760,7 +760,7 @@
     "ExprGoToNode": "Go to Node",
     "ExprReplace": "Replaces input node",
     "ExprReplaceAction": "Replace node",
-    "InsertInExprRelative": "Insert relative name into expression"
+    "InsertInExprRelative.NOTE": "Старый исходник:\nВставить в выражение относительно\n\nСтарый перевод:\nInsert relative name into expression"
   },
   "components/calctree/TreeExprEditForm": {
     "ErrExprNotInRoot": "The path should start from root \"{0}\"",
@@ -853,7 +853,7 @@
   "components/datarecovery/DataRecoveryWizard": {
     "NotUsedAction": "Not selected",
     "SetNullValueLabel": "Nulls replace value",
-    "SetNullValueWindowTitle": "Edit Null Replace Value",
+    "SetNullValueWindowTitle": "Edit Nulls Replace Value",
     "SetValueMethod": "Replace with"
   },
   "components/datatotree/DataToTreeWizard": {
@@ -1034,7 +1034,7 @@
     "CodePlaceholder": "Enter script"
   },
   "components/python/PythonColumnsWizard": {
-    "frmPythonOutputTableTitle": "Configure Columns of Python Output Table"
+    "frmPythonOutputTableTitle": "Configure Columns of Output Python Table"
   },
   "components/python/PythonOutputPreviewForm": {
     "OutputStdErrSymbolsSkipped": "stderr characters omitted",
@@ -1047,7 +1047,7 @@
   "components/reformcolumns/ReformColumnsWizard": {
     "ColumnCachingMethodText": "Caching",
     "ColumnExcludedText": "Exclude",
-    "ReformColumnsWizardTitle": "Configure Field Features"
+    "ReformColumnsWizardTitle": "Configure Fields Features"
   },
   "components/replace/ReplaceEditor": {
     "ConvertPrefix": "transformed from",
@@ -1285,7 +1285,7 @@
     "Pallete": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open\/close was found"
+    "ToggleRowNotFoundRow": "No row to open/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Data set not active"
@@ -1552,8 +1552,8 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied\/cut",
-    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied/cut",
+    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message: "
   },
@@ -1600,7 +1600,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied\/cut",
+    "HasNotStorageItems": "No files to be copied/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1654,11 +1654,11 @@
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response with the information on the latest version",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0} is available"
   },
   "homepage/HomePage": {
@@ -1764,7 +1764,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
+    "Slash": "Slash (/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -2041,7 +2041,6 @@
     "EmptyAuthURI": "Authentication endpoint not specified",
     "OpenIDResponseNotJSON": "Response to OpenID configuration request is not a JSON string",
     "ServerDisconnected": "Server unavailable",
-    "TokenButtonText": "Login With",
     "UnknownToken": "Request matching the received token not found"
   },
   "mxgraph/annotation/Annotation": {
@@ -2060,7 +2059,7 @@
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show\/Hide Comment",
+    "CommentBtn": "Show/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -2335,7 +2334,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " \/ ",
+    "CompareTo": " / ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -2736,7 +2735,7 @@
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipConnect": "Activate connection",
     "BtnTooltipDelete": "Delete connection...",
@@ -2837,7 +2836,7 @@
     "ActionDeleteAll": "Delete all...",
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
-    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
