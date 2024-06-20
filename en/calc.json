@@ -312,7 +312,7 @@
     "IN": {
       "Arguments": "Value - value of the target element;\nElement1,\nElement2,\nElementN - values of the list elements",
       "Description": "N(Value, Element1, Element2, ..., ElementN)",
-      "Output": "Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE."
+      "Output": "Function returns the True value of the logical type if the Value is in the list, otherwise the result is False."
     },
     "Int": {
       "Arguments": "Argument - numeric expression.",
