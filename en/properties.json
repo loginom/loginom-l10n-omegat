@@ -616,7 +616,7 @@
       "DecimalSeparator": "Decimal separator",
       "DelimiterChar": "Column delimiter",
       "FileInfoColumnsType": "File info",
-      "FirstLineAsTitle": "First Line Title",
+      "FirstLineAsTitle": "First line as title",
       "MultipleDelimiters": "Treat consecutive delimiters as one",
       "RowsToSkip": "Skip rows",
       "TextQualifier": "Text qualifier",

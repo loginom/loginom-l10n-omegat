@@ -46,7 +46,7 @@
   },
   "Net/Session": {
     "ConnectionTimedOut": "Session was closed by idle timeout: {0} s",
-    "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while SessionHost closing",
+    "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while closing SessionHost",
     "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Another RPC exception handler already registered",
     "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
     "ErrDisconnectedSession": "Connection lost",

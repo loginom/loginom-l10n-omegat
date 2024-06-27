@@ -4029,7 +4029,7 @@
     },
     "mniDownloadAsArchive": {
       "text": "Download ZIP",
-      "tooltip": "Download as ZIP-archive"
+      "tooltip": "Download as a ZIP archive"
     },
     "mniExtractHere": {
       "text": "Extract here",
@@ -5190,7 +5190,7 @@
       "text": "Hide unused fields"
     },
     "lblHistogramStub": {
-      "text": "Failed to show histogram"
+      "text": "No histogram can be shown"
     }
   },
   "viewers/common/ViewerCard": {

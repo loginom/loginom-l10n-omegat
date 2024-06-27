@@ -109,10 +109,10 @@
     "EnteredMaintenanceMode": "Server entered maintenance mode.",
     "EnterMaintenanceMsgText": "Enter maintenance mode?",
     "EnterMaintenanceTooltip": "Entering server maintenance mode...",
-    "ErrCannotClosePackage": "Failed to close package. The package contains the active processes that have not been finished while timeout.",
-    "ErrCannotCloseSession": "Failed to close session. The session contains the active processes that have not been finished while timeout.",
-    "ErrCannotStopPackage": "Failed to stop execution of package. The package contains the active processes that have not been finished while timeout.",
-    "ErrCannotStopSession": "Failed to stop execution of session. The session contains the active processes that have not been finished while timeout.",
+    "ErrCannotClosePackage": "Failed to close package. The package contains active processes that did not finish within timeout.",
+    "ErrCannotCloseSession": "Failed to close session. The session contains active processes that did not finish within timeout.",
+    "ErrCannotStopPackage": "Failed to stop package execution. The package contains active processes that did not finish within timeout.",
+    "ErrCannotStopSession": "Failed to stop session execution. The session contains active processes that did not finish within timeout.",
     "InvalidMessageLength": "Message length limit: {0}",
     "LeaveMaintenanceMsgText": "Do you really want to leave the maintenance mode?",
     "LeaveMaintenanceTooltip": "Leaving server maintenance mode...",
@@ -162,7 +162,7 @@
   },
   "admin/UserModel": {
     "Admin": "Administration",
-    "Designer": "Workflows design",
+    "Designer": "Workflow design",
     "Service": "Batch processing",
     "Viewer": "View reports"
   },
@@ -177,8 +177,8 @@
     "NotifyMsgFromAdminTitle": "Administrator Message"
   },
   "app/AppMenuForm": {
-    "ConfirmQuit": "There are not saved packages. Do you want to exit without saving?",
-    "ErrCannotCloseApplication": "Failed to close application due to the active processes that have not been finished while timeout.",
+    "ConfirmQuit": "Unsaved packages. Exit anyway?",
+    "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
     "QAHref": "https:\/\/qa.loginom.com\/questions\/"
   },
@@ -187,7 +187,7 @@
     "ConfirmRemovingNode": "Do you really want to delete \"{0}\" node?",
     "ConfirmRemovingUnit": "Do you really want to delete \"{0}\" module?",
     "DerivedVendorIsNotUsed": "No node refers to this component.",
-    "DerivedVendorIsPublic": "This component has the Public visibility and it can be used in other packages.",
+    "DerivedVendorIsPublic": "This component has Public visibility and can be used in other packages.",
     "DerivedVendorUsedByNodes": "{0} nodes that refer to this component found in the opened packages.",
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
     "ErrCannotDeleteUnit": "Failed to delete \"{0}\" module. Some of the nodes are currently locked.",
@@ -208,7 +208,7 @@
   },
   "app/Licenses": {
     "FailLicenseListText": "Failed to get license list",
-    "FailLicenseText": "Error occurred while license text receiving",
+    "FailLicenseText": "An error occurred while receiving the license text",
     "LicenseModalTitle": "License Agreement",
     "ThirdPartyModalTitle": "Third Party Open Source Software"
   },
@@ -240,14 +240,14 @@
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
     "PackageCloseFormat": "Do you want to close \"{0}\" package also?",
-    "PackageCopyOpened": "Changes in the open link \"{0}\" package will be reflected in the current package upon its reload",
+    "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
     "ServerDisplayName": "Server",
     "WarnAutoSavePackagesUnsaved": "Failed to save packages while auto saving:\n{0}"
   },
   "app/MainMenuForm": {
     "EmptyPackageName": "Package not selected",
     "ErrCannotSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package.",
-    "ErrLoadPackageErrors": "Errors occurred while \"{0}\" package opening",
+    "ErrLoadPackageErrors": "Errors occurred while opening package \"{0}\"",
     "ErrNoPackageToClose": "No package to be closed was found.",
     "ErrNoPackageToSave": "There is no package to save.",
     "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
@@ -262,7 +262,7 @@
     "ConfirmCloseOtherPackages": "Do you want to close other packages?",
     "ConnectionDisplayNameDefault": "Connection",
     "Connections": "Connections",
-    "ErrCannotClosePackage": "Failed to close package. The package contains the active processes that have not been finished while timeout.",
+    "ErrCannotClosePackage": "Failed to close package. The package contains active processes that did not finish within timeout.",
     "ErrInstanceAlreadyExist": "ID already mapped to visual node",
     "ErrInstanceNotFound": "There is no associated visual node for ID",
     "FileStorage": "Files",
@@ -292,7 +292,7 @@
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
     "DisplayName": "Caption",
     "DraftAddSchedulerJobFailed": "Failed to add job for draft \"{0}\"",
-    "DraftPublishFailed": "It is not possible to publish \"{0}\" draft",
+    "DraftPublishFailed": "Unable to publish \"{0}\" draft",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "mnuPortsShowAll": "Show all ports",
@@ -309,7 +309,7 @@
     "AddNewConnectionInheritedNode": "Add connection node to workflow",
     "AddNewConnectionReferenceNode": "Add reference to connection into workflow",
     "AddNewDerivedNode": "Add derived node to workflow",
-    "AddNewExecNode": "Add Execution node to workflow",
+    "AddNewExecNode": "Add Node Execution node to workflow",
     "AddNewLoop": "Add Loop node to workflow",
     "AddNewNode": "Add node to workflow",
     "AddSchedulerJobByNode": "Add job to scheduler...",
@@ -317,11 +317,11 @@
     "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
-    "ComposeAnnotations": "Collapse annotations into supernode",
-    "ComposeExpandNode": "Collapse items into supernode \/ Expand supernode",
-    "ComposeItems": "Collapse items into supernode",
+    "ComposeAnnotations": "Collapse annotations to supernode",
+    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
+    "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
-    "ComposeSingleAnnotation": "Collapse annotation into supernode",
+    "ComposeSingleAnnotation": "Collapse annotation to supernode",
     "ComposeSingleNode": "Collapse node to supernode",
     "ConfigurePort": "Configure port...",
     "ConfirmCreatingAnotherDerivedVendor": "Derived component \"{0}\" already exists for this node.\nDo you really want to create one more component?",
@@ -344,7 +344,7 @@
     "Error": "Error",
     "ErrPortNotCreated": "Failed to create new port",
     "ErrRetryPasteConfirm": "Errors occurred while pasting. Do you want to repeat forcedly?\n{0}",
-    "ErrRunQueueFunctions": "Errors when performing deferred update of the Worlflow objects",
+    "ErrRunQueueFunctions": "Errors when performing queued update of the Workflow objects",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "ExpandNode": "Expand supernode",
     "ForceRetry": "Force retry",
@@ -378,7 +378,7 @@
     "SelectOneNode": "Select only one node",
     "SelectOneNodeOrLink": "Select only one node or link",
     "SelectSomething": "First select object in workflow",
-    "SetNodeDerivedVendor": "Set derived node component...",
+    "SetNodeDerivedVendor": "Set a derived component for the node...",
     "SetupConnection": "Configure connection...",
     "SetupNode": "Configure node...",
     "ShowControlVariablesPort": "Show control variables port",
@@ -585,7 +585,7 @@
   },
   "app/SelectBaseVendorForm": {
     "CantChangeVendor": "Failed to set component",
-    "ThereIsNodeVendors": "The list of components is empty. Create derived component from the compatible node"
+    "ThereIsNodeVendors": "The list of components is empty. Create a derived component from a compatible node"
   },
   "app/ShareForm": {
     "CopiedHint": "Copied"
@@ -853,7 +853,7 @@
   "components/datarecovery/DataRecoveryWizard": {
     "NotUsedAction": "Not selected",
     "SetNullValueLabel": "Nulls replace value",
-    "SetNullValueWindowTitle": "Edit Nulls Replace Value",
+    "SetNullValueWindowTitle": "Edit Replace Value for Nulls",
     "SetValueMethod": "Replace with"
   },
   "components/datatotree/DataToTreeWizard": {
@@ -1063,7 +1063,7 @@
     "EditorNotChoosed": "Select replacement to edit",
     "ErrFileFieldMiss": "Item is not file upload field",
     "ErrFileNotChoosed": "No file selected",
-    "ErrTypeCastError": "Value {0} cannot be cast to {1} data type",
+    "ErrTypeCastError": "Failed to cast Value {0} to {1} data type",
     "FileSizeExceeds": "File size exceeds allowable maximum {0}.\nFile processing will take too long.",
     "OutputDataTypeError": "Output values will be related to the variant type without replacement of others",
     "ReplaceGroupCommon": "Exact match",
@@ -1161,7 +1161,7 @@
   },
   "components/wsdlclient/OperationFaultsWizard": {
     "FaultsMessagePrefix": "Handled exception: ",
-    "OperationFaultsTitle": "Configure Exception Handled"
+    "OperationFaultsTitle": "Configure Exceptions Handled"
   },
   "components/wsdlclient/OperationOutputWizard": {
     "OperationOutputTitle": "Configure Service Response",
@@ -2841,7 +2841,7 @@
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
-    "ErrGetAvalibleSocketDefs": "Failed to get socket defenitions",
+    "ErrGetAvalibleSocketDefs": "Failed to get socket definitions",
     "ErrMoveDerivedSocket": "Moving derived port forbidden",
     "SocketLabelFmt": "{0} {1}",
     "SocketTypeInputDesc": "Inputs",
@@ -2871,7 +2871,7 @@
     "ValidateEditorsErr": "Error in settings of normalizer parameters"
   },
   "wizards/normalization/NormTuneWizard": {
-    "ErrNormaliserSync": "Failed to auto sync normalizer settings with field data",
+    "ErrNormaliserSync": "Failed to auto-sync normalizer settings with field data",
     "InputColumnGroup": "Inputs",
     "OutputColumnGroup": "Outputs"
   },

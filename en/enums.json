@@ -661,7 +661,7 @@
       "$Caption": "Replacement Method",
       "None": "Leave unchanged",
       "Table": "Manual input",
-      "Source": "Substitution table"
+      "Source": "Replacement table"
     }
   },
   "components/slidingwindow": {

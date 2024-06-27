@@ -2,7 +2,7 @@
   "BatchLauncher/BatchLauncher": {
     "CommandLineFmt": "Usage: %s <keys>",
     "ErrConnectionError": "Server connection error",
-    "ErrExecutionError": "Batch execution error",
+    "ErrExecutionError": "Batch processing error",
     "ErrInvalidCommandLineParameters": "Invalid command line parameters",
     "ErrLostConnectionToServer": "Server connection lost",
     "ErrPackageCommandLineParameter": "Empty required Package command line parameter",
@@ -11,7 +11,7 @@
     "LGP_FILE": ".lgp",
     "OptionAddressDesc": "IP address or hostname (default: %s)",
     "OptionNodeNameDesc": "Name or GUID of node",
-    "OptionPackageFileNameDesc": "Package path and file name (required parameter)",
+    "OptionPackageFileNameDesc": "Package path and file name (a required parameter)",
     "OptionPasswordDesc": "Password",
     "OptionPortDesc": "Port (default: %s)",
     "OptionSavePackageDesc": "Save package after execution",
