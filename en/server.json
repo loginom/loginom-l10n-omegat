@@ -196,7 +196,7 @@
     "ErrValueIntExportImpossible": "Failed to convert integer %d to \"%s\" type: %s"
   },
   "Common/WSDL/Processor/WSDLRequestProcessor": {
-    "ErrExportWSDLHttpRequestData": "Error occurred while HTTP request generating from row #%d of the input data set: %s",
+    "ErrExportWSDLHttpRequestData": "Error while generating HTTP request from row #%d of the input data set: %s",
     "ErrHTTPHeaderRedefined": "\"%s: %s\" header already defined in the request",
     "ErrHTTPHeaders": "Error while generating HTTP headers",
     "ErrParseURLUnrecognizedContentType": "Error executing request to URL '%s': server response was not processed because Content-Type: %s had not been registered",
@@ -586,7 +586,7 @@
   "components/calcdata/CalcData": {
     "ErrExceededRecursiveCalls": "Maximum number of (%d) recursive calls of Data function in \"%s\" expression exceeded.\nTo solve this problem it is required to enable Caching.",
     "ErrExprIsStringType": "\"%s\" expression of string type",
-    "ErrGetVarArrayUnsupported": "The arrays related to the variant type can return only intermediate expressions (\"%s\" expression, %d row)",
+    "ErrGetVarArrayUnsupported": "Variant arrays can be returned by intermediate expressions only (expression \"%s\", row %d)",
     "ErrReplacingInputColumnNotFound": "Input field to replace with expression \"%s\" not found",
     "ErrVarExprAmbiguity": "\"%0:s\" can be input variable or intermediate expression. To allow nonuniqueness, use \"%1:s%0:s\" to access the variable or rename \"%0:s\" expression.",
     "ExprNameNotExists": "No expression with name \"%s\" exists",
@@ -631,7 +631,7 @@
     "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
     "ErrCannotGetRowRange": "Failed to get the row range for the node with identifier %d: the node is not an array",
     "ErrExceededRecursiveCalls": "Maximum number of recursive calls (%d) in expression \"%s\" exceeded.",
-    "ErrGetVarArrayUnsupported": "Variable-type arrays can return intermediate expressions (expression \"%s\") only",
+    "ErrGetVarArrayUnsupported": "Variant arrays can be returned by intermediate expressions only (expression \"%s\")",
     "ErrInvalidNodeInfoID": "Invalid node identifier: %d",
     "ErrReplacingInputNodeNotFound": "Input node to replace with expression \"%s\" not found",
     "InputVariables": "Input variables",
@@ -736,7 +736,7 @@
     "ErrIncorrectColumnPurpose": "Incorrect \"%s\" field usage type",
     "ErrNotAllowedInputBinningKind": "The input field does not support the new usage type in the external partition (data type restriction)",
     "ErrRequiredContinuousOrDiscrete": "Continuous or discrete data kind is required",
-    "MaxClassCount": "Required class count",
+    "MaxClassCount": "Maximum class count",
     "MinClassRate": "Minimum class rate"
   },
   "components/coarseclasses/CoarseClassesEngine": {
@@ -780,8 +780,8 @@
     "ErrColumnNullDataFmt": "Failed to generate fine classes for \"%s\" field: all values are null",
     "ErrDataTypesNotMatch": "The specified column data type does not match the data type of the coarse classes",
     "ErrNotPositiveIntervalsCount": "Bin count must be more than 0",
-    "ErrProcessKeptStatisticsExistentValue": "There is no previously present \"%s\" value in \"%s\" field while fine classes building",
-    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value appeared in \"%s\" field while fine classes building",
+    "ErrProcessKeptStatisticsExistentValue": "No previously present \"%s\" value in \"%s\" field while building fine classes",
+    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value appeared in field \"%s\" while building fine classes",
     "From": "from ",
     "NullClass": "Null class",
     "To": "to "
@@ -1428,7 +1428,7 @@
     "ErrMappedVariableDuplicate": "The linked variables list contains duplicate links to \"%s\" variable",
     "ErrMappedVariableTypesMismatch": "Type mismatch between linked variables \"%s\" and \"%s\"",
     "ErrNoConditionVariable": "No variable to check the loop termination condition",
-    "ErrParallelProcessingError": "Error occurred while parallel loop processing",
+    "ErrParallelProcessingError": "Error occurred while processing parallel loop",
     "ErrParallelProcessingNotSupportedInRepeatLoop": "Posttested loop does not support parallel processing",
     "ErrPortNotConfigurable": "Port configuration not supported",
     "ErrSocketIsNotInputDataSourceSocket": "\"%s\" port is not input port containing data set",
@@ -1597,7 +1597,7 @@
     "ErrNumExprFinalize": "Failed to finalize numexpr module",
     "ErrResNotFound": "%s resource not found",
     "ErrTCLFinalize": "Error occurred during TCL finalization",
-    "ErrUnloadExtension": "Error occurred while \"%s\" extension unloading",
+    "ErrUnloadExtension": "Error occurred while unloading \"%s\" extension",
     "WarnExecuting": "Python already executing"
   },
   "components/python/PythonExeEngineImpl": {
@@ -2275,7 +2275,7 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseBlockReader": {
     "ErrColOutOfRange": "Column number %d is out of [%d; %d] range",
-    "ErrFetch": "Error occurred while data set reading",
+    "ErrFetch": "Error occurred while reading the data set",
     "ErrGetFieldDesc": "Failed to get descriptions of fields for \"%s\" table",
     "ErrNoSuchSetting": "Configuration parameter with \"%s\" name does not exist",
     "ErrRowOutOfRange": "Row number %d is out of [%d; %d] range"
@@ -2316,7 +2316,7 @@
     "ErrDatabasePathNotExists": "\"%s\" file not found",
     "ErrDBPath": "Failed to get path to DB",
     "ErrExecuteProcedure": "Error executing stored procedure \"%s\"",
-    "ErrExecuteQuery": "Error while SQL executing:\n%s",
+    "ErrExecuteQuery": "Error while executing SQL:\n%s",
     "ErrGetFieldDefs": "Error when receiving table fields \"%s\"",
     "ErrIncorrectConnectionString": "Invalid format of connection string",
     "ErrIncorrectDatabase": "Invalid database name",
@@ -2325,7 +2325,7 @@
     "ErrIndexColumnsNotSelect": "No columns to make an index are specified",
     "ErrLocalDBForbidden": "Connections to local databases on server are forbidden",
     "ErrLoginTimeout": "The timeout for entering the username and password for connection has expired",
-    "ErrOpenQuery": "Error while SQL opening :\n%s",
+    "ErrOpenQuery": "Error while opening SQL:\n%s",
     "ErrParameterTypesDoNotMatch": "Parameter types do not match",
     "ErrPrepareProcedure": "Error preparing stored procedure \"%s\"",
     "ErrPrepareQuery": "SQL preparation error:\n%s",
@@ -2412,7 +2412,7 @@
   },
   "Libraries/bgrtl/ArchiveManager": {
     "ErrCannotGetFilePath": "Failed to get path to \"%s\" file",
-    "ErrExtractCannotCreateFolder": "Failed to create \"%s\" folder while archive extraction",
+    "ErrExtractCannotCreateFolder": "Failed to create \"%s\" folder while extracting the archive",
     "ErrExtractFileNameTaken": "Failed to extract \"%s\" file, a folder with the same name already exists",
     "ErrExtractFolderNameTaken": "Failed to create \"%s\" folder, a file with the same name already exists"
   },
@@ -2494,7 +2494,7 @@
     "ErrCannotLinkColumnsFromSameTable": "Failed to link \"%s\" and \"%s\" columns from the same table",
     "ErrColumnCanBeIncludedInOnlyOneLink": "\"%s\" column of table %d can only be part of a \"single\" link",
     "ErrLinkedColumnTypesMismatch": "Type mismatch between linked columns \"%s\" and \"%s\"",
-    "ErrLinkMustContainMainTableColumn": "The main table field must be provided while link is created",
+    "ErrLinkMustContainMainTableColumn": "A main table field must be provided to create the link",
     "ErrMaxOccursOfMultiLinksIsReached": "Maximum multiple links count reached"
   },
   "Libraries/bgrtl/Couplers": {
@@ -2649,7 +2649,7 @@
     "ErrExistingExecutionContextIsLocal": "The execution context used is not external",
     "ErrExternalExecutionContextNotInstalled": "The external execution context not installed",
     "ErrKeyNotExist": "No element with %s key in the execution context",
-    "ErrUninstallFromParallelThreadNotSupported": "The execution context deletion from the parallel thread is not supported while the thread in which it has been created exists"
+    "ErrUninstallFromParallelThreadNotSupported": "Deleting execution context from parallel thread is not supported while the thread in which it has been created exists"
   },
   "Libraries/bgrtl/ExportHTMLTable": {
     "ErrTableCellsOverflow": "Number of cells in the exported table exceeds the allowable maximum of %d",
@@ -2813,7 +2813,7 @@
     "ErrUnableAddChildToTerminatedProcess": "Failed to add subprocess to the incorrectly terminated process"
   },
   "Libraries/bgrtl/QueueException": {
-    "ErrAggregateExceptionMessage": "Exceptions occurred while processing",
+    "ErrAggregateExceptionMessage": "Exceptions occurred during processing",
     "ErrQueueExceptionEndUnexpected": "Attempt to end the queued exception block handling without its start"
   },
   "Libraries/bgrtl/ScalarUtils": {
@@ -3070,7 +3070,7 @@
   "Libraries/ChakraCore/ChakraClasses": {
     "ErrDefineProperty": "Failed to set \"%s\" property",
     "ErrDisposeRuntime": "Error while disposing JavaScript runtime environment",
-    "ErrHandlingPromiseRejection": "Error while uncaught Promise errors processing",
+    "ErrHandlingPromiseRejection": "Error while processing uncaught Promise errors",
     "ErrOriginalDll": "Operation is not supported. Inncompatible version of ChakraCore library is used.",
     "ErrPromiseContinuation": "Unhandled exception when queuing JavaScript events",
     "ErrRaiseException": "Unhandled exception inside JavaScript built-in function: \"%s\"",
@@ -3638,7 +3638,7 @@
     "ErrCantPasteInsideSelf": "Failed to move \"%s\" node inside itself",
     "ErrCantRestoreReferenceNode": "Failed to restore link from \"%s\" node. \"%s\" source node is not available at the required destination.",
     "ErrCycleFound": "Circular link between nodes detected!",
-    "ErrDuringMove": "Errors occurred while nodes moving",
+    "ErrDuringMove": "Errors occurred while moving nodes",
     "ErrLinkPortNotConnetedToNode": "Link port with %s identifier not connected to node",
     "ErrMovedVendorUnavailableForNode": "Moved %s derived component is unavailable for %s node.",
     "ErrNodeNotConfigurable": "Failed to create the node copy with the following name: \"%s\" and GUID: %s",
@@ -3683,8 +3683,8 @@
   },
   "Libraries/Model/ModelPackageManager": {
     "BackupRestored": "Error occurred while saving \"%s\" package. File restored from backup.",
-    "CompatConvertMessages": "Messages while converting \"%s\" package",
-    "CompatConvertRequired": "While opening \"%s\" package of %s version, converting will be performed.",
+    "CompatConvertMessages": "Messages when converting \"%s\" package",
+    "CompatConvertRequired": "When opening \"%s\" package of %s version, converting will be performed.",
     "ErrCannotLoadPackageElement": "Package load error: failed to load \"%s\" element",
     "ErrCannotOpenFile": "Failed to open file: \"%s\"",
     "ErrDecryptPackage": "The current application version cannot decrypt \"%s\" package: unsupported method of package encryption",
@@ -3756,7 +3756,7 @@
     "ErrColumnDataTypeChanged": "\"%s\" column data type changed",
     "ErrComponentNotInitialized": "Base component not initialized",
     "ErrDuplicatePublishedNodeName": "The package already contains the published node with \"%s\" name",
-    "ErrGetSourcePackageName": "Error occurred while package name defining. Perhaps, the message source could be deleted.",
+    "ErrGetSourcePackageName": "Error while defining package name. The message source could have been deleted.",
     "ErrInactiveBranch": "\"%s\" node is in the inactive condition branch",
     "ErrInvalidModelCriticalSectionCookie": "Invalid Cookie for critical workflow section locking",
     "ErrInvalidModelLockCookie": "Invalid Cookie for workflow nodes locking",
@@ -3791,7 +3791,7 @@
     "LogActivatePackagedNodeSuccess": "Node \"%s\" GUID=%s Package=%s successfully activated",
     "LogDeactivateNode": "\"%s\" GUID=%s node deactivated",
     "LogNodeActivationError": "Error activating \"%s\" node, GUID=%s",
-    "LogPackagedNodeActivationError": "Error while \"%s\" node activation GUID=%s Package=%s",
+    "LogPackagedNodeActivationError": "Error while activating node \"%s\" GUID=%s Package=%s",
     "ResetModelNodeConfiguration": "Initial configuration of \"%s\" node reset",
     "RestoreBackupProcessCaption": "Backup configuration restoring",
     "SynchronizationInputPort": "Execution order",
@@ -4030,8 +4030,8 @@
     "TokenRequestError": "Error receiving token. %s"
   },
   "Libraries/OpenID/OpenIDConfigurator": {
-    "AllowUsersWithoutRole": "Allow login for users without a role",
-    "AuthEndpoint": "Authentication request endpoint",
+    "AllowUsersWithoutRole": "Allow login for users without roles",
+    "AuthEndpoint": "Authentication endpoint",
     "AutoGetToken": "Automatic reception of token",
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
@@ -4178,7 +4178,7 @@
   },
   "Libraries/rpc/Session": {
     "ConnectionTimedOut": "Connection was closed by idle timeout: %d seconds",
-    "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while SessionHost closing",
+    "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while closing SessionHost",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Another RPC exception handler already registered",
     "ErrDifferentRpcVersionAlreadyRegistered": "Another RPC version number already registered",
     "ErrDisconnectedSession": "Connection lost",
@@ -4858,7 +4858,7 @@
   "Warehouse2/Deductor/DDWEngine": {
     "ErrDimensionValueIsNull": "Value of \"%1:s\" [%2:s] dimension in \"%0:d\" row is null.",
     "ErrDimensionValueNotFound": "\"%s\" value was not found in \"%s\" [%s] dimension values.",
-    "ErrEmptyData": "Error occurred while data cleansing of \"%s\" [%s] object.",
+    "ErrEmptyData": "Error occurred while cleansing the data of \"%s\" [%s] object.",
     "ErrLoadDataDimension": "Error occurred while loading data into \"%s\" [%s] dimension.",
     "ErrLoadDataProcess": "Error occurred while loading data to \"%s\" [%s] process.",
     "ErrLoadDataProcessCanceled": "The process of data loading into \"%s\" [%s] process has been cancelled by a user. Data is not loaded into DW. Indexes and constraints are not restored.",
@@ -4882,7 +4882,7 @@
   },
   "Warehouse2/Deductor/Ver6/DW6Engine": {
     "ErrDataNotLoad": "Data is not loaded to DW.\nPossible reasons:\nFirebird - spaces at the end of string dimensions;\nMS SQL - case-insensitive letters of string dimensions.\nIf data deletion is set by dimension, this data has been deleted from DW.\nError occurred while restoring constraints and indexes",
-    "ErrRebuildCube": "Error occurred while \"%s\" [%s] Cube updating.",
+    "ErrRebuildCube": "Error occurred while updating cube \"%s\" [%s].",
     "MsgMoreLengthName": "Name of \"%s\" field is too long.\nErrors may occur when executing SQL queries to DW.",
     "MsgMoreLengthPrefix": "Too long value of \"%s\" prefix.\nErrors may occur when executing SQL queries to DW.",
     "MsgRebuildCube": "Update the Cubes in the Data Warehouse",

@@ -706,7 +706,7 @@
       "tooltip": "Configure node..."
     },
     "btnShowDerivedNodes": {
-      "tooltip": "Show parent nodes for derived"
+      "tooltip": "Show parent nodes for derived nodes"
     },
     "btnShowOutline": {
       "tooltip": "Show workflow outline"
@@ -6940,7 +6940,7 @@
       "title": "Load Tree from XSD Schema"
     },
     "lblRewriteHint": {
-      "text": "Existing nodes will be deleted while schema loading"
+      "text": "Existing nodes will be deleted when loading schema"
     }
   },
   "wizards/done/DoneWizard": {

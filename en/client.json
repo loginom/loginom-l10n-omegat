@@ -839,7 +839,7 @@
     "CorrTypeSpearman": "The Spearman's rank correlation coefficient is another version of the rank correlation. Corresponding ranks, not numerical values, are used for numerical fields to estimate the connection strength. Therefore, the Spearman coefficient will be 1 or -1 for any monotone sequences."
   },
   "components/crosstab/CrossTabWizard": {
-    "CaseDesc": "Facts",
+    "CaseDesc": "Measures",
     "ColumnGroupTip": "Dimension in columns for",
     "CrossTabTitle": "Cross Table",
     "DimColDesc": "Columns",
@@ -2199,7 +2199,7 @@
   },
   "rpc/Exceptions": {
     "ErrAbstractFunction": "Abstract method \"{0}\" was called",
-    "ErrAggregateExceptionMessage": "Exceptions occurred while processing",
+    "ErrAggregateExceptionMessage": "Exceptions occurred during processing",
     "ExceptionClassFmt": "EXCEPTION CLASS: {0}",
     "InnerExceptionTitle": "INTERNAL EXCEPTIONS:",
     "MessageFmt": "MESSAGE: {0}",
@@ -2636,7 +2636,7 @@
   },
   "viewers/statistics/StatView": {
     "ConversionError": "Failed to convert to number",
-    "ConvertErrorFmt": "Error while statistics calculation by field \"{0}\":\n{1}",
+    "ConvertErrorFmt": "Error while calculating statistics for field \"{0}\":\n{1}",
     "CountOfStrings": "Row count: ",
     "DaysSuffix": " days",
     "ErrBounds": "Minimum more than maximum",
