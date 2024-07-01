@@ -81,7 +81,7 @@
     "ErrColOutOfRange": "Column number %d is out of [%d; %d] range",
     "ErrDataSourceActive": "Data set is not in the closed state",
     "ErrDataSourceClosed": "Data set is not in the opened state",
-    "ErrDataSourceNotEditing": "Data set is not in the edited state",
+    "ErrDataSourceNotEditing": "Data set is not in the editing state",
     "ErrRowOutOfRange": "Row number %d is out of [%d; %d] range"
   },
   "Common/CodeExec/CodeAPIDataSetProxies": {
@@ -117,9 +117,9 @@
     "ErrHTTPNetRequest": "Request to \"%s\" URL failed"
   },
   "Common/HTTP/SynapseHTTPSend": {
-    "ErrHTTPResult": "Error executing HTTP request. Status code %d: %s",
-    "ErrHTTPSocket": "Error executing HTTP request. TCP\/IP Socket error %d: %s",
-    "ErrMaximumRedirectReached": "Maximum number of redirects exceeded: %s",
+    "ErrHTTPResult": "Failed to make HTTP request. Status code %d: %s",
+    "ErrHTTPSocket": "Failed to make HTTP request. TCP\/IP Socket error %d: %s",
+    "ErrMaximumRedirectReached": "Maximum redirect reached at: %s",
     "ErrStreamIsDirectReadOnly": "Random access to stream data is not possible",
     "ErrStreamSizeUnspecified": "Data stream size not defined"
   },
@@ -744,7 +744,7 @@
     "ClassMarkPostfix": " Caption",
     "ClassNumPostfix": " Class number",
     "ClassSignificantPostfix": " Significance",
-    "CoarseClassesCalcStatDesc": "Coarse Classes statistics calculation",
+    "CoarseClassesCalcStatDesc": "Coarse classes statistics calculation",
     "CoarseClassesProcessDesc": "Coarse classes building",
     "ErrClassStorageNotDefined": "The fine classes storage of one of the columns not defined",
     "ErrCoarseClassBuilderNotValid": "The fine classes storage does not comply with the customized settings",
@@ -2324,7 +2324,7 @@
     "ErrIncorrectServer": "Invalid server",
     "ErrIndexColumnsNotSelect": "No columns to make an index are specified",
     "ErrLocalDBForbidden": "Connections to local databases on server are forbidden",
-    "ErrLoginTimeout": "The time for entering the username and password for connection has expired",
+    "ErrLoginTimeout": "The timeout for entering the username and password for connection has expired",
     "ErrOpenQuery": "Error while SQL opening :\n%s",
     "ErrParameterTypesDoNotMatch": "Parameter types do not match",
     "ErrPrepareProcedure": "Error preparing stored procedure \"%s\"",
@@ -2334,7 +2334,7 @@
     "ErrTestConnection": "Connection test error:\n%s",
     "ErrUnPrepareQuery": "Error clearing prepared query",
     "LockTimeout": "Lock timeout",
-    "WarnNoPassword": "Password for connection to \"%s\" not provided",
+    "WarnNoPassword": "No password entered for connection to \"%s\"",
     "WarnQueryExecuting": "Query already executing"
   },
   "Libraries/bgdbrtl/DBSSL": {
@@ -2507,7 +2507,7 @@
     "ErrDataSourceActive": "Data set is not in the closed state",
     "ErrDataSourceClosed": "Data set is not in the opened state",
     "ErrDataSourceNotConfigured": "Data set not configured",
-    "ErrDataSourceNotEditing": "Data set is not in the edited state",
+    "ErrDataSourceNotEditing": "Data set is not in the editing state",
     "ErrRowOutOfRange": "Row number %d is out of [%d; %d] range",
     "ErrUnexpectedEndUpdate": "Failed to call EndUpdate method without calling BeginUpdate first"
   },
@@ -2520,11 +2520,11 @@
     "ErrCannotPostNodeBeforeChildNodes": "Post method calling for \"%s\" node before the Post call for the child nodes is forbidden",
     "ErrCannotPostNodeWithoutAppend": "Post method calling for \"%s\" node without the Append call is forbidden",
     "ErrCannotRepeatAppendNode": "Repeated Append calling for \"%s\" node without the Post call is forbidden",
-    "ErrCanOnlyAppendContainerOrArray": "Append calling method for \"%s\" node that is not a container or array is forbidden",
+    "ErrCanOnlyAppendContainerOrArray": "Calling the Append method for node \"%s\", which is not a container or array, is forbidden",
     "ErrDataTreeActive": "Data tree is not in the closed state",
     "ErrDataTreeClosed": "Data tree is not in the opened state",
     "ErrDataTreeNotConfigured": "Data tree not configured",
-    "ErrDataTreeNotEditing": "Data tree is not in the edited state",
+    "ErrDataTreeNotEditing": "Data tree is not in the editing state",
     "ErrIsNotAncestorNode": "\"%s\" node is not ancestor of \"%s\" node",
     "ErrUnexpectedEndUpdate": "Failed to call EndUpdate method without calling BeginUpdate first"
   },
@@ -3076,7 +3076,7 @@
     "ErrRaiseException": "Unhandled exception inside JavaScript built-in function: \"%s\"",
     "ErrRaiseModuleException": "Unhandled exception when loading JavaScript module",
     "ErrTooFewArgs": "Few arguments supplied to %s function (%d whereas %d is minimum number)",
-    "ErrTooManyArgs": "Many arguments supplied to %s function (%d whereas %d is maximum number)",
+    "ErrTooManyArgs": "Too many arguments supplied to %s function (%d whereas %d is maximum number)",
     "ErrUnhandledPromiseRejection": "Unhandled Promise error",
     "ErrUnhandledPromiseRejections": "Unhandled Promise errors",
     "ErrUntrackedPromiseRejection": "Unhandled exception when tracking rejected Promise"
@@ -4042,7 +4042,7 @@
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Token receiver's URL",
     "RolesClaim": "Role list claim",
-    "TokenEndpoint": "OpenID token request endpoint",
+    "TokenEndpoint": "Token endpoint",
     "UpdateUserRole": "Update user role",
     "UserFullNameClaim": "Full username claim in token",
     "UserInfoEndpoint": "User information endpoint",
@@ -4305,7 +4305,7 @@
     "ErrPublishedModelNodeNotFound": "Failed to find published node with %s identifier",
     "ErrPublishedNodeNameIsEmpty": "No name for published node with \"%s\" caption specified",
     "ErrPublishedPackageNotFound": "Failed to find the published package with %s name and %s version",
-    "ErrSaveAsAlreadyOpenedPackage": "Failed to save package in \"%s\" file. The package with such file has already been opened in the current session",
+    "ErrSaveAsAlreadyOpenedPackage": "Failed to save package to file \"%s\". The package with such file has already been opened in the current session",
     "ErrSavePackagePermissionDenied": "No appropriate rights to save package with %s name",
     "ErrSessionAlreadyContainsPackage": "%s package already open in the current session",
     "ErrSessionBackupAlreadyDeleted": "This session backup has already been deleted by another client from the current account",

@@ -1,9 +1,9 @@
 {
   "CryptFunctions": {
     "CRC32": {
-      "Arguments": "String is a string for which CRC32 value is calculated.",
+      "Arguments": "String - a string for which the CRC32 value is calculated.",
       "Description": "CRC32(String)",
-      "Output": "Function returns the number - CRC32 value calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "Function returns a CRC32 checksum calculated for a given string.\nThe calculations operate the UTF-8 encoded sequence of the string's characters."
     },
     "HardKey": {
       "Arguments": "Arguments are absent.",
@@ -11,24 +11,24 @@
       "Output": "Function returns the serial number of the dongle key."
     },
     "MD5": {
-      "Arguments": "String is a string for which MD5 value is calculated.",
+      "Arguments": "String - a string for which the MD5 value is calculated.",
       "Description": "MD5(String)",
       "Output": "Function returns HEX value MD5 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     },
     "SHA1": {
-      "Arguments": "String is a string for which SHA1 value is calculated.",
+      "Arguments": "String - a string for which the SHA1 value is calculated.",
       "Description": "SHA1(String)",
       "Output": "Function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     }
   },
   "DataFunctions": {
     "CumulativeSum": {
-      "Arguments": "FieldName - the field which is required to receive the cumulative sum\nGroupFieldName - the field by which data is grouped. This parameter is not particularly required. If this parameter is specified, it is required to calculate the cumulative sums within groups.",
+      "Arguments": "FieldName - the field for which the cumulative sum needs to be obtained\nGroupFieldName - the field by which data is grouped. This is an optional parameter. If this parameter is set, cumulative sums get calculated within groups.",
       "Description": "CumulativeSum(\"FieldName\" [, \"GroupFieldName\"])",
       "Output": "Function returns the cumulative sum according to the field.\nNote: FieldName and GroupFieldName are string values, namely, the explicitly given FieldName and GroupFieldName must be specified in quotation marks.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
     },
     "Data": {
-      "Arguments": "FieldName - name of the field data of which is to be received\nRowNumber - number of the row value of which is to be received. Row numbering starts from 0.",
+      "Arguments": "FieldName - the name of the field to retrieve data from\nRowNumber - the number of the row from which to retrieve the value. Row numbering starts from 0.",
       "Description": "Data(\"FieldName\",RowNumber)",
       "Output": "Function returns the FieldName field value taken from the RowNumber row.\nIn case of the recursive usage of this function, the \"Cache\" checkbox in the \"Expression parameters\" window must be marked.\nNote: FieldName is a string value, therefore, an explicitly given FieldName must be put in quotes.\nFor example, Data(\"COL1\", 2)"
     },
@@ -48,7 +48,7 @@
       "Output": "Function returns the current row number of the data source. Row numbering starts from 0."
     },
     "Stat": {
-      "Arguments": "FieldName - the field by which to obtain the indicator value\nType - the statistics indicator to be obtained",
+      "Arguments": "FieldName - the field for which to obtain the indicator value\nType - the statistics indicator to be obtained",
       "Description": "Stat(\"FieldName\", \"Type\")",
       "Output": "Function returns the value of one of the statistical indicators.\nThe type can adopt one of the following values:\n       Min - minimum value\n       Max - maximum value\n       Avg - average value\n       StdDev - standard deviation\n       Sum - sum of values\n       SumSq - sum of square values\n       Count - count of values\n       UniqueCount - count of unique values\n       NullCount - count of null values\n       Mode - most frequently occurring value\nNote: FieldName and Type - string values, namely, explicitly given FieldName and Type must be in quotation marks.\nFor example: Stat(\"COL1\", \"Min\")"
     }
@@ -220,7 +220,7 @@
       "Output": " Implements IF - THEN - ELSE feature.\n All Result expressions are calculated before the Expression and Values comparison"
     },
     "Div": {
-      "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression.",
+      "Arguments": "Dividend - integer numeric expression,\nDivisor - integer numeric expression.",
       "Description": "Div(Dividend, Divisor)",
       "Output": "Returns the integer division quotient of the Dividend by the Divisor."
     },
@@ -385,7 +385,7 @@
       "Output": "Returns the total number of minutes between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Mod": {
-      "Arguments": "Dividend - integer numerical expression,\nDivisor - integer numerical expression.",
+      "Arguments": "Dividend - integer numeric expression,\nDivisor - integer numeric expression.",
       "Description": "Mod(Dividend, Divisor)",
       "Output": "Returns remainder from integer division of the Dividend by the Divisor."
     },
@@ -462,17 +462,17 @@
     "Round": {
       "Arguments": "Argument1 - numeric expression,\nArgument2 - optional parameter, the number of digits following the decimal point, integer.",
       "Description": "Round(Argument1 [, Argument2 = 0])",
-      "Output": "Rounds a real number up to a given decimal place."
+      "Output": "Rounds a real number to a given decimal place."
     },
     "RoundDown": {
       "Arguments": "Argument1 - numeric expression,\nArgument2 - optional parameter, the number of digits following the decimal point, integer.",
       "Description": "RoundDown(Argument1 [, Argument2 = 0])",
-      "Output": "Rounds a real number down to to a given decimal place."
+      "Output": "Rounds a real number down to a given decimal place."
     },
     "RoundUp": {
       "Arguments": "Argument1 - numeric expression,\nArgument2 - optional parameter, the number of digits following the decimal point, integer.",
       "Description": "RoundUp(Argument1 [, Argument2 = 0])",
-      "Output": "Rounds a real number up to the number with the specified number of digits after the decimal point."
+      "Output": "Rounds a real number up to a given decimal place."
     },
     "Second": {
       "Arguments": "DateTime - a Date\/Time type argument.",
@@ -537,7 +537,7 @@
     "Str": {
       "Arguments": "Argument - expression of the numeric type.",
       "Description": "Str(Argument)",
-      "Output": "Returns the Argument as a string taking into account locale."
+      "Output": "Returns a locale-aware string representation of the Argument."
     },
     "StrToDate": {
       "Arguments": "Argument - the string expression containing date\/time\nFormat - optional parameter date\/time format in terms of D, M, Y, H, N, S, Z",
@@ -606,7 +606,7 @@
     },
     "Val": {
       "Arguments": "String - a string expression.\nDecimal_Separator - an optional string parameter used to separate the integer part of a number from the fractional part. By default, the convertion is made using the decimal separator of the current pckage locale. Decimal_Separator must be one character long.\nThousands_Separator - an optional parameter of string or boolean types used to separate digit groups in large numbers. If Thousands_Separator is of a string type, it must be one character long.",
-      "Description": "Val(String, [Decimal_Separator, Thousands_Separator = True])",
+      "Description": "Val(String[, Decimal_Separator, Thousands_Separator = True])",
       "Output": "Converts the specified string to a number using the Decimal_Separator and Thousands_Separator parameters.\nIf Thousands_Separator is not specified of is True, the string is converted using the thousands separator specified in the current package locale. If Thousands_Separator is False, the convertion does not employ thousands separators.\nThe Decimal_Separator and Thousands_Separator parameters may be any ASCII characters except numbers, + and - characters and letter E. For Thousands_Separator, the NBSP character is also acceptable.\nIn case the Decimal_Separator and Thousands_Separator parameters are set, their values must not be the same.\nIf only the Decimal_Separator parameter is set, it must differ from the thousands separator specified in the current package locale."
     },
     "Week": {

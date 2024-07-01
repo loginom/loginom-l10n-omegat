@@ -2209,10 +2209,10 @@
       "text": "Apply"
     },
     "btnShowClassParamsCharts": {
-      "tooltip": "Show coarse class charts"
+      "tooltip": "Show coarse classes charts"
     },
     "btnShowClassParamsGrid": {
-      "tooltip": "Show coarse class table"
+      "tooltip": "Show coarse classes table"
     },
     "btnShowEventRate": {
       "tooltip": "Event rates"
@@ -2221,7 +2221,7 @@
       "tooltip": "Show side bar"
     },
     "cntClassParams": {
-      "title": "Coarse Class Parameters"
+      "title": "Coarse Classes Parameters"
     },
     "colActualCoarseClassEventCount": {
       "text": "Events (actual)"

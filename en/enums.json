@@ -62,7 +62,7 @@
       "OperationUndefined": "The used operation undefined",
       "NoContextForInputMessage": "No context for generation of the incoming service message",
       "UnsupportedSoapTransport": "Unsupported SOAP transport",
-      "PrepareError": "Error preparing data request: %s",
+      "PrepareError": "Error in preparing request data: %s",
       "UnimplementedRequestType": "The requests with %s extensions are not currently supported"
     }
   },

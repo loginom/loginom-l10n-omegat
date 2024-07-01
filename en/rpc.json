@@ -37,7 +37,7 @@
     "ErrUnknownInterfaceGUID": "Interface with {0} identifier not registered",
     "ErrUnknownInterfaceID": "Unknown interface identifier: {0}",
     "ErrUnknownInterfaceName": "{0} interface not registered",
-    "ErrUnknownMethodID": "Unknown method identifier {0}",
+    "ErrUnknownMethodID": "Unknown method identifier: {0}",
     "ErrUnsupportedParameterType": "Unsupported argument type"
   },
   "Net/ServerRemoteObjects": {

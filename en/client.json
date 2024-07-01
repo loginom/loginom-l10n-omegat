@@ -27,7 +27,7 @@
     "UseSASL": "Use SASL"
   },
   "admin/OpenIDSettings": {
-    "AllowUsersWithoutRole": "Allow login for users without a role",
+    "AllowUsersWithoutRole": "Allow login for users without roles",
     "AuthEndpoint": "Authentication endpoint",
     "AutoGetToken": "Automatic reception of token",
     "ClaimsToVariables": "Claims extracted to variables",
@@ -775,7 +775,7 @@
     "ExprReplaceAction": "Replace variable"
   },
   "components/coarseclasses/CalculateInformationValues": {
-    "ChartTitle": "Dependence IV on Number of Classes",
+    "ChartTitle": "Dependence IV on Class Count",
     "XAxisTitle": "Class Count",
     "YAxisTitle": "IV"
   },
@@ -797,13 +797,13 @@
   },
   "components/coarseclasses/CoarseClassesViewer": {
     "ActualSuffix": " (actual)",
-    "BuildActualStatConfirm": "Calculate Actual Coarse Classes statistics?",
+    "BuildActualStatConfirm": "Calculate actual coarse classes statistics?",
     "BuildActualStatConfirmYes": "Calculate",
     "EventCountTooltip": "Number of events",
     "EventRateTooltip": "Event rates",
     "HideSideBar": "Hide side bar",
     "Locked": "Locked",
-    "NoActualStatInfo": "Failed to calculate Fine and Coarse Classes statistics",
+    "NoActualStatInfo": "Failed to calculate fine and coarse classes statistics",
     "ShowSideBar": "Show side bar",
     "Total": "Total",
     "Unlocked": "Unlocked"
@@ -2589,8 +2589,8 @@
     "CreateGroupTitle": "Create Group",
     "Enter": "Enter",
     "ErrDeleting": "Error while deleting",
-    "ErrDeletingGroup": "Error while group deleting",
-    "ErrDeletingReport": "Error while visualizer uninstalling",
+    "ErrDeletingGroup": "Error while deleting the group",
+    "ErrDeletingReport": "Error while deleting the visualizer",
     "MoveToReports": "Move to \"Reports\"",
     "NeedNotEmptyGroupName": "Failed to create new group: group name cannot be empty",
     "SetNewGroupName": "New group name:",
