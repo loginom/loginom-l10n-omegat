@@ -42,7 +42,7 @@
   },
   "Net/ServerRemoteObjects": {
     "ErrQueryInterfaceNotAllowed": "Failed to query interface with {0} identifier via QueryInterface",
-    "ErrUnknownMethodID": "Unknown method identifier {0}"
+    "ErrUnknownMethodID": "Unknown method identifier: {0}"
   },
   "Net/Session": {
     "ConnectionTimedOut": "Session was closed by idle timeout: {0} s",
@@ -56,7 +56,7 @@
     "ErrInvalidResponseMessageType": "Invalid response message type: {0}",
     "ErrMainServerObjectNotRegistered": "The main server object is not registered",
     "ErrMaxObjectIdReached": "Object identifiers limit of {0} values reached",
-    "ErrRpcVersionMismatch": "Client of {0} version cannot get connected to the server of {1} version",
+    "ErrRpcVersionMismatch": "Client of {0} version cannot connect to the server of {1} version",
     "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: {0}",
     "IdleLockTimeOut": "Session was locked by idle timeout: {0} seconds"

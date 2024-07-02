@@ -937,7 +937,7 @@
       "text": "Cancel"
     },
     "chbEnableAutoSave": {
-      "fieldLabel": "Enable auto save"
+      "fieldLabel": "Enable autosave"
     },
     "edtAutoSavePeriod": {
       "fieldLabel": "Save every (minutes)"
@@ -949,8 +949,8 @@
       "tooltip": "Add job to scheduler..."
     },
     "btnAutoSave": {
-      "text": "Auto save",
-      "tooltip": "Configure packages auto save..."
+      "text": "Autosave",
+      "tooltip": "Configure packages autosave..."
     },
     "btnClose": {
       "text": "Close",
@@ -1082,7 +1082,7 @@
     },
     "colReadonly": {
       "text": "Read-only",
-      "tooltip": "Edited only in design mode"
+      "tooltip": "Editable only in design mode"
     },
     "colValue": {
       "text": "Value"

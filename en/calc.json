@@ -65,47 +65,47 @@
       "Output": "Returns the absolute error of two arguments."
     },
     "AddDay": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddDay(Date, Number)",
       "Output": "The function returns the value of argument Date increased by the specified Number of days. The number can also be negative, in this case, the function returns an earlier date by subtracting the specified number of days from the given date."
     },
     "AddHour": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddHour(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of hours. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of hours from the given date."
     },
     "AddMillisecond": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddMillisecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of milliseconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of milliseconds from the given date."
     },
     "AddMinute": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddMinute(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of minutes. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of minutes from the given date."
     },
     "AddMonth": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddMonth(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month."
     },
     "AddQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddQuarter(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting quarter, the function will set the date to the last day of the resulting quarter."
     },
     "AddSecond": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddSecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of seconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of seconds from the given date."
     },
     "AddWeek": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddWeek(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date."
     },
     "AddYear": {
-      "Arguments": "Date - argument of the Date\/Time type\nNumber - argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddYear(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date."
     },
@@ -115,19 +115,19 @@
       "Output": "Returns the annual property depreciation for the specified period."
     },
     "ArcCos": {
-      "Arguments": "Value - the cosine value for which it is required to determine the angle.",
+      "Arguments": "Value - the value of the cosine whose angle should be found.",
       "Description": "ArcCos(Value)",
-      "Output": "Returns the value arccosine, namely, the angle in radians the cosine of which is equal to the Value."
+      "Output": "Returns the arccosine of the value, i.e., the angle in radians whose cosine is the Value."
     },
     "ArcSin": {
-      "Arguments": "Value - the sine value for which it is required to determine the angle.",
+      "Arguments": "Value - the value of the sine whose angle should be found.",
       "Description": "ArcSin(Value)",
-      "Output": "Returns the value arcsine, namely, the angle in radians the sine of which is equal to the Value."
+      "Output": "Returns the arcsine of the value, i.e., the angle in radians whose sine is the Value."
     },
     "ArcTan": {
-      "Arguments": "Value - the tangent value for which it is required to determine the angle.",
+      "Arguments": "Value - the value of the tangent whose angle should be found.",
       "Description": "ArcTan(Value)",
-      "Output": "Returns the value arctangent, namely, the angle in radians the tangent of which is equal to the Value."
+      "Output": "Returns the arctangent of the value, i.e., the angle in radians whose tangent is the Value."
     },
     "AutoRegression": {
       "Arguments": "C - constant,\nA0 ... An - regression coefficients,\nX(t) ... X(t-n) - series values.",
@@ -152,7 +152,7 @@
     "Cos": {
       "Arguments": "Angle - angle value in radians.",
       "Description": "Cos(Angle)",
-      "Output": "Returns cosine of the set angle."
+      "Output": "Returns the cosine of the set angle."
     },
     "Count": {
       "Arguments": "String - string expression.",
@@ -167,7 +167,7 @@
     "DamLevDist": {
       "Arguments": "String1,\nString2 - expressions of the string type.",
       "Description": "DamLevDist(String1, String2)",
-      "Output": "Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another."
+      "Output": "The function returns the Damerau–Levenshtein distance for strings String1, String2. The Damerau–Levenshtein distance is a metric of similarity between two strings, an edit distance that allows transposition. The value returned is the minimum number of operations (consisting of insertions, deletions or substitutions of a single character, or transposition of two adjacent characters) required to change one string into the other."
     },
     "DateTimeToStr": {
       "Arguments": "Date_time - expression of the Date\/Time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
@@ -192,7 +192,7 @@
     "DaysBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "DaysBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of days between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete days between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Decode": {
       "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
@@ -240,22 +240,22 @@
       "Output": "Function returns the time formed from the specified arguments."
     },
     "EndOfTheMonth": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheMonth(Date)",
       "Output": "The function returns the ending date and time of the month specified in Date"
     },
     "EndOfTheQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheQuarter(Date)",
       "Output": "The function returns the ending date and time of the quarter to which the specified Date belongs"
     },
     "EndOfTheWeek": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheWeek(Date)",
       "Output": "The function returns the ending date and time of the specified week following the ISO 8601 standard, under which weeks start on Monday and end on Sunday."
     },
     "EndOfTheYear": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheYear(Date)",
       "Output": "The function returns the ending date and time of the year specified in Date"
     },
@@ -297,7 +297,7 @@
     "HoursBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "HoursBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of hours between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete hours between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "IF": {
       "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - expressions of any types",
@@ -342,7 +342,7 @@
     "LevDist": {
       "Arguments": "String1,\nString2 - expressions of the string type.",
       "Description": "LevDist(String1, String2)",
-      "Output": "Function returns the value of the Levenshtein distance for String1, String2. The Levenshtein distance is also called the edit distance that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion and substitution operations that must be performed in order to transform one string into another."
+      "Output": "The function returns the Levenshtein distance for strings String1, String2. The Levenshtein distance is an edit distance, a metric of similarity between two strings. The value returned is the minimum number of operations (consisting of insertions, deletions or substitutions of a single character) required to change one string into the other."
     },
     "Ln": {
       "Arguments": "Argument - positive numeric expression.",
@@ -367,7 +367,7 @@
     "MillisecondsBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "MillisecondsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of milliseconds between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete milliseconds between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Min": {
       "Arguments": "Argument1,\nArgument2,\n... - numeric expressions.",
@@ -382,7 +382,7 @@
     "MinutesBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "MinutesBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of minutes between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete minutes between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Mod": {
       "Arguments": "Dividend - integer numeric expression,\nDivisor - integer numeric expression.",
@@ -397,7 +397,7 @@
     "MonthsBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "MonthsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of months between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete months between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "MovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
@@ -482,7 +482,7 @@
     "SecondsBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "SecondsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of seconds between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete seconds between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Sign": {
       "Arguments": "Argument - numeric expression;",
@@ -492,7 +492,7 @@
     "Sin": {
       "Arguments": "Angle - angle value in radians.",
       "Description": "Sin(Angle)",
-      "Output": "Returns sine of the set angle."
+      "Output": "Returns the sine of the set angle."
     },
     "Space": {
       "Arguments": "Count_of_spaces - integer.",
@@ -502,7 +502,7 @@
     "Sqrt": {
       "Arguments": "Argument - positive numeric expression.",
       "Description": "Sqrt(Argument)",
-      "Output": "Returns the argument square root."
+      "Output": "Returns the square root of the argument."
     },
     "StartOfInterval": {
       "Arguments": "Date - a Date\/Time type argument.\nInterval_Count - the number of the given type intervals included in the interval; a positive integer number.\nInterval_Type - the type of the time interval.\nStarting_Point - a Date\/Time argument with which the counting of time intervals starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with 00:00 December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default).",
@@ -510,22 +510,22 @@
       "Output": "The function returns the beginning of a specified time interval.\nThe interval's length is defined by the parameters Interval_Type and Interval_Count.\nIf the Starting_Point parameter is set, the intervals are counted starting with the beginning of the interval to which the Starting_Point belongs.\nFor example, if Interval_Type is month and Starting_Point is November 15, 2023, the intervals will be calculated starting from November 1, 2023"
     },
     "StartOfTheMonth": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheMonth(Date)",
       "Output": "The function returns the first date of the month specified in Date"
     },
     "StartOfTheQuarter": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheQuarter(Date)",
       "Output": "The function returns the first date of the quarter to which the specified Date belongs"
     },
     "StartOfTheWeek": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheWeek(Date)",
       "Output": "Function returns the date of the specified week start according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday."
     },
     "StartOfTheYear": {
-      "Arguments": "Date - argument of the Date\/Time type.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheYear(Date)",
       "Output": "The function returns the first date of the year specified in Date"
     },
@@ -572,7 +572,7 @@
     "Tan": {
       "Arguments": "Angle - angle value in radians.",
       "Description": "Tan(Angle)",
-      "Output": "Returns tangent of the set angle."
+      "Output": "Returns the tangent of the set angle."
     },
     "Today": {
       "Arguments": "Arguments are absent.",
@@ -622,7 +622,7 @@
     "YearsBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "YearsBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the total number of years between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "Returns the number of complete years between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     }
   },
   "RegExFunctions": {
@@ -681,7 +681,7 @@
     "FKhi2": {
       "Arguments": "Degrees_of_freedom - the number of the degrees of freedom.\nArgument - the value for which the probability should be calculated.",
       "Description": "FKhi2(Degrees_of_freedom, Argument)",
-      "Output": "Tht chi-square distribution function. Returns the left-sided probability of chi-square distribution P(X <= Argument)."
+      "Output": "The chi-square distribution function. Returns the left-sided probability of chi-square distribution P(X <= Argument)."
     },
     "InvKhi2": {
       "Arguments": "Degrees_of_freedom - the number of the degrees of freedom.\nProbability - the value of the chi-square distribution function.",

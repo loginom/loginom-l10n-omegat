@@ -1,7 +1,7 @@
 {
   "about/About": {
     "AppLersionAPI": "\/api\/v1\/loginom-version",
-    "ErrVersionWrongServiceResponse": "Bad service response for the latest version request",
+    "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
     "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
@@ -125,7 +125,7 @@
     "MessageContents": "Message text:",
     "PackageRefCountTip": "Count of sessions referring to package",
     "ReadOnlyPackageNamePostfix": "(read-only)",
-    "RoleTipFormat": "Session with {0} role has been started by user",
+    "RoleTipFormat": "Session was started by user with {0} role",
     "SendMessageToAllUsersTitle": "Send Message to All Users",
     "SendMessageToUserTitle": "Send Message to User",
     "SessionCapacity": "{0} of {1}",
@@ -242,7 +242,7 @@
     "PackageCloseFormat": "Do you want to close \"{0}\" package also?",
     "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
     "ServerDisplayName": "Server",
-    "WarnAutoSavePackagesUnsaved": "Failed to save packages while auto saving:\n{0}"
+    "WarnAutoSavePackagesUnsaved": "Failed to autosave packages:\n{0}"
   },
   "app/MainMenuForm": {
     "EmptyPackageName": "Package not selected",
@@ -252,8 +252,8 @@
     "ErrNoPackageToSave": "There is no package to save.",
     "ErrOpenReadOnlyPackage": "\"{0}\" package is opened in read-only mode as it has already been opened by another user, or the file can be accesed in read-only mode. Saving is possible only under a different name.",
     "ErrSaveReadOnlyPackage": "Failed to save \"{0}\" read-only package without changing the name",
-    "NoRightsToCreatePackages": "\"{0}\" user has no rights to create packages",
-    "NoRightsToOpenPackages": "\"{0}\" user has no rights to open packages"
+    "NoRightsToCreatePackages": "User \"{0}\" has no rights to create packages",
+    "NoRightsToOpenPackages": "User \"{0}\" has no rights to open packages"
   },
   "app/MapTree": {
     "About": "About",
@@ -434,8 +434,8 @@
   },
   "app/PackagesAutoSavePanel": {
     "AutoSavePeriodDescriptionFmt": "Packages are saved with the set period to the files with .autosave extension near {0} files. {0} files as such are not rewritten in this case.",
-    "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages auto save period is specified",
-    "ErrPackagesAutoSaveNotSpecified": "Packages auto save period is not specified"
+    "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages autosave period is specified",
+    "ErrPackagesAutoSaveNotSpecified": "Packages autosave period is not specified"
   },
   "app/PackagesListForm": {
     "CurrentLocale": "Current locale is \"{0}\".",
@@ -457,7 +457,7 @@
     "ModifyBtnText": "Apply",
     "ModifyVariableTitle": "Edit Variable",
     "ReadonlyFieldLabel": "Read-only:",
-    "ReadonlyFieldTip": "Edited only in design mode"
+    "ReadonlyFieldTip": "Editable only in design mode"
   },
   "app/PackageVariablesForm": {
     "DeleteAllPrompt": "Do you really want to delete all variables?",
@@ -852,7 +852,7 @@
   },
   "components/datarecovery/DataRecoveryWizard": {
     "NotUsedAction": "Not selected",
-    "SetNullValueLabel": "Nulls replace value",
+    "SetNullValueLabel": "Replace value for nulls",
     "SetNullValueWindowTitle": "Edit Replace Value for Nulls",
     "SetValueMethod": "Replace with"
   },
@@ -1034,7 +1034,7 @@
     "CodePlaceholder": "Enter script"
   },
   "components/python/PythonColumnsWizard": {
-    "frmPythonOutputTableTitle": "Configure Columns of Output Python Table"
+    "frmPythonOutputTableTitle": "Configure Python Output Table Columns"
   },
   "components/python/PythonOutputPreviewForm": {
     "OutputStdErrSymbolsSkipped": "stderr characters omitted",
@@ -1655,7 +1655,7 @@
   },
   "homepage/Banner": {
     "AppLersionAPI": "\/api\/v1\/loginom-version",
-    "ErrVersionWrongServiceResponse": "Bad service response with the information on the latest version",
+    "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
     "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
@@ -1669,7 +1669,7 @@
     "NoNewsLog": "Failed to get news",
     "RemoveFromHistoryFmt": "No \"{0}\" file found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
     "RemoveFromHistoryTitle": "No File Found",
-    "RemoveNoRightsFmt": "User \"{0}\" has no rights to open the packages",
+    "RemoveNoRightsFmt": "User \"{0}\" has no rights to open packages",
     "RemoveNoRightsTitle": "Failed to Open Package"
   },
   "imports/dbimport/DBImportFilterWizard": {
@@ -2131,7 +2131,7 @@
     "VARIABLES": "Variables"
   },
   "mxgraph/vertex/LabelAbstract": {
-    "ErrLabelNotSaved": "Failed to save edited value"
+    "ErrLabelNotSaved": "Failed to save the edited value"
   },
   "navigation/NavigationPanel": {
     "PathBeforeText": "Path:",

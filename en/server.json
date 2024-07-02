@@ -81,7 +81,7 @@
     "ErrColOutOfRange": "Column number %d is out of [%d; %d] range",
     "ErrDataSourceActive": "Data set is not in the closed state",
     "ErrDataSourceClosed": "Data set is not in the opened state",
-    "ErrDataSourceNotEditing": "Data set is not in the editing state",
+    "ErrDataSourceNotEditing": "Data set is not in the editable state",
     "ErrRowOutOfRange": "Row number %d is out of [%d; %d] range"
   },
   "Common/CodeExec/CodeAPIDataSetProxies": {
@@ -2158,7 +2158,7 @@
     "PartitionDisplayName": "Partition",
     "PropErrNoGroupID": "Group identifier not set",
     "PropErrOffsetInvalid": "Offset must be equal or more than 0",
-    "PropErrTopic": "Topic not set",
+    "PropErrTopic": "No topic set",
     "RebalanceAssignErrFmt": "Rebalance assign of %d partition(s) failed: %s",
     "RebalanceUnassignErrFmt": "Rebalance unassign of %d partition(s) failed: %s",
     "SubscribeErrFmt": "Failed to subscribe to %d topics: %s",
@@ -2507,7 +2507,7 @@
     "ErrDataSourceActive": "Data set is not in the closed state",
     "ErrDataSourceClosed": "Data set is not in the opened state",
     "ErrDataSourceNotConfigured": "Data set not configured",
-    "ErrDataSourceNotEditing": "Data set is not in the editing state",
+    "ErrDataSourceNotEditing": "Data set is not in the editable state",
     "ErrRowOutOfRange": "Row number %d is out of [%d; %d] range",
     "ErrUnexpectedEndUpdate": "Failed to call EndUpdate method without calling BeginUpdate first"
   },
@@ -2524,7 +2524,7 @@
     "ErrDataTreeActive": "Data tree is not in the closed state",
     "ErrDataTreeClosed": "Data tree is not in the opened state",
     "ErrDataTreeNotConfigured": "Data tree not configured",
-    "ErrDataTreeNotEditing": "Data tree is not in the editing state",
+    "ErrDataTreeNotEditing": "Data tree is not in the editable state",
     "ErrIsNotAncestorNode": "\"%s\" node is not ancestor of \"%s\" node",
     "ErrUnexpectedEndUpdate": "Failed to call EndUpdate method without calling BeginUpdate first"
   },
@@ -3021,7 +3021,7 @@
     "ErrVariablesAlreadyEditing": "Variables already in the editing process",
     "ErrVariablesNotActive": "Variables not active",
     "ErrVariablesNotConfigured": "Variables not configured",
-    "ErrVariablesNotEditing": "Variables not editable"
+    "ErrVariablesNotEditing": "Variables are not in the editable state"
   },
   "Libraries/bgrtl/VariablesMultiLinks": {
     "ErrAlienLinkedVariable": "\"%s\" variable does not belong to any variable list being used",
@@ -3771,7 +3771,7 @@
     "ErrNodeNotInitialized": "No component specified for \"%s\" node",
     "ErrNodeOutputPortCountChanged": "Number of output ports was changed for \"%s\" node",
     "ErrNodeOutputPortTypeChanged": "Type of output \"%1:s\" port was changed for \"%0:s\" node",
-    "ErrNodeParametersChanged": "\"%s\" tree node parameters changed",
+    "ErrNodeParametersChanged": "Parameters of \"%s\" tree node were changed",
     "ErrParentProcessError": "Error in parent process",
     "ErrPortMismatch": "Incompatible component: node port list does not match",
     "ErrPortParentIsNil": "Reference to the node port is not included into list",
@@ -4189,7 +4189,7 @@
     "ErrMaxObjectIdReached": "Object identifiers limit of %d values reached",
     "ErrNegativeRangeBounds": "Range bounds [%d; %d] are negative",
     "ErrRangeLengthOutOfRange": "Range bounds [%d; %d] are not in the range of allowable values [%d; %d]",
-    "ErrRpcVersionMismatch": "Client of %s version cannot get connected to the server of %s version",
+    "ErrRpcVersionMismatch": "Client of %s version cannot connect to the server of %s version",
     "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d; %d]",
@@ -4271,8 +4271,8 @@
     "ProductShortName": "Loginom"
   },
   "Studio/DeductorServer": {
-    "AutoSavePackageError": "Error occurred while auto saving \"%s\" package",
-    "AutoSavePackagesFailed": "Packages auto save failed",
+    "AutoSavePackageError": "Error occurred while autosaving \"%s\" package",
+    "AutoSavePackagesFailed": "Packages autosave failed",
     "EnteredMaintenanceMode": "Server entered maintenance mode",
     "ErrAccessDenied": "Access denied",
     "ErrApplicationModeRunNotAllowed": "The current user has no batch processing rights",
