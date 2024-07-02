@@ -653,7 +653,7 @@
       "tooltip": "Clone node"
     },
     "btnComposeExpandGenericModel": {
-      "tooltip": "Collapse nodes into supernode \/ Expand supernode"
+      "tooltip": "Collapse nodes to supernode \/ Expand supernode"
     },
     "btnCopy": {
       "tooltip": "Copy"
