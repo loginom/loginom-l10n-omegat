@@ -1372,7 +1372,7 @@
     "LDAPUserRole": {
       "$Caption": "New User Role",
       "None": "None",
-      "Designer": "Workflows design",
+      "Designer": "Workflow design",
       "Viewer": "View reports"
     }
   },
@@ -1492,7 +1492,7 @@
   "Libraries/OpenID/OpenID": {
     "OpenIDPermission": {
       "$Caption": "User Roles and Rights",
-      "Designer": "Workflows design",
+      "Designer": "Workflow design",
       "Viewer": "View reports",
       "Admin": "Admin",
       "UseGlobalFileStorage": "Use global file storage",
@@ -1502,7 +1502,7 @@
     "OpenIDUserRole": {
       "$Caption": "New User Role",
       "None": "None",
-      "Designer": "Workflows design",
+      "Designer": "Workflow design",
       "Viewer": "View reports"
     }
   },
@@ -1566,7 +1566,7 @@
       "$Caption": "User Role in Session",
       "None": "None",
       "Admin": "Administration",
-      "Designer": "Workflows design",
+      "Designer": "Workflow design",
       "Viewer": "View reports",
       "Service": "Batch processing",
       "Integrator": "Execute from integrator"

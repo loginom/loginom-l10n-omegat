@@ -262,7 +262,7 @@
       "boxLabel": "Block account"
     },
     "chkDesigner": {
-      "boxLabel": "Workflows design"
+      "boxLabel": "Workflow design"
     },
     "chkGlobalFileStorage": {
       "boxLabel": "File storage full access"

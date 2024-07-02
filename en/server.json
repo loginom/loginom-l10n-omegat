@@ -4411,7 +4411,7 @@
     "ErrUserNameMustBeValid": "Username can consist of Latin letters, digits, _ - . characters and space,\nbut it cannot end with a dot or space.",
     "GroupEveryone": "All",
     "IsAdmin": "Admin",
-    "IsDesigner": "Workflows design",
+    "IsDesigner": "Workflow design",
     "IsViewer": "View reports",
     "LogAddGroup": "%s group added",
     "LogAddUser": "%s user added",
