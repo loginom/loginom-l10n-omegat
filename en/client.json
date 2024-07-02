@@ -841,7 +841,7 @@
   "components/crosstab/CrossTabWizard": {
     "CaseDesc": "Measures",
     "ColumnGroupTip": "Dimension in columns for",
-    "CrossTabTitle": "Cross Table",
+    "CrossTabTitle": "Crosstable",
     "DimColDesc": "Columns",
     "DimRowDesc": "Rows",
     "MinUniqueValuesCountTip": "Minimum number of unique values",
@@ -2443,10 +2443,10 @@
     "WarnDependencySuffix": "Do you want to continue action?"
   },
   "viewers/cube/CubeView": {
-    "ErrExportFailed": "Failed to export the Cube crosstab:\n{0}",
+    "ErrExportFailed": "Failed to export the Cube crosstable:\n{0}",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
-    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
+    "WarnExportTableSizeWarning": "The current crosstable size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Check by Pattern"
