@@ -1598,7 +1598,7 @@
     "ErrResNotFound": "%s resource not found",
     "ErrTCLFinalize": "Error occurred during TCL finalization",
     "ErrUnloadExtension": "Error occurred while unloading \"%s\" extension",
-    "WarnExecuting": "Python already executing"
+    "WarnExecuting": "Python is already executing"
   },
   "components/python/PythonExeEngineImpl": {
     "ErrCannotCreateProcess": "Failed to start \"%s\"",
@@ -2335,7 +2335,7 @@
     "ErrUnPrepareQuery": "Error clearing prepared query",
     "LockTimeout": "Lock timeout",
     "WarnNoPassword": "No password entered for connection to \"%s\"",
-    "WarnQueryExecuting": "Query already executing"
+    "WarnQueryExecuting": "The query is already executing"
   },
   "Libraries/bgdbrtl/DBSSL": {
     "DecryptPrivateKey": "Error decrypting private key",
@@ -3420,7 +3420,7 @@
     "ErrSettingsAlreadyInitialized": "Settings already initialized"
   },
   "Libraries/Model/Connections/Connections": {
-    "WarnTestingInProcess": "Testing already executing"
+    "WarnTestingInProcess": "Testing is already in progress"
   },
   "Libraries/Model/Connections/ConnectionVendor": {
     "ConnectionVendorMetaDesc": "connection vendor"
@@ -4211,7 +4211,7 @@
     "ErrNoWSDLSource": "No WSDL source specified",
     "ErrWSDLLoad": "Error loading WSDL:\nFile name: %s",
     "WarnMainWSDLNotLoaded": "Loading of the main WSDL source (%s) failed (%s). Loading from the reserve source.",
-    "WarnTestingInProcess": "Testing already executing"
+    "WarnTestingInProcess": "Testing is already in progress"
   },
   "Libraries/WSDLClientConnection/WSDLClientConnectionVendor": {
     "WSDLClientConnectionVendorCaption": "SOAP Service",
@@ -4465,7 +4465,7 @@
     "LogStartJob": "Starting job \"%s\"",
     "LogStartJobSkipped": "Job \"%s\" start failed. Reason: %s.",
     "LogStartJobSkippedMaintenanceState": "the server is in maintenance mode",
-    "LogStartJobSkippedOverlappedExecution": "the job is already being executed",
+    "LogStartJobSkippedOverlappedExecution": "the job is already in progress",
     "SchedulerJobMetaDesc": "Job",
     "SchedulerJobVariableMetaDesc": "Variable"
   },
