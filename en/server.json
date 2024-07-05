@@ -853,14 +853,14 @@
   },
   "components/crosstab/CrossTab": {
     "CountCaseDisplayName": "Count",
-    "CrossTabProcess": "Crosstable building",
+    "CrossTabProcess": "Cross table building",
     "ErrTooManyDimensionsInColumns": "Too many column dimensions selected",
     "InvalidColumnNameFmt": "Failed to generate column name from \"%s\" unique value",
     "NullGroupCaption": "<...>",
     "OtherGroupCaption": "<Other>"
   },
   "components/crosstab/CrossTabVendor": {
-    "VendorCaption": "Crosstable",
+    "VendorCaption": "Cross Table",
     "VendorDesc": "Create pivot table from flat table"
   },
   "components/datarecovery/DataRecovery": {
@@ -4600,7 +4600,7 @@
   },
   "Viewers/Cube/CubeExport": {
     "DummyHeader": "Value",
-    "HTMLTitle": "Crosstable"
+    "HTMLTitle": "Cross Table"
   },
   "Viewers/Cube/CubeFilter": {
     "ErrBadRelation": "Relation not supported by aggregation"
@@ -4626,8 +4626,8 @@
     "CubeViewProcess": "Cube",
     "DetailingProcessCaption": "Cube. Prepare %s from the [%d, %d] cell data",
     "ErrAllChartsCreated": "Impossible to create more than 3 charts in Cube",
-    "ErrAlreadyExporting": "Failed to export a crosstable until the current export is finished",
-    "ErrExportCubeClosed": "Failed to export a crosstable when the Cube is inactive",
+    "ErrAlreadyExporting": "Failed to export a cross table until the current export is finished",
+    "ErrExportCubeClosed": "Failed to export a cross table when the Cube is inactive",
     "ErrExportDeactivate": "Export deactivated due to node deactivation",
     "ErrPhantomCaseBracketsOpened": "Failed to create a temporary measure because another temporary measure exists",
     "ErrSortCountExceeded": "Count of sorted columns cannot exceed %d",
@@ -4637,7 +4637,7 @@
   },
   "Viewers/Cube/CubeViewVendor": {
     "VendorCaption": "Cube",
-    "VendorDesc": "Multidimensional data view (Crosstable and Crosschart)"
+    "VendorDesc": "Multidimensional data view (cross table and cross chart)"
   },
   "Viewers/DataQuality/QualityView": {
     "DataSetQualityCalculation": "Data set quality indicators calculating",
