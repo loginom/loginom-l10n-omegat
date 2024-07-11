@@ -1,7 +1,7 @@
 {
   "about/About": {
     "btnBugReport": {
-      "href": "https:\/\/loginom.com\/company\/feedback?type=2",
+      "href": "https://loginom.com/company/feedback?type=2",
       "text": "Report a problem"
     },
     "btnLicenseAgreement": {
@@ -14,7 +14,7 @@
       "text": "Open Source Software"
     },
     "btnWhatsNew": {
-      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
+      "href": "https://loginom.com/tags/release-notes/",
       "text": "What's new?"
     },
     "frmAbout": {
@@ -129,7 +129,7 @@
       "tooltip": "Close session or package"
     },
     "btnMaintenance": {
-      "tooltip": "Enter\/Leave server maintenance mode..."
+      "tooltip": "Enter/Leave server maintenance mode..."
     },
     "btnRefresh": {
       "text": "Refresh",
@@ -495,7 +495,7 @@
       "tooltip": "Set up..."
     },
     "btnShowDescription": {
-      "tooltip": "Show\/hide property inspector"
+      "tooltip": "Show/hide property inspector"
     },
     "btnTable": {
       "tooltip": "Table"
@@ -606,7 +606,7 @@
       "tooltip": "Expand"
     },
     "btnExpandToNodes": {
-      "tooltip": "Expand\/collapse to nodes"
+      "tooltip": "Expand/collapse to nodes"
     },
     "btnFindNode": {
       "tooltip": "Find node..."
@@ -618,7 +618,7 @@
       "tooltip": "Delete node..."
     },
     "btnSetNodeActive": {
-      "tooltip": "Open\/close node"
+      "tooltip": "Open/close node"
     },
     "btnShow": {
       "tooltip": "Open"
@@ -653,7 +653,7 @@
       "tooltip": "Clone node"
     },
     "btnComposeExpandGenericModel": {
-      "tooltip": "Collapse nodes to supernode \/ Expand supernode"
+      "tooltip": "Collapse nodes to supernode / Expand supernode"
     },
     "btnCopy": {
       "tooltip": "Copy"
@@ -715,7 +715,7 @@
       "tooltip": "Show source nodes for Reference Nodes"
     },
     "btnShowVendors": {
-      "tooltip": "Show\/hide component panel"
+      "tooltip": "Show/hide component panel"
     },
     "btnSocketItemCountToggle": {
       "tooltip": "Show count in output ports"
@@ -793,7 +793,7 @@
       "tooltip": "Run node"
     },
     "btnTogglePropInspector": {
-      "tooltip": "Show\/hide property inspector"
+      "tooltip": "Show/hide property inspector"
     },
     "btnWorkFlow": {
       "tooltip": "Show as workflow"
@@ -1170,7 +1170,7 @@
       "text": "Change date"
     },
     "colLabel": {
-      "text": "Path \/ Caption"
+      "text": "Path / Caption"
     },
     "colName": {
       "text": "Name"
@@ -1240,108 +1240,6 @@
     "btnAddVariable": {
       "tooltip": "Add..."
     },
-    "btnApril": {
-      "text": "April"
-    },
-    "btnAugust": {
-      "text": "August"
-    },
-    "btnDay1": {
-      "text": "1"
-    },
-    "btnDay10": {
-      "text": "10"
-    },
-    "btnDay11": {
-      "text": "11"
-    },
-    "btnDay12": {
-      "text": "12"
-    },
-    "btnDay13": {
-      "text": "13"
-    },
-    "btnDay14": {
-      "text": "14"
-    },
-    "btnDay15": {
-      "text": "15"
-    },
-    "btnDay16": {
-      "text": "16"
-    },
-    "btnDay17": {
-      "text": "17"
-    },
-    "btnDay18": {
-      "text": "18"
-    },
-    "btnDay19": {
-      "text": "19"
-    },
-    "btnDay2": {
-      "text": "2"
-    },
-    "btnDay20": {
-      "text": "20"
-    },
-    "btnDay21": {
-      "text": "21"
-    },
-    "btnDay22": {
-      "text": "22"
-    },
-    "btnDay23": {
-      "text": "23"
-    },
-    "btnDay24": {
-      "text": "24"
-    },
-    "btnDay25": {
-      "text": "25"
-    },
-    "btnDay26": {
-      "text": "26"
-    },
-    "btnDay27": {
-      "text": "27"
-    },
-    "btnDay28": {
-      "text": "28"
-    },
-    "btnDay29": {
-      "text": "29"
-    },
-    "btnDay3": {
-      "text": "3"
-    },
-    "btnDay30": {
-      "text": "30"
-    },
-    "btnDay31": {
-      "text": "31"
-    },
-    "btnDay4": {
-      "text": "4"
-    },
-    "btnDay5": {
-      "text": "5"
-    },
-    "btnDay6": {
-      "text": "6"
-    },
-    "btnDay7": {
-      "text": "7"
-    },
-    "btnDay8": {
-      "text": "8"
-    },
-    "btnDay9": {
-      "text": "9"
-    },
-    "btnDecember": {
-      "text": "December"
-    },
     "btnDelete": {
       "tooltip": "Delete selected"
     },
@@ -1354,32 +1252,8 @@
     "btnEditVariable": {
       "tooltip": "Edit..."
     },
-    "btnFebruary": {
-      "text": "February"
-    },
-    "btnFriday": {
-      "text": "Fr"
-    },
-    "btnJanuary": {
-      "text": "January"
-    },
-    "btnJuly": {
-      "text": "July"
-    },
-    "btnJune": {
-      "text": "June"
-    },
     "btnLastDayOfMonth": {
       "text": "Last day"
-    },
-    "btnMarch": {
-      "text": "March"
-    },
-    "btnMay": {
-      "text": "May"
-    },
-    "btnMonday": {
-      "text": "Mo"
     },
     "btnMoveVariableDown": {
       "tooltip": "Move down"
@@ -1387,35 +1261,11 @@
     "btnMoveVariableUp": {
       "tooltip": "Move up"
     },
-    "btnNovember": {
-      "text": "November"
-    },
-    "btnOctober": {
-      "text": "October"
-    },
-    "btnSaturday": {
-      "text": "Sa"
-    },
     "btnSelectAllDays": {
       "text": "Check all"
     },
     "btnSelectAllMonths": {
       "text": "Check all"
-    },
-    "btnSeptember": {
-      "text": "September"
-    },
-    "btnSunday": {
-      "text": "Su"
-    },
-    "btnThursday": {
-      "text": "Th"
-    },
-    "btnTuesday": {
-      "text": "Tu"
-    },
-    "btnWednesday": {
-      "text": "We"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Package to start"
@@ -1685,10 +1535,10 @@
       "tooltip": "Copy"
     },
     "txtAbsoluteUrl": {
-      "fieldLabel": "Absolute <i>(for shared use)<\/i>"
+      "fieldLabel": "Absolute <i>(for shared use)</i>"
     },
     "txtRelativeUrl": {
-      "fieldLabel": "Relative <i>(for personal use)<\/i>"
+      "fieldLabel": "Relative <i>(for personal use)</i>"
     }
   },
   "components/assnrules/AssnRulesWizard": {
@@ -2626,7 +2476,7 @@
       "text": "Time frames"
     },
     "frmDateReform": {
-      "title": "Reform Date\/Time"
+      "title": "Reform Date/Time"
     }
   },
   "components/elimoutlier/ElimOutlierWizard": {
@@ -2983,7 +2833,7 @@
       "text": "Logical"
     },
     "itmTypeChangeDTime": {
-      "text": "Date\/Time"
+      "text": "Date/Time"
     },
     "itmTypeChangeFloat": {
       "text": "Real"
@@ -3480,7 +3330,7 @@
       "regexText": "Invalid Content-Type value format"
     },
     "pedURL.valueConfig": {
-      "emptyText": "http:\/\/example.com\/operation-path"
+      "emptyText": "http://example.com/operation-path"
     }
   },
   "connections/tableaurest/TableauRestConnectionParams": {
@@ -3641,7 +3491,7 @@
       "boxLabel": "Add values of dimensions<br><br> automatically. Add missing dimension values to the data warehouse on data loading into the process automatically."
     },
     "ckbDisableConstraint": {
-      "boxLabel": "Disable\/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
+      "boxLabel": "Disable/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
     },
     "ckbRebuildCube": {
       "boxLabel": "Update cubes<br><br>After data loading, rebuild all cubes with enabled \"Dynamic update\" option and inherited from the loaded process."
@@ -4088,7 +3938,7 @@
       "text": "License Agreement"
     },
     "btnPersonalOffer": {
-      "href": "https:\/\/loginom.com\/platform\/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
+      "href": "https://loginom.com/platform/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
       "text": "More"
     },
     "lblCommunityBannerText": {
@@ -4109,56 +3959,56 @@
       "text": "New Draft"
     },
     "btnExamples": {
-      "href": "https:\/\/examples.loginom.com\/",
+      "href": "https://examples.loginom.com/",
       "text": "Examples"
     },
     "btnFacebook": {
-      "href": "https:\/\/facebook.com\/lg.platform\/"
+      "href": "https://facebook.com/lg.platform/"
     },
     "btnFastStart": {
-      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
+      "href": "https://loginom.com/platform/quick-start/",
       "text": "Quick Start"
     },
     "btnInstagram": {
-      "href": "https:\/\/instagram.com\/loginom_company\/"
+      "href": "https://instagram.com/loginom_company/"
     },
     "btnIntro": {
-      "href": "https:\/\/loginom.com\/welcome-video\/",
+      "href": "https://loginom.com/welcome-video/",
       "text": "Introduction to Loginom"
     },
     "btnLearning": {
-      "href": "https:\/\/loginom.com\/learning\/",
+      "href": "https://loginom.com/learning/",
       "text": "Learning"
     },
     "btnLinkedin": {
-      "href": "https:\/\/linkedin.com\/company\/loginom\/"
+      "href": "https://linkedin.com/company/loginom/"
     },
     "btnMoreNews": {
-      "href": "https:\/\/loginom.com\/blog\/",
+      "href": "https://loginom.com/blog/",
       "text": "More News"
     },
     "btnOpenPackage": {
       "text": "Open Package..."
     },
     "btnRreleaseNotes": {
-      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
+      "href": "https://loginom.com/tags/release-notes/",
       "text": "What's new in Loginom?"
     },
     "btnSupport": {
-      "href": "https:\/\/loginom.com\/company\/support\/",
+      "href": "https://loginom.com/company/support/",
       "text": "Support"
     },
     "btnTelegram": {
-      "href": "https:\/\/t.me\/loginom\/"
+      "href": "https://t.me/loginom/"
     },
     "btnTwitter": {
-      "href": "https:\/\/twitter.com\/loginom_company\/"
+      "href": "https://twitter.com/loginom_company/"
     },
     "btnVk": {
-      "href": "https:\/\/vk.com\/lg.platform\/"
+      "href": "https://vk.com/lg.platform/"
     },
     "btnYouTube": {
-      "href": "https:\/\/youtube.com\/loginom\/"
+      "href": "https://youtube.com/loginom/"
     },
     "colActionClean": {
       "tooltip": "Clean list..."
@@ -4249,7 +4099,7 @@
       "text": "No connection to database"
     },
     "lblObjectsTree": {
-      "text": "Tables\/views"
+      "text": "Tables/views"
     },
     "lblSelectFields": {
       "text": "Connect to database and select fields"
@@ -4469,7 +4319,7 @@
       "fieldLabel": "File Storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportFromFile": {
       "title": "Import from Excel File"
@@ -4549,7 +4399,7 @@
       "regexText": "Invalid codepage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportFromFile": {
       "title": "Import from Text File"
@@ -4585,7 +4435,7 @@
       "fieldLabel": "File storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportXmlFile": {
       "title": "Import from XML File"
@@ -4610,25 +4460,25 @@
   },
   "login/Login": {
     "btnFastStart": {
-      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
+      "href": "https://loginom.com/platform/quick-start/",
       "text": "Quick Start"
     },
     "btnGetToken": {
       "text": "Login With OpenID"
     },
     "btnHelp": {
-      "href": "https:\/\/help.loginom.com\/",
+      "href": "https://help.loginom.com/",
       "text": "Documentation"
     },
     "btnIntro": {
-      "href": "https:\/\/loginom.com\/welcome-video\/",
+      "href": "https://loginom.com/welcome-video/",
       "text": "Introduction to Loginom"
     },
     "btnLogin": {
       "text": "Login"
     },
     "btnQA": {
-      "href": "https:\/\/qa.loginom.com\/",
+      "href": "https://qa.loginom.com/",
       "text": "Q&A"
     },
     "chkRememberUser": {
@@ -5672,7 +5522,7 @@
       "tooltip": "Copy marked"
     },
     "btnExclusive": {
-      "tooltip": "Inclusive\/exclusive filter"
+      "tooltip": "Inclusive/exclusive filter"
     },
     "btnFilterType": {
       "tooltip": "Filter mode"
@@ -6551,7 +6401,7 @@
       "tooltip": "Delete selected"
     },
     "txtFilterField": {
-      "emptyText": "Filter\/Search"
+      "emptyText": "Filter/Search"
     }
   },
   "wizards/columnsdisposition/ColumnsDispositionWizard": {

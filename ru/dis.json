@@ -106,7 +106,7 @@
     "WarnDuplicateRequestParameter": "Запрос содержит более одного параметра с именем {0}",
     "WarnUnknownRequestParameter": "Запрос содержит параметр с неизвестным именем {0}"
   },
-  "ServerConnector/LoginomConnector": {
+  "ServerConnector/ServerConnector": {
     "ErrAlreadyConnected": "Подключение уже выполнено",
     "ErrNotConnected": "Подключение не было выполнено"
   }

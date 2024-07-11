@@ -46,6 +46,7 @@
   },
   "Net/Session": {
     "ConnectionTimedOut": "Session was closed by idle timeout: {0} s",
+    "ErrAccessDenied": "Access denied",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while closing SessionHost",
     "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Another RPC exception handler already registered",
     "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
@@ -54,6 +55,7 @@
     "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
     "ErrInvalidObjectID": "Invalid object identifier: {0}",
     "ErrInvalidResponseMessageType": "Invalid response message type: {0}",
+    "ErrInvalidSessionID": "Invalid session identifier: {0}",
     "ErrMainServerObjectNotRegistered": "The main server object is not registered",
     "ErrMaxObjectIdReached": "Object identifiers limit of {0} values reached",
     "ErrRpcVersionMismatch": "Client of {0} version cannot connect to the server of {1} version",
@@ -67,7 +69,6 @@
     "ErrUnknownInterfaceID": "Unknown interface identifier: {0}"
   },
   "Net/SparseArray": {
-    "ErrCannotAddDefaultValue": "Failed to add a default type value to the sparse array",
     "ErrItemNotExist": "Item with {0} index does not exist"
   },
   "Net/System": {

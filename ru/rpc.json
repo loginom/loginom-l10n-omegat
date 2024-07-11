@@ -46,6 +46,7 @@
   },
   "Net/Session": {
     "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: {0} секунд",
+    "ErrAccessDenied": "Отказано в доступе",
     "ErrCannotAddSessionToClosingSessionHost": "Невозможно добавить новую сессию во время финализации SessionHost",
     "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Уже зарегистрирован другой обработчик исключений RPC",
     "ErrDifferentRpcVerionAlreadyRegistered": "Уже зарегистрирован другой номер версии RPC",
@@ -54,6 +55,7 @@
     "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
     "ErrInvalidObjectID": "Невалидный идентификатор объекта: {0}",
     "ErrInvalidResponseMessageType": "Недопустимый тип ответного сообщения: {0}",
+    "ErrInvalidSessionID": "Невалидный идентификатор сессии: {0}",
     "ErrMainServerObjectNotRegistered": "Главный серверный объект не зарегистрирован",
     "ErrMaxObjectIdReached": "Достигнут предел в {0} значений идентификаторов объектов",
     "ErrRpcVersionMismatch": "Клиент версии {0} не может подключиться к серверу версии {1}",
@@ -67,7 +69,6 @@
     "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: {0}"
   },
   "Net/SparseArray": {
-    "ErrCannotAddDefaultValue": "В разреженный массив нельзя добавить значение типа по умолчанию",
     "ErrItemNotExist": "Элемент с индексом {0} не существует"
   },
   "Net/System": {
