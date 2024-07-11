@@ -65,47 +65,47 @@
       "Output": "Returns the absolute error of two arguments."
     },
     "AddDay": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddDay(Date, Number)",
       "Output": "The function returns the value of argument Date increased by the specified Number of days. The number can also be negative, in this case, the function returns an earlier date by subtracting the specified number of days from the given date."
     },
     "AddHour": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddHour(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of hours. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of hours from the given date."
     },
     "AddMillisecond": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddMillisecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of milliseconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of milliseconds from the given date."
     },
     "AddMinute": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddMinute(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of minutes. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of minutes from the given date."
     },
     "AddMonth": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddMonth(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month."
     },
     "AddQuarter": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddQuarter(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting quarter, the function will set the date to the last day of the resulting quarter."
     },
     "AddSecond": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddSecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of seconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of seconds from the given date."
     },
     "AddWeek": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddWeek(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date."
     },
     "AddYear": {
-      "Arguments": "Date - a Date/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
       "Description": "AddYear(Date, Number)",
       "Output": "Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date."
     },
@@ -170,27 +170,27 @@
       "Output": "The function returns the Damerau–Levenshtein distance for strings String1, String2. The Damerau–Levenshtein distance is a metric of similarity between two strings, an edit distance that allows transposition. The value returned is the minimum number of operations (consisting of insertions, deletions or substitutions of a single character, or transposition of two adjacent characters) required to change one string into the other."
     },
     "DateTimeToStr": {
-      "Arguments": "Date_time - expression of the Date/Time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
+      "Arguments": "Date_time - expression of the Date\/Time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
       "Description": "DateTimeToStr(Date_time [, Date_format [, Time_format]])",
-      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM/DD/YYYY\" - converts the date into the \"month.day.year\" format (\"12/25/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
+      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
     },
     "DateToStr": {
-      "Arguments": "Date - expression of the Date/Time type.\nFormat - optional parameter date format in terms of D, M, Y.",
+      "Arguments": "Date - expression of the Date\/Time type.\nFormat - optional parameter date format in terms of D, M, Y.",
       "Description": "DateToStr(Date [, Format])",
-      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM/DD/YYYY\" - converts the date into the \"month.day.year\" format (\"12/25/2004\")"
+      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")"
     },
     "Day": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "Day(Date)",
       "Output": "Returns the day according to the specified date."
     },
     "DayOfWeek": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "DayOfWeek(Date)",
       "Output": "Returns the week day according to the specified date."
     },
     "DaysBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "DaysBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete days between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
@@ -202,12 +202,12 @@
     "DecodeF": {
       "Arguments": "Expression - any numeric expression value of which is used for comparison.\nError - the numeric expression, comparison error.\nValueN - the numeric expression value of which is compared with the Expression argument.\nResultN - the value that is returned if |ValueN - ExpressionN| <= Error.\nDefault_value - the numeric expression the result of which is returned if none of the ValuesN is equal to the Expression (by default 0).",
       "Description": "DecodeF(Expression, Error, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
     },
     "DecodeN": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
+      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date\/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date\/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
       "Description": "DecodeN(Expression, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
     },
     "DecodeS": {
       "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
@@ -240,22 +240,22 @@
       "Output": "Function returns the time formed from the specified arguments."
     },
     "EndOfTheMonth": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheMonth(Date)",
       "Output": "The function returns the ending date and time of the month specified in Date"
     },
     "EndOfTheQuarter": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheQuarter(Date)",
       "Output": "The function returns the ending date and time of the quarter to which the specified Date belongs"
     },
     "EndOfTheWeek": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheWeek(Date)",
       "Output": "The function returns the ending date and time of the specified week following the ISO 8601 standard, under which weeks start on Monday and end on Sunday."
     },
     "EndOfTheYear": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "EndOfTheYear(Date)",
       "Output": "The function returns the ending date and time of the year specified in Date"
     },
@@ -267,7 +267,7 @@
     "ExpMovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "ExpMovingAverage(X{t}, X{t-1} ...)",
-      "Output": "Used for the construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 / (n + 1), where n - window width."
+      "Output": "Used for the construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 \/ (n + 1), where n - window width."
     },
     "Factorial": {
       "Arguments": "Argument - integer positive numeric expression.",
@@ -290,12 +290,12 @@
       "Output": "Returns the fractional part of the Argument."
     },
     "Hour": {
-      "Arguments": "DateTime - a Date/Time type argument.",
+      "Arguments": "DateTime - a Date\/Time type argument.",
       "Description": "Hour(DateTime)",
-      "Output": "Returns the hour according to the specified date/time."
+      "Output": "Returns the hour according to the specified date\/time."
     },
     "HoursBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "HoursBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete hours between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
@@ -305,7 +305,7 @@
       "Output": "Returns Value1 if the Antecedent is true or Value2 if it is false. The function result has the variant type"
     },
     "IFF": {
-      "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - numeric expressions or expressions of the Date/time type",
+      "Arguments": "Antecedent - logical expression;\nValue1,\nValue2 - numeric expressions or expressions of the Date\/time type",
       "Description": "IFF(Antecedent, Value1, Value2)",
       "Output": "Returns Value1 if the Antecedent is true or Value2 if it is false."
     },
@@ -330,9 +330,9 @@
       "Output": "Checks whether the Argument is null. Returns the logical value."
     },
     "ISO8601ToDate": {
-      "Arguments": "Argument - the string expression containing date/time in ISO 8601 format",
+      "Arguments": "Argument - the string expression containing date\/time in ISO 8601 format",
       "Description": "ISO8601ToDate(Argument)",
-      "Output": "Function converts the string containing date/time in ISO 8601 format into the \"Date/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date/time is set to the current time zone.\nIf the time offset is not specified, the date/time remains unchanged."
+      "Output": "Function converts the string containing date\/time in ISO 8601 format into the \"Date\/Time\" value type.\nIn the context of the specified time offset with regard to UTC, the date\/time is set to the current time zone.\nIf the time offset is not specified, the date\/time remains unchanged."
     },
     "Left": {
       "Arguments": "String - expression of the string type.",
@@ -365,7 +365,7 @@
       "Output": "Returns the maximum argument."
     },
     "MillisecondsBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "MillisecondsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete milliseconds between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
@@ -375,12 +375,12 @@
       "Output": "Returns the minimum argument."
     },
     "Minute": {
-      "Arguments": "DateTime - a Date/Time type argument.",
+      "Arguments": "DateTime - a Date\/Time type argument.",
       "Description": "Minute(DateTime)",
-      "Output": "Returns minutes according to the specified date/time."
+      "Output": "Returns minutes according to the specified date\/time."
     },
     "MinutesBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "MinutesBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete minutes between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
@@ -390,19 +390,19 @@
       "Output": "Returns remainder from integer division of the Dividend by the Divisor."
     },
     "Month": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "Month(Date)",
       "Output": "Returns the month according to the specified date."
     },
     "MonthsBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "MonthsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete months between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "MovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "MovingAverage(X{t}, X{t-1} ...)",
-      "Output": "Used in user models for building a user model of a simple moving average.\n\nThe moving average formula:\nMA = (X(t) + ... + X(t - n))/n. "
+      "Output": "Used in user models for building a user model of a simple moving average.\n\nThe moving average formula:\nMA = (X(t) + ... + X(t - n))\/n. "
     },
     "Now": {
       "Arguments": "Arguments are absent.",
@@ -475,12 +475,12 @@
       "Output": "Rounds a real number up to a given decimal place."
     },
     "Second": {
-      "Arguments": "DateTime - a Date/Time type argument.",
+      "Arguments": "DateTime - a Date\/Time type argument.",
       "Description": "Second(DateTime)",
-      "Output": "Returns seconds according to the specified date/time."
+      "Output": "Returns seconds according to the specified date\/time."
     },
     "SecondsBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "SecondsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete seconds between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
@@ -505,27 +505,27 @@
       "Output": "Returns the square root of the argument."
     },
     "StartOfInterval": {
-      "Arguments": "Date - a Date/Time type argument.\nInterval_Count - the number of the given type intervals included in the interval; a positive integer number.\nInterval_Type - the type of the time interval.\nStarting_Point - a Date/Time argument with which the counting of time intervals starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with 00:00 December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default).",
+      "Arguments": "Date - a Date\/Time type argument.\nInterval_Count - the number of the given type intervals included in the interval; a positive integer number.\nInterval_Type - the type of the time interval.\nStarting_Point - a Date\/Time argument with which the counting of time intervals starts.\nInterval_Type can assume the following values:\n \"Year\" - the interval is set in years (starting with year 0 by default);\n \"Quarter\" - the interval is set in quarters (starting with the first quarter of year 1 by default);\n \"Month\" - the interval is set in months (starting with January of year 1 by default);\n \"Week\" - the interval is set in weeks (starting with January 1, 1900 by default);\n \"Day\" - the interval is set in days (starting with December 30, 1899 by default);\n \"Hour\" - the interval is set in hours (starting with 00:00 December 30, 1899 by default);\n \"Minute\" - the interval is set in minutes (starting with 00:00 December 30, 1899 by default);\n \"Second\" - the interval is set in seconds (starting with 00:00 December 30, 1899 by default).",
       "Description": "StartOfInterval(Date, Interval_Count, Interval_Type[, Starting_Point])",
       "Output": "The function returns the beginning of a specified time interval.\nThe interval's length is defined by the parameters Interval_Type and Interval_Count.\nIf the Starting_Point parameter is set, the intervals are counted starting with the beginning of the interval to which the Starting_Point belongs.\nFor example, if Interval_Type is month and Starting_Point is November 15, 2023, the intervals will be calculated starting from November 1, 2023"
     },
     "StartOfTheMonth": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheMonth(Date)",
       "Output": "The function returns the first date of the month specified in Date"
     },
     "StartOfTheQuarter": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheQuarter(Date)",
       "Output": "The function returns the first date of the quarter to which the specified Date belongs"
     },
     "StartOfTheWeek": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheWeek(Date)",
       "Output": "Function returns the date of the specified week start according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday."
     },
     "StartOfTheYear": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "StartOfTheYear(Date)",
       "Output": "The function returns the first date of the year specified in Date"
     },
@@ -540,9 +540,9 @@
       "Output": "Returns a locale-aware string representation of the Argument."
     },
     "StrToDate": {
-      "Arguments": "Argument - the string expression containing date/time\nFormat - optional parameter date/time format in terms of D, M, Y, H, N, S, Z",
+      "Arguments": "Argument - the string expression containing date\/time\nFormat - optional parameter date\/time format in terms of D, M, Y, H, N, S, Z",
       "Description": "StrToDate(Argument [, Format])",
-      "Output": "Function converts the string containing the date into the \"Date/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD/MM/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25/12/04 12:44:54\";"
+      "Output": "Function converts the string containing the date into the \"Date\/Time\" format.\nThe format examples:\n  \"DD.MM.YY\" - defines that the Argument contains strings of the following type: \"25.12.04\";\n  \"DD\/MM\/YY HH:NN:SS\" - defines that the Argument contains strings of the following type: \"25\/12\/04 12:44:54\";"
     },
     "StrZero": {
       "Arguments": "Expression - numeric expression.\nTotal_length - length of the resulting string",
@@ -610,17 +610,17 @@
       "Output": "Converts the specified string to a number using the Decimal_Separator and Thousands_Separator parameters.\nIf Thousands_Separator is not specified of is True, the string is converted using the thousands separator specified in the current package locale. If Thousands_Separator is False, the convertion does not employ thousands separators.\nThe Decimal_Separator and Thousands_Separator parameters may be any ASCII characters except numbers, + and - characters and letter E. For Thousands_Separator, the NBSP character is also acceptable.\nIn case the Decimal_Separator and Thousands_Separator parameters are set, their values must not be the same.\nIf only the Decimal_Separator parameter is set, it must differ from the thousands separator specified in the current package locale."
     },
     "Week": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "Week(Date)",
       "Output": "Returns the number of the given date's week within the year following the ISO 8601 standard, under which weeks start on Monday and end on Sunday. The first week of the year is the first week in the Gregorian calendar which includes a Thursday."
     },
     "Year": {
-      "Arguments": "Date - a Date/Time type argument.",
+      "Arguments": "Date - a Date\/Time type argument.",
       "Description": "Year(Date)",
       "Output": "Returns the year according to the specified date."
     },
     "YearsBetween": {
-      "Arguments": "Date1, Date2 - Date/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
       "Description": "YearsBetween(Date1, Date2[, Absolute_Value = True])",
       "Output": "Returns the number of complete years between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     }
