@@ -1240,108 +1240,6 @@
     "btnAddVariable": {
       "tooltip": "Добавить..."
     },
-    "btnApril": {
-      "text": "Апрель"
-    },
-    "btnAugust": {
-      "text": "Август"
-    },
-    "btnDay1": {
-      "text": "1"
-    },
-    "btnDay10": {
-      "text": "10"
-    },
-    "btnDay11": {
-      "text": "11"
-    },
-    "btnDay12": {
-      "text": "12"
-    },
-    "btnDay13": {
-      "text": "13"
-    },
-    "btnDay14": {
-      "text": "14"
-    },
-    "btnDay15": {
-      "text": "15"
-    },
-    "btnDay16": {
-      "text": "16"
-    },
-    "btnDay17": {
-      "text": "17"
-    },
-    "btnDay18": {
-      "text": "18"
-    },
-    "btnDay19": {
-      "text": "19"
-    },
-    "btnDay2": {
-      "text": "2"
-    },
-    "btnDay20": {
-      "text": "20"
-    },
-    "btnDay21": {
-      "text": "21"
-    },
-    "btnDay22": {
-      "text": "22"
-    },
-    "btnDay23": {
-      "text": "23"
-    },
-    "btnDay24": {
-      "text": "24"
-    },
-    "btnDay25": {
-      "text": "25"
-    },
-    "btnDay26": {
-      "text": "26"
-    },
-    "btnDay27": {
-      "text": "27"
-    },
-    "btnDay28": {
-      "text": "28"
-    },
-    "btnDay29": {
-      "text": "29"
-    },
-    "btnDay3": {
-      "text": "3"
-    },
-    "btnDay30": {
-      "text": "30"
-    },
-    "btnDay31": {
-      "text": "31"
-    },
-    "btnDay4": {
-      "text": "4"
-    },
-    "btnDay5": {
-      "text": "5"
-    },
-    "btnDay6": {
-      "text": "6"
-    },
-    "btnDay7": {
-      "text": "7"
-    },
-    "btnDay8": {
-      "text": "8"
-    },
-    "btnDay9": {
-      "text": "9"
-    },
-    "btnDecember": {
-      "text": "Декабрь"
-    },
     "btnDelete": {
       "tooltip": "Удалить выбранные"
     },
@@ -1354,32 +1252,8 @@
     "btnEditVariable": {
       "tooltip": "Редактировать..."
     },
-    "btnFebruary": {
-      "text": "Февраль"
-    },
-    "btnFriday": {
-      "text": "Пт"
-    },
-    "btnJanuary": {
-      "text": "Январь"
-    },
-    "btnJuly": {
-      "text": "Июль"
-    },
-    "btnJune": {
-      "text": "Июнь"
-    },
     "btnLastDayOfMonth": {
       "text": "Последний день"
-    },
-    "btnMarch": {
-      "text": "Март"
-    },
-    "btnMay": {
-      "text": "Май"
-    },
-    "btnMonday": {
-      "text": "Пн"
     },
     "btnMoveVariableDown": {
       "tooltip": "Переместить вниз"
@@ -1387,35 +1261,11 @@
     "btnMoveVariableUp": {
       "tooltip": "Переместить вверх"
     },
-    "btnNovember": {
-      "text": "Ноябрь"
-    },
-    "btnOctober": {
-      "text": "Октябрь"
-    },
-    "btnSaturday": {
-      "text": "Сб"
-    },
     "btnSelectAllDays": {
       "text": "Выбрать все"
     },
     "btnSelectAllMonths": {
       "text": "Выбрать все"
-    },
-    "btnSeptember": {
-      "text": "Сентябрь"
-    },
-    "btnSunday": {
-      "text": "Вс"
-    },
-    "btnThursday": {
-      "text": "Чт"
-    },
-    "btnTuesday": {
-      "text": "Вт"
-    },
-    "btnWednesday": {
-      "text": "Ср"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Запускаемый пакет"

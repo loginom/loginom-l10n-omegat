@@ -736,7 +736,7 @@
     "ErrIncorrectColumnPurpose": "Некорректное назначение поля \"%s\"",
     "ErrNotAllowedInputBinningKind": "Входное поле не поддерживает новое назначение во внешнем разбиении (ограничение по типу данных)",
     "ErrRequiredContinuousOrDiscrete": "Требуется непрерывный или дискретный вид данных",
-    "MaxClassCount": "Требуемое количество классов",
+    "MaxClassCount": "Максимальное количество классов",
     "MinClassRate": "Минимальная доля класса"
   },
   "components/coarseclasses/CoarseClassesEngine": {
@@ -770,7 +770,7 @@
     "VendorDescription": "Минимизация разнообразия входных значений"
   },
   "components/coarseclasses/CoarseClassingOptimalAlgorithm": {
-    "MaxClassCount": "Максимальное число классов",
+    "MaxClassCount": "Максимальное количество классов",
     "MinClassRate": "Минимальная доля класса",
     "UniformityCoef": "Коэффициент равномерности"
   },
@@ -3791,7 +3791,9 @@
     "LogActivatePackagedNodeSuccess": "Успешно активирован узел \"%s\" GUID=%s Пакет=%s",
     "LogDeactivateNode": "Деактивирован узел \"%s\" GUID=%s",
     "LogNodeActivationError": "Ошибка активации узла \"%s\" GUID=%s",
+    "LogNodeLoadingError": "Ошибка загрузки узла \"%s\" GUID=%s",
     "LogPackagedNodeActivationError": "Ошибка активации узла \"%s\" GUID=%s Пакет=%s",
+    "LogPackageName": "Пакет=%s",
     "ResetModelNodeConfiguration": "У узла \"%s\" восстановлена исходная конфигурация",
     "RestoreBackupProcessCaption": "Восстановление конфигурации из резервной копии",
     "SynchronizationInputPort": "Порядок выполнения",
@@ -4031,7 +4033,7 @@
   },
   "Libraries/OpenID/OpenIDConfigurator": {
     "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
-    "AuthEndpoint": "URL запроса аутентификации",
+    "AuthEndpoint": "URL точки аутентификации",
     "AutoGetToken": "Автоматическое получение токена",
     "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
     "DefaultUserRole": "Роль нового пользователя",
@@ -4042,7 +4044,7 @@
     "OpenIDSecret": "Ключ клиента",
     "RedirectURI": "Адрес получателя токена",
     "RolesClaim": "Клейм списка ролей",
-    "TokenEndpoint": "URL запроса OpenID токена",
+    "TokenEndpoint": "URL запроса токена",
     "UpdateUserRole": "Обновлять роль пользователя",
     "UserFullNameClaim": "Клейм полного имени пользователя в токене",
     "UserInfoEndpoint": "URL запроса информации о пользователе",
@@ -4178,6 +4180,7 @@
   },
   "Libraries/rpc/Session": {
     "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: %d секунд",
+    "ErrAccessDenied": "Отказано в доступе",
     "ErrCannotAddSessionToClosingSessionHost": "Невозможно добавить новую сессию во время финализации SessionHost",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Уже зарегистрирован другой обработчик исключений RPC",
     "ErrDifferentRpcVersionAlreadyRegistered": "Уже зарегистрирован другой номер версии RPC",
@@ -4185,6 +4188,7 @@
     "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
     "ErrInvalidObjectID": "Невалидный идентификатор объекта: %d",
     "ErrInvalidRangeBounds": "Левая граница диапазона [%d; %d] больше правой",
+    "ErrInvalidSessionID": "Невалидный идентификатор сессии: %d",
     "ErrMainServerObjectNotRegistered": "Главный серверный объект не зарегистрирован",
     "ErrMaxObjectIdReached": "Достигнут предел в %d значений идентификаторов объектов",
     "ErrNegativeRangeBounds": "Границы диапазона [%d; %d] отрицательные",
@@ -4291,7 +4295,7 @@
     "ErrFailedToRestorePackage": "Не удалось восстановить пакет %s",
     "ErrFileAlreadyEditing": "Невозможно сохранить пакет в файл \"%s\". Этот файл уже используется другим процессом",
     "ErrFileNameNotSpecified": "Не указано имя файла",
-    "ErrInvalidModelLockCookieOwner": "Указан некорректный владелец Cookie блокировки узлов",
+    "ErrInvalidModelLockCookieOwner": "Некорректный владелец Cookie блокировки узлов сценария",
     "ErrInvalidPath": "Некорректный путь к файлу: \"%s\"",
     "ErrLocaleNotSupported": "Локаль \"%s\" не поддерживается системой",
     "ErrModelNodeNotFound": "Узел %s не найден",

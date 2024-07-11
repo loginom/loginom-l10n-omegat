@@ -527,7 +527,6 @@
     "PeriodTypeMonth": "месяцев",
     "PeriodTypeSecond": "секунд",
     "PeriodTypeWeek": "недель",
-    "StartDay": "1",
     "VariablesTitleFmt": "Переменные ({0})"
   },
   "app/scheduler/JobVariableEditor": {
@@ -2297,7 +2296,7 @@
     "SortingButtonText": "Сортировка",
     "SortingTitle": "Сортировка",
     "UndefinedCellValue": "",
-    "WarnExportTableSizeWarning": "Текущий размер Таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} Mb.\nВы действительно хотите начать экспорт?"
+    "WarnExportTableSizeWarning": "Текущий размер Таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.\nВы действительно хотите начать экспорт?"
   },
   "viewers/chart/ChartUtils": {
     "ApplyDefaultColor": "Вернуть цвет по умолчанию",
@@ -2446,7 +2445,7 @@
     "ErrExportFailed": "Не удалось экспортировать кросс-таблицу Куба:\n{0}",
     "ExportToastTitle": "Экспорт из Куба",
     "HideSingleCase": "Скрыть единственный факт",
-    "WarnExportTableSizeWarning": "Текущий размер кросс-таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} Mb.\nВы действительно хотите начать экспорт?"
+    "WarnExportTableSizeWarning": "Текущий размер кросс-таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.\nВы действительно хотите начать экспорт?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Отметить по маске"

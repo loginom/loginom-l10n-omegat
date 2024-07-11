@@ -892,7 +892,7 @@
   "Libraries/OpenID/OpenID": {
     "OpenIDConfigurator": {
       "AllowUsersWithoutRole": "Разрешать вход пользователям без роли",
-      "AuthEndpoint": "URL запроса аутентификации",
+      "AuthEndpoint": "URL точки аутентификации",
       "AutoGetToken": "Автоматическое получения токена",
       "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
       "DefaultUserRole": "Роль нового пользователя",
