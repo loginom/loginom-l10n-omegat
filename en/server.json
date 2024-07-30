@@ -1680,7 +1680,7 @@
   },
   "components/replace/ReplaceColumns": {
     "ErrSourceGuidNotFound": "No input replacement table with GUID = %s",
-    "InputReplaceDataSource": "Substitution table",
+    "InputReplaceDataSource": "Replacement table",
     "PrecisionPostfix": " Deviation",
     "ReplacedPostfix": " Replaced",
     "ReplacePostfix": " Replace"
