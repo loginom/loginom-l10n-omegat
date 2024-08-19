@@ -3756,7 +3756,7 @@
     "ErrColumnDataTypeChanged": "Изменился тип данных столбца \"%s\"",
     "ErrComponentNotInitialized": "Базовый компонент не проинициализирован",
     "ErrDuplicatePublishedNodeName": "Пакет уже содержит опубликованный узел с именем \"%s\"",
-    "ErrGetSourcePackageName": "Ошибка при определении имени пакета. Возможно источник сообщения был удален.",
+    "ErrGetSourcePackageName": "Ошибка при определении имени пакета. Возможно, источник сообщения был удален.",
     "ErrInactiveBranch": "Узел \"%s\" находится в неактивной ветви условия",
     "ErrInvalidModelCriticalSectionCookie": "Некорректный Cookie блокировки критической секции сценария",
     "ErrInvalidModelLockCookie": "Некорректный Cookie блокировки узлов сценария",

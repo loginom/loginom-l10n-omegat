@@ -291,8 +291,8 @@
   "app/MapTreeForm": {
     "ConfirmRemovingReference": "Удалить ссылку \"{0}\"?",
     "DisplayName": "Метка",
-    "DraftAddSchedulerJobFailed": "Невозможно добавить задачу для черновика \"{0}\"",
-    "DraftPublishFailed": "Невозможно опубликовать черновик \"{0}\"",
+    "DraftAddSchedulerJobFailed": "Перед добавлением задачи необходимо сохранить пакет \"{0}\"",
+    "DraftPublishFailed": "Перед публикацией необходимо сохранить пакет \"{0}\"",
     "ErrNodeNotInitialized": "У узла \"{0}\" не задан компонент",
     "ErrVendorMalfunction": "Компонент узла \"{0}\" неисправен",
     "mnuPortsShowAll": "Отображать все порты",
@@ -592,7 +592,7 @@
   "app/TabForm": {
     "DeactivateNodeConfirmationMsg": "Настройка узла приведет к его деактивации.\nВы действительно хотите начать настраивать узел?",
     "DeactivateNodeForPortConfirmationMsg": "Настройка порта приведет к деактивации узла.\nВы действительно хотите начать настраивать порт?",
-    "DraftAddSchedulerJobFailed": "Невозможно добавить задачу для черновика \"{0}\"",
+    "DraftAddSchedulerJobFailed": "Перед добавлением задачи необходимо сохранить пакет \"{0}\"",
     "ErrNodeNotInitialized": "У узла \"{0}\" не задан компонент",
     "ErrPrepareContainer": "При переходе на \"{0}.{1}\" возникла ошибка.\n{2}",
     "ErrVendorMalfunction": "Компонент узла \"{0}\" неисправен",
