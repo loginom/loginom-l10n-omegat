@@ -2296,7 +2296,7 @@
     "SortingButtonText": "Sort",
     "SortingTitle": "Sort",
     "UndefinedCellValue": "",
-    "WarnExportTableSizeWarning": "The current Table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
+    "WarnExportTableSizeWarning": "The current Table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
   },
   "viewers/chart/ChartUtils": {
     "ApplyDefaultColor": "Apply default color",
@@ -2445,7 +2445,7 @@
     "ErrExportFailed": "Failed to export the Cube cross table:\n{0}",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
-    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
+    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Check by Pattern"
