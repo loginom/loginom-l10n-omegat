@@ -197,7 +197,7 @@
     "AddBtnText": "Add",
     "EditVendor": "Derived Component Setting",
     "ErrMustSelectTargets": "It is required to select at least one checkbox: \"{0}\" or \"{1}\"",
-    "NewVendor": "New derived component",
+    "NewVendor": "New Derived Component",
     "SaveBtnText": "Save"
   },
   "app/FindNodeForm": {
@@ -291,8 +291,8 @@
   "app/MapTreeForm": {
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
     "DisplayName": "Caption",
-    "DraftAddSchedulerJobFailed": "Failed to add job for draft \"{0}\"",
-    "DraftPublishFailed": "Unable to publish \"{0}\" draft",
+    "DraftAddSchedulerJobFailed": "Save package \"{0}\" before adding a job",
+    "DraftPublishFailed": "Save package \"{0}\" before publishing",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "mnuPortsShowAll": "Show all ports",
@@ -593,7 +593,7 @@
   "app/TabForm": {
     "DeactivateNodeConfirmationMsg": "Node configuration will cause its deactivation.\nDo you really want to start node configuration?",
     "DeactivateNodeForPortConfirmationMsg": "Port configuration will cause node deactivation.\nDo you really want to start port configuration?",
-    "DraftAddSchedulerJobFailed": "Failed to add job for draft \"{0}\"",
+    "DraftAddSchedulerJobFailed": "Save package \"{0}\" before adding a job",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrPrepareContainer": "When switching to \"{0}.{1}\" error occurred.\n{2}",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
@@ -2297,7 +2297,7 @@
     "SortingButtonText": "Sort",
     "SortingTitle": "Sort",
     "UndefinedCellValue": "",
-    "WarnExportTableSizeWarning": "The current Table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
+    "WarnExportTableSizeWarning": "The current Table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
   },
   "viewers/chart/ChartUtils": {
     "ApplyDefaultColor": "Apply default color",
@@ -2446,7 +2446,7 @@
     "ErrExportFailed": "Failed to export the Cube cross table:\n{0}",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
-    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
+    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} Mb.\nDo you really want to start exporting?"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Check by Pattern"

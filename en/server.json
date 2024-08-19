@@ -1680,7 +1680,7 @@
   },
   "components/replace/ReplaceColumns": {
     "ErrSourceGuidNotFound": "No input replacement table with GUID = %s",
-    "InputReplaceDataSource": "Substitution table",
+    "InputReplaceDataSource": "Replacement table",
     "PrecisionPostfix": " Deviation",
     "ReplacedPostfix": " Replaced",
     "ReplacePostfix": " Replace"
@@ -3756,7 +3756,7 @@
     "ErrColumnDataTypeChanged": "\"%s\" column data type changed",
     "ErrComponentNotInitialized": "Base component not initialized",
     "ErrDuplicatePublishedNodeName": "The package already contains the published node with \"%s\" name",
-    "ErrGetSourcePackageName": "Error while defining package name. The message source could have been deleted.",
+    "ErrGetSourcePackageName": "Error in determining package name. Message source could have been deleted.",
     "ErrInactiveBranch": "\"%s\" node is in the inactive condition branch",
     "ErrInvalidModelCriticalSectionCookie": "Invalid Cookie for critical workflow section locking",
     "ErrInvalidModelLockCookie": "Invalid Cookie for workflow nodes locking",
@@ -4286,7 +4286,7 @@
     "ErrComparePackagesError": "Error occurred while comparing \"%s\" package file with edited copy in the memory",
     "ErrDeductorServerSessionNotInitialized": "Loginom server session not initialized",
     "ErrDuplicatePublishedNodeName": "The package contains more than one published node with \"%s\" name",
-    "ErrEncryptedPackage": "Failed to open encrypted package \"%s\" for viewing and editing",
+    "ErrEncryptedPackage": "Cannot open encrypted package \"%s\" for viewing and editing",
     "ErrFailedLoginTimeout": "Maximum number of account login attempts was exceeded",
     "ErrFailedToRestorePackage": "Failed to restore %s package",
     "ErrFileAlreadyEditing": "Failed to save package in \"%s\" file. This file has already been used by another process",
