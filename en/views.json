@@ -364,7 +364,7 @@
       "boxLabel": "Retrain a node and all its sub nodes.<br>During the batch processing, this node and all its subnodes for which the model can be rebuilt, will be activated in the training mode. When the feature is disabled, the specified node and all its subnodes will not be activated for training in the batch mode."
     },
     "cntBatchProcModes": {
-      "title": "Valid Modes of Batch Processing"
+      "title": "Available Modes of Batch Processing"
     },
     "cntBatchProcOverrideMode": {
       "title": "Specified Mode of Node Activation"
@@ -894,7 +894,7 @@
       "fieldLabel": "Locale"
     },
     "chbBinaryCmpUniqValues": {
-      "boxLabel": "Compare string unique values binary"
+      "boxLabel": "Binary comparison of unique string values"
     },
     "chbUseBasePackageFileStorage": {
       "boxLabel": "Use relative paths of base package"
@@ -1133,7 +1133,7 @@
       "boxLabel": "Custom"
     },
     "rdoGenerateForPackage": {
-      "boxLabel": "Generate unique for package"
+      "boxLabel": "Generate a unique namespace for package"
     },
     "rdoGenerateForPackageVersion": {
       "boxLabel": "Generate unique for each package version"
@@ -6282,7 +6282,7 @@
       "tooltip": "Delete selected links"
     },
     "btnResortLinks": {
-      "text": "Resort Links"
+      "text": "Reorder Links"
     },
     "btnShowInvalidRelations": {
       "text": "Show Lost Links"
@@ -6665,7 +6665,7 @@
       "tooltip": "Delete selected links"
     },
     "btnResortLinks": {
-      "text": "Resort Links"
+      "text": "Reorder Links"
     },
     "btnReverse": {
       "tooltip": "Invert selection"

@@ -780,7 +780,7 @@
     "ErrColumnNullDataFmt": "Failed to generate fine classes for \"%s\" field: all values are null",
     "ErrDataTypesNotMatch": "The specified column data type does not match the data type of the coarse classes",
     "ErrNotPositiveIntervalsCount": "Bin count must be more than 0",
-    "ErrProcessKeptStatisticsExistentValue": "No previously present \"%s\" value in \"%s\" field while building fine classes",
+    "ErrProcessKeptStatisticsExistentValue": "Previously present value \"%s\" not found in field \"%s\" while building fine classes",
     "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value appeared in field \"%s\" while building fine classes",
     "From": "from ",
     "NullClass": "Null class",
@@ -1853,9 +1853,9 @@
     "ErrOptimIntegrityFailed": "The infinite value of the optimized function or its gradient was detected",
     "ErrSingularMatrixCol": "(%1:d x %2:d) matrix contains zero column #%3:d in %0:d iteration",
     "ErrSingularMatrixRow": "(%1:d x %2:d) matrix contains zero row #%3:d in %0:d iteration",
-    "ErrSLECalcPrepare": "Error while preparing the equations system",
-    "ErrSLEStructPrepare": "Error while preparing data structures of the equations system",
-    "ErrSolver": "%d error when solving the equation system at iteration %d",
+    "ErrSLECalcPrepare": "Error while preparing the system of equations",
+    "ErrSLEStructPrepare": "Error while preparing data structures for the system of equations",
+    "ErrSolver": "Error %d when solving the system of equations at iteration %d",
     "ErrUnknownTimeAxisDataType": "Unknown time field data type"
   },
   "components/ungroupdata/UngroupDataVendor": {
@@ -2872,13 +2872,13 @@
   "Libraries/bgrtl/StrUtils": {
     "ErrInvalidBoolean": "\"%s\" string cannot be converted to the boolean value",
     "ErrInvalidFloat": "\"%s\" string cannot be converted to the real type value",
-    "ErrInvalidHexStr": "\"%s\" string is not a valid view of the sexadecimal number",
+    "ErrInvalidHexStr": "String \"%s\" is not a valid representation of a hexadecimal number",
     "LocaleInvariant": "Invariant",
     "NotSet": "Unspecified",
     "NullValue": "<Null>"
   },
   "Libraries/bgrtl/SyncObjs": {
-    "ErrSlimReadWriteLockDebugDowngradeToRead": "Failed to decreaase the lock level of synchronizer %p from write lock to read lock without first increasing the level",
+    "ErrSlimReadWriteLockDebugDowngradeToRead": "Failed to downgrade synchronizer %p from write lock to read lock before upgrading",
     "ErrSlimReadWriteLockDebugFinalized": "Synchronizer %p finalized",
     "ErrSlimReadWriteLockDebugLockRead": "Failed to lock for reading synchronizer %p that has already been locked from the same stream",
     "ErrSlimReadWriteLockDebugLockWrite": "Failed to lock for writing synchronizer %p that has already been locked from the same stream",

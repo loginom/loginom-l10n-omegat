@@ -267,7 +267,7 @@
     "ExpMovingAverage": {
       "Arguments": "Arguments - values of the numeric series",
       "Description": "ExpMovingAverage(X{t}, X{t-1} ...)",
-      "Output": "Used for the construction of the user model of the exponentially smoothed moving average.\n\nAn exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.\n\nCalculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 \/ (n + 1), where n - window width."
+      "Output": "Used for the construction of the user model of the exponentially weighted moving average.\n\nUnlike the simple moving average, with the exponential moving average the weighting for each older datum decreases exponentially.\n\nEMA is calculated using the following recursive formula: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) is the value of the exponential moving average in point k and a is the smoothing factor, a = 2 \/ (n + 1), with n being the window length."
     },
     "Factorial": {
       "Arguments": "Argument - integer positive numeric expression.",
