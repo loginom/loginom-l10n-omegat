@@ -577,7 +577,7 @@
     "Today": {
       "Arguments": "Arguments are absent.",
       "Description": "Today()",
-      "Output": "Returns the current date.\nc."
+      "Output": "Returns the current date.\nThe current date is the date the expression gets calculated, and it is calculated each time the expression's value is retrieved, for example, when viewing results in a tabular form or exporting data. Thus, it is generally recommended to enable the \"Cache\" expression parameter when it is available."
     },
     "Trim": {
       "Arguments": "Argument - string expression.",
