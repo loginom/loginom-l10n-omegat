@@ -1999,7 +1999,7 @@
     "FlushProcess": "Messages sending finished",
     "LogProduceInfoFmt": "%d messages for batch from %d added to queue",
     "LogRowSkipedFmt": "Message was not created for row %d. The message or key field contains the null value",
-    "PropErrBatchMessagesCount": "Messages count in the batch must not be less than 1",
+    "PropErrBatchMessagesCount": "Message number in the batch must be a positive integer greater than 0",
     "PropErrMessageField": "No field with messages set",
     "PropErrTopic": "No topic set"
   },
