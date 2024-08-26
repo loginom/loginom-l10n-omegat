@@ -668,9 +668,9 @@
     "VendorDesc": "Creating calculated variables"
   },
   "components/clope/ClopeEngine": {
-    "ClopeApplyNotify": "Model applying",
+    "ClopeApplyNotify": "Applying the model",
     "ClopeTrainNotify": "Clustering",
-    "ClopeTransactionNotify": "Transactions preparing",
+    "ClopeTransactionNotify": "Preparing transactions",
     "ColumnNameCluster": "Cluster number",
     "ColumnNameN": "N",
     "ColumnNameS": "S",
@@ -780,7 +780,7 @@
     "ErrColumnNullDataFmt": "Failed to generate fine classes for \"%s\" field: all values are null",
     "ErrDataTypesNotMatch": "The specified column data type does not match the data type of the coarse classes",
     "ErrNotPositiveIntervalsCount": "Bin count must be more than 0",
-    "ErrProcessKeptStatisticsExistentValue": "No previously present \"%s\" value in \"%s\" field while building fine classes",
+    "ErrProcessKeptStatisticsExistentValue": "Previously present value \"%s\" not located in field \"%s\" while building fine classes",
     "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value appeared in field \"%s\" while building fine classes",
     "From": "from ",
     "NullClass": "Null class",
@@ -1999,7 +1999,7 @@
     "FlushProcess": "Messages sending finished",
     "LogProduceInfoFmt": "%d messages for batch from %d added to queue",
     "LogRowSkipedFmt": "Message was not created for row %d. The message or key field contains the null value",
-    "PropErrBatchMessagesCount": "Messages count in the batch must not be less than 1",
+    "PropErrBatchMessagesCount": "Message number in the batch must be a positive integer greater than 0",
     "PropErrMessageField": "No field with messages set",
     "PropErrTopic": "No topic set"
   },
@@ -2853,7 +2853,7 @@
     "ErrNullsNotAllowed": "Null values are not allowed (null value in \"%s\" column)",
     "ErrProcessKeptStatistics": "Errors occurred while calculating the list of unique values",
     "ErrProcessKeptStatisticsNonExistentNull": "Previously missing null value was found in \"%s\" field",
-    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing \"%1:s\" value was found in \"%0:s\" field",
+    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value \"%1:s\" located in field \"%0:s\"",
     "ErrStatisticsBuildCookieInvalidOwner": "The statistics builder Cookie belongs to another object",
     "ErrStatisticsBuildCookieIsNil": "Attempt to complete the calculation completion operation with null reference to the statistics builder Cookie"
   },
@@ -4120,7 +4120,7 @@
     "ErrWrongProbability": "Confidence level must be in the range [0, 100]"
   },
   "Libraries/Regression/RegressionModel": {
-    "ApplyModelProcessCaption": "Model applying",
+    "ApplyModelProcessCaption": "Applying the model",
     "ErrApplyWrongFeatures": "The column count of the input data set %d not equal to the regressors count of model %d"
   },
   "Libraries/Regression/RegressionStatistics": {

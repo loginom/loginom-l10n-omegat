@@ -433,7 +433,7 @@
     "VisibilityTooltip": "Configure visibility..."
   },
   "app/PackagesAutoSavePanel": {
-    "AutoSavePeriodDescriptionFmt": "Packages are saved with the set period to the files with .autosave extension near {0} files. {0} files as such are not rewritten in this case.",
+    "AutoSavePeriodDescriptionFmt": "Packages are saved periodically with the set interval to .autosave files alongside the {0} files, to avoid overwriting the original {0} files.",
     "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages autosave period is specified",
     "ErrPackagesAutoSaveNotSpecified": "Packages autosave period is not specified"
   },
@@ -1658,7 +1658,7 @@
     "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
     "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
-    "NewVersionIsAvaliableFmt": "Latest stable version {0} is available"
+    "NewVersionIsAvaliableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
     "CleanConfirm": "Do you want to clean the list of recently opened packages?",
@@ -2974,7 +2974,7 @@
     "BtnSaveCaption": "Save",
     "BtnSaveWhateverCaption": "Save Anyway",
     "BtnWhateverCaption": "Next Anyway",
-    "ConfirmCloseWizard": "Do you really want to close wizard?",
+    "ConfirmCloseWizard": "Are you sure you want to close the wizard?",
     "ErrJumpToUndefinedPage": "An attempt to jump to an invalid page",
     "MsgBoxTitle": "Attention",
     "MsgCantJumpToPage": "Next move forbidden"
