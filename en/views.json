@@ -358,13 +358,13 @@
       "text": "Cancel"
     },
     "chbRunBatchMode": {
-      "boxLabel": "Run the node and all its subnodes.<br>During batch processing, this node and all its subnodes will be activated in run mode. When the feature is disabled, the specified node and all its subnodes will not be activated for batch mode execution."
+      "boxLabel": "Run a node and all its sub nodes.<br>During the batch processing, this node and all its subnodes will be activated in the run mode. When the feature is disabled, the specified node and all its subnodes will not be activated for execution in the batch mode."
     },
     "chbTeachBatchMode": {
-      "boxLabel": "Retrain the node and all its subnodes.<br>During batch processing, this node, and all its subnodes for which the model can be rebuilt, will be activated in training mode. When the feature is disabled, the specified node and all its subnodes will not be activated for batch mode training."
+      "boxLabel": "Retrain a node and all its sub nodes.<br>During the batch processing, this node and all its subnodes for which the model can be rebuilt, will be activated in the training mode. When the feature is disabled, the specified node and all its subnodes will not be activated for training in the batch mode."
     },
     "cntBatchProcModes": {
-      "title": "Available Modes of Batch Processing"
+      "title": "Valid Modes of Batch Processing"
     },
     "cntBatchProcOverrideMode": {
       "title": "Specified Mode of Node Activation"
@@ -1136,7 +1136,7 @@
       "boxLabel": "Generate a unique namespace for package"
     },
     "rdoGenerateForPackageVersion": {
-      "boxLabel": "Generate unique for each package version"
+      "boxLabel": "Generate a unique namespace for each package version"
     },
     "rdoUseDisNamespace": {
       "boxLabel": "Use Loginom integrator namespace"
