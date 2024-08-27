@@ -3,7 +3,7 @@
     "CRC32": {
       "Arguments": "String: The string for which the CRC32 value is calculated.",
       "Description": "CRC32(String)",
-      "Output": "The function returns a CRC32 checksum calculated for a given string.\nThe calculations operate the UTF-8 encoded sequence of the String's characters."
+      "Output": "The function returns a CRC32 checksum calculated for the given string.\nThe calculations operate the UTF-8 encoded sequence of the String's characters."
     },
     "HardKey": {
       "Arguments": "Arguments are absent.",
@@ -13,154 +13,154 @@
     "MD5": {
       "Arguments": "String: The string for which the MD5 value is calculated.",
       "Description": "MD5(String)",
-      "Output": "The function returns HEX value MD5 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "The function returns a MD5 HEX value calculated for the given string.\nCalculations are performed with a UTF-8 encoded sequence of the String's characters."
     },
     "SHA1": {
       "Arguments": "String: The string for which the SHA1 value is calculated.",
       "Description": "SHA1(String)",
-      "Output": "The function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "The function returns a SHA1 HEX value calculated for the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     }
   },
   "DataFunctions": {
     "CumulativeSum": {
-      "Arguments": "FieldName: The field for which the cumulative sum needs to be obtained\nGroupFieldName: The field by which data is grouped. This is an optional parameter. If this parameter is set, cumulative sums get calculated within groups.",
+      "Arguments": "FieldName: The field for which the cumulative sum needs to be obtained\nGroupFieldName: The field by which data is grouped; an optional parameter. If this parameter is set, cumulative sums get calculated within groups.",
       "Description": "CumulativeSum(\"FieldName\" [, \"GroupFieldName\"])",
-      "Output": "The function returns the cumulative sum according to the field.\nNote: FieldName and GroupFieldName are string values, namely, the explicitly given FieldName and GroupFieldName must be specified in quotation marks.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
+      "Output": "The function returns the cumulative sum for the field.\nNote: FieldName and GroupFieldName are string values, therefore, explicitly given FieldName and GroupFieldName must be put in quotes.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
     },
     "Data": {
-      "Arguments": "FieldName - the name of the field to retrieve data from\nRowNumber - the number of the row from which to retrieve the value. Row numbering starts from 0.",
+      "Arguments": "FieldName: The name of the field to retrieve data from\nRowNumber: The number of the row from which to retrieve the value. Row numbering starts from 0.",
       "Description": "Data(\"FieldName\",RowNumber)",
-      "Output": "Function returns the FieldName field value taken from the RowNumber row.\nIn case of the recursive usage of this function, the \"Cache\" checkbox in the \"Expression parameters\" window must be marked.\nNote: FieldName is a string value, therefore, an explicitly given FieldName must be put in quotes.\nFor example, Data(\"COL1\", 2)"
+      "Output": "The function returns the FieldName field value taken from the RowNumber row.\nIn case of the recursive usage of this function, the \"Cache\" checkbox in the \"Expression parameters\" window must be marked.\nNote: FieldName is a string value, therefore, an explicitly given FieldName must be put in quotes.\nFor example, Data(\"COL1\", 2)"
     },
     "DisplayName": {
-      "Arguments": "FieldName - name of field, variable or expression",
+      "Arguments": "FieldName: Name of a field, variable or expression",
       "Description": "DisplayName([\"FieldName\"])",
-      "Output": "Function returns the caption (display name) according to the field name, variable or expression.\nIf the function is called without arguments, it returns the caption of the current calculated expression.\nNote: FieldName - the string value, namely, the explicitly given FieldName must be specified in quotation marks.\nFor example: DisplayName(\"COL1\")"
+      "Output": "The function returns the caption (display name) corresponding to the name of a field, variable or expression.\nIf the function is called without arguments, it returns the caption of the expression currently using it.\nNote: FieldName is a string value, therefore, an explicitly given FieldName must be put in quotes.\nFor example: DisplayName(\"COL1\")"
     },
     "RowCount": {
-      "Arguments": "Arguments are absent.",
+      "Arguments": "Arguments absent.",
       "Description": "RowCount()",
-      "Output": "Function returns the row count in the data source."
+      "Output": "The function returns the row count of the data source."
     },
     "RowNum": {
-      "Arguments": "Arguments are absent.",
+      "Arguments": "Arguments absent.",
       "Description": "RowNum()",
-      "Output": "Function returns the current row number of the data source. Row numbering starts from 0."
+      "Output": "The function returns the number of the current data source row. Row numbering starts from 0."
     },
     "Stat": {
-      "Arguments": "FieldName - the field for which to obtain the indicator value\nType - the statistics indicator to be obtained",
+      "Arguments": "FieldName: The field to calculate the indicator for\nType: The statistics indicator to calculate",
       "Description": "Stat(\"FieldName\", \"Type\")",
-      "Output": "Function returns the value of one of the statistical indicators.\nThe type can adopt one of the following values:\n       Min - minimum value\n       Max - maximum value\n       Avg - average value\n       StdDev - standard deviation\n       Sum - sum of values\n       SumSq - sum of square values\n       Count - count of values\n       UniqueCount - count of unique values\n       NullCount - count of null values\n       Mode - most frequently occurring value\nNote: FieldName and Type - string values, namely, explicitly given FieldName and Type must be in quotation marks.\nFor example: Stat(\"COL1\", \"Min\")"
+      "Output": "The function returns the value of one of the statistical indicators.\nThe type can adopt one of the following values:\n       Min — the minimum value\n       Max — the maximum value\n       Avg — the average value\n       StdDev — the standard deviation\n       Sum — the sum of values\n       SumSq — the sum of square values\n       Count — the count of values\n       UniqueCount — the count of unique values\n       NullCount — the count of null values\n       Mode — the most frequently occurring value\nNote: FieldName and Type are string values, therefore, explicitly given FieldName and Type must be put in quotes.\nFor example: Stat(\"COL1\", \"Min\")"
     }
   },
   "Functions": {
     "Abs": {
-      "Arguments": "Argument - numeric expression.",
+      "Arguments": "Argument: A numeric expression.",
       "Description": "Abs(Argument)",
-      "Output": "Returns the absolute value of argument."
+      "Output": "The function returns the absolute value of an argument."
     },
     "AbsErr": {
-      "Arguments": "Arguments - any numeric expressions.",
+      "Arguments": "Arguments: Any numeric expressions.",
       "Description": "AbsErr(Argument1, Argument2)",
-      "Output": "Returns the absolute error of two arguments."
+      "Output": "The function returns the absolute error between two arguments."
     },
     "AddDay": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddDay(Date, Number)",
-      "Output": "The function returns the value of argument Date increased by the specified Number of days. The number can also be negative, in this case, the function returns an earlier date by subtracting the specified number of days from the given date."
+      "Output": "The function returns the value of the argument Date increased by the specified Number of days. The number can also be negative, in this case, the function returns an earlier date by subtracting the specified number of days from the given date."
     },
     "AddHour": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddHour(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of hours. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of hours from the given date."
     },
     "AddMillisecond": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddMillisecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of milliseconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of milliseconds from the given date."
     },
     "AddMinute": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddMinute(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of minutes. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of minutes from the given date."
     },
     "AddMonth": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddMonth(Date, Number)",
-      "Output": "Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month."
+      "Output": "The function returns the value of the argument Date increased by the specified Number of months. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of months from the given date.\n\nIf the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month."
     },
     "AddQuarter": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddQuarter(Date, Number)",
-      "Output": "Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.\n\nIf the specified day of the month exceeds the last day of the resulting quarter, the function will set the date to the last day of the resulting quarter."
+      "Output": "The function returns the value of the argument Date increased by the specified Number of quarters. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of quarters from the given date.\n\nIf the specified day of the month exceeds the last day of the resulting quarter, the function will set the date to the last day of the resulting quarter."
     },
     "AddSecond": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddSecond(Date, Number)",
       "Output": "The function returns the value of the argument Date increased by the specified Number of seconds. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of seconds from the given date."
     },
     "AddWeek": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddWeek(Date, Number)",
-      "Output": "Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date."
+      "Output": "The function returns the value of the argument Date increased by the specified Number of weeks. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of weeks from the given date."
     },
     "AddYear": {
-      "Arguments": "Date - a Date\/Time type argument\nNumber - an argument of the integer type.",
+      "Arguments": "Date: A Date\/Time argument\nNumber: An integer argument.",
       "Description": "AddYear(Date, Number)",
-      "Output": "Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date."
+      "Output": "The function returns the value of the argument Date increased by the specified Number of years. The number can also be negative, in this case, the function returns the relevant earlier date by subtracting the specified number of years from the given date."
     },
     "AMGD": {
-      "Arguments": "Arguments - numeric expressions.",
+      "Arguments": "Arguments: Numeric expressions.",
       "Description": "AMGD(Cost, Residual_cost, Operating_time, Period)",
-      "Output": "Returns the annual property depreciation for the specified period."
+      "Output": "The function returns the annual property depreciation for the specified period."
     },
     "ArcCos": {
-      "Arguments": "Value - the value of the cosine whose angle should be found.",
+      "Arguments": "Value: The value of the cosine whose angle should be found.",
       "Description": "ArcCos(Value)",
       "Output": "Returns the arccosine of the value, i.e., the angle in radians whose cosine is the Value."
     },
     "ArcSin": {
-      "Arguments": "Value - the value of the sine whose angle should be found.",
+      "Arguments": "Value: The value of the sine whose angle should be found.",
       "Description": "ArcSin(Value)",
       "Output": "Returns the arcsine of the value, i.e., the angle in radians whose sine is the Value."
     },
     "ArcTan": {
-      "Arguments": "Value - the value of the tangent whose angle should be found.",
+      "Arguments": "Value: The value of the tangent whose angle should be found.",
       "Description": "ArcTan(Value)",
       "Output": "Returns the arctangent of the value, i.e., the angle in radians whose tangent is the Value."
     },
     "AutoRegression": {
-      "Arguments": "C - constant,\nA0 ... An - regression coefficients,\nX(t) ... X(t-n) - series values.",
+      "Arguments": "C — constant,\nA0 ... An — regression coefficients,\nX(t) ... X(t-n) — the series values.",
       "Description": "AutoRegression(C, A0, X{t}, A1, X{t-1} ...)",
       "Output": "Used for the construction of the user model of the following autoregression type:\nPrediction = C + A0 * X(t) + A1 * X(t-1) + ..."
     },
     "Avg": {
-      "Arguments": "Arguments - any numeric expressions.",
+      "Arguments": "Arguments: Any numeric expressions.",
       "Description": "Avg(Argument1, Argument2 ...)",
-      "Output": "Returns the arithmetic mean of arguments."
+      "Output": "The function returns the arithmetic mean of the arguments."
     },
     "Chr": {
-      "Arguments": "Argument - numerical code of Unicode character.",
+      "Arguments": "Argument: A numeric code of a Unicode character.",
       "Description": "Chr(Argument)",
-      "Output": "Returns Unicode character according to its code."
+      "Output": "The function returns the Unicode character based on its code."
     },
     "Concat": {
-      "Arguments": "String - string expression.",
+      "Arguments": "String: A string expression.",
       "Description": "Concat(String, String [, ... String])",
-      "Output": "Combines several strings into one.\nNull values are interpreted as the strings with zero length, namely, as \"\"."
+      "Output": "The function combines multiple strings into one.\nNull values are interpreted as zero length strings, i.e., \"\"."
     },
     "Cos": {
-      "Arguments": "Angle - angle value in radians.",
+      "Arguments": "Angle: A value of an angle in radians.",
       "Description": "Cos(Angle)",
-      "Output": "Returns the cosine of the set angle."
+      "Output": "The function returns the cosine of the given angle."
     },
     "Count": {
-      "Arguments": "String - string expression.",
+      "Arguments": "String: A string expression.",
       "Description": "Count(String)",
-      "Output": "Returns count of characters in the string."
+      "Output": "The function returns the count of characters in a string."
     },
     "CreateGUID": {
-      "Arguments": "Format - method of GUID string representation (\"N\", \"D\", \"B\", \"P\").\nUpperCase - argument of the logical type defining the character case of hexadecimal digits.",
+      "Arguments": "Format: The GUID string representation specifier (\"N\", \"D\", \"B\", \"P\").\nUpperCase: An logical argument determining the case of hexadecimal digits.",
       "Description": "CreateGUID([Format = \"B\", UpperCase = True])",
       "Output": "Function returns GUID string representation in the specified format:\n  \"N\" - 32 digits;\n  \"D\" - 32 hyphenated digits;\n  \"B\" - 32 hyphenated digits and digits in curved brackets;\n  \"P\" - 32 hyphenated digits and digits in round brackets.\nIf the format is not specified, use of \"B\" format is required. By default, hexadecimal digits are written in uppercase.\nAs GUID will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is \"Cache\" expression parameter."
     },
