@@ -1,22 +1,22 @@
 {
   "CryptFunctions": {
     "CRC32": {
-      "Arguments": "String - a string for which the CRC32 value is calculated.",
+      "Arguments": "String: The string for which the CRC32 value is calculated.",
       "Description": "CRC32(String)",
-      "Output": "Function returns a CRC32 checksum calculated for a given string.\nThe calculations operate the UTF-8 encoded sequence of the string's characters."
+      "Output": "The function returns a CRC32 checksum calculated for a given string.\nThe calculations operate the UTF-8 encoded sequence of the String's characters."
     },
     "HardKey": {
       "Arguments": "Arguments are absent.",
       "Description": "HardKey()",
-      "Output": "Function returns the serial number of the dongle key."
+      "Output": "The function returns the serial number of the dongle key."
     },
     "MD5": {
-      "Arguments": "String - a string for which the MD5 value is calculated.",
+      "Arguments": "String: The string for which the MD5 value is calculated.",
       "Description": "MD5(String)",
-      "Output": "Function returns HEX value MD5 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "The function returns HEX value MD5 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     },
     "SHA1": {
-      "Arguments": "String - a string for which the SHA1 value is calculated.",
+      "Arguments": "String: The string for which the SHA1 value is calculated.",
       "Description": "SHA1(String)",
       "Output": "Function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     }
