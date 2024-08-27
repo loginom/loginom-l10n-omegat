@@ -18,14 +18,14 @@
     "SHA1": {
       "Arguments": "String: The string for which the SHA1 value is calculated.",
       "Description": "SHA1(String)",
-      "Output": "Function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "The function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     }
   },
   "DataFunctions": {
     "CumulativeSum": {
-      "Arguments": "FieldName - the field for which the cumulative sum needs to be obtained\nGroupFieldName - the field by which data is grouped. This is an optional parameter. If this parameter is set, cumulative sums get calculated within groups.",
+      "Arguments": "FieldName: The field for which the cumulative sum needs to be obtained\nGroupFieldName: The field by which data is grouped. This is an optional parameter. If this parameter is set, cumulative sums get calculated within groups.",
       "Description": "CumulativeSum(\"FieldName\" [, \"GroupFieldName\"])",
-      "Output": "Function returns the cumulative sum according to the field.\nNote: FieldName and GroupFieldName are string values, namely, the explicitly given FieldName and GroupFieldName must be specified in quotation marks.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
+      "Output": "The function returns the cumulative sum according to the field.\nNote: FieldName and GroupFieldName are string values, namely, the explicitly given FieldName and GroupFieldName must be specified in quotation marks.\nFor example: CumulativeSum(\"COL1\", \"COL2\")"
     },
     "Data": {
       "Arguments": "FieldName - the name of the field to retrieve data from\nRowNumber - the number of the row from which to retrieve the value. Row numbering starts from 0.",
