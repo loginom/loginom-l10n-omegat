@@ -160,64 +160,64 @@
       "Output": "The function returns the count of characters in a string."
     },
     "CreateGUID": {
-      "Arguments": "Format: The GUID string representation specifier (\"N\", \"D\", \"B\", \"P\").\nUpperCase: An logical argument determining the case of hexadecimal digits.",
+      "Arguments": "Format: A GUID string representation specifier (\"N\", \"D\", \"B\", \"P\").\nUpperCase: An logical argument determining the case of hexadecimal digits.",
       "Description": "CreateGUID([Format = \"B\", UpperCase = True])",
-      "Output": "Function returns GUID string representation in the specified format:\n  \"N\" - 32 digits;\n  \"D\" - 32 hyphenated digits;\n  \"B\" - 32 hyphenated digits and digits in curved brackets;\n  \"P\" - 32 hyphenated digits and digits in round brackets.\nIf the format is not specified, use of \"B\" format is required. By default, hexadecimal digits are written in uppercase.\nAs GUID will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is \"Cache\" expression parameter."
+      "Output": "The function returns a GUID string representation in the specified format:\n  \"N\" — 32 digits;\n  \"D\" — 32 digits separated by hyphens;\n  \"B\" — 32 digits separated by hyphens, enclosed in braces;\n  \"P\" — 32 digits separated by hyphens, enclosed in parentheses.\nIf the format is not specified, \"B\" is used. By default, hexadecimal digits are uppercase.\nAs GUID is generated each time the expression value is retrieved, for example, when viewing results in tabular form or exporting data, it is generally recommended to activate the \"Cache\" expression parameter if available."
     },
     "DamLevDist": {
-      "Arguments": "String1,\nString2 - expressions of the string type.",
+      "Arguments": "String1,\nString2: String type expressions.",
       "Description": "DamLevDist(String1, String2)",
       "Output": "The function returns the Damerau–Levenshtein distance for strings String1, String2. The Damerau–Levenshtein distance is a metric of similarity between two strings, an edit distance that allows transposition. The value returned is the minimum number of operations (consisting of insertions, deletions or substitutions of a single character, or transposition of two adjacent characters) required to change one string into the other."
     },
     "DateTimeToStr": {
-      "Arguments": "Date_time - expression of the Date\/Time type.\nDate_format - optional parameter date format in terms of D, M, Y.\nTime_format - optional parameter time format in terms of H, N, S, Z.",
+      "Arguments": "Date_time: A Date\/Time type expression.\nDate_format: An optional date format parameter in terms of D, M, Y.\nTime_format: An optional time format parameter in terms of H, N, S, Z.",
       "Description": "DateTimeToStr(Date_time [, Date_format [, Time_format]])",
-      "Output": "Returns the string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")\nExamples of the time format:\n  \"H:NN\" - converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\" - converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
+      "Output": "The function returns a string representation of the Date_time argument.\nExamples of the date format:\n  \"DD.MM.YY\": Converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\": Converts the date into the \"month.day.year\" format (\"12\/25\/2004\")\nExamples of the time format:\n  \"H:NN\": Converts the time into the \"hours:minutes\" format (\"9:53\")\n  \"HH:NN:SS\": Converts the time into the \"hours:minutes:seconds\" format (\"09:05:53\")"
     },
     "DateToStr": {
-      "Arguments": "Date - expression of the Date\/Time type.\nFormat - optional parameter date format in terms of D, M, Y.",
+      "Arguments": "Date: A Date\/Time type expression.\nFormat: An optional date format parameter in terms of D, M, Y.",
       "Description": "DateToStr(Date [, Format])",
-      "Output": "Returns the string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\" - converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\" - converts the date into the \"month.day.year\" format (\"12\/25\/2004\")"
+      "Output": "The function returns a string representation of the Date argument.\nExamples of the date format:\n  \"DD.MM.YY\": Converts the date into the \"day.month.year\" format (\"25.12.04\")\n  \"MM\/DD\/YYYY\": Converts the date into the \"month.day.year\" format (\"12\/25\/2004\")"
     },
     "Day": {
-      "Arguments": "Date - a Date\/Time type argument.",
+      "Arguments": "Date: A Date\/Time type argument.",
       "Description": "Day(Date)",
-      "Output": "Returns the day according to the specified date."
+      "Output": "The function returns the day of the month for the specified date."
     },
     "DayOfWeek": {
-      "Arguments": "Date - a Date\/Time type argument.",
+      "Arguments": "Date: A Date\/Time type argument.",
       "Description": "DayOfWeek(Date)",
-      "Output": "Returns the week day according to the specified date."
+      "Output": "The function returns the day of the week for the specified date."
     },
     "DaysBetween": {
-      "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
+      "Arguments": "Date1, Date2: Date\/Time type arguments.\nAbsolute_Value: An optional Boolean parameter.",
       "Description": "DaysBetween(Date1, Date2[, Absolute_Value = True])",
-      "Output": "Returns the number of complete days between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
+      "Output": "The function returns the number of complete days between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Decode": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
+      "Arguments": "Expression: The expression, the value of which is compared against each one of the ValueN arguments.\nValueN: The numbered value to be compared with the Expression argument.\nResultN: A string expression that is returned if Expression = ValueN.\nDefault_value: A string expression. If Expression is equal to none of the ValueN arguments, Default_value is returned. (If not specified otherwise, Default_value is \"\").",
       "Description": "Decode(Expression, Value1, Result1 [, Value2, Result2]... [, Default_value = \"\"])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the string type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " The function utilizes IF - THEN - ELSE logic. The result is of string type.\n All ResultN expressions are calculated before comparing Expression to ValueN."
     },
     "DecodeF": {
-      "Arguments": "Expression - any numeric expression value of which is used for comparison.\nError - the numeric expression, comparison error.\nValueN - the numeric expression value of which is compared with the Expression argument.\nResultN - the value that is returned if |ValueN - ExpressionN| <= Error.\nDefault_value - the numeric expression the result of which is returned if none of the ValuesN is equal to the Expression (by default 0).",
+      "Arguments": "Expression: Any numeric expression, the value of which is used for comparison.\nError: The comparison error, a numeric expression.\nValueN: A numeric expression, the value of which is compared with the Expression argument.\nResultN: The value that is returned if |ValueN - ExpressionN| <= Error.\nDefault_value: A numeric expression. If none of the ValueN values equals Expression, Default_value is returned (0 by default).",
       "Description": "DecodeF(Expression, Error, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " The function utilizes IF - THEN - ELSE logic. The function's result and all of its arguments are of numeric or Date\/Time type.\n All ResultN expressions are calculated before comparing Expression to ValueN."
     },
     "DecodeN": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the numeric or Date\/Time type that is returned if the Expression = ValueN.\nDefault_value - the expression of the numeric or Date\/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).",
+      "Arguments": "Expression: The expression, the value of which is compared against each one of the ValueN arguments.\nValueN: The numbered value to be compared with the Expression argument.\nResultN: A numeric or Date\/Time expression that is returned if Expression = ValueN.\nDefault_value: A numeric or Date\/Time expression. If Expression is equal to none of the ValueN arguments, Default_value is returned. (If not specified otherwise, Default_value is 0).",
       "Description": "DecodeN(Expression, Value1, Result1 [, Value2, Result2]... [, Default_value = 0])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date\/Time type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " The function utilizes IF - THEN - ELSE logiс. The result is of numeric or Date\/Time type.\n All ResultN expressions are calculated before comparing Expression to ValueN."
     },
     "DecodeS": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the ValueN arguments.\nValueN - the expression value of which is compared with the Expression argument.\nResultN - the expression of the string type that is returned if the Expression = ValueN.\nDefault_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to \"\").",
+      "Arguments": "Expression: The expression, the value of which is compared against each one of the ValueN arguments.\nValueN: The numbered value to be compared with the Expression argument.\nResultN: A string expression that is returned if Expression = ValueN.\nDefault_value: A string expression. If Expression is equal to none of the ValueN arguments, Default_value is returned. (If not specified otherwise, Default_value is \"\").",
       "Description": "DecodeS(Expression, Value1, Result1 [, Value2, Result2]... [, Default_value = \"\"])",
-      "Output": " Implements IF - THEN - ELSE feature and the function result is related to the string type.\n All ResultN expressions are calculated before the Expression and ValueN comparison."
+      "Output": " The function utilizes IF - THEN - ELSE logiс. The result is of string type.\n All ResultN expressions are calculated before comparing Expression to ValueN."
     },
     "DecodeV": {
-      "Arguments": "Expression - the expression value of which is alternately compared with the values of the Value arguments.\nValue - the expression value of which is compared with the Expression argument.\nResult - the expression that is returned if the Expression = Value.\nDefault_value - the expression, the result of which is returned if the Expression is equal to none of the Values (if it is not stated then it is equal to Null).",
+      "Arguments": "Expression: The expression, the value of which is compared against each one of the Value arguments.\nValue: The value to be compared with the Expression argument.\nResult: An expression that is returned if Expression = Value.\nDefault_value: An expression, the result of which is returned If Expression is equal to none of the Values. (If not specified otherwise, Default_value is Null).",
       "Description": "DecodeV(Expression, Value, Result [, Value, Result]... [, Default_value = Null])",
-      "Output": " Implements IF - THEN - ELSE feature.\n All Result expressions are calculated before the Expression and Values comparison"
+      "Output": " The function utilizes IF - THEN - ELSE logiс.\n All Result expressions are calculated before comparing Expression to Values."
     },
     "Div": {
       "Arguments": "Dividend - integer numeric expression,\nDivisor - integer numeric expression.",
