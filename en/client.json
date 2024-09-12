@@ -1013,7 +1013,7 @@
     "LoopNodeWizardTitle": "Loop Node Selection"
   },
   "components/loop/LoopParamsWizard": {
-    "AutodetectMaxThreadCount": "Auto detect",
+    "AutodetectMaxThreadCount": "Autodetect",
     "GroupColumnMissingFormat": "No \"{0}\" column assigned for grouping",
     "MaxThreadCountMinPrefix": "Value cannot be lower",
     "NoSocketError": "No data source input port for batch processing",
@@ -1046,7 +1046,7 @@
   "components/reformcolumns/ReformColumnsWizard": {
     "ColumnCachingMethodText": "Caching",
     "ColumnExcludedText": "Exclude",
-    "ReformColumnsWizardTitle": "Configure Fields Features"
+    "ReformColumnsWizardTitle": "Configure Field Features"
   },
   "components/replace/ReplaceEditor": {
     "ConvertPrefix": "transformed from",
@@ -2679,7 +2679,7 @@
     "colDisplayNameTuneText": "Caption",
     "CreateMappingToAllConfirm": "Do you really want to create output columns for all inputs?",
     "EmptyListText": "No matching columns",
-    "frmColumnsMappingTitle": "Columns Mapping Settings",
+    "frmColumnsMappingTitle": "Column Mapping Settings",
     "frmColumnsTitle": "Configure Columns",
     "GroupField_MissingFields": "Missing columns",
     "MsgAddedColumnCanNotSelected": "Column has been added, but it is not selected because it does not match the filter",

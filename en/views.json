@@ -3942,7 +3942,7 @@
       "text": "More"
     },
     "lblCommunityBannerText": {
-      "text": "This is a Community Edition — for non-commercial use."
+      "text": "This is Community Edition, for non-commercial use."
     },
     "lblCookiesInfo": {
       "text": "We use cookies. By continuing to use this application, you consent to the use of cookies."
@@ -4378,8 +4378,8 @@
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "btnSuggestFormat": {
-      "text": "Auto detect",
-      "tooltip": "Auto detect all separators and calculate fields structure"
+      "text": "Autodetect",
+      "tooltip": "Autodetect all separators and calculate the structure of fields"
     },
     "frmFixedColumns": {
       "title": "Import Parameters with Fixed-Width Columns"
@@ -6334,7 +6334,7 @@
       "text": "Usage type"
     },
     "frmColumnsMapping": {
-      "title": "Columns Mapping Settings"
+      "title": "Column Mapping Settings"
     },
     "rbLinks": {
       "boxLabel": "Links"

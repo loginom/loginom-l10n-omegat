@@ -282,7 +282,7 @@
   },
   "components/forecast": {
     "ARIMAXParams": {
-      "AutoStructure": "Auto detect structure",
+      "AutoStructure": "Autodetect the structure",
       "CalcConfidenceInterval": "Calculate confidence interval",
       "CalcResiduals": "Calculate the approximation error",
       "ConfidenceInterval": "Forecast confidence level, %",
