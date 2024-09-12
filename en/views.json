@@ -4378,8 +4378,8 @@
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "btnSuggestFormat": {
-      "text": "Autodetect",
-      "tooltip": "Autodetect all separators and calculate the structure of fields"
+      "text": "Auto detect",
+      "tooltip": "Auto detect all separators and calculate the fields structure"
     },
     "frmFixedColumns": {
       "title": "Import Parameters with Fixed-Width Columns"

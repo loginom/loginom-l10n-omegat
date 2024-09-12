@@ -1013,7 +1013,7 @@
     "LoopNodeWizardTitle": "Loop Node Selection"
   },
   "components/loop/LoopParamsWizard": {
-    "AutodetectMaxThreadCount": "Autodetect",
+    "AutodetectMaxThreadCount": "Auto detect",
     "GroupColumnMissingFormat": "No \"{0}\" column assigned for grouping",
     "MaxThreadCountMinPrefix": "Value cannot be lower",
     "NoSocketError": "No data source input port for batch processing",
