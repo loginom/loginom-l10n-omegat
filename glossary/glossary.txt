@@ -343,7 +343,7 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Значение верхней границы	Upper bound value
 Выброс	Outlier
 Экстремальные значения	Extreme values
-Метод обработки выбросов	Outliers elimination method
+Метод обработки выбросов	Outlier elimination method
 Редактирование выбросов	Eliminate outliers
 Среднее разностей	Mean difference
 Отбрасывание дробной части	Truncation of fractional part
