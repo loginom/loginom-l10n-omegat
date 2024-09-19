@@ -239,7 +239,7 @@
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
-    "PackageCloseFormat": "Do you want to close \"{0}\" package also?",
+    "PackageCloseFormat": "Do you want to close package \"{0}\" also?",
     "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
     "ServerDisplayName": "Server",
     "WarnAutoSavePackagesUnsaved": "Failed to autosave packages:\n{0}"
@@ -433,7 +433,7 @@
     "VisibilityTooltip": "Configure visibility..."
   },
   "app/PackagesAutoSavePanel": {
-    "AutoSavePeriodDescriptionFmt": "Packages are saved periodically with the set interval to .autosave files alongside the {0} files, to avoid overwriting the original {0} files.",
+    "AutoSavePeriodDescriptionFmt": "Packages are saved periodically with the set interval to .autosave files alongside the {0} files. The original {0} files are not overwritten.",
     "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages autosave period is specified",
     "ErrPackagesAutoSaveNotSpecified": "Packages autosave period is not specified"
   },
@@ -1666,8 +1666,8 @@
     "CleanTitle": "Clean List",
     "HomePageLocale": "en",
     "NoNewsLog": "Failed to get news",
-    "RemoveFromHistoryFmt": "No \"{0}\" file found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
-    "RemoveFromHistoryTitle": "No File Found",
+    "RemoveFromHistoryFmt": "File \"{0}\" not found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
+    "RemoveFromHistoryTitle": "File Not Found",
     "RemoveNoRightsFmt": "User \"{0}\" has no rights to open packages",
     "RemoveNoRightsTitle": "Failed to Open Package"
   },
@@ -2932,7 +2932,7 @@
     "ModifyVariableTitle": "Edit Variable"
   },
   "wizards/variables/VariablesEditValuesWizard": {
-    "frmColumnsMappingTitle": "Configure Variables Values"
+    "frmColumnsMappingTitle": "Configure Variable Values"
   },
   "wizards/variables/VariablesEditWizard": {
     "colDisplayNameTuneText": "Caption",

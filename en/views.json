@@ -364,7 +364,7 @@
       "boxLabel": "Retrain the node and all its subnodes.<br>During batch processing, this node, and all its subnodes for which the model can be rebuilt, will be activated in training mode. When the feature is disabled, the specified node and all its subnodes will not be activated for batch mode training."
     },
     "cntBatchProcModes": {
-      "title": "Available Modes of Batch Processing"
+      "title": "Valid Modes of Batch Processing"
     },
     "cntBatchProcOverrideMode": {
       "title": "Specified Mode of Node Activation"
@@ -2487,7 +2487,7 @@
       "title": "Determination of Outliers and Extreme Values"
     },
     "cntOutMethod": {
-      "title": "Outliers Elimination Method"
+      "title": "Outlier Elimination Method"
     },
     "colDataKind": {
       "text": "Data kind"
@@ -4379,10 +4379,10 @@
   "imports/textfile/ImportTextFileParamsWizard": {
     "btnSuggestFormat": {
       "text": "Auto detect",
-      "tooltip": "Auto detect all separators and calculate the fields structure"
+      "tooltip": "Autodetect all separators and compute the structure of fields"
     },
     "frmFixedColumns": {
-      "title": "Import Parameters with Fixed-Width Columns"
+      "title": "Parameters of Fixed-Width Columns Import"
     },
     "frmImportSettings": {
       "title": "Configure Import Formats"
@@ -4511,7 +4511,7 @@
       "text": "Process"
     },
     "colProcessTime": {
-      "text": "Process time"
+      "text": "Processing time"
     },
     "colProgress": {
       "text": "Processing"
@@ -4797,7 +4797,7 @@
       "tooltip": "Reset zoom Y"
     },
     "cntChartInvite": {
-      "html": "Move fields to the chart area by dragging from the left list of available fields"
+      "html": "Add fields to the chart area by dragging them from the available fields list on the left"
     },
     "colFieldName": {
       "text": "Fields"
@@ -5724,7 +5724,7 @@
       "title": "Configure Parameters"
     },
     "rbDetectQuartile": {
-      "boxLabel": "Interquartile Width"
+      "boxLabel": "Interquartile width"
     },
     "rbDetectSko": {
       "boxLabel": "Standard deviation"

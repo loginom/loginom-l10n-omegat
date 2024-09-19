@@ -585,7 +585,7 @@
   },
   "components/calcdata/CalcData": {
     "ErrExceededRecursiveCalls": "Maximum number of (%d) recursive calls of Data function in \"%s\" expression exceeded.\nTo solve this problem it is required to enable Caching.",
-    "ErrExprIsStringType": "\"%s\" expression of string type",
+    "ErrExprIsStringType": "Expression \"%s\" must be of string type",
     "ErrGetVarArrayUnsupported": "Variant arrays can be returned by intermediate expressions only (expression \"%s\", row %d)",
     "ErrReplacingInputColumnNotFound": "Input field to replace with expression \"%s\" not found",
     "ErrVarExprAmbiguity": "\"%0:s\" can be input variable or intermediate expression. To allow nonuniqueness, use \"%1:s%0:s\" to access the variable or rename \"%0:s\" expression.",
@@ -653,7 +653,7 @@
   },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Error calculating \"%s\" expression",
-    "ErrExprIsStringType": "\"%s\" expression of string type",
+    "ErrExprIsStringType": "Expression \"%s\" must be of string type",
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrReplacingInputVariableNotFound": "Input variable to replace with expression \"%s\" not found",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
@@ -1584,7 +1584,7 @@
     "ErrPythonInProcessNotSupported": "Python execution inside the process is not supported, Python is started in the separate process.",
     "InputPortOptional": "Input port is optional",
     "OutputDataFrameExample": "Resulting output pd.DataFrame",
-    "PrepareCompatibleComment": "If \"Allow creating output columns in script\" option is enabled, the output data set structure can be prepared from pd.DataFrame"
+    "PrepareCompatibleComment": "If \"Allow generating output columns from code\" option is enabled, the output data set structure can be prepared from pd.DataFrame"
   },
   "components/python/PythonEngineImpl": {
     "ErrPreviewPythonIsBusy": "Python is busy. Failed to start preview",

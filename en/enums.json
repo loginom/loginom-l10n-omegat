@@ -625,7 +625,7 @@
       "ZeroValue": "Replace with 0"
     },
     "ActionOut": {
-      "$Caption": "Outliers Elimination Method",
+      "$Caption": "Outlier Elimination Method",
       "NoDefine": "Not defined",
       "None": "Leave unchanged",
       "Delete": "Delete records",
@@ -772,8 +772,8 @@
   "exports/excelfile": {
     "ExcelCaptionType": {
       "$Caption": "Column Header Type",
-      "AsName": "Fields names",
-      "AsDisplayName": "Fields captions"
+      "AsName": "Field names",
+      "AsDisplayName": "Field captions"
     },
     "ExcelHeadersRow": {
       "$Caption": "Column Headers",
@@ -784,8 +784,8 @@
     "ExcelHeadersRowWebSet": {
       "$Caption": "Column Headers",
       "NoHeadersRow": "No header row",
-      "HeadersRowAsName": "Fields names",
-      "HeadersRowAsDisplayName": "Fields captions"
+      "HeadersRowAsName": "Field names",
+      "HeadersRowAsDisplayName": "Field captions"
     },
     "ExcelLimitRowType": {
       "$Caption": "Row Limit Type",
@@ -1338,8 +1338,8 @@
     "TextFileCaptionType": {
       "$Caption": "Column Headers",
       "NoCaption": "No header row",
-      "UseColumnNames": "Fields names",
-      "UseColumnDisplayNames": "Fields captions"
+      "UseColumnNames": "Field names",
+      "UseColumnDisplayNames": "Field captions"
     },
     "TextFileFormatType": {
       "$Caption": "Type for Data Format",
