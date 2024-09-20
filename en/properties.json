@@ -1,7 +1,7 @@
 {
   "Common/CodeExec/CodeModelComponentEngine": {
     "CodeModelComponentEngine": {
-      "CodeConfigurableColumns": "Allow generating output columns from code"
+      "CodeConfigurableColumns": "Allow creating output columns in script"
     }
   },
   "Common/HTTPClient/HTTPClientEngine": {

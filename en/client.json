@@ -2974,7 +2974,7 @@
     "BtnSaveCaption": "Save",
     "BtnSaveWhateverCaption": "Save Anyway",
     "BtnWhateverCaption": "Next Anyway",
-    "ConfirmCloseWizard": "Are you sure you want to close the wizard?",
+    "ConfirmCloseWizard": "Do you really want to close the wizard?",
     "ErrJumpToUndefinedPage": "An attempt to jump to an invalid page",
     "MsgBoxTitle": "Attention",
     "MsgCantJumpToPage": "Next move forbidden"
