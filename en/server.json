@@ -780,8 +780,8 @@
     "ErrColumnNullDataFmt": "Failed to generate fine classes for \"%s\" field: all values are null",
     "ErrDataTypesNotMatch": "The specified column data type does not match the data type of the coarse classes",
     "ErrNotPositiveIntervalsCount": "Bin count must be more than 0",
-    "ErrProcessKeptStatisticsExistentValue": "Previously present value \"%s\" not located in field \"%s\" while building fine classes",
-    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value appeared in field \"%s\" while building fine classes",
+    "ErrProcessKeptStatisticsExistentValue": "Value \"%1:s\" not located in field \"%0:s\" while building fine classes. The value was there before",
+    "ErrProcessKeptStatisticsNonExistentValue": "A new unique value located in field \"%s\" while building fine classes",
     "From": "from ",
     "NullClass": "Null class",
     "To": "to "
@@ -2852,8 +2852,8 @@
     "ErrDataSourceNotAssigned": "No data set reference",
     "ErrNullsNotAllowed": "Null values are not allowed (null value in \"%s\" column)",
     "ErrProcessKeptStatistics": "Errors occurred while calculating the list of unique values",
-    "ErrProcessKeptStatisticsNonExistentNull": "Previously missing null value was found in \"%s\" field",
-    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value \"%1:s\" located in field \"%0:s\"",
+    "ErrProcessKeptStatisticsNonExistentNull": "A new null value located in field \"%s\"",
+    "ErrProcessKeptStatisticsNonExistentValue": "A new unique value \"%1:s\" located in field  \"%0:s\". The value was not in the list of the field's unique values during training",
     "ErrStatisticsBuildCookieInvalidOwner": "The statistics builder Cookie belongs to another object",
     "ErrStatisticsBuildCookieIsNil": "Attempt to complete the calculation completion operation with null reference to the statistics builder Cookie"
   },

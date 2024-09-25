@@ -358,10 +358,10 @@
       "text": "Cancel"
     },
     "chbRunBatchMode": {
-      "boxLabel": "Run the node and all its subnodes.<br>During batch processing, this node and all its subnodes will be activated in run mode. When the feature is disabled, the specified node and all its subnodes will not be activated for batch mode execution."
+      "boxLabel": "Run the node and all its subnodes.<br>During batch processing, this node and all its subnodes will be activated in run mode. When the feature is disabled, the node and all its subnodes will not be activated in run mode during batch processing."
     },
     "chbTeachBatchMode": {
-      "boxLabel": "Retrain the node and all its subnodes.<br>During batch processing, this node, and all its subnodes for which the model can be rebuilt, will be activated in training mode. When the feature is disabled, the specified node and all its subnodes will not be activated for batch mode training."
+      "boxLabel": "Retrain the node and all its subnodes.<br>During batch processing, this node, and all its subnodes for which the model can be rebuilt, will be activated in training mode. When the feature is disabled, the node and all its subnodes will not be activated in training mode during batch processing."
     },
     "cntBatchProcModes": {
       "title": "Valid Modes of Batch Processing"
@@ -2481,7 +2481,7 @@
   },
   "components/elimoutlier/ElimOutlierWizard": {
     "cntExtrMethod": {
-      "title": "Extreme Values Processing Method"
+      "title": "Extreme Outlier Processing Method"
     },
     "cntOutExtrSettings": {
       "title": "Determination of Outliers and Extreme Values"
@@ -4797,7 +4797,7 @@
       "tooltip": "Reset zoom Y"
     },
     "cntChartInvite": {
-      "html": "Add fields to the chart area by dragging them from the available fields list on the left"
+      "html": "Drag fields to the chart area from the list of available fields on the left"
     },
     "colFieldName": {
       "text": "Fields"

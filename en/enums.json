@@ -599,7 +599,7 @@
   },
   "components/quality": {
     "ActionExtr": {
-      "$Caption": "Extremes Processing Method",
+      "$Caption": "Extreme Outliers Processing Method",
       "NoDefine": "Not defined",
       "None": "Leave unchanged",
       "Delete": "Delete records",
