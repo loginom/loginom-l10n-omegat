@@ -215,7 +215,7 @@
   },
   "components/elimoutlier": {
     "ElimOutlierColumnDefExtension": {
-      "ActionExtr": "Extreme outlier processing method",
+      "ActionExtr": "Extreme value processing method",
       "ActionOut": "Outlier elimination method",
       "DetectEKvartil": "For extreme",
       "DetectESko": "For extreme",
