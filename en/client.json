@@ -433,7 +433,7 @@
     "VisibilityTooltip": "Configure visibility..."
   },
   "app/PackagesAutoSavePanel": {
-    "AutoSavePeriodDescriptionFmt": "Packages are saved periodically, at the specified interval, to new files with a .autosave extension alongside the original {0} files. The {0} files remain unchanged.",
+    "AutoSavePeriodDescriptionFmt": "Packages are saved periodically, at the specified interval, to new files with a .autosave extension alongside the {0} files. The original {0} files remain unchanged.",
     "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages autosave period is specified",
     "ErrPackagesAutoSaveNotSpecified": "Packages autosave period is not specified"
   },
