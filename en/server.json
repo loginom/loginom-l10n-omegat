@@ -1462,7 +1462,7 @@
     "CVProcessCaption": "Cross validation",
     "CVTrainSetPrepareProcessCaption": "Preparing training set",
     "CVValidationSetPrepareProcessCaption": "Preparing validation set",
-    "DecayDegree": "Коэффициент регуляризации",
+    "DecayDegree": "Decay coefficient",
     "ErrCannotContinueTraining": "Failed to continue training since the structure of the trained neural network does not correspond to the new training parameters",
     "ErrClassifierUnknownClass": "Unknown class is present in the output classifier column",
     "ErrDataSourceNumInputsMismatch": "The input data dimensionality %d mismatches the neural network inputs number %d",
@@ -1481,12 +1481,12 @@
     "ErrTrainNetworkError": "Neural network training failed",
     "ErrWrongNeuronCounts": "One or several invalid neuron count values specified",
     "ExecuteProcessCaption": "Input data iteration",
-    "FitDecayProcessCaption": "Обучение: коэффициент регуляризации = %.6g",
-    "FitH0DecayProcessCaption": "Обучение: без скрытых слоев; коэффициент регуляризации = %.6g",
+    "FitDecayProcessCaption": "Training: decay coefficient = %.6g",
+    "FitH0DecayProcessCaption": "Training: without hidden layers; decay coefficient = %.6g",
     "FitH0ProcessCaption": "Training: without hidden layers",
-    "FitH1DecayProcessCaption": "Обучение: один скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
+    "FitH1DecayProcessCaption": "Training: one hidden layer = %d neurons; decay coefficient = %.6g",
     "FitH1ProcessCaption": "Training: one hidden = %d layer of neurons",
-    "FitH2DecayProcessCaption": "Обучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
+    "FitH2DecayProcessCaption": "Training: first hidden layer = %d neurons; second hidden layer = %d neurons; decay coefficient = %.6g",
     "FitH2ProcessCaption": "Training: first hidden layyer = %d neurons; second hidden layer = %d neurons",
     "HLSize": "Number of neurons in the hidden layers (same)",
     "Nh1": "Number of neurons in the first hidden layer",
@@ -1545,7 +1545,7 @@
     "TrainSamples": "Samples in the training set"
   },
   "components/neuralnet/NeuralNetParams": {
-    "Decay": "Коэффициент регуляризации",
+    "Decay": "Decay coefficient",
     "ErrFloatValuesRelation": "\"%s\": parameter value (%f) must not exceed \"%s\" parameter value (%f)",
     "MaxEpochs": "Maximum number of epochs",
     "NRestarts": "Number of restarts",
@@ -4953,7 +4953,7 @@
   },
   "Warehouse2/MDTree": {
     "ErrColumnCantBeContinuous": "\"%s\" object of \"%s\" type cannot be continuous",
-    "ErrMismatchVersionInfo": "Deductor Warehouse versions do not match. Component: \"%s\". BD DW: \"%s\"",
+    "ErrMismatchVersionInfo": "Deductor Warehouse versions do not match. Component: \"%s\". DB DW: \"%s\"",
     "ErrNodeTypeExist": "Subnode of the specified \"%s\" type already exists"
   }
 }
