@@ -147,17 +147,17 @@
     "SaveBtnText": "Сохранить"
   },
   "admin/UserListForm": {
-    "AllowPublish": "Публикация пакетов",
-    "AuthMode": "Аутентификация",
-    "Blocked": "Заблокирован",
+    "AllowPublishTitle": "Публикация пакетов",
+    "AuthModeTitle": "Аутентификация",
+    "BlockedTitle": "Заблокирован",
     "DeleteUserConfirm": "При удалении пользователя можно также удалить его папку и задачи в планировщике.\nУдалить пользователя {0}?",
     "DeleteUserConfirmNo": "Удалить только пользователя",
     "DeleteUserConfirmYes": "Удалить пользователя и данные",
-    "DisplayName": "Полное имя",
-    "GlobalFileStorage": "Доступ ко всем файлам",
-    "Name": "Логин",
-    "Roles": "Роли",
-    "SchedulerFullAccess": "Доступ ко всем задачам",
+    "DisplayNameTitle": "Полное имя",
+    "GlobalFileStorageTitle": "Доступ ко всем файлам",
+    "LoginTitle": "Логин",
+    "RolesTitle": "Роли",
+    "SchedulerFullAccessTitle": "Доступ ко всем задачам",
     "Update": "Обновить"
   },
   "admin/UserModel": {
@@ -195,9 +195,9 @@
   },
   "app/ConfigureDerivedVendorForm": {
     "AddBtnText": "Добавить",
-    "EditVendor": "Настройка производного компонента",
+    "EditVendorTitle": "Настройка производного компонента",
     "ErrMustSelectTargets": "Необходимо установить хотя бы один из флагов: \"{0}\" или \"{1}\"",
-    "NewVendor": "Новый производный компонент",
+    "NewVendorTitle": "Новый производный компонент",
     "SaveBtnText": "Сохранить"
   },
   "app/FindNodeForm": {
@@ -228,7 +228,7 @@
     "ConfirmCannotCloseModel": "Невозможно закрыть модуль \"{0}\" в пакете \"{1}\".\nНекоторые из узлов в данный момент заблокированы.\nВы хотите отменить активные процессы и закрыть пакет без сохранения?",
     "ConfirmQuitSave": "Сохранить изменения в пакете \"{0}\"?",
     "ErrAccessDenied": "Отказано в доступе",
-    "ErrOpenUrlPath": "Не удается открыть URL \"{0}\".\nОшибка: \"{1}\".",
+    "ErrOpenUrlPath": "Не удается открыть URL \"{0}\".\nОшибка: {1}.",
     "ErrPackageDontExists": "Пакет с именем \"{0}\" не найден",
     "ErrPackageNotSaved": "Текущий пакет не сохранён",
     "ErrUrlPathNotFound": "Ветка с именем \"{0}\" не найдена.",
@@ -440,7 +440,7 @@
   "app/PackagesListForm": {
     "CurrentLocale": "Текущая локаль \"{0}\".",
     "DefaultLocaleModified": "изменена",
-    "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: \"{1}\".",
+    "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: {1}.",
     "ErrPathNotFound": "Указанный путь не найден \"{0}\".",
     "MsgNewLocaleAfterReopen": "Новая локаль будет применена после закрытия пакета и всех зависимых от него открытых пакетов.",
     "NotSet": "Не задана ({0})"
@@ -486,7 +486,7 @@
   },
   "app/PublishedPackagesListForm": {
     "ConfirmFinish": "Завершить публикацию пакета {0}?",
-    "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: \"{1}\".",
+    "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: {1}.",
     "ErrPathNotFound": "Указанный путь не найден \"{0}\"."
   },
   "app/ReferencesListForm": {
@@ -557,7 +557,7 @@
     "ErrDisableJobsFailFmt": "Не удалось запретить выполнение задач: \"{0}\"",
     "ErrEnableJobsFailFmt": "Не удалось разрешить выполнение задач: \"{0}\"",
     "ErrJobNotFoundFmt": "Задача \"{0}\" удалена",
-    "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: \"{1}\".",
+    "ErrOpenPath": "Не удается открыть путь \"{0}\".\nОшибка: {1}.",
     "ErrPathNotFound": "Указанный путь не найден \"{0}\".",
     "JobVersionChangedPromptFmt": "Задача \"{0}\" изменена в другой сессии. Перезаписать изменения своими?",
     "JobVersionChangedPromptNo": "Закрыть без сохранения",
@@ -1026,7 +1026,6 @@
     "DecayNone": "Отсутствует",
     "DecayStrong": "Сильная",
     "DecayVeryStrong": "Очень сильная",
-    "DecayVeryWeak": "Очень слабая",
     "DecayWeak": "Слабая"
   },
   "components/python/PythonCodeMirrorController": {
@@ -1112,6 +1111,10 @@
     "InvalidRowDescFmt": "Входное поле \"{0}\" не найдено",
     "MultiDeleteConfirm": "Отменить сортировку для выбранных полей?",
     "NotCaseSensitiveActionDesc": "Не учитывать регистр"
+  },
+  "components/sorting/SortingWizard": {
+    "AutoMaxThreadCount": "Автоопределение",
+    "ErrNotInteger": "Значение должно быть целым числом"
   },
   "components/treetodata/TreeToDataWizard": {
     "GlobalNodeIndex": "Глобальный индекс узла"
@@ -1579,8 +1582,8 @@
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "Данная операция не поддерживается в вашем браузере.",
     "CantCreateFolder": "Не удалось создать каталог",
-    "CantDeleteFile": "Не удалось удалить файл",
-    "CantDeleteFolder": "Не удалось удалить каталог",
+    "CantDeleteFileFmt": "Не удалось удалить файл {0}",
+    "CantDeleteFolderFmt": "Не удалось удалить каталог {0}",
     "CantDownloadFolder": "Пока что нельзя скачивать каталоги",
     "ConfirmDeleteAll": "Вы действительно хотите удалить все?",
     "ConfirmDeleting": "Вы действительно хотите удалить выделенное?",
@@ -1753,8 +1756,15 @@
     "TabCharacter": "Символ табуляции"
   },
   "imports/textfile/EncodingStore": {
+    "Encoding0": "Центральноевропейская (1250)",
     "Encoding1": "Кириллическая (1251)",
-    "Encoding2": "Западноевропейская (1252)"
+    "Encoding2": "Западноевропейская (1252)",
+    "Encoding3": "Греческая (1253)",
+    "Encoding4": "Турецкая (1254)",
+    "Encoding5": "Иврит (1255)",
+    "Encoding6": "Арабская (1256)",
+    "Encoding7": "Балтийская (1257)",
+    "Encoding8": "Вьетнамская (1258)"
   },
   "imports/textfile/FormatOptions": {
     "BackSlash": "Обратный слэш (\\)",
@@ -1987,8 +1997,8 @@
   },
   "lib/Exceptions": {
     "Error": "В процессе работы программы возникла ошибка.\n{0}",
-    "ErrWindowFull": "В процессе работы программы возникла ошибка.\nОшибка: \"{0}\"\nUrl: \"{1}\"\nСтрока: {2} Символ: {3}",
-    "ErrWindowUrl": "В процессе работы программы возникла ошибка.\nUrl: \"{1}\"\nСтрока: {2} Символ: {3}",
+    "ErrWindowFull": "В процессе работы программы возникла ошибка.\nОшибка: {0}\nUrl: {1}\nСтрока: {2} Символ: {3}",
+    "ErrWindowUrl": "В процессе работы программы возникла ошибка.\nUrl: {1}\nСтрока: {2} Символ: {3}",
     "UndefinedError": "Неизвестная ошибка"
   },
   "lib/Loader": {
@@ -2187,7 +2197,7 @@
     "ErrPropertyPathIsNil": "Не задано имя свойства"
   },
   "rpc/CustomClient": {
-    "ErrConnectToServerEx": "Подключиться к серверу не удалось.\nОшибка: {0}.",
+    "ErrConnectToServerEx": "Подключиться к серверу не удалось.\nОшибка: {0}",
     "ErrSocketNotPrepared": "Сокет не подготовлен."
   },
   "rpc/EnumTypeInfoService": {
@@ -2975,8 +2985,8 @@
     "BtnSaveWhateverCaption": "Всё равно сохранить",
     "BtnWhateverCaption": "Всё равно далее",
     "ConfirmCloseWizard": "Вы действительно хотите закрыть мастер настройки?",
+    "ConfirmMsgBoxTitle": "Подтвердить",
     "ErrJumpToUndefinedPage": "Переход на несуществующую страницу",
-    "MsgBoxTitle": "Внимание",
     "MsgCantJumpToPage": "Переход запрещен"
   },
   "wizards/WizardModelComponentForm": {

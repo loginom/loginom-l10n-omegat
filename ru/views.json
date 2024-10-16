@@ -937,6 +937,7 @@
       "text": "Отменить"
     },
     "chbEnableAutoSave": {
+      "boxLabel": " ",
       "fieldLabel": "Включить автосохранение"
     },
     "edtAutoSavePeriod": {
@@ -1271,21 +1272,27 @@
       "fieldLabel": "Запускаемый пакет"
     },
     "chkEnabled": {
+      "boxLabel": " ",
       "fieldLabel": "Разрешить выполнение"
     },
     "chkRepeat": {
+      "boxLabel": " ",
       "fieldLabel": "Повтор"
     },
     "chkSavePackage": {
+      "boxLabel": " ",
       "fieldLabel": "Сохранять пакет после переобучения"
     },
     "chkSkipOverlappedExecution": {
+      "boxLabel": " ",
       "fieldLabel": "Пропускать запуск при наличии активной сессии"
     },
     "chkStartIfMissedSchedule": {
+      "boxLabel": " ",
       "fieldLabel": "Запустить сразу если пропущен запуск"
     },
     "chkTeach": {
+      "boxLabel": " ",
       "fieldLabel": "Переобучать модели при запуске"
     },
     "colDeleteVariable": {
@@ -1597,12 +1604,15 @@
       "fieldLabel": "Идентификатор"
     },
     "chkRoundingLevel": {
+      "boxLabel": " ",
       "fieldLabel": "Округлять границы"
     },
     "chkStrictLowerLimit": {
+      "boxLabel": " ",
       "fieldLabel": "Задать нижнюю границу"
     },
     "chkStrictUpperLimit": {
+      "boxLabel": " ",
       "fieldLabel": "Задать верхнюю границу"
     },
     "edtBinWidth.valueConfig": {
@@ -1697,12 +1707,6 @@
     },
     "frmForExternalBins": {
       "title": "Настройка внешних интервалов"
-    },
-    "grdColKinds": {
-      "title": "нет поиска"
-    },
-    "grdExtBinsColumns": {
-      "title": "нет поиска"
     }
   },
   "components/calcdata/CalcDataWizard": {
@@ -2575,6 +2579,7 @@
       "fieldLabel": "Условие"
     },
     "chkCaseSensitiveSimple": {
+      "boxLabel": " ",
       "fieldLabel": "Учитывать регистр"
     },
     "dtCompareValuePeriodBaseDateSimple": {
@@ -2825,6 +2830,9 @@
     },
     "edPrecisionDTime": {
       "fieldLabel": "Точность"
+    },
+    "edtReplaceOtherBool": {
+      "boxLabel": " "
     },
     "frmReplaceWizard": {
       "title": "Замена"
@@ -4589,6 +4597,7 @@
       "fieldLabel": "Поле"
     },
     "chbSearchCaseSensitive": {
+      "boxLabel": " ",
       "fieldLabel": "Регистр"
     },
     "lblSearchResult": {
@@ -4621,9 +4630,11 @@
   },
   "viewers/browse/BrowseSorting": {
     "chkBufferWhole": {
+      "boxLabel": " ",
       "fieldLabel": "Кэшировать все данные"
     },
     "chkLocaleAware": {
+      "boxLabel": " ",
       "fieldLabel": "Сравнивать с учётом локали"
     }
   },
@@ -4744,6 +4755,7 @@
       "fieldLabel": "Динамика"
     },
     "chbShowGrid": {
+      "boxLabel": " ",
       "fieldLabel": "Показывать сетку"
     },
     "chbUserRange": {
@@ -4888,6 +4900,7 @@
       "boxLabel": "Нормировать"
     },
     "chbTooltipShared": {
+      "boxLabel": " ",
       "fieldLabel": "Объединять подсказки"
     },
     "clrChart": {
@@ -5825,9 +5838,11 @@
       "boxLabel": "Отрицательные красным"
     },
     "cbScientific": {
+      "boxLabel": " ",
       "fieldLabel": "Экспоненциальная форма"
     },
     "cbThousand": {
+      "boxLabel": " ",
       "fieldLabel": "Разделитель разрядов"
     },
     "cntFormat": {
@@ -6137,6 +6152,7 @@
       "boxLabel": "Включать Null-значение в гистограмму"
     },
     "chkRound": {
+      "boxLabel": " ",
       "fieldLabel": "Округлять"
     },
     "chkUpperBound": {
@@ -6748,9 +6764,11 @@
       "fieldLabel": "Назначение"
     },
     "chbIsArray": {
+      "boxLabel": " ",
       "fieldLabel": "Массив"
     },
     "chbIsContainer": {
+      "boxLabel": " ",
       "fieldLabel": "Контейнер"
     },
     "edtDisplayName": {
@@ -6855,6 +6873,7 @@
       "fieldLabel": "Нормализатор"
     },
     "chbIrremovable": {
+      "boxLabel": " ",
       "fieldLabel": "Неудаляемая"
     },
     "edImportance": {
@@ -6872,6 +6891,7 @@
       "fieldLabel": "Метод контроля"
     },
     "chbUserRange": {
+      "boxLabel": " ",
       "fieldLabel": "Ручная настройка"
     },
     "cntControlRangeSettings": {

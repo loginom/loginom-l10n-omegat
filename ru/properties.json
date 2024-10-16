@@ -357,14 +357,14 @@
       "NetworkParams": "Настройки нейросети"
     },
     "NeuralNetworkAutofitParams": {
-      "DecayAutofit": "Подобрать степень регуляризации",
+      "DecayAutofit": "Подобрать коэффициент регуляризации",
       "MaxAutofitSeconds": "Время автоподбора не более (сек)",
       "MaxAutofitStages": "Шагов автоподбора не более",
       "StopAtZeroClsError": "Останов при нулевой ошибке классификации",
       "StructureAutofit": "Подобрать структуру",
       "SubSampleMaxSize": "Максимальный размер выборки",
       "SubSamplePercent": "Размер выборки в процентах",
-      "UseInitialDecay": "Начать с указанной степени регуляризации",
+      "UseInitialDecay": "Начать с указанного коэффициента регуляризации",
       "UseInitialStructure": "Начать с указанной структуры",
       "UseSubSampling": "Использовать подмножество обучающего набора"
     },
@@ -388,7 +388,6 @@
     },
     "NeuralNetworkTrainingParams": {
       "ContinueTraining": "Продолжить обучение",
-      "Decay": "Степень регуляризации",
       "NRestarts": "Количество рестартов"
     }
   },
@@ -450,7 +449,8 @@
   "components/sorting": {
     "SortingEngine": {
       "BufferWhole": "Кэшировать все данные",
-      "LocaleAware": "Сравнивать с учётом локали"
+      "LocaleAware": "Сравнивать с учётом локали",
+      "MaxThreadCount": "Максимальное количество потоков"
     }
   },
   "components/treetodata": {

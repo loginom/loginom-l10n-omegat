@@ -74,6 +74,8 @@
     "ErrServerDisconnectError": "Error of disconnection from {0} server",
     "ErrUnixSocketIsRequired": "unixsocket attribute must be defined",
     "ErrUpdatePackageDefsError": "Error of package update for {0} server",
+    "ExecutingOnServer": "Processing the request on server {0}",
+    "PackageIsNoLongerConflicting": "Publication of package \"{1}\" (version \"{2}\") restored on server {0}. The package does not conflict with other packages any more",
     "UnixSocketFileName": "loginomd"
   },
   "IntegratorCore/ServiceHelper": {
@@ -96,10 +98,10 @@
     "SendingResponse": "Response sending"
   },
   "IntegratorCore/ServiceTypeBuilder": {
-    "ErrNoPublishedPackages": "No published packages",
     "ErrRootNodeNotFound": "Root tree node not found",
     "ErrTreeMustHaveSingleRootNode": "Tree cannot contain more than one root node",
-    "Namespace": "http:\/\/schemas.loginom.com\/integration",
+    "Namespace": "http://schemas.loginom.com/integration",
+    "NoPublishedPackages": "No published packages",
     "NoPublishedPackagesServiceDocumentation": "No packages have been published for now. To use packages as a web service, you must first publish them to Loginom Server."
   },
   "IntegratorCore/UriQueryParamsModelBinder": {

@@ -1,7 +1,7 @@
 {
   "about/About": {
     "btnBugReport": {
-      "href": "https:\/\/loginom.com\/company\/feedback?type=2",
+      "href": "https://loginom.com/company/feedback?type=2",
       "text": "Report a problem"
     },
     "btnLicenseAgreement": {
@@ -14,7 +14,7 @@
       "text": "Open Source Software"
     },
     "btnWhatsNew": {
-      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
+      "href": "https://loginom.com/tags/release-notes/",
       "text": "What's new?"
     },
     "frmAbout": {
@@ -129,7 +129,7 @@
       "tooltip": "Close session or package"
     },
     "btnMaintenance": {
-      "tooltip": "Enter\/Leave server maintenance mode..."
+      "tooltip": "Enter/Leave server maintenance mode..."
     },
     "btnRefresh": {
       "text": "Refresh",
@@ -158,10 +158,10 @@
       "text": "Activity"
     },
     "colCreateTime": {
-      "text": "Create Time"
+      "text": "Created"
     },
     "colModifyTime": {
-      "text": "Save Time"
+      "text": "Saved"
     },
     "colPath": {
       "text": "Path"
@@ -171,7 +171,7 @@
       "tooltip": "Main user role in session"
     },
     "colSession": {
-      "text": "Sessions and packages"
+      "text": "Sessions and Packages"
     },
     "colSessionHost": {
       "text": "Host"
@@ -198,19 +198,19 @@
       "tooltip": "Refresh lists"
     },
     "colDirName": {
-      "text": "Folder name"
+      "text": "Folder Name"
     },
     "colDirPath": {
       "text": "Path"
     },
     "colUserDisplayName": {
-      "text": "Full name"
+      "text": "Full Name"
     },
     "colUserName": {
       "text": "User"
     },
     "grdPermissions": {
-      "title": "Folder Permissions"
+      "title": "Folder Access Permissions"
     },
     "grdSharedDirectories": {
       "title": "Shared Folders"
@@ -256,7 +256,7 @@
       "boxLabel": "Administration"
     },
     "chkAllowPublish": {
-      "boxLabel": "Allow packages publishing"
+      "boxLabel": "Allow publishing packages"
     },
     "chkBlocked": {
       "boxLabel": "Block account"
@@ -358,10 +358,10 @@
       "text": "Cancel"
     },
     "chbRunBatchMode": {
-      "boxLabel": "Run a node and all its sub nodes.<br>During the batch processing, this node and all its subnodes will be activated in the run mode. When the feature is disabled, the specified node and all its subnodes will not be activated for execution in the batch mode."
+      "boxLabel": "Run the node and all its subnodes.<br>During batch processing, this node and all its subnodes will be activated in run mode. When the feature is disabled, the node and all its subnodes will not be activated in run mode during batch processing."
     },
     "chbTeachBatchMode": {
-      "boxLabel": "Retrain a node and all its sub nodes.<br>During the batch processing, this node and all its subnodes for which the model can be rebuilt, will be activated in the training mode. When the feature is disabled, the specified node and all its subnodes will not be activated for training in the batch mode."
+      "boxLabel": "Retrain the node and all its subnodes.<br>During batch processing, this node, and all its subnodes for which the model can be rebuilt, will be activated in training mode. When the feature is disabled, the node and all its subnodes will not be activated in training mode during batch processing."
     },
     "cntBatchProcModes": {
       "title": "Valid Modes of Batch Processing"
@@ -495,7 +495,7 @@
       "tooltip": "Set up..."
     },
     "btnShowDescription": {
-      "tooltip": "Show\/hide property inspector"
+      "tooltip": "Show/hide property inspector"
     },
     "btnTable": {
       "tooltip": "Table"
@@ -606,7 +606,7 @@
       "tooltip": "Expand"
     },
     "btnExpandToNodes": {
-      "tooltip": "Expand\/collapse to nodes"
+      "tooltip": "Expand/collapse to nodes"
     },
     "btnFindNode": {
       "tooltip": "Find node..."
@@ -618,7 +618,7 @@
       "tooltip": "Delete node..."
     },
     "btnSetNodeActive": {
-      "tooltip": "Open\/close node"
+      "tooltip": "Open/close node"
     },
     "btnShow": {
       "tooltip": "Open"
@@ -653,7 +653,7 @@
       "tooltip": "Clone node"
     },
     "btnComposeExpandGenericModel": {
-      "tooltip": "Collapse nodes to supernode \/ Expand supernode"
+      "tooltip": "Collapse nodes to supernode / Expand supernode"
     },
     "btnCopy": {
       "tooltip": "Copy"
@@ -715,7 +715,7 @@
       "tooltip": "Show source nodes for Reference Nodes"
     },
     "btnShowVendors": {
-      "tooltip": "Show\/hide component panel"
+      "tooltip": "Show/hide component panel"
     },
     "btnSocketItemCountToggle": {
       "tooltip": "Show count in output ports"
@@ -793,7 +793,7 @@
       "tooltip": "Run node"
     },
     "btnTogglePropInspector": {
-      "tooltip": "Show\/hide property inspector"
+      "tooltip": "Show/hide property inspector"
     },
     "btnWorkFlow": {
       "tooltip": "Show as workflow"
@@ -937,6 +937,7 @@
       "text": "Cancel"
     },
     "chbEnableAutoSave": {
+      "boxLabel": " ",
       "fieldLabel": "Enable autosave"
     },
     "edtAutoSavePeriod": {
@@ -1170,7 +1171,7 @@
       "text": "Change date"
     },
     "colLabel": {
-      "text": "Path \/ Caption"
+      "text": "Path / Caption"
     },
     "colName": {
       "text": "Name"
@@ -1271,21 +1272,27 @@
       "fieldLabel": "Package to start"
     },
     "chkEnabled": {
+      "boxLabel": " ",
       "fieldLabel": "Enable execution"
     },
     "chkRepeat": {
+      "boxLabel": " ",
       "fieldLabel": "Repeat"
     },
     "chkSavePackage": {
+      "boxLabel": " ",
       "fieldLabel": "Save package after retraining"
     },
     "chkSkipOverlappedExecution": {
+      "boxLabel": " ",
       "fieldLabel": "Skip the start if there is an active session"
     },
     "chkStartIfMissedSchedule": {
+      "boxLabel": " ",
       "fieldLabel": "Start immediately if the start was skipped"
     },
     "chkTeach": {
+      "boxLabel": " ",
       "fieldLabel": "Retrain models upon the start"
     },
     "colDeleteVariable": {
@@ -1535,10 +1542,10 @@
       "tooltip": "Copy"
     },
     "txtAbsoluteUrl": {
-      "fieldLabel": "Absolute <i>(for shared use)<\/i>"
+      "fieldLabel": "Absolute <i>(for shared use)</i>"
     },
     "txtRelativeUrl": {
-      "fieldLabel": "Relative <i>(for personal use)<\/i>"
+      "fieldLabel": "Relative <i>(for personal use)</i>"
     }
   },
   "components/assnrules/AssnRulesWizard": {
@@ -1597,12 +1604,15 @@
       "fieldLabel": "Identifier"
     },
     "chkRoundingLevel": {
+      "boxLabel": " ",
       "fieldLabel": "Round limits"
     },
     "chkStrictLowerLimit": {
+      "boxLabel": " ",
       "fieldLabel": "Set lower limit"
     },
     "chkStrictUpperLimit": {
+      "boxLabel": " ",
       "fieldLabel": "Set upper limit"
     },
     "edtBinWidth.valueConfig": {
@@ -1697,12 +1707,6 @@
     },
     "frmForExternalBins": {
       "title": "Configure External Bins"
-    },
-    "grdColKinds": {
-      "title": "No Search"
-    },
-    "grdExtBinsColumns": {
-      "title": "No Search"
     }
   },
   "components/calcdata/CalcDataWizard": {
@@ -2476,12 +2480,12 @@
       "text": "Time frames"
     },
     "frmDateReform": {
-      "title": "Reform Date\/Time"
+      "title": "Reform Date/Time"
     }
   },
   "components/elimoutlier/ElimOutlierWizard": {
     "cntExtrMethod": {
-      "title": "Extreme Values Processing Method"
+      "title": "Extreme Value Processing Method"
     },
     "cntOutExtrSettings": {
       "title": "Determination of Outliers and Extreme Values"
@@ -2575,6 +2579,7 @@
       "fieldLabel": "Relation"
     },
     "chkCaseSensitiveSimple": {
+      "boxLabel": " ",
       "fieldLabel": "Case-sensitive"
     },
     "dtCompareValuePeriodBaseDateSimple": {
@@ -2826,6 +2831,9 @@
     "edPrecisionDTime": {
       "fieldLabel": "Precision"
     },
+    "edtReplaceOtherBool": {
+      "boxLabel": " "
+    },
     "frmReplaceWizard": {
       "title": "Replace"
     },
@@ -2833,7 +2841,7 @@
       "text": "Logical"
     },
     "itmTypeChangeDTime": {
-      "text": "Date\/Time"
+      "text": "Date/Time"
     },
     "itmTypeChangeFloat": {
       "text": "Real"
@@ -3330,7 +3338,7 @@
       "regexText": "Invalid Content-Type value format"
     },
     "pedURL.valueConfig": {
-      "emptyText": "http:\/\/example.com\/operation-path"
+      "emptyText": "http://example.com/operation-path"
     }
   },
   "connections/tableaurest/TableauRestConnectionParams": {
@@ -3491,7 +3499,7 @@
       "boxLabel": "Add values of dimensions<br><br> automatically. Add missing dimension values to the data warehouse on data loading into the process automatically."
     },
     "ckbDisableConstraint": {
-      "boxLabel": "Disable\/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
+      "boxLabel": "Disable/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
     },
     "ckbRebuildCube": {
       "boxLabel": "Update cubes<br><br>After data loading, rebuild all cubes with enabled \"Dynamic update\" option and inherited from the loaded process."
@@ -3938,11 +3946,11 @@
       "text": "License Agreement"
     },
     "btnPersonalOffer": {
-      "href": "https:\/\/loginom.com\/platform\/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
+      "href": "https://loginom.com/platform/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
       "text": "More"
     },
     "lblCommunityBannerText": {
-      "text": "This is a Community Edition — for non-commercial use."
+      "text": "This is the Community Edition, for non-commercial use."
     },
     "lblCookiesInfo": {
       "text": "We use cookies. By continuing to use this application, you consent to the use of cookies."
@@ -3959,56 +3967,56 @@
       "text": "New Draft"
     },
     "btnExamples": {
-      "href": "https:\/\/examples.loginom.com\/",
+      "href": "https://examples.loginom.com/",
       "text": "Examples"
     },
     "btnFacebook": {
-      "href": "https:\/\/facebook.com\/lg.platform\/"
+      "href": "https://facebook.com/lg.platform/"
     },
     "btnFastStart": {
-      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
+      "href": "https://loginom.com/platform/quick-start/",
       "text": "Quick Start"
     },
     "btnInstagram": {
-      "href": "https:\/\/instagram.com\/loginom_company\/"
+      "href": "https://instagram.com/loginom_company/"
     },
     "btnIntro": {
-      "href": "https:\/\/loginom.com\/welcome-video\/",
+      "href": "https://loginom.com/welcome-video/",
       "text": "Introduction to Loginom"
     },
     "btnLearning": {
-      "href": "https:\/\/loginom.com\/learning\/",
+      "href": "https://loginom.com/learning/",
       "text": "Learning"
     },
     "btnLinkedin": {
-      "href": "https:\/\/linkedin.com\/company\/loginom\/"
+      "href": "https://linkedin.com/company/loginom/"
     },
     "btnMoreNews": {
-      "href": "https:\/\/loginom.com\/blog\/",
+      "href": "https://loginom.com/blog/",
       "text": "More News"
     },
     "btnOpenPackage": {
       "text": "Open Package..."
     },
     "btnRreleaseNotes": {
-      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
+      "href": "https://loginom.com/tags/release-notes/",
       "text": "What's new in Loginom?"
     },
     "btnSupport": {
-      "href": "https:\/\/loginom.com\/company\/support\/",
+      "href": "https://loginom.com/company/support/",
       "text": "Support"
     },
     "btnTelegram": {
-      "href": "https:\/\/t.me\/loginom\/"
+      "href": "https://t.me/loginom/"
     },
     "btnTwitter": {
-      "href": "https:\/\/twitter.com\/loginom_company\/"
+      "href": "https://twitter.com/loginom_company/"
     },
     "btnVk": {
-      "href": "https:\/\/vk.com\/lg.platform\/"
+      "href": "https://vk.com/lg.platform/"
     },
     "btnYouTube": {
-      "href": "https:\/\/youtube.com\/loginom\/"
+      "href": "https://youtube.com/loginom/"
     },
     "colActionClean": {
       "tooltip": "Clean list..."
@@ -4099,7 +4107,7 @@
       "text": "No connection to database"
     },
     "lblObjectsTree": {
-      "text": "Tables\/views"
+      "text": "Tables/views"
     },
     "lblSelectFields": {
       "text": "Connect to database and select fields"
@@ -4319,7 +4327,7 @@
       "fieldLabel": "File Storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportFromFile": {
       "title": "Import from Excel File"
@@ -4378,11 +4386,11 @@
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "btnSuggestFormat": {
-      "text": "Auto detect",
-      "tooltip": "Auto detect all separators and calculate fields structure"
+      "text": "Autodetect",
+      "tooltip": "Autodetect all separators and compute the structure of fields"
     },
     "frmFixedColumns": {
-      "title": "Import Parameters with Fixed-Width Columns"
+      "title": "Parameters of Fixed-Width Columns Import"
     },
     "frmImportSettings": {
       "title": "Configure Import Formats"
@@ -4399,7 +4407,7 @@
       "regexText": "Invalid codepage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportFromFile": {
       "title": "Import from Text File"
@@ -4435,7 +4443,7 @@
       "fieldLabel": "File storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportXmlFile": {
       "title": "Import from XML File"
@@ -4460,25 +4468,25 @@
   },
   "login/Login": {
     "btnFastStart": {
-      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
+      "href": "https://loginom.com/platform/quick-start/",
       "text": "Quick Start"
     },
     "btnGetToken": {
       "text": "Login With OpenID"
     },
     "btnHelp": {
-      "href": "https:\/\/help.loginom.com\/",
+      "href": "https://help.loginom.com/",
       "text": "Documentation"
     },
     "btnIntro": {
-      "href": "https:\/\/loginom.com\/welcome-video\/",
+      "href": "https://loginom.com/welcome-video/",
       "text": "Introduction to Loginom"
     },
     "btnLogin": {
       "text": "Login"
     },
     "btnQA": {
-      "href": "https:\/\/qa.loginom.com\/",
+      "href": "https://qa.loginom.com/",
       "text": "Q&A"
     },
     "chkRememberUser": {
@@ -4511,7 +4519,7 @@
       "text": "Process"
     },
     "colProcessTime": {
-      "text": "Process time"
+      "text": "Processing time"
     },
     "colProgress": {
       "text": "Processing"
@@ -4589,6 +4597,7 @@
       "fieldLabel": "Field"
     },
     "chbSearchCaseSensitive": {
+      "boxLabel": " ",
       "fieldLabel": "Case-sensitive"
     },
     "lblSearchResult": {
@@ -4621,9 +4630,11 @@
   },
   "viewers/browse/BrowseSorting": {
     "chkBufferWhole": {
+      "boxLabel": " ",
       "fieldLabel": "Cache all data"
     },
     "chkLocaleAware": {
+      "boxLabel": " ",
       "fieldLabel": "Locale-aware comparison"
     }
   },
@@ -4744,6 +4755,7 @@
       "fieldLabel": "Dynamics"
     },
     "chbShowGrid": {
+      "boxLabel": " ",
       "fieldLabel": "Show grid"
     },
     "chbUserRange": {
@@ -4797,7 +4809,7 @@
       "tooltip": "Reset zoom Y"
     },
     "cntChartInvite": {
-      "html": "Move fields to the chart area by dragging from the left list of available fields"
+      "html": "Drag fields to the chart area from the list of available fields on the left"
     },
     "colFieldName": {
       "text": "Fields"
@@ -4888,6 +4900,7 @@
       "boxLabel": "Rationing"
     },
     "chbTooltipShared": {
+      "boxLabel": " ",
       "fieldLabel": "Combine tooltips"
     },
     "clrChart": {
@@ -5522,7 +5535,7 @@
       "tooltip": "Copy marked"
     },
     "btnExclusive": {
-      "tooltip": "Inclusive\/exclusive filter"
+      "tooltip": "Inclusive/exclusive filter"
     },
     "btnFilterType": {
       "tooltip": "Filter mode"
@@ -5724,7 +5737,7 @@
       "title": "Configure Parameters"
     },
     "rbDetectQuartile": {
-      "boxLabel": "Interquartile Width"
+      "boxLabel": "Interquartile width"
     },
     "rbDetectSko": {
       "boxLabel": "Standard deviation"
@@ -5825,9 +5838,11 @@
       "boxLabel": "Negative in red"
     },
     "cbScientific": {
+      "boxLabel": " ",
       "fieldLabel": "Exponential form"
     },
     "cbThousand": {
+      "boxLabel": " ",
       "fieldLabel": "Thousands separator"
     },
     "cntFormat": {
@@ -6137,6 +6152,7 @@
       "boxLabel": "Show null value in histogram"
     },
     "chkRound": {
+      "boxLabel": " ",
       "fieldLabel": "Round"
     },
     "chkUpperBound": {
@@ -6282,7 +6298,7 @@
       "tooltip": "Delete selected links"
     },
     "btnResortLinks": {
-      "text": "Reorder Links"
+      "text": "Rearrange Links"
     },
     "btnShowInvalidRelations": {
       "text": "Show Lost Links"
@@ -6334,7 +6350,7 @@
       "text": "Usage type"
     },
     "frmColumnsMapping": {
-      "title": "Columns Mapping Settings"
+      "title": "Column Mapping Settings"
     },
     "rbLinks": {
       "boxLabel": "Links"
@@ -6401,7 +6417,7 @@
       "tooltip": "Delete selected"
     },
     "txtFilterField": {
-      "emptyText": "Filter\/Search"
+      "emptyText": "Filter/Search"
     }
   },
   "wizards/columnsdisposition/ColumnsDispositionWizard": {
@@ -6665,7 +6681,7 @@
       "tooltip": "Delete selected links"
     },
     "btnResortLinks": {
-      "text": "Reorder Links"
+      "text": "Rearrange Links"
     },
     "btnReverse": {
       "tooltip": "Invert selection"
@@ -6748,9 +6764,11 @@
       "fieldLabel": "Usage type"
     },
     "chbIsArray": {
+      "boxLabel": " ",
       "fieldLabel": "Array"
     },
     "chbIsContainer": {
+      "boxLabel": " ",
       "fieldLabel": "Container"
     },
     "edtDisplayName": {
@@ -6855,6 +6873,7 @@
       "fieldLabel": "Normalizer"
     },
     "chbIrremovable": {
+      "boxLabel": " ",
       "fieldLabel": "Irremovable"
     },
     "edImportance": {
@@ -6872,6 +6891,7 @@
       "fieldLabel": "Control method"
     },
     "chbUserRange": {
+      "boxLabel": " ",
       "fieldLabel": "Manual setting"
     },
     "cntControlRangeSettings": {

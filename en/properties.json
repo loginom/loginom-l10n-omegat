@@ -247,7 +247,7 @@
   "components/extractxml": {
     "ExtractXMLEngine": {
       "HaltOnParseErrors": "Halt on errors",
-      "IDColumn": "Column identifying XML document",
+      "IDColumn": "The column identifying the XML document",
       "ImportXMLSettings": "Configure XML import",
       "InputColumn": "XML column",
       "NeedUnescape": "Unescape XML entities",
@@ -268,7 +268,7 @@
   "components/filterdata": {
     "FilterColumnItem": {
       "CaseSensitive": "Case-sensitive",
-      "CompareValue": "Compare value",
+      "CompareValue": "Comparison value",
       "CompareValueList": "List of values",
       "CompareValueLowerBound": "Lower bound",
       "CompareValuePeriodBaseDate": "Base interval date",
@@ -282,7 +282,7 @@
   },
   "components/forecast": {
     "ARIMAXParams": {
-      "AutoStructure": "Auto detect structure",
+      "AutoStructure": "Autodetect the structure",
       "CalcConfidenceInterval": "Calculate confidence interval",
       "CalcResiduals": "Calculate the approximation error",
       "ConfidenceInterval": "Forecast confidence level, %",
@@ -298,7 +298,7 @@
       "SeasonalPeriod": "Period of the seasonal component"
     },
     "ForecastEngine": {
-      "ARIMAXParams": "ARIMAX Settings"
+      "ARIMAXParams": "ARIMAX settings"
     }
   },
   "components/groupdata": {
@@ -357,14 +357,14 @@
       "NetworkParams": "Neural network parameters"
     },
     "NeuralNetworkAutofitParams": {
-      "DecayAutofit": "Decay degree autofit",
+      "DecayAutofit.NOTE": "Старый исходник:\nПодобрать степень регуляризации\n\nСтарый перевод:\nDecay degree autofit",
       "MaxAutofitSeconds": "Autofit time not more (s)",
       "MaxAutofitStages": "Autofit stages not more",
       "StopAtZeroClsError": "Stop at zero classification error",
       "StructureAutofit": "Structure autofit",
       "SubSampleMaxSize": "Maximum sample size",
       "SubSamplePercent": "Percent sample size",
-      "UseInitialDecay": "Start with the specified decay degree",
+      "UseInitialDecay.NOTE": "Старый исходник:\nНачать с указанной степени регуляризации\n\nСтарый перевод:\nStart with the specified decay degree",
       "UseInitialStructure": "Start with the specified structure",
       "UseSubSampling": "Use a subset of the training set"
     },
@@ -388,7 +388,6 @@
     },
     "NeuralNetworkTrainingParams": {
       "ContinueTraining": "Continue training",
-      "Decay": "Decay degree",
       "NRestarts": "Number of restarts"
     }
   },
@@ -450,7 +449,8 @@
   "components/sorting": {
     "SortingEngine": {
       "BufferWhole": "Cache all data",
-      "LocaleAware": "Locale-aware comparison"
+      "LocaleAware": "Locale-aware comparison",
+      "MaxThreadCount": "Maximum thread count"
     }
   },
   "components/treetodata": {
@@ -574,7 +574,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/View",
+      "CommandText": "Table/View",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
     }
@@ -936,9 +936,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact\/inexact data priority",
-      "FactLessMore": "Less\/more factors priority",
-      "QualitySpeed": "Accuracy\/speed priority"
+      "ExactInexact": "Exact/inexact data priority",
+      "FactLessMore": "Less/more factors priority",
+      "QualitySpeed": "Accuracy/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -1011,7 +1011,7 @@
       "SSLPrivateKeyFile": "Private key file name",
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL\/TLS port"
+      "WSSPort": "WebSocket SSL/TLS port"
     }
   },
   "Warehouse2/DWConnection": {

@@ -330,8 +330,8 @@
     "ErrNoParentElement": "У элемента \"%s\" отсутствует родительский элемент",
     "ErrSiblingAttributionFailed": "Для элемента \"%0:s\" невозможно определить соответствующий схеме сиблинг \"%1:s{%2:s}\"",
     "ErrSubElementAttributionFailed": "Для элемента \"%0:s\" невозможно определить соответствующий схеме подэлемент \"%1:s{%2:s}\"",
-    "ErrXMLParse": "Ошибка при разборе XML:\n  Строка: %d\n  Позиция: %d\n  Код ошибки: %d\n  Сообщение:\n  %s",
-    "ErrXMLValidate": "Ошибка валидации XML:\n  Строка: %d\n  Позиция: %d\n  Код ошибки: %d\n  Сообщение:\n  %s"
+    "ErrXMLParse": "Ошибка при разборе XML. Строка: %d. Позиция: %d. Код ошибки: %d. Сообщение: %s",
+    "ErrXMLValidate": "Ошибка валидации XML. Строка: %d. Позиция: %d. Код ошибки: %d. Сообщение: %s"
   },
   "Common/XML/Processor/XMLRequestProcessor": {
     "ErrXMLExportNoContext": "Не задан контекст экспорта",
@@ -373,16 +373,16 @@
     "ErrSAXParserImplementationNotRegistered": "Не зарегистрирована реализация SAX-парсера для интерфейса %s"
   },
   "Common/XML/SAX/XMLSAX_LIBXML2": {
-    "ErrParseFile": "Ошибка в строке %d, позиция %d при разборе файла '%s':\n  %s",
-    "ErrParseFileUnhandledException": "Необработанное исключение при разборе файла '%s':\n%s",
-    "ErrParseStream": "Ошибка при разборе потока в строке %d, позиция %d:\n  %s",
-    "ErrParseStreamUnhandledException": "Необработанное исключение при разборе потока:\n  %s",
+    "ErrParseFile": "Ошибка в строке %d, позиция %d при разборе файла '%s': %s",
+    "ErrParseFileUnhandledException": "Необработанное исключение при разборе файла '%s': %s",
+    "ErrParseStream": "Ошибка при разборе потока в строке %d, позиция %d: %s",
+    "ErrParseStreamUnhandledException": "Необработанное исключение при разборе потока: %s",
     "ErrParseStreamUnrecognizedEncoding": "Ошибка при разборе потока: неизвестная кодировка %s",
     "ErrParseStreamUnrecognizedEncodingDefault": "Ошибка при разборе потока: неизвестная кодировка",
     "ErrParseUnknownEncoding": "Задана неизвестная кодировка %s",
-    "ErrParseURL": "Ошибка в строке %d, позиция %d при выполнении запроса к URL '%s':\n  %s",
+    "ErrParseURL": "Ошибка в строке %d, позиция %d при выполнении запроса к URL '%s': %s",
     "ErrParseURLNoXML": "Ошибка в строке %d, позиция %d при выполнении запроса к URL '%s': ответ сервера не является XML-файлом",
-    "ErrParseURLUnhandledException": "Необработанное исключение при разборе запроса к URL '%s':\n  %s",
+    "ErrParseURLUnhandledException": "Необработанное исключение при разборе запроса к URL '%s': %s",
     "ErrSaxParserNotCreated": "Контекст SAX-парсера libxml2 не создан",
     "UnbalancedPop": "Несбалансированная операция извлечения"
   },
@@ -585,7 +585,7 @@
   },
   "components/calcdata/CalcData": {
     "ErrExceededRecursiveCalls": "Превышено максимальное количество рекурсивных вызовов (%d) функции Data в выражении \"%s\".\nДля решения этой проблемы необходимо включить Кэширование.",
-    "ErrExprIsStringType": "Выражение \"%s\" имеет строковый тип",
+    "ErrExprIsStringType": "В результате вычисления выражения \"%s\" получено значение строкового типа, оно несовместимо с заданным типом %s",
     "ErrGetVarArrayUnsupported": "Массивы переменного типа могут возвращать только промежуточные выражения (выражение \"%s\", строка %d)",
     "ErrReplacingInputColumnNotFound": "Не найдено входное поле для замены выражением \"%s\"",
     "ErrVarExprAmbiguity": "\"%0:s\" может быть входной переменной или промежуточным выражением. Чтобы разрешить неоднозначность используйте \"%1:s%0:s\" для обращения к переменной или переименуйте выражение \"%0:s\".",
@@ -653,7 +653,7 @@
   },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Ошибка вычисления выражения \"%s\"",
-    "ErrExprIsStringType": "Выражение \"%s\" имеет строковый тип",
+    "ErrExprIsStringType": "В результате вычисления выражения \"%s\" получено значение строкового типа, оно несовместимо с заданным типом %s",
     "ErrExprParse": "Ошибка разбора выражения \"%s\"",
     "ErrReplacingInputVariableNotFound": "Не найдена входная переменная для замены выражением \"%s\"",
     "ErrVarValueSet": "Ошибка при установке значения выражения \"%s\"",
@@ -781,7 +781,7 @@
     "ErrDataTypesNotMatch": "Заданный тип данных столбца не соответствует типу данных конечных классов",
     "ErrNotPositiveIntervalsCount": "Количество интервалов должно быть больше 0",
     "ErrProcessKeptStatisticsExistentValue": "В процессе построения начальных классов в поле \"%s\" отсутствует ранее присутствующее значение \"%s\"",
-    "ErrProcessKeptStatisticsNonExistentValue": "В процессе построения начальных классов в поле \"%s\" появилось ранее отсутствовавшее значение",
+    "ErrProcessKeptStatisticsNonExistentValue": "В процессе построения начальных классов в поле \"%s\" обнаружено ранее отсутствовавшее значение",
     "From": "от ",
     "NullClass": "Класс пропусков",
     "To": "до "
@@ -919,7 +919,7 @@
     "ErrNoXSDInput": "На входе компонента отсутствует XSD-схема",
     "ErrRootNodeNotSelected": "Не выбран корневой элемент XML",
     "ErrUnmappedNodeNotOwnedByExportTree": "Узел %s, для которого запрошен сброс связи, не входит в дерево XML",
-    "ErrXMLExport": "Ошибка при выполнении формирования XML:\n  Код ошибки: %d\n  %s",
+    "ErrXMLExport": "Ошибка при выполнении формирования XML. Код ошибки: %d. Сообщение: %s",
     "ExportDataSetProcessCaption": "Обработка набора данных",
     "IDName": "ID",
     "WriteXMLFileProcessCaption": "Формирование XML-документа",
@@ -1027,8 +1027,8 @@
   },
   "components/extractxml/ExtractXML": {
     "DocIDColumn": "Идентификатор документа",
-    "ErrExtractXML": "Ошибка разбора XML из строки %d входного набора:\n  Код ошибки: %d\n  Сообщение: %s",
-    "ErrExtractXMLInitError": "Ошибка инициализации Разбора XML:\n  %s",
+    "ErrExtractXML": "Ошибка разбора XML из строки %d входного набора. Код ошибки: %d. Сообщение: %s",
+    "ErrExtractXMLInitError": "Ошибка инициализации Разбора XML: %s",
     "ErrImportNotConfigured": "Дерево импорта не настроено",
     "ErrInputFieldNotSelected": "Необходимо задать поле, содержащее XML",
     "ErrInputSchemaHasChanged": "XSD-схема на входе не соответствует настройкам обработчика.",
@@ -1462,7 +1462,7 @@
     "CVProcessCaption": "Кросс-валидация",
     "CVTrainSetPrepareProcessCaption": "Подготовка обучающего множества",
     "CVValidationSetPrepareProcessCaption": "Подготовка валидационного множества",
-    "DecayDegree": "Степень регуляризации",
+    "DecayDegree": "Коэффициент регуляризации",
     "ErrCannotContinueTraining": "Невозможно продолжить обучение, так как структура обученной нейросети не соответствует новым параметрам обучения",
     "ErrClassifierUnknownClass": "В выходном столбце классификатора присутствует неизвестный класс",
     "ErrDataSourceNumInputsMismatch": "Размерность входных данных %d не соответствует количеству входов нейросети %d",
@@ -1481,12 +1481,12 @@
     "ErrTrainNetworkError": "Обучение нейросети завершено с ошибкой",
     "ErrWrongNeuronCounts": "Указано одно или несколько недопустимых значений количества нейронов",
     "ExecuteProcessCaption": "Прогон входных данных",
-    "FitDecayProcessCaption": "Обучение: степень регуляризации = %.1f",
-    "FitH0DecayProcessCaption": "Обучение: без скрытых слоев; степень регуляризации = %.1f",
+    "FitDecayProcessCaption": "Обучение: коэффициент регуляризации = %.6g",
+    "FitH0DecayProcessCaption": "Обучение: без скрытых слоев; коэффициент регуляризации = %.6g",
     "FitH0ProcessCaption": "Обучение: без скрытых слоев",
-    "FitH1DecayProcessCaption": "Обучение: один скрытый слой = %d нейронов; степень регуляризации = %.1f",
+    "FitH1DecayProcessCaption": "Обучение: один скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
     "FitH1ProcessCaption": "Обучение: один скрытый слой = %d нейронов",
-    "FitH2DecayProcessCaption": "Обучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов; степень регуляризации = %.1f",
+    "FitH2DecayProcessCaption": "Обучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
     "FitH2ProcessCaption": "Обучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов",
     "HLSize": "Количество нейронов в скрытых слоях (одинаковое)",
     "Nh1": "Количество нейронов в первом скрытом слое",
@@ -1545,7 +1545,7 @@
     "TrainSamples": "Примеров в обучающем множестве"
   },
   "components/neuralnet/NeuralNetParams": {
-    "Decay": "Параметр регуляризации",
+    "Decay": "Коэффициент регуляризации",
     "ErrFloatValuesRelation": "Значение параметра \"%s\": (%f) не должно быть больше значения параметра \"%s\" (%f)",
     "MaxEpochs": "Максимальное количество эпох",
     "NRestarts": "Количество рестартов",
@@ -1715,7 +1715,7 @@
     "RequestIDOutputColumn": "Идентификатор запроса",
     "ResponseColumn": "Ответ сервера",
     "RESTClientConnection": "Подключение к REST-сервису",
-    "RESTClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки %d входного набора:\n%s"
+    "RESTClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки %d входного набора: %s"
   },
   "components/restclient/RESTClientSend": {
     "ErrCodePageNotSupported": "Кодовая страница \"%s\" не поддерживается",
@@ -1910,9 +1910,9 @@
     "RawOutputColumn": "Сырой ответ",
     "RequestIDOutputColumn": "Идентификатор запроса",
     "WSDLClientConnection": "Подключение к SOAP-сервису",
-    "WSDLClientError": "Ошибка при выполнении запроса с идентификатором %s:\n%s",
-    "WSDLClientErrorNoID": "Ошибка при выполнении запроса:\n%s",
-    "WSDLClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки №%d входного набора:\n%s"
+    "WSDLClientError": "Ошибка при выполнении запроса с идентификатором %s: %s",
+    "WSDLClientErrorNoID": "Ошибка при выполнении запроса: %s",
+    "WSDLClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки №%d входного набора: %s"
   },
   "components/wsdlclient/WSDLClientBase": {
     "ErrIncorrectWSDLClientRequestConfiguration": "Конфигурация запроса к веб-сервису содержит ошибки",
@@ -2069,7 +2069,7 @@
     "ErrNoXSDInput": "На входе компонента отсутствует XSD-схема",
     "ErrRootNodeNotSelected": "Не выбран корневой элемент для экспорта",
     "ErrUnmappedNodeNotOwnedByExportTree": "Узел %s, для которого запрошен сброс связи, не входит в дерево экспорта",
-    "ErrXMLExport": "Ошибка при выполнении экспорта XML:\n  Код ошибки: %d\n  %s",
+    "ErrXMLExport": "Ошибка при выполнении экспорта XML. Код ошибки: %d. Сообщение: %s",
     "ExportDataSetProcessCaption": "Экспорт набора данных",
     "FileConnection": "Подключение к файловому хранилищу",
     "WriteXMLFileProcessCaption": "Запись XML-файла",
@@ -2231,7 +2231,7 @@
     "ErrDateTimeTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к дате/времени.",
     "ErrFloatTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к вещественному числу.",
     "ErrIntegerTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к целому числу.",
-    "ErrMaxBytesCountReaded": "При разборе текстового файла достигнут предел %d чтения максимального количества байт",
+    "ErrMaxBytesCountReaded": "При разборе текстового файла достигнут предел чтения (максимальное количество байт: %d)",
     "ErrMaxMultilineLengthReaded": "При разборе текстового файла мультистрока превысила максимальную длину %d символа раньше, чем был найден закрывающий ограничитель строк. Номер строки файла с началом мультистроки: %d. Последняя строка файла, вошедшая в мультистроку: %d.",
     "ErrMultilineEofAchieved": "Конец текстового файла достигнут раньше, чем найден закрывающий ограничитель строк. Номер строки файла с началом мультистроки: %d.",
     "ErrParseFmt": "При разборе строки %d возникла ошибка: %s",
@@ -2250,7 +2250,7 @@
     "ErrNothingSelected": "Не выбрано ни одного узла для импорта",
     "ErrNoXSDInput": "На входе компонента отсутствует XSD-схема",
     "ErrWindowsTimeZoneNotSupported": "Временная зона \"%s\" не поддерживается",
-    "ErrXMLImport": "Ошибка при выполнении импорта XML:\n  Код ошибки: %d\n  %s",
+    "ErrXMLImport": "Ошибка при выполнении импорта XML. Код ошибки: %d. Сообщение: %s",
     "FileConnection": "Подключение к файловому хранилищу",
     "XSDConnection": "Подключение к источнику XSD-схемы"
   },
@@ -3304,6 +3304,7 @@
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "Имя файла не может быть пустым",
     "ErrFileNotFound": "Файл \"%s\" не найден",
+    "ErrStorageIsNull": "Файловое хранилище не задано",
     "FileNameDisplayName": "Имя файла",
     "FileTimeDisplayName": "Время модификации"
   },
@@ -4213,7 +4214,7 @@
   },
   "Libraries/WSDLClientConnection/WSDLClientConnection": {
     "ErrNoWSDLSource": "Не указан источник WSDL",
-    "ErrWSDLLoad": "Ошибка загрузки WSDL:\nИмя файла: %s",
+    "ErrWSDLLoad": "Ошибка загрузки WSDL. Имя файла: %s",
     "WarnMainWSDLNotLoaded": "Основной источник WSDL (%s) не загружен (%s). Пытаемся загрузить из резервного источника.",
     "WarnTestingInProcess": "Тестирование уже выполняется"
   },
@@ -4392,6 +4393,7 @@
   "Studio/DeductorUsers": {
     "AllowedApplicationModes": "Разрешённые режимы работы приложения",
     "AllowPublish": "Разрешить публикацию пакетов",
+    "AuthMode": "Способ аутентификации",
     "Blocked": "Заблокирован",
     "ErrAccessDenied": "Отказано в доступе",
     "ErrApplicationModeNotAllowed": "Не разрешено подключение в режиме \"%s\"",
@@ -4422,6 +4424,7 @@
     "LogDeleteGroup": "Удалена группа %s",
     "LogDeleteUser": "Удален пользователь %s",
     "LogUserPropertySet": "Изменение учетной записи %s",
+    "Password": "Пароль",
     "ReservedUserName": "loginom",
     "SchedulerFullAccess": "Доступ ко всем задачам в планировщике",
     "UseGlobalFileStorage": "Использование глобального файлового хранилища",
@@ -4844,7 +4847,7 @@
     "VendorDesc": "Отображение статистических показателей"
   },
   "Warehouse2/DataWarehouseConnection": {
-    "ErrTestConnection": "Ошибка проверки подключения:\n%s"
+    "ErrTestConnection": "Ошибка проверки подключения: %s"
   },
   "Warehouse2/DBMDEngine": {
     "ErrDimensionFKIsNull": "Ссылка на измерение \"%s\" не найдена.\nНе указано значение внешнего ключа.",
@@ -4950,7 +4953,7 @@
   },
   "Warehouse2/MDTree": {
     "ErrColumnCantBeContinuous": "Объект \"%s\" типа \"%s\" не может быть непрерывным",
-    "ErrMismatchVersionInfo": "Версии Deductor Warehouse не совпадают.\n  Компонент: \"%s\"\n  БД ХД: \"%s\"",
+    "ErrMismatchVersionInfo": "Версии Deductor Warehouse не совпадают. Компонент: \"%s\". БД ХД: \"%s\"",
     "ErrNodeTypeExist": "Уже есть подузел указанного типа \"%s\""
   }
 }

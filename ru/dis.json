@@ -74,6 +74,8 @@
     "ErrServerDisconnectError": "Ошибка отключения от сервера {0}",
     "ErrUnixSocketIsRequired": "Атрибут unixsocket должен быть определен",
     "ErrUpdatePackageDefsError": "Ошибка обновления пакетов для сервера {0}",
+    "ExecutingOnServer": "Обработка запроса на сервере {0}",
+    "PackageIsNoLongerConflicting": "На сервере {0} восстановлена публикация пакета \"{1}\" версии \"{2}\", который больше не конфликтует с другими пакетами",
     "UnixSocketFileName": "loginomd"
   },
   "IntegratorCore/ServiceHelper": {
@@ -96,10 +98,10 @@
     "SendingResponse": "Отправка ответа"
   },
   "IntegratorCore/ServiceTypeBuilder": {
-    "ErrNoPublishedPackages": "Не опубликовано ни одного пакета",
     "ErrRootNodeNotFound": "Не найден корневой узел дерева",
     "ErrTreeMustHaveSingleRootNode": "Дерево не может содержать более одного корневого узла",
     "Namespace": "http://schemas.loginom.ru/integration",
+    "NoPublishedPackages": "Не опубликовано ни одного пакета",
     "NoPublishedPackagesServiceDocumentation": "В настоящий момент не опубликовано ни одного пакета. Для использования пакетов в качестве веб-сервиса необходимо предварительно опубликовать их в Loginom Server."
   },
   "IntegratorCore/UriQueryParamsModelBinder": {

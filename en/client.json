@@ -1,10 +1,10 @@
 {
   "about/About": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
@@ -99,7 +99,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL\/TLS port"
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -147,17 +147,17 @@
     "SaveBtnText": "Save"
   },
   "admin/UserListForm": {
-    "AllowPublish": "Publish packages",
-    "AuthMode": "Authentication",
-    "Blocked": "Blocked",
+    "AllowPublishTitle": "Publish Packages",
+    "AuthModeTitle": "Authentication",
+    "BlockedTitle": "Blocked",
     "DeleteUserConfirm": "When deleting a user, you can also delete their folder and jobs in the scheduler.\nDo you want to delete user {0}?",
     "DeleteUserConfirmNo": "Delete the user only",
     "DeleteUserConfirmYes": "Delete the user and the data",
-    "DisplayName": "Full caption",
-    "GlobalFileStorage": "Access to all files",
-    "Name": "Login",
-    "Roles": "Roles",
-    "SchedulerFullAccess": "Access to all jobs",
+    "DisplayNameTitle": "Full Name",
+    "GlobalFileStorageTitle": "Access to All Files",
+    "LoginTitle": "Login",
+    "RolesTitle": "Roles",
+    "SchedulerFullAccessTitle": "Access to All Jobs",
     "Update": "Refresh"
   },
   "admin/UserModel": {
@@ -180,7 +180,7 @@
     "ConfirmQuit": "Unsaved packages. Exit anyway?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "QAHref": "https://qa.loginom.com/questions/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -195,9 +195,9 @@
   },
   "app/ConfigureDerivedVendorForm": {
     "AddBtnText": "Add",
-    "EditVendor": "Derived Component Setting",
+    "EditVendorTitle": "Derived Component Setting",
     "ErrMustSelectTargets": "It is required to select at least one checkbox: \"{0}\" or \"{1}\"",
-    "NewVendor": "New Derived Component",
+    "NewVendorTitle": "New Derived Component",
     "SaveBtnText": "Save"
   },
   "app/FindNodeForm": {
@@ -228,7 +228,7 @@
     "ConfirmCannotCloseModel": "Failed to close \"{0}\" module in \"{1}\" package.\nSome of the nodes are currently locked.\nDo you want to cancel the active processes and close the package without saving?",
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
     "ErrAccessDenied": "Access denied",
-    "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: \"{1}\".",
+    "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: {1}.",
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
     "ErrUrlPathNotFound": "\"{0}\" path not found.",
@@ -239,7 +239,7 @@
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
-    "PackageCloseFormat": "Do you want to close \"{0}\" package also?",
+    "PackageCloseFormat": "Do you want to close package \"{0}\" also?",
     "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
     "ServerDisplayName": "Server",
     "WarnAutoSavePackagesUnsaved": "Failed to autosave packages:\n{0}"
@@ -318,7 +318,7 @@
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
     "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
+    "ComposeExpandNode": "Collapse items to supernode / Expand supernode",
     "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation to supernode",
@@ -433,14 +433,14 @@
     "VisibilityTooltip": "Configure visibility..."
   },
   "app/PackagesAutoSavePanel": {
-    "AutoSavePeriodDescriptionFmt": "Packages are saved with the set period to the files with .autosave extension near {0} files. {0} files as such are not rewritten in this case.",
+    "AutoSavePeriodDescriptionFmt": "Packages are saved periodically, at the specified interval, to new files with a .autosave extension alongside the {0} files. The original {0} files remain unchanged.",
     "ErrPackagesAutoSaveInvalidPeriod": "Invalid packages autosave period is specified",
     "ErrPackagesAutoSaveNotSpecified": "Packages autosave period is not specified"
   },
   "app/PackagesListForm": {
     "CurrentLocale": "Current locale is \"{0}\".",
     "DefaultLocaleModified": "modified",
-    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
+    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: {1}.",
     "ErrPathNotFound": "The specified path was not found \"{0}\".",
     "MsgNewLocaleAfterReopen": "New locale will be applied when the package and all opened dependent packages are closed.",
     "NotSet": "Unspecified ({0})"
@@ -475,7 +475,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "DisNamespace": "http://schemas.loginom.com/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -486,7 +486,7 @@
   },
   "app/PublishedPackagesListForm": {
     "ConfirmFinish": "Do you want to unpublish {0} package?",
-    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
+    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: {1}.",
     "ErrPathNotFound": "The specified path was not found \"{0}\"."
   },
   "app/ReferencesListForm": {
@@ -557,7 +557,7 @@
     "ErrDisableJobsFailFmt": "Failed to disable execution of jobs: \"{0}\"",
     "ErrEnableJobsFailFmt": "Failed to allow execution of jobs: \"{0}\"",
     "ErrJobNotFoundFmt": "Job \"{0}\" was deleted",
-    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: \"{1}\".",
+    "ErrOpenPath": "Failed to open \"{0}\" path.\nError: {1}.",
     "ErrPathNotFound": "The specified path was not found \"{0}\".",
     "JobVersionChangedPromptFmt": "Job \"{0}\" was changed in other session. Overwrite with your changes?",
     "JobVersionChangedPromptNo": "Close without saving",
@@ -625,7 +625,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https:\/\/loginom.com",
+    "CompanyWebsite": "https://loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom"
   },
@@ -635,7 +635,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "QAHref": "https://qa.loginom.com/questions/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -1013,7 +1013,7 @@
     "LoopNodeWizardTitle": "Loop Node Selection"
   },
   "components/loop/LoopParamsWizard": {
-    "AutodetectMaxThreadCount": "Auto detect",
+    "AutodetectMaxThreadCount": "Autodetect",
     "GroupColumnMissingFormat": "No \"{0}\" column assigned for grouping",
     "MaxThreadCountMinPrefix": "Value cannot be lower",
     "NoSocketError": "No data source input port for batch processing",
@@ -1026,7 +1026,6 @@
     "DecayNone": "None",
     "DecayStrong": "Strong",
     "DecayVeryStrong": "Very strong",
-    "DecayVeryWeak": "Very weak",
     "DecayWeak": "Weak"
   },
   "components/python/PythonCodeMirrorController": {
@@ -1046,7 +1045,7 @@
   "components/reformcolumns/ReformColumnsWizard": {
     "ColumnCachingMethodText": "Caching",
     "ColumnExcludedText": "Exclude",
-    "ReformColumnsWizardTitle": "Configure Fields Features"
+    "ReformColumnsWizardTitle": "Configure Field Features"
   },
   "components/replace/ReplaceEditor": {
     "ConvertPrefix": "transformed from",
@@ -1112,6 +1111,10 @@
     "InvalidRowDescFmt": "\"{0}\" input field not found",
     "MultiDeleteConfirm": "Do you want to cancel sorting for selected fields?",
     "NotCaseSensitiveActionDesc": "Case-insensitive"
+  },
+  "components/sorting/SortingWizard": {
+    "AutoMaxThreadCount": "Autodetect",
+    "ErrNotInteger": "The value must be an integer"
   },
   "components/treetodata/TreeToDataWizard": {
     "GlobalNodeIndex": "Global node index"
@@ -1284,7 +1287,7 @@
     "Pallete": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open\/close was found"
+    "ToggleRowNotFoundRow": "No row to open/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Data set not active"
@@ -1350,7 +1353,7 @@
   "ext/LinkGrid": {
     "btnAutoLinkCaption": "Auto Link",
     "btnClearCaption": "Clear Links",
-    "btnResortCaption": "Reorder Links",
+    "btnResortCaption": "Rearrange Links",
     "DragText": "Drag to item to link with",
     "ErrGetActionUndefined": "Undefined bg.ext.GetAction function",
     "ErrMultiSelection": "Multiple row selection must be enabled for both linked tables",
@@ -1551,8 +1554,8 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied\/cut",
-    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied/cut",
+    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message: "
   },
@@ -1579,8 +1582,6 @@
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
     "CantCreateFolder": "Failed to create folder",
-    "CantDeleteFile": "Failed to delete file",
-    "CantDeleteFolder": "Failed to delete folder",
     "CantDownloadFolder": "Directory downloads have not been implemented yet",
     "ConfirmDeleteAll": "Do you really want to delete all?",
     "ConfirmDeleting": "Do you really want to delete the selection?",
@@ -1599,7 +1600,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied\/cut",
+    "HasNotStorageItems": "No files to be copied/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1653,12 +1654,12 @@
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
-    "NewVersionIsAvaliableFmt": "Latest stable version {0} is available"
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionIsAvaliableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
     "CleanConfirm": "Do you want to clean the list of recently opened packages?",
@@ -1666,8 +1667,8 @@
     "CleanTitle": "Clean List",
     "HomePageLocale": "en",
     "NoNewsLog": "Failed to get news",
-    "RemoveFromHistoryFmt": "No \"{0}\" file found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
-    "RemoveFromHistoryTitle": "No File Found",
+    "RemoveFromHistoryFmt": "File \"{0}\" not found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
+    "RemoveFromHistoryTitle": "File Not Found",
     "RemoveNoRightsFmt": "User \"{0}\" has no rights to open packages",
     "RemoveNoRightsTitle": "Failed to Open Package"
   },
@@ -1753,8 +1754,15 @@
     "TabCharacter": "Tab character"
   },
   "imports/textfile/EncodingStore": {
+    "Encoding0": "Central European (1250)",
     "Encoding1": "Cyrillic (1251)",
-    "Encoding2": "West European (1252)"
+    "Encoding2": "West European (1252)",
+    "Encoding3": "Greek (1253)",
+    "Encoding4": "Turkish (1254)",
+    "Encoding5": "Hebrew (1255)",
+    "Encoding6": "Arabic (1256)",
+    "Encoding7": "Baltic (1257)",
+    "Encoding8": "Vietnamese (1258)"
   },
   "imports/textfile/FormatOptions": {
     "BackSlash": "Backslash (\\)",
@@ -1763,7 +1771,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
+    "Slash": "Slash (/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -1987,8 +1995,8 @@
   },
   "lib/Exceptions": {
     "Error": "Error occurred while the program was running.\n{0}",
-    "ErrWindowFull": "Error occurred while the program was running.\nError: \"{0}\"\nUrl: \"{1}\"\nString: {2} Symbol: {3}",
-    "ErrWindowUrl": "Error occurred while the program was running.\nUrl: \"{1}\"\nString: {2} Symbol: {3}",
+    "ErrWindowFull": "Error occurred while the program was running.\nError: {0}\nUrl: {1}\nString: {2} Symbol: {3}",
+    "ErrWindowUrl": "Error occurred while the program was running.\nUrl: {1}\nString: {2} Symbol: {3}",
     "UndefinedError": "Unknown error"
   },
   "lib/Loader": {
@@ -2059,7 +2067,7 @@
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show\/Hide Comment",
+    "CommentBtn": "Show/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -2187,7 +2195,7 @@
     "ErrPropertyPathIsNil": "No property name specified"
   },
   "rpc/CustomClient": {
-    "ErrConnectToServerEx": "Failed to connect to server.\nError: {0}.",
+    "ErrConnectToServerEx": "Failed to connect to server.\nError: {0}",
     "ErrSocketNotPrepared": "Socket is not prepared."
   },
   "rpc/EnumTypeInfoService": {
@@ -2334,7 +2342,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " \/ ",
+    "CompareTo": " / ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -2679,7 +2687,7 @@
     "colDisplayNameTuneText": "Caption",
     "CreateMappingToAllConfirm": "Do you really want to create output columns for all inputs?",
     "EmptyListText": "No matching columns",
-    "frmColumnsMappingTitle": "Columns Mapping Settings",
+    "frmColumnsMappingTitle": "Column Mapping Settings",
     "frmColumnsTitle": "Configure Columns",
     "GroupField_MissingFields": "Missing columns",
     "MsgAddedColumnCanNotSelected": "Column has been added, but it is not selected because it does not match the filter",
@@ -2735,7 +2743,7 @@
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipConnect": "Activate connection",
     "BtnTooltipDelete": "Delete connection...",
@@ -2836,7 +2844,7 @@
     "ActionDeleteAll": "Delete all...",
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
-    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
@@ -2932,7 +2940,7 @@
     "ModifyVariableTitle": "Edit Variable"
   },
   "wizards/variables/VariablesEditValuesWizard": {
-    "frmColumnsMappingTitle": "Configure Variables Values"
+    "frmColumnsMappingTitle": "Configure Variable Values"
   },
   "wizards/variables/VariablesEditWizard": {
     "colDisplayNameTuneText": "Caption",
@@ -2974,9 +2982,9 @@
     "BtnSaveCaption": "Save",
     "BtnSaveWhateverCaption": "Save Anyway",
     "BtnWhateverCaption": "Next Anyway",
-    "ConfirmCloseWizard": "Do you really want to close wizard?",
+    "ConfirmCloseWizard": "Do you really want to close the wizard?",
+    "ConfirmMsgBoxTitle": "Confirm",
     "ErrJumpToUndefinedPage": "An attempt to jump to an invalid page",
-    "MsgBoxTitle": "Attention",
     "MsgCantJumpToPage": "Next move forbidden"
   },
   "wizards/WizardModelComponentForm": {
