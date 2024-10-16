@@ -118,7 +118,7 @@
   },
   "Common/HTTP/SynapseHTTPSend": {
     "ErrHTTPResult": "Failed to make HTTP request. Status code %d: %s",
-    "ErrHTTPSocket": "Failed to make HTTP request. TCP/IP Socket error %d: %s",
+    "ErrHTTPSocket": "Failed to make HTTP request. TCP\/IP Socket error %d: %s",
     "ErrMaximumRedirectReached": "Maximum redirect reached at: %s",
     "ErrStreamIsDirectReadOnly": "Random access to stream data is not possible",
     "ErrStreamSizeUnspecified": "Data stream size not defined"
@@ -185,7 +185,7 @@
     "ErrColumnIndexOutOfRange": "HTTP messages encoder is configured to export the column with index #%d, however the data source contains only %d values",
     "ErrDuplicateSearchPattern": "\"%s\" search string occurring more than once",
     "ErrEncoderNotInitialized": "HTTP messages encoder not initialized",
-    "ErrInfNaNNotAllowed": "Infinities and NaN are not valid floating point numbers to be passed in GET/POST requests URL Encoded/URL Replacement",
+    "ErrInfNaNNotAllowed": "Infinities and NaN are not valid floating point numbers to be passed in GET\/POST requests URL Encoded\/URL Replacement",
     "ErrNoInputMessage": "\"%s\" operation does not contain the incoming message description",
     "ErrNonHttpBinding": "\"%s\" is not HTTP binding",
     "ErrNonHttpMessage": "\"%s\" message of \"%s\" operation is not HTTP message",
@@ -224,7 +224,7 @@
     "ErrBindingOperationExtensionCollision": "Types of \"%s\" binding extensions and \"%s\" operations do not match",
     "ErrCantDefineTransmissionPrimitive": "Failed to define data exchange primitive for %s operation, %s port type",
     "ErrFaultMustHaveExactlyOnePart": "Error defining %s operation, %s port type: fault message must contain exactly one part",
-    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
+    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation\/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
     "ErrHttpPartReferencesComplexElement": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to %s{%s} XSD schema element related to the complex type",
     "ErrHttpPartReferencesComplexType": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to the complex type of %s{%s} XSD schema",
     "ErrInputMimeTypeContainsWildcard": "The incoming service message content must relate to the specific MIME type (actually - %s)",
@@ -235,10 +235,10 @@
     "ErrMessageDefNotFound": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding not found",
     "ErrMessageMustSpecifyExtension": "\"%s\" message extension (\"%s\" operation of \"%s\" binding) not specified or not supported",
     "ErrMessageSoapVersionConflict": "SOAP version of %s message conflicts with %s operation version",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s\/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
     "ErrMimeContentReferencesComplexElement": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to %s{%s} XSD schema element related to the complex type",
     "ErrMimeContentReferencesComplexType": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to the complex type of %s{%s} XSD schema",
-    "ErrNoDefinitionsElement": "<definitions/> element of WSDL description is missing or does not belong to the WSDL namespace",
+    "ErrNoDefinitionsElement": "<definitions\/> element of WSDL description is missing or does not belong to the WSDL namespace",
     "ErrNotArrayType": "\"%s\" is not an array type description",
     "ErrOpDefNotFoundInPortType": "\"%s\" operation referenced by \"%s\" binding not found in \"%s\" port type definition",
     "ErrOperationMustSpecifyExtension": "\"%s\" operation extension of \"%s\" port binding not specified or not supported",
@@ -250,8 +250,8 @@
     "ErrPortTypeNotFound": "\"%s\" port type for \"%s\" binding not found",
     "ErrSchemaDoesNotContainPartElement": "\"%s\" part references \"%s\"{\"%s\"} element not found in XSD schema",
     "ErrSchemaDoesNotContainPartType": "\"%s\" part references \"%s\"{\"%s\"} type not found in XSD schema",
-    "ErrSeveralElementsNotAllowed": "More than one <%s/> element not allowed in WSDL description",
-    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
+    "ErrSeveralElementsNotAllowed": "More than one <%s\/> element not allowed in WSDL description",
+    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation\/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
     "ErrSoapBodyInNonSoapMessage": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding is not SOAP message, but it contains SOAP body",
     "ErrSoapDocumentEncoded": "\"Document\" style SOAP messages with \"encoded\" usage type are not supported",
     "ErrSoapDocumentLiteralPartRefersToType": "Unsupported combination of parameters: \"%s\" part referenced as XSD schema type is assigned to document style SOAP message with literal usage type",
@@ -270,7 +270,7 @@
     "ErrBindingOperationExtensionCollision": "Types of \"%s\" binding extensions and \"%s\" operations do not match",
     "ErrCantDefineTransmissionPrimitive": "Failed to define data exchange primitive for %s operation, %s port type",
     "ErrFaultMustHaveExactlyOnePart": "Error defining %s operation, %s port type: fault message must contain exactly one part",
-    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
+    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation\/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
     "ErrHttpPartReferencesComplexElement": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to %s{%s} XSD schema element related to the complex type",
     "ErrHttpPartReferencesComplexType": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to the complex type of %s{%s} XSD schema",
     "ErrInputMimeTypeContainsWildcard": "The incoming service message content must relate to the specific MIME type (actually - %s)",
@@ -281,10 +281,10 @@
     "ErrMessageDefNotFound": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding not found",
     "ErrMessageMustSpecifyExtension": "\"%s\" message extension (\"%s\" operation of \"%s\" binding) not specified or not supported",
     "ErrMessageSoapVersionConflict": "SOAP version of %s message conflicts with %s operation version",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "\"<%s\/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
     "ErrMimeContentReferencesComplexElement": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to %s{%s} XSD schema element related to the complex type",
     "ErrMimeContentReferencesComplexType": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to the complex type of %s{%s} XSD schema",
-    "ErrNoDefinitionsElement": "<definitions/> element of WSDL description is missing or does not belong to the WSDL namespace",
+    "ErrNoDefinitionsElement": "<definitions\/> element of WSDL description is missing or does not belong to the WSDL namespace",
     "ErrNotArrayType": "\"%s\" is not an array type description",
     "ErrOpDefNotFoundInPortType": "\"%s\" operation referenced by \"%s\" binding not found in \"%s\" port type definition",
     "ErrOperationMustSpecifyExtension": "\"%s\" operation extension of \"%s\" port binding not specified or not supported",
@@ -296,8 +296,8 @@
     "ErrPortTypeNotFound": "\"%s\" port type for \"%s\" binding not found",
     "ErrSchemaDoesNotContainPartElement": "\"%s\" part references \"%s\"{\"%s\"} element not found in XSD schema",
     "ErrSchemaDoesNotContainPartType": "\"%s\" part references \"%s\"{\"%s\"} type not found in XSD schema",
-    "ErrSeveralElementsNotAllowed": "More than one <%s/> element not allowed in WSDL description",
-    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
+    "ErrSeveralElementsNotAllowed": "More than one <%s\/> element not allowed in WSDL description",
+    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation\/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
     "ErrSoapBodyInNonSoapMessage": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding is not SOAP message, but it contains SOAP body",
     "ErrSoapDocumentEncoded": "\"Document\" style SOAP messages with \"encoded\" usage type are not supported",
     "ErrSoapDocumentLiteralPartRefersToType": "Unsupported combination of parameters: \"%s\" part referenced as XSD schema type is assigned to document style SOAP message with literal usage type",
@@ -325,7 +325,7 @@
     "NodePath": "Tree node path"
   },
   "Common/XML/Processor/XMLImportImpl": {
-    "ErrCDATAInNonStringType": "%s element from %s namespace cannot contain <CDATA/> section because it is of '%s' type",
+    "ErrCDATAInNonStringType": "%s element from %s namespace cannot contain <CDATA\/> section because it is of '%s' type",
     "ErrMaxOccExceeded": "Maximum number of \"%s\" element occurrences exceeded (%d allowed)",
     "ErrNoParentElement": "No parent element in \"%s\" element",
     "ErrSiblingAttributionFailed": "It is not possible to define \"%1:s{%2:s}\" sibling corresponding the schema for \"%0:s\" element",
@@ -357,9 +357,9 @@
     "ErrNoneValueAttempt": "Attempt to set or get a value for the node with dtNone data type",
     "ErrParentPathOnTreeRoot": "Attempt to get the parent node path for the tree root node",
     "ErrRootElementPathOnTreeRoot": "Attempt to get the schema root element path for the tree root node",
-    "ErrSetAsStringDatetimeAttempt": "Attempt to set the SetAsString based value for the \"Date/time\" data type node",
+    "ErrSetAsStringDatetimeAttempt": "Attempt to set the SetAsString based value for the \"Date\/time\" data type node",
     "ErrSetAsStringVariantAttempt": "Attempt to set the SetAsString based value for the \"Variable\" data type node",
-    "ErrSetDateTimeAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Date/time\" data type",
+    "ErrSetDateTimeAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Date\/time\" data type",
     "ErrSetVariantAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Variant\" data type",
     "ErrTreeSelectionUpdate": "EndUpdateSelection method called without BeginUpdateSelection method",
     "ErrValueConversionImpossible": "Failed to convert \"%s\" string to \"%s\" value",
@@ -545,7 +545,7 @@
     "ErrLowerLimit": "No lower bins bound specified",
     "ErrNoDefineExternalBins": "No external bins found",
     "ErrNoDefineExternalBound": "No bounds for external bins found",
-    "ErrSkoAvgFmt": "Failed to get SD/mean for %s field",
+    "ErrSkoAvgFmt": "Failed to get SD\/mean for %s field",
     "ErrStatFmt": "Failed to get minimum maximum for %s field",
     "ErrTooManyBinsFmt": "Too many bins defined for %s integer field",
     "ErrUpperLimit": "No upper bins bound specified",
@@ -585,7 +585,7 @@
   },
   "components/calcdata/CalcData": {
     "ErrExceededRecursiveCalls": "Maximum number of (%d) recursive calls of Data function in \"%s\" expression exceeded.\nTo solve this problem it is required to enable Caching.",
-    "ErrExprIsStringType.NOTE": "Старый исходник:\nВыражение \"%s\" имеет строковый тип\n\nСтарый перевод:\nExpression \"%s\" is of string type",
+    "ErrExprIsStringType": "В результате вычисления выражения \"%s\" получено значение строкового типа, оно несовместимо с заданным типом %s",
     "ErrGetVarArrayUnsupported": "Variant arrays can be returned by intermediate expressions only (expression \"%s\", row %d)",
     "ErrReplacingInputColumnNotFound": "Input field to replace with expression \"%s\" not found",
     "ErrVarExprAmbiguity": "\"%0:s\" can be input variable or intermediate expression. To allow nonuniqueness, use \"%1:s%0:s\" to access the variable or rename \"%0:s\" expression.",
@@ -653,7 +653,7 @@
   },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Error calculating \"%s\" expression",
-    "ErrExprIsStringType.NOTE": "Старый исходник:\nВыражение \"%s\" имеет строковый тип\n\nСтарый перевод:\nExpression \"%s\" is of string type",
+    "ErrExprIsStringType": "В результате вычисления выражения \"%s\" получено значение строкового типа, оно несовместимо с заданным типом %s",
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrReplacingInputVariableNotFound": "Input variable to replace with expression \"%s\" not found",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
@@ -781,7 +781,7 @@
     "ErrDataTypesNotMatch": "The specified column data type does not match the data type of the coarse classes",
     "ErrNotPositiveIntervalsCount": "Bin count must be more than 0",
     "ErrProcessKeptStatisticsExistentValue": "No previously present \"%s\" value in \"%s\" field while building fine classes",
-    "ErrProcessKeptStatisticsNonExistentValue.NOTE": "Старый исходник:\nВ процессе построения начальных классов в поле \"%s\" появилось ранее отсутствовавшее значение\n\nСтарый перевод:\nPreviously missing value appeared in field \"%s\" while building fine classes",
+    "ErrProcessKeptStatisticsNonExistentValue": "В процессе построения начальных классов в поле \"%s\" обнаружено ранее отсутствовавшее значение",
     "From": "from ",
     "NullClass": "Null class",
     "To": "to "
@@ -931,12 +931,12 @@
     "VendorDesc": "XML document generation according to given XSD schema"
   },
   "components/datereform/DateReform": {
-    "ErrFormatingString": "Error converting date/time to string with %s format",
+    "ErrFormatingString": "Error converting date\/time to string with %s format",
     "ISO8601": "ISO8601"
   },
   "components/datereform/DateReformVendor": {
     "VendorCaption": "Date and Time",
-    "VendorDescription": "Reform date/time"
+    "VendorDescription": "Reform date\/time"
   },
   "components/duplicates/DuplicatesEngine": {
     "Contradiction": "Contradiction",
@@ -1462,7 +1462,7 @@
     "CVProcessCaption": "Cross validation",
     "CVTrainSetPrepareProcessCaption": "Preparing training set",
     "CVValidationSetPrepareProcessCaption": "Preparing validation set",
-    "DecayDegree.NOTE": "Старый исходник:\nСтепень регуляризации\n\nСтарый перевод:\nDecay degree",
+    "DecayDegree": "Коэффициент регуляризации",
     "ErrCannotContinueTraining": "Failed to continue training since the structure of the trained neural network does not correspond to the new training parameters",
     "ErrClassifierUnknownClass": "Unknown class is present in the output classifier column",
     "ErrDataSourceNumInputsMismatch": "The input data dimensionality %d mismatches the neural network inputs number %d",
@@ -1481,12 +1481,12 @@
     "ErrTrainNetworkError": "Neural network training failed",
     "ErrWrongNeuronCounts": "One or several invalid neuron count values specified",
     "ExecuteProcessCaption": "Input data iteration",
-    "FitDecayProcessCaption.NOTE": "Старый исходник:\nОбучение: степень регуляризации = %.1f\n\nСтарый перевод:\nTraining: decay degree = %.1f",
-    "FitH0DecayProcessCaption.NOTE": "Старый исходник:\nОбучение: без скрытых слоев; степень регуляризации = %.1f\n\nСтарый перевод:\nTraining: without hidden layers; decay degree = %.1f",
+    "FitDecayProcessCaption": "Обучение: коэффициент регуляризации = %.6g",
+    "FitH0DecayProcessCaption": "Обучение: без скрытых слоев; коэффициент регуляризации = %.6g",
     "FitH0ProcessCaption": "Training: without hidden layers",
-    "FitH1DecayProcessCaption.NOTE": "Старый исходник:\nОбучение: один скрытый слой = %d нейронов; степень регуляризации = %.1f\n\nСтарый перевод:\nTraining: one hidden layer = %d neurons; decay degree = %.1f",
+    "FitH1DecayProcessCaption": "Обучение: один скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
     "FitH1ProcessCaption": "Training: one hidden = %d layer of neurons",
-    "FitH2DecayProcessCaption.NOTE": "Старый исходник:\nОбучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов; степень регуляризации = %.1f\n\nСтарый перевод:\nTraining: first hidden layer = %d neurons; second hidden layer = %d neurons; decay degree = %.1f",
+    "FitH2DecayProcessCaption": "Обучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
     "FitH2ProcessCaption": "Training: first hidden layyer = %d neurons; second hidden layer = %d neurons",
     "HLSize": "Number of neurons in the hidden layers (same)",
     "Nh1": "Number of neurons in the first hidden layer",
@@ -1545,7 +1545,7 @@
     "TrainSamples": "Samples in the training set"
   },
   "components/neuralnet/NeuralNetParams": {
-    "Decay.NOTE": "Старый исходник:\nПараметр регуляризации\n\nСтарый перевод:\nDecay parameter",
+    "Decay": "Коэффициент регуляризации",
     "ErrFloatValuesRelation": "\"%s\": parameter value (%f) must not exceed \"%s\" parameter value (%f)",
     "MaxEpochs": "Maximum number of epochs",
     "NRestarts": "Number of restarts",
@@ -1614,7 +1614,7 @@
     "PythonExeTerminatedBySignal": "Python interpreter execution was interrupted by signal %d",
     "PythonLoadOutputTable": "Reading output table",
     "PythonScriptExecution": "Executing script",
-    "ShmBaseDir": "/dev/shm/loginom",
+    "ShmBaseDir": "\/dev\/shm\/loginom",
     "WarnPreviewRunning": "Preview already running"
   },
   "components/python/PythonInterface": {
@@ -1624,24 +1624,24 @@
     "ErrPythonLibraryNotFound": "Python library not found"
   },
   "components/python/PythonModuleData": {
-    "ColumnGet": "Get($self, row, /)\n--\n\nGet column cell value\nArguments:\n  row: int\n    Table row index.\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
-    "ColumnIsNull": "IsNull($self, row, /)\n--\n\nCheck if there is a value in the column cell\nArguments:\n  row: int\n    Table row index.\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
-    "ColumnSet": "Set($self, value, /)\n--\n\nSet value in the column cell of the appended row\nArguments:\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None.\nResult:\n  None",
+    "ColumnGet": "Get($self, row, \/)\n--\n\nGet column cell value\nArguments:\n  row: int\n    Table row index.\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
+    "ColumnIsNull": "IsNull($self, row, \/)\n--\n\nCheck if there is a value in the column cell\nArguments:\n  row: int\n    Table row index.\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
+    "ColumnSet": "Set($self, value, \/)\n--\n\nSet value in the column cell of the appended row\nArguments:\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None.\nResult:\n  None",
     "ErrColumnInfoNoRequiredProperty": "Column definition does not contain required '%s' property",
     "ErrInvalidColumnDataKind": "Invalid data kind",
     "ErrInvalidColumnDataType": "Invalid data type",
     "ErrInvalidColumnUsageType": "Invalid usage type",
     "ErrNoCorrespondingObject": "Python object not associated with work object",
     "TableAddColumn": "AddColumn($self, ColumnInfo=None, Name=None, DisplayName=None, DataType=None, DataKind=None, DefaultUsageType=None)\n--\n\nAdd new column\nArguments:\n  ColumnInfo\n    Any object with the column metadata, for example, another column. Name is a required attribute; DisplayName, DataType, DataKind, DefaultUsageType are optional.\n  Name: str\n    Column name.\n  DisplayName: str\n    Column caption.\n  DataType: int\n    Column data type.\n  DataKind: int\n    Column data kind.\n  DefaultUsageType: int\n    Column default usage type.\nResult:\n  A new table column. Unspecified attributes of the new column are initialized with default values.",
-    "TableAppend": "Append($self, /)\n--\n\nAppend new row\n\nResult:\n  None",
-    "TableAssignColumns": "AssignColumns($self, source, /)\n--\n\nCreate columns by decriptions\nArguments:\n  source: Iterable\n    The object returning iterator over the column metadata objects, for example, InputTable.Columns. The column metadata object must contain the Name attribute and optionally DisplayName, DataType, DataKind, DefaultUsageType.",
-    "TableClearColumns": "ClearColumns($self, /)\n--\n\nDelete all columns\nResult:\n  None",
-    "TableDeleteColumn": "DeleteColumn($self, col, /)\n--\n\nDelete column by index or name\nArguments:\n  col: Union[int, str]\n    Index or name of deleted column.\nResult:\n  None",
-    "TableGet": "Get($self, row, col, /)\n--\n\nGet table cell value\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
-    "TableGetColumn": "GetColumn($self, col, /)\n--\n\nGet column by index or name\n\nArguments:\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Table column",
+    "TableAppend": "Append($self, \/)\n--\n\nAppend new row\n\nResult:\n  None",
+    "TableAssignColumns": "AssignColumns($self, source, \/)\n--\n\nCreate columns by decriptions\nArguments:\n  source: Iterable\n    The object returning iterator over the column metadata objects, for example, InputTable.Columns. The column metadata object must contain the Name attribute and optionally DisplayName, DataType, DataKind, DefaultUsageType.",
+    "TableClearColumns": "ClearColumns($self, \/)\n--\n\nDelete all columns\nResult:\n  None",
+    "TableDeleteColumn": "DeleteColumn($self, col, \/)\n--\n\nDelete column by index or name\nArguments:\n  col: Union[int, str]\n    Index or name of deleted column.\nResult:\n  None",
+    "TableGet": "Get($self, row, col, \/)\n--\n\nGet table cell value\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
+    "TableGetColumn": "GetColumn($self, col, \/)\n--\n\nGet column by index or name\n\nArguments:\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Table column",
     "TableInsertColumn": "InsertColumn($self, Index, ColumnInfo=None, Name=None, DisplayName=None, DataType=None, DataKind=None, DefaultUsageType=None)\n--\n\nInsert a new column according to the given index\nArguments:\n  Index: int\n    The index according to which the column is inserted.\n  ColumnInfo\n    Any object with the column metadata, for example, another column. Name is a required attribute; DisplayName, DataType, DataKind, DefaultUsageType are optional.\n  Name: str\n    Column name.\n  DisplayName: str\n    Column caption.\n  DataType: int\n    Column data type.\n  DataKind: int\n    Column data kind.\n  DefaultUsageType: int\n    Column default usage type.\nResult:\n  A new table column. Unspecified attributes of the new column are initialized with default values.",
-    "TableIsNull": "IsNull($self, row, col, /)\n--\n\nCheck if there is a value in the table cell\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
-    "TableSet": "Set($self, col, value, /)\n--\n\nSet value in the cell of the appended row\nArguments:\n  col: Union[int, str]\n    Index or name of table column\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None\nResult:\n  None"
+    "TableIsNull": "IsNull($self, row, col, \/)\n--\n\nCheck if there is a value in the table cell\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
+    "TableSet": "Set($self, col, value, \/)\n--\n\nSet value in the cell of the appended row\nArguments:\n  col: Union[int, str]\n    Index or name of table column\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None\nResult:\n  None"
   },
   "components/python/PythonUtils": {
     "ErrLoadedExtensionRegistrationFailed": "Error executing service code of Python extensions loading registration",
@@ -1731,7 +1731,7 @@
     "VendorDesc": "Selection of representative subset"
   },
   "components/slidingwindow/SlidingWindow": {
-    "ErrOutputColCountOverflow": "Too high values are specified for Depth period and/or Forecast horizon"
+    "ErrOutputColCountOverflow": "Too high values are specified for Depth period and\/or Forecast horizon"
   },
   "components/slidingwindow/SlidingWindowVendor": {
     "VendorCaption": "Lag",
@@ -1977,7 +1977,7 @@
     "VendorDesc": "Export to database through configured connection"
   },
   "exports/excelfile/ExportExcelFile": {
-    "PropErrErrSheetName": "The excel sheet name cannot contain the following characters: ? * / [ ]",
+    "PropErrErrSheetName": "The excel sheet name cannot contain the following characters: ? * \/ [ ]",
     "PropErrLongSheetName": "Excel sheet name cannot be longer than 31 characters",
     "PropErrNoSheetName": "No sheet name specified",
     "SaveExcelBookProcess": "Saving to file",
@@ -2128,7 +2128,7 @@
     "ErrOpenExcelBook": "Failed to open %s Excel file",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
     "ErrPropInvalidNamedRange": "Invalid named range",
-    "ErrPropInvalidSheetName": "The excel sheet name cannot contain the following characters: ? * / [ ]",
+    "ErrPropInvalidSheetName": "The excel sheet name cannot contain the following characters: ? * \/ [ ]",
     "ErrPropNamedRange": "Named range name not specified",
     "ErrPropNamedRangeNotFound": "\"%s\" named range not found in \"%s\" file",
     "ErrPropSheetName": "Excel sheet name not specified",
@@ -2228,10 +2228,10 @@
   },
   "imports/textfile/ImportTextFile": {
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
-    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date/time.",
+    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date\/time.",
     "ErrFloatTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to real number.",
     "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
-    "ErrMaxBytesCountReaded.NOTE": "Старый исходник:\nПри разборе текстового файла достигнут предел %d чтения максимального количества байт\n\nСтарый перевод:\nWhile parsing the text file, the reading limit of %d bytes was reached",
+    "ErrMaxBytesCountReaded": "При разборе текстового файла достигнут предел чтения (максимальное количество байт: %d)",
     "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length of %d characters before the closing text qualifier was found. The number of the file line where multiline starts: %d. The last file line included into the multiline: %d.",
     "ErrMultilineEofAchieved": "The text file end was reached before closing text qualifier was found. The file line number with multiline start: %d.",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
@@ -2468,7 +2468,7 @@
     "ObjMetaDesc": "object"
   },
   "Libraries/bgrtl/ClipboardAdapter": {
-    "ErrHTMLFormatNotImplemented": "Invalid clipboard format. Only text/plain is supported",
+    "ErrHTMLFormatNotImplemented": "Invalid clipboard format. Only text\/plain is supported",
     "ErrReadForbidden": "It is forbidden to read values",
     "ErrUnsupportedDelimiter": "Only CR+LF and LF line breaks are supported",
     "ErrWriteForbidden": "It is forbidden to write values"
@@ -2864,7 +2864,7 @@
     "ErrWrongSyncClass": "Invalid synchronization source class. Expected instance of %s class, actually %s"
   },
   "Libraries/bgrtl/StrDateUtils": {
-    "ErrInvalidDateTime": "\"%s\" string cannot be converted to the date/time value"
+    "ErrInvalidDateTime": "\"%s\" string cannot be converted to the date\/time value"
   },
   "Libraries/bgrtl/Streams": {
     "ErrCachedStreamSeek0AfterLargeRead": "It is not possible to move to the stream start as %d bytes already are read and it exceeds %d cache size"
@@ -2893,12 +2893,12 @@
     "ErrObjectDeleteRefCount": "Failed to delete the object of %s class due to interface references to it: %d"
   },
   "Libraries/bgrtl/System": {
-    "ErrConvertDateTimeToBool": "Failed to convert the Date/time value %g to the boolean value",
-    "ErrConvertDateTimeToInt": "Failed to convert the Date/time value %g to integer",
+    "ErrConvertDateTimeToBool": "Failed to convert the Date\/time value %g to the boolean value",
+    "ErrConvertDateTimeToInt": "Failed to convert the Date\/time value %g to integer",
     "ErrConvertFloatToBool": "Failed to convert the real value %g to the boolean value",
-    "ErrConvertFloatToDateTime": "Failed to convert the real value %g to the Date/time value",
+    "ErrConvertFloatToDateTime": "Failed to convert the real value %g to the Date\/time value",
     "ErrConvertFloatToInt": "Failed to convert the real value %g to integer",
-    "ErrConvertIntToDateTime": "Failed to convert the integer value %d to the Date/time value",
+    "ErrConvertIntToDateTime": "Failed to convert the integer value %d to the Date\/time value",
     "ErrConvertIntToFloat": "Failed to convert the integer value %d to the real number without accuracy loss",
     "ErrConvertIntToSet": "Failed to convert number %d of %d bits to the set of %d bits",
     "ErrConvertSetToInt": "Failed to convert the set of %d bits to the number of %d bits",
@@ -3304,6 +3304,7 @@
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "File name cannot be empty",
     "ErrFileNotFound": "\"%s\" file not found",
+    "ErrStorageIsNull": "Файловое хранилище не задано",
     "FileNameDisplayName": "File name",
     "FileTimeDisplayName": "File time"
   },
@@ -3383,7 +3384,7 @@
     "ErrCreateSolver": "Error creating sparse solver with type: %s",
     "ErrNoMatrixOrRhs": "Matrix or right side not set",
     "ErrNonSquareSuperMatrixNotSupportedYet": "Solver SuperLU does not support non-square matrices yet",
-    "ErrSizesNotEqual": "The matrix column count and dimension of the right part/solution do not match",
+    "ErrSizesNotEqual": "The matrix column count and dimension of the right part\/solution do not match",
     "ErrSuperLUSolver": "SuperLU Solver procedure failed",
     "ErrSuperMatrixNotConverted": "Matrix not converted to SuperLU format",
     "ErrWrongArrayType": "Unsupported array type: %s",
@@ -3973,7 +3974,7 @@
   },
   "Libraries/Normalization/NormalizerSettings": {
     "ErrMinMaxNormTypeNotSupported": "The selected \"%s\" normalization type is not supported by Min-Max normalization settings",
-    "ErrMinMaxStatNaN": "Failed to calculate the maximum/minimum value for the range normalization settings, \"%s\" column",
+    "ErrMinMaxStatNaN": "Failed to calculate the maximum\/minimum value for the range normalization settings, \"%s\" column",
     "ErrNanDivisor": "Failed to calculate divisor to normalize relations, \"%s\" column",
     "ErrQuotientNormTypeNotSupported": "The selected \"%s\" normalization type is not supported by the relation normalization settings",
     "ErrQuotientStatNotSupported": "Use of the selected statistics parameter \"%s\" as divisor in the relation normalization settings is not allowed",
@@ -4140,7 +4141,7 @@
   },
   "Libraries/RESTClientConnection/RESTClientConnectionVendor": {
     "RESTClientConnectionVendorCaption": "REST Service",
-    "RESTClientConnectionVendorDesc": "Connector to GET/POST web service"
+    "RESTClientConnectionVendorDesc": "Connector to GET\/POST web service"
   },
   "Libraries/rpc/BaseSocketMessageTransport": {
     "ErrCouldNotConnectToServer": "Failed to establish connection: %s",
@@ -4496,7 +4497,7 @@
     "UnixSocket": "Unix socket",
     "UnixSocketFileName": "loginomd",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL/TLS port"
+    "WSSPort": "WebSocket SSL\/TLS port"
   },
   "Viewers/Browse/BrowseView": {
     "ErrExportBusy": "Failed to export table in the process of data modification",
