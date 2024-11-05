@@ -585,7 +585,7 @@
   },
   "components/calcdata/CalcData": {
     "ErrExceededRecursiveCalls": "Maximum number of (%d) recursive calls of Data function in \"%s\" expression exceeded.\nTo solve this problem it is required to enable Caching.",
-    "ErrExprIsStringType": "В результате вычисления выражения \"%s\" получено значение строкового типа, оно несовместимо с заданным типом %s",
+    "ErrExprIsStringType": "Calculating expression \"%s\" resulted in a string value, which is incompatible with the set %s data type",
     "ErrGetVarArrayUnsupported": "Variant arrays can be returned by intermediate expressions only (expression \"%s\", row %d)",
     "ErrReplacingInputColumnNotFound": "Input field to replace with expression \"%s\" not found",
     "ErrVarExprAmbiguity": "\"%0:s\" can be input variable or intermediate expression. To allow nonuniqueness, use \"%1:s%0:s\" to access the variable or rename \"%0:s\" expression.",
@@ -653,7 +653,7 @@
   },
   "components/calcvariables/CalcVariables": {
     "ErrExprCalculate": "Error calculating \"%s\" expression",
-    "ErrExprIsStringType": "В результате вычисления выражения \"%s\" получено значение строкового типа, оно несовместимо с заданным типом %s",
+    "ErrExprIsStringType": "Calculating expression \"%s\" resulted in a string value, which is incompatible with the set %s data type",
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrReplacingInputVariableNotFound": "Input variable to replace with expression \"%s\" not found",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
@@ -781,7 +781,7 @@
     "ErrDataTypesNotMatch": "The specified column data type does not match the data type of the coarse classes",
     "ErrNotPositiveIntervalsCount": "Bin count must be more than 0",
     "ErrProcessKeptStatisticsExistentValue": "No previously present \"%s\" value in \"%s\" field while building fine classes",
-    "ErrProcessKeptStatisticsNonExistentValue": "В процессе построения начальных классов в поле \"%s\" обнаружено ранее отсутствовавшее значение",
+    "ErrProcessKeptStatisticsNonExistentValue": "Previously missing value located in field \"%s\" while building fine classes",
     "From": "from ",
     "NullClass": "Null class",
     "To": "to "
@@ -1462,7 +1462,7 @@
     "CVProcessCaption": "Cross validation",
     "CVTrainSetPrepareProcessCaption": "Preparing training set",
     "CVValidationSetPrepareProcessCaption": "Preparing validation set",
-    "DecayDegree": "Коэффициент регуляризации",
+    "DecayDegree": "Decay coefficient",
     "ErrCannotContinueTraining": "Failed to continue training since the structure of the trained neural network does not correspond to the new training parameters",
     "ErrClassifierUnknownClass": "Unknown class is present in the output classifier column",
     "ErrDataSourceNumInputsMismatch": "The input data dimensionality %d mismatches the neural network inputs number %d",
@@ -1481,12 +1481,12 @@
     "ErrTrainNetworkError": "Neural network training failed",
     "ErrWrongNeuronCounts": "One or several invalid neuron count values specified",
     "ExecuteProcessCaption": "Input data iteration",
-    "FitDecayProcessCaption": "Обучение: коэффициент регуляризации = %.6g",
-    "FitH0DecayProcessCaption": "Обучение: без скрытых слоев; коэффициент регуляризации = %.6g",
+    "FitDecayProcessCaption": "Training: decay coefficient = %.6g",
+    "FitH0DecayProcessCaption": "Training: without hidden layers; decay coefficient = %.6g",
     "FitH0ProcessCaption": "Training: without hidden layers",
-    "FitH1DecayProcessCaption": "Обучение: один скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
+    "FitH1DecayProcessCaption": "Training: one hidden layer = %d neurons; decay coefficient = %.6g",
     "FitH1ProcessCaption": "Training: one hidden = %d layer of neurons",
-    "FitH2DecayProcessCaption": "Обучение: первый скрытый слой = %d нейронов; второй скрытый слой = %d нейронов; коэффициент регуляризации = %.6g",
+    "FitH2DecayProcessCaption": "Training: first hidden layer = %d neurons; second hidden layer = %d neurons; decay coefficient = %.6g",
     "FitH2ProcessCaption": "Training: first hidden layyer = %d neurons; second hidden layer = %d neurons",
     "HLSize": "Number of neurons in the hidden layers (same)",
     "Nh1": "Number of neurons in the first hidden layer",
@@ -1545,7 +1545,7 @@
     "TrainSamples": "Samples in the training set"
   },
   "components/neuralnet/NeuralNetParams": {
-    "Decay": "Коэффициент регуляризации",
+    "Decay": "Decay coefficient",
     "ErrFloatValuesRelation": "\"%s\": parameter value (%f) must not exceed \"%s\" parameter value (%f)",
     "MaxEpochs": "Maximum number of epochs",
     "NRestarts": "Number of restarts",
@@ -2231,7 +2231,7 @@
     "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date\/time.",
     "ErrFloatTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to real number.",
     "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
-    "ErrMaxBytesCountReaded": "При разборе текстового файла достигнут предел чтения (максимальное количество байт: %d)",
+    "ErrMaxBytesCountReaded": "When parsing the text file, the reading limit was reached (the maximum byte count is %d)",
     "ErrMaxMultilineLengthReaded": "When parsing the text file, the multiline exceeded maximum length of %d characters before the closing text qualifier was found. The number of the file line where multiline starts: %d. The last file line included into the multiline: %d.",
     "ErrMultilineEofAchieved": "The text file end was reached before closing text qualifier was found. The file line number with multiline start: %d.",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
@@ -3304,7 +3304,7 @@
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "File name cannot be empty",
     "ErrFileNotFound": "\"%s\" file not found",
-    "ErrStorageIsNull": "Файловое хранилище не задано",
+    "ErrStorageIsNull": "File storage not specified",
     "FileNameDisplayName": "File name",
     "FileTimeDisplayName": "File time"
   },
@@ -4953,7 +4953,7 @@
   },
   "Warehouse2/MDTree": {
     "ErrColumnCantBeContinuous": "\"%s\" object of \"%s\" type cannot be continuous",
-    "ErrMismatchVersionInfo": "Deductor Warehouse versions do not match. Component: \"%s\". BD DW: \"%s\"",
+    "ErrMismatchVersionInfo": "Deductor Warehouse versions do not match. Component: \"%s\". DB DW: \"%s\"",
     "ErrNodeTypeExist": "Subnode of the specified \"%s\" type already exists"
   }
 }

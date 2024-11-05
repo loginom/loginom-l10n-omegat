@@ -357,14 +357,14 @@
       "NetworkParams": "Neural network parameters"
     },
     "NeuralNetworkAutofitParams": {
-      "DecayAutofit": "Подобрать коэффициент регуляризации",
+      "DecayAutofit": "Decay coefficient autofit",
       "MaxAutofitSeconds": "Autofit time not more (s)",
       "MaxAutofitStages": "Autofit stages not more",
       "StopAtZeroClsError": "Stop at zero classification error",
       "StructureAutofit": "Structure autofit",
       "SubSampleMaxSize": "Maximum sample size",
       "SubSamplePercent": "Percent sample size",
-      "UseInitialDecay": "Начать с указанного коэффициента регуляризации",
+      "UseInitialDecay": "Start with the specified decay coefficient",
       "UseInitialStructure": "Start with the specified structure",
       "UseSubSampling": "Use a subset of the training set"
     },

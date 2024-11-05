@@ -1582,8 +1582,8 @@
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
     "CantCreateFolder": "Failed to create folder",
-    "CantDeleteFileFmt": "Не удалось удалить файл {0}",
-    "CantDeleteFolderFmt": "Не удалось удалить каталог {0}",
+    "CantDeleteFileFmt": "Failed to delete file {0}",
+    "CantDeleteFolderFmt": "Failed to delete folder {0}",
     "CantDownloadFolder": "Directory downloads have not been implemented yet",
     "ConfirmDeleteAll": "Do you really want to delete all?",
     "ConfirmDeleting": "Do you really want to delete the selection?",
