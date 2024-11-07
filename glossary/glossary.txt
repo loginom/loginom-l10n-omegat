@@ -438,6 +438,5 @@ P-значение	P-value
 Актуальная версия	Latest stable version
 имя	caption	когда в ключе DisplayName
 задачa	job	в планировщике (scheduler)
-задача	job	в планировщике (scheduler)
 Область видимости	scope	в контексте OpenID
 Единственный	Only	Only — функция скрипта
