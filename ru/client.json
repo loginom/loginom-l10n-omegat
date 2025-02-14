@@ -1277,7 +1277,8 @@
   },
   "exports/xml/BaseXmlRequestWizard": {
     "EmptyNamespace": "пространство имен не указано",
-    "ExportXmlRequestTitle": "Сопоставление полей для экспорта"
+    "ExportXmlRequestTitle": "Сопоставление полей для экспорта",
+    "RootCountExceededLimit": "Количество корневых элементов {0} превысило предел {1}"
   },
   "ext/colorfield/Field": {
     "UndefinedHexFormat": "Неверный шестнадцатеричный формат числа"
@@ -1567,7 +1568,9 @@
     "ZipFileDesc": "ZIP-архив"
   },
   "filestorage/FileDownloader": {
-    "CantSaveDownLoadedFile": "Не удалось сохранить скачанный файл"
+    "CancelDownload": "Отменить скачивание?",
+    "CantSaveDownLoadedFile": "Не удалось сохранить скачанный файл",
+    "ConfirmCancelAll": "Хотите ли вы отменить скачивание всех остальных файлов?"
   },
   "filestorage/FileSenderManager": {
     "FileAlreadyDownloading": "Файл \"{0}\" скачивается. Дождитесь окончания или отмените процесс скачивания.",
@@ -1807,7 +1810,8 @@
     "VerticalBar": "Вертикальная черта (|)"
   },
   "imports/xml/ImportXmlFieldsWizard": {
-    "EmptyNamespace": "Пространство имен не указано"
+    "EmptyNamespace": "Пространство имен не указано",
+    "RootCountExceededLimit": "Количество корневых элементов {0} превысило предел {1}"
   },
   "imports/xml/ImportXmlPreviewWizard": {
     "ErrNoFile": "Задано имя несуществующего XML-файла"
@@ -2364,6 +2368,7 @@
   },
   "viewers/common/ViewsForm": {
     "CantAddGenericInputViewToReport": "Добавление визуализаторов входного узла подмодели в Отчеты не поддерживается",
+    "ClearViewsErrors": "Не все визуализаторы удалены.",
     "CreateGroup": "Создать группу...",
     "CreateGroupTitle": "Создание группы",
     "DeleteAllViews": "Удалить все визуализаторы?",

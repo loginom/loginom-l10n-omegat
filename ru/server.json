@@ -417,10 +417,12 @@
     "ErrStrToValueIntBadTypeRefinement": "Уточнение типа \"%s\" не допускается при преобразовании из строки в целое"
   },
   "Common/XML/XML_LIBXML2": {
-    "ErrElementMustHaveAttribute": "Атрибут \"%s\" обязателен для элемента \"%s\""
+    "ErrElementMustHaveAttribute": "Атрибут \"%s\" обязателен для элемента \"%s\"",
+    "ErrHTTPRequestFault": "Ошибка запроса документа \"%s\": %d (%s)"
   },
   "Common/XML/XML_MSXML": {
     "ErrElementMustHaveAttribute": "Атрибут \"%s\" обязателен для элемента \"%s\"",
+    "ErrHTTPRequestFault": "Ошибка запроса документа \"%s\": %d (%s)",
     "ErrXMLParseFailure": "Ошибка при обработке документа %s (строка %d, позиция %d): %s",
     "ErrXMLParseStringFailure": "Ошибка при обработке XML (строка %d, позиция %d): %s"
   },
@@ -2331,6 +2333,7 @@
     "ErrPrepareQuery": "Ошибка подготовки SQL:\n%s",
     "ErrSetSequence": "Ошибка установки Sequence для DB. Старый Sequence = %d",
     "ErrTableNameNotSelect": "Не указано имя таблицы",
+    "ErrTableNotExists": "Таблица не существует",
     "ErrTestConnection": "Ошибка проверки подключения:\n%s",
     "ErrUnPrepareQuery": "Ошибка очистки подготовленного запроса",
     "LockTimeout": "Тайм-аут блокировки",
@@ -2343,6 +2346,9 @@
     "ErrFileNotFound": "Файл \"%s\" не найден",
     "ErrGetFileStorage": "Отсутствует ссылка на файловое хранилище",
     "SSLOptions": "Настройки SSL"
+  },
+  "Libraries/bgdbrtl/DBStrUtils": {
+    "ErrInvalidObjectNameRedundantDot": "Избыточное число разделителей \".\" в имени объекта \"%s\""
   },
   "Libraries/bgdbrtl/UniDAC/AccessODBCUniDACDB": {
     "DatabaseTypeName": "MS Access (ODBC)",
@@ -2369,8 +2375,13 @@
   "Libraries/bgdbrtl/UniDAC/IBUniDACDB": {
     "DatabaseTypeName": "InterBase"
   },
+  "Libraries/bgdbrtl/UniDAC/MsSQLODBCUniProvider": {
+    "ErrDriverNotInstalled": "ODBC-драйвер не установлен (%s)"
+  },
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
-    "DatabaseTypeName": "MS SQL (OLE DB)"
+    "APP_ENVVAR": "LOGINOM",
+    "DatabaseTypeName": "MS SQL (OLE DB)",
+    "ErrMSSQLODBCDriverUnknown": "Неизвестный ODBC-драйвер для подключения к SQL Server (%s=%s). Подходящий драйвер будет выбран автоматически."
   },
   "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
     "DatabaseTypeName": "MySQL",
@@ -2386,12 +2397,10 @@
   "Libraries/bgdbrtl/UniDAC/ODBCUniDACDB": {
     "DatabaseTypeName": "ODBC",
     "ErrDriverDoesNotSupportQuotes": "Источник данных не поддерживает идентификаторы в кавычках, драйвер \"%s\"",
-    "ErrFileDSNForbidden": "Подключения через файловые DSN запрещены",
-    "ErrInvalidTableNameRedundantDot": "Избыточное число разделителей \".\" в имени таблицы \"%s\""
+    "ErrFileDSNForbidden": "Подключения через файловые DSN запрещены"
   },
   "Libraries/bgdbrtl/UniDAC/OracleUniDACDB": {
-    "DatabaseTypeName": "Oracle",
-    "ErrInvalidTableNameRedundantDot": "Избыточное число разделителей \".\" в имени таблицы \"%s\""
+    "DatabaseTypeName": "Oracle"
   },
   "Libraries/bgdbrtl/UniDAC/PostgresUniDACDB": {
     "DatabaseTypeName": "PostgreSQL"
@@ -3043,11 +3052,13 @@
   },
   "Libraries/bgrtl/Vendors": {
     "ErrObjectNotFound": "В списке для идентификатора %s %s не существует",
+    "ErrVendorAlreadyExist": "Невозможно добавить %s с меткой \"%s\" и идентификатором %s: в списке уже существует элемент с данным идентификатором",
     "VendorGroupMetaDesc": "группа поставщиков информации",
     "VendorMetaDesc": "поставщик информации"
   },
   "Libraries/bgrtl/ZipArchive": {
     "ErrArchiveFormat": "Архив повреждён, открыть не удалось",
+    "ErrArchiveIsReadOnly": "Архив открыт только на чтение",
     "ErrArchiveNotOpen": "Архив не открыт",
     "ErrCompressErr": "Ошибка сжатия данных",
     "ErrCompressStream": "Ошибка сжатого потока данных",
@@ -3059,7 +3070,6 @@
     "ErrIdentName": "Файл с именем %s уже есть в архиве",
     "ErrIndexOutOfRange": "Индекс за пределами диапазона",
     "ErrMultipleTransactions": "Добавление в архив нескольких файлов параллельно не поддерживается",
-    "ErrReopenArchive": "Не удалось постоянно открыть архив",
     "ErrReWriteLocalFileHeader": "Ошибка при обновлении локального заголовка файла",
     "ErrSeekRead": "Перемещаться по потоку данных можно только вперёд",
     "ErrSeekWrite": "Невозможно переместится по потоку данных",
@@ -4454,11 +4464,11 @@
     "ErrHistoryCountMustNotBeNegative": "Количество записей в истории не должно быть отрицательным",
     "ErrInvalidExceptionInfoFormat": "Информация об исключении имеет некорректный формат",
     "ErrPeriodCountMustBePositive": "Количество периодов повтора должно быть положительным",
-    "ErrSchedulerInitException": "Возникло исключение при инициализации планировшика задач",
+    "ErrSchedulerInitException": "Возникло исключение при инициализации планировщика задач",
     "ErrSchedulerJobAlreadyDeleted": "Задача уже удалена",
     "ErrSchedulerJobIsNotConfiguring": "Задача не находится в состоянии конфигурирования",
     "ErrSchedulerNotInitialized": "Инициализация планировщика задач была завершена с ошибкой",
-    "ErrSchedulerThreadException": "Возникло исключение в главном потоке планировшика задач",
+    "ErrSchedulerThreadException": "Возникло исключение в главном потоке планировщика задач",
     "LogAddJob": "В планировщике создана задача \"%s\", принадлежащая пользователю %s",
     "LogClearJobs": "В планировщике удалены все задачи",
     "LogClearJobsOfUser": "В планировщике удалены все задачи, принадлежащие пользователю %s",

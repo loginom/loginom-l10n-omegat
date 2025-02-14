@@ -388,6 +388,7 @@
     },
     "NeuralNetworkTrainingParams": {
       "ContinueTraining": "Продолжить обучение",
+      "Decay": "Коэффициент регуляризации",
       "NRestarts": "Количество рестартов"
     }
   },
