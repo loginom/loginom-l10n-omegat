@@ -418,11 +418,11 @@
   },
   "Common/XML/XML_LIBXML2": {
     "ErrElementMustHaveAttribute": "\"%s\" attribute required for \"%s\" element",
-    "ErrHTTPRequestFault": "Ошибка запроса документа \"%s\": %d (%s)"
+    "ErrHTTPRequestFault": "Error requesting document \"%s\": %d (%s)"
   },
   "Common/XML/XML_MSXML": {
     "ErrElementMustHaveAttribute": "\"%s\" attribute required for \"%s\" element",
-    "ErrHTTPRequestFault": "Ошибка запроса документа \"%s\": %d (%s)",
+    "ErrHTTPRequestFault": "Error requesting document \"%s\": %d (%s)",
     "ErrXMLParseFailure": "Error processing %s document (row %d, position %d): %s",
     "ErrXMLParseStringFailure": "Error processing XML (row %d, position %d): %s"
   },
@@ -2333,7 +2333,7 @@
     "ErrPrepareQuery": "SQL preparation error:\n%s",
     "ErrSetSequence": "Sequence initialization error for DB. Old Sequence = %d",
     "ErrTableNameNotSelect": "No table name specified",
-    "ErrTableNotExists": "Таблица не существует",
+    "ErrTableNotExists": "The table doesn't exist",
     "ErrTestConnection": "Connection test error:\n%s",
     "ErrUnPrepareQuery": "Error clearing prepared query",
     "LockTimeout": "Lock timeout",
@@ -2348,7 +2348,7 @@
     "SSLOptions": "SSL settings"
   },
   "Libraries/bgdbrtl/DBStrUtils": {
-    "ErrInvalidObjectNameRedundantDot": "Избыточное число разделителей \".\" в имени объекта \"%s\""
+    "ErrInvalidObjectNameRedundantDot": "Too many \".\" separators in the object name \"%s\""
   },
   "Libraries/bgdbrtl/UniDAC/AccessODBCUniDACDB": {
     "DatabaseTypeName": "MS Access (ODBC)",
@@ -2376,12 +2376,12 @@
     "DatabaseTypeName": "InterBase"
   },
   "Libraries/bgdbrtl/UniDAC/MsSQLODBCUniProvider": {
-    "ErrDriverNotInstalled": "ODBC-драйвер не установлен (%s)"
+    "ErrDriverNotInstalled": "ODBC driver not installed (%s)"
   },
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
     "APP_ENVVAR": "LOGINOM",
     "DatabaseTypeName": "MS SQL (OLE DB)",
-    "ErrMSSQLODBCDriverUnknown": "Неизвестный ODBC-драйвер для подключения к SQL Server (%s=%s). Подходящий драйвер будет выбран автоматически."
+    "ErrMSSQLODBCDriverUnknown": "Unknown ODBC driver for SQL Server connection (%s=%s). A matching driver will be selected automatically."
   },
   "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
     "DatabaseTypeName": "MySQL",
@@ -3052,13 +3052,13 @@
   },
   "Libraries/bgrtl/Vendors": {
     "ErrObjectNotFound": "%s does not exist in %s identifier list",
-    "ErrVendorAlreadyExist": "Невозможно добавить %s с меткой \"%s\" и идентификатором %s: в списке уже существует элемент с данным идентификатором",
+    "ErrVendorAlreadyExist": "Failed to add %s with caption \"%s\" and identifier %s: An element with this identifier is already on the list.",
     "VendorGroupMetaDesc": "vendor group",
     "VendorMetaDesc": "vendor"
   },
   "Libraries/bgrtl/ZipArchive": {
     "ErrArchiveFormat": "Archive is damaged, failed to open",
-    "ErrArchiveIsReadOnly": "Архив открыт только на чтение",
+    "ErrArchiveIsReadOnly": "This archive is read-only",
     "ErrArchiveNotOpen": "Archive not open",
     "ErrCompressErr": "Data compression error",
     "ErrCompressStream": "Compressed data stream error",

@@ -1278,7 +1278,7 @@
   "exports/xml/BaseXmlRequestWizard": {
     "EmptyNamespace": "empty namespace",
     "ExportXmlRequestTitle": "Field Mapping for Export",
-    "RootCountExceededLimit": "Количество корневых элементов {0} превысило предел {1}"
+    "RootCountExceededLimit": "Root element count {0} exceeds the limit of {1}"
   },
   "ext/colorfield/Field": {
     "UndefinedHexFormat": "Invalid hexadecimal number format"
@@ -1568,9 +1568,9 @@
     "ZipFileDesc": "ZIP archive"
   },
   "filestorage/FileDownloader": {
-    "CancelDownload": "Отменить скачивание?",
+    "CancelDownload": "Cancel download?",
     "CantSaveDownLoadedFile": "Failed to save the downloaded file",
-    "ConfirmCancelAll": "Хотите ли вы отменить скачивание всех остальных файлов?"
+    "ConfirmCancelAll": "Do you want to cancel the download of all other files?"
   },
   "filestorage/FileSenderManager": {
     "FileAlreadyDownloading": "\"{0}\" file is being downloaded. Wait until the end or cancel the process of downloading.",
@@ -1811,7 +1811,7 @@
   },
   "imports/xml/ImportXmlFieldsWizard": {
     "EmptyNamespace": "Empty namespace",
-    "RootCountExceededLimit": "Количество корневых элементов {0} превысило предел {1}"
+    "RootCountExceededLimit": "Root element count {0} exceeds the limit of {1}"
   },
   "imports/xml/ImportXmlPreviewWizard": {
     "ErrNoFile": "Nonexistent XML file name specified"
@@ -2368,7 +2368,7 @@
   },
   "viewers/common/ViewsForm": {
     "CantAddGenericInputViewToReport": "Addition of supernode input node visualizers to Reports is not supported",
-    "ClearViewsErrors": "Не все визуализаторы удалены.",
+    "ClearViewsErrors": "Not all visualizers deleted.",
     "CreateGroup": "New group...",
     "CreateGroupTitle": "Create Group",
     "DeleteAllViews": "Do you want to delete all visualizers?",
