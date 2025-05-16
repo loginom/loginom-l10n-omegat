@@ -3,7 +3,7 @@
     "CalcFuncCategory": {
       "$Caption": "Function Category",
       "Financical": "Financial",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Mathematic": "Math",
       "Statistic": "Statistical",
       "Logic": "Logical",
@@ -46,7 +46,7 @@
       "Ok": "No errors",
       "Cancelled": "Canceled by user",
       "InitError": "Initialization error: %s",
-      "InvalidMultipartBoundary": "Invalid multipart\/related boundary",
+      "InvalidMultipartBoundary": "Invalid multipart/related boundary",
       "HeaderTooLong": "HTTP header too long",
       "UnexpectedMessageEnd": "Unexpected message end",
       "UnknownMessageStructure": "Unrecognized message structure",
@@ -168,7 +168,7 @@
       "None": "Unknown",
       "Date": "Date",
       "Time": "Time",
-      "DateTime": "Date\/time",
+      "DateTime": "Date/time",
       "Float": "Floating point number (single precision)",
       "Double": "Floating point number (double precision)",
       "Decimal": "Decimal number",
@@ -255,9 +255,9 @@
     },
     "BinningSDMode": {
       "$Caption": "Bin Create Mode",
-      "sdm1": "+\/- 1 SD",
-      "sdm2": "+\/- 2 SD",
-      "sdm3": "+\/- 3 SD"
+      "sdm1": "+/- 1 SD",
+      "sdm2": "+/- 2 SD",
+      "sdm3": "+/- 3 SD"
     }
   },
   "components/calcdata": {
@@ -396,12 +396,12 @@
     },
     "DateReformFormat": {
       "$Caption": "Output Column Data Type",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Number": "Number",
       "String": "String"
     },
     "DateReformFunction": {
-      "$Caption": "Date\/Time Conversion Method",
+      "$Caption": "Date/Time Conversion Method",
       "YearAndQuarter": "Year + quarter",
       "YearAndMonth": "Year + month",
       "YearAndWeek": "Year + week",
@@ -692,7 +692,7 @@
       "$Caption": "Wavelet Type",
       "Daubechies": "Daubechies",
       "Coiflet": "Coiflet",
-      "CDF97": "CDF 9\/7"
+      "CDF97": "CDF 9/7"
     }
   },
   "components/sonn": {
@@ -816,7 +816,7 @@
   "imports/database": {
     "BDCommandType": {
       "$Caption": "Command Text Type",
-      "Table": "Table\/view name",
+      "Table": "Table/view name",
       "Text": "SQL query"
     }
   },
@@ -1055,7 +1055,7 @@
       "$Caption": "Data Type",
       "None": "Undefined",
       "Boolean": "Logical",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Float": "Real",
       "Integer": "Integer",
       "String": "String",
@@ -1235,7 +1235,7 @@
   },
   "Libraries/bgrtl/TimeZones": {
     "ExportXMLSpecifyTimeZone": {
-      "$Caption": "Presence of the Time Zone in the Date\/Time Values",
+      "$Caption": "Presence of the Time Zone in the Date/Time Values",
       "None": "Do not specify",
       "AllButDate": "Do not specify for Date",
       "All": "Specify always"
@@ -1267,7 +1267,7 @@
       "Sequence": "Sequence"
     },
     "LearnPartitionMethod": {
-      "$Caption": "Method of Training\/Test Component Partitioning with Training",
+      "$Caption": "Method of Training/Test Component Partitioning with Training",
       "Random": "Random",
       "Sequence": "Sequence",
       "ByColumn": "By column"
@@ -1367,7 +1367,7 @@
     "LDAPConnectionSecurity": {
       "$Caption": "Connection Security",
       "Simple": "Simple connection",
-      "SSL": "SSL\/TLS",
+      "SSL": "SSL/TLS",
       "StartTLS": "STARTTLS"
     },
     "LDAPUserRole": {
@@ -1613,7 +1613,7 @@
       "$Caption": "Axis Type",
       "Linear": "Linear",
       "Logarithmic": "Logarithmic",
-      "Datetime": "Date\/Time",
+      "Datetime": "Date/Time",
       "Category": "Categories"
     },
     "ChartLinkKind": {

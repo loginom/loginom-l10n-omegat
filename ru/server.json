@@ -507,7 +507,6 @@
   "components/binning/Binning": {
     "CalculatingBarChartsProcess": "Расчет гистограммы",
     "CalculatingBinsProcess": "Расчет интервалов",
-    "DoTeachProcessFmt": "Обработка поля \"%s\"",
     "ErrBinsInvalidFmt": "Для столбца \"%s\" интервалы не пригодны для квантования",
     "ErrBinsNotDefined": "Для заданных параметров не определены диапазоны",
     "ErrCreateQuantizer": "Не удалось создать квантователь",
@@ -559,7 +558,7 @@
     "ErrZeroDivForSDFmt": "Поле %s с нулевой дисперсией, будут созданы только 3 интервала"
   },
   "components/binning/BinningMethodsImplementationTile": {
-    "AlignTile": "Выравнивание плиток",
+    "AlignTileFmt": "Выравнивание плиток поля %s",
     "ErrBinsCountLimitFmt": "Количество плиток не должно быть более %d",
     "ErrContextNotReadyFmt": "Для поля %s и метода %s, не сформирован контекст",
     "ErrNoMethod": "Не удалось получить настройки для плиточного квантования",
@@ -1983,6 +1982,8 @@
     "PropErrLongSheetName": "Имя листа excel не может быть длиннее 31 символа",
     "PropErrNoSheetName": "Не задано имя листа",
     "SaveExcelBookProcess": "Сохранение в файл",
+    "WarnColCountOverflowFmt": "Экспортировано %d колонок данных из %d",
+    "WarnRowCountOverflowFmt": "Экспортировано %d строк данных из %d",
     "WriteDataProcess": "Запись данных в книгу Excel"
   },
   "exports/excelfile/ExportExcelFileVendor": {
@@ -2254,6 +2255,8 @@
     "ErrWindowsTimeZoneNotSupported": "Временная зона \"%s\" не поддерживается",
     "ErrXMLImport": "Ошибка при выполнении импорта XML. Код ошибки: %d. Сообщение: %s",
     "FileConnection": "Подключение к файловому хранилищу",
+    "SchematronRuleErr": "Валидация по Schematron правилам не пройдена",
+    "SchematronValidateErr": "Не пройдена проверка \"%s\" для узла %s в строке %d",
     "XSDConnection": "Подключение к источнику XSD-схемы"
   },
   "imports/xml/ImportXMLVendor": {

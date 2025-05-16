@@ -1,10 +1,10 @@
 {
   "about/About": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
@@ -99,7 +99,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL\/TLS port"
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -180,7 +180,7 @@
     "ConfirmQuit": "Unsaved packages. Exit anyway?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "QAHref": "https://qa.loginom.com/questions/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -318,7 +318,7 @@
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
     "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
+    "ComposeExpandNode": "Collapse items to supernode / Expand supernode",
     "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation to supernode",
@@ -475,7 +475,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "DisNamespace": "http://schemas.loginom.com/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -625,7 +625,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https:\/\/loginom.com",
+    "CompanyWebsite": "https://loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom"
   },
@@ -635,7 +635,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "QAHref": "https://qa.loginom.com/questions/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -1142,8 +1142,8 @@
     "NotAssignedColumn": "Not selected"
   },
   "components/variablestodata/VariablesToDataWizard": {
-    "VarToColumnsDescribe": "Each variable will correspond to a separate table field.",
-    "VarToRowsDescribe": "Each variable will correspond to a separate table entry."
+    "VarToColumnsDescribe": "Each variable will create a new field in the table.",
+    "VarToRowsDescribe": "Each variable will create a new record in the table."
   },
   "components/wsdlclient/AbstractOutputWizard": {
     "PartMessagePrefix": "Part: "
@@ -1252,7 +1252,8 @@
     "DeleteModeNotDelete": "do not delete"
   },
   "exports/excelfile/ExportExcelFilePreviewWizard": {
-    "DefaultSheetName": "Sheet1"
+    "DefaultSheetName": "Sheet1",
+    "WarnRowCountOverflowFmt": "{0} out of {1} rows will be exported"
   },
   "exports/kafka/KafkaExportWizard": {
     "InvalidMessageFieldFmt": "Field with \"{0}\" messages not found",
@@ -1288,7 +1289,7 @@
     "Pallete": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open\/close was found"
+    "ToggleRowNotFoundRow": "No row to open/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Data set not active"
@@ -1555,8 +1556,8 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied\/cut",
-    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied/cut",
+    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message: "
   },
@@ -1580,7 +1581,7 @@
     "FileConflictTitle": "Conflict of Files with the Same Names",
     "FileModifiedDate": "Change date: {0}",
     "FileSize": "Size: {0}",
-    "NotSupportedDescriptor": "The passed \"{0}\" entry is neither file, nor directory."
+    "NotSupportedDescriptor": "The passed \"{0}\" entry is neither file nor directory."
   },
   "filestorage/FileStorageForm": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
@@ -1605,7 +1606,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied\/cut",
+    "HasNotStorageItems": "No files to be copied/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1659,11 +1660,11 @@
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
@@ -1776,7 +1777,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
+    "Slash": "Slash (/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -2073,13 +2074,12 @@
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show\/Hide Comment",
+    "CommentBtn": "Show/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
   "mxgraph/node/comment/Note": {
     "ErrCommentExpandNotSaved": "Failed to save comment state",
-    "ErrCommentNotSaved": "Failed to save comment",
     "ErrCommentSizeNotSaved": "Failed to save comment size",
     "NodeIsLocked": "Comment change forbidden: node is locked",
     "WrongCommentValue": "Invalid comment value"
@@ -2348,7 +2348,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " \/ ",
+    "CompareTo": " / ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -2558,6 +2558,9 @@
   "viewers/fastpreview/FastPreviewForm": {
     "NodeIsNotActive": "Node not activated"
   },
+  "viewers/format/CustomFormatPanel": {
+    "ErrBadFormatString": "The format string contains an invalid character combination"
+  },
   "viewers/LockableView": {
     "LockMaskText": "Loading"
   },
@@ -2750,7 +2753,7 @@
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipConnect": "Activate connection",
     "BtnTooltipDelete": "Delete connection...",
@@ -2851,7 +2854,7 @@
     "ActionDeleteAll": "Delete all...",
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
-    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",

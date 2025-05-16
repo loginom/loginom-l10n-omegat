@@ -1252,7 +1252,8 @@
     "DeleteModeNotDelete": "не удалять"
   },
   "exports/excelfile/ExportExcelFilePreviewWizard": {
-    "DefaultSheetName": "Лист1"
+    "DefaultSheetName": "Лист1",
+    "WarnRowCountOverflowFmt": "Будет экспортировано {0} строк данных из {1}"
   },
   "exports/kafka/KafkaExportWizard": {
     "InvalidMessageFieldFmt": "Поле с сообщениями \"{0}\" не найдено",
@@ -2079,7 +2080,6 @@
   },
   "mxgraph/node/comment/Note": {
     "ErrCommentExpandNotSaved": "Не удалось сохранить состояние комментария",
-    "ErrCommentNotSaved": "Не удалось сохранить комментарий",
     "ErrCommentSizeNotSaved": "Не удалось сохранить размеры комментария",
     "NodeIsLocked": "Узел заблокирован, изменить комментарий нельзя",
     "WrongCommentValue": "Неверное значение комментария"
@@ -2557,6 +2557,9 @@
   },
   "viewers/fastpreview/FastPreviewForm": {
     "NodeIsNotActive": "Узел не активирован"
+  },
+  "viewers/format/CustomFormatPanel": {
+    "ErrBadFormatString": "Строка формата содержит неправильную комбинацию символов"
   },
   "viewers/LockableView": {
     "LockMaskText": "Загрузка"

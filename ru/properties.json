@@ -827,6 +827,7 @@
       "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "IgnoreAbsentValues": "Разрешить пропуск обязательных полей",
       "RepeatUniqueValues": "Дублировать единичные значения",
+      "SchematronValidation": "Проверять по Schematron правилам",
       "StrictValidation": "Проверять на соответствие XSD",
       "TimeZone": "Временная зона по умолчанию"
     }

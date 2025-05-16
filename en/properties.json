@@ -575,7 +575,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/View",
+      "CommandText": "Table/View",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
     }
@@ -827,6 +827,7 @@
       "CompositeDisplayNameSeparator": "Composite captions separator",
       "IgnoreAbsentValues": "Allow required fields skipping",
       "RepeatUniqueValues": "Repeat single values",
+      "SchematronValidation": "Validate against Schematron",
       "StrictValidation": "Validate against XSD",
       "TimeZone": "Default time zone"
     }
@@ -937,9 +938,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact\/inexact data priority",
-      "FactLessMore": "Less\/more factors priority",
-      "QualitySpeed": "Accuracy\/speed priority"
+      "ExactInexact": "Exact/inexact data priority",
+      "FactLessMore": "Less/more factors priority",
+      "QualitySpeed": "Accuracy/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -1012,7 +1013,7 @@
       "SSLPrivateKeyFile": "Private key file name",
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL\/TLS port"
+      "WSSPort": "WebSocket SSL/TLS port"
     }
   },
   "Warehouse2/DWConnection": {
