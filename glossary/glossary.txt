@@ -128,9 +128,8 @@ XSD-схема на входе	Input XSD schema
 Фактор	Factor
 Разделитель столбцов	Column delimiter
 Поиск кластеров	Clustering
-Прогон входных данных	Input data iteration
-Прогон на тестовом множестве	Test data set iteration
-Прогон на валидационном множестве	Validation data set iteration
+Прогон на тестовом множестве	Test dataset iteration/traverse
+Валидационное множество	Validation (data)set
 Имя листа	Sheet name
 Выполнить запрос	Execute query
 Соответствие между столбцами	Columns mapping
