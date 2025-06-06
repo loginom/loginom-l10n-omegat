@@ -3754,8 +3754,8 @@
     "ModelComponentVendorMetaDesc": "component"
   },
   "Libraries/Model/ModelWorkFlow": {
-    "ActivateModelNodeInputs": "Activate node inputs",
-    "ActivateModelNodes": "Activate nodes",
+    "ActivateModelNodeInputs": "Activating node inputs",
+    "ActivateModelNodes": "Activating nodes",
     "AddInputSocketCaption": "\"%s\" input added to \"%s\" node",
     "ComponentOutputPort": "Component",
     "CopyNodeCaption": "\"%s\" Element Copied",
