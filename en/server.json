@@ -3240,8 +3240,8 @@
     "RandomUniformSamplingDesc": "Group sampling",
     "SequenceSamplingDesc": "Sequence sampling",
     "StratifiedSamplingDesc": "Stratified sampling",
-    "TeachDataSet": "Training set selection",
-    "TestDataSet": "Test set selection"
+    "TeachDataSet": "Selecting the training set",
+    "TestDataSet": "Selecting the test set"
   },
   "Libraries/DataPartition/PartitionIndexGenerator": {
     "ErrExternalColumnNotReady": "No external partition column specified"
@@ -4544,7 +4544,7 @@
     "VendorDesc": "Table data view"
   },
   "Viewers/Chart/ChartColumnInfo": {
-    "ChartExtremesProgress": "Search for extremes",
+    "ChartExtremesProgress": "Search for extrema",
     "ChartSortingProgress": "Data sorting",
     "ChartTotalsProgress": "Series sum calculation"
   },

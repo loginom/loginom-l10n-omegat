@@ -1643,7 +1643,7 @@
     "DecimationType": {
       "$Caption": "Point Filter",
       "Simple": "Quick",
-      "Extremes": "Extremes",
+      "Extremes": "Extrema",
       "LTTB": "LTTB"
     },
     "LegendAlign": {
