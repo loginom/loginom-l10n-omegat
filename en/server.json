@@ -1303,9 +1303,9 @@
     "RegPrepareData": "Preparing data before training",
     "RegTrainElnetGridProcessName": "Training the model (regularization coefficient L1 = %.4f regularization coefficient L2 = %.4f)",
     "RegTrainLassoGridProcessName": "Training the model (regularization coefficient L1 = %.4f)",
-    "RegTrainProcessName": "Training the model using %s method",
+    "RegTrainProcessName": "Training the model: %s method",
     "RegTrainRidgeGridProcessName": "Training the model (regularization coefficient L2 = %.4f)",
-    "ValidationProcess": "Validating the models"
+    "ValidationProcess": "Validating models"
   },
   "components/linregression/LinRegressionVendor": {
     "VendorCaption": "Linear Regression",
@@ -1401,7 +1401,7 @@
     "RegPrepareData": "Preparing data before training",
     "RegTrainElnetGridProcessName": "Training the model (regularization coefficient L1 = %.4f regularization coefficient L2 = %.4f)",
     "RegTrainLassoGridProcessName": "Training the model (regularization coefficient L1 = %.4f)",
-    "RegTrainProcessName": "Training the model using %s method",
+    "RegTrainProcessName": "Training the model: %s method",
     "RegTrainRidgeGridProcessName": "Training the model (regularization coefficient L2 = %.4f)",
     "ValidationProcess": "Validating models"
   },
