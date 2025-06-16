@@ -84064,8 +84064,8 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Не определен компонент кластеризации</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250520T180608Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Undefined clustering component</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250616T132158Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Undefined Clustering component</seg>
       </tuv>
     </tu>
     <tu>
@@ -84680,8 +84680,8 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Куб. %s по ячейке [%d, %d]</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250522T140606Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>OLAP cube. Preparing %s based on cell [%d, %d]</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250616T132205Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Cube. Preparing %s based on cell [%d, %d]</seg>
       </tuv>
     </tu>
     <tu>
