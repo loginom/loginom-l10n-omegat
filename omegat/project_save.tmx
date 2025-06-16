@@ -54770,8 +54770,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Метод %s - обучение модели</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250522T142036Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Training the model using %s method</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250616T170240Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Training the model: %s method</seg>
       </tuv>
     </tu>
     <tu>
@@ -55793,8 +55793,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Метод %s - обучение модели</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250522T142051Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Training the model using %s method</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250616T170845Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Training the model: %s method</seg>
       </tuv>
     </tu>
     <tu>
