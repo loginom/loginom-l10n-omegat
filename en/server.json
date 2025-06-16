@@ -4564,7 +4564,7 @@
   "Viewers/ClusterProfiles/ClusterProfilesView": {
     "Component": "Component",
     "DetailingProcessCaption": "Cluster profiles. Preparing %s from clusters %s",
-    "ErrNotDefinedComponent": "Undefined clustering component",
+    "ErrNotDefinedComponent": "Undefined Clustering component",
     "ErrTableRowState": "Invalid change of the data field synchronization status occurred",
     "HistogramProcess": "Building histograms",
     "ImportanceProcess": "Calculating importance",
@@ -4644,7 +4644,7 @@
   },
   "Viewers/Cube/CubeView": {
     "CubeViewProcess": "Cube",
-    "DetailingProcessCaption": "OLAP cube. Preparing %s based on cell [%d, %d]",
+    "DetailingProcessCaption": "Cube. Preparing %s based on cell [%d, %d]",
     "ErrAllChartsCreated": "Impossible to create more than 3 charts in Cube",
     "ErrAlreadyExporting": "Failed to export a cross table until the current export is finished",
     "ErrExportCubeClosed": "Failed to export a cross table when the Cube is inactive",
