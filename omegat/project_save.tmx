@@ -54803,8 +54803,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Валидация моделей</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250516T200908Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Validating the models</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250616T171248Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Validating models</seg>
       </tuv>
     </tu>
     <tu>
