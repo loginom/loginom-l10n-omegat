@@ -61656,8 +61656,8 @@ Result:
       <tuv lang="ru">
         <seg>Ошибка отправки сообщений Kafka "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20250516T171049Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Error when sending Kafka messages "%s"</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250623T181557Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Error when flushing Kafka messages: "%s"</seg>
       </tuv>
     </tu>
     <tu>
@@ -61744,8 +61744,8 @@ Result:
       <tuv lang="ru">
         <seg>Завершение отправки сообщений</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250520T173800Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Finishing message send-out</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250623T171427Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Flushing all messages</seg>
       </tuv>
     </tu>
     <tu>
