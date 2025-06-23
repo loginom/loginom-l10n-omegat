@@ -64661,8 +64661,8 @@ Result:
       <tuv lang="ru">
         <seg>Ошибка получения полей таблицы "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250623T181612Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Error when receiving table fields: "%s"</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250623T181646Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Error when receiving table fields "%s"</seg>
       </tuv>
     </tu>
     <tu>
