@@ -94,7 +94,7 @@
     "ErrInvalidDataSetColumnName": "No \"%s\" column in the output table"
   },
   "Common/CodeExec/CodePreview": {
-    "PreviewProcess": "Data preview",
+    "PreviewProcess": "Previewing data",
     "WarnPreviewRunning": "Preview already running"
   },
   "Common/HTTP/CachedHttpStream_Synapse": {
@@ -1992,7 +1992,7 @@
   },
   "exports/kafka/KafkaExport": {
     "ErrDeliveryReportFmt": "Failed to export message: %s",
-    "ErrKafkaFlushErrorFmt": "Error when flushing Kafka messages: \"%s\"",
+    "ErrKafkaFlushErrorFmt": "Error when flushing Kafka messages: %s",
     "ErrKeyFieldDataType": "Key field must be related to the string or integer type",
     "ErrKeyFieldNotFound": "Key field with \"%s\" name not found",
     "ErrMessageFieldDataType": "Message field must be related to the string type",
@@ -2148,7 +2148,7 @@
   },
   "imports/kafka/KafkaImport": {
     "ErrFailedCloseConsumerFmt": "Error when closing Consumer: %s",
-    "ErrPollErrorFmt": "Error when receiving Kafka messages: \"%s\"",
+    "ErrPollErrorFmt": "Error when receiving Kafka messages: %s",
     "FailedFmt": "Failed: %s",
     "GroupRebalancedFmt": "Group %s rebalanced (memberid %s)",
     "ImportDataProcess": "Reading messages from Kafka queue",
