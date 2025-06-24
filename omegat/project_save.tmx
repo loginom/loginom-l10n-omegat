@@ -63152,8 +63152,8 @@ Result:
       <tuv lang="ru">
         <seg>Ошибка при получении сообщения Kafka "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20250623T181604Z" creationid="zamaraev" creationdate="20250516T171049Z">
-        <seg>Error when receiving Kafka messages: "%s"</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20250624T112208Z" creationid="zamaraev" creationdate="20250516T171049Z">
+        <seg>Error when receiving Kafka messages: %s</seg>
       </tuv>
     </tu>
     <tu>
