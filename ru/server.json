@@ -78,11 +78,11 @@
     "Variables": "Переменные"
   },
   "Common/CodeExec/CodeAPIDataSetExceptions": {
-    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d; %d]",
+    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d, %d]",
     "ErrDataSourceActive": "Набор данных не находится в закрытом состоянии",
     "ErrDataSourceClosed": "Набор данных не находится в открытом состоянии",
     "ErrDataSourceNotEditing": "Набор данных не находится в состоянии редактирования",
-    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d; %d]"
+    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]"
   },
   "Common/CodeExec/CodeAPIDataSetProxies": {
     "ErrInvalidDataSetColumnIndex": "Индекс %d столбца выходной таблицы вне диапазона, число столбцов %d",
@@ -161,7 +161,7 @@
     "ErrGetFileStorage": "Отсутствует ссылка на файловое хранилище"
   },
   "Common/JavaScript/JavaScriptModuleLoader": {
-    "ErrModuleFileTooBig": "Файл модуля %s не может быть загружен: превышено ограничение на допустимый размер файла (%d > %d байт)",
+    "ErrModuleFileTooBig": "Файл модуля \"%s\" не может быть загружен: превышено ограничение на допустимый размер файла (%d > %d байт)",
     "ErrModuleNotExists": "Не найден файл модуля \"%s\"",
     "ErrModulePath": "Не удалось разрешить имя модуля \"%s\"",
     "ErrModuleSourceRead": "Ошибка при чтении файла модуля \"%s\"",
@@ -444,6 +444,7 @@
     "ErrCantCreateXMLDOMDocument": "Ошибка при создании дерева XML-документа",
     "ErrXSDElementExistsWithAnotherType": "Добавляемый элемент %s из пространства имен %s уже существует в схеме и имеет другой тип",
     "ErrXSDNoAccess": "Нет доступа к документу %s",
+    "InputOpenErrors": "Ошибки при загрузке XSD-схемы",
     "NotImplementedContinueParseURIFunc": "Библиотека libxml2 не содержит функционал поддержки не ASCII символов в URI",
     "WarnXSDLocationSkipped": "Загрузка %s в документ %s не произведена, так как не может быть проверена через файловое хранилище"
   },
@@ -457,11 +458,11 @@
     "WarnXSDElementRemoved": "Элемент %s:%s удален из документа %s, так как не может быть проверен через файловое хранилище"
   },
   "components/assnrules/AssnRulesEngine": {
-    "AssnRulesApply": "Применение модели ассоциативных правил",
-    "AssnRulesFPGrowth": "Поиск частых наборов",
-    "AssnRulesFPTree": "Построение FP-дерева",
-    "AssnRulesTraceRules": "Поиск правил",
-    "AssnRulesTransactions": "Подготовка транзакций",
+    "AssnRulesApplyProcess": "Применение модели ассоциативных правил",
+    "AssnRulesFPGrowthProcess": "Поиск частых наборов",
+    "AssnRulesFPTreeProcess": "Построение FP-дерева",
+    "AssnRulesTraceRulesProcess": "Поиск правил",
+    "AssnRulesTransactionsProcess": "Подготовка транзакций",
     "ColumnNameItemsetID": "Номер набора",
     "ColumnNameItemsetSupport": "Поддержка",
     "ColumnNameItemsetWidth": "Мощность",
@@ -558,7 +559,7 @@
     "ErrZeroDivForSDFmt": "Поле %s с нулевой дисперсией, будут созданы только 3 интервала"
   },
   "components/binning/BinningMethodsImplementationTile": {
-    "AlignTileFmt": "Выравнивание плиток поля %s",
+    "AlignTileProcess": "Выравнивание плиток поля %s",
     "ErrBinsCountLimitFmt": "Количество плиток не должно быть более %d",
     "ErrContextNotReadyFmt": "Для поля %s и метода %s, не сформирован контекст",
     "ErrNoMethod": "Не удалось получить настройки для плиточного квантования",
@@ -566,7 +567,7 @@
     "ErrSumFmt": "Не удаётся получить сумму значений поля %s",
     "ErrZeroTileCount": "Количество интервалов (плиток) должно быть > 0",
     "NegativValueForTileSumm": "Отрицательные значения недопустимы при формировании интервалов по сумме признака",
-    "SortProcessFmt": "Сортировка поля %s",
+    "SortProcess": "Сортировка поля %s",
     "WarnNoRound": "Опция \"Округлять границы\" проигнорирована, т.к. параметр \"Совпадающие наблюдения\" равен \"Одинаковые плитки\""
   },
   "components/binning/BinningQuantizers": {
@@ -593,7 +594,7 @@
     "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
     "InputVariables": "Входные переменные",
     "NameNotExists": "Поля, переменной или выражения с именем \"%s\" не существует",
-    "PreviewProcess": "Предварительный просмотр вычислений",
+    "PreviewProcess": "Предварительный просмотр результатов вычислений",
     "PreviewSourceColumnSuffix": "до",
     "VarNameNotExists": "Переменной с именем \"%s\" не существует",
     "WarnPreviewRunning": "Предпросмотр уже запущен"
@@ -637,7 +638,7 @@
     "ErrReplacingInputNodeNotFound": "Не найден входной узел для замены выражением \"%s\"",
     "InputVariables": "Входные переменные",
     "NameNotExists": "Узла, переменной или выражения с именем \"%s\" не существует",
-    "PreviewProcess": "Предварительный просмотр вычислений",
+    "PreviewProcess": "Предварительный просмотр результатов вычислений",
     "PreviewSourceNodeSuffix": "до",
     "VarNameNotExists": "Переменной с именем \"%s\" не существует",
     "WarnPreviewRunning": "Предпросмотр уже запущен"
@@ -660,7 +661,7 @@
     "ErrVarValueSet": "Ошибка при установке значения выражения \"%s\"",
     "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
     "NameNotExists": "Входной переменной или выражения с именем \"%s\" не существует",
-    "PreviewProcess": "Предварительный просмотр вычислений",
+    "PreviewProcess": "Предварительный просмотр результатов вычислений",
     "PreviewSourceVariableSuffix": "до",
     "WarnPreviewRunning": "Предпросмотр уже запущен"
   },
@@ -703,6 +704,7 @@
     "ColumnNameUniqueCoordSuffix": "|Координата",
     "ColumnNameUniqueValueSuffix": "|Значение",
     "ErrClustersRowCountOverflow": "Переполнение количества строк выходного набора данных \"Центры кластеров\"",
+    "ErrNClustersMinGreaterMax": "Минимальное число кластеров не может быть больше максимального числа кластеров",
     "ErrNoColumnsForProcessing": "Не указаны столбцы для обработки",
     "ErrNoModel": "Модель не построена. Необходимо обучить узел перед применением",
     "ErrWrongModel": "Модель не соответствует входным данным",
@@ -745,8 +747,8 @@
     "ClassMarkPostfix": " Метка",
     "ClassNumPostfix": " Номер класса",
     "ClassSignificantPostfix": " Значимость",
-    "CoarseClassesCalcStatDesc": "Расчет статистики конечных классов",
-    "CoarseClassesProcessDesc": "Построение конечных классов",
+    "CoarseClassesCalcStatProcess": "Расчет статистики конечных классов",
+    "CoarseClassesProcess": "Построение конечных классов",
     "ErrClassStorageNotDefined": "Хранилище начальных классов одного из столбцов не определено",
     "ErrCoarseClassBuilderNotValid": "Хранилище начальных классов не соответствует установленным настройкам",
     "ErrExternalBinningOverFlow": "Размер внешнего разбиения для столбца \"%s\" превышают допустимое значение",
@@ -865,11 +867,11 @@
     "VendorDesc": "Создание сводной таблицы из плоской"
   },
   "components/datarecovery/DataRecovery": {
-    "DataRecovery": "Заполнение пропусков",
+    "DataRecoveryProcess": "Заполнение пропусков",
     "NullStrDefaultValue": "Не задано",
-    "PaymentAdditionalFeatures": "Расчет дополнительных характеристик",
+    "PaymentAdditionalFeaturesProcess": "Расчет дополнительных характеристик",
     "QualityEngine": "Качество данных",
-    "ScanningInputData": "Сканирование входных данных"
+    "ScanningInputDataProcess": "Сканирование входных данных"
   },
   "components/datarecovery/DataRecoveryVendor": {
     "VendorCaption": "Заполнение пропусков",
@@ -953,15 +955,15 @@
     "VendorDesc": "Выявление дубликатов и противоречий"
   },
   "components/elimoutlier/ElimOutlier": {
-    "ErrOutDataSetIndexOutOfRange": "Индекс выходного набора %d вне диапазона [%d; %d]",
+    "ErrOutDataSetIndexOutOfRange": "Индекс выходного набора %d вне диапазона [%d, %d]",
     "ErrSetValueRestricted": "Запрещена замена заданным значением в упорядоченном наборе данных для колонки \"%s\" с непрерывным видом данных",
-    "GenerationOutputSets": "Формирование выходных наборов",
+    "GenerationOutputSetsProcess": "Формирование выходных наборов",
     "OutData": "Выходной набор",
     "OutDataExtr": "Экстремальные значения",
     "OutDataOut": "Выбросы",
-    "PaymentAdditionalFeatures": "Расчет дополнительных характеристик",
+    "PaymentAdditionalFeaturesProcess": "Расчет дополнительных характеристик",
     "QualityEngine": "Качество данных",
-    "ScanningInputData": "Сканирование входных данных"
+    "ScanningInputDataProcess": "Сканирование входных данных"
   },
   "components/elimoutlier/ElimOutlierVendor": {
     "VendorCaption": "Редактирование выбросов",
@@ -989,8 +991,8 @@
     "DisplayNamePrefix": "Дополнение",
     "ErrLinkMustContainColumnOfMainTable": "Связь должна содержать поле из главной таблицы",
     "ErrRowCountExceedMaxValue": "Количество строк результирующего набора превысило максимальное значение %d",
-    "ProgessOutputBuild": "Построение результирующего набора",
-    "ProgressJoinedTableIndex": "Индексирование присоединяемой таблицы %d"
+    "JoinedTableIndexProcess": "Индексирование присоединяемой таблицы %d",
+    "OutputBuildProcess": "Построение результирующего набора"
   },
   "components/enrichdata/EnrichDataVendor": {
     "VendorCaption": "Дополнение данных",
@@ -1211,7 +1213,7 @@
   },
   "components/javascript/JavaScriptEngine": {
     "InputDataSource": "Входной источник данных",
-    "JavaScriptConfigureOutputTable": "Подготовка выходных столбцов",
+    "JavaScriptConfigureOutputTableProcess": "Подготовка выходных столбцов",
     "OutputDataSet": "Выходной набор данных"
   },
   "components/javascript/JavaScriptVendor": {
@@ -1229,13 +1231,13 @@
     "ErrNoCorrespondingColumn": "Объект не связан со столбцом"
   },
   "components/joindata/JoinData": {
+    "CompareIndexesProcess": "Сопоставление индексов",
     "DisplayNamePrefix": "Соединение",
     "ErrInvalidColNamePrefix": "Префикс имени \"%s\" не является правильным идентификатором",
     "ErrRowCountExceedMaxValue": "Количество строк результирующего набора превысило максимальное значение %d",
-    "ProgressCompareIndexes": "Сопоставление индексов",
-    "ProgressFormResult": "Формирование выходного набора",
-    "ProgressJoinedTableIndex": "Индексирование присоединяемой таблицы",
-    "ProgressMainTableIndex": "Индексирование главной таблицы"
+    "FormResultProcess": "Формирование выходного набора",
+    "JoinedTableIndexProcess": "Индексирование присоединяемой таблицы",
+    "MainTableIndexProcess": "Индексирование главной таблицы"
   },
   "components/joindata/JoinDataVendor": {
     "VendorCaption": "Слияние",
@@ -1297,13 +1299,13 @@
     "ErrWrongValidationPartitionCount": "Число валидационных разбиений должно быть больше 0 (заданное число разбиений = %d)",
     "RegBackwardAssignProcessName": "Исключение фактора %s из финальной модели",
     "RegBackwardStepProcessName": "Пошаговый отбор - исключение фактора %s",
-    "RegFoldSet": "Валидационное разбиение %d",
+    "RegFoldSetProcess": "Валидационное разбиение %d",
     "RegForwardAssignProcessName": "Добавление фактора %s в финальную модель",
     "RegForwardStepProcessName": "Пошаговый отбор - добавление фактора %s",
-    "RegPrepareData": "Подготовка данных перед обучением",
+    "RegPrepareDataProcess": "Подготовка данных перед обучением",
     "RegTrainElnetGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f коэффициент L2-регуляризации = %.4f)",
     "RegTrainLassoGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f)",
-    "RegTrainProcessName": "Метод %s - обучение модели",
+    "RegTrainProcessName": "Метод %s: обучение модели",
     "RegTrainRidgeGridProcessName": "Построение модели (коэффициент L2-регуляризации = %.4f)",
     "ValidationProcess": "Валидация моделей"
   },
@@ -1395,13 +1397,13 @@
     "ErrWrongValidationPartitionCount": "Число валидационных разбиений должно быть больше 0 (заданное число разбиений = %d)",
     "RegBackwardAssignProcessName": "Исключение фактора %s из финальной модели",
     "RegBackwardStepProcessName": "Пошаговый отбор - исключение фактора %s",
-    "RegFoldSet": "Валидационное разбиение %d",
+    "RegFoldSetProcess": "Валидационное разбиение %d",
     "RegForwardAssignProcessName": "Добавление фактора %s в финальную модель",
     "RegForwardStepProcessName": "Пошаговый отбор - добавление фактора %s",
-    "RegPrepareData": "Подготовка данных перед обучением",
+    "RegPrepareDataProcess": "Подготовка данных перед обучением",
     "RegTrainElnetGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f коэффициент L2-регуляризации = %.4f)",
     "RegTrainLassoGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f)",
-    "RegTrainProcessName": "Метод %s - обучение модели",
+    "RegTrainProcessName": "Метод %s: обучение модели",
     "RegTrainRidgeGridProcessName": "Построение модели (коэффициент L2-регуляризации = %.4f)",
     "ValidationProcess": "Валидация моделей"
   },
@@ -1564,7 +1566,8 @@
     "OutDataSetCommon": "Общий выходной набор",
     "OutDataSetTeach": "Обучающий выходной набор",
     "OutDataSetTest": "Тестовый выходной набор",
-    "PartitionDisplayName": "Тестовое множество"
+    "PartitionDisplayName": "Тестовое множество",
+    "UnspecifiedBiasColumn": "Не выбрано поле для отбора со смещением."
   },
   "components/partition/PartitionVendor": {
     "VendorCaption": "Разбиение на множества",
@@ -1576,8 +1579,9 @@
     "PythonLib": "Путь библиотеки"
   },
   "components/python/PythonEngine": {
+    "APP_ENVVAR": "LOGINOM",
     "CodeIsHere": "Здесь может быть код работы с данными",
-    "ConfigureOutputTable": "Подготовка выходных столбцов",
+    "ConfigureOutputTableProcess": "Подготовка выходных столбцов",
     "CreateDateFrameFromInputTable": "Создать pd.DataFrame по входному набору №1",
     "ErrCurrentDirectory": "Не удалось определить текущую директорию",
     "ErrDisallowedExecution": "Выполнение Python запрещено параметрами безопасности",
@@ -1607,14 +1611,14 @@
     "ErrPythonExeNotFound": "Путь интерпретатора Python, указанный в настройках приложения, не существует",
     "ErrRowLimitExceeded": "Превышено ограничение на максимальное количество строк в таблице",
     "PreviewProcess": "Предварительный просмотр данных",
-    "PythonDumpData": "Запись входных данных",
-    "PythonDumpInputTableData": "Запись данных входной таблицы",
-    "PythonDumpInputTableDataN": "Запись данных входной таблицы #%d",
-    "PythonDumpInputTablesData": "Запись данных входных таблиц",
+    "PythonDumpDataProcess": "Запись входных данных",
+    "PythonDumpInputTableDataNProcess": "Запись данных входной таблицы #%d",
+    "PythonDumpInputTableDataProcess": "Запись данных входной таблицы",
+    "PythonDumpInputTablesDataProcess": "Запись данных входных таблиц",
     "PythonExeFailed": "Выполнение интерпретатора Python завершилось с кодом ошибки %d",
     "PythonExeTerminatedBySignal": "Выполнение интерпретатора Python было прервано сигналом %d",
-    "PythonLoadOutputTable": "Чтение выходной таблицы",
-    "PythonScriptExecution": "Выполнение скрипта",
+    "PythonLoadOutputTableProcess": "Чтение выходной таблицы",
+    "PythonScriptExecutionProcess": "Выполнение скрипта",
     "ShmBaseDir": "/dev/shm/loginom",
     "WarnPreviewRunning": "Предпросмотр уже запущен"
   },
@@ -1655,14 +1659,14 @@
     "VendorDesc": "Выполнение Python-кода"
   },
   "components/quality/Quality": {
-    "ErrOutDataSetIndexOutOfRange": "Индекс выходного набора %d вне диапазона [%d; %d]",
-    "GenerationOutputSets": "Формирование выходных наборов",
+    "ErrOutDataSetIndexOutOfRange": "Индекс выходного набора %d вне диапазона [%d, %d]",
+    "GenerationOutputSetsProcess": "Формирование выходных наборов",
     "OutData": "Выходной набор",
     "OutDataExtr": "Экстремальные значения",
     "OutDataNull": "Пропуски",
     "OutDataOut": "Выбросы",
-    "PaymentAdditionalFeatures": "Расчет дополнительных характеристик",
-    "ScanningInputData": "Сканирование входных данных",
+    "PaymentAdditionalFeaturesProcess": "Расчет дополнительных характеристик",
+    "ScanningInputDataProcess": "Сканирование входных данных",
     "SummaryTable": "Итоговая таблица"
   },
   "components/quality/QualityCommon": {
@@ -1727,6 +1731,9 @@
     "VendorCaption": "REST-запрос",
     "VendorDesc": "Выполняет запрос через подключение к REST-сервису"
   },
+  "components/sampling/SamplingEngine": {
+    "UnspecifiedBiasColumn": "Не выбрано поле для отбора со смещением."
+  },
   "components/sampling/SamplingVendor": {
     "VendorCaption": "Сэмплинг",
     "VendorDesc": "Формирование репрезентативного подмножества"
@@ -1786,7 +1793,7 @@
     "ComputeRowCountProcess": "Расчёт количества строк",
     "ErrInvalidGlobalIndexDataType": "Недопустимый тип данных глобального индекса узла: %s",
     "ErrNoDataNodeSelected": "Не выбрано ни одного узла с данными",
-    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d; %d]",
+    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]",
     "GlobalIndex": "Глобальный индекс",
     "PrepareRowIndexesProcess": "Подготовка индексов строк"
   },
@@ -1809,8 +1816,8 @@
     "ErrNoLinksDefined": "Не определено ни одной связи для идентификаторов групп",
     "ErrNoLinksFields": "Нет связанных полей для построения AVL - дерева",
     "ErrPostProcessingTerminated": "Ошибка в работе алгоритма разгруппировки! Процесс остановлен.",
-    "GenerationOutputSets": "Формирование выходных наборов",
-    "GroupColumnAVLTreeBuilding": "Группировка исходных данных",
+    "GenerationOutputSetsProcess": "Формирование выходных наборов",
+    "GroupColumnAVLTreeProcess": "Группировка исходных данных",
     "OutputSIDisplayName": "Значение сезонного индекса",
     "OutputTrendDisplayName": "Значение тренда",
     "OutputValueAlgorithmFixed": "Фиксированное (алгоритм)",
@@ -1823,8 +1830,8 @@
     "OutputValueUserFixedNotConsistent": "Фиксированное (пользователь, несогласованное)",
     "OutputVTDescDisplayName": "Тип значения",
     "OutputVTDisplayName": "Код типа значения",
-    "QuotaAVLTreeBuilding": "Группировка опорных данных для расчета долей",
-    "QuotaAVLTreeCalc": "Расчет долей",
+    "QuotaAVLTreeCalcProcess": "Расчет долей",
+    "QuotaAVLTreeProcess": "Группировка опорных данных для расчета долей",
     "RoundedUngroupValueDisplayNamePostfix": "Округлено",
     "SeasonalIndex": "Сезонный индекс",
     "SupportInputDataSource": "Данные для расчета долей",
@@ -1992,7 +1999,7 @@
   },
   "exports/kafka/KafkaExport": {
     "ErrDeliveryReportFmt": "Не удалось экспортировать сообщение: %s",
-    "ErrKafkaFlushErrorFmt": "Ошибка отправки сообщений Kafka \"%s\"",
+    "ErrKafkaFlushErrorFmt": "Ошибка отправки сообщений Kafka: %s",
     "ErrKeyFieldDataType": "Поле ключей должно быть строкового или целого типа",
     "ErrKeyFieldNotFound": "Поле ключей с именем \"%s\" не найдено",
     "ErrMessageFieldDataType": "Поле сообщений должно быть строкового типа",
@@ -2107,7 +2114,7 @@
     "GetTablesProcess": "Получение списка таблиц",
     "ImportDataProcess": "Импортирование данных",
     "OpenTableProcess": "Открытие таблицы",
-    "PrepareFieldList": "Получение списка полей",
+    "PrepareFieldListProcess": "Получение списка полей",
     "PreviewProcess": "Предварительный просмотр данных",
     "ResultStatusVariables": "Статус выполнения",
     "WarnDBConnectionIsBusy": "Подключение к БД занято"
@@ -2148,7 +2155,7 @@
   },
   "imports/kafka/KafkaImport": {
     "ErrFailedCloseConsumerFmt": "Ошибка закрытия Consumer: %s",
-    "ErrPollErrorFmt": "Ошибка при получении сообщения Kafka \"%s\"",
+    "ErrPollErrorFmt": "Ошибка при получении сообщения Kafka: %s",
     "FailedFmt": "не удалось: %s",
     "GroupRebalancedFmt": "Группа %s перебалансирована (id участника %s)",
     "ImportDataProcess": "Чтение сообщений из очереди Kafka",
@@ -2279,15 +2286,15 @@
     "1Cv8ConnectionVendorDesc": "База данных - 1С:Предприятие 8"
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseBlockReader": {
-    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d; %d]",
+    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d, %d]",
     "ErrFetch": "Ошибка при чтении набора данных",
     "ErrGetFieldDesc": "Не удалось получить описания полей для таблицы \"%s\"",
     "ErrNoSuchSetting": "Параметр конфигурации с именем \"%s\" не существует",
-    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d; %d]"
+    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]"
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseBlockWriter": {
     "ErrColNotNullable": "Столбец \"%s\" (тип %s) не может принимать значения Null",
-    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d; %d]",
+    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d, %d]",
     "ErrColValueLenOutOfRangeString": "Длина строки %d превышает допустимую для столбца \"%s\" (тип %s)",
     "ErrColValueOutOfRange": "Значение %g выходит за границы допустимого диапазона столбца \"%s\" (тип %s)",
     "ErrColValueOutOfRangeInt": "Значение %d выходит за границы допустимого диапазона столбца \"%s\" (тип %s)",
@@ -2310,12 +2317,11 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDBUtils": {
     "ErrClickHouse": "Ошибка ClickHouse: %s",
-    "ErrDate32OutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s; %s)",
-    "ErrDateOutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s; %s]"
+    "ErrDate32OutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s, %s)",
+    "ErrDateOutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s, %s]"
   },
   "Libraries/bgdbrtl/DB": {
     "ConnectionTimeout": "Тайм-аут подключения",
-    "ErrCommandTypeNotYetSupported": "Тип SQL-команды %s пока не поддерживается",
     "ErrConnectionCancelled": "Подключение прервано",
     "ErrConnectionString": "Не указана строка подключения",
     "ErrDatabasePathNotExists": "Файл \"%s\" не найден",
@@ -2359,7 +2365,7 @@
   },
   "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
     "DatabaseTypeName": "BigQuery (ODBC)",
-    "ErrEmailIsEmpty": "Не указан Email cервисного аккаунта",
+    "ErrEmailIsEmpty": "Не указан Email сервисного аккаунта",
     "ErrIncorrectDataset": "Имя набора данных указано неверно",
     "ErrIncorrectProject": "Название проекта указано неверно",
     "ErrKeyFilePathIsEmpty": "Не указан путь к файлу секретного ключа",
@@ -2445,12 +2451,12 @@
     "ErrCannotGetNodeValue": "Невозможно получить значение узла с идентификатором %d: узел является контейнером",
     "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
     "ErrCannotGetRowRange": "Невозможно получить диапазон строк для узла с идентификатором %d: узел не является массивом",
-    "ErrColumnIndexOutOfRange": "Номер столбца %d вне диапазона [%d; %d]",
+    "ErrColumnIndexOutOfRange": "Номер столбца %d вне диапазона [%d, %d]",
     "ErrInvalidNodeInfo": "Некорректное описание узла: %s",
     "ErrInvalidNodeInfoID": "Недопустимый идентификатор узла: %d",
     "ErrRowCountLimitReached": "Достигнут предел максимального кол-ва строк",
-    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d; %d]",
-    "ErrTableIndexOutOfRange": "Номер таблицы %d вне диапазона [%d; %d]"
+    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]",
+    "ErrTableIndexOutOfRange": "Номер таблицы %d вне диапазона [%d, %d]"
   },
   "Libraries/bgrtl/Classes": {
     "ErrConfigApplyModeNotSupported": "Данный способ загрузки конфигурации не поддерживается",
@@ -2513,14 +2519,14 @@
     "ErrModelSocketCouplerDefAlreadyCoupled": "Соединение уже установлено"
   },
   "Libraries/bgrtl/DataSet": {
-    "ContainedStatisticsCompute": "Расчет статистики",
-    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d; %d]",
+    "ContainedStatisticsProcess": "Расчет статистики",
+    "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d, %d]",
     "ErrColumnDefsNotAssigned": "Не проинициализированы описания полей",
     "ErrDataSourceActive": "Набор данных не находится в закрытом состоянии",
     "ErrDataSourceClosed": "Набор данных не находится в открытом состоянии",
     "ErrDataSourceNotConfigured": "Набор данных не настроен",
     "ErrDataSourceNotEditing": "Набор данных не находится в состоянии редактирования",
-    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d; %d]",
+    "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]",
     "ErrUnexpectedEndUpdate": "Нельзя вызвать метод EndUpdate предварительно не вызвав BeginUpdate"
   },
   "Libraries/bgrtl/DataSetColumns": {
@@ -2637,7 +2643,7 @@
     "ErrFieldIsNull": "Поле %s должно быть проинициализировано",
     "ErrFloatParamIsNan": "Значение параметра \"%s\" равное NaN недопустимо",
     "ErrFunctionRefIsNull": "Ссылка на функцию %s должна быть проинициализирована",
-    "ErrInvalidIndex": "Значение индекса %d параметра \"%s\" вне диапазона [%d; %d]",
+    "ErrInvalidIndex": "Значение индекса %d параметра \"%s\" вне диапазона [%d, %d]",
     "ErrInvalidMethodParam": "Недопустимое значение параметра %s метода %s: \"%s\"",
     "ErrInvalidParam": "Недопустимое значение параметра %s: \"%s\"",
     "ErrMethodParamIsNull": "Параметр %s метода %s должен быть проинициализирован",
@@ -2649,8 +2655,8 @@
     "ErrMustLessOrEqualThanInt": "Значение %d параметра \"%s\" должно быть меньше или равно %d",
     "ErrMustLessThan": "Значение %g параметра \"%s\" должно быть меньше %g",
     "ErrMustLessThanInt": "Значение %d параметра \"%s\" должно быть меньше %d",
-    "ErrOutOfRange": "Значение %g параметра \"%s\" вне диапазона [%g; %g]",
-    "ErrOutOfRangeInt": "Значение %d параметра \"%s\" вне диапазона [%d; %d]",
+    "ErrOutOfRange": "Значение %g параметра \"%s\" вне диапазона [%g, %g]",
+    "ErrOutOfRangeInt": "Значение %d параметра \"%s\" вне диапазона [%d, %d]",
     "ErrParamIsNull": "Параметр %s должен быть проинициализирован",
     "ErrPropertyIsNull": "Свойство %s должно быть проинициализировано",
     "ErrPropertyIsReadOnly": "Свойство %s доступно только на чтение"
@@ -3060,7 +3066,7 @@
     "VendorMetaDesc": "поставщик информации"
   },
   "Libraries/bgrtl/ZipArchive": {
-    "ErrArchiveFormat": "Архив повреждён, открыть не удалось",
+    "ErrArchiveFormat": "Не удалось открыть, архив поврежден или имеет неизвестный формат",
     "ErrArchiveIsReadOnly": "Архив открыт только на чтение",
     "ErrArchiveNotOpen": "Архив не открыт",
     "ErrCompressErr": "Ошибка сжатия данных",
@@ -3230,34 +3236,36 @@
     "ErrNotReadyYet": "Метод разбиения не реализован"
   },
   "Libraries/DataPartition/Partition": {
-    "AVLTreeBuilding": "Группировка данных",
+    "AVLTreeBuildingProcess": "Группировка данных",
     "BiasedSamplingDesc": "Отбор со смещением",
+    "ErrInSelectBiasField": "Не выбрано поле для отбора со смещением.",
     "ErrInSelectFields": "Не выбрано ни одного поля, определяющего страту.",
     "ErrPartitionMethod": "Не задан метод сэмплинга",
-    "ErrSamplingRecordCount": "Количество выбранных строк %d вне диапазона [%d; %d]",
-    "ErrSamplingRecordPercent": "Процент выбранных строк %d вне диапазона [%d; %d]",
+    "ErrSamplingRecordCount": "Количество выбранных строк %d вне диапазона [%d, %d]",
+    "ErrSamplingRecordPercent": "Процент выбранных строк %d вне диапазона [%d, %d]",
     "RandomSamplingDesc": "Случайный сэмплинг",
     "RandomUniformSamplingDesc": "Групповой сэмплинг",
     "SequenceSamplingDesc": "Последовательный сэмплинг",
     "StratifiedSamplingDesc": "Стратифицированный сэмплинг",
-    "TeachDataSet": "Формирование обучающего множества",
-    "TestDataSet": "Формирование тестового множества"
+    "TeachDataSetProcess": "Формирование обучающего множества",
+    "TestDataSetProcess": "Формирование тестового множества"
   },
   "Libraries/DataPartition/PartitionIndexGenerator": {
     "ErrExternalColumnNotReady": "Столбец внешнего разбиения не задан"
   },
   "Libraries/DataSampling/Sampling": {
-    "AVLTreeBuilding": "Группировка данных",
-    "BiasedSamplingDesc": "Сэмплинг методом отбора со смещением",
+    "AVLTreeBuildingProcess": "Группировка данных",
+    "BiasedSamplingProcess": "Сэмплинг методом отбора со смещением",
+    "ErrInSelectBiasField": "Не выбрано поле для отбора со смещением.",
     "ErrInSelectFields": "Не выбрано ни одного поля, определяющего страту.",
     "ErrSamplingMethod": "Не задан метод сэмплинга",
-    "RandomSamplingDesc": "Случайный сэмплинг",
-    "RandomUniformSamplingDesc": "Групповой сэмплинг",
-    "SequenceSamplingDesc": "Последовательный сэмплинг",
-    "StratifiedSamplingDesc": "Стратифицированный сэмплинг"
+    "RandomSamplingProcess": "Случайный сэмплинг",
+    "RandomUniformSamplingProcess": "Групповой сэмплинг",
+    "SequenceSamplingProcess": "Последовательный сэмплинг",
+    "StratifiedSamplingProcess": "Стратифицированный сэмплинг"
   },
   "Libraries/DataSampling/SamplingBuilder": {
-    "SplitIntoIntervals": "Интерквантильное разделение"
+    "SplitIntoIntervalsProcess": "Интерквантильное разделение"
   },
   "Libraries/DBConnection/ClickHouse/ClickHouseDBConnectionVendor": {
     "VendorCaption": "ClickHouse",
@@ -3556,7 +3564,7 @@
     "ErrUntypedOutputSocketDefs": "Не указаны типы следующих выходов: "
   },
   "Libraries/Model/Generic/ModelGenericComponentEngine": {
-    "ActivateOuterData": "Внешние данные",
+    "ActivateOuterDataProcess": "Внешние данные",
     "ErrInnerNodesLocked": "Внутренние узлы Подмодели заблокированы",
     "ErrInvalidModelLockContext": "Подмодель уже заблокирована в рамках другой операции",
     "ErrLockedNodesExist": "Подмодель содержит заблокированные узлы"
@@ -3754,8 +3762,8 @@
     "ModelComponentVendorMetaDesc": "компонент"
   },
   "Libraries/Model/ModelWorkFlow": {
-    "ActivateModelNodeInputs": "Активизация входов узла",
-    "ActivateModelNodes": "Активация узлов",
+    "ActivateModelNodeInputsProcess": "Активация входов узла",
+    "ActivateModelNodesProcess": "Активация узлов",
     "AddInputSocketCaption": "Добавлен вход \"%s\" к узлу \"%s\"",
     "ComponentOutputPort": "Компонент",
     "CopyNodeCaption": "Скопирован элемент \"%s\"",
@@ -3763,7 +3771,7 @@
     "DeleteInputSocketCaption": "Удален вход \"%s\" узла \"%s\"",
     "DependentNodeOutputPort": "Зависимые узлы",
     "ErrActivateFromWebServiceCanceled": "Обработка запроса отменена",
-    "ErrActivateModelNodes": "При активизации узлов возникла ошибка",
+    "ErrActivateModelNodes": "При активации узлов возникла ошибка",
     "ErrAllNodesLocked": "Все узлы сценария заблокированы",
     "ErrAlreadyConfiguringSocket": "Узел \"%s\" уже находится в состоянии настройки порта",
     "ErrCannotActivateRecursiveNode": "Узел \"%s\" не может быть активирован, т.к. рекурсивно зависит от активации самого себя",
@@ -3809,7 +3817,7 @@
     "LogPackagedNodeActivationError": "Ошибка активации узла \"%s\" GUID=%s Пакет=%s",
     "LogPackageName": "Пакет=%s",
     "ResetModelNodeConfiguration": "У узла \"%s\" восстановлена исходная конфигурация",
-    "RestoreBackupProcessCaption": "Восстановление конфигурации из резервной копии",
+    "RestoreBackupProcess": "Восстановление конфигурации из резервной копии",
     "SynchronizationInputPort": "Порядок выполнения",
     "SynchronizationOutputPort": "Порядок выполнения",
     "WarnLinkPortNotConnetedToNode": "Порт линка с идентификатором %s не подключен к узлу"
@@ -3979,7 +3987,7 @@
     "ErrNormMoreThanMax": "Денормализируемое значение больше максимума диапазона значений",
     "ErrNotImplemented": "Данный функционал не реализован",
     "ErrRefIdRequired": "Не определена опорная категория, используемая в нормализаторе",
-    "ErrWrongDiscreteIndexRange": "Пренормализированный индекс: %d вне допустимого диапазона [%d; %d]",
+    "ErrWrongDiscreteIndexRange": "Пренормализированный индекс: %d вне допустимого диапазона [%d, %d]",
     "VS": " к ",
     "VS_MEAN": " к среднему",
     "VS_MEAN_PREV": " к среднему из предыдущих",
@@ -4201,16 +4209,16 @@
     "ErrDisconnectedSession": "Соединение разорвано",
     "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
     "ErrInvalidObjectID": "Невалидный идентификатор объекта: %d",
-    "ErrInvalidRangeBounds": "Левая граница диапазона [%d; %d] больше правой",
+    "ErrInvalidRangeBounds": "Левая граница диапазона [%d, %d] больше правой",
     "ErrInvalidSessionID": "Невалидный идентификатор сессии: %d",
     "ErrMainServerObjectNotRegistered": "Главный серверный объект не зарегистрирован",
     "ErrMaxObjectIdReached": "Достигнут предел в %d значений идентификаторов объектов",
-    "ErrNegativeRangeBounds": "Границы диапазона [%d; %d] отрицательные",
-    "ErrRangeLengthOutOfRange": "Границы диапазона [%d; %d] не принадлежит допустимому диапазону значений [%d; %d]",
+    "ErrNegativeRangeBounds": "Границы диапазона [%d, %d] отрицательные",
+    "ErrRangeLengthOutOfRange": "Границы диапазона [%d, %d] не принадлежит допустимому диапазону значений [%d, %d]",
     "ErrRpcVersionMismatch": "Клиент версии %s не может подключиться к серверу версии %s",
     "ErrSessionIsLocked": "Операция не может быть выполнена, так как сессия заблокирована",
     "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: %d",
-    "ErrValueOutOfRange": "Значение %d не принадлежит допустимому диапазону значений [%d; %d]",
+    "ErrValueOutOfRange": "Значение %d не принадлежит допустимому диапазону значений [%d, %d]",
     "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: %d секунд"
   },
   "Libraries/rpc/WebSocketRemoteServer": {
@@ -4280,6 +4288,9 @@
   },
   "Studio/Converters/Converter_202404041818_CubeView_MultipleCharts": {
     "ChartTitle": "Диаграмма 1"
+  },
+  "Studio/Converters/Converter_202508012000_DBImport_ResultStatusSocket": {
+    "ResultStatusSocketDisplayName": "Статус выполнения"
   },
   "Studio/DeductorConsts": {
     "CompanyShortNameLinux": "loginom",
@@ -4519,7 +4530,7 @@
     "LogColumnNotFoundFmt": "Во входном наборе данных не найдено поле с именем %s. Поле удалено из отображаемых полей.",
     "LogNewColumnFmt": "Во входном наборе данных появилось новое поле с именем %s. Поле добавлено к отображаемым полям.",
     "NullText": "",
-    "PrepareViewData": "Таблица"
+    "PrepareViewDataProcessCaption": "Таблица"
   },
   "Viewers/Browse/BrowseViewExport": {
     "DisplayNameColumnDisplayName": "Метка",
@@ -4544,9 +4555,9 @@
     "VendorDesc": "Отображение данных в виде таблицы"
   },
   "Viewers/Chart/ChartColumnInfo": {
-    "ChartExtremesProgress": "Поиск минимумов и максимумов",
-    "ChartSortingProgress": "Сортировка данных",
-    "ChartTotalsProgress": "Нахождение суммы ряда"
+    "ChartExtremesProcess": "Поиск минимумов и максимумов",
+    "ChartSortingProcess": "Сортировка данных",
+    "ChartTotalsProcess": "Нахождение суммы ряда"
   },
   "Viewers/Chart/ChartParametres": {
     "DefaultSerieName": "Серия",
@@ -4564,7 +4575,7 @@
   "Viewers/ClusterProfiles/ClusterProfilesView": {
     "Component": "Компонент",
     "DetailingProcessCaption": "Профили кластеров. %s по кластерам %s",
-    "ErrNotDefinedComponent": "Не определен компонент кластеризации",
+    "ErrNotDefinedComponent": "Не определен компонент",
     "ErrTableRowState": "Произошло недопустимое изменение статуса синхронизации у поля данных",
     "HistogramProcess": "Построение гистограмм",
     "ImportanceProcess": "Расчет значимости",
@@ -4667,7 +4678,7 @@
     "LogColumnNotFoundFmt": "Во входном наборе данных не найдено поле с именем %s. Поле удалено из отображаемых полей.",
     "LogNewColumnFmt": "Во входном наборе данных появилось новое поле с именем %s. Поле добавлено к отображаемым полям.",
     "MoreStatisticsCalculation": "Расчет дополнительных статистических показателей",
-    "PrepareViewData": "Статистика",
+    "PrepareViewDataProcessCaption": "Статистика",
     "QualityStatisticsCalculation": "Расчет показателей качества полей данных",
     "SimpleStatisticsCalculation": "Расчет простейших статистических показателей"
   },
@@ -4715,7 +4726,7 @@
   },
   "Viewers/Duplicates/DuplicatesView": {
     "Component": "Компонент",
-    "ErrNotDefinedComponent": "Не определен компонент Дубликаты и противоречия"
+    "ErrNotDefinedComponent": "Не определен компонент"
   },
   "Viewers/Duplicates/DuplicatesViewVendor": {
     "VendorCaption": "Дубликаты и противоречия",
@@ -4827,7 +4838,7 @@
     "LogColumnNotFoundFmt": "Во входном наборе данных не найдено поле с именем %s. Поле удалено из отображаемых полей.",
     "LogNewColumnFmt": "Во входном наборе данных появилось новое поле с именем %s. Поле добавлено к отображаемым полям.",
     "OrderStatisticsCalculation": "Расчет порядковых статистических показателей",
-    "PrepareViewData": "Статистика",
+    "PrepareViewDataProcessCaption": "Статистика",
     "SimpleStatisticsCalculation": "Расчет простейших статистических показателей",
     "UniqueValuesCalculation": "Сбор уникальных значений"
   },
@@ -4883,14 +4894,14 @@
     "ErrLoadDataProcess": "В процессе выполнения загрузки данных в процесс \"%s\" [%s] возникла ошибка.",
     "ErrLoadDataProcessCanceled": "Процесс выполнения загрузки данных в процесс \"%s\" [%s] был отменен пользователем. Данные в ХД не загружены. Восстановление ограничений и индексов не выполнено.",
     "MsgDeleteDataProcess": "Удаление по измерению данных Процесса из Хранилища данных",
-    "MsgDisableConstraint": "Отключить индексы и ограничения.",
-    "MsgEnableConstraint": "Восстановить индексы и ограничения.",
+    "MsgDisableConstraintProcess": "Отключение индексов и ограничений.",
+    "MsgEnableConstraintProcess": "Восстановление индексов и ограничений.",
     "MsgGroupDataProcess": "Группировка данных Процесса перед загрузкой в Хранилище данных",
-    "MsgGroupDeleteDim": "Подготовка к удалению. Группировка данных по измерению.",
-    "MsgLoadDataDimension": "Загрузка данных Измерения в Хранилище данных",
+    "MsgGroupDeleteDimProcess": "Подготовка к удалению. Группировка данных по измерению.",
+    "MsgLoadDataDimensionProcess": "Загрузка данных Измерения в Хранилище данных",
     "MsgLoadDataProcess": "Загрузка данных Процесса в Хранилище данных",
     "MsgRecordSkipDimValueIsNull": "Данные строки \"%d\" не добавлены в ХД. Значение измерения \"%s\" [%s] пустое.",
-    "MsgStatisticsGathering": "Сбор статистики"
+    "MsgStatisticsGatheringProcess": "Сбор статистики"
   },
   "Warehouse2/Deductor/DDWExportVendor": {
     "VendorCaption": "Deductor Warehouse",

@@ -1234,12 +1234,13 @@
   "exports/dbexport/DBExportMappingWizard": {
     "colDisplayNameTitle": "Поля таблицы базы данных",
     "colSourceNameTitle": "Исходные столбцы",
-    "ErrAbsentDataSourceSourceDetails": "Список отсутствующих исходных столбцов, используемых ранее:",
-    "ErrAbsentFieldsDetails": "Список отсутствующих столбцов таблицы, используемых ранее:",
-    "ErrUpdateFieldsDetails": "Список столбцов таблицы, в которых произошли изменения:",
     "KeyColumnText": "Ключ",
     "SyncThroughColumnsToolTip": "Обновить поля таблицы",
-    "Title": "Укажите соответствие исходных столбцов полям таблицы"
+    "Title": "Укажите соответствие исходных столбцов полям таблицы",
+    "WarnAbsentDataSourceSourceDetails": "Список отсутствующих исходных столбцов, используемых ранее:",
+    "WarnAbsentFieldsDetails": "Список отсутствующих столбцов таблицы, используемых ранее:",
+    "WarnColumnChangedMessage": "Изменения в столбцах",
+    "WarnUpdateFieldsDetails": "Список столбцов таблицы, в которых произошли изменения:"
   },
   "exports/dbexport/DBExportParamsWizard": {
     "ErrTableNameNotSelected": "Не указано имя таблицы",
@@ -1621,7 +1622,7 @@
     "ErrFileUpload": "Ошибка загрузки файла"
   },
   "filestorage/LoaderViewController": {
-    "DownloadAsArchiveTitle": "Архивация и скачивание файлов",
+    "DownloadAsArchiveTitle": "Скачивание файлов в виде архива",
     "DownloadWindowTitle": "Скачивание файлов",
     "ErrCancelLoaders": "Ошибка отмены операций",
     "UploadWindowTitle": "Загрузка файлов на сервер"
@@ -1691,9 +1692,9 @@
   },
   "imports/dbimport/DBImportTable": {
     "DBObjectsNamesakesExists": "Обнаружено несколько таблиц с именем \"{0}\", выберите таблицу в списке или дополните именем схемы",
-    "ExistTableDoesNotMatchFilter": "Таблица(представление) \"{0}\" подготовлена к работе. Не удалось выделить в списке, т.к. не соответствует фильтру.",
-    "FieldDoesNotExist": "Поля \"{0}\" больше нет в таблице(представлении) \"{1}\"",
-    "ObjectDoesNotExist": "Таблица(представление) \"{0}\" не обнаружена"
+    "ExistTableDoesNotMatchFilter": "Таблица (представление) \"{0}\" подготовлена к работе. Не удалось выделить в списке, т.к. не соответствует фильтру.",
+    "FieldDoesNotExist": "Поля \"{0}\" больше нет в таблице (представлении) \"{1}\"",
+    "ObjectDoesNotExist": "Таблица (представление) \"{0}\" не обнаружена"
   },
   "imports/dbimport/DBImportWizard": {
     "FieldsDoesNotExist": "Обнаружены несуществующие поля",
@@ -1702,7 +1703,7 @@
     "InsertTableMenuItemText": "Вставить имя в редактор SQL кода",
     "NoConnection": "Нет подключения",
     "NotConnectedError": "Соединение с базой данных не установлено",
-    "ObjectDoesNotExist": "Таблица(представление) \"{0}\" не обнаружена",
+    "ObjectDoesNotExist": "Таблица (представление) \"{0}\" не обнаружена",
     "PreviewTableNotSelected": "Выберите таблицу для предпросмотра",
     "SelectTableMenuItemText": "Выбрать таблицу"
   },
@@ -2782,6 +2783,7 @@
     "VendorTreeConnections": "Источники данных"
   },
   "wizards/connection/DBConnectionWizard": {
+    "ErrGetServerNames": "Ошибка при получении списка серверов",
     "Filename": "Имя файла"
   },
   "wizards/connection/LockTimeoutStore": {
@@ -2875,7 +2877,7 @@
   },
   "wizards/InputFileConnectionWizard": {
     "MsgFileAlreadyExist": "Файл с именем {0} существует. Записать поверх?",
-    "MsgNotConnected": "Подключение не активно. Активизировать его сейчас?"
+    "MsgNotConnected": "Подключение не активно. Активировать его сейчас?"
   },
   "wizards/normalization/ControlRangeSettings": {
     "ValidateEditorsErr": "Ошибка в настройках контроля диапазона значений"
@@ -2979,7 +2981,7 @@
     "ActivateCaption": "Активировать",
     "ActivatedCaption": "Активировано",
     "ActivatedText": "Вход активирован",
-    "ActivatingCaption": "Активизация...",
+    "ActivatingCaption": "Активация...",
     "ExceptionTitle": "Ошибка",
     "NotActivatedText": "Не активировано",
     "NotFoundSocket": "Узел не содержит запрашиваемого порта"

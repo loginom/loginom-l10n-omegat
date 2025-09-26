@@ -80,9 +80,9 @@
   },
   "IntegratorCore/ServiceHelper": {
     "CalledUrl": "Url of called method: {0}",
-    "ErrDataSetRowCannotBeNull": "Data set row must not be null",
+    "ErrDataSetRowCannotBeNull": "Dataset row must not be null",
     "ErrInvalidColumnCount": "Invalid column count in the matrix of values: {0}; required: {1}",
-    "ErrInvalidElementCount": "Invalid element count in the data set: {0}; required: {1}",
+    "ErrInvalidElementCount": "Invalid element count in the dataset: {0}; required: {1}",
     "ErrInvalidRowCount": "Invalid row count in the variable value matrix: {0}",
     "ErrMissingArrayItem": "Missing \"{0}\" array item",
     "ErrMissingRequiredParameter": "Missing required \"{0}\" parameter",
@@ -100,7 +100,7 @@
   "IntegratorCore/ServiceTypeBuilder": {
     "ErrRootNodeNotFound": "Root tree node not found",
     "ErrTreeMustHaveSingleRootNode": "Tree cannot contain more than one root node",
-    "Namespace": "http:\/\/schemas.loginom.com\/integration",
+    "Namespace": "http://schemas.loginom.com/integration",
     "NoPublishedPackages": "No published packages",
     "NoPublishedPackagesServiceDocumentation": "No packages have been published for now. To use packages as a web service, you must first publish them to Loginom Server."
   },

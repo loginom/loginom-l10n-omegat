@@ -685,7 +685,7 @@
   },
   "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
     "BigQueryODBCUniDACDatabaseConfigurator": {
-      "Email": "Email cервисного аккаунта",
+      "Email": "Email сервисного аккаунта",
       "IsRequestGoogleDrive": "Подключаться к Google Drive",
       "KeyFilePath": "Путь к секретному ключу",
       "SSLCA": "Сертификат CA",
