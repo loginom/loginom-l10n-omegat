@@ -6857,7 +6857,7 @@
   },
   "wizards/columns/EditColumnDefForm": {
     "btnApply": {
-      "text": "Добавить"
+      "text": "Add"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -7256,7 +7256,7 @@
   },
   "wizards/datatree/EditDataTreeNodeDefForm": {
     "btnApply": {
-      "text": "Добавить"
+      "text": "Add"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -7631,7 +7631,7 @@
   },
   "wizards/variables/EditVariableForm": {
     "btnApply": {
-      "text": "Добавить"
+      "text": "Add"
     },
     "btnCancel": {
       "text": "Cancel"
