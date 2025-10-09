@@ -21,7 +21,7 @@
     }
   },
   "Common/HTTPClient/WSDLClientAuth": {
-    "WSDLAuthorization": {
+    "WSDLAuthentication": {
       "CertFileCredentials": "Реквизиты аутентификации пользовательским сертификатом",
       "Mode": "Тип аутентификации",
       "NamePassCredentials": "Реквизиты аутентификации по имени пользователя и паролю",
@@ -273,11 +273,13 @@
       "CompareValueLowerBound": "Нижняя граница",
       "CompareValuePeriodBaseDate": "Базовая дата интервала",
       "CompareValuePeriodCount": "Значение временного промежутка",
+      "CompareValuePeriodDateSourceType": "Тип источника дат",
       "CompareValuePeriodType": "Тип временного промежутка",
       "CompareValueUpperBound": "Верхняя граница",
       "DataType": "Тип данных",
       "Name": "Имя",
-      "RelationType": "Тип отношения"
+      "RelationType": "Тип отношения",
+      "RowNumberer": "Нумератор строк"
     }
   },
   "components/forecast": {
@@ -309,8 +311,24 @@
   },
   "components/joindata": {
     "JoinDataEngine": {
+      "CaseSensitive": "Учитывать регистр",
       "IncludeJoinedKeyFields": "Добавлять присоединяемые ключевые поля",
       "JoinType": "Тип операции"
+    }
+  },
+  "components/jointree": {
+    "JoinTreeEngine": {
+      "SkipJoinedRootNode": "Пропустить корневой узел присоединяемого дерева"
+    }
+  },
+  "components/jsontotree": {
+    "JSONToTreeEngine": {
+      "BuildTreeAuto": "Автоопределение структуры",
+      "DateTimeFormat": "Формат даты и времени",
+      "RootExcluded": "Исключить корневой узел",
+      "RootGeneration": "Корневой узел",
+      "SourceColumn": "Столбец, содержащий JSON",
+      "StrictMode": "Строгое соответствие структуры"
     }
   },
   "components/linregression": {
@@ -399,6 +417,7 @@
   },
   "components/python": {
     "PythonEngine": {
+      "PyEnv": "Переменная окружения PY_ENV",
       "UseSeparateProcess": "Запускать в отдельном процессе",
       "WaitTimeout": "Тайм-аут ожидания запуска (мс)"
     }
@@ -411,6 +430,14 @@
   "components/replace": {
     "ReplaceTable": {
       "Items": "Варианты замены"
+    }
+  },
+  "components/restclient": {
+    "RESTClient": {
+      "FailedRequestDelayMS": "Задержка между неудачными запросами (мс)",
+      "FailedRequestRepeat": "Количество повторных запросов при ошибке",
+      "RequestDelayMS": "Задержка между запросами (мс)",
+      "Timeout": "Общий тайм-аут (с)"
     }
   },
   "components/sampling": {
@@ -454,12 +481,32 @@
       "MaxThreadCount": "Максимальное количество потоков"
     }
   },
+  "components/sqlscript": {
+    "SQLScriptEngine": {
+      "Run4EachRow": "Выполнять скрипт для каждой строки",
+      "SilentActivation": "Игнорировать ошибки",
+      "SplitQuery": "Разбивать на команды",
+      "Timeout": "Тайм-аут работы скрипта (с)",
+      "TransactionBlockSize": "Периодичность фиксации транзакции (строк)"
+    }
+  },
   "components/treetodata": {
     "TreeToDataEngine": {
       "CompositeColumnDisplayNames": "Составные метки полей",
       "CompositeColumnNames": "Составные имена полей",
       "CompositeDisplayNameSeparator": "Разделитель составных меток",
       "RepeatParentNodeValues": "Дублировать значения родительских узлов"
+    }
+  },
+  "components/treetojson": {
+    "TreeToJSONEngine": {
+      "DateFormat": "Формат даты",
+      "DateTimeIsISO8601": "Дата и время в формате ISO 8601",
+      "DisplayNameAsKey": "Формировать JSON имена из меток узлов",
+      "MultiRowOutput": "Формировать набор строк для массива корневых узлов",
+      "PrettifyJSON": "Выдавать форматированный JSON",
+      "RootExcluded": "Исключить корневой узел",
+      "TimeFormat": "Формат времени"
     }
   },
   "components/ungroupdata": {
@@ -496,12 +543,14 @@
       "RepeatUniqueValues": "Дублировать единичные значения",
       "RequestConfigurator": "Настройки экспорта данных запроса",
       "StrictValidation": "Проверять на соответствие XSD",
+      "Timeout": "Общий тайм-аут (с)",
       "TimeZone": "Временная зона по умолчанию"
     }
   },
   "exports/database": {
     "DBExport": {
       "ExportType": "Тип экспорта",
+      "FastLoaderUsage": "Использовать быстрый загрузчик",
       "MaxParamSets": "Число строк в пачке",
       "RecordCountForCommit": "Периодичность фиксации транзакции (строк)",
       "SilentActivation": "Игнорировать ошибки",
@@ -576,6 +625,7 @@
   "imports/database": {
     "DBImport": {
       "CommandText": "Таблица/Представление",
+      "FieldDescAsDisplayName": "Формировать метки полей из описаний",
       "SilentActivation": "Игнорировать ошибки",
       "Timeout": "Тайм-аут импорта (с)"
     }
@@ -583,9 +633,12 @@
   "imports/excelfile": {
     "ImportExcelFileEngine": {
       "AllRows": "До последней строки",
+      "AutoDetectColumnsMode": "Автоопределение столбцов",
       "BlankRowAction": "Пустые строки",
       "ExplicitRange": "Диапазон",
       "FileInfoColumnsType": "Информация о файле",
+      "MaxThreadCount": "Макс. кол-во потоков",
+      "ParallelProcessing": "Параллельная обработка",
       "ReferenceStyle": "Стиль ссылок",
       "TableName": "Имя объекта",
       "TableNamingMethod": "Выбор объекта",
@@ -611,6 +664,7 @@
   },
   "imports/textfile": {
     "ImportTextFile": {
+      "AutoDetectColumnsMode": "Автоопределение столбцов",
       "CodePage": "Кодовая страница",
       "DateFormat": "Формат даты",
       "DateSeparator": "Разделитель даты",
@@ -618,7 +672,9 @@
       "DelimiterChar": "Разделитель столбцов",
       "FileInfoColumnsType": "Информация о файле",
       "FirstLineAsTitle": "Заголовок в первой строке",
+      "MaxThreadCount": "Макс. кол-во потоков",
       "MultipleDelimiters": "Считать последовательные разделители одним",
+      "ParallelProcessing": "Параллельная обработка",
       "RowsToSkip": "Пропустить строк",
       "TextQualifier": "Ограничитель строк",
       "TimeSeparator": "Разделитель времени",
@@ -649,8 +705,11 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
     "ClickHouseDatabaseConfigurator": {
+      "Cluster": "Кластер",
       "CompressionMethod": "Метод сжатия данных",
-      "IsLocalTimeZone": "Учитывать временную зону"
+      "IsLocalTimeZone": "Учитывать временную зону",
+      "RecvTimeout": "Тайм-аут сетевого чтения (с)",
+      "SendTimeout": "Тайм-аут сетевой записи (с)"
     }
   },
   "Libraries/bgdbrtl/DB": {
@@ -676,6 +735,7 @@
       "SSLConfigurator": "Настройки SSL"
     },
     "DBSSLConfigurator": {
+      "CertCheckMode": "Проверка сертификата сервера",
       "SSLCA": "Сертификат CA",
       "SSLCert": "Сертификат пользователя",
       "SSLKey": "Приватный ключ",
@@ -690,6 +750,12 @@
       "KeyFilePath": "Путь к секретному ключу",
       "SSLCA": "Сертификат CA",
       "UseSystemTrustStore": "Системное хранилище сертификатов"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
+    "MsSQLOleDbUniDACDatabaseConfigurator": {
+      "Encrypt": "Шифровать протокол",
+      "TrustServerCert": "Не проверять сертификат сервера"
     }
   },
   "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
@@ -740,6 +806,9 @@
     "CollectionItem": {
       "ID": "Идентификатор",
       "Name": "Имя"
+    },
+    "CustomCollectionItemDef": {
+      "DisplayName": "Метка"
     },
     "LocaleSettingsConfigurator": {
       "LocaleName": "Имя локали"
@@ -859,6 +928,7 @@
       "FullNameAttribute": "Атрибут полного имени",
       "Host": "Хост",
       "NameAttribute": "Атрибут имени",
+      "NoCheckCertificate": "Не проверять сертификат сервера",
       "Password": "Пароль",
       "Port": "Порт",
       "UseSASL": "Использовать SASL"
@@ -899,11 +969,13 @@
       "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
       "DefaultUserRole": "Роль нового пользователя",
       "FoldersClaim": "Клейм списка общих папок",
+      "NoCheckCertificate": "Не проверять сертификат сервера",
       "OpenIDClient": "Идентификатор клиента",
       "OpenIDProviderName": "Текст кнопки входа",
       "OpenIDScope": "Область видимости",
       "OpenIDSecret": "Ключ клиента",
       "RedirectURI": "Адрес получателя токена",
+      "ResponseMode": "Формат ответа",
       "RolesClaim": "Клейм списка ролей пользователя",
       "TokenEndpoint": "URL запроса токена",
       "UpdateUserRole": "Обновлять роль пользователя",
@@ -955,8 +1027,8 @@
   "Libraries/RESTClientConnection/RESTClientConnection": {
     "RESTClientConnectionConfigurator": {
       "ClientAuth": "Аутентификация для выполнения запроса",
-      "ExchangeTimeOut": "Тайм-аут обмена данными (мс)",
-      "IgnoreCertificateErrors": "Игнорировать ошибки SSL сертификата",
+      "IgnoreCertificateErrors": "Не проверять сертификат сервера",
+      "ParamURLType": "Тип URL параметров",
       "RequestContentType": "Content-Type запроса",
       "ResponseContentType": "Допустимый Content-Type ответа",
       "TimeOut": "Тайм-аут подключения (мс)",
@@ -967,6 +1039,7 @@
   "Libraries/TableauRestConnection/TableauRestConnection": {
     "TableauRestConnectionConfigurator": {
       "ApiVersion": "Версия Tableau REST API",
+      "IgnoreCertificateErrors": "Не проверять сертификат сервера",
       "Password": "Пароль",
       "ServerUrl": "Адрес сервера",
       "Site": "Сайт",
@@ -976,9 +1049,8 @@
   "Libraries/WSDLClientConnection/WSDLClientConnection": {
     "WSDLClientConnectionConfigurator": {
       "ClientAuth": "Аутентификация для выполнения запроса",
-      "ClientUsesWSDLAuth": "Аутентификация та же, что и для получения WSDL",
-      "ExchangeTimeOut": "Тайм-аут обмена данными (мс)",
-      "IgnoreCertificateErrors": "Игнорировать ошибки SSL сертификата",
+      "ClientUsesWSDLAuth": "Аутентификация, как и для получения WSDL",
+      "IgnoreCertificateErrors": "Не проверять сертификат сервера",
       "ReserveWSDLSource": "Резервный источник WSDL",
       "ReserveWSDLSourceOn": "Включить резервный источник WSDL",
       "TimeOut": "Тайм-аут подключения (мс)",
@@ -990,12 +1062,18 @@
   },
   "Studio/DeductorServerSettings": {
     "DeductorServerSettings": {
+      "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
+      "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
+      "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
+      "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+      "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
       "FailedLoginCountLimit": "Лимит попыток ввода пароля",
       "FailedLoginTimeout": "Тайм-аут ввода пароля",
       "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
       "IdleLockTimeout": "Тайм-аут блокировки сессии",
       "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
       "PackagePoolSize": "Размер пула пакетов",
+      "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
       "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
       "RAMLimitKB": "Максимум используемой памяти (КБ)",
       "RAMLimitRatio": "Доля используемой памяти",
@@ -1012,8 +1090,20 @@
       "SSLCertificateFile": "Имя файла сертификата",
       "SSLPrivateKeyFile": "Имя файла закрытого ключа",
       "UnixSocket": "Unix socket",
+      "UnixSocketMode": "Unix socket permissions",
       "WSPort": "WebSocket порт",
       "WSSPort": "WebSocket SSL/TLS порт"
+    }
+  },
+  "Studio/PasswordPolicy": {
+    "PasswordPolicy": {
+      "Digits": "Количество цифр",
+      "Lowercase": "Количество строчных букв",
+      "MaxLength": "Максимальная длина пароля",
+      "MinLength": "Минимальная длина пароля",
+      "PolicyPreset": "Профиль политики",
+      "Special": "Количество специальных символов",
+      "Uppercase": "Количество заглавных букв"
     }
   },
   "Warehouse2/DWConnection": {

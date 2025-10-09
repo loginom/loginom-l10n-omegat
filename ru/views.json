@@ -45,50 +45,58 @@
       "text": "Копировать информацию"
     }
   },
-  "admin/ClaimsToVariablesForm": {
-    "btnAdd": {
-      "tooltip": "Добавить клейм"
+  "admin/LDAPTestForm": {
+    "btnSearch": {
+      "text": "Найти"
     },
-    "btnApply": {
-      "text": "Применить"
+    "frmLDAPTestForm": {
+      "title": "Тестирование LDAP аутентификации"
     },
-    "btnCancel": {
-      "text": "Отменить"
+    "pnlSearch": {
+      "title": "Тестовый поиск пользователя"
     },
-    "btnDelete": {
-      "tooltip": "Удалить выбранные"
+    "txtAuthResult": {
+      "fieldLabel": "Результат тестирования подключения"
     },
-    "btnDeleteAll": {
-      "tooltip": "Удалить все..."
+    "txtSearchResult": {
+      "fieldLabel": "Результат поиска пользователя"
     },
-    "btnEdit": {
-      "tooltip": "Редактировать клейм"
+    "txtUserName": {
+      "fieldLabel": "Пользователь"
+    }
+  },
+  "admin/OpenIDTestForm": {
+    "frmOpenIDTestForm": {
+      "title": "Информация о тестовом подключении"
     },
-    "btnMoveDown": {
-      "tooltip": "Переместить вниз"
+    "txtFolders": {
+      "fieldLabel": "Общие папки"
     },
-    "btnMoveUp": {
-      "tooltip": "Переместить вверх"
+    "txtPayload": {
+      "fieldLabel": "Содержимое"
     },
-    "colClaim": {
-      "text": "Клеймы"
+    "txtRoles": {
+      "fieldLabel": "Список ролей"
     },
-    "colDelete": {
-      "tooltip": "Удалить все"
+    "txtToken": {
+      "fieldLabel": "Токен"
     },
-    "colDelete.0": {
-      "tooltip": "Удалить"
+    "txtUserFullName": {
+      "fieldLabel": "Полное имя пользователя"
     },
-    "frmClaimsToVariablesForm": {
-      "title": "Список переменных взятых из токена"
+    "txtUserInfo": {
+      "fieldLabel": "Информация о пользователе"
+    },
+    "txtUserName": {
+      "fieldLabel": "Имя пользователя"
     }
   },
   "admin/RoleMapingForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "colName": {
       "text": "Роль или право в приложении"
@@ -218,10 +226,10 @@
   },
   "admin/SharedDirectoryForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Сохранить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "colDisplayName": {
       "text": "Полное имя"
@@ -242,18 +250,59 @@
       "title": "Права доступа"
     }
   },
-  "admin/UserForm": {
+  "admin/StringListEditorForm": {
+    "btnAdd": {
+      "tooltip": "Добавить"
+    },
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
+    },
+    "btnDelete": {
+      "tooltip": "Удалить выбранные"
+    },
+    "btnDeleteAll": {
+      "tooltip": "Удалить все..."
+    },
+    "btnEdit": {
+      "tooltip": "Редактировать"
+    },
+    "btnMoveDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveUp": {
+      "tooltip": "Переместить вверх"
+    },
+    "colDelete": {
+      "tooltip": "Удалить все"
+    },
+    "colDelete.0": {
+      "tooltip": "Удалить"
+    },
+    "colValue": {
+      "text": "Значения"
+    },
+    "frmStringListEditorForm": {
+      "title": "Список"
+    }
+  },
+  "admin/UserForm": {
+    "btnApply": {
+      "text": "Сохранить"
+    },
+    "btnCancel": {
+      "text": "Отмена"
     },
     "cbxAuthMode": {
       "fieldLabel": "Аутентификация"
     },
     "chkAdmin": {
       "boxLabel": "Администрирование"
+    },
+    "chkAllowPasswordSave": {
+      "boxLabel": "Разрешить сохранять пароль к БД"
     },
     "chkAllowPublish": {
       "boxLabel": "Разрешить публикацию пакетов"
@@ -267,6 +316,9 @@
     "chkGlobalFileStorage": {
       "boxLabel": "Полный доступ к файловому хранилищу"
     },
+    "chkMustChangePassword": {
+      "boxLabel": "Требовать смену пароля при следующем входе"
+    },
     "chkRunner": {
       "boxLabel": "Пакетное выполнение"
     },
@@ -278,6 +330,9 @@
     },
     "cntUserRoles": {
       "title": "Роли пользователя"
+    },
+    "edtExternName": {
+      "fieldLabel": "Системный пользователь"
     },
     "edtFullName": {
       "fieldLabel": "Полное имя"
@@ -297,7 +352,7 @@
       "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "colPackage": {
       "text": "Пакет"
@@ -352,7 +407,7 @@
   },
   "app/ConfigureBatchProcModesForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
       "text": "Отмена"
@@ -384,7 +439,7 @@
   },
   "app/ConfigureDerivedVendorForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "Изменить"
     },
     "btnCancel": {
       "text": "Отмена"
@@ -394,6 +449,9 @@
     },
     "chbAllowExecNode": {
       "boxLabel": "Выполнение узла и Цикл"
+    },
+    "edtGUID": {
+      "fieldLabel": "GUID"
     },
     "fldDisplayName": {
       "fieldLabel": "Метка"
@@ -445,25 +503,25 @@
   },
   "app/FindNodeForm": {
     "btnApply": {
-      "text": "Перейти к узлу"
+      "text": "Перейти"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
+    },
+    "chkFindFromSelection": {
+      "boxLabel": "Начать поиск с выделенного"
     },
     "edtGUID": {
-      "emptyText": "{________-____-____-____-____________}"
+      "emptyText": "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}"
+    },
+    "edtLabel": {
+      "emptyText": "Поиск"
+    },
+    "edtName": {
+      "emptyText": "Поиск"
     },
     "frmFindNodeForm": {
-      "title": "Найти узел сценария"
-    },
-    "rbByGUID": {
-      "boxLabel": "По GUID"
-    },
-    "rbByLabel": {
-      "boxLabel": "По метке"
-    },
-    "rbByName": {
-      "boxLabel": "По имени"
+      "title": "Найти"
     }
   },
   "app/LicenseItem": {
@@ -609,7 +667,7 @@
       "tooltip": "Развернуть/свернуть до узлов"
     },
     "btnFindNode": {
-      "tooltip": "Найти узел..."
+      "tooltip": "Найти..."
     },
     "btnPublishPackage": {
       "tooltip": "Опубликовать..."
@@ -885,19 +943,22 @@
   },
   "app/PackageForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Изменить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
+    },
+    "cbxDeactivateUpstreamOnCompletion": {
+      "fieldLabel": "Деактивация групп узлов по завершению"
     },
     "cbxLocale": {
       "fieldLabel": "Локаль"
     },
     "chbBinaryCmpUniqValues": {
-      "boxLabel": "Сравнивать строковые уникальные значения бинарно"
+      "fieldLabel": "Сравнивать строковые уникальные значения бинарно"
     },
     "chbUseBasePackageFileStorage": {
-      "boxLabel": "Использовать относительные пути базового пакета"
+      "fieldLabel": "Использовать относительные пути базового пакета"
     },
     "edtName": {
       "fieldLabel": "Имя"
@@ -911,10 +972,10 @@
   },
   "app/PackageLinkForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Изменить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "edtName": {
       "fieldLabel": "Имя"
@@ -931,10 +992,10 @@
   },
   "app/PackagesAutoSavePanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Сохранить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "chbEnableAutoSave": {
       "boxLabel": " ",
@@ -1047,6 +1108,9 @@
     "btnClone": {
       "tooltip": "Клонировать..."
     },
+    "btnCopy": {
+      "tooltip": "Копировать"
+    },
     "btnDelete": {
       "tooltip": "Удалить"
     },
@@ -1061,6 +1125,9 @@
     },
     "btnMoveUp": {
       "tooltip": "Переместить вверх"
+    },
+    "btnPaste": {
+      "tooltip": "Вставить"
     },
     "btnRestoreSettings": {
       "tooltip": "Отменить все изменения"
@@ -1106,14 +1173,11 @@
   "app/PreviewWindow": {
     "btnDown": {
       "tooltip": "Закрепить внизу"
-    },
-    "btnHide": {
-      "tooltip": "Скрыть"
     }
   },
   "app/PublishedPackagesAddForm": {
     "btnClose": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnPublish": {
       "text": "Опубликовать"
@@ -1221,6 +1285,29 @@
       "text": "Остановить сессию"
     }
   },
+  "app/scheduler/DestVariablesSelector": {
+    "btnDeselectAll": {
+      "tooltip": "Отменить выбор всех"
+    },
+    "btnInvertSelected": {
+      "tooltip": "Инвертировать выбор"
+    },
+    "btnRefresh": {
+      "text": "Обновить список"
+    },
+    "btnSelectAll": {
+      "tooltip": "Выбрать все"
+    },
+    "colDisplayName": {
+      "text": "Метка"
+    },
+    "colName": {
+      "text": "Имя"
+    },
+    "colValue": {
+      "text": "Значение"
+    }
+  },
   "app/scheduler/GridNodeSelector": {
     "colDisplayName": {
       "text": "Метка"
@@ -1238,13 +1325,24 @@
     }
   },
   "app/scheduler/JobEditor": {
+    "btnAddStartAfterJobTrigger": {
+      "text": "Добавить",
+      "tooltip": "Добавить"
+    },
     "btnAddVariable": {
+      "text": "Добавить",
       "tooltip": "Добавить..."
     },
     "btnDelete": {
       "tooltip": "Удалить выбранные"
     },
+    "btnDeleteStartAfterJobTrigger": {
+      "tooltip": "Удалить выбранные"
+    },
     "btnDeselectAllDays": {
+      "text": "Отменить выбор"
+    },
+    "btnDeselectAllDaysOfWeek": {
       "text": "Отменить выбор"
     },
     "btnDeselectAllMonths": {
@@ -1256,6 +1354,12 @@
     "btnLastDayOfMonth": {
       "text": "Последний день"
     },
+    "btnMoveStartAfterJobItemDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveStartAfterJobItemUp": {
+      "tooltip": "Переместить вверх"
+    },
     "btnMoveVariableDown": {
       "tooltip": "Переместить вниз"
     },
@@ -1265,8 +1369,18 @@
     "btnSelectAllDays": {
       "text": "Выбрать все"
     },
+    "btnSelectAllDaysOfWeek": {
+      "text": "Выбрать все"
+    },
     "btnSelectAllMonths": {
       "text": "Выбрать все"
+    },
+    "btnSelectDestVariables": {
+      "text": "Выбрать из пакета",
+      "tooltip": "Выбрать из пакета..."
+    },
+    "cbxDeactivateUpstreamOnCompletion": {
+      "fieldLabel": "Деактивация групп узлов по завершению"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Запускаемый пакет"
@@ -1289,11 +1403,34 @@
     },
     "chkStartIfMissedSchedule": {
       "boxLabel": " ",
-      "fieldLabel": "Запустить сразу если пропущен запуск"
+      "fieldLabel": "Запустить сразу, если пропущен запуск"
+    },
+    "chkStartOnServerStartup": {
+      "boxLabel": " ",
+      "fieldLabel": "Запускать при старте сервера"
+    },
+    "chkStopTimeout": {
+      "boxLabel": " ",
+      "fieldLabel": "Ограничить время выполнения"
     },
     "chkTeach": {
       "boxLabel": " ",
       "fieldLabel": "Переобучать модели при запуске"
+    },
+    "colAfterJobCaption": {
+      "text": "Метка задачи"
+    },
+    "colAfterJobPackageFileName": {
+      "text": "Пакет"
+    },
+    "colAfterJobStatuses": {
+      "text": "Статус для запуска задачи"
+    },
+    "colDeleteAfterJobTrigger": {
+      "tooltip": "Удалить все..."
+    },
+    "colDeleteAfterJobTrigger.0": {
+      "tooltip": "Удалить"
     },
     "colDeleteVariable": {
       "tooltip": "Удалить все..."
@@ -1330,23 +1467,53 @@
     "edtStartTime": {
       "fieldLabel": "Запуск"
     },
+    "edtStopTimeoutCount": {
+      "fieldLabel": "Максимальное время выполнения",
+      "minText": "Значение тайм-аута остановки должно быть положительным"
+    },
+    "edtTimeFilterEnd": {
+      "blankText": "Не указана граница временного интервала",
+      "fieldLabel": "до"
+    },
+    "edtTimeFilterStart": {
+      "blankText": "Не указана граница временного интервала",
+      "fieldLabel": "с"
+    },
+    "pnlDaysOfMonth": {
+      "title": "Дни месяца"
+    },
     "pnlMainSetting": {
       "title": "Основные"
     },
     "pnlMonth": {
-      "fieldLabel": "Месяцы"
+      "title": "Месяцы"
     },
     "pnlSchedule": {
       "title": "Расписание"
     },
+    "pnlScheduleFilters": {
+      "title": "Запускать повтор"
+    },
     "pnlSetting": {
       "title": "Параметры запуска"
     },
-    "rbMonth": {
-      "boxLabel": "Дни месяца"
+    "pnlStartAfterJobs": {
+      "title": "Завершение задачи"
     },
-    "rbWeek": {
-      "boxLabel": "Дни недели"
+    "pnlStartOnServerStartup": {
+      "title": "Запуск сервера"
+    },
+    "pnlTime": {
+      "title": "Время"
+    },
+    "pnlTriggers": {
+      "title": "Триггеры"
+    },
+    "pnlVariables": {
+      "title": "Переменные"
+    },
+    "pnlWeek": {
+      "title": "Дни недели"
     }
   },
   "app/scheduler/JobVariableEditor": {
@@ -1490,7 +1657,7 @@
   },
   "app/SelectBaseVendorForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
       "text": "Отмена"
@@ -1504,10 +1671,10 @@
   },
   "app/SelectVisibilityForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "edtGUID": {
       "fieldLabel": "GUID"
@@ -1875,10 +2042,10 @@
   },
   "components/calcdata/ExprEditForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Изменить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxDataType": {
       "fieldLabel": "Тип данных"
@@ -2029,9 +2196,6 @@
     },
     "colUniqueValues": {
       "text": "Уникальные значения"
-    },
-    "colValueNumberer": {
-      "text": "№"
     }
   },
   "components/coarseclasses/CoarseClassesViewer": {
@@ -2051,10 +2215,10 @@
       "tooltip": "Объединить со следующим"
     },
     "btnModifyCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnModifyCancelFineClassesChart": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnModifyOk": {
       "text": "Применить"
@@ -2328,10 +2492,10 @@
   },
   "components/crosstab/ColumnEditDialog": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbNullGroup": {
       "boxLabel": "Пропущенные"
@@ -2438,6 +2602,12 @@
     },
     "mniDeleteTreeLink": {
       "text": "Удалить связь"
+    },
+    "mniLoadByJSON": {
+      "text": "Загрузить из JSON..."
+    },
+    "mniLoadByXSD": {
+      "text": "Загрузить из XSD..."
     },
     "txtFieldsFilter": {
       "emptyText": "Фильтрация"
@@ -2559,53 +2729,7 @@
       "title": "Факторный анализ"
     }
   },
-  "components/filterdata/FilterColumnItem": {
-    "btnApplyItemSettings": {
-      "text": "Применить"
-    },
-    "btnCancelEdit": {
-      "text": "Отменить"
-    },
-    "btnConcatenation": {
-      "text": "ИЛИ"
-    },
-    "cbbDatePeriodTypeSimple": {
-      "fieldLabel": "Тип временного промежутка"
-    },
-    "cbbField": {
-      "fieldLabel": "Поле"
-    },
-    "cbbRelationType": {
-      "fieldLabel": "Условие"
-    },
-    "chkCaseSensitiveSimple": {
-      "boxLabel": " ",
-      "fieldLabel": "Учитывать регистр"
-    },
-    "dtCompareValuePeriodBaseDateSimple": {
-      "fieldLabel": "Базовая дата интервала"
-    },
-    "edtCompareValueSimple": {
-      "fieldLabel": "Значение для сравнения"
-    },
-    "edtDateSpanSimple": {
-      "fieldLabel": "Значение временного промежутка"
-    },
-    "edtLowerBoundSimple": {
-      "fieldLabel": "Нижняя граница"
-    },
-    "edtUpperBoundSimple": {
-      "fieldLabel": "Верхняя граница"
-    },
-    "mniCopy": {
-      "text": "Копировать"
-    },
-    "mniCut": {
-      "text": "Вырезать"
-    },
-    "mniPaste": {
-      "text": "Вставить"
-    },
+  "components/filterdata/DateValuesEditor": {
     "pnlBaseDate": {
       "title": "Точка отсчета"
     },
@@ -2617,14 +2741,65 @@
     },
     "rbData": {
       "boxLabel": "Имеющиеся данные"
-    },
-    "tagValueList": {
-      "fieldLabel": "Список"
     }
   },
-  "components/filterdata/FilterDataCollection": {
-    "btnDeleteAllFilters": {
-      "text": "Удалить все условия"
+  "components/filterdata/FilterDataPanel": {
+    "btnAdd": {
+      "text": "Добавить условие",
+      "tooltip": "Добавить условие фильтрации"
+    },
+    "btnAddOR": {
+      "text": "Добавить оператор ИЛИ",
+      "tooltip": "Добавить оператор ИЛИ"
+    },
+    "btnClone": {
+      "tooltip": "Клонировать"
+    },
+    "btnMoveDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveUp": {
+      "tooltip": "Переместить вверх"
+    },
+    "btnPreview": {
+      "text": "Предпросмотр",
+      "tooltip": "Открыть окно предпросмотра..."
+    },
+    "btnWordWrap": {
+      "tooltip": "Переносить текст"
+    },
+    "chkEnableFilter": {
+      "boxLabel": "Включить фильтр"
+    },
+    "colCaseSensitive": {
+      "text": "Регистр"
+    },
+    "colDelete": {
+      "tooltip": "Удалить все..."
+    },
+    "colDelete.0": {
+      "tooltip": "Удалить"
+    },
+    "colField": {
+      "text": "Поле"
+    },
+    "colRelationType": {
+      "text": "Условие"
+    },
+    "colValue": {
+      "text": "Значение"
+    },
+    "mniAddORAfter": {
+      "text": "Добавить оператор ИЛИ ниже"
+    },
+    "mniAddORBefore": {
+      "text": "Добавить оператор ИЛИ выше"
+    },
+    "mniDelete": {
+      "text": "Удалить"
+    },
+    "mniDeleteAll": {
+      "text": "Удалить все..."
     }
   },
   "components/filterdata/FilterDataWizard": {
@@ -2636,6 +2811,43 @@
     },
     "frmFilterDataWizard": {
       "title": "Фильтрация данных"
+    }
+  },
+  "components/filterdata/FilterPreviewForm": {
+    "frmFilterPreviewForm": {
+      "title": "Предпросмотр"
+    }
+  },
+  "components/filterdata/ValueListEditor": {
+    "btnAdd": {
+      "tooltip": "Добавить..."
+    },
+    "btnCheckAll": {
+      "tooltip": "Выбрать все"
+    },
+    "btnCopy": {
+      "tooltip": "Копировать выбранные"
+    },
+    "btnEdit": {
+      "tooltip": "Редактировать..."
+    },
+    "btnGetValueList": {
+      "tooltip": "Получить список"
+    },
+    "btnPaste": {
+      "tooltip": "Добавить к выбранным"
+    },
+    "btnReverseCheck": {
+      "tooltip": "Инвертировать выбор"
+    },
+    "btnUncheckAll": {
+      "tooltip": "Отменить выбор всех"
+    },
+    "colValue": {
+      "text": "Значение"
+    },
+    "txtFilterValue": {
+      "emptyText": "Фильтрация"
     }
   },
   "components/forecast/ForecastWizard": {
@@ -2651,10 +2863,10 @@
   },
   "components/groupdata/FactorEditDialog": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnDeselectAll": {
       "text": "Снять все"
@@ -2675,11 +2887,93 @@
     "btnStopLoading": {
       "text": "Остановить"
     },
+    "colRowNo": {
+      "tooltip": "Номер строки"
+    },
     "frmCodeOutputPreviewForm": {
       "title": "Предпросмотр"
+    }
+  },
+  "components/jointree/JoinTreeWizard": {
+    "btnSelectableNodesOnly": {
+      "text": "Только подходящие узлы"
     },
-    "grdConsole": {
-      "title": "Консоль"
+    "btnShowJoinedTree": {
+      "text": "Показать узлы присоединяемого дерева"
+    },
+    "colJoinedTree": {
+      "text": "Узел"
+    },
+    "colJoinedTreeName": {
+      "text": "Имя"
+    },
+    "colMainTreeNode": {
+      "text": "Узел основного дерева"
+    },
+    "colMainTreeNodeName": {
+      "text": "Имя"
+    },
+    "lblOperationType": {
+      "text": "Включить узел в"
+    },
+    "pnlJoinTree": {
+      "title": "Настройка слияния деревьев"
+    },
+    "trpJoinedTree": {
+      "title": "Присоединяемое дерево (для информации)"
+    }
+  },
+  "components/jsontotree/JSONToTreeWizard": {
+    "btnAddChild": {
+      "tooltip": "Добавить дочерний узел"
+    },
+    "btnAddSibling": {
+      "tooltip": "Добавить соседний узел"
+    },
+    "btnBuildTreeTemplate": {
+      "tooltip": "Определить структуру автоматически"
+    },
+    "btnEdit": {
+      "tooltip": "Редактировать..."
+    },
+    "btnGenerateSubNodes": {
+      "tooltip": "Сгенерировать дочерние элементы"
+    },
+    "btnLoadByXSD": {
+      "tooltip": "Загрузить из XSD..."
+    },
+    "btnMoveDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveUp": {
+      "tooltip": "Переместить вверх"
+    },
+    "btnNextExpandable": {
+      "tooltip": "Следующий рекурсивный нераскрытый узел"
+    },
+    "colDataKind": {
+      "text": "Вид данных"
+    },
+    "colDelete": {
+      "tooltip": "Удалить все..."
+    },
+    "colDelete.0": {
+      "tooltip": "Удалить"
+    },
+    "colNodes": {
+      "text": "Узел JSON"
+    },
+    "frmJSONToTree": {
+      "title": "JSON в дерево"
+    },
+    "mniLoadByJSON": {
+      "text": "Загрузить из JSON..."
+    },
+    "mniLoadByXSD": {
+      "text": "Загрузить из XSD..."
+    },
+    "txtTreeFilter": {
+      "emptyText": "Фильтрация"
     }
   },
   "components/loop/LoopParamsWizard": {
@@ -2747,6 +3041,9 @@
   "components/python/PythonOutputPreviewForm": {
     "btnStopLoading": {
       "text": "Остановить"
+    },
+    "colRowNo": {
+      "tooltip": "Номер строки"
     },
     "frmCodeOutputPreviewForm": {
       "title": "Предпросмотр"
@@ -2854,14 +3151,17 @@
     }
   },
   "components/restclient/AdditionalParamsWizard": {
-    "cntAdditional": {
-      "title": "Дополнительно"
-    },
     "cntDebug": {
       "title": "Отладка"
     },
     "frmAdditionalParams": {
       "title": "Дополнительные параметры"
+    },
+    "pedFailedRequestRepeat.valueConfig": {
+      "emptyText": "Отключено"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
     }
   },
   "components/restclient/MessageBody": {
@@ -2882,7 +3182,7 @@
       "text": "Поле"
     },
     "colParam": {
-      "text": "Параметры запроса"
+      "text": "URL параметры запроса"
     },
     "mniFieldAutoLink": {
       "text": "Связать автоматически"
@@ -3021,6 +3321,83 @@
       "title": "Сортировка"
     }
   },
+  "components/sqlscript/SQLScriptQueryWizard": {
+    "btnConnect": {
+      "text": "Подключить"
+    },
+    "cntConnection": {
+      "fieldLabel": "Подключение"
+    },
+    "colDisplayText": {
+      "text": "Метка"
+    },
+    "colFieldDisplayText": {
+      "text": "Метка"
+    },
+    "colFieldName": {
+      "text": "Имя"
+    },
+    "colValue": {
+      "text": "Значение"
+    },
+    "colVariableName": {
+      "text": "Имя"
+    },
+    "frmSQLScript": {
+      "title": "SQL-скрипт"
+    },
+    "grdFields": {
+      "title": "Поля"
+    },
+    "grdVariables": {
+      "title": "Переменные"
+    },
+    "lblExecuteTitle": {
+      "text": "Текст скрипта"
+    },
+    "lblFields": {
+      "text": "Поля"
+    },
+    "lblNoDBConnection": {
+      "text": "Нет подключения к базе данных"
+    },
+    "lblObjectsTree": {
+      "text": "Таблицы/представления"
+    },
+    "lblVariables": {
+      "text": "Переменные"
+    },
+    "mniInsertFullName": {
+      "text": "Вставить полное имя в редактор SQL кода"
+    },
+    "mniParameter": {
+      "text": ":VAR"
+    },
+    "mniParameterF": {
+      "text": ":FIELD"
+    },
+    "mniSelect": {
+      "text": "Вставить имя в редактор SQL кода"
+    },
+    "mniSubstitution": {
+      "text": "%VAR%"
+    },
+    "mniSubstitutionF": {
+      "text": "%FIELD%"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
+    },
+    "pnlTableView": {
+      "title": "My Panel"
+    },
+    "tabFields": {
+      "title": "Поля входного набора"
+    },
+    "tabVariables": {
+      "title": "Переменные"
+    }
+  },
   "components/treetodata/TreeToDataWizard": {
     "btnDeselectAll": {
       "tooltip": "Снять выделение со всех"
@@ -3039,6 +3416,11 @@
     },
     "frmTreeToDataWizard": {
       "title": "Выбор узлов дерева"
+    }
+  },
+  "components/treetojson/TreeToJSONWizard": {
+    "frmTreeToJSON": {
+      "title": "Дерево в JSON"
     }
   },
   "components/ungroupdata/UngroupDataWizard": {
@@ -3069,6 +3451,9 @@
     "frmUngroupDataWizard": {
       "title": "Настройка разгруппировки"
     },
+    "mniShowInvalidRelations": {
+      "text": "Отображать потерянные связи"
+    },
     "txtSupportColumn": {
       "fieldLabel": "Порядковое поле в опорных данных"
     },
@@ -3091,9 +3476,17 @@
       "text": "Удалить все связи"
     }
   },
+  "components/uniontree/UnionTreeWizard": {
+    "cntOperationType": {
+      "title": "Тип операции"
+    },
+    "frmUnionTree": {
+      "title": "Настройка объединения деревьев"
+    }
+  },
   "components/variablestodata/VariablesToDataWizard": {
     "cntVarToData": {
-      "title": "Записать переменные:"
+      "title": "Записать переменные"
     },
     "frmVarToData": {
       "title": "Переменные в таблицу"
@@ -3114,6 +3507,9 @@
     },
     "frmAdditionalParams": {
       "title": "Дополнительные параметры"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
     },
     "rbComplex": {
       "boxLabel": "Идентификатор запроса - поле входного набора:"
@@ -3259,7 +3655,7 @@
   },
   "connections/onec8/OneC8ConnectionStringForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "OK"
     },
     "btnCancel": {
       "text": "Закрыть"
@@ -3293,6 +3689,7 @@
   },
   "connections/restservice/ConnectionWizard": {
     "btnAdd": {
+      "text": "Добавить URL параметры запроса",
       "tooltip": "Добавить"
     },
     "btnDelete": {
@@ -3300,6 +3697,10 @@
     },
     "btnDeleteAll": {
       "tooltip": "Удалить все..."
+    },
+    "btnGetURLParam": {
+      "text": "Получить URL параметры запроса",
+      "tooltip": "Заменить URL параметры в таблице на указанные в URL сервиса"
     },
     "btnMoveDown": {
       "tooltip": "Переместить вниз"
@@ -3309,9 +3710,6 @@
     },
     "btnURLTest": {
       "text": "Тестировать"
-    },
-    "cntAuth": {
-      "title": "Аутентификация для выполнения запроса"
     },
     "colDataType": {
       "text": "Тип данных"
@@ -3325,20 +3723,17 @@
     "colName": {
       "text": "Имя"
     },
-    "frmConnection": {
-      "title": "Параметры подключения"
-    },
-    "grdParams": {
-      "title": "Параметры запроса"
-    },
     "pedRequestContentType.valueConfig": {
       "regexText": "Недопустимый формат значения Content-Type"
     },
     "pedResponseContentType.valueConfig": {
       "regexText": "Недопустимый формат значения Content-Type"
     },
-    "pedURL.valueConfig": {
-      "emptyText": "http://example.com/operation-path"
+    "txtAuth": {
+      "fieldLabel": "Аутентификация для выполнения запроса"
+    },
+    "txtExampleURL": {
+      "fieldLabel": "Пример сформированного URL"
     }
   },
   "connections/tableaurest/TableauRestConnectionParams": {
@@ -3346,7 +3741,7 @@
       "text": "Тестировать"
     }
   },
-  "connections/webservice/AuthorizationForm": {
+  "connections/webservice/AuthenticationForm": {
     "cbxStore": {
       "fieldLabel": "Хранилище сертификатов"
     },
@@ -3369,9 +3764,15 @@
       "text": "Имя"
     }
   },
-  "connections/webservice/AuthorizationWizard": {
-    "frmAuthorization": {
-      "title": "Аутентификация для выполнения запроса"
+  "connections/webservice/AuthModalWindow": {
+    "btnCancel": {
+      "text": "Отмена"
+    },
+    "btnOK": {
+      "text": "OK"
+    },
+    "frmAuthModalWindow": {
+      "title": "Настройка аутентификации"
     }
   },
   "connections/webservice/ConnectionWizard": {
@@ -3381,11 +3782,11 @@
     "btnSourceTest": {
       "text": "Тестировать"
     },
-    "cntAuthorization": {
-      "title": "Аутентификация для получения WSDL-файла"
+    "txtAuth": {
+      "fieldLabel": "Тип аутентификации"
     },
-    "frmConnection": {
-      "title": "Параметры подключения"
+    "txtWSDLAuth": {
+      "fieldLabel": "Аутентификация для получения WSDL-файла"
     }
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
@@ -3418,8 +3819,14 @@
     "colRemoveFile.0": {
       "tooltip": "Удалить"
     },
+    "edtDisplayName": {
+      "fieldLabel": "Метка"
+    },
     "frmXSDFilesConnection": {
       "title": "Настройка набора XSD-схем"
+    },
+    "txtDesc": {
+      "fieldLabel": "Комментарий"
     }
   },
   "exports/dbexport/DBCreateTableDialog": {
@@ -3431,17 +3838,31 @@
       "text": "Создать таблицу"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnDefaults": {
       "text": "Восстановить",
-      "tooltip": "Восстановить список полей по умолчанию"
+      "tooltip": "Восстановить список полей"
+    },
+    "btnEdit": {
+      "text": "Редактировать",
+      "tooltip": "Редактировать..."
     },
     "btnMoveDown": {
       "tooltip": "Переместить вниз"
     },
     "btnMoveUp": {
       "tooltip": "Переместить вверх"
+    },
+    "btnStringMax": {
+      "text": "Все строковые макс",
+      "tooltip": "Все строковые макс..."
+    },
+    "cbxTableName": {
+      "fieldLabel": "Имя таблицы"
+    },
+    "chkDropTableIfExists": {
+      "fieldLabel": "Удалять существующую таблицу"
     },
     "colDelete": {
       "tooltip": "Удалить все"
@@ -3452,23 +3873,52 @@
     "colName": {
       "text": "Имя поля"
     },
+    "colNotNull": {
+      "text": "Не NULL"
+    },
+    "colPrimaryKey": {
+      "tooltip": "Первичный ключ"
+    },
     "colSize": {
       "text": "Размер"
     },
     "colType": {
       "text": "Тип поля"
     },
-    "fldTableName": {
-      "fieldLabel": "Имя таблицы"
-    },
     "frmDBCreateTableDialog": {
-      "title": "Создание новой таблицы"
+      "title": "Создание таблицы"
     },
     "tabFields": {
       "title": "Поля таблицы"
     },
     "tabSql": {
       "title": "SQL-запрос"
+    }
+  },
+  "exports/dbexport/DBEditFieldDefsForm": {
+    "btnApply": {
+      "text": "Применить"
+    },
+    "btnCancel": {
+      "text": "Отменить"
+    },
+    "cbxDataType": {
+      "fieldLabel": "Тип данных"
+    },
+    "chkNotNull": {
+      "fieldLabel": "Не NULL"
+    },
+    "chkPrimaryKey": {
+      "fieldLabel": "Первичный ключ"
+    },
+    "edtName": {
+      "fieldLabel": "Имя поля"
+    },
+    "edtSize": {
+      "fieldLabel": "Размер"
+    },
+    "frmDBEditFieldDefsForm": {
+      "title": "Редактирование поля"
     }
   },
   "exports/dbexport/DBExportParamsWizard": {
@@ -3619,7 +4069,7 @@
       "text": "Создать таблицу"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnDefaults": {
       "text": "Восстановить",
@@ -3717,15 +4167,23 @@
       "text": "Отмена"
     },
     "buttonOk": {
-      "text": "Применить"
+      "text": "OK"
+    }
+  },
+  "ext/errormessage/DetailPanel": {
+    "btnDetais": {
+      "text": "Технические подробности"
+    },
+    "btnMailto": {
+      "text": "Сообщить об ошибке"
     }
   },
   "ext/ModalWindow": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     }
   },
   "filedialog/OpenDialogForm": {
@@ -3900,10 +4358,10 @@
   },
   "filtersview/FilterItem": {
     "btnApplyItemSettings": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancelEdit": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnConcatenation": {
       "text": "ИЛИ"
@@ -4085,6 +4543,9 @@
     "colDisplayText": {
       "text": "Метка"
     },
+    "colFieldDesc": {
+      "text": "Описание"
+    },
     "colFieldName": {
       "text": "Поле"
     },
@@ -4150,10 +4611,10 @@
   },
   "imports/dwh/BetweenValuesDialog": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "frmBetweenValuesDialog": {
       "title": "Значения границ интервала"
@@ -4161,10 +4622,10 @@
   },
   "imports/dwh/CompareValuesDialog": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "frmCompareValuesDialog": {
       "title": "Значение для сравнения"
@@ -4172,10 +4633,10 @@
   },
   "imports/dwh/DateValuesDialog": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "frmDateValuesDialog": {
       "title": "Выбор периода"
@@ -4206,10 +4667,6 @@
     "btnUp": {
       "tooltip": "Переместить вверх"
     },
-    "colAgg": {
-      "text": "Тип",
-      "tooltip": "Тип объекта хранилища данных"
-    },
     "colChecked": {
       "text": "Выводить"
     },
@@ -4218,9 +4675,6 @@
     },
     "colField": {
       "text": "Поле"
-    },
-    "colMDField": {
-      "text": "Параметр"
     },
     "colMDGroupType": {
       "text": "Тип",
@@ -4242,9 +4696,6 @@
     "grdFields": {
       "title": "Выбранные элементы ХД"
     },
-    "grdMDFields": {
-      "title": "Доступные элементы ХД"
-    },
     "mniChecked": {
       "text": "Выводить"
     },
@@ -4256,9 +4707,6 @@
     },
     "trpMDFields": {
       "title": "Дерево доступных элементов ХД"
-    },
-    "txtFilterMDFields": {
-      "emptyText": "Фильтрация"
     },
     "txtFilterMDNodes": {
       "emptyText": "Фильтрация"
@@ -4289,10 +4737,10 @@
       "tooltip": "Добавить..."
     },
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnCheckAll": {
       "tooltip": "Выбрать все"
@@ -4317,6 +4765,11 @@
     },
     "txtFilterValue": {
       "emptyText": "Фильтрация"
+    }
+  },
+  "imports/excelfile/ImportExcelColumnDefsWizard": {
+    "frmImportSettings": {
+      "title": "Настройка полей"
     }
   },
   "imports/excelfile/ImportExcelFilePreviewWizard": {
@@ -4464,6 +4917,26 @@
     },
     "mniSelectHead": {
       "text": "Выделить источник замены"
+    }
+  },
+  "login/ChangePasswordForm": {
+    "btnApply": {
+      "text": "Изменить"
+    },
+    "btnCancel": {
+      "text": "Отмена"
+    },
+    "edtNewPassword1": {
+      "fieldLabel": "Новый пароль"
+    },
+    "edtNewPassword2": {
+      "fieldLabel": "Подтвердите пароль"
+    },
+    "edtOldPassword": {
+      "fieldLabel": "Старый пароль"
+    },
+    "frmChangePassword": {
+      "title": "Требуется изменить пароль"
     }
   },
   "login/Login": {
@@ -5105,10 +5578,10 @@
   },
   "viewers/cube/CasesAddPanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnCheckAll": {
       "tooltip": "Выбрать все"
@@ -5151,10 +5624,10 @@
   },
   "viewers/cube/CasesCalcPanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbbDataType": {
       "fieldLabel": "Тип данных"
@@ -5177,7 +5650,7 @@
       "text": "Фильтровать"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbbRelation": {
       "fieldLabel": "Условие"
@@ -5218,10 +5691,10 @@
       "tooltip": "Добавить вычисляемый факт..."
     },
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnCheckAll": {
       "tooltip": "Выбрать все"
@@ -5256,10 +5729,10 @@
   },
   "viewers/cube/ChartRestrictionsPanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cntMaxCount": {
       "title": "Максимальное количество"
@@ -5373,10 +5846,10 @@
   },
   "viewers/cube/CubeFormatPanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "colDimensionDisplayName": {
       "text": "Измерение"
@@ -5500,10 +5973,10 @@
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbRegister": {
       "boxLabel": "Учитывать регистр"
@@ -5523,10 +5996,10 @@
   },
   "viewers/cube/DimensionsFilterPanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnCheckAll": {
       "tooltip": "Выбрать все"
@@ -5561,10 +6034,10 @@
   },
   "viewers/cube/DimensionsTunePanel": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "frmDimensionsTunePanel": {
       "title": "Настройка измерений"
@@ -5695,10 +6168,10 @@
   },
   "viewers/dataquality/QualityViewSettings": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "chbIndicatorSwitch": {
       "boxLabel": "Индекс качества"
@@ -6128,7 +6601,7 @@
       "tooltip": "Извлечь уникальные значения"
     },
     "btnModifyCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "btnModifyOk": {
       "text": "Применить"
@@ -6221,6 +6694,11 @@
       "fieldLabel": "Округление границ интервалов"
     }
   },
+  "wizards/code/CodeConsole": {
+    "grdConsole": {
+      "title": "Консоль"
+    }
+  },
   "wizards/columndefs/ColumnDefsTuning": {
     "btnRAWView": {
       "text": "Исходные данные"
@@ -6249,11 +6727,17 @@
     }
   },
   "wizards/columns/ColumnsMappingWizard": {
+    "btnAddExcluded": {
+      "tooltip": "Добавить в исключенные"
+    },
     "btnAddExtension": {
       "tooltip": "Добавить расширение..."
     },
     "btnAddMappingColumn": {
       "tooltip": "Добавить..."
+    },
+    "btnAddMappingToExcluded": {
+      "tooltip": "Добавить в исключенные"
     },
     "btnAutoLink": {
       "text": "Связать автоматически"
@@ -6266,6 +6750,9 @@
     },
     "btnCloneMappingColumn": {
       "tooltip": "Клонировать..."
+    },
+    "btnCopy": {
+      "tooltip": "Копировать"
     },
     "btnCreateMapping": {
       "tooltip": "Создать выходной"
@@ -6287,6 +6774,9 @@
     },
     "btnMoveMappingColumnUp": {
       "tooltip": "Переместить вверх"
+    },
+    "btnPaste": {
+      "tooltip": "Вставить"
     },
     "btnProduceType": {
       "tooltip": "Тип создания производных столбцов"
@@ -6367,10 +6857,10 @@
   },
   "wizards/columns/EditColumnDefForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxDataKind": {
       "fieldLabel": "Вид данных"
@@ -6448,10 +6938,10 @@
   },
   "wizards/connection/DatabasePathForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxPathServer": {
       "fieldLabel": "Сервер"
@@ -6483,10 +6973,10 @@
   },
   "wizards/connection/InterbasePathForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxPathProtocol": {
       "fieldLabel": "Протокол"
@@ -6507,6 +6997,11 @@
       "fieldLabel": "База данных"
     }
   },
+  "wizards/connection/MsSQLConnectionParams": {
+    "cntMsSQLConnectionParams": {
+      "title": "Параметры SQL Server"
+    }
+  },
   "wizards/connection/MySQLConnectionParams": {
     "cntMySQLConnectionParams": {
       "title": "Параметры MySQL"
@@ -6519,10 +7014,10 @@
   },
   "wizards/connection/SSLParamsForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "frmSSLSettings": {
       "title": "Настройки SSL"
@@ -6552,10 +7047,10 @@
   },
   "wizards/datapartition/FactorEditDialog": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "fldFactor": {
       "fieldLabel": "Фактор"
@@ -6641,6 +7136,9 @@
     "btnAddChild": {
       "tooltip": "Добавить дочерний узел"
     },
+    "btnAddExcluded": {
+      "tooltip": "Добавить в исключенные"
+    },
     "btnAddSibling": {
       "tooltip": "Добавить соседний узел"
     },
@@ -6689,6 +7187,9 @@
     "btnSelectAll": {
       "tooltip": "Выбрать все"
     },
+    "btnShowExcluded": {
+      "tooltip": "Отображать исключенные"
+    },
     "btnShowInvalidRelations": {
       "text": "Отображать потерянные связи"
     },
@@ -6734,6 +7235,12 @@
     "frmDataTreeMapping": {
       "title": "Настройка соответствия между деревьями данных"
     },
+    "mniLoadByJSON": {
+      "text": "Загрузить из JSON..."
+    },
+    "mniLoadByXSD": {
+      "text": "Загрузить из XSD..."
+    },
     "rbLinks": {
       "boxLabel": "Связи"
     },
@@ -6749,10 +7256,10 @@
   },
   "wizards/datatree/EditDataTreeNodeDefForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxDataKind": {
       "fieldLabel": "Вид данных"
@@ -6781,12 +7288,35 @@
       "title": "Добавить узел"
     }
   },
+  "wizards/datatree/JSONLoadingDialog": {
+    "btnApply": {
+      "text": "Загрузить"
+    },
+    "btnCancel": {
+      "text": "Отмена"
+    },
+    "cbxDateTimeTemplate": {
+      "fieldLabel": "Шаблон даты/времени"
+    },
+    "frmJSONLoadingDialog": {
+      "title": "Загрузить дерево из JSON"
+    },
+    "lblRewriteHint": {
+      "text": "При загрузке схемы существующие узлы будут удалены"
+    },
+    "pnlFile": {
+      "title": "Из файла"
+    },
+    "pnlText": {
+      "title": "Из строки"
+    }
+  },
   "wizards/datatree/XSDLoadingDialog": {
     "btnApply": {
       "text": "Загрузить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxNamespace": {
       "emptyText": "Все пространства имен",
@@ -6864,10 +7394,10 @@
   },
   "wizards/normalization/ColumnsEditForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "OK"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxNormType": {
       "fieldLabel": "Нормализатор"
@@ -7101,10 +7631,10 @@
   },
   "wizards/variables/EditVariableForm": {
     "btnApply": {
-      "text": "Применить"
+      "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отменить"
+      "text": "Отмена"
     },
     "cbxDataType": {
       "fieldLabel": "Тип данных"
@@ -7123,12 +7653,15 @@
       "fieldLabel": "Имя"
     },
     "frmEditVariableForm": {
-      "title": "Редактирование переменной"
+      "title": "Добавить переменную"
     }
   },
   "wizards/WizardForm": {
     "btnClose": {
       "tooltip": "Закрыть"
+    },
+    "btnDone": {
+      "text": "Готово"
     },
     "btnError": {
       "text": "Подробнее..."
@@ -7144,9 +7677,6 @@
     },
     "btnResize": {
       "tooltip": "Развернуть"
-    },
-    "btnSave": {
-      "text": "Сохранить"
     },
     "btnView": {
       "text": "Просмотр"

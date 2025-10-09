@@ -3,7 +3,7 @@
     "CalcFuncCategory": {
       "$Caption": "Function Category",
       "Financical": "Financial",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Mathematic": "Math",
       "Statistic": "Statistical",
       "Logic": "Logical",
@@ -31,11 +31,11 @@
     }
   },
   "Common/HTTPClient/WSDLClientAuth": {
-    "WSDLAuthorizationMode": {
+    "WSDLAuthMode": {
       "$Caption": "Authentication Type",
       "Absent": "Not required",
       "NamePass": "Username and password",
-      "OAuth": "OAuth token",
+      "OAuth.NOTE": "Имеющиеся переводы:\nOAuth token\nOAuth Token",
       "Cert": "Client certificate from storage",
       "FileCert": "Client certificate files"
     }
@@ -46,7 +46,7 @@
       "Ok": "No errors",
       "Cancelled": "Canceled by user",
       "InitError": "Initialization error: %s",
-      "InvalidMultipartBoundary": "Invalid multipart\/related boundary",
+      "InvalidMultipartBoundary": "Invalid multipart/related boundary",
       "HeaderTooLong": "HTTP header too long",
       "UnexpectedMessageEnd": "Unexpected message end",
       "UnknownMessageStructure": "Unrecognized message structure",
@@ -168,7 +168,7 @@
       "None": "Unknown",
       "Date": "Date",
       "Time": "Time",
-      "DateTime": "Date\/time",
+      "DateTime": "Date/time",
       "Float": "Floating point number (single precision)",
       "Double": "Floating point number (double precision)",
       "Decimal": "Decimal number",
@@ -255,9 +255,9 @@
     },
     "BinningSDMode": {
       "$Caption": "Bin Create Mode",
-      "sdm1": "+\/- 1 SD",
-      "sdm2": "+\/- 2 SD",
-      "sdm3": "+\/- 3 SD"
+      "sdm1": "+/- 1 SD",
+      "sdm2": "+/- 2 SD",
+      "sdm3": "+/- 3 SD"
     }
   },
   "components/calcdata": {
@@ -396,12 +396,12 @@
     },
     "DateReformFormat": {
       "$Caption": "Output Column Data Type",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Number": "Number",
       "String": "String"
     },
     "DateReformFunction": {
-      "$Caption": "Date\/Time Conversion Method",
+      "$Caption": "Date/Time Conversion Method",
       "YearAndQuarter": "Year + quarter",
       "YearAndMonth": "Year + month",
       "YearAndWeek": "Year + week",
@@ -508,16 +508,26 @@
       "Difference": "Difference"
     }
   },
+  "components/jointree": {
+    "JoinTreeOperationType": {
+      "$Caption.NOTE": "Имеющиеся переводы:\nOperation Type\nOperation type"
+    }
+  },
+  "components/jsontotree": {
+    "RootGeneration": {
+      "Auto": "Autodetect"
+    }
+  },
   "components/linregression": {
     "LinRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
-      "Enter": "Enter",
-      "Forward": "Forward",
-      "Backward": "Backward",
-      "Stepwise": "Stepwise",
-      "L2": "Ridge",
-      "L1": "LASSO",
-      "L1L2": "Elastic Net"
+      "Enter.NOTE": "Старый исходник:\nEnter - Принудительное включение\n\nСтарый перевод:\nEnter",
+      "Forward.NOTE": "Старый исходник:\nForward - Пошаговое включение\n\nСтарый перевод:\nForward",
+      "Backward.NOTE": "Старый исходник:\nBackward - Пошаговое исключение\n\nСтарый перевод:\nBackward",
+      "Stepwise.NOTE": "Старый исходник:\nStepwise - Пошаговое включение/исключение\n\nСтарый перевод:\nStepwise",
+      "L2.NOTE": "Старый исходник:\nRidge - Гребневая регрессия\n\nСтарый перевод:\nRidge",
+      "L1.NOTE": "Старый исходник:\nLASSO - Регрессия Лассо\n\nСтарый перевод:\nLASSO",
+      "L1L2.NOTE": "Старый исходник:\nElastic-net - Регрессия \"эластичная сеть\"\n\nСтарый перевод:\nElastic Net"
     },
     "LinRegSelQuality": {
       "$Caption": "Factor Selection Criterion",
@@ -546,13 +556,13 @@
     },
     "LogRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
-      "Enter": "Enter",
-      "Forward": "Forward",
-      "Backward": "Backward",
-      "Stepwise": "Stepwise",
-      "L2": "Ridge",
-      "L1": "LASSO",
-      "L1L2": "Elastic Net"
+      "Enter.NOTE": "Старый исходник:\nEnter - Принудительное включение\n\nСтарый перевод:\nEnter",
+      "Forward.NOTE": "Старый исходник:\nForward - Пошаговое включение\n\nСтарый перевод:\nForward",
+      "Backward.NOTE": "Старый исходник:\nBackward - Пошаговое исключение\n\nСтарый перевод:\nBackward",
+      "Stepwise.NOTE": "Старый исходник:\nStepwise - Пошаговое включение/исключение\n\nСтарый перевод:\nStepwise",
+      "L2.NOTE": "Старый исходник:\nRidge - Гребневая регрессия\n\nСтарый перевод:\nRidge",
+      "L1.NOTE": "Старый исходник:\nLASSO - Регрессия Лассо\n\nСтарый перевод:\nLASSO",
+      "L1L2.NOTE": "Старый исходник:\nElastic-net - Регрессия \"эластичная сеть\"\n\nСтарый перевод:\nElastic Net"
     },
     "LogRegSelQuality": {
       "$Caption": "Factor Selection Criterion",
@@ -692,7 +702,7 @@
       "$Caption": "Wavelet Type",
       "Daubechies": "Daubechies",
       "Coiflet": "Coiflet",
-      "CDF97": "CDF 9\/7"
+      "CDF97": "CDF 9/7"
     }
   },
   "components/sonn": {
@@ -752,6 +762,11 @@
       "DecimalPlaces": "Round to the required decimal precision"
     }
   },
+  "components/uniontree": {
+    "UnionTreeOperationType": {
+      "$Caption.NOTE": "Имеющиеся переводы:\nOperation Type\nOperation type"
+    }
+  },
   "components/variablestodata": {
     "VariablesToDataResultTableKind": {
       "$Caption": "Type of Variables Conversion to Table",
@@ -760,6 +775,10 @@
     }
   },
   "exports/database": {
+    "DBExportFastLoaderUsage": {
+      "No.NOTE": "Имеющиеся переводы:\nNone\nNo",
+      "Yes": "Yes"
+    },
     "DBExportType": {
       "$Caption": "Export Mode",
       "Append": "Append data to table",
@@ -816,7 +835,7 @@
   "imports/database": {
     "BDCommandType": {
       "$Caption": "Command Text Type",
-      "Table": "Table\/view name",
+      "Table": "Table/view name",
       "Text": "SQL query"
     }
   },
@@ -897,6 +916,10 @@
     }
   },
   "Libraries/bgdbrtl/DB": {
+    "CertCheckMode": {
+      "NoCheck": "Off",
+      "Identity": "Full"
+    },
     "DBServerType": {
       "$Caption": "Database Type",
       "Other": "Unknown",
@@ -916,15 +939,6 @@
       "DoubleQuotes": "Double quotes \"\"",
       "Apostrophes": "Apostrophes ``"
     },
-    "SSLMode": {
-      "$Caption": "Use SSL",
-      "Disabled": "Disable",
-      "Allow": "Allow",
-      "Prefer": "Prefer",
-      "Require": "Require",
-      "VerifyCA": "Verify CA",
-      "VerifyIdentity": "Verify Full"
-    },
     "TransactionIsolationLevel": {
       "$Caption": "Transaction Isolation Level",
       "ReadUnCommitted": "Read uncommitted",
@@ -939,6 +953,11 @@
       "$Caption": "Authentication Mechanism",
       "ServiceAcc": "Service authentication",
       "UserAcc": "User authentication"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
+    "MsSQLClient": {
+      "Auto": "Auto"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
@@ -1055,7 +1074,7 @@
       "$Caption": "Data Type",
       "None": "Undefined",
       "Boolean": "Logical",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Float": "Real",
       "Integer": "Integer",
       "String": "String",
@@ -1235,7 +1254,7 @@
   },
   "Libraries/bgrtl/TimeZones": {
     "ExportXMLSpecifyTimeZone": {
-      "$Caption": "Presence of the Time Zone in the Date\/Time Values",
+      "$Caption": "Presence of the Time Zone in the Date/Time Values",
       "None": "Do not specify",
       "AllButDate": "Do not specify for Date",
       "All": "Specify always"
@@ -1267,7 +1286,7 @@
       "Sequence": "Sequence"
     },
     "LearnPartitionMethod": {
-      "$Caption": "Method of Training\/Test Component Partitioning with Training",
+      "$Caption": "Method of Training/Test Component Partitioning with Training",
       "Random": "Random",
       "Sequence": "Sequence",
       "ByColumn": "By column"
@@ -1324,6 +1343,10 @@
     }
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
+    "AutoDetectColumnsMode": {
+      "None.NOTE": "Имеющиеся переводы:\nNone\nNo",
+      "All.NOTE": "Имеющиеся переводы:\nAll\nIn rows and columns"
+    },
     "FileInfoColumnsType": {
       "$Caption": "File info",
       "None": "None",
@@ -1367,7 +1390,7 @@
     "LDAPConnectionSecurity": {
       "$Caption": "Connection Security",
       "Simple": "Simple connection",
-      "SSL": "SSL\/TLS",
+      "SSL": "SSL/TLS",
       "StartTLS": "STARTTLS"
     },
     "LDAPUserRole": {
@@ -1555,6 +1578,16 @@
       "Grid": "Auto"
     }
   },
+  "Libraries/RESTClientConnection/RESTClientConnection": {
+    "ParamURLType": {
+      "Replacement": "Replace"
+    }
+  },
+  "Studio/DeductorServerSettings": {
+    "MultiSessionRestriction": {
+      "None.NOTE": "Имеющиеся переводы:\nNone\nNo"
+    }
+  },
   "Studio/DeductorSessionsManager": {
     "ManagedSessionType": {
       "$Caption": "Session Type of Session Manager",
@@ -1581,6 +1614,11 @@
       "Local": "Local",
       "LDAP": "LDAP",
       "OpenID": "OpenID"
+    }
+  },
+  "Studio/PasswordPolicy": {
+    "PolicyPreset": {
+      "None.NOTE": "Имеющиеся переводы:\nNone\nNo"
     }
   },
   "Viewers/Browse/BrowseViewSearch": {
@@ -1614,7 +1652,7 @@
       "$Caption": "Axis Type",
       "Linear": "Linear",
       "Logarithmic": "Logarithmic",
-      "Datetime": "Date\/Time",
+      "Datetime": "Date/Time",
       "Category": "Categories"
     },
     "ChartLinkKind": {

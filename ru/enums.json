@@ -31,10 +31,11 @@
     }
   },
   "Common/HTTPClient/WSDLClientAuth": {
-    "WSDLAuthorizationMode": {
+    "WSDLAuthMode": {
       "$Caption": "Тип аутентификации",
       "Absent": "Не требуется",
       "NamePass": "Имя пользователя и пароль",
+      "Basic": "Basic",
       "OAuth": "Токен OAuth",
       "Cert": "Клиентский сертификат из хранилища",
       "FileCert": "Файлы сертификата клиента"
@@ -63,7 +64,8 @@
       "NoContextForInputMessage": "Не предоставлен контекст для формирования входящего сообщения сервиса",
       "UnsupportedSoapTransport": "Неподдерживаемый транспорт SOAP",
       "PrepareError": "Ошибка при подготовке данных запроса: %s",
-      "UnimplementedRequestType": "Запросы с расширениями типа %s на данный момент не поддерживаются"
+      "UnimplementedRequestType": "Запросы с расширениями типа %s на данный момент не поддерживаются",
+      "Timedout": "Время выполнения истекло"
     }
   },
   "Common/WSDL/WSDL": {
@@ -109,7 +111,8 @@
       "Cancelled": "Отменено пользователем",
       "DataSourceIsEmpty": "Входной источник данных не содержит ни одной записи",
       "InitError": "Ошибка при инициализации процедуры экспорта: %s",
-      "ExportError": "Ошибка при выполнении процедуры экспорта: %s"
+      "ExportError": "Ошибка при выполнении процедуры экспорта: %s",
+      "TimedOut": "Время выполнения истекло"
     },
     "XMLRequestErrorCode": {
       "$Caption": "Результат обработки запроса XML",
@@ -123,7 +126,8 @@
       "SaxParserError": "Ошибка при разборе XML-документа: %s",
       "MIMEParserError": "Ошибка при обработке ответа сервера: %s",
       "UnsupportedRequestType": "Неподдерживаемый тип запроса",
-      "BadRequestParam": "Некорректный параметр запроса"
+      "BadRequestParam": "Некорректный параметр запроса",
+      "TimedOut": "Время выполнения истекло"
     }
   },
   "Common/XML/SAX/XMLSAX_MSXML": {
@@ -508,16 +512,36 @@
       "Difference": "Разность"
     }
   },
+  "components/jointree": {
+    "JoinTreeOperationType": {
+      "$Caption": "Тип операции",
+      "InsertIntoContainer": "Включить узел в контейнер",
+      "InsertIntoArray": "Включить узел в массив"
+    },
+    "JoinTreeType": {
+      "$Caption": "Тип дерева данных",
+      "Main": "Главное дерево",
+      "Joined": "Присоединяемое дерево"
+    }
+  },
+  "components/jsontotree": {
+    "RootGeneration": {
+      "$Caption": "Корневой узел",
+      "Auto": "Автоопределение",
+      "Array": "Всегда массив",
+      "NotArray": "Всегда не массив"
+    }
+  },
   "components/linregression": {
     "LinRegressionMethod": {
       "$Caption": "Отбор факторов и защита от переобучения",
-      "Enter": "Enter - Принудительное включение",
-      "Forward": "Forward - Пошаговое включение",
-      "Backward": "Backward - Пошаговое исключение",
-      "Stepwise": "Stepwise - Пошаговое включение/исключение",
-      "L2": "Ridge - Гребневая регрессия",
-      "L1": "LASSO - Регрессия Лассо",
-      "L1L2": "Elastic-net - Регрессия \"эластичная сеть\""
+      "Enter": "Enter (Принудительное включение)",
+      "Forward": "Forward (Пошаговое включение)",
+      "Backward": "Backward (Пошаговое исключение)",
+      "Stepwise": "Stepwise (Пошаговое включение/исключение)",
+      "L2": "Ridge (Гребневая регрессия)",
+      "L1": "LASSO (Регрессия Лассо)",
+      "L1L2": "Elastic-net (Регрессия \"эластичная сеть\")"
     },
     "LinRegSelQuality": {
       "$Caption": "Критерий отбора факторов",
@@ -546,13 +570,13 @@
     },
     "LogRegressionMethod": {
       "$Caption": "Отбор факторов и защита от переобучения",
-      "Enter": "Enter - Принудительное включение",
-      "Forward": "Forward - Пошаговое включение",
-      "Backward": "Backward - Пошаговое исключение",
-      "Stepwise": "Stepwise - Пошаговое включение/исключение",
-      "L2": "Ridge - Гребневая регрессия",
-      "L1": "LASSO - Регрессия Лассо",
-      "L1L2": "Elastic-net - Регрессия \"эластичная сеть\""
+      "Enter": "Enter (Принудительное включение)",
+      "Forward": "Forward (Пошаговое включение)",
+      "Backward": "Backward (Пошаговое исключение)",
+      "Stepwise": "Stepwise (Пошаговое включение/исключение)",
+      "L2": "Ridge (Гребневая регрессия)",
+      "L1": "LASSO (Регрессия Лассо)",
+      "L1L2": "Elastic-net (Регрессия \"эластичная сеть\")"
     },
     "LogRegSelQuality": {
       "$Caption": "Критерий отбора факторов",
@@ -622,7 +646,8 @@
       "LinearInterp": "Линейная интерполяция",
       "CubicInterp": "Кубическая интерполяция",
       "SplineInterp": "Сплайн-интерполяция",
-      "ZeroValue": "Заменять на 0"
+      "ZeroValue": "Заменять на 0",
+      "PreviosValue": "Заменять предыдущим значением"
     },
     "ActionOut": {
       "$Caption": "Метод обработки выбросов",
@@ -752,6 +777,13 @@
       "DecimalPlaces": "Округлять до заданной точности"
     }
   },
+  "components/uniontree": {
+    "UnionTreeOperationType": {
+      "$Caption": "Тип операции",
+      "ConcatAllActive": "Конкатенация всех деревьев",
+      "SelectFirstActive": "Выбор первого активного дерева"
+    }
+  },
   "components/variablestodata": {
     "VariablesToDataResultTableKind": {
       "$Caption": "Вид преобразования переменных в таблицу",
@@ -760,6 +792,12 @@
     }
   },
   "exports/database": {
+    "DBExportFastLoaderUsage": {
+      "$Caption": "Использовать быстрый загрузчик",
+      "No": "Нет",
+      "Yes": "Да",
+      "Auto": "Авто"
+    },
     "DBExportType": {
       "$Caption": "Режим экспорта",
       "Append": "Дополнить таблицу данными",
@@ -897,6 +935,12 @@
     }
   },
   "Libraries/bgdbrtl/DB": {
+    "CertCheckMode": {
+      "$Caption": "Проверка сертификата сервера",
+      "NoCheck": "Отключена",
+      "CA": "Только подпись",
+      "Identity": "Полная"
+    },
     "DBServerType": {
       "$Caption": "Тип базы данных",
       "Other": "Неизвестный",
@@ -916,15 +960,6 @@
       "DoubleQuotes": "Двойные кавычки \"\"",
       "Apostrophes": "Апострофы ``"
     },
-    "SSLMode": {
-      "$Caption": "Использование SSL",
-      "Disabled": "Отключено",
-      "Allow": "Разрешено",
-      "Prefer": "Предпочтительно",
-      "Require": "Обязательно",
-      "VerifyCA": "Обязательно (с проверкой ЦС)",
-      "VerifyIdentity": "Обязательно (с проверкой сервера)"
-    },
     "TransactionIsolationLevel": {
       "$Caption": "Уровень изолированности транзакций",
       "ReadUnCommitted": "Read uncommitted",
@@ -939,6 +974,16 @@
       "$Caption": "Механизм аутентификации",
       "ServiceAcc": "Сервисная аутентификация",
       "UserAcc": "Пользовательская аутентификация"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
+    "MsSQLClient": {
+      "$Caption": "Клиент",
+      "Auto": "Автоматически",
+      "NativeClient": "SQL Server Native Client",
+      "MSOLEDB": "Microsoft OLE DB Driver for SQL Server",
+      "AutoModern": "Автоматически (современные)",
+      "Direct": "Без клиента"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
@@ -1324,6 +1369,12 @@
     }
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
+    "AutoDetectColumnsMode": {
+      "$Caption": "Автоопределение столбцов",
+      "None": "Нет",
+      "New": "Только новые",
+      "All": "Все"
+    },
     "FileInfoColumnsType": {
       "$Caption": "Информация о файле",
       "None": "Нет",
@@ -1499,7 +1550,13 @@
       "UseGlobalFileStorage": "Использование глобального файлового хранилища",
       "AllowPublish": "Разрешить публикацию пакетов",
       "SchedulerFullAccess": "Доступ ко всем задачам в планировщике",
+      "AllowPasswordSave": "Разрешить сохранять пароль к БД",
       "RunMode": "Пакетное выполнение"
+    },
+    "OpenIDResponseMode": {
+      "$Caption": "Формат ответа",
+      "Query": "Параметры в query",
+      "Fragment": "Параметры в fragment"
     },
     "OpenIDUserRole": {
       "$Caption": "Роль нового пользователя",
@@ -1555,6 +1612,22 @@
       "Grid": "Автоматически"
     }
   },
+  "Libraries/RESTClientConnection/RESTClientConnection": {
+    "ParamURLType": {
+      "$Caption": "Тип URL параметров",
+      "QueryString": "Строка запроса",
+      "AddSegments": "Добавление сегментов",
+      "Replacement": "Замена"
+    }
+  },
+  "Studio/DeductorServerSettings": {
+    "MultiSessionRestriction": {
+      "$Caption": "Ограничение мультисессионности",
+      "None": "Нет",
+      "LoginForbid": "Запрет входа",
+      "SessionInterrupt": "Закрыть текущие сессии"
+    }
+  },
   "Studio/DeductorSessionsManager": {
     "ManagedSessionType": {
       "$Caption": "Тип сессии диспетчера",
@@ -1580,7 +1653,19 @@
       "None": "Нет",
       "Local": "Локальная",
       "LDAP": "LDAP",
-      "OpenID": "OpenID"
+      "OpenID": "OpenID",
+      "Peer": "Peer"
+    }
+  },
+  "Studio/PasswordPolicy": {
+    "PolicyPreset": {
+      "$Caption": "Профиль политики",
+      "None": "Нет",
+      "Simple": "Простой",
+      "Standard": "Стандартный",
+      "Strong": "Сильный",
+      "Complete": "Полный",
+      "Custom": "Пользовательский"
     }
   },
   "Viewers/Browse/BrowseViewSearch": {

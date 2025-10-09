@@ -13,7 +13,7 @@
     "OptionNodeNameDesc": "Name or GUID of node",
     "OptionPackageFileNameDesc": "Package path and file name (a required parameter)",
     "OptionPasswordDesc": "Password",
-    "OptionPortDesc": "Port (default: %s)",
+    "OptionPortDesc.NOTE": "Старый исходник:\nПорт (по умолчанию: %s)\n\nСтарый перевод:\nPort (default: %s)",
     "OptionSavePackageDesc": "Save package after execution",
     "OptionTeachDesc": "Retraining mode",
     "OptionUserNameDesc": "Username",

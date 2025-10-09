@@ -1,7 +1,7 @@
 {
   "about/About": {
     "btnBugReport": {
-      "href": "https:\/\/loginom.com\/company\/feedback?type=2",
+      "href": "https://loginom.com/company/feedback?type=2",
       "text": "Report a problem"
     },
     "btnLicenseAgreement": {
@@ -14,7 +14,7 @@
       "text": "Open Source Software"
     },
     "btnWhatsNew": {
-      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
+      "href": "https://loginom.com/tags/release-notes/",
       "text": "What's new?"
     },
     "frmAbout": {
@@ -45,50 +45,31 @@
       "text": "Copy information"
     }
   },
-  "admin/ClaimsToVariablesForm": {
-    "btnAdd": {
-      "tooltip": "Add claim"
+  "admin/LDAPTestForm": {
+    "btnSearch": {
+      "text": "Find"
     },
-    "btnApply": {
-      "text": "Apply"
+    "txtUserName": {
+      "fieldLabel": "User"
+    }
+  },
+  "admin/OpenIDTestForm": {
+    "txtFolders": {
+      "fieldLabel.NOTE": "Имеющиеся переводы:\nShared folders\nShared Folders"
     },
-    "btnCancel": {
-      "text": "Cancel"
+    "txtRoles": {
+      "fieldLabel": "List of roles"
     },
-    "btnDelete": {
-      "tooltip": "Delete selected"
-    },
-    "btnDeleteAll": {
-      "tooltip": "Delete all..."
-    },
-    "btnEdit": {
-      "tooltip": "Edit claim"
-    },
-    "btnMoveDown": {
-      "tooltip": "Move down"
-    },
-    "btnMoveUp": {
-      "tooltip": "Move up"
-    },
-    "colClaim": {
-      "text": "Claims"
-    },
-    "colDelete": {
-      "tooltip": "Delete all"
-    },
-    "colDelete.0": {
-      "tooltip": "Delete"
-    },
-    "frmClaimsToVariablesForm": {
-      "title": "List of Variables Obtained from Token"
+    "txtUserName": {
+      "fieldLabel": "Username"
     }
   },
   "admin/RoleMapingForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "colName": {
       "text": "Role or Right in Application"
@@ -129,7 +110,7 @@
       "tooltip": "Close session or package"
     },
     "btnMaintenance": {
-      "tooltip": "Enter\/Leave server maintenance mode..."
+      "tooltip": "Enter/Leave server maintenance mode..."
     },
     "btnRefresh": {
       "text": "Refresh",
@@ -218,10 +199,10 @@
   },
   "admin/SharedDirectoryForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "colDisplayName": {
       "text": "Full Name"
@@ -242,12 +223,47 @@
       "title": "Access Rights"
     }
   },
-  "admin/UserForm": {
-    "btnApply": {
-      "text": "Apply"
+  "admin/StringListEditorForm": {
+    "btnAdd": {
+      "tooltip": "Add"
     },
     "btnCancel": {
       "text": "Cancel"
+    },
+    "btnDelete": {
+      "tooltip": "Delete selected"
+    },
+    "btnDeleteAll": {
+      "tooltip": "Delete all..."
+    },
+    "btnEdit": {
+      "tooltip": "Edit"
+    },
+    "btnMoveDown": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove down\nMove Down"
+    },
+    "btnMoveUp": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove up\nMove Up"
+    },
+    "colDelete": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nDelete all\nDelete All"
+    },
+    "colDelete.0": {
+      "tooltip": "Delete"
+    },
+    "colValue": {
+      "text": "Values"
+    },
+    "frmStringListEditorForm": {
+      "title": "List"
+    }
+  },
+  "admin/UserForm": {
+    "btnApply": {
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
+    },
+    "btnCancel": {
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxAuthMode": {
       "fieldLabel": "Authentication"
@@ -297,7 +313,7 @@
       "text": "Add"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "colPackage": {
       "text": "Package"
@@ -352,7 +368,7 @@
   },
   "app/ConfigureBatchProcModesForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -384,7 +400,7 @@
   },
   "app/ConfigureDerivedVendorForm": {
     "btnApply": {
-      "text": "Save"
+      "text.NOTE": "Старый исходник:\nСохранить\n\nСтарый перевод:\nSave"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -394,6 +410,9 @@
     },
     "chbAllowExecNode": {
       "boxLabel": "Node Execution and Loop"
+    },
+    "edtGUID": {
+      "fieldLabel": "GUID"
     },
     "fldDisplayName": {
       "fieldLabel": "Caption"
@@ -445,25 +464,22 @@
   },
   "app/FindNodeForm": {
     "btnApply": {
-      "text": "Go to Node"
+      "text.NOTE": "Старый исходник:\nПерейти к узлу\n\nСтарый перевод:\nGo to Node"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "edtGUID": {
-      "emptyText": "{________-____-____-____-____________}"
+      "emptyText.NOTE": "Старый исходник:\n{________-____-____-____-____________}\n\nСтарый перевод:\n{________-____-____-____-____________}"
+    },
+    "edtLabel": {
+      "emptyText.NOTE": "Имеющиеся переводы:\nSearch\nFind"
+    },
+    "edtName": {
+      "emptyText.NOTE": "Имеющиеся переводы:\nSearch\nFind"
     },
     "frmFindNodeForm": {
-      "title": "Find Workflow Node"
-    },
-    "rbByGUID": {
-      "boxLabel": "By GUID"
-    },
-    "rbByLabel": {
-      "boxLabel": "By caption"
-    },
-    "rbByName": {
-      "boxLabel": "By name"
+      "title.NOTE": "Старый исходник:\nНайти узел сценария\n\nСтарый перевод:\nFind Workflow Node"
     }
   },
   "app/LicenseItem": {
@@ -495,7 +511,7 @@
       "tooltip": "Set up..."
     },
     "btnShowDescription": {
-      "tooltip": "Show\/hide property inspector"
+      "tooltip": "Show/hide property inspector"
     },
     "btnTable": {
       "tooltip": "Table"
@@ -606,10 +622,10 @@
       "tooltip": "Expand"
     },
     "btnExpandToNodes": {
-      "tooltip": "Expand\/collapse to nodes"
+      "tooltip": "Expand/collapse to nodes"
     },
     "btnFindNode": {
-      "tooltip": "Find node..."
+      "tooltip.NOTE": "Старый исходник:\nНайти узел...\n\nСтарый перевод:\nFind node..."
     },
     "btnPublishPackage": {
       "tooltip": "Publish..."
@@ -618,7 +634,7 @@
       "tooltip": "Delete node..."
     },
     "btnSetNodeActive": {
-      "tooltip": "Run\/deactivate node"
+      "tooltip": "Run/deactivate node"
     },
     "btnShow": {
       "tooltip": "Open"
@@ -653,7 +669,7 @@
       "tooltip": "Clone node"
     },
     "btnComposeExpandGenericModel": {
-      "tooltip": "Collapse nodes to supernode \/ Expand supernode"
+      "tooltip": "Collapse nodes to supernode / Expand supernode"
     },
     "btnCopy": {
       "tooltip": "Copy"
@@ -715,7 +731,7 @@
       "tooltip": "Show source nodes for Reference Nodes"
     },
     "btnShowVendors": {
-      "tooltip": "Show\/hide component panel"
+      "tooltip": "Show/hide component panel"
     },
     "btnSocketItemCountToggle": {
       "tooltip": "Show count in output ports"
@@ -793,7 +809,7 @@
       "tooltip": "Run node"
     },
     "btnTogglePropInspector": {
-      "tooltip": "Show\/hide property inspector"
+      "tooltip": "Show/hide property inspector"
     },
     "btnWorkFlow": {
       "tooltip": "Show as workflow"
@@ -885,19 +901,19 @@
   },
   "app/PackageForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxLocale": {
       "fieldLabel": "Locale"
     },
     "chbBinaryCmpUniqValues": {
-      "boxLabel": "Binary comparison of unique string values"
+      "fieldLabel": "Binary comparison of unique string values"
     },
     "chbUseBasePackageFileStorage": {
-      "boxLabel": "Use relative paths of base package"
+      "fieldLabel": "Use relative paths of base package"
     },
     "edtName": {
       "fieldLabel": "Name"
@@ -911,10 +927,10 @@
   },
   "app/PackageLinkForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "edtName": {
       "fieldLabel": "Name"
@@ -931,10 +947,10 @@
   },
   "app/PackagesAutoSavePanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "chbEnableAutoSave": {
       "boxLabel": " ",
@@ -1047,6 +1063,9 @@
     "btnClone": {
       "tooltip": "Clone..."
     },
+    "btnCopy": {
+      "tooltip": "Copy"
+    },
     "btnDelete": {
       "tooltip": "Delete"
     },
@@ -1061,6 +1080,9 @@
     },
     "btnMoveUp": {
       "tooltip": "Move up"
+    },
+    "btnPaste": {
+      "tooltip": "Paste"
     },
     "btnRestoreSettings": {
       "tooltip": "Undo all changes"
@@ -1106,14 +1128,11 @@
   "app/PreviewWindow": {
     "btnDown": {
       "tooltip": "Dock to the bottom"
-    },
-    "btnHide": {
-      "tooltip": "Hide"
     }
   },
   "app/PublishedPackagesAddForm": {
     "btnClose": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnPublish": {
       "text": "Publish"
@@ -1171,7 +1190,7 @@
       "text": "Change date"
     },
     "colLabel": {
-      "text": "Path \/ Caption"
+      "text": "Path / Caption"
     },
     "colName": {
       "text": "Name"
@@ -1221,6 +1240,29 @@
       "text": "Stop session"
     }
   },
+  "app/scheduler/DestVariablesSelector": {
+    "btnDeselectAll": {
+      "tooltip": "Uncheck all"
+    },
+    "btnInvertSelected": {
+      "tooltip": "Invert selection"
+    },
+    "btnRefresh": {
+      "text": "Refresh list"
+    },
+    "btnSelectAll": {
+      "tooltip": "Check all"
+    },
+    "colDisplayName": {
+      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+    },
+    "colName": {
+      "text": "Name"
+    },
+    "colValue": {
+      "text": "Value"
+    }
+  },
   "app/scheduler/GridNodeSelector": {
     "colDisplayName": {
       "text": "Caption"
@@ -1238,13 +1280,24 @@
     }
   },
   "app/scheduler/JobEditor": {
+    "btnAddStartAfterJobTrigger": {
+      "text": "Add",
+      "tooltip": "Add"
+    },
     "btnAddVariable": {
+      "text": "Add",
       "tooltip": "Add..."
     },
     "btnDelete": {
       "tooltip": "Delete selected"
     },
+    "btnDeleteStartAfterJobTrigger": {
+      "tooltip": "Delete selected"
+    },
     "btnDeselectAllDays": {
+      "text": "Cancel Selection"
+    },
+    "btnDeselectAllDaysOfWeek": {
       "text": "Cancel Selection"
     },
     "btnDeselectAllMonths": {
@@ -1256,6 +1309,12 @@
     "btnLastDayOfMonth": {
       "text": "Last day"
     },
+    "btnMoveStartAfterJobItemDown": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove down\nMove Down"
+    },
+    "btnMoveStartAfterJobItemUp": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove up\nMove Up"
+    },
     "btnMoveVariableDown": {
       "tooltip": "Move down"
     },
@@ -1263,6 +1322,9 @@
       "tooltip": "Move up"
     },
     "btnSelectAllDays": {
+      "text": "Check all"
+    },
+    "btnSelectAllDaysOfWeek": {
       "text": "Check all"
     },
     "btnSelectAllMonths": {
@@ -1289,11 +1351,29 @@
     },
     "chkStartIfMissedSchedule": {
       "boxLabel": " ",
-      "fieldLabel": "Start immediately if the start was skipped"
+      "fieldLabel.NOTE": "Старый исходник:\nЗапустить сразу если пропущен запуск\n\nСтарый перевод:\nStart immediately if the start was skipped"
+    },
+    "chkStartOnServerStartup": {
+      "boxLabel": " "
+    },
+    "chkStopTimeout": {
+      "boxLabel": " "
     },
     "chkTeach": {
       "boxLabel": " ",
       "fieldLabel": "Retrain models upon the start"
+    },
+    "colAfterJobCaption": {
+      "text": "Job Caption"
+    },
+    "colAfterJobPackageFileName": {
+      "text": "Package"
+    },
+    "colDeleteAfterJobTrigger": {
+      "tooltip": "Delete all..."
+    },
+    "colDeleteAfterJobTrigger.0": {
+      "tooltip": "Delete"
     },
     "colDeleteVariable": {
       "tooltip": "Delete all..."
@@ -1330,11 +1410,17 @@
     "edtStartTime": {
       "fieldLabel": "Start"
     },
+    "edtTimeFilterEnd": {
+      "fieldLabel": "to"
+    },
+    "pnlDaysOfMonth": {
+      "title": "Days of the month"
+    },
     "pnlMainSetting": {
       "title": "Main"
     },
     "pnlMonth": {
-      "fieldLabel": "Months"
+      "title": "Months"
     },
     "pnlSchedule": {
       "title": "Schedule"
@@ -1342,11 +1428,14 @@
     "pnlSetting": {
       "title": "Start Parameters"
     },
-    "rbMonth": {
-      "boxLabel": "Days of the month"
+    "pnlTime": {
+      "title": "Time"
     },
-    "rbWeek": {
-      "boxLabel": "Days of the week"
+    "pnlVariables": {
+      "title": "Variables"
+    },
+    "pnlWeek": {
+      "title": "Days of the week"
     }
   },
   "app/scheduler/JobVariableEditor": {
@@ -1490,7 +1579,7 @@
   },
   "app/SelectBaseVendorForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -1504,10 +1593,10 @@
   },
   "app/SelectVisibilityForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "edtGUID": {
       "fieldLabel": "GUID"
@@ -1542,10 +1631,10 @@
       "tooltip": "Copy"
     },
     "txtAbsoluteUrl": {
-      "fieldLabel": "Absolute <i>(for shared use)<\/i>"
+      "fieldLabel": "Absolute <i>(for shared use)</i>"
     },
     "txtRelativeUrl": {
-      "fieldLabel": "Relative <i>(for personal use)<\/i>"
+      "fieldLabel": "Relative <i>(for personal use)</i>"
     }
   },
   "components/assnrules/AssnRulesWizard": {
@@ -1875,10 +1964,10 @@
   },
   "components/calcdata/ExprEditForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxDataType": {
       "fieldLabel": "Data type"
@@ -2029,9 +2118,6 @@
     },
     "colUniqueValues": {
       "text": "Unique values"
-    },
-    "colValueNumberer": {
-      "text": "No"
     }
   },
   "components/coarseclasses/CoarseClassesViewer": {
@@ -2051,10 +2137,10 @@
       "tooltip": "Merge with next"
     },
     "btnModifyCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnModifyCancelFineClassesChart": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnModifyOk": {
       "text": "Apply"
@@ -2328,10 +2414,10 @@
   },
   "components/crosstab/ColumnEditDialog": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbNullGroup": {
       "boxLabel": "Null"
@@ -2439,6 +2525,9 @@
     "mniDeleteTreeLink": {
       "text": "Delete link"
     },
+    "mniLoadByXSD": {
+      "text": "Load from XSD..."
+    },
     "txtFieldsFilter": {
       "emptyText": "Filter"
     },
@@ -2480,7 +2569,7 @@
       "text": "Time frames"
     },
     "frmDateReform": {
-      "title": "Reform Date\/Time"
+      "title": "Reform Date/Time"
     }
   },
   "components/elimoutlier/ElimOutlierWizard": {
@@ -2559,53 +2648,7 @@
       "title": "Factor Analysis"
     }
   },
-  "components/filterdata/FilterColumnItem": {
-    "btnApplyItemSettings": {
-      "text": "Apply"
-    },
-    "btnCancelEdit": {
-      "text": "Cancel"
-    },
-    "btnConcatenation": {
-      "text": "OR"
-    },
-    "cbbDatePeriodTypeSimple": {
-      "fieldLabel": "Time span unit"
-    },
-    "cbbField": {
-      "fieldLabel": "Field"
-    },
-    "cbbRelationType": {
-      "fieldLabel": "Relation"
-    },
-    "chkCaseSensitiveSimple": {
-      "boxLabel": " ",
-      "fieldLabel": "Case-sensitive"
-    },
-    "dtCompareValuePeriodBaseDateSimple": {
-      "fieldLabel": "Base interval date"
-    },
-    "edtCompareValueSimple": {
-      "fieldLabel": "Compare value"
-    },
-    "edtDateSpanSimple": {
-      "fieldLabel": "Time span value"
-    },
-    "edtLowerBoundSimple": {
-      "fieldLabel": "Lower bound"
-    },
-    "edtUpperBoundSimple": {
-      "fieldLabel": "Upper bound"
-    },
-    "mniCopy": {
-      "text": "Copy"
-    },
-    "mniCut": {
-      "text": "Cut"
-    },
-    "mniPaste": {
-      "text": "Paste"
-    },
+  "components/filterdata/DateValuesEditor": {
     "pnlBaseDate": {
       "title": "Reference date"
     },
@@ -2617,14 +2660,44 @@
     },
     "rbData": {
       "boxLabel": "From dataset"
-    },
-    "tagValueList": {
-      "fieldLabel": "List"
     }
   },
-  "components/filterdata/FilterDataCollection": {
-    "btnDeleteAllFilters": {
-      "text": "Delete All Filtering Criteria"
+  "components/filterdata/FilterDataPanel": {
+    "btnClone": {
+      "tooltip": "Clone"
+    },
+    "btnMoveDown": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove down\nMove Down"
+    },
+    "btnMoveUp": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove up\nMove Up"
+    },
+    "btnPreview": {
+      "text": "Preview"
+    },
+    "colCaseSensitive": {
+      "text": "Case-sensitive"
+    },
+    "colDelete": {
+      "tooltip": "Delete all..."
+    },
+    "colDelete.0": {
+      "tooltip": "Delete"
+    },
+    "colField": {
+      "text": "Field"
+    },
+    "colRelationType": {
+      "text.NOTE": "Имеющиеся переводы:\nCondition\nAntecedent\nRelation"
+    },
+    "colValue": {
+      "text": "Value"
+    },
+    "mniDelete": {
+      "text": "Delete"
+    },
+    "mniDeleteAll": {
+      "text": "Delete all..."
     }
   },
   "components/filterdata/FilterDataWizard": {
@@ -2636,6 +2709,37 @@
     },
     "frmFilterDataWizard": {
       "title": "Data Filter"
+    }
+  },
+  "components/filterdata/FilterPreviewForm": {
+    "frmFilterPreviewForm": {
+      "title": "Preview"
+    }
+  },
+  "components/filterdata/ValueListEditor": {
+    "btnAdd": {
+      "tooltip": "Add..."
+    },
+    "btnCheckAll": {
+      "tooltip": "Check all"
+    },
+    "btnEdit": {
+      "tooltip": "Edit..."
+    },
+    "btnGetValueList": {
+      "tooltip": "Get list"
+    },
+    "btnReverseCheck": {
+      "tooltip": "Invert selection"
+    },
+    "btnUncheckAll": {
+      "tooltip": "Uncheck all"
+    },
+    "colValue": {
+      "text": "Value"
+    },
+    "txtFilterValue": {
+      "emptyText": "Filter"
     }
   },
   "components/forecast/ForecastWizard": {
@@ -2651,10 +2755,10 @@
   },
   "components/groupdata/FactorEditDialog": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnDeselectAll": {
       "text": "Uncheck all"
@@ -2675,11 +2779,66 @@
     "btnStopLoading": {
       "text": "Stop"
     },
+    "colRowNo": {
+      "tooltip": "Row number"
+    },
     "frmCodeOutputPreviewForm": {
       "title": "Preview"
+    }
+  },
+  "components/jointree/JoinTreeWizard": {
+    "colJoinedTree": {
+      "text": "Node"
     },
-    "grdConsole": {
-      "title": "Console"
+    "colJoinedTreeName": {
+      "text": "Name"
+    },
+    "colMainTreeNodeName": {
+      "text": "Name"
+    }
+  },
+  "components/jsontotree/JSONToTreeWizard": {
+    "btnAddChild": {
+      "tooltip": "Add child node"
+    },
+    "btnAddSibling": {
+      "tooltip": "Add neighboring node"
+    },
+    "btnBuildTreeTemplate": {
+      "tooltip": "Autodetect the structure"
+    },
+    "btnEdit": {
+      "tooltip": "Edit..."
+    },
+    "btnGenerateSubNodes": {
+      "tooltip": "Generate child elements"
+    },
+    "btnLoadByXSD": {
+      "tooltip": "Load from XSD..."
+    },
+    "btnMoveDown": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove down\nMove Down"
+    },
+    "btnMoveUp": {
+      "tooltip.NOTE": "Имеющиеся переводы:\nMove up\nMove Up"
+    },
+    "btnNextExpandable": {
+      "tooltip": "Next recursive unexpanded node"
+    },
+    "colDataKind": {
+      "text.NOTE": "Имеющиеся переводы:\nData Kind\nData kind"
+    },
+    "colDelete": {
+      "tooltip": "Delete all..."
+    },
+    "colDelete.0": {
+      "tooltip": "Delete"
+    },
+    "mniLoadByXSD": {
+      "text": "Load from XSD..."
+    },
+    "txtTreeFilter": {
+      "emptyText": "Filter"
     }
   },
   "components/loop/LoopParamsWizard": {
@@ -2747,6 +2906,9 @@
   "components/python/PythonOutputPreviewForm": {
     "btnStopLoading": {
       "text": "Stop"
+    },
+    "colRowNo": {
+      "tooltip": "Row number"
     },
     "frmCodeOutputPreviewForm": {
       "title": "Preview"
@@ -2841,7 +3003,7 @@
       "text": "Logical"
     },
     "itmTypeChangeDTime": {
-      "text": "Date\/Time"
+      "text": "Date/Time"
     },
     "itmTypeChangeFloat": {
       "text": "Real"
@@ -2854,14 +3016,17 @@
     }
   },
   "components/restclient/AdditionalParamsWizard": {
-    "cntAdditional": {
-      "title": "Additional"
-    },
     "cntDebug": {
       "title": "Debug"
     },
     "frmAdditionalParams": {
       "title": "Additional Parameters"
+    },
+    "pedFailedRequestRepeat.valueConfig": {
+      "emptyText.NOTE": "Имеющиеся переводы:\nOff\nDisable"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
     }
   },
   "components/restclient/MessageBody": {
@@ -2882,7 +3047,7 @@
       "text": "Field"
     },
     "colParam": {
-      "text": "Request Parameters"
+      "text.NOTE": "Старый исходник:\nПараметры запроса\n\nСтарый перевод:\nRequest Parameters"
     },
     "mniFieldAutoLink": {
       "text": "Auto Link"
@@ -3021,6 +3186,65 @@
       "title": "Sort"
     }
   },
+  "components/sqlscript/SQLScriptQueryWizard": {
+    "btnConnect": {
+      "text": "Connect"
+    },
+    "cntConnection": {
+      "fieldLabel": "Connection"
+    },
+    "colDisplayText": {
+      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+    },
+    "colFieldDisplayText": {
+      "text.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+    },
+    "colFieldName": {
+      "text": "Name"
+    },
+    "colValue": {
+      "text": "Value"
+    },
+    "colVariableName": {
+      "text": "Name"
+    },
+    "grdFields": {
+      "title": "Fields"
+    },
+    "grdVariables": {
+      "title": "Variables"
+    },
+    "lblFields": {
+      "text": "Fields"
+    },
+    "lblNoDBConnection": {
+      "text": "No connection to database"
+    },
+    "lblObjectsTree": {
+      "text": "Tables/views"
+    },
+    "lblVariables": {
+      "text": "Variables"
+    },
+    "mniInsertFullName": {
+      "text": "Insert full name into SQL code editor"
+    },
+    "mniParameter": {
+      "text": ":VAR"
+    },
+    "mniSelect": {
+      "text": "Insert name into SQL code editor"
+    },
+    "mniSubstitution": {
+      "text": "%VAR%"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
+    },
+    "tabVariables": {
+      "title": "Variables"
+    }
+  },
   "components/treetodata/TreeToDataWizard": {
     "btnDeselectAll": {
       "tooltip": "Deselect all"
@@ -3069,6 +3293,9 @@
     "frmUngroupDataWizard": {
       "title": "Configure Ungrouping"
     },
+    "mniShowInvalidRelations": {
+      "text.NOTE": "Имеющиеся переводы:\nShow Lost Links\nShow lost links"
+    },
     "txtSupportColumn": {
       "fieldLabel": "Ordinal field in reference data"
     },
@@ -3091,9 +3318,14 @@
       "text": "Delete all links"
     }
   },
+  "components/uniontree/UnionTreeWizard": {
+    "cntOperationType": {
+      "title.NOTE": "Имеющиеся переводы:\nOperation Type\nOperation type"
+    }
+  },
   "components/variablestodata/VariablesToDataWizard": {
     "cntVarToData": {
-      "title": "Record Variables:"
+      "title.NOTE": "Старый исходник:\nЗаписать переменные:\n\nСтарый перевод:\nRecord Variables:"
     },
     "frmVarToData": {
       "title": "Variables to Table"
@@ -3114,6 +3346,9 @@
     },
     "frmAdditionalParams": {
       "title": "Additional Parameters"
+    },
+    "pedTimeout.valueConfig": {
+      "emptyText": "∞"
     },
     "rbComplex": {
       "boxLabel": "Request identifier - input dataset field:"
@@ -3259,7 +3494,7 @@
   },
   "connections/onec8/OneC8ConnectionStringForm": {
     "btnApply": {
-      "text": "Save"
+      "text.NOTE": "Старый исходник:\nСохранить\n\nСтарый перевод:\nSave"
     },
     "btnCancel": {
       "text": "Close"
@@ -3310,9 +3545,6 @@
     "btnURLTest": {
       "text": "Test"
     },
-    "cntAuth": {
-      "title": "Authentication to Execute Request"
-    },
     "colDataType": {
       "text": "Data type"
     },
@@ -3325,20 +3557,14 @@
     "colName": {
       "text": "Name"
     },
-    "frmConnection": {
-      "title": "Connection Parameters"
-    },
-    "grdParams": {
-      "title": "Request Parameters"
-    },
     "pedRequestContentType.valueConfig": {
       "regexText": "Invalid Content-Type value format"
     },
     "pedResponseContentType.valueConfig": {
       "regexText": "Invalid Content-Type value format"
     },
-    "pedURL.valueConfig": {
-      "emptyText": "http:\/\/example.com\/operation-path"
+    "txtAuth": {
+      "fieldLabel.NOTE": "Имеющиеся переводы:\nAuthentication to execute request\nAuthentication to Execute Request"
     }
   },
   "connections/tableaurest/TableauRestConnectionParams": {
@@ -3346,7 +3572,7 @@
       "text": "Test"
     }
   },
-  "connections/webservice/AuthorizationForm": {
+  "connections/webservice/AuthenticationForm": {
     "cbxStore": {
       "fieldLabel": "Certificate store"
     },
@@ -3360,7 +3586,7 @@
       "text": "Serial number"
     },
     "colStart": {
-      "text": "Validity start date"
+      "text.NOTE": "Имеющиеся переводы:\nStart date\nValidity start date"
     },
     "colSubject": {
       "text": "Issued to"
@@ -3369,9 +3595,9 @@
       "text": "Name"
     }
   },
-  "connections/webservice/AuthorizationWizard": {
-    "frmAuthorization": {
-      "title": "Authentication to Execute Request"
+  "connections/webservice/AuthModalWindow": {
+    "btnCancel": {
+      "text": "Cancel"
     }
   },
   "connections/webservice/ConnectionWizard": {
@@ -3381,11 +3607,11 @@
     "btnSourceTest": {
       "text": "Test"
     },
-    "cntAuthorization": {
-      "title": "Authentication to Get WSDL File"
+    "txtAuth": {
+      "fieldLabel": "Authentication Type"
     },
-    "frmConnection": {
-      "title": "Connection Parameters"
+    "txtWSDLAuth": {
+      "fieldLabel.NOTE": "Имеющиеся переводы:\nAuthentication to get WSDL file\nAuthentication to Get WSDL File"
     }
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
@@ -3418,8 +3644,14 @@
     "colRemoveFile.0": {
       "tooltip": "Delete"
     },
+    "edtDisplayName": {
+      "fieldLabel.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
+    },
     "frmXSDFilesConnection": {
       "title": "Configure XSD Schema Set"
+    },
+    "txtDesc": {
+      "fieldLabel": "Comment"
     }
   },
   "exports/dbexport/DBCreateTableDialog": {
@@ -3431,17 +3663,24 @@
       "text": "Create Table"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnDefaults": {
       "text": "Restore",
-      "tooltip": "Restore default field list"
+      "tooltip.NOTE": "Старый исходник:\nВосстановить список полей по умолчанию\n\nСтарый перевод:\nRestore default field list"
+    },
+    "btnEdit": {
+      "text": "Edit",
+      "tooltip": "Edit..."
     },
     "btnMoveDown": {
       "tooltip": "Move down"
     },
     "btnMoveUp": {
       "tooltip": "Move up"
+    },
+    "cbxTableName": {
+      "fieldLabel": "Table name"
     },
     "colDelete": {
       "tooltip": "Delete all"
@@ -3458,17 +3697,31 @@
     "colType": {
       "text": "Field type"
     },
-    "fldTableName": {
-      "fieldLabel": "Table name"
-    },
     "frmDBCreateTableDialog": {
-      "title": "Create New Table"
+      "title.NOTE": "Старый исходник:\nСоздание новой таблицы\n\nСтарый перевод:\nCreate New Table"
     },
     "tabFields": {
       "title": "Table Fields"
     },
     "tabSql": {
       "title": "SQL Query"
+    }
+  },
+  "exports/dbexport/DBEditFieldDefsForm": {
+    "btnApply": {
+      "text": "Apply"
+    },
+    "btnCancel": {
+      "text": "Cancel"
+    },
+    "cbxDataType": {
+      "fieldLabel.NOTE": "Имеющиеся переводы:\nData Type\nData type"
+    },
+    "edtName": {
+      "fieldLabel": "Field name"
+    },
+    "edtSize": {
+      "fieldLabel": "Size"
     }
   },
   "exports/dbexport/DBExportParamsWizard": {
@@ -3499,7 +3752,7 @@
       "boxLabel": "Add values of dimensions<br><br> automatically. Add missing dimension values to the data warehouse on data loading into the process automatically."
     },
     "ckbDisableConstraint": {
-      "boxLabel": "Disable\/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
+      "boxLabel": "Disable/enable indexes<br><br> and constraints before data loading into warehouse, and restore them after loading."
     },
     "ckbRebuildCube": {
       "boxLabel": "Update cubes<br><br>After data loading, rebuild all cubes with enabled \"Dynamic update\" option and inherited from the loaded process."
@@ -3619,7 +3872,7 @@
       "text": "Create Table"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnDefaults": {
       "text": "Restore",
@@ -3717,15 +3970,15 @@
       "text": "Cancel"
     },
     "buttonOk": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     }
   },
   "ext/ModalWindow": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     }
   },
   "filedialog/OpenDialogForm": {
@@ -3900,10 +4153,10 @@
   },
   "filtersview/FilterItem": {
     "btnApplyItemSettings": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancelEdit": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnConcatenation": {
       "text": "OR"
@@ -3946,7 +4199,7 @@
       "text": "License Agreement"
     },
     "btnPersonalOffer": {
-      "href": "https:\/\/loginom.com\/platform\/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
+      "href": "https://loginom.com/platform/personal?utm_source=ce&utm_medium=banner&utm_campaign=personal",
       "text": "More"
     },
     "lblCommunityBannerText": {
@@ -3967,56 +4220,56 @@
       "text": "New Draft"
     },
     "btnExamples": {
-      "href": "https:\/\/examples.loginom.com\/",
+      "href": "https://examples.loginom.com/",
       "text": "Examples"
     },
     "btnFacebook": {
-      "href": "https:\/\/facebook.com\/lg.platform\/"
+      "href": "https://facebook.com/lg.platform/"
     },
     "btnFastStart": {
-      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
+      "href": "https://loginom.com/platform/quick-start/",
       "text": "Quick Start"
     },
     "btnInstagram": {
-      "href": "https:\/\/instagram.com\/loginom_company\/"
+      "href": "https://instagram.com/loginom_company/"
     },
     "btnIntro": {
-      "href": "https:\/\/loginom.com\/welcome-video\/",
+      "href": "https://loginom.com/welcome-video/",
       "text": "Introduction to Loginom"
     },
     "btnLearning": {
-      "href": "https:\/\/loginom.com\/learning\/",
+      "href": "https://loginom.com/learning/",
       "text": "Learning"
     },
     "btnLinkedin": {
-      "href": "https:\/\/linkedin.com\/company\/loginom\/"
+      "href": "https://linkedin.com/company/loginom/"
     },
     "btnMoreNews": {
-      "href": "https:\/\/loginom.com\/blog\/",
+      "href": "https://loginom.com/blog/",
       "text": "More News"
     },
     "btnOpenPackage": {
       "text": "Open Package..."
     },
     "btnRreleaseNotes": {
-      "href": "https:\/\/loginom.com\/tags\/release-notes\/",
+      "href": "https://loginom.com/tags/release-notes/",
       "text": "What's new in Loginom?"
     },
     "btnSupport": {
-      "href": "https:\/\/loginom.com\/company\/support\/",
+      "href": "https://loginom.com/company/support/",
       "text": "Support"
     },
     "btnTelegram": {
-      "href": "https:\/\/t.me\/loginom\/"
+      "href": "https://t.me/loginom/"
     },
     "btnTwitter": {
-      "href": "https:\/\/twitter.com\/loginom_company\/"
+      "href": "https://twitter.com/loginom_company/"
     },
     "btnVk": {
-      "href": "https:\/\/vk.com\/lg.platform\/"
+      "href": "https://vk.com/lg.platform/"
     },
     "btnYouTube": {
-      "href": "https:\/\/youtube.com\/loginom\/"
+      "href": "https://youtube.com/loginom/"
     },
     "colActionClean": {
       "tooltip": "Clean list..."
@@ -4085,6 +4338,9 @@
     "colDisplayText": {
       "text": "Caption"
     },
+    "colFieldDesc": {
+      "text": "Description"
+    },
     "colFieldName": {
       "text": "Field"
     },
@@ -4107,7 +4363,7 @@
       "text": "No connection to database"
     },
     "lblObjectsTree": {
-      "text": "Tables\/views"
+      "text": "Tables/views"
     },
     "lblSelectFields": {
       "text": "Connect to database and select fields"
@@ -4150,10 +4406,10 @@
   },
   "imports/dwh/BetweenValuesDialog": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "frmBetweenValuesDialog": {
       "title": "Interval Boundaries"
@@ -4161,10 +4417,10 @@
   },
   "imports/dwh/CompareValuesDialog": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "frmCompareValuesDialog": {
       "title": "Compare value"
@@ -4172,10 +4428,10 @@
   },
   "imports/dwh/DateValuesDialog": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "frmDateValuesDialog": {
       "title": "Select Time Span"
@@ -4206,10 +4462,6 @@
     "btnUp": {
       "tooltip": "Move up"
     },
-    "colAgg": {
-      "text": "Type",
-      "tooltip": "Type of Data Warehouse object"
-    },
     "colChecked": {
       "text": "Show"
     },
@@ -4218,9 +4470,6 @@
     },
     "colField": {
       "text": "Field"
-    },
-    "colMDField": {
-      "text": "Parameter"
     },
     "colMDGroupType": {
       "text": "Type",
@@ -4242,9 +4491,6 @@
     "grdFields": {
       "title": "Selected DW Items"
     },
-    "grdMDFields": {
-      "title": "Available DW Items"
-    },
     "mniChecked": {
       "text": "Show"
     },
@@ -4256,9 +4502,6 @@
     },
     "trpMDFields": {
       "title": "Tree of Available DW Items"
-    },
-    "txtFilterMDFields": {
-      "emptyText": "Filter"
     },
     "txtFilterMDNodes": {
       "emptyText": "Filter"
@@ -4289,10 +4532,10 @@
       "tooltip": "Add..."
     },
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -4319,6 +4562,11 @@
       "emptyText": "Filter"
     }
   },
+  "imports/excelfile/ImportExcelColumnDefsWizard": {
+    "frmImportSettings": {
+      "title.NOTE": "Имеющиеся переводы:\nConfigure Fields\nConfigure fields"
+    }
+  },
   "imports/excelfile/ImportExcelFilePreviewWizard": {
     "btnConnect": {
       "text": "Connect"
@@ -4327,7 +4575,7 @@
       "fieldLabel": "File Storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportFromFile": {
       "title": "Import from Excel File"
@@ -4407,7 +4655,7 @@
       "regexText": "Invalid codepage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportFromFile": {
       "title": "Import from Text File"
@@ -4443,7 +4691,7 @@
       "fieldLabel": "File storage"
     },
     "edtFileName": {
-      "propDisplayName": "File name \/ URL"
+      "propDisplayName": "File name / URL"
     },
     "frmImportXmlFile": {
       "title": "Import from XML File"
@@ -4466,27 +4714,35 @@
       "text": "Select replacement source"
     }
   },
+  "login/ChangePasswordForm": {
+    "btnApply": {
+      "text": "Change"
+    },
+    "btnCancel": {
+      "text": "Cancel"
+    }
+  },
   "login/Login": {
     "btnFastStart": {
-      "href": "https:\/\/loginom.com\/platform\/quick-start\/",
+      "href": "https://loginom.com/platform/quick-start/",
       "text": "Quick Start"
     },
     "btnGetToken": {
       "text": "Login With OpenID"
     },
     "btnHelp": {
-      "href": "https:\/\/help.loginom.com\/",
+      "href": "https://help.loginom.com/",
       "text": "Documentation"
     },
     "btnIntro": {
-      "href": "https:\/\/loginom.com\/welcome-video\/",
+      "href": "https://loginom.com/welcome-video/",
       "text": "Introduction to Loginom"
     },
     "btnLogin": {
       "text": "Login"
     },
     "btnQA": {
-      "href": "https:\/\/qa.loginom.com\/",
+      "href": "https://qa.loginom.com/",
       "text": "Q&A"
     },
     "chkRememberUser": {
@@ -5105,10 +5361,10 @@
   },
   "viewers/cube/CasesAddPanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -5151,10 +5407,10 @@
   },
   "viewers/cube/CasesCalcPanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbbDataType": {
       "fieldLabel": "Data type"
@@ -5177,7 +5433,7 @@
       "text": "Filter"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbbRelation": {
       "fieldLabel": "Condition"
@@ -5218,10 +5474,10 @@
       "tooltip": "Add calculated measure..."
     },
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -5256,10 +5512,10 @@
   },
   "viewers/cube/ChartRestrictionsPanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cntMaxCount": {
       "title": "Maximum Count"
@@ -5373,10 +5629,10 @@
   },
   "viewers/cube/CubeFormatPanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "colDimensionDisplayName": {
       "text": "Dimension"
@@ -5500,10 +5756,10 @@
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbRegister": {
       "boxLabel": "Case-sensitive"
@@ -5523,10 +5779,10 @@
   },
   "viewers/cube/DimensionsFilterPanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -5535,7 +5791,7 @@
       "tooltip": "Copy marked"
     },
     "btnExclusive": {
-      "tooltip": "Inclusive\/exclusive filter"
+      "tooltip": "Inclusive/exclusive filter"
     },
     "btnFilterType": {
       "tooltip": "Filter mode"
@@ -5561,10 +5817,10 @@
   },
   "viewers/cube/DimensionsTunePanel": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "frmDimensionsTunePanel": {
       "title": "Configure Dimensions"
@@ -5695,10 +5951,10 @@
   },
   "viewers/dataquality/QualityViewSettings": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "chbIndicatorSwitch": {
       "boxLabel": "Quality indicator"
@@ -6128,7 +6384,7 @@
       "tooltip": "Extract unique values"
     },
     "btnModifyCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "btnModifyOk": {
       "text": "Apply"
@@ -6221,6 +6477,11 @@
       "fieldLabel": "Interval boundaries rounding"
     }
   },
+  "wizards/code/CodeConsole": {
+    "grdConsole": {
+      "title": "Console"
+    }
+  },
   "wizards/columndefs/ColumnDefsTuning": {
     "btnRAWView": {
       "text": "Raw data"
@@ -6267,6 +6528,9 @@
     "btnCloneMappingColumn": {
       "tooltip": "Clone..."
     },
+    "btnCopy": {
+      "tooltip": "Copy"
+    },
     "btnCreateMapping": {
       "tooltip": "Create output"
     },
@@ -6287,6 +6551,9 @@
     },
     "btnMoveMappingColumnUp": {
       "tooltip": "Move up"
+    },
+    "btnPaste": {
+      "tooltip": "Paste"
     },
     "btnProduceType": {
       "tooltip": "Derived columns creation type"
@@ -6367,10 +6634,10 @@
   },
   "wizards/columns/EditColumnDefForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxDataKind": {
       "fieldLabel": "Data kind"
@@ -6417,7 +6684,7 @@
       "tooltip": "Delete selected"
     },
     "txtFilterField": {
-      "emptyText": "Filter\/Search"
+      "emptyText": "Filter/Search"
     }
   },
   "wizards/columnsdisposition/ColumnsDispositionWizard": {
@@ -6448,10 +6715,10 @@
   },
   "wizards/connection/DatabasePathForm": {
     "btnApply": {
-      "text": "Save"
+      "text.NOTE": "Старый исходник:\nСохранить\n\nСтарый перевод:\nSave"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxPathServer": {
       "fieldLabel": "Server"
@@ -6483,10 +6750,10 @@
   },
   "wizards/connection/InterbasePathForm": {
     "btnApply": {
-      "text": "Save"
+      "text.NOTE": "Старый исходник:\nСохранить\n\nСтарый перевод:\nSave"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxPathProtocol": {
       "fieldLabel": "Protocol"
@@ -6519,10 +6786,10 @@
   },
   "wizards/connection/SSLParamsForm": {
     "btnApply": {
-      "text": "Save"
+      "text.NOTE": "Старый исходник:\nСохранить\n\nСтарый перевод:\nSave"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "frmSSLSettings": {
       "title": "SSL settings"
@@ -6552,10 +6819,10 @@
   },
   "wizards/datapartition/FactorEditDialog": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "fldFactor": {
       "fieldLabel": "Factor"
@@ -6734,6 +7001,9 @@
     "frmDataTreeMapping": {
       "title": "Data Trees Mapping Settings"
     },
+    "mniLoadByXSD": {
+      "text": "Load from XSD..."
+    },
     "rbLinks": {
       "boxLabel": "Links"
     },
@@ -6749,10 +7019,10 @@
   },
   "wizards/datatree/EditDataTreeNodeDefForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxDataKind": {
       "fieldLabel": "Data kind"
@@ -6781,12 +7051,20 @@
       "title": "Add Node"
     }
   },
+  "wizards/datatree/JSONLoadingDialog": {
+    "btnApply": {
+      "text.NOTE": "Имеющиеся переводы:\nUpload\nLoad"
+    },
+    "btnCancel": {
+      "text": "Cancel"
+    }
+  },
   "wizards/datatree/XSDLoadingDialog": {
     "btnApply": {
       "text": "Load"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxNamespace": {
       "emptyText": "All namespaces",
@@ -6864,10 +7142,10 @@
   },
   "wizards/normalization/ColumnsEditForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxNormType": {
       "fieldLabel": "Normalizer"
@@ -7101,10 +7379,10 @@
   },
   "wizards/variables/EditVariableForm": {
     "btnApply": {
-      "text": "Apply"
+      "text.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply"
     },
     "btnCancel": {
-      "text": "Cancel"
+      "text.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel"
     },
     "cbxDataType": {
       "fieldLabel": "Data type"
@@ -7123,7 +7401,7 @@
       "fieldLabel": "Name"
     },
     "frmEditVariableForm": {
-      "title": "Edit Variable"
+      "title.NOTE": "Старый исходник:\nРедактирование переменной\n\nСтарый перевод:\nEdit Variable"
     }
   },
   "wizards/WizardForm": {
@@ -7144,9 +7422,6 @@
     },
     "btnResize": {
       "tooltip": "Expand"
-    },
-    "btnSave": {
-      "text": "Save"
     },
     "btnView": {
       "text": "View"

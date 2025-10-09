@@ -1,17 +1,24 @@
 {
   "about/About": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
+    "ClaimAdd": "Add claim",
+    "ClaimEdit": "Edit claim",
+    "ClaimsToVariablesFormListHeader": "Claims",
+    "ClaimsToVariablesFormTitle": "List of Variables Obtained from Token",
     "DeleteAllClaimsPrompt": "Do you really want to delete all claims?",
-    "DublicateClaimName": "Duplicates of claim names are not allowed",
+    "DuplicateClaimName": "Duplicates of claim names are not allowed",
     "EmptyClaimName": "A claim name cannot be empty",
     "FailClaimName": "A claim name may only contain Latin letters, numbers, and dots"
+  },
+  "admin/CustomSettings": {
+    "TestValue": "Test"
   },
   "admin/LDAPSettings": {
     "ConnectionSecurity": "Connection security",
@@ -48,6 +55,9 @@
     "UserInfoEndpoint": "User information endpoint",
     "UserNameClaim": "Username claim",
     "UserRoleNameMap": "List of role names"
+  },
+  "admin/PasswordPolicySettings": {
+    "EmptyParam": "Unspecified"
   },
   "admin/ServerSettingsForm": {
     "AppSettings": "Application parameters",
@@ -99,7 +109,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL\/TLS port"
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -131,14 +141,14 @@
     "SessionCapacity": "{0} of {1}",
     "SessionLastTimeDisposing": "Deleting"
   },
-  "admin/SharedDirectoriesForm": {
-    "DeleteUserConfirm": "Do you want to delete folder from the file system?"
-  },
   "admin/SharedDirectoryForm": {
     "AddBtnText": "Add",
     "EditSharedDirectory": "Configure shared folder",
     "NewSharedDirectory": "Add shared folder",
     "SaveBtnText": "Save"
+  },
+  "admin/StringListEditorForm": {
+    "EmptyValue": "Value cannot be empty"
   },
   "admin/UserForm": {
     "AddBtnText": "Add",
@@ -158,6 +168,7 @@
     "LoginTitle": "Login",
     "RolesTitle": "Roles",
     "SchedulerFullAccessTitle": "Access to All Jobs",
+    "Search.NOTE": "Имеющиеся переводы:\nSearch\nFind",
     "Update": "Refresh"
   },
   "admin/UserModel": {
@@ -180,12 +191,13 @@
     "ConfirmQuit": "Unsaved packages. Exit anyway?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "QAHref": "https://qa.loginom.com/questions/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
     "ConfirmRemovingNode": "Do you really want to delete \"{0}\" node?",
     "ConfirmRemovingUnit": "Do you really want to delete \"{0}\" module?",
+    "Delete": "Delete",
     "DerivedVendorIsNotUsed": "No node refers to this component.",
     "DerivedVendorIsPublic": "This component has Public visibility and can be used in other packages.",
     "DerivedVendorUsedByNodes": "{0} nodes that refer to this component found in the opened packages.",
@@ -198,10 +210,14 @@
     "EditVendorTitle": "Derived Component Setting",
     "ErrMustSelectTargets": "It is required to select at least one checkbox: \"{0}\" or \"{1}\"",
     "NewVendorTitle": "New Derived Component",
-    "SaveBtnText": "Save"
+    "SaveBtnText.NOTE": "Старый исходник:\nСохранить\n\nСтарый перевод:\nSave"
   },
   "app/FindNodeForm": {
-    "NodeNotFinded": "No node found by the given search criteria"
+    "All.NOTE": "Имеющиеся переводы:\nAll\nIn rows and columns",
+    "Connection": "Connection",
+    "SearchByGUID": "By GUID",
+    "SearchByLabel": "By caption",
+    "SearchByName": "By name"
   },
   "app/LicenseItem": {
     "ErrorStateFmt": "Failed to get information on {0} license"
@@ -229,6 +245,7 @@
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
     "ErrAccessDenied": "Access denied",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: {1}.",
+    "ErrorMailSubject": "Error message",
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
     "ErrUrlPathNotFound": "\"{0}\" path not found.",
@@ -290,6 +307,7 @@
   },
   "app/MapTreeForm": {
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
+    "Delete": "Delete",
     "DisplayName": "Caption",
     "DraftAddSchedulerJobFailed": "Save package \"{0}\" before adding a job",
     "DraftPublishFailed": "Save package \"{0}\" before publishing",
@@ -318,7 +336,7 @@
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
     "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
+    "ComposeExpandNode": "Collapse items to supernode / Expand supernode",
     "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation to supernode",
@@ -329,6 +347,7 @@
     "CutNode": "Cut node",
     "DeactivateAllSubNodes": "Deactivate all subnodes",
     "DeactivateCurrent": "Deactivate node",
+    "Delete": "Delete",
     "DeleteDerivedVendor": "Delete...",
     "DeleteLink": "Delete link...",
     "DeleteNode": "Delete node...",
@@ -341,9 +360,8 @@
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
     "ErrCommentPosNotSaved": "Failed to save comment position",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
-    "Error": "Error",
     "ErrPortNotCreated": "Failed to create new port",
-    "ErrRetryPasteConfirm": "Errors occurred while pasting. Do you want to repeat forcedly?\n{0}",
+    "ErrRetryPasteConfirm.NOTE": "Старый исходник:\nВ ходе вставки возникли ошибки. Повторить принудительно?\n{0}\n\nСтарый перевод:\nErrors occurred while pasting. Do you want to repeat forcedly?\n{0}",
     "ErrRunQueueFunctions": "Errors when performing queued update of the Workflow objects",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "ExpandNode": "Expand supernode",
@@ -371,7 +389,7 @@
     "PropertyInspectorLocale": "en",
     "RecreateBaseNodeForDerivedVendor": "Recreate base node",
     "RemoveComment": "Delete comment",
-    "RemoveSelectedConfirm": "Do you really want to delete the selected objects?",
+    "RemoveSelectedConfirm.NOTE": "Старый исходник:\nВы действительно хотите удалить выделенные объекты?\n\nСтарый перевод:\nDo you really want to delete the selected objects?",
     "RenameNode": "Rename...",
     "ResetConfiguration": "Restore original node configuration",
     "SelectNode": "First select node in workflow",
@@ -397,8 +415,8 @@
   },
   "app/PackageForm": {
     "ApplyLocaleTitle": "Apply New Locale",
-    "Cancel": "Cancel",
-    "Confirm": "Apply",
+    "Cancel.NOTE": "Старый исходник:\nОтменить\n\nСтарый перевод:\nCancel",
+    "Confirm.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply",
     "ConfirmLocaleChangeMsg": "After locale change strings may be compared in a different way.\nDo you really want to change locale?",
     "CurrentLocale": "Current locale of package is \"{0}\".",
     "DefaultLocaleModified": "modified",
@@ -454,12 +472,13 @@
     "GroupEditingTitle": "Group Editing",
     "HiddenFieldLabel": "Hidden:",
     "HiddenFieldTip": "Not selected in the reports view mode",
-    "ModifyBtnText": "Apply",
+    "ModifyBtnText.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply",
     "ModifyVariableTitle": "Edit Variable",
     "ReadonlyFieldLabel": "Read-only:",
     "ReadonlyFieldTip": "Editable only in design mode"
   },
   "app/PackageVariablesForm": {
+    "Delete": "Delete",
     "DeleteAllPrompt": "Do you really want to delete all variables?",
     "DeletePrompt": "Do you really want to delete variables?",
     "DeleteTitle": "Delete Variables",
@@ -475,7 +494,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "DisNamespace": "http://schemas.loginom.com/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -510,12 +529,13 @@
     "AddVariableWindowApplyText": "Add",
     "AddVariableWindowTitle": "Add Variable",
     "CaptionNotSet": "Unspecified",
+    "DeleteAllStartAfterJobPrompt": "Do you really want to delete all?",
     "DeleteAllVariablesPrompt": "Do you really want to delete all variables?",
+    "DestVariablesSelectorApplyText": "Select",
     "EditVariablesWindowTitle": "Edit Variables",
     "EditVariableWindowApplyText": "Change",
     "EditVariableWindowTitle": "Edit Variable",
     "ErrInvalidNodeKey": "The value entered is not a valid identifier or GUID in the {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} format.",
-    "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
     "MillisecondCountMinTextErrFmt": "Millisecond count must be more or equal to {0}",
     "NodeSelectorApplyText": "Select",
     "NodeSelectorTitle": "Select Node",
@@ -526,12 +546,12 @@
     "PeriodTypeMinute": "minutes",
     "PeriodTypeMonth": "months",
     "PeriodTypeSecond": "seconds",
-    "PeriodTypeWeek": "weeks",
-    "VariablesTitleFmt": "Variables ({0})"
+    "PeriodTypeWeek": "weeks"
   },
   "app/scheduler/JobVariableEditor": {
     "ErrorInvalidNameFmt": "The name value of variable \"{0}\" name is not a valid identifier",
     "ErrorInvalidPortFmt": "The name value of port \"{0}\" is not a valid identifier",
+    "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
     "GetValueList": "Get list",
     "VariableListIsEmpty": "No variables"
   },
@@ -594,7 +614,7 @@
     "DeactivateNodeForPortConfirmationMsg": "Port configuration will cause node deactivation.\nDo you really want to start port configuration?",
     "DraftAddSchedulerJobFailed": "Save package \"{0}\" before adding a job",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
-    "ErrPrepareContainer": "An error occurred while switching to \"{0}.{1}\".\n{2}",
+    "ErrPrepareContainer.NOTE": "Старый исходник:\nПри переходе на \"{0}.{1}\" возникла ошибка.\n{2}\n\nСтарый перевод:\nAn error occurred while switching to \"{0}.{1}\".\n{2}",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "MsgNodeConfigurationChanged": "Node configuration changed",
     "MsgNodeLoading": "The node is temporarily unavailable for configuring. Try to repeat this action later.",
@@ -625,7 +645,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https:\/\/loginom.com",
+    "CompanyWebsite": "https://loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom"
   },
@@ -635,7 +655,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "QAHref": "https://qa.loginom.com/questions/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -706,6 +726,7 @@
   },
   "components/calcdata/CalcExpressionsAbstract": {
     "AddFirstExpressionToEdit": "Add expression to edit",
+    "Delete": "Delete",
     "DeleteAllConfirm": "Do you really want to delete all expressions?",
     "DeleteAllMsgTitle": "Delete All Expressions",
     "ExprAlreadyExists": "Expression with {0} name already exists"
@@ -735,7 +756,7 @@
     "AddExrTitle": "Add Expression",
     "ErrExprEmptyName": "Expression name cannot be empty",
     "ErrExprInvalidIdentifier": "The name entered for Expression \"{0}\" is not a valid identifier",
-    "ModifyBtnText": "Apply",
+    "ModifyBtnText.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply",
     "ModifyExprTitle": "Expression Parameters"
   },
   "components/calctree/CalcTreeExpressions": {
@@ -809,7 +830,8 @@
   },
   "components/coarseclasses/CoarseClassesWizard": {
     "ErrNoStatistics": "Failed to get statistics",
-    "InputPortsNotActived": "Do you want to activate input ports?"
+    "InputPortsNotActived": "Do you want to activate input ports?",
+    "ReplaceTargetColumnYesText": "Replace"
   },
   "components/columnflipping/ColumnFlippingWizard": {
     "ColumnFlippingTitle": "Unpivoting",
@@ -858,6 +880,7 @@
   "components/datatotree/DataToTreeWizard": {
     "ClearAllLinksPromtTitle": "Delete",
     "ConfirmClearAllLinks": "Do you want to delete all links?",
+    "Delete": "Delete",
     "GlobalNodeIndex": "Global index",
     "MsgAddedDataTreeNodeCanNotSelected": "Node has been added, but it is not selected because it does not match the filter",
     "MsgEditedDataTreeNodeCanNotSelected": "Node has been renamed, but it is not selected because it does not match the filter",
@@ -884,7 +907,6 @@
     "frmClusterizationTitle": "EM Clustering"
   },
   "components/enrichdata/EnrichDataWizard": {
-    "MissingMainColumn": "Failed to show link not connected with the main table",
     "NotAssignedColumn": "Not selected"
   },
   "components/execcmd/ExecCmdCodeMirrorController": {
@@ -903,48 +925,36 @@
     "Vendors": "Components",
     "WarnNodeLoadLimitExceeded": "\"{0}\" target component is not selected.\n The limit {1} of loaded node levels has been exceeded."
   },
-  "components/filterdata/FilterColumnItem": {
-    "BadBrowserMsg": "This operation is not supported in our browser.",
-    "CopyError": "Error while copying to clipboard:",
-    "EndingWith": "ending with",
-    "Equal": "=",
+  "components/filterdata/BetweenValuesEditor": {
+    "BetweenValuesTitle": "Interval Boundaries",
+    "CompareValueLowerBound": "Lower bound",
+    "CompareValueUpperBound": "Upper bound"
+  },
+  "components/filterdata/DateValuesEditor": {
+    "DateValuesTitle": "Select Time Span",
+    "PeriodCount": "Time span value",
+    "PeriodType": "Time span unit"
+  },
+  "components/filterdata/FilterDataPanel": {
+    "BetweenValueFrom": "from ",
+    "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
+    "DeleteAllTitle": "Delete All Conditions",
     "GetValueList": "Get list",
-    "Greater": ">",
-    "GreaterOrEqual": ">=",
-    "In": "listed",
-    "InvalidFilter": "Not configured",
-    "IsFalse": "FALSE",
-    "IsNotNull": "Not null",
-    "IsNull": "null",
-    "IsTrue": "TRUE",
-    "Less": "<",
-    "LessOrEqual": "<=",
-    "Like": "contains",
-    "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
-    "NoMenuCopyWarn": "To copy data, use hotkey",
-    "NoMenuCutWarn": "To cut data, use hotkey",
-    "NoMenuPasteWarn": "To paste data, use hotkey",
-    "NotEndingWith": "not ending with",
-    "NotEqual": "<>",
-    "NotIn": "not listed",
-    "NotLike": "does not contain",
-    "NotSelectedValieItem": "No values",
-    "NotStartingWith": "not starting with",
-    "PasteError": "Error while pasting from clipboard:",
-    "PermissionReq": "Grant Loginom access to clipboard",
-    "SetLabel": "List",
-    "StartingWith": "starting with",
+    "InvalidField": "Field is specified incorrectly",
+    "OperatorOR": "OR",
+    "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed",
     "ValueListIsEmpty": "No values"
   },
-  "components/filterdata/FilterDataCollection": {
-    "ConfirmDeleteAll": "Do you really want to delete all conditions?",
-    "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed"
-  },
   "components/filterdata/FilterDataWizard": {
-    "Activation": "Input port activation",
-    "ActivationCanceled": "Canceled by user",
-    "FilterApply": "Apply filter",
-    "FilterPreview": "Filter"
+    "ActivationCanceled": "Canceled by user"
+  },
+  "components/filterdata/ValueListEditor": {
+    "BadBrowserMsg": "This operation is not supported in our browser.",
+    "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
+    "NoMenuCopyWarn": "To copy data, use hotkey",
+    "NoMenuPasteWarn": "To paste data, use hotkey",
+    "PermissionReq": "Grant Loginom access to clipboard",
+    "ValueListTitle.NOTE": "Имеющиеся переводы:\nList of values\nList of Values"
   },
   "components/groupdata/GroupDataWizard": {
     "Ascending": "Ascending",
@@ -977,9 +987,6 @@
   },
   "components/javascript/JavaScriptColumnsWizard": {
     "frmJavaScriptOutputTableTitle": "Configure JavaScript Output Table Columns"
-  },
-  "components/javascript/JavaScriptPreviewController": {
-    "ConsoleMessagesMissed": " missed"
   },
   "components/joindata/JoinDataWizard": {
     "DifferenceJoinDataDesc": "The difference includes all rows from the main dataset into result, with the exception of the rows for which the key fields of the main (left) and subtracted (right) datasets coincide.",
@@ -1031,6 +1038,9 @@
   "components/python/PythonCodeMirrorController": {
     "CodePlaceholder": "Enter script"
   },
+  "components/python/PythonCodeWizard": {
+    "DefaultEnv": "Default"
+  },
   "components/python/PythonColumnsWizard": {
     "frmPythonOutputTableTitle": "Configure Python Output Table Columns"
   },
@@ -1055,6 +1065,7 @@
     "VariablesTitle": "Variables"
   },
   "components/replace/ReplaceWizard": {
+    "Delete": "Delete",
     "DeleteAllPrompt": "Do you really want to remove all replacement items?",
     "DeleteAllPromptTitle": "Delete Replacement Table",
     "EditorDisabled": "Include replacement to edit",
@@ -1086,6 +1097,7 @@
     "AutoMapPromtTitle": "Auto Link",
     "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
     "ConfirmDeleteAll": "Do you want to delete all links?",
+    "Delete": "Delete",
     "DeletePromtTitle": "Delete",
     "ErrNoParamFmt": "Input dataset field \"{0}\" has been assigned for nonexistent parameter \"{1}\"",
     "ErrNotCompatibleParamDataTypeFmt": "Data type of the input dataset field \"{0}\" is incompatible with parameter \"{1}\""
@@ -1116,6 +1128,9 @@
     "AutoMaxThreadCount": "Autodetect",
     "ErrNotInteger": "The value must be an integer"
   },
+  "components/sqlscript/SQLScriptQueryWizard": {
+    "ErrNotInteger": "The value must be an integer"
+  },
   "components/treetodata/TreeToDataWizard": {
     "GlobalNodeIndex": "Global node index"
   },
@@ -1127,7 +1142,6 @@
     "ErrInSelectQuotaFields": "No field with quotas selected",
     "ErrInSelectTimeAxisFields": "No fields for data sequentializing selected",
     "ErrNoLinksDefined": "No links defined",
-    "MissingColumnFmt": "No linked \"{0}\" column",
     "NoTimeAxisColumn": "No column selected",
     "OutputColumnUsageType": "Field with names",
     "QuotaColumnUsageType": "Field with quotas",
@@ -1138,7 +1152,6 @@
     "UngroupedColumnUsageType": "Ungroupable"
   },
   "components/uniondata/UnionDataWizard": {
-    "MissingMainColumn": "Failed to show link not connected with the main table",
     "NotAssignedColumn": "Not selected"
   },
   "components/variablestodata/VariablesToDataWizard": {
@@ -1152,6 +1165,7 @@
     "AutoMapPromtTitle": "Auto Link",
     "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
     "ConfirmDeleteAll": "Do you want to delete all links?",
+    "Delete": "Delete",
     "DeletePromtTitle": "Delete",
     "ErrInvalidLinkFound": "Invalid link of \"{0}\" field with \"{1}\" request has been found",
     "ErrMultilinkFound": "Multiple link of \"{0}\" request with \"{1}\" field has been found and it willl be deleted",
@@ -1194,20 +1208,14 @@
   },
   "connections/restservice/ConnectionWizard": {
     "DeleteAllParamsPrompt": "Do you really want to delete all parameters?",
-    "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists",
-    "TestConnectionSuccess": "Connection successful",
-    "TestConnectionTitle": "Connection Test"
+    "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists"
   },
-  "connections/webservice/AuthorizationForm": {
+  "connections/webservice/AuthenticationForm": {
     "ErrUnsupportedAuthModeFmt": "Authentication mode \"{0}\" not supported",
     "ExpireCertDateError": "Expired certificate expiration date"
   },
-  "connections/webservice/ConnectionWizard": {
-    "TestConnectionSuccess": "Connection successful",
-    "TestConnectionTitle": "Connection test"
-  },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
-    "ErrFileNameAdd": "{0} file cannot be added to the list. Perhaps, it has already been added"
+    "ErrFileNameAdd.NOTE": "Старый исходник:\nФайл с именем {0} не может быть добавлен в список, возможно он уже есть в списке\n\nСтарый перевод:\n{0} file cannot be added to the list. Perhaps, it has already been added"
   },
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Cancel",
@@ -1231,6 +1239,9 @@
     "TooltipEditorMode": "Edit SQL query",
     "TooltipReset": "Reset changes"
   },
+  "exports/dbexport/DBEditFieldDefsForm": {
+    "GroupEditingTitle": "Group Editing"
+  },
   "exports/dbexport/DBExportMappingWizard": {
     "colDisplayNameTitle": "Database Table Fields",
     "colSourceNameTitle": "Source Columns",
@@ -1239,7 +1250,7 @@
     "Title": "Map Source Columns to Table Fields",
     "WarnAbsentDataSourceSourceDetails": "List of absent source columns used previously:",
     "WarnAbsentFieldsDetails": "List of absent table columns used previously:",
-    "WarnColumnChangedMessage": "Изменения в столбцах",
+    "WarnColumnChangedMessage": "Columns changed",
     "WarnUpdateFieldsDetails": "List of table columns in which changes occurred:"
   },
   "exports/dbexport/DBExportParamsWizard": {
@@ -1250,6 +1261,7 @@
   },
   "exports/dwh/DWExportWizard": {
     "ConfirmClearAllLinks": "Do you want to delete all links?",
+    "Delete": "Delete",
     "DeleteModeNotDelete": "do not delete"
   },
   "exports/excelfile/ExportExcelFilePreviewWizard": {
@@ -1290,7 +1302,7 @@
     "Pallete": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open\/close was found"
+    "ToggleRowNotFoundRow": "No row to open/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Dataset not active"
@@ -1347,6 +1359,8 @@
     "DeleteAllPromptTitle": "Delete",
     "DeleteAllPromptTitleActCol": "Delete",
     "DeleteAllText": "Delete all...",
+    "DeleteAllYesBtnText": "Delete",
+    "DeleteAllYesText": "Delete",
     "DeleteText": "Delete",
     "ErrStoreType": "Ext.data.Store or Ext.data.ChainedStore repository is required for activity controller",
     "GridViewDragDropNotFound": "Failed to prepare table for dragging rows, gridviewdragdrop plug-in not found",
@@ -1357,7 +1371,7 @@
     "btnAutoLinkCaption": "Auto Link",
     "btnClearCaption": "Clear Links",
     "btnResortCaption": "Rearrange Links",
-    "DragText": "Drag to item to link with",
+    "DragText": "Drag the item to link it with another",
     "ErrGetActionUndefined": "Undefined bg.ext.GetAction function",
     "ErrMultiSelection": "Multiple row selection must be enabled for both linked tables",
     "ErrMultiSelectRequired": "Linking one row with many other rows is permitted. Enabling of multiple selection of rows in linked tables required",
@@ -1387,7 +1401,6 @@
     "PrevPage": "Previous page"
   },
   "ext/TotalLabel": {
-    "HeaderFormat": "# |{0}|",
     "RowCountSymbol": "#",
     "TooltipPartTemplate": "{0} of {1} rows displayed",
     "TooltipTemplate": "Total row count {0}"
@@ -1401,6 +1414,15 @@
   },
   "ext/UniversalColumn": {
     "ColumnUndefined": "Column undefined"
+  },
+  "ext/VariablesClipboard": {
+    "BadBrowserMsg": "This operation is not supported in our browser.",
+    "CopyText": "Copy",
+    "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
+    "NoMenuCopyWarn": "To copy data, use hotkey",
+    "NoMenuPasteWarn": "To paste data, use hotkey",
+    "PasteText": "Paste",
+    "PermissionReq": "Grant Loginom access to clipboard"
   },
   "ext/VariantEditor": {
     "EmptyStringText": "<Empty string>",
@@ -1518,7 +1540,7 @@
     "XlsbFilesDesc": "Excel 2007 binary workbooks",
     "XlsFileDesc": "MS Excel file",
     "XlsFilesDesc": "MS Excel files",
-    "XlsmFileDesc": "Excel 2007 binary macro-enabled workbook",
+    "XlsmFileDesc.NOTE": "Старый исходник:\nДвоичная книга Excel 2007 с поддержкой макросов\n\nСтарый перевод:\nExcel 2007 binary macro-enabled workbook",
     "XlsmFilesDesc": "Excel 2007 binary macro-enabled workbooks",
     "XlsxFileDesc": "Excel 2007 workbook",
     "XlsxFilesDesc": "Excel 2007 workbooks",
@@ -1557,10 +1579,10 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied\/cut",
-    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied/cut",
+    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
-    "ServerPasteException": "Server error message: "
+    "ServerPasteException.NOTE": "Старый исходник:\nСообщение сервера об ошибке: \n\nСтарый перевод:\nServer error message: "
   },
   "filestorage/DragAndDropHandler": {
     "DropText": "Drag and drop to start the upload",
@@ -1591,14 +1613,15 @@
     "CantDeleteFolderFmt": "Failed to delete folder {0}",
     "CantDownloadFolder": "Directory downloads have not been implemented yet",
     "ConfirmDeleteAll": "Do you really want to delete all?",
-    "ConfirmDeleting": "Do you really want to delete the selection?",
+    "ConfirmDeleting": "Do you really want to delete the selected item(s)?",
     "ConfirmExtract": "Files with matching names in the current folder will be replaced.\nDo you want to extract?",
     "ConfirmExtractInFolder": "Files with matching names in \"{0}\" folder will be replaced.\nDo you want to extract?",
     "ConfirmExtractTitle": "\"{0}\" Archive Extraction",
     "ConfirmStopLoaders": "Active downloads will be canceled. Do you want to continue?",
-    "CopyError": "Error while copying to clipboard:",
+    "CopyError.NOTE": "Старый исходник:\nОшибка копирования в буфер обмена:\n\nСтарый перевод:\nError while copying to clipboard:",
     "CreateDirectoryTitle": "New Folder",
     "CreatePackageTitle": "Create Package",
+    "Delete": "Delete",
     "DeleteAllTitle": "Delete All Directory Files",
     "DirectoryAlreadyExists": "A directory with the same name already exists",
     "Download": "Download",
@@ -1607,7 +1630,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied\/cut",
+    "HasNotStorageItems": "No files to be copied/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1657,21 +1680,23 @@
     "ValueListIsEmpty": "No values"
   },
   "filtersview/FiltersView": {
+    "Delete": "Delete",
     "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppLersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
     "NewVersionIsAvaliableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
     "CleanConfirm": "Do you want to clean the list of recently opened packages?",
     "CleanConfirmOk": "Clean",
     "CleanTitle": "Clean List",
+    "Delete": "Delete",
     "HomePageLocale": "en",
     "NoNewsLog": "Failed to fetch news",
     "RemoveFromHistoryFmt": "File \"{0}\" not found. It may have been renamed, moved or deleted. Do you want to remove this package from the list of recent packages?",
@@ -1679,16 +1704,16 @@
     "RemoveNoRightsFmt": "User \"{0}\" has no rights to open packages",
     "RemoveNoRightsTitle": "Failed to Open Package"
   },
-  "imports/dbimport/DBImportFilterWizard": {
-    "Activation": "Input port activation",
-    "FilterApply": "Apply filter",
-    "FilterPreview": "Filter",
-    "NoConnection": "No connection"
-  },
-  "imports/dbimport/DBImportSql": {
+  "imports/dbimport/BasicSQLCodeMirror": {
     "Parameter": "Parameter",
     "SQLEditorPlaceholder": "Enter SQL query text",
     "Substitution": "Substitution"
+  },
+  "imports/dbimport/BasicSQLWizard": {
+    "NoConnection": "No connection"
+  },
+  "imports/dbimport/DBImportFilterWizard": {
+    "NoConnection": "No connection"
   },
   "imports/dbimport/DBImportTable": {
     "DBObjectsNamesakesExists": "Several tables named \"{0}\" were found. Select a table in the list or add a schema name",
@@ -1701,7 +1726,6 @@
     "FieldsNotSelected": "Select fields for preview",
     "ImportFieldsNotSelected": "Select fields for import",
     "InsertTableMenuItemText": "Insert name into SQL code editor",
-    "NoConnection": "No connection",
     "NotConnectedError": "No connection with database",
     "ObjectDoesNotExist": "Table (view) \"{0}\" not found",
     "PreviewTableNotSelected": "Select table for preview",
@@ -1713,20 +1737,23 @@
     "DBObjTypeSchema": "Schemas",
     "DBObjTypeTable": "Tables",
     "DBObjTypeView": "Views",
-    "ErrAccesToDbObject": "Failed to get access to object \"{0}\". Reason: \"{1}\""
+    "ErrAccesToDbObject.NOTE": "Старый исходник:\nНевозможно получить доступ к объекту \"{0}\". Причина: \"{1}\"\n\nСтарый перевод:\nFailed to get access to object \"{0}\". Reason: \"{1}\""
   },
-  "imports/dwh/DWImportWizard": {
-    "ConfirmDeleteAllFields": "Do you really want to delete all selected columns?",
-    "FactAggregationTipFmt": "(Aggregation by default - {0})",
-    "FuncAggregatesUndefined": "Not defined",
-    "GetValueList": "Get list",
+  "imports/dwh/DWConst": {
     "MetaDataNodeTypeAttr": "Attribute",
     "MetaDataNodeTypeCube": "Cube",
     "MetaDataNodeTypeDim": "Dimension",
-    "MetaDataNodeTypeFact": "Fact",
-    "MetaDataNodeTypeItem": "Item",
+    "MetaDataNodeTypeFact.NOTE": "Имеющиеся переводы:\nFact\nMeasure",
+    "MetaDataNodeTypeItem.NOTE": "Имеющиеся переводы:\nItem\nElement",
     "MetaDataNodeTypeLevel": "Level",
-    "MetaDataNodeTypeProc": "Process",
+    "MetaDataNodeTypeProc": "Process"
+  },
+  "imports/dwh/DWImportWizard": {
+    "ConfirmDeleteAllFields": "Do you really want to delete all selected columns?",
+    "Delete": "Delete",
+    "FactAggregationTipFmt": "(Aggregation by default - {0})",
+    "FuncAggregatesUndefined": "Not defined",
+    "GetValueList": "Get list",
     "TriggerTip": "Edit..."
   },
   "imports/dwh/DWObjectWizard": {
@@ -1778,7 +1805,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
+    "Slash": "Slash (/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -2048,6 +2075,9 @@
     "Group": "Group",
     "Title": "Caption"
   },
+  "login/ChangePasswordForm": {
+    "ErrLeadingOrTrailingWhitespaceInPassword": "Password must not begin or end with a space"
+  },
   "login/Login": {
     "VersionLabelFmt": "Version: {0}"
   },
@@ -2069,13 +2099,13 @@
     "LeaveSubmodel": "Move out"
   },
   "mxgraph/handler/PortConnectionAbstract": {
-    "CycleLinksForbiden": "Cyclic references are not possible"
+    "CycleLinksForbiden": "Cycle links are not possible"
   },
   "mxgraph/link/LinkLabel": {
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show\/Hide Comment",
+    "CommentBtn": "Show/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -2086,12 +2116,12 @@
     "WrongCommentValue": "Invalid comment value"
   },
   "mxgraph/node/controls/ControlsAbstract": {
-    "ActionsBtn": "Other Actions",
-    "ControlStopBtn": "Processing Stop",
-    "DeactivateNodeBtn": "Deactivate Node",
+    "ActionsBtn": "Other actions",
+    "ControlStopBtn": "Stop processing",
+    "DeactivateNodeBtn": "Deactivate node",
     "LaunchBtn": "Run node (F9)",
     "SettingBtn": "Settings (Shift+Enter)",
-    "SetupViewersBtn": "Configure Visualizers"
+    "SetupViewersBtn": "Configure visualizers"
   },
   "mxgraph/node/informer/InfoMagicButton": {
     "IheritanceSourceBtn": "Show Base Node",
@@ -2119,8 +2149,8 @@
     "StatusWarning": "Warning"
   },
   "mxgraph/port/AddPort": {
-    "AddPortDescription": "\nDrag'n'Drop of outgoing port of another node\n will automatically create the required port if there is a compatible candidate.",
-    "AddPortDisplayName": "Add another port."
+    "AddInputPortDescription": "To create a new port, click the button or drag a connection from a compatible output port and drop it here.",
+    "AddPortDisplayName.NOTE": "Старый исходник:\nДобавить ещё один порт.\n\nСтарый перевод:\nAdd another port."
   },
   "mxgraph/port/Port": {
     "ItemCountOnDemand": "Count unavailable",
@@ -2181,7 +2211,7 @@
     "Seaborn": "Seaborn"
   },
   "progress/ProgressForm": {
-    "ErrorInfoText": "{0} {1}: {2}.",
+    "ErrorInfoTextAndMsg": "{0} {1}: {2}.",
     "ErrProcessWasDisposed": "Process or subprocesses have already been deleted",
     "MsgClearText": "Do you want to clear descriptions of terminated processes?",
     "MsgProcessingAborted": "Processing aborted",
@@ -2251,9 +2281,6 @@
     "ErrViewIsPanel": "Visualizer must be Ext.panel.Panel descendant",
     "WarnViewerObjectDeleted": "Processing of \"{0}\" visualizer status change event was canceled because the visualizer was asynchronously deleted"
   },
-  "viewers/browse/BrowseDataGridClipboard": {
-    "ErrorTooMany": "Failed to copy selected cells to clipboard. Too many rows selected."
-  },
   "viewers/browse/BrowseFormat": {
     "ActColInAllInvisibleTip": "Hidden",
     "ActColInAllVisibleTip": "Visible",
@@ -2274,8 +2301,8 @@
     "ErrColumnNotRenderedFmt": "Failed to add HTML element to column header \"{0}\" | \"{1}\". Column not yet rendered"
   },
   "viewers/browse/BrowseView": {
-    "ErrExportFailed": "Failed to export Table:\n{0}",
-    "ErrExportFormFailed": "Failed to export Form:\n{0}",
+    "ErrExportFailed.NOTE": "Старый исходник:\nНе удалось экспортировать Таблицу:\n{0}\n\nСтарый перевод:\nFailed to export Table:\n{0}",
+    "ErrExportFormFailed.NOTE": "Старый исходник:\nНе удалось экспортировать Форму:\n{0}\n\nСтарый перевод:\nFailed to export Form:\n{0}",
     "ErrMaxPage": "There is no page with the index larger than the last index",
     "ErrMinPage": "There is no page with index smaller than the starting index",
     "ErrOverRowLimitFmt": "Failed to set row index more than {0}",
@@ -2295,6 +2322,7 @@
     "GoToLineApplyActionText": "Go to",
     "GoToLineTitle": "Go to Row",
     "LastTableRowAction": "Last row",
+    "Loading": "Loading",
     "MaxPageIndex": "from {0}",
     "NameRecNoField": "RecNo",
     "NameRowNoField": "RowNo",
@@ -2349,7 +2377,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " \/ ",
+    "CompareTo": " / ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -2372,6 +2400,7 @@
     "ClearViewsErrors": "Not all visualizers deleted.",
     "CreateGroup": "New group...",
     "CreateGroupTitle": "Create Group",
+    "Delete": "Delete",
     "DeleteAllViews": "Do you want to delete all visualizers?",
     "DeleteSelected": "Do you want to delete selected?",
     "DeleteView": "Do you want to delete \"{0}\"?",
@@ -2383,7 +2412,7 @@
     "ShowInReports": "Show in reports",
     "TitleUndefined": "visualizer",
     "TuneViews": "Visualizers",
-    "VendorNotValid": "Visualizer incompatible with port selected",
+    "VendorNotValid": "Selected visualizer is incompatible with the port",
     "VendorTreeViewers": "Visualizers",
     "VendorUndefined": "No visualizer selected on visualizer panel",
     "ViewAlreadyInReports": "'{0}' visualizer has already been added",
@@ -2400,9 +2429,11 @@
     "TotalNodeCaption": "Total"
   },
   "viewers/cube/CasesCalcPanel": {
+    "AddBtnText": "Add",
     "ErrCaseAlreadyExist": "Measure with \"{0}\" name already exists",
     "ErrDimAlreadyExist": "\"{0}\" dimension already exists",
-    "ErrWhitespaceExpression": "Expression cannot be empty string"
+    "ErrWhitespaceExpression": "Expression cannot be empty string",
+    "ModifyBtnText": "Change"
   },
   "viewers/cube/CasesFilterPanel": {
     "ErrBounds": "Minimum more than maximum",
@@ -2418,6 +2449,7 @@
     "Charts": "Charts",
     "CollapseAll": "Collapse charts",
     "DefaultTitle": "Chart {0}",
+    "Delete": "Delete",
     "ExpandAll": "Expand charts",
     "WarnDelete": "Do you really want to delete chart \"{0}\"?"
   },
@@ -2458,7 +2490,7 @@
     "WarnDependencySuffix": "Do you want to continue action?"
   },
   "viewers/cube/CubeView": {
-    "ErrExportFailed": "Failed to export the Cube cross table:\n{0}",
+    "ErrExportFailed.NOTE": "Старый исходник:\nНе удалось экспортировать кросс-таблицу Куба:\n{0}\n\nСтарый перевод:\nFailed to export the Cube cross table:\n{0}",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
     "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
@@ -2507,7 +2539,7 @@
     "NestedSortCaption": "Sorted headers among nested headers"
   },
   "viewers/dataquality/QualityView": {
-    "ErrExportFailed": "Failed to export Data Quality Tables:\n{0}",
+    "ErrExportFailed.NOTE": "Старый исходник:\nНе удалось экспортировать таблицы Качества данных:\n{0}\n\nСтарый перевод:\nFailed to export Data Quality Tables:\n{0}",
     "ExportToastTitle": "Export from Data Quality",
     "NotAvailable": "Not available",
     "NotCalculated": "Not calculated"
@@ -2600,11 +2632,12 @@
     "CardIsExists": "Item with name \"{0}\" already exists in this group",
     "ColumnTitle": "Name",
     "ConfirmDeleteAll": "Do you really want to delete all?",
-    "ConfirmDeleteSelected": "Do you really want to delete the selection?",
+    "ConfirmDeleteSelected": "Do you really want to delete the selected item(s)?",
     "ConfirmDeletingGroup": "Do you really want to delete the reports group?",
     "ConfirmDeletingReportView": "Do you really want to delete the visualizer from the reports?",
     "ConfirmLongReload": "Recalculation may take a long time. Do you want to continue?",
     "CreateGroupTitle": "Create Group",
+    "Delete": "Delete",
     "Enter": "Enter",
     "ErrDeleting": "Error while deleting",
     "ErrDeletingGroup": "Error while deleting the group",
@@ -2687,6 +2720,9 @@
     "ErrAbortCaption": "Setup Aborted",
     "ErrExitExcepitonsCaption": "Errors"
   },
+  "wizards/code/CodeConsoleHandler": {
+    "ConsoleMessagesMissed": " missed"
+  },
   "wizards/code/CodeOutputPreviewForm": {
     "CodeExec": "Script execution"
   },
@@ -2706,7 +2742,9 @@
     "RemoveAllMappingColumnDefsConfirm": "Do you really want to delete all output columns?"
   },
   "wizards/columns/ColumnsMappingWizard": {
-    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found. Do you want to delete all lost links and continue?"
+    "Delete": "Delete",
+    "Exclude": "Exclude",
+    "RemoveInvalidRelationsConfirm.NOTE": "Старый исходник:\nОбнаружены связи с несуществующими объектами. Вы хотите удалить все потерянные связи и продолжить?\n\nСтарый перевод:\nLinks with non-existent objects were found. Do you want to delete all lost links and continue?"
   },
   "wizards/columns/DataSetOutputSocketWizard": {
     "frmColumnsMappingTitle": "Configure Output Columns"
@@ -2725,7 +2763,7 @@
     "ErrColumnInvalidIdentifier": "Entered \"{0}\" column name is not a valid identifier",
     "ErrColumnNameAlreadyExists": "Column with \"{0}\" name already exists",
     "GroupEditingTitle": "Group Editing",
-    "ModifyBtnText": "Apply",
+    "ModifyBtnText.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply",
     "ModifyColumnDefTitle": "Edit Column"
   },
   "wizards/columns/EditTuneColumnDefForm": {
@@ -2735,6 +2773,7 @@
     "frmColumnsMappingTitle": "Configure Input Columns"
   },
   "wizards/columns/TuneDataSourceMappingWizard": {
+    "Delete": "Delete",
     "RemoveRequiredMappingColumnDefConfirm": "\"{0}\" column is used. Do you really want to delete it?",
     "RemoveRequiredMappingColumnDefsConfirm": "There are used columns among the selected columns. Do you really want to delete all selected columns?"
   },
@@ -2754,7 +2793,7 @@
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipConnect": "Activate connection",
     "BtnTooltipDelete": "Delete connection...",
@@ -2769,13 +2808,14 @@
     "ConnectionPath": "Connection path",
     "ConnectionRenameTitle": "Rename Connection",
     "ConnectionStatus": "Connection status",
+    "Delete": "Delete",
     "DeleteConnectionPrompt": "Do you really want to delete {0} connection?",
     "DeleteConnectionPromptTitle": "Delete Connection",
     "InsertConnection": "Add connection",
     "LabelConnectionPath": "Path",
     "LabelTitle": "Caption",
     "MultioperationError": "Multioperation error",
-    "NoConnections": "Available extended connections",
+    "NoConnections.NOTE": "Старый исходник:\nПодключения доступны в расширенных версиях\n\nСтарый перевод:\nAvailable extended connections",
     "PropertyInspectorLocale": "en",
     "TestConnectionsError": "Multiple connections test error",
     "TestConnectionSuccess": "Connection successful",
@@ -2783,7 +2823,7 @@
     "VendorTreeConnections": "Data sources"
   },
   "wizards/connection/DBConnectionWizard": {
-    "ErrGetServerNames": "Ошибка при получении списка серверов",
+    "ErrGetServerNames": "Error getting server list",
     "Filename": "File name"
   },
   "wizards/connection/LockTimeoutStore": {
@@ -2814,17 +2854,27 @@
     "SummarySetName": "Total:",
     "UnknownValue": "Unknown value"
   },
+  "wizards/datatree/DataTreeBuildController": {
+    "Delete": "Delete",
+    "MsgAddedDataTreeNodeCanNotSelected": "Node has been added, but it is not selected because it does not match the filter",
+    "MsgEditedDataTreeNodeCanNotSelected": "Node has been renamed, but it is not selected because it does not match the filter",
+    "RemoveAllDataTreeNodesConfirm": "Do you really want to delete all nodes?",
+    "RemoveNodeWithChildsConfirm": "Do you really want to delete \"{0}\" node with child nodes?",
+    "WarnCannotDeleteRootNode": "It is not possible to delete root node"
+  },
   "wizards/datatree/DataTreeNodeDefsMappingWizard": {
     "colTargetNodeText": "Output tree",
     "colTargetNodeTuneText": "Caption",
     "CreateMappingToAllConfirm": "Do you really want to create output nodes for all inputs?",
+    "Delete": "Delete",
+    "Exclude": "Exclude",
     "frmDataTreeMappingTitle": "Data Trees Mapping Settings",
     "frmDataTreeTitle": "Configure Data Tree",
     "MsgAddedDataTreeNodeCanNotSelected": "Node has been added, but it is not selected because it does not match the filter",
     "MsgConnectedDataTreeNodeCanNotSelected": "Node in the output tree connected, but it is not selected because it does not match the filter",
     "MsgEditedDataTreeNodeCanNotSelected": "Node has been renamed, but it is not selected because it does not match the filter",
     "RemoveAllMappingDataTreeNodesConfirm": "Do you really want to delete all output nodes?",
-    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found. Do you want to delete all lost links and continue?",
+    "RemoveInvalidRelationsConfirm.NOTE": "Старый исходник:\nОбнаружены связи с несуществующими объектами. Вы хотите удалить все потерянные связи и продолжить?\n\nСтарый перевод:\nLinks with non-existent objects were found. Do you want to delete all lost links and continue?",
     "RemoveNodeWithChildsConfirm": "Do you really want to delete \"{0}\" node with child nodes?",
     "RemoveRequiredMappingNodeDefConfirm": "\"{0}\" node is used. Do you really want to delete it?",
     "WarnCannotDeleteRootNode": "It is not possible to delete root node"
@@ -2843,7 +2893,7 @@
     "ErrNodeEmptyName": "Node name cannot be empty",
     "ErrNodeInvalidIdentifier": "Entered \"{0}\" node name is not a valid identifier",
     "ErrNodeNameAlreadyExists": "Node with \"{0}\" name already exists",
-    "ModifyBtnText": "Apply",
+    "ModifyBtnText.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply",
     "ModifyNodeDefTitle": "Edit Node",
     "UsageType": "Usage type"
   },
@@ -2856,7 +2906,8 @@
     "ActionDeleteAll": "Delete all...",
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
-    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "Delete": "Delete",
+    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
@@ -2876,6 +2927,7 @@
     "NotConnectedText": "Not connected"
   },
   "wizards/InputFileConnectionWizard": {
+    "AutoMaxThreadCount": "Autodetect",
     "MsgFileAlreadyExist": "{0} file exists. Do you want to overwrite?",
     "MsgNotConnected": "Connection is not active. Do you want to activate it now?"
   },
@@ -2899,7 +2951,7 @@
     "DefaultPreparePreviewMaskText": "Prepare preview"
   },
   "wizards/random/RandSeedEdit": {
-    "CopyError": "Error while copying to clipboard:",
+    "CopyError.NOTE": "Старый исходник:\nОшибка копирования в буфер обмена:\n\nСтарый перевод:\nError while copying to clipboard:",
     "InvalidRandSeed": "Value \"{0}\" is not integer",
     "InvalidRandSeedMax": "Random seed must be less or equal to 2147483647",
     "InvalidRandSeedMin": "Random seed must exceed 0",
@@ -2948,7 +3000,7 @@
     "ErrVariableInvalidIdentifier": "Entered \"{0}\" variable name is not a valid identifier",
     "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
     "GroupEditingTitle": "Group Editing",
-    "ModifyBtnText": "Apply",
+    "ModifyBtnText.NOTE": "Старый исходник:\nПрименить\n\nСтарый перевод:\nApply",
     "ModifyVariableTitle": "Edit Variable"
   },
   "wizards/variables/VariablesEditValuesWizard": {
@@ -2967,6 +3019,7 @@
     "colDisplayNameText": "Outputs",
     "colDisplayNameTuneText": "Caption",
     "CreateMappingToAllConfirm": "Do you really want to create output variables for all inputs?",
+    "Delete": "Delete",
     "EmptyListText": "No matching variables",
     "frmColumnsMappingTitle": "Variables Mapping Settings",
     "frmColumnsTitle": "Configure Variables",
@@ -2988,11 +3041,8 @@
   },
   "wizards/WizardForm": {
     "BtnNextCaption": "Next",
-    "BtnPrevCaption": "Previous",
     "BtnResizeMaximize": "Expand",
     "BtnResizeMinimize": "Collapse",
-    "BtnSaveCaption": "Save",
-    "BtnSaveWhateverCaption": "Save Anyway",
     "BtnWhateverCaption": "Next Anyway",
     "ConfirmCloseWizard": "Do you really want to close the wizard?",
     "ConfirmMsgBoxTitle": "Confirm",

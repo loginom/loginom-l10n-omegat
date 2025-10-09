@@ -60,6 +60,7 @@
     "Name": "Имя",
     "OutputColumn": "Выходной столбец",
     "OutputTable": "Выходная таблица",
+    "OutputTables": "Массив выходных таблиц",
     "RowCount": "Число строк",
     "TableAddColumn": "Добавить столбец",
     "TableAppend": "Добавить строку",
@@ -112,6 +113,9 @@
   },
   "Common/HTTP/HTTPContext_Synapse": {
     "ErrUnsupportedAuthModeCert": "Аутентификация с помощью клиентского сертификата из хранилища не поддерживается"
+  },
+  "Common/HTTP/HTTPContext_Win": {
+    "ErrTimeout": "Истекло время выполнения запроса"
   },
   "Common/HTTP/HTTPNetRequest": {
     "ErrHTTPNetRequest": "Запрос к URL \"%s\" завершился с ошибкой"
@@ -227,6 +231,7 @@
     "ErrHTTPOperationExtensionMissing": "В объявлении HTTP связывания \"%s\" для операции \"%s\" отсутствует обязательный элемент расширения \"<http:operation/>\" ",
     "ErrHttpPartReferencesComplexElement": "Часть \"%s\", входящая в сообщение \"%s\" типа \"%s\" (операция \"%s\"), ссылается на элемент XSD-схемы %s{%s}, имеющий сложный тип",
     "ErrHttpPartReferencesComplexType": "Часть \"%s\", входящая в сообщение \"%s\" типа \"%s\" (операция \"%s\"), ссылается на сложный тип XSD-схемы %s{%s}",
+    "ErrImportNotContainNamespace": "Элемент XSD-схемы <import/> должен содержать атрибут namespace",
     "ErrInputMimeTypeContainsWildcard": "Содержимое входящего сообщения сервиса должно иметь конкретный MIME-тип (фактически - %s)",
     "ErrInvalidMimeType": "Недопустимый MIME-тип: %s",
     "ErrItemTypeNotFound": "Тип элемента массива \"%s\" не найден в схеме",
@@ -235,7 +240,7 @@
     "ErrMessageDefNotFound": "Сообщение \"%s\", на которое ссылается операция \"%s\" связывания \"%s\", не найдено",
     "ErrMessageMustSpecifyExtension": "Расширение сообщения \"%s\" (операция \"%s\" связывания \"%s\") не указано или не поддерживается",
     "ErrMessageSoapVersionConflict": "Версия SOAP сообщения %s конфликтует с версией операции %s",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts": "Элемент \"<%s/>\" без атрибута \"part\" ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "Элемент \"<%s/>\" без атрибута part ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной",
     "ErrMimeContentReferencesComplexElement": "Элементу расширения mime:content в сообщении \"%s\" (операция \"%s\") сопоставлена часть \"%s\", которая ссылается на элемент XSD-схемы %s{%s}, имеющий сложный тип",
     "ErrMimeContentReferencesComplexType": "Элементу расширения mime:content в сообщении \"%s\" (операция \"%s\") сопоставлена часть \"%s\", которая ссылается на сложный тип XSD-схемы %s{%s}",
     "ErrNoDefinitionsElement": "Элемент <definitions/> WSDL-описания отсутствует или не принадлежит пространству имен WSDL",
@@ -281,7 +286,7 @@
     "ErrMessageDefNotFound": "Сообщение \"%s\", на которое ссылается операция \"%s\" связывания \"%s\", не найдено",
     "ErrMessageMustSpecifyExtension": "Расширение сообщения \"%s\" (операция \"%s\" связывания \"%s\") не указано или не поддерживается",
     "ErrMessageSoapVersionConflict": "Версия SOAP сообщения %s конфликтует с версией операции %s",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts": "Элемент \"<%s/>\" без атрибута \"part\" ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "Элемент \"<%s/>\" без атрибута part ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной",
     "ErrMimeContentReferencesComplexElement": "Элементу расширения mime:content в сообщении \"%s\" (операция \"%s\") сопоставлена часть \"%s\", которая ссылается на элемент XSD-схемы %s{%s}, имеющий сложный тип",
     "ErrMimeContentReferencesComplexType": "Элементу расширения mime:content в сообщении \"%s\" (операция \"%s\") сопоставлена часть \"%s\", которая ссылается на сложный тип XSD-схемы %s{%s}",
     "ErrNoDefinitionsElement": "Элемент <definitions/> WSDL-описания отсутствует или не принадлежит пространству имен WSDL",
@@ -605,7 +610,8 @@
   },
   "components/calcdata/CalcItem": {
     "ErrExprParse": "Ошибка разбора выражения \"%s\"",
-    "ExprCalculateError": "Ошибка вычисления выражения \"%s\", строка %d входного набора"
+    "ExprCalculateError": "Ошибка вычисления выражения \"%s\", строка %d входного набора",
+    "ExprCalculateErrorTrace": ", Трасса вызовов: \"%s\""
   },
   "components/calcdata/CalcItemChakra": {
     "ErrExprParse": "Ошибка разбора выражения \"%s\"",
@@ -659,6 +665,7 @@
     "ErrExprParse": "Ошибка разбора выражения \"%s\"",
     "ErrReplacingInputVariableNotFound": "Не найдена входная переменная для замены выражением \"%s\"",
     "ErrVarValueSet": "Ошибка при установке значения выражения \"%s\"",
+    "ExprCalculateErrorTrace": ", Трасса вызовов: \"%s\"",
     "ExprNameNotExists": "Выражения с именем \"%s\" не существует",
     "NameNotExists": "Входной переменной или выражения с именем \"%s\" не существует",
     "PreviewProcess": "Предварительный просмотр результатов вычислений",
@@ -758,6 +765,7 @@
     "ErrInputBinningMissValue": "Внешнее разбиение для столбца \"%s\" не содержит уникальное значение \"%s\"",
     "ErrInputBinningMissValues": "Внешнее разбиение содержит не все уникальные значения столбца \"%s\"",
     "ErrInputRangeDataSourceIsNotExist": "Источник данных с внешним разбиением отсутствует",
+    "ErrMoreThanOneTargetColumn": "Во входных данных более одного выходного поля",
     "ErrNoModel": "Модель не построена. Необходимо обучить узел перед применением",
     "InputRangesDataSource": "Внешние диапазоны квантования"
   },
@@ -1076,10 +1084,10 @@
     "ErrDatePeriodUndefined": "Не удалось определить временной промежуток",
     "ErrDateSourceTypeDataNotSupported": "Использование даты из набора данных для определении интервала времени не поддерживается",
     "ErrEmptyCompareValueList": "Не указан список значений",
-    "ErrIncorrectCompareLowerBound": "Введенное значение нижней границы не соответствует типу фильтруемого столбца",
-    "ErrIncorrectCompareUpperBound": "Введенное значение верхней границы не соответствует типу фильтруемого столбца",
-    "ErrIncorrectCompareValue": "Введенное значение не соответствует типу фильтруемого столбца",
-    "ErrIncorrectCompareValueList": "Значения списка не соответствуют типу фильтруемого столбца",
+    "ErrIncorrectCompareLowerBound": "Введенное значение нижней границы \"%s\" не соответствует типу фильтруемого столбца",
+    "ErrIncorrectCompareUpperBound": "Введенное значение верхней границы \"%s\" не соответствует типу фильтруемого столбца",
+    "ErrIncorrectCompareValue": "Введенное значение \"%s\" не соответствует типу фильтруемого столбца",
+    "ErrIncorrectCompareValueList": "Значение списка \"%s\" не соответствует типу фильтруемого столбца",
     "ErrIncorrectRelationType": "Тип отношения не соответствует типу фильтруемого столбца",
     "ErrNoConditions": "Нет ни одного условия фильтрации",
     "ErrRowNumberNotSupported": "Использование нумераторов строк не поддерживается",
@@ -1212,6 +1220,7 @@
     "VendorDesc": "Группировка данных"
   },
   "components/javascript/JavaScriptEngine": {
+    "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "InputDataSource": "Входной источник данных",
     "JavaScriptConfigureOutputTableProcess": "Подготовка выходных столбцов",
     "OutputDataSet": "Выходной набор данных"
@@ -1243,6 +1252,37 @@
     "VendorCaption": "Слияние",
     "VendorDescription": "Слияние двух наборов данных"
   },
+  "components/jointree/JoinTree": {
+    "ErrCannotSkipJoinedArrayRootNode": "Невозможно пропустить корневой узел присоединяемого дерева, который является массивом",
+    "ErrMainTreeNodeMustBeArray": "Связываемый узел основного дерева %s должен быть массивом",
+    "ErrMainTreeNodeMustBeContainer": "Связываемый узел основного дерева %s должен быть контейнером",
+    "ErrMainTreeNodeMustNotBeArray": "Связываемый узел основного дерева %s не должен быть массивом",
+    "ErrMainTreeNodeMustNotBeInsideArray": "Связываемый узел основного дерева %s не должен находиться в массиве",
+    "ErrMainTreeNodeNotAssigned": "Не указан связываемый узел основного дерева"
+  },
+  "components/jointree/JoinTreeVendor": {
+    "VendorCaption": "Слияние (дерево)",
+    "VendorDescription": "Слияние двух деревьев данных"
+  },
+  "components/jsontotree/JSONToTreeEngine": {
+    "ErrCannotExcludeRoot": "Нельзя исключить корневой узел JSON, если он является массивом или у него не один дочерний узел",
+    "ErrContainerNodeInfo": "Узел контейнера \"%s\" не может отобразить JSON значение не объектного типа",
+    "ErrEmptyTreeTemplate": "Не задано дерево при отключенном автоматическом определении структуры",
+    "ErrJSONIsNull": "Отсутствует строка с JSON значением",
+    "ErrNoSourceColumns": "Не указан столбец содержащий строку JSON",
+    "ErrNotArrayForMultipleRows": "Корневой узел должен быть массивом, если набор данных содержит несколько строк",
+    "ErrNotArrayNodeInfo": "Описание узла выходного дерева \"%s\" не является массивом",
+    "ErrNotArrayRootForEmptyData": "Корневой узел должен быть массивом, если набор данных не содержит ни одной строки",
+    "ErrNotExistNodeInfo": "Не найдено описание узла выходного дерева для JSON узла \"%s\"",
+    "ErrRootNotContainerAfterExclude": "Нельзя исключить корневой узел JSON, если его дочерний узел не является объектом или массивом объектов",
+    "ErrSoManySourceColumns": "Указано слишком много столбцов содержащих строку JSON",
+    "ErrUnexpectedJSONType": "Тип данных узла %s не соответствует обявленному типу %s",
+    "ParseError": "Ошибка парсинга на позиции %d: \"%s\""
+  },
+  "components/jsontotree/JSONToTreeVendor": {
+    "VendorCaption": "JSON в дерево",
+    "VendorDesc": "Формирование дерева данных из JSON-строк"
+  },
   "components/linregression/LinRegression": {
     "ErrWrongPreNormLength": "Размер пренормализированный строки %d отличается от номинального %d"
   },
@@ -1272,7 +1312,7 @@
     "ErrWrongOutputField": "Недопустимые свойства выходного поля \"%s\", вид данных \"%s\", тип данных \"%s\"",
     "FStatistic": "F-статистика",
     "Intercept": "<Константа>",
-    "LinRegTrainProcessName": "Построение модели",
+    "LinRegTrainProcess": "Построение модели",
     "LogLikelihood": "Логарифм функции правдоподобия",
     "ModelDF": "Число степеней свободы модели",
     "ModelPValue": "P-значение модели",
@@ -1297,16 +1337,16 @@
   "components/linregression/LinRegressionTasks": {
     "ErrNotLinRegTaskContext": "Внутренняя ошибка: контекст не является контекстом обучения модели линейной регрессии",
     "ErrWrongValidationPartitionCount": "Число валидационных разбиений должно быть больше 0 (заданное число разбиений = %d)",
-    "RegBackwardAssignProcessName": "Исключение фактора %s из финальной модели",
-    "RegBackwardStepProcessName": "Пошаговый отбор - исключение фактора %s",
+    "RegBackwardAssignProcess": "Исключение фактора %s из финальной модели",
+    "RegBackwardStepProcess": "Пошаговый отбор - исключение фактора %s",
     "RegFoldSetProcess": "Валидационное разбиение %d",
-    "RegForwardAssignProcessName": "Добавление фактора %s в финальную модель",
-    "RegForwardStepProcessName": "Пошаговый отбор - добавление фактора %s",
+    "RegForwardAssignProcess": "Добавление фактора %s в финальную модель",
+    "RegForwardStepProcess": "Пошаговый отбор - добавление фактора %s",
     "RegPrepareDataProcess": "Подготовка данных перед обучением",
-    "RegTrainElnetGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f коэффициент L2-регуляризации = %.4f)",
-    "RegTrainLassoGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f)",
-    "RegTrainProcessName": "Метод %s: обучение модели",
-    "RegTrainRidgeGridProcessName": "Построение модели (коэффициент L2-регуляризации = %.4f)",
+    "RegTrainElnetGridProcess": "Построение модели (коэффициент L1-регуляризации = %.4f коэффициент L2-регуляризации = %.4f)",
+    "RegTrainLassoGridProcess": "Построение модели (коэффициент L1-регуляризации = %.4f)",
+    "RegTrainProcess": "Метод %s: обучение модели",
+    "RegTrainRidgeGridProcess": "Построение модели (коэффициент L2-регуляризации = %.4f)",
     "ValidationProcess": "Валидация моделей"
   },
   "components/linregression/LinRegressionVendor": {
@@ -1351,8 +1391,8 @@
     "ErrWrongOutputUniqueCount": "Число уникальных значений выходной колонки \"%s\" равно %d (требуется ровно 2)",
     "ErrWrongProportionGeneralSet": "Доля событий в генеральном множестве должна быть больше 0 % и меньше 100 %",
     "Intercept": "<Константа>",
-    "LogRegStoreStatProcessName": "Расчет показателей качества",
-    "LogRegTrainProcessName": "Построение модели",
+    "LogRegStoreStatProcess": "Расчет показателей качества",
+    "LogRegTrainProcess": "Построение модели",
     "ModelDF": "Число степеней свободы модели",
     "ModelPValue": "P-значение модели",
     "NullMinusTwoLogL": "-2 Логарифма функции правдоподобия нулевой модели",
@@ -1395,16 +1435,16 @@
     "ErrNotLogRegTaskContext": "Внутренняя ошибка: контекст не является контекстом обучения модели лог. регрессии",
     "ErrTooManyWeightColumns": "Количество столбцов с весами не может быть больше 1",
     "ErrWrongValidationPartitionCount": "Число валидационных разбиений должно быть больше 0 (заданное число разбиений = %d)",
-    "RegBackwardAssignProcessName": "Исключение фактора %s из финальной модели",
-    "RegBackwardStepProcessName": "Пошаговый отбор - исключение фактора %s",
+    "RegBackwardAssignProcess": "Исключение фактора %s из финальной модели",
+    "RegBackwardStepProcess": "Пошаговый отбор - исключение фактора %s",
     "RegFoldSetProcess": "Валидационное разбиение %d",
-    "RegForwardAssignProcessName": "Добавление фактора %s в финальную модель",
-    "RegForwardStepProcessName": "Пошаговый отбор - добавление фактора %s",
+    "RegForwardAssignProcess": "Добавление фактора %s в финальную модель",
+    "RegForwardStepProcess": "Пошаговый отбор - добавление фактора %s",
     "RegPrepareDataProcess": "Подготовка данных перед обучением",
-    "RegTrainElnetGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f коэффициент L2-регуляризации = %.4f)",
-    "RegTrainLassoGridProcessName": "Построение модели (коэффициент L1-регуляризации = %.4f)",
-    "RegTrainProcessName": "Метод %s: обучение модели",
-    "RegTrainRidgeGridProcessName": "Построение модели (коэффициент L2-регуляризации = %.4f)",
+    "RegTrainElnetGridProcess": "Построение модели (коэффициент L1-регуляризации = %.4f коэффициент L2-регуляризации = %.4f)",
+    "RegTrainLassoGridProcess": "Построение модели (коэффициент L1-регуляризации = %.4f)",
+    "RegTrainProcess": "Метод %s: обучение модели",
+    "RegTrainRidgeGridProcess": "Построение модели (коэффициент L2-регуляризации = %.4f)",
     "ValidationProcess": "Валидация моделей"
   },
   "components/logregression/LogRegressionVendor": {
@@ -1412,6 +1452,10 @@
     "VendorDesc": "Логистическая регрессия"
   },
   "components/loop/LoopComponent": {
+    "ActivateWorkerProcess": "Активация вычислителя \"%s\"",
+    "AppendDataSetProcess": "Заполнение выходных наборов данных",
+    "CreateWorkerProcess": "Создание вычислителя №%d",
+    "CreateWorkersProcess": "Создание вычислителей",
     "ErrCannotSetLinkedVariables": "Недопустимая операция: изменение свойства LinkedVariables",
     "ErrColumnCountChanged": "Количество столбцов в наборе данных отличается от предыдущей итерации",
     "ErrColumnDataTypesChanged": "Типы данных столбцов в наборе данных отличаются от предыдущей итерации",
@@ -1437,16 +1481,15 @@
     "ErrSocketIsNotInputDataSourceSocket": "Порт \"%s\" не является входным портом, содержащим набор данных",
     "ErrSocketNotConfigured": "Порт \"%s\" не настроен",
     "ErrUnsupportedInputSocketType": "Порт \"%s\" имеет неподдерживаемый тип",
-    "IterationCaption": "Итерация №%d",
+    "GroupProcessingProcess": "Групповая обработка",
+    "InputDataSourceGroupingProcess": "Определение групп в исходном наборе данных",
     "IterationErrorDetailsFieldDisplayName": "Детальная информация об ошибке",
     "IterationErrorMessageFieldDisplayName": "Сообщение об ошибке",
     "IterationIdFieldDisplayName": "Идентификатор итерации",
+    "IterationProcess": "Итерация №%d",
     "IterationStatusSocketName": "Статус выполнения итераций",
     "IterationSuccessFlagFieldDisplayName": "Признак успешного завершения",
-    "ProcessActivate": "Активация компонента \"%s\"",
-    "ProcessAppendDataSet": "Заполнение выходных наборов данных",
-    "ProcessGroupProcessing": "Групповая обработка",
-    "ProcessInputDataSourceGrouping": "Определение групп в исходном наборе данных",
+    "PrepareWorkerProcess": "Подготовка вычислителя \"%s\"",
     "WarningTeachCriticalIterationCount": "Запущено обучение узла с количеством итераций %d. Обучение с большим количеством итераций может вызывать ошибку переполнения памяти."
   },
   "components/loop/LoopComponentVendor": {
@@ -1574,9 +1617,20 @@
     "VendorDesc": "Формирование тестового и обучающего множеств"
   },
   "components/python/PythonComponentSettings": {
+    "AutoDetect": "Определять автоматически",
+    "PythonAllowUnknownEnvs": "Разрешить неизвестные окружения",
+    "PythonContainerCLI": "Контейнерный CLI",
+    "PythonEnvironment": "Окружение",
+    "PythonEnvs": "Известные окружения",
+    "PythonEnvsEmptyText": "Только окружение по умолчанию",
     "PythonExe": "Путь интерпретатора",
     "PythonExePassEnv": "Передавать переменные окружения узла",
-    "PythonLib": "Путь библиотеки"
+    "PythonLib": "Путь библиотеки",
+    "PythonPyEnv": "Окружение по умолчанию (PY_ENV)",
+    "PythonPyEnvUsageType": "Использовать PY_ENV как",
+    "PythonPyEnvUsageTypeImage": "Имя образа",
+    "PythonPyEnvUsageTypeVEnv": "Путь venv",
+    "PythonRunInContainer": "Запускать в контейнере"
   },
   "components/python/PythonEngine": {
     "APP_ENVVAR": "LOGINOM",
@@ -1586,6 +1640,7 @@
     "ErrCurrentDirectory": "Не удалось определить текущую директорию",
     "ErrDisallowedExecution": "Выполнение Python запрещено параметрами безопасности",
     "ErrGetNativePath": "Не удалось получить путь в файловой системе по пути файлового хранилища \"%s\"",
+    "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "ErrPythonInProcessNotSupported": "Выполнение Python внутри процесса не поддерживается, Python запущен в отдельном процессе.",
     "InputPortOptional": "Входной порт необязательный",
     "OutputDataFrameExample": "Полученный выходной pd.DataFrame",
@@ -1608,8 +1663,11 @@
   "components/python/PythonExeEngineImpl": {
     "ErrCannotCreateProcess": "Не удалось запустить \"%s\"",
     "ErrInt32Overflow": "Значение %d выходит за границы допустимых значений 32-битного целого",
+    "ErrInvalidFile": "Невалидный файл \"%\"",
+    "ErrPythonDumpInputTableDataN": "Ошибка при записи данных входной таблицы #%d",
     "ErrPythonExeNotFound": "Путь интерпретатора Python, указанный в настройках приложения, не существует",
-    "ErrRowLimitExceeded": "Превышено ограничение на максимальное количество строк в таблице",
+    "ErrPythonLoadOutputTableN": "Ошибка при чтении выходной таблицы #%d",
+    "ErrPythonNotAllowedEnvironment": "Окружение \"%s\" не входит в список разрешённых",
     "PreviewProcess": "Предварительный просмотр данных",
     "PythonDumpDataProcess": "Запись входных данных",
     "PythonDumpInputTableDataNProcess": "Запись данных входной таблицы #%d",
@@ -1617,10 +1675,13 @@
     "PythonDumpInputTablesDataProcess": "Запись данных входных таблиц",
     "PythonExeFailed": "Выполнение интерпретатора Python завершилось с кодом ошибки %d",
     "PythonExeTerminatedBySignal": "Выполнение интерпретатора Python было прервано сигналом %d",
+    "PythonLoadOutputTableNProcess": "Чтение выходной таблицы #%d",
     "PythonLoadOutputTableProcess": "Чтение выходной таблицы",
+    "PythonLoadOutputTablesProcess": "Чтение выходных таблиц",
     "PythonScriptExecutionProcess": "Выполнение скрипта",
     "ShmBaseDir": "/dev/shm/loginom",
-    "WarnPreviewRunning": "Предпросмотр уже запущен"
+    "WarnPreviewRunning": "Предпросмотр уже запущен",
+    "WarnPythonKilledByTimeout": "Процесс интерпретатора Python принудительно остановлен по истечнии тайм-аута отмены"
   },
   "components/python/PythonInterface": {
     "ErrPythonDllNotUnloaded": "Не удалось выгрузить библиотеку \"%s\" из памяти процесса",
@@ -1715,6 +1776,7 @@
     "ErrNoParamFmt": "Поле входного набора \"%s\" назначено несуществующему параметру \"%s\"",
     "ErrNotCompatibleMessageBodyFmt": "Тип данных поля входного набора \"%s\" несовместим с телом запроса",
     "ErrNotCompatibleParamDataTypeFmt": "Тип данных поля входного набора \"%s\" несовместим с параметром \"%s\"",
+    "ExecTimeoutExpired": "Время ожидания выполнения истекло.",
     "HttpStatusCodeColumn": "Код состояния HTTP",
     "OutputDataSet": "Ответ сервиса",
     "RequestIDOutputColumn": "Идентификатор запроса",
@@ -1723,7 +1785,7 @@
     "RESTClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки %d входного набора: %s"
   },
   "components/restclient/RESTClientSend": {
-    "ErrCodePageNotSupported": "Кодовая страница \"%s\" не поддерживается",
+    "ErrCharsetNotSupported": "Кодировка символов \"%s\" ответа HTTP не поддерживается",
     "ErrHTTPHeaderRedefined": "Заголовок \"%s\" уже присутствует в запросе",
     "ErrNotAcceptableResponseContentType": "Получен недопустимый Content-Type: \"%s\", ожидается: \"%s\""
   },
@@ -1789,6 +1851,30 @@
     "VendorCaption": "Сортировка",
     "VendorDesc": "Сортировка данных"
   },
+  "components/sqlscript/SQLScriptEngine": {
+    "ConnectProcess": "Подключение к БД",
+    "ErrCodeDisplayName": "Код завершения",
+    "ErrExecQuery": "Ошибка при выполнении запроса к базе данных.",
+    "ErrInSubCommand": "Ошибка при выполнении %d-й команды скрипта",
+    "ErrMsgDisplayName": "Сообщение об ошибке",
+    "ErrNotConnectedToDatabase": "Не установлено соединение с базой данных",
+    "ErrSQLNotSpecified": "Не указан текст SQL-запроса",
+    "ErrSuccessMsg": "Успешное завершение",
+    "ExecQueryProcess": "Выполнение SQL скрипта",
+    "ExecTimeoutExpired": "Время ожидания выполнения истекло.",
+    "GetTablesProcess": "Получение списка таблиц",
+    "ProcessDataProcess": "Итерации по строкам входных данных",
+    "RowNumberDisplayName": "Номер строки данных",
+    "SQLScriptOutputDataSet": "Ошибки",
+    "SQLScriptWarnIdenticalMacro": "Имя подстановки \"%s\" одновременно совпадает с именем поля источника данных и переменной. Используется значение поля.",
+    "SQLScriptWarnIdenticalParam": "Имя параметра \"%s\" одновременно совпадает с именем поля источника данных и переменной. Используется значение поля.",
+    "WarnDBConnectionIsBusy": "Подключение к БД занято"
+  },
+  "components/sqlscript/SQLScriptVendor": {
+    "SQLScriptOutputDataSet": "Ошибки",
+    "VendorCaption": "SQL-скрипт",
+    "VendorDesc": "Выполнение SQL скриптов через настроенное подключение к базе данных"
+  },
   "components/treetodata/TreeToDataEngine": {
     "ComputeRowCountProcess": "Расчёт количества строк",
     "ErrInvalidGlobalIndexDataType": "Недопустимый тип данных глобального индекса узла: %s",
@@ -1804,6 +1890,14 @@
   "components/treetodata/TreeToDataVendor": {
     "VendorCaption": "Дерево в таблицу",
     "VendorDesc": "Формирование таблицы данных из дерева данных"
+  },
+  "components/treetojson/TreeToJSONEngine": {
+    "ErrExcludeMultipleRoot": "Корневой узел не может быть исключен так как он является массивом в строке JSON",
+    "ErrExcludeNotContainerRoot": "Корневой узел не может быть исключен так как он не является контейнером с одним узлом"
+  },
+  "components/treetojson/TreeToJSONVendor": {
+    "VendorCaption": "Дерево в JSON",
+    "VendorDesc": "Формирование строк JSON из дерева данных"
   },
   "components/ungroupdata/UngroupData": {
     "ConfidenceBandLowerDisplayName": "Нижняя граница 95% ДИ",
@@ -1884,6 +1978,17 @@
     "VendorCaption": "Объединение",
     "VendorDescription": "Объединение нескольких наборов данных"
   },
+  "components/uniontree/UnionTree": {
+    "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
+    "ErrNoActiveInputs": "Нет ни одного активного входа",
+    "ErrRowCountExceedMaxValue": "Количество строк результирующего дерева превысило максимальное значение %d",
+    "JoinedDataTree": "Присоединяемое дерево",
+    "MainDataTree": "Главное дерево"
+  },
+  "components/uniontree/UnionTreeVendor": {
+    "VendorCaption": "Объединение (дерево)",
+    "VendorDescription": "Объединение нескольких деревьев данных"
+  },
   "components/unionvariables/UnionVariables": {
     "ErrNoActiveInputs": "Нет ни одного активного входа",
     "InputJoinedVariables": "Добавляемые переменные",
@@ -1953,10 +2058,12 @@
     "ConnectProcess": "Подключение к БД",
     "CreateTableProcess": "Создание таблицы",
     "DeleteFromTableNotify": "Удаление записей из таблицы",
+    "DropTableIfExistsProcess": "Удаление существующей таблицы",
     "ErrCodeDisplayName": "Код завершения",
     "ErrColumnNotFound": "В источнике данных не найдена колонка \"%s\"",
     "ErrColumnTypesMismatch": "Тип столбца \"%s\" не совместим с типом исходного столбца \"%s\"",
     "ErrDataSourceSelect": "Не указано ни одного соответствия с источником данных",
+    "ErrDeleteNotSupported": "Операция удаления записей не поддерживается текущей базой данных",
     "ErrDuringExportError": "Ошибка при выполнении экспорта в БД",
     "ErrExecQuery": "Ошибка при выполнении запроса к базе данных.",
     "ErrFieldForDeleteNotSelected": "Не указано ни одного поля, по которому необходимо удалить данные",
@@ -1973,7 +2080,11 @@
     "ErrUpdateNotSupported": "Операция обновления записей по ключу не поддерживается текущей базой данных",
     "ExecQueryProcess": "Выполнение запроса",
     "GetTablesProcess": "Получение списка таблиц",
+    "GetTypeInfoProcess": "Получение информации о типах данных",
     "GroupDataNotify": "Группировка данных",
+    "InfoParamSetsLowerBound": "число строк в пачке меньше %d",
+    "InfoSwitchToInsert": "Переключение на добавление записей через INSERT. Причина: ",
+    "RecreateTableProcess": "Пересоздание таблицы",
     "ResultStatusVariables": "Статус выполнения",
     "TruncateTableNotify": "Выполнение TRUNCATE таблицы",
     "UpdateRecordsNotify": "Обновить существующие записи в таблице",
@@ -2128,11 +2239,13 @@
     "ErrLoadSheetData": "Не удалось получить данные листа Excel"
   },
   "imports/excelfile/ImportExcelFile": {
+    "AutoDetectColumnsProcess": "Автоопределение новых столбцов",
     "ErrBooleanTypeCast": "В поле \"%s\" значение \"%s\" не удалось преобразовать к логическому значению.",
     "ErrColumnExcistFmt": "Поле с именем \"%s\" уже существует",
     "ErrColumnInvalidIdentFmt": "Имя \"%s\" не может являться идентификатором",
     "ErrExcelNotOpen": "Не удалось выполнить операцию, файл Excel не открыт",
     "ErrGetRealRange": "Файл excel не открыт. По текущим настройкам невозможно определить диапазон для импорта данных",
+    "ErrIncorrectMaxThreadCount": "Максимальное количество потоков должно быть не меньше %d",
     "ErrInvalidExplicitRange": "Диапазон задан не верно",
     "ErrNoUsedRange": "Ошибка книги Excel, диапазон листа задан некорректно",
     "ErrOpenExcelBook": "Не удалось открыть Excel файл %s",
@@ -2145,9 +2258,10 @@
     "ErrPropSheetNumber": "Индекс листа Excel задан некорректно",
     "ErrSheet": "Не удалось найти лист Excel",
     "ErrSuggestRange": "Файл excel не открыт. По текущим настройкам невозможно определить количество столбцов для импорта",
-    "ProcessCaptionOpenExcelFile": "Открытие файла",
-    "ProcessCaptionReadData": "Чтение данных",
-    "ProcessCaptionReadMetadata": "Чтение метаданных файла"
+    "OpenExcelFileProcess": "Открытие файла",
+    "ReadDataProcess": "Чтение данных",
+    "ReadMetadataFilesProcess": "Чтение метаданных файлов",
+    "ReadMetadataProcess": "Чтение метаданных файла"
   },
   "imports/excelfile/ImportExcelFileVendor": {
     "VendorCaption": "Excel файл",
@@ -2237,9 +2351,11 @@
     "ChecksumError": "Ошибка контрольной суммы"
   },
   "imports/textfile/ImportTextFile": {
+    "AutoDetectColumnsProcess": "Автоопределение новых столбцов",
     "ErrBooleanTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к логическому значению.",
     "ErrDateTimeTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к дате/времени.",
     "ErrFloatTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к вещественному числу.",
+    "ErrIncorrectMaxThreadCount": "Максимальное количество потоков должно быть не меньше %d",
     "ErrIntegerTypeCast": "В колонке \"%s\" значение \"%s\" не удалось преобразовать к целому числу.",
     "ErrMaxBytesCountReaded": "При разборе текстового файла достигнут предел чтения (максимальное количество байт: %d)",
     "ErrMaxMultilineLengthReaded": "При разборе текстового файла мультистрока превысила максимальную длину %d символа раньше, чем был найден закрывающий ограничитель строк. Номер строки файла с началом мультистроки: %d. Последняя строка файла, вошедшая в мультистроку: %d.",
@@ -2247,7 +2363,8 @@
     "ErrParseFmt": "При разборе строки %d возникла ошибка: %s",
     "ErrUnsupportedCodePage": "Кодовая страница %d не поддерживается",
     "ErrUsedColumnDefsNotSpecified": "Импортируемые поля не определены",
-    "PrimaryKeyDisplayName": "<Ключ>"
+    "PrimaryKeyDisplayName": "<Ключ>",
+    "ReadDataProcess": "Чтение данных"
   },
   "imports/textfile/ImportTextFileVendor": {
     "VendorCaption": "Текстовый файл",
@@ -2288,6 +2405,7 @@
   "Libraries/bgdbrtl/ClickHouse/ClickHouseBlockReader": {
     "ErrColOutOfRange": "Номер столбца %d вне диапазона [%d, %d]",
     "ErrFetch": "Ошибка при чтении набора данных",
+    "ErrGetClusters": "Не удалось получить список доступных кластеров",
     "ErrGetFieldDesc": "Не удалось получить описания полей для таблицы \"%s\"",
     "ErrNoSuchSetting": "Параметр конфигурации с именем \"%s\" не существует",
     "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]"
@@ -2306,19 +2424,19 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
     "DatabaseTypeName": "ClickHouse",
-    "ErrColumnNotFound": "Столбец \"%s\" не найден в целевой таблице",
-    "ErrInsertDataFormatUnsupported": "Формат данных \"%s\" в INSERT не поддерживается",
-    "ErrInsertFormatUnsupported": "Используемый формат INSERT не поддерживается",
-    "ErrInsertParamsInvalidCount": "Не совпадает число полей таблицы и параметров",
-    "ErrInsertUnsupported": "Выполнение INSERT не поддерживается, ожидается SELECT запрос",
-    "ErrInsertValuesUnsupported": "Поддерживается только параметризованный INSERT",
+    "ErrInsertNoValues": "INSERT не содержит значений",
     "ErrNotOwnSession": "Сессия не принадлежит базе данных",
-    "ErrStoredProcUnsupported": "ClickHouse не поддерживает хранимые процедуры"
+    "ErrStoredProcUnsupported": "ClickHouse не поддерживает хранимые процедуры",
+    "ErrTruncateDistributedTableForbidden": "TRUNCATE запрещено: таблица с Engine = Distributed создана на кластере \"%s\" (выбран \"%s\")",
+    "GetClustersProcess": "Получение списка кластеров"
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDBUtils": {
     "ErrClickHouse": "Ошибка ClickHouse: %s",
     "ErrDate32OutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s, %s)",
     "ErrDateOutOfRange": "Дата %s выходит за пределы допустимого диапазона [%s, %s]"
+  },
+  "Libraries/bgdbrtl/ClickHouse/ClickHouseDeleteHelper": {
+    "ErrDeleteFromDistributedTableForbidden": "Удаление запрещено: таблица с Engine = Distributed создана на кластере \"%s\" (выбран \"%s\")"
   },
   "Libraries/bgdbrtl/DB": {
     "ConnectionTimeout": "Тайм-аут подключения",
@@ -2335,6 +2453,7 @@
     "ErrIncorrectServer": "Сервер указан неверно",
     "ErrIndexColumnsNotSelect": "Не указаны столбцы по которым необходимо сделать индекс",
     "ErrLocalDBForbidden": "Подключения к локальным БД сервера запрещены",
+    "ErrLoginPromptDisabled": "Текущему пользователю запрещено отключать запрос пароля",
     "ErrLoginTimeout": "Время ожидания ввода логина и пароля для подключения истекло",
     "ErrOpenQuery": "Ошибка открытия SQL:\n%s",
     "ErrParameterTypesDoNotMatch": "Типы параметров не совпадают",
@@ -2351,6 +2470,7 @@
   },
   "Libraries/bgdbrtl/DBSSL": {
     "DecryptPrivateKey": "Ошибка при дешифрации закрытого ключа",
+    "ErrCertCheckModeUnsupported": "Указанный режим \"%s\" проверки сертификата сервера не поддерживается",
     "ErrFileNoAccess": "Файл \"%s\" недоступен",
     "ErrFileNotFound": "Файл \"%s\" не найден",
     "ErrGetFileStorage": "Отсутствует ссылка на файловое хранилище",
@@ -2390,6 +2510,7 @@
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
     "APP_ENVVAR": "LOGINOM",
     "DatabaseTypeName": "MS SQL (OLE DB)",
+    "ErrDriverNotInstalled": "Драйвер \"%s\" не установлен",
     "ErrMSSQLODBCDriverUnknown": "Неизвестный ODBC-драйвер для подключения к SQL Server (%s=%s). Подходящий драйвер будет выбран автоматически."
   },
   "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
@@ -2406,13 +2527,19 @@
   "Libraries/bgdbrtl/UniDAC/ODBCUniDACDB": {
     "DatabaseTypeName": "ODBC",
     "ErrDriverDoesNotSupportQuotes": "Источник данных не поддерживает идентификаторы в кавычках, драйвер \"%s\"",
-    "ErrFileDSNForbidden": "Подключения через файловые DSN запрещены"
+    "ErrFileDSNForbidden": "Подключения через файловые DSN запрещены",
+    "WarnRetrieveFieldTypeInfo": "Не удалось получить информацию о типах полей таблиц"
   },
   "Libraries/bgdbrtl/UniDAC/OracleUniDACDB": {
     "DatabaseTypeName": "Oracle"
   },
   "Libraries/bgdbrtl/UniDAC/PostgresUniDACDB": {
-    "DatabaseTypeName": "PostgreSQL"
+    "DatabaseTypeName": "PostgreSQL",
+    "InfoSwitchToInsert": "Переключение на добавление записей через INSERT. Причина: ",
+    "InfoTableUnsupportedTypes": "%s имеет неподдерживаемые типы данных",
+    "InfoTableWithRules": "таблица %s имеет заданное правило (RULE)",
+    "InfoViewNotTable": "%s не является таблицей",
+    "WarnTableRulesWillbeIgnored": "Установленные на таблицу %s правила (RULE) будут проигнорированы"
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
     "DatabaseTypeName": "SQLite",
@@ -2420,6 +2547,7 @@
     "ErrFileNoAccess": "Файл \"%s\" недоступен",
     "ErrIncorrectFileName": "Имя файла указано неверно, запрещены символы: %s",
     "ErrNotCursor": "Последняя команда в SQL-скрипте не возвращает курсор",
+    "ErrUnableToLoadSQLiteExtension": "Не удалось загрузить расширение SQLite \"%s\"",
     "SQLiteError": "Ошибка SQLite: ",
     "SQLiteFuncOverridingNotSupported": "Переопределение функций для версий SQLite ниже 3.7.3 не поддерживается"
   },
@@ -2443,7 +2571,14 @@
     "ErrSubSetPowerIsZerro": "Попытка извлечения всех подмножеств с мощностью меньше 0 или больше мощности самого множества"
   },
   "Libraries/bgrtl/CachedDataSet": {
-    "ErrRowCountLimitReached": "Достигнут предел максимального кол-ва строк"
+    "ErrBlockIsNotFill": "Блоки объединённого набора не были заполнены",
+    "ErrBlockUnionDataSetNotExist": "Запрошенный блок объединённого набора не существует",
+    "ErrBlockUnionDataSetRange": "Выход за пределы выделенного блока в объединённом наборе данных",
+    "ErrPartUnionDataSetNotExist": "Запрошенная часть объединённого набора не существует",
+    "ErrRowCountLimitReached": "Достигнут предел максимального кол-ва строк",
+    "ErrTargetHeapIsLoad": "Куча целевого набора уже загружена",
+    "ErrUnionDataSetIsNotPrepared": "Объединённый набор данных не подготовлен к заполнению",
+    "ErrUnionDataSetIsPrepared": "Объединённый набор данных уже подготовлен к заполнению"
   },
   "Libraries/bgrtl/CachedDataTree": {
     "ErrCannotGetForeignKey": "Невозможно получить внешний ключ для узла с идентификатором %d: узел не является массивом",
@@ -2546,11 +2681,26 @@
     "ErrIsNotAncestorNode": "Узел \"%s\" не является предком узла \"%s\"",
     "ErrUnexpectedEndUpdate": "Нельзя вызвать метод EndUpdate предварительно не вызвав BeginUpdate"
   },
+  "Libraries/bgrtl/DataTreeCommon": {
+    "ErrCannotGetContainerExists": "Невозможно получить признак существования контейнера для узла с идентификатором %d: узел не является контейнером",
+    "ErrCannotGetForeignKey": "Невозможно получить внешний ключ для узла с идентификатором %d: узел не является массивом",
+    "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
+    "ErrCannotGetRowRange": "Невозможно получить диапазон строк для узла с идентификатором %d: узел не является массивом"
+  },
+  "Libraries/bgrtl/DataTreeJSONNodeDefsBuilder": {
+    "ErrJSONFileRead": "Ошибка при чтении файла \"%s\"",
+    "ErrJSONIsArrayChanged": "Узел %s в одном из полей JSON объявлен как массив, а в другом нет",
+    "ErrJSONIsObjectChanged": "Узел %s в одном из полей JSON объявлен как контейнер, а в другом нет",
+    "ErrJSONOverSize": "Превышение допустимого размера JSON",
+    "ErrRootNotContainer": "Корень JSON не является объектом или массивом объектов",
+    "ParseError": "Ошибка парсинга на позиции %d: \"%s\""
+  },
   "Libraries/bgrtl/DataTreeNodeDefs": {
     "ErrCannotInitializeNodeWithDifferentContainerFlag": "Невозможно проинициализировать узел из исходного, который отличается значением признака контейнера",
     "ErrChangeDataKindNotAllowed": "Невозможно изменить вид данных узла, который является контейнером",
     "ErrChangeDataTypeNotAllowed": "Невозможно изменить тип данных узла, который является контейнером",
     "ErrChangeIsContainerNotAllowed": "Невозможно изменить признак контейнера у узла, который является корневым или содержит дочерние узлы",
+    "ErrDuplicateExcludedNodes": "В списке исключений найдены дубликаты: %s",
     "ErrNodeCantBeContinuous": "Узел \"%s\" типа \"%s\" не может быть непрерывным",
     "ErrOnlyContainerNodeCanHaveSubNodes": "Только узел, являющийся контейнером, может содержать дочерние узлы",
     "RootNodeDisplayName": "Root"
@@ -2558,6 +2708,11 @@
   "Libraries/bgrtl/DataTreeNodeDefsVendor": {
     "ErrInvalidUsageType": "Назначение \"%s\" недопустимо для настраиваемого узла \"%s\"",
     "ErrNodeTypesMismatch": "Тип узла %s не совместим с типом исходного узла %s"
+  },
+  "Libraries/bgrtl/DataTreeNodeInfoLinks": {
+    "ErrLinkedNodeInfoNotFound": "Узел по пути %s не найден",
+    "ErrLinkedNodeInfoNotSpecified": "Ссылка на узел не задана",
+    "ErrLinkedNodeInfoTypesMismatch": "Тип узла %s не совместим с типом исходного узла"
   },
   "Libraries/bgrtl/DateUtils": {
     "AvailableData": "имеющихся данных",
@@ -2605,9 +2760,6 @@
     "ErrTargetColumnWithoutSource": "Выходному столбцу %s не сопоставлен входной столбец"
   },
   "Libraries/bgrtl/DerivedDataTree": {
-    "ErrCannotGetForeignKey": "Невозможно получить внешний ключ для узла с идентификатором %d: узел не является массивом",
-    "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
-    "ErrCannotGetRowRange": "Невозможно получить диапазон строк для узла с идентификатором %d: узел не является массивом",
     "ErrInvalidNodeInfoID": "Недопустимый идентификатор узла: %d",
     "ErrNodeTypesMismatch": "Тип узла %s не совместим с типом исходного узла %s",
     "ErrNoMappingForRequiredNode": "Обязательному входному узлу %s не сопоставлен выходной",
@@ -2646,6 +2798,7 @@
     "ErrInvalidIndex": "Значение индекса %d параметра \"%s\" вне диапазона [%d, %d]",
     "ErrInvalidMethodParam": "Недопустимое значение параметра %s метода %s: \"%s\"",
     "ErrInvalidParam": "Недопустимое значение параметра %s: \"%s\"",
+    "ErrInvalidParams": "Недопустимые значения параметров",
     "ErrMethodParamIsNull": "Параметр %s метода %s должен быть проинициализирован",
     "ErrMustGreaterOrEqualThan": "Значение %g параметра \"%s\" должно быть больше или равно %g",
     "ErrMustGreaterOrEqualThanInt": "Значение %d параметра \"%s\" должно быть больше или равно %d",
@@ -2753,7 +2906,7 @@
     "WSDLFilesDesc": "Файлы описания веб-сервиса",
     "XlsbFilesDesc": "Двоичная книга Excel 2007",
     "XlsFilesDesc": "Файлы MS Excel",
-    "XlsmFilesDesc": "Двоичная книга Excel 2007 с поддержкой макросов",
+    "XlsmFilesDesc": "Книга Excel 2007 с поддержкой макросов",
     "XlsxFilesDesc": "Книга Excel 2007",
     "XMLFilesDesc": "Файлы XML",
     "XSDFilesDesc": "Файлы XML-схемы",
@@ -2761,7 +2914,6 @@
   },
   "Libraries/bgrtl/FileStorageEngine": {
     "ErrCreateDirectory": "Невозможно создать директорию: %s",
-    "ErrCreateFile": "Невозможно создать файл: %s",
     "ErrDirectoryAlreadyMounted": "Директория с именем %s уже смонтирована",
     "ErrDirectoryNotExist": "Директория \"%s\" не существует",
     "ErrFileAccess": "Ошибка доступа к файлу: %s",
@@ -2772,7 +2924,6 @@
     "ErrInvalidMountedDirectoryName": "Недопустимое имя монтируемой директории: %s",
     "ErrMountedDirectoryPathIsNotAbsolutePath": "Указанный путь к монтируемой директории не является абсолютным путём: \"%s\"",
     "ErrNoMountedDirectories": "Не смонтировано ни одной директории",
-    "ErrOpenFile": "Невозможно открыть файл: %s",
     "ErrParentFileStorageNotConnected": "Корневое хранилище файлов не подключено",
     "ErrTestConnection": "Ошибка проверки подключения:\n%s"
   },
@@ -2805,6 +2956,19 @@
     "ErrStreamWriteBufferInvalidParams": "Недопустимые значения параметров при записи в поток данных: Length = %d; Count = %d; Offset = %d",
     "ErrStreamWriteBufferLength": "При записи в поток данных размер исходного буфера %d меньше чем число байт необходимое для записи %d"
   },
+  "Libraries/bgrtl/JSONParser": {
+    "ErrJSONAddNode": "Ошибка добавления JSON узла",
+    "ErrJSONBadArray": "Некорректный JSON массив",
+    "ErrJSONBadNumber": "Некорректное JSON число",
+    "ErrJSONBadObject": "Некорректный JSON объект",
+    "ErrJSONBadString": "Некорректная JSON строка",
+    "ErrJSONBadWord": "Недопустимое значение \"%s\"",
+    "ErrJSONSyntax": "Ошибка парсинга JSON",
+    "ErrJSONUnexpectedChar": "Получен символ %s вместо ожидаемого %s",
+    "ErrJSONUnknownValue": "Неопределенное JSON значение",
+    "ErrParserNotInited": "Парсер JSON не инициализирован",
+    "InvalidDateTimeTemplate": "Недопустимый шаблон даты времени \"%s\""
+  },
   "Libraries/bgrtl/LocaleUtils": {
     "ErrLocaleNotSupported": "Локаль \"%s\" не поддерживается",
     "LocaleName": "Локаль"
@@ -2825,6 +2989,9 @@
     "ErrActionCookieInvalidOwner": "Cookie действия объекта принадлежит другому объекту",
     "ErrActionNotBeginning": "Действие не начато",
     "ErrOwnerDiposedBeforeActionCookie": "Объект удалён раньше, чем Cookie действия объекта"
+  },
+  "Libraries/bgrtl/Patterns": {
+    "ErrDuplicatePatterns": "Найдены правила с одинаковыми параметрами (дубликаты)"
   },
   "Libraries/bgrtl/ProgressTracker": {
     "ErrCannotChangeMaxSavedProcessCount": "Невозможно изменить максимальное количество сохранённых процессов: буфер сохранённых процессов уже используется",
@@ -2891,6 +3058,7 @@
     "ErrInvalidBoolean": "Строка \"%s\" не может быть преобразована в значение логического типа",
     "ErrInvalidFloat": "Строка \"%s\" не может быть преобразована в значение вещественного типа",
     "ErrInvalidHexStr": "Строка \"%s\" не является правильным представлением шестнадцатеричного числа",
+    "ErrOverSizeBuild": "Размер создаваемой строки превысил максимальный в 2Гб",
     "LocaleInvariant": "Инвариантная",
     "NotSet": "Явно не задана",
     "NullValue": "<Null>"
@@ -2932,9 +3100,11 @@
   },
   "Libraries/bgrtl/SysUtils": {
     "ErrCopyPasteRecursive": "Папка \"%s\" не может быть скопирована сама в себя",
+    "ErrCreateFile": "Невозможно создать файл: \"%s\"",
     "ErrCutPasteRecursive": "Папка \"%s\" не может быть перемещена сама в себя",
     "ErrDirectoryNotExists": "Папка \"%s\" не существует",
-    "ErrFileMapping": "Ошибка мэппинга файла \"%s\""
+    "ErrFileMapping": "Ошибка мэппинга файла \"%s\"",
+    "ErrOpenFile": "Невозможно открыть файл: \"%s\""
   },
   "Libraries/bgrtl/TextStream": {
     "ErrBadUnicodeStream": "Исходный поток данных имеет неправильный Unicode формат",
@@ -3117,7 +3287,6 @@
     "ErrConfigElementByNameNotFound": "Элемент конфигурации с именем %s не найден",
     "ErrRefToClassNotInitOrWrongClass": "Ссылка на коллекцию не проинициализирована или неверного класса",
     "ErrUnmatchedAttrType": "Обращение к значению атрибута %s типа %s как к значению типа %s",
-    "ErrUnsupportedPropertyType": "Неподдерживаемый тип свойства.",
     "ErrVectorLengthOverflow": "Длина %d массива превышает допустимую границу %d",
     "ErrWrongElementsClass": "Неверный класс списка узлов конфигурации"
   },
@@ -3325,6 +3494,7 @@
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "Имя файла не может быть пустым",
     "ErrFileNotFound": "Файл \"%s\" не найден",
+    "ErrFoundFileNames": "Не удалось подготовить имена файлов",
     "ErrStorageIsNull": "Файловое хранилище не задано",
     "FileNameDisplayName": "Имя файла",
     "FileTimeDisplayName": "Время модификации"
@@ -3359,6 +3529,7 @@
     "FullNameAttribute": "Атрибут полного имени",
     "Host": "Хост",
     "NameAttribute": "Атрибут имени",
+    "NoCheckCertificate": "Не проверять сертификат сервера",
     "Password": "Пароль",
     "Port": "Порт",
     "UseSASL": "Использовать SASL"
@@ -3472,9 +3643,18 @@
     "ErrNoReferencedConnection": "Узел \"%s\" не ссылается ни на одно подключение",
     "ReplaceReferenceWithDerivedCaption": "Узел подключения \"%s\" заменен производным узлом"
   },
+  "Libraries/Model/DataSet/ConnectionDataSourceModelComponentEngine": {
+    "InputConnection": "Подключение",
+    "InputDataSource": "Источник данных",
+    "OutputDataSet": "Набор данных"
+  },
   "Libraries/Model/DataSet/DataSourceModelComponentEngine": {
     "InputDataSource": "Входной источник данных",
     "OutputDataSource": "Выходной набор данных"
+  },
+  "Libraries/Model/DataSet/DataSourceMultiInputDataSetMultiOutputModelComponentEngine": {
+    "InputDataSource": "Входной источник данных",
+    "OutputDataSet": "Выходной набор данных"
   },
   "Libraries/Model/DataSet/DataSourceMultiInputDataSetOutputModelComponentEngine": {
     "InputDataSource": "Входной источник данных",
@@ -3492,7 +3672,7 @@
     "Columns": "Столбцов",
     "Rows": "Строк"
   },
-  "Libraries/Model/DataSet/DataSourceVariablesMultiInputDataSetOutputModelComponentEngine": {
+  "Libraries/Model/DataSet/DataSourceVariablesMultiInputDataSetMultiOutputModelComponentEngine": {
     "InputVariables": "Входные переменные"
   },
   "Libraries/Model/DataSet/DataSourceVariablesMultiInputModelComponentEngine": {
@@ -3507,6 +3687,7 @@
     "InputDataSource": "Источник данных"
   },
   "Libraries/Model/DataSet/ImportModelComponentEngine": {
+    "ErrParallelImportError": "При параллельном импорте возникла ошибка",
     "InputConnection": "Подключение",
     "OutputDataSet": "Набор данных"
   },
@@ -3520,6 +3701,10 @@
     "ErrFieldInfoDoesNotBelongToComponent": "Поле \"%s\" не принадлежит текущему компоненту"
   },
   "Libraries/Model/DataTree/DataTreeModelComponentEngine": {
+    "InputDataTree": "Входное дерево данных",
+    "OutputDataTree": "Выходное дерево данных"
+  },
+  "Libraries/Model/DataTree/DataTreeMultiInputModelComponentEngine": {
     "InputDataTree": "Входное дерево данных",
     "OutputDataTree": "Выходное дерево данных"
   },
@@ -3693,6 +3878,7 @@
     "ErrPackageNameInvalidFirstCharacter": "Имя пакета \"%s\" начинается с недопустимого символа \"%s\"",
     "ErrPackageNotFoundByFileName": "Не удалось найти пакет %s",
     "ErrPackageWithNameLinkAlreadyExists": "Ссылка на пакет с именем \"%s\" уже существует",
+    "ErrReviveExceptions": "При восстановлении ссылки на пакет с именем %s и версией %s возникли ошибки",
     "ErrVariableNamesAndValuesCountMustBeEqual": "Количество имён и значений переменных должно быть одинаковым",
     "ErrVariableNotFound": "Переменная с именем \"%s\" не найдена",
     "ErrVariableValuesMustBeInOneArray": "Значения переменных должны содержаться только в одном массиве",
@@ -3765,10 +3951,12 @@
     "ActivateModelNodeInputsProcess": "Активация входов узла",
     "ActivateModelNodesProcess": "Активация узлов",
     "AddInputSocketCaption": "Добавлен вход \"%s\" к узлу \"%s\"",
+    "AddOutputSocketCaption": "Добавлен выход \"%s\" к узлу \"%s\"",
     "ComponentOutputPort": "Компонент",
     "CopyNodeCaption": "Скопирован элемент \"%s\"",
     "DeleteElementsCaption": "Удалены элементы",
     "DeleteInputSocketCaption": "Удален вход \"%s\" узла \"%s\"",
+    "DeleteOutputSocketCaption": "Удален выход \"%s\" узла \"%s\"",
     "DependentNodeOutputPort": "Зависимые узлы",
     "ErrActivateFromWebServiceCanceled": "Обработка запроса отменена",
     "ErrActivateModelNodes": "При активации узлов возникла ошибка",
@@ -4023,7 +4211,7 @@
   },
   "Libraries/Normalization/TunedNormParamsProvider": {
     "ErrInvalidColumn": "Для столбца \"%s\" нет доступных типов нормализации",
-    "ErrInvalidFactorIndex": "Недопустимый индекс фактора %d (доступный диапазон [%d;%d])",
+    "ErrInvalidFactorIndex": "Недопустимый индекс фактора %d (доступный диапазон [%d, %d])",
     "ErrNotImplemented": "Данный функционал не реализован",
     "ErrProcessKeptStatisticsChangedUniqueValues": "Список уникальных значений для столбца \"%s\" изменился, требуется перенастройка компонента",
     "ErrStatIndicatorsNeddedIndexOutRange": "Недопустимый индекс запрашиваемых стат. показателей",
@@ -4049,7 +4237,8 @@
     "ErrNotImplemented": "Данный функционал не реализован"
   },
   "Libraries/OpenID/OpenID": {
-    "InvalidToken": "Ошибочный токен",
+    "InvalidTokenResponce": "При запросе токена ответ не является JSON который содержит токен",
+    "MissingClaim": "Токен не содержит клейм %s",
     "TokenNotIncludeRolesClame": "Токен не содержит списка ролей с клеймом %s",
     "TokenRequestError": "Ошибка получения токена. %s"
   },
@@ -4060,11 +4249,13 @@
     "ClaimsToVariables": "Клеймы, извлекаемые в переменные",
     "DefaultUserRole": "Роль нового пользователя",
     "FoldersClaim": "Клейм списка общих папок",
+    "NoCheckCertificate": "Не проверять сертификат сервера",
     "OpenIDClient": "Идентификатор клиента",
     "OpenIDProviderName": "Текст кнопки входа",
     "OpenIDScope": "Область видимости",
     "OpenIDSecret": "Ключ клиента",
     "RedirectURI": "Адрес получателя токена",
+    "ResponseMode": "Формат ответа на запрос аутентификации",
     "RolesClaim": "Клейм списка ролей",
     "TokenEndpoint": "URL запроса токена",
     "UpdateUserRole": "Обновлять роль пользователя",
@@ -4184,6 +4375,7 @@
   "Libraries/rpc/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Уровень вложенности массивов более %d не поддерживается",
     "ErrCodePageNotSupported": "Строка имеет неподдерживаемую кодовую страницу %d. Поддерживается только UTF-8 и UTF-16.",
+    "ErrInvalidMessageFormatVersion": "Неверный номер версии формата сообщения: %d, ожидается: %d",
     "ErrInvalidMessageSignature": "Неверная сигнатура сообщения",
     "ErrMessageSizeCannotBeNegative": "Размер сообщения не должен быть отрицательным",
     "ErrMessageSizeIncrementCannotBeNegative": "Инкремент размера сообщения не должен быть отрицательным",
@@ -4195,6 +4387,9 @@
   },
   "Libraries/rpc/RemotingConvertUtils": {
     "ErrValueOutOfRange": "Значение %d не принадлежит диапазону допустимых значений типа %s"
+  },
+  "Libraries/rpc/RpcExceptUtils": {
+    "ErrUnknownExceptionID": "Неизвестный идентификатор исключения: %d"
   },
   "Libraries/rpc/ServerRemoteObjects": {
     "ErrQueryInterfaceNotAllowed": "Интерфейс с идентификатором %s нельзя запрашивать через QueryInterface",
@@ -4220,6 +4415,9 @@
     "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: %d",
     "ErrValueOutOfRange": "Значение %d не принадлежит допустимому диапазону значений [%d, %d]",
     "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: %d секунд"
+  },
+  "Libraries/rpc/WebSocketMessageTransport": {
+    "ConnectionClosedUnansweredPing": "Подключение через WebSocket было закрыто из-за того, что не получен ответ на сообщение Ping"
   },
   "Libraries/rpc/WebSocketRemoteServer": {
     "ErrSSLChangeAfterStart": "Параметры SSL не могут быть изменены после запуска сервера"
@@ -4302,6 +4500,8 @@
   "Studio/DeductorServer": {
     "AutoSavePackageError": "Возникла ошибка при автосохранении пакета \"%s\"",
     "AutoSavePackagesFailed": "Не удалось выполнить автосохранение пакетов",
+    "ChangePassException": "Пароль пользователя должен быть изменен",
+    "ChangePassNotAllowed": "Пароль можно менять только у пользователей с локальной аутентификацией",
     "EnteredMaintenanceMode": "Сервер введён в режим обслуживания",
     "ErrAccessDenied": "Отказано в доступе",
     "ErrApplicationModeRunNotAllowed": "У текущего пользователя отсутствуют права на пакетное выполнение",
@@ -4343,9 +4543,11 @@
     "ErrUpdatePublishedPackageErrors": "При обновлении публикации пакета %s возникли ошибки",
     "LeftMaintenanceMode": "Сервер выведен из режима обслуживания",
     "LicSessionCountExceeded": "Превышено количество сессий, допустимых по вашей лицензии",
+    "LogChangePassFailed": "Не удалось изменить пароль у пользователя %s",
     "LogFailedLogin": "Не удалось войти в учетную запись %s",
     "LogFailedToken": "Не удалось войти в учетную запись",
     "LogFailedTokenVariables": "Ошибка подготовки переменных из OpenID токена",
+    "LogFileCreatedBy": "Лог-файл создан %s %s",
     "LogLDAPCaption": "LDAP",
     "LogLoggingCaption": "Логирование",
     "LogMaintenanceStateUnchanged": "Статус режима обслуживания не изменился",
@@ -4354,6 +4556,7 @@
     "LogSettingsComponentChanged": "Изменился параметр компонента сервера %s:\"%s\"",
     "LogTokenClaimNone": "Токен не содержит клейм %s",
     "LogTokenClaimTypeErr": "Значение клейма %s в неправильном формате",
+    "NewPassAsPreviousException": "Новый пароль не должен совпадать со старым",
     "PackageClosedLogMsg": "Закрыт пакет \"%s\"",
     "PackageOpenedEditLogMsg": "Открыт пакет \"%s\" в режиме редактирования",
     "PackageOpenedReadLogMsg": "Открыт пакет \"%s\" в режиме только для чтения",
@@ -4365,6 +4568,7 @@
     "PublishedPackageUpdated": "Обновлена публикация пакета \"%s\"",
     "ServerIsInMaintenance": "Сервер находится в режиме обслуживания",
     "ServerStartLogMsg": "%s запущен",
+    "ServerStopLogMsg": "%s остановлен",
     "SessionBatch": "Пакетная обработка",
     "SessionCloseLogMsg": "Закрыта сессия для пользователя %s",
     "SessionInitializedLogMsg": "Инициализирована сессия для пользователя %s",
@@ -4382,12 +4586,18 @@
     "ErrCannotConfigureActiveConnection": "Невозможно изменить настройки активного подключения"
   },
   "Studio/DeductorServerSettings": {
+    "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
+    "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
+    "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
+    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+    "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
     "FailedLoginCountLimit": "Лимит попыток ввода пароля",
     "FailedLoginTimeout": "Тайм-аут ввода пароля",
     "IdleDisconnectTimeout": "Тайм-аут закрытия сессии",
     "IdleLockTimeout": "Тайм-аут блокировки сессии",
     "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
     "PackagePoolSize": "Размер пула пакетов",
+    "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
     "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
     "RAMLimitKB": "Максимум используемой памяти (КБ)",
     "RAMLimitRatio": "Доля используемой памяти",
@@ -4416,12 +4626,13 @@
   },
   "Studio/DeductorUsers": {
     "AllowedApplicationModes": "Разрешённые режимы работы приложения",
+    "AllowPasswordSave": "Разрешить сохранять пароль к БД",
     "AllowPublish": "Разрешить публикацию пакетов",
     "AuthMode": "Способ аутентификации",
     "Blocked": "Заблокирован",
     "ErrAccessDenied": "Отказано в доступе",
     "ErrApplicationModeNotAllowed": "Не разрешено подключение в режиме \"%s\"",
-    "ErrCannotDeleteStandartUserGroup": "Нельзя удалить стандартную группу",
+    "ErrCannotDeleteStandardUserGroup": "Нельзя удалить стандартную группу",
     "ErrFileStorageNotReadyYet": "Файловое хранилище пользователя пока не подготовлено",
     "ErrGetFullName": "Не удалось получить полное имя пользователя %s",
     "ErrInvalidPasswordHashInConfig": "Файл конфигурации содержит некорректный хеш пароля",
@@ -4431,6 +4642,8 @@
     "ErrLDAPUserNotFound": "Пользователь %s не найден в службе каталогов",
     "ErrLeadingOrTrailingWhitespaceInPassword": "Пароль не должен начинаться или заканчиваться пробелом",
     "ErrLoginNameChanged": "Не допускается изменение имени пользователя",
+    "ErrLoginPeer": "Ошибка аутентификации Peer",
+    "ErrMaxLengthPassword": "Пароль должен содержать максимум %d символов",
     "ErrNoUsersWithAdminPrivileges": "Не существует ни одного пользователя с правами администратора",
     "ErrOpenIDUserNotFound": "Пользователь не найден",
     "ErrTokenUserName": "Токен не содержит имя пользователя",
@@ -4439,6 +4652,7 @@
     "ErrUserNameConflictsWithSharedDirectory": "Имя пользователя не может совпадать с именем общей директории %s",
     "ErrUserNameIsReserved": "Идентификатор %s зарезервирован и не может быть использован в качестве имени пользователя",
     "ErrUserNameMustBeValid": "Имя пользователя может состоять из латинских букв, цифр, символов _ - . и пробела,\nно не может заканчиваться точкой или пробелом.",
+    "ExternName": "Системный пользователь",
     "GroupEveryone": "Все",
     "IsAdmin": "Администратор",
     "IsDesigner": "Проектирование сценариев",
@@ -4447,12 +4661,34 @@
     "LogAddUser": "Добавлен пользователь %s",
     "LogDeleteGroup": "Удалена группа %s",
     "LogDeleteUser": "Удален пользователь %s",
+    "LogFailedLoginPeer": "Ошибка при аутентификации Peer",
+    "LogFailedLoginPeerID": "Ошибка при аутентификации Peer (uid: %s)",
+    "LogFailedLoginPeerRunModeOnly": "Аутентификация Peer возможна только в пакетном режиме",
+    "LogMustChangePassword": "Требовать смену пароля при следующем входе",
     "LogUserPropertySet": "Изменение учетной записи %s",
     "Password": "Пароль",
+    "PeerAuthNotSupported": "Аутентификации Peer не поддерживается на этой платформе",
     "ReservedUserName": "loginom",
     "SchedulerFullAccess": "Доступ ко всем задачам в планировщике",
     "UseGlobalFileStorage": "Использование глобального файлового хранилища",
     "UserMetaDesc": "Пользователь"
+  },
+  "Studio/PasswordPolicy": {
+    "Digits": "Количество цифр",
+    "Lowercase": "Количество строчных букв",
+    "MaxLength": "Максимальная длина пароля",
+    "MaxPasswordLength": "максимум %d символов",
+    "Minimum": "минимум",
+    "MinLength": "Минимальная длина пароля",
+    "MinPasswordLength": "%d символов",
+    "PasswordDigits": "%d цифр",
+    "PasswordLowercase": "%d строчных букв",
+    "PasswordSpecial": "%d специальных символов",
+    "PasswordUppercase": "%d заглавных букв",
+    "PolicyException": "Пароль не обеспечивает требований к сложности",
+    "PolicyPreset": "Ограничения пароля",
+    "Special": "Количество специальных символов",
+    "Uppercase": "Количество заглавных букв"
   },
   "Studio/RegistrationEditionDependentComponents": {
     "1Cv8Connection": "Подключение к 1С:Предприятие 8",
@@ -4477,12 +4713,16 @@
     "ErrCannotStartDisabledJob": "Выполнение задачи \"%s\" запрещено",
     "ErrHistoryCountMustNotBeNegative": "Количество записей в истории не должно быть отрицательным",
     "ErrInvalidExceptionInfoFormat": "Информация об исключении имеет некорректный формат",
+    "ErrInvalidStartAfterJobStatuses": "Указаны недопустимые статусы для запуска задачи",
+    "ErrInvalidStopTimeoutUnit": "Недопустимая единица измерения тайм-аута остановки: %s",
+    "ErrInvalidTimeFilterBound": "Значение границы интервала времени должно быть в диапазоне от 0:00 включительно до 24:00 не включительно",
     "ErrPeriodCountMustBePositive": "Количество периодов повтора должно быть положительным",
     "ErrSchedulerInitException": "Возникло исключение при инициализации планировщика задач",
     "ErrSchedulerJobAlreadyDeleted": "Задача уже удалена",
     "ErrSchedulerJobIsNotConfiguring": "Задача не находится в состоянии конфигурирования",
     "ErrSchedulerNotInitialized": "Инициализация планировщика задач была завершена с ошибкой",
     "ErrSchedulerThreadException": "Возникло исключение в главном потоке планировщика задач",
+    "ErrStopTimeoutCountMustBePositive": "Значение тайм-аута остановки должно быть положительным",
     "LogAddJob": "В планировщике создана задача \"%s\", принадлежащая пользователю %s",
     "LogClearJobs": "В планировщике удалены все задачи",
     "LogClearJobsOfUser": "В планировщике удалены все задачи, принадлежащие пользователю %s",
@@ -4520,6 +4760,7 @@
     "SSLPrivateKeyFile": "Имя файла закрытого ключа",
     "UnixSocket": "Unix socket",
     "UnixSocketFileName": "loginomd",
+    "UnixSocketMode": "Unix socket permissions",
     "WSPort": "WebSocket порт",
     "WSSPort": "WebSocket SSL/TLS порт"
   },
@@ -4527,10 +4768,12 @@
     "ErrExportBusy": "Нельзя экспортировать таблицу во время изменения данных",
     "ErrExportDataInvalid": "Нельзя экспортировать таблицу с неподготовленными данными",
     "ErrExportDeactivate": "Экспорт прерван из-за деактивации узла",
+    "ErrTooManyCellsForSearch": "Выбрано слишком много ячеек для поиска",
     "LogColumnNotFoundFmt": "Во входном наборе данных не найдено поле с именем %s. Поле удалено из отображаемых полей.",
     "LogNewColumnFmt": "Во входном наборе данных появилось новое поле с именем %s. Поле добавлено к отображаемым полям.",
     "NullText": "",
-    "PrepareViewDataProcessCaption": "Таблица"
+    "PrepareViewDataProcessCaption": "Таблица",
+    "UniqueValuesCalculationProcess": "Сбор уникальных значений"
   },
   "Viewers/Browse/BrowseViewExport": {
     "DisplayNameColumnDisplayName": "Метка",
@@ -4606,6 +4849,7 @@
     "VendorDesc": "Визуализатор \"Конечные классы\""
   },
   "Viewers/Cube/CubeCalcSummaries": {
+    "CalculationExpressioErrorTrace": ", Трасса вызовов: \"%s\"",
     "ErrCalculationExpression": "При вычислении выражения, соответствующего вычисляемому факту \"%s\" возникла ошибка",
     "ErrExprResultIsString": "Результат выражения имеет строковый тип",
     "ErrParseExpression": "При разборе выражения, соответствующего вычисляемому факту \"%s\" возникла ошибка",
@@ -4671,16 +4915,16 @@
     "VendorDesc": "Многомерное отображение (кросс-таблица и кросс-диаграмма)"
   },
   "Viewers/DataQuality/QualityView": {
-    "DataSetQualityCalculation": "Расчет показателей качества набора данных",
+    "DataSetQualityCalculationProcess": "Расчет показателей качества набора данных",
     "ErrAlreadyExporting": "Нельзя экспортировать таблицы, пока не будет завершен текущий экспорт",
     "ErrExportQualityClosed": "Нельзя экспортировать таблицы, когда показатели не рассчитаны",
-    "HistogramsCalculation": "Расчет гистограмм полей данных",
+    "HistogramsCalculationProcess": "Расчет гистограмм полей данных",
     "LogColumnNotFoundFmt": "Во входном наборе данных не найдено поле с именем %s. Поле удалено из отображаемых полей.",
     "LogNewColumnFmt": "Во входном наборе данных появилось новое поле с именем %s. Поле добавлено к отображаемым полям.",
-    "MoreStatisticsCalculation": "Расчет дополнительных статистических показателей",
+    "MoreStatisticsCalculationProcess": "Расчет дополнительных статистических показателей",
     "PrepareViewDataProcessCaption": "Статистика",
-    "QualityStatisticsCalculation": "Расчет показателей качества полей данных",
-    "SimpleStatisticsCalculation": "Расчет простейших статистических показателей"
+    "QualityStatisticsCalculationProcess": "Расчет показателей качества полей данных",
+    "SimpleStatisticsCalculationProcess": "Расчет простейших статистических показателей"
   },
   "Viewers/DataQuality/QualityViewBuilder": {
     "UsefulColumns": "%s из %s"
@@ -4834,13 +5078,13 @@
     "VendorDesc": "Качество бинарной классификации"
   },
   "Viewers/Statistics/StatView": {
-    "HistogramBuild": "Построение гистограммы",
+    "HistogramBuildProcess": "Построение гистограммы",
     "LogColumnNotFoundFmt": "Во входном наборе данных не найдено поле с именем %s. Поле удалено из отображаемых полей.",
     "LogNewColumnFmt": "Во входном наборе данных появилось новое поле с именем %s. Поле добавлено к отображаемым полям.",
-    "OrderStatisticsCalculation": "Расчет порядковых статистических показателей",
+    "OrderStatisticsCalculationProcess": "Расчет порядковых статистических показателей",
     "PrepareViewDataProcessCaption": "Статистика",
-    "SimpleStatisticsCalculation": "Расчет простейших статистических показателей",
-    "UniqueValuesCalculation": "Сбор уникальных значений"
+    "SimpleStatisticsCalculationProcess": "Расчет простейших статистических показателей",
+    "UniqueValuesCalculationProcess": "Сбор уникальных значений"
   },
   "Viewers/Statistics/StatViewBuilder": {
     "ErrNonContinuousDataKind": "Входной столбец должен иметь непрерывный вид данных",

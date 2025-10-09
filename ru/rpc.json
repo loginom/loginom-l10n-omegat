@@ -32,6 +32,7 @@
   },
   "Net/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Уровень вложенности массивов более {0} не поддерживается",
+    "ErrInvalidMessageFormatVersion": "Неверный номер версии формата сообщения: {0}, ожидается: {1}",
     "ErrMessageSizeIncrementCannotBeNegative": "Инкремент размера сообщения не должен быть отрицательным",
     "ErrMessageSizeOverflow": "Превышен максимальный допустимый размер сообщения",
     "ErrUnknownInterfaceGUID": "Интерфейс с идентификатором {0} не зарегистрирован",
@@ -39,6 +40,9 @@
     "ErrUnknownInterfaceName": "Интерфейс {0} не зарегистрирован",
     "ErrUnknownMethodID": "Неизвестный идентификатор метода: {0}",
     "ErrUnsupportedParameterType": "Не поддерживаемый тип аргумента"
+  },
+  "Net/RpcExceptUtils": {
+    "ErrUnknownExceptionID": "Неизвестный идентификатор исключения: {0}"
   },
   "Net/ServerRemoteObjects": {
     "ErrQueryInterfaceNotAllowed": "Интерфейс с идентификатором {0} нельзя запрашивать через QueryInterface",

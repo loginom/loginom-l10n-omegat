@@ -21,7 +21,7 @@
     }
   },
   "Common/HTTPClient/WSDLClientAuth": {
-    "WSDLAuthorization": {
+    "WSDLAuthentication": {
       "CertFileCredentials": "User certificate authentication credentials",
       "Mode": "Authentication Type",
       "NamePassCredentials": "Username and Password Authentication Credentials",
@@ -277,7 +277,8 @@
       "CompareValueUpperBound": "Upper bound",
       "DataType": "Data type",
       "Name": "Name",
-      "RelationType": "Relation type"
+      "RelationType": "Relation type",
+      "RowNumberer": "Row Numberer"
     }
   },
   "components/forecast": {
@@ -309,6 +310,7 @@
   },
   "components/joindata": {
     "JoinDataEngine": {
+      "CaseSensitive": "Case-sensitive",
       "IncludeJoinedKeyFields": "Add joined key fields",
       "JoinType": "Operation type"
     }
@@ -454,12 +456,24 @@
       "MaxThreadCount": "Maximum thread count"
     }
   },
+  "components/sqlscript": {
+    "SQLScriptEngine": {
+      "SilentActivation": "Ignore errors",
+      "TransactionBlockSize": "Transaction commit frequency (rows)"
+    }
+  },
   "components/treetodata": {
     "TreeToDataEngine": {
       "CompositeColumnDisplayNames": "Composite field captions",
       "CompositeColumnNames": "Composite field names",
       "CompositeDisplayNameSeparator": "Composite captions separator",
       "RepeatParentNodeValues": "Repeat parent node values"
+    }
+  },
+  "components/treetojson": {
+    "TreeToJSONEngine": {
+      "DateFormat": "Date format",
+      "TimeFormat": "Time format"
     }
   },
   "components/ungroupdata": {
@@ -575,7 +589,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table\/View",
+      "CommandText": "Table/View",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
     }
@@ -586,6 +600,7 @@
       "BlankRowAction": "Blank rows",
       "ExplicitRange": "Range",
       "FileInfoColumnsType": "File info",
+      "ParallelProcessing": "Parallel processing",
       "ReferenceStyle": "Reference style",
       "TableName": "Object name",
       "TableNamingMethod": "Object selection",
@@ -619,6 +634,7 @@
       "FileInfoColumnsType": "File info",
       "FirstLineAsTitle": "First line as title",
       "MultipleDelimiters": "Treat consecutive delimiters as one",
+      "ParallelProcessing": "Parallel processing",
       "RowsToSkip": "Skip rows",
       "TextQualifier": "Text qualifier",
       "TimeSeparator": "Time separator",
@@ -740,6 +756,9 @@
     "CollectionItem": {
       "ID": "Identifier",
       "Name": "Name"
+    },
+    "CustomCollectionItemDef": {
+      "DisplayName.NOTE": "Имеющиеся переводы:\nCaption\nLabel"
     },
     "LocaleSettingsConfigurator": {
       "LocaleName": "Locale name"
@@ -938,9 +957,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact\/inexact data priority",
-      "FactLessMore": "Less\/more factors priority",
-      "QualitySpeed": "Accuracy\/speed priority"
+      "ExactInexact": "Exact/inexact data priority",
+      "FactLessMore": "Less/more factors priority",
+      "QualitySpeed": "Accuracy/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -955,8 +974,7 @@
   "Libraries/RESTClientConnection/RESTClientConnection": {
     "RESTClientConnectionConfigurator": {
       "ClientAuth": "Authentication to execute request",
-      "ExchangeTimeOut": "Data exchange timeout (ms)",
-      "IgnoreCertificateErrors": "Ignore SSL certificate errors",
+      "IgnoreCertificateErrors.NOTE": "Старый исходник:\nИгнорировать ошибки SSL сертификата\n\nСтарый перевод:\nIgnore SSL certificate errors",
       "RequestContentType": "Request Content-Type",
       "ResponseContentType": "Allowable Response Content-Type",
       "TimeOut": "Connection timeout (ms)",
@@ -976,9 +994,8 @@
   "Libraries/WSDLClientConnection/WSDLClientConnection": {
     "WSDLClientConnectionConfigurator": {
       "ClientAuth": "Authentication to execute request",
-      "ClientUsesWSDLAuth": "Authentication is the same as for WSDL",
-      "ExchangeTimeOut": "Data exchange timeout (ms)",
-      "IgnoreCertificateErrors": "Ignore SSL certificate errors",
+      "ClientUsesWSDLAuth.NOTE": "Старый исходник:\nАутентификация та же, что и для получения WSDL\n\nСтарый перевод:\nAuthentication is the same as for WSDL",
+      "IgnoreCertificateErrors.NOTE": "Старый исходник:\nИгнорировать ошибки SSL сертификата\n\nСтарый перевод:\nIgnore SSL certificate errors",
       "ReserveWSDLSource": "Reserve WSDL source",
       "ReserveWSDLSourceOn": "Enable reserve WSDL source",
       "TimeOut": "Connection timeout (ms)",
@@ -1013,7 +1030,7 @@
       "SSLPrivateKeyFile": "Private key file name",
       "UnixSocket": "Unix socket",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL\/TLS port"
+      "WSSPort": "WebSocket SSL/TLS port"
     }
   },
   "Warehouse2/DWConnection": {
