@@ -67321,6 +67321,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Элемент "&lt;%s/&gt;" без атрибута part ссылается на определение сообщения "%s", которое содержит более одной части либо не содержит ни одной</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T180622Z">
+        <seg>"&lt;%s/&gt;" element without part attribute refers to "%s" message definition, which contains more than one part or does not contain any</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -72623,6 +72626,9 @@ Do you want to sync all extensions?</seg>
 "&lt;%s/&gt;" element without "part" attribute refers to "%s" message definition, which contains more than one part or does not contain any</note>
       <tuv lang="ru">
         <seg>Элемент "&lt;%s/&gt;" без атрибута part ссылается на определение сообщения "%s", которое содержит более одной части либо не содержит ни одной</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T180608Z">
+        <seg>"&lt;%s/&gt;" element without part attribute refers to "%s" message definition, which contains more than one part or does not contain any</seg>
       </tuv>
     </tu>
     <tu>
@@ -102145,6 +102151,9 @@ Record Variables:</note>
       <tuv lang="ru">
         <seg>Записать переменные</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T181720Z">
+        <seg>Record Variables</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -108761,6 +108770,9 @@ Cancel</note>
 Старый перевод:
 {________-____-____-____-____________}</note>
       <tuv lang="ru">
+        <seg>{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T180944Z">
         <seg>{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}</seg>
       </tuv>
     </tu>

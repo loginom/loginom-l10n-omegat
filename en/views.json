@@ -3486,7 +3486,7 @@
   },
   "components/variablestodata/VariablesToDataWizard": {
     "cntVarToData": {
-      "title": "Записать переменные"
+      "title": "Record Variables"
     },
     "frmVarToData": {
       "title": "Variables to Table"
