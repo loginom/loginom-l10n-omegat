@@ -423,7 +423,7 @@
     "ErrCommentPosNotSaved": "Failed to save comment position",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
     "ErrPortNotCreated": "Failed to create new port",
-    "ErrRetryPasteConfirm": "В ходе вставки возникли ошибки. Повторить принудительно?",
+    "ErrRetryPasteConfirm": "Errors occurred while pasting. Do you want to repeat forcedly?",
     "ErrRunQueueFunctions": "Errors when performing queued update of the Workflow objects",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "ExpandNode": "Expand supernode",
@@ -698,7 +698,7 @@
     "DeactivateNodeForPortConfirmationMsg": "Port configuration will cause node deactivation.\nDo you really want to start port configuration?",
     "DraftAddSchedulerJobFailed": "Save package \"{0}\" before adding a job",
     "ErrNodeNotInitialized": "No component specified for \"{0}\" node",
-    "ErrPrepareContainer": "При переходе на \"{0}.{1}\" возникла ошибка.",
+    "ErrPrepareContainer": "An error occurred while switching to \"{0}.{1}\".",
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "MsgNodeConfigurationChanged": "Node configuration changed",
     "MsgNodeLoading": "The node is temporarily unavailable for configuring. Try to repeat this action later.",
@@ -1043,7 +1043,7 @@
   },
   "components/filterdata/ValueListEditor": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
-    "CopyError": "Ошибка копирования в буфер обмена",
+    "CopyError": "Error while copying to clipboard",
     "ErrNotUniqueValue": "Вводимое значение должно быть уникальным",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
     "NoMenuCopyWarn": "To copy data, use hotkey",
@@ -1269,7 +1269,7 @@
     "NoTimeAxisColumn": "No column selected",
     "OutputColumnUsageType": "Field with names",
     "QuotaColumnUsageType": "Field with quotas",
-    "RemoveInvalidRelationsConfirm": "Обнаружены связи с несуществующими объектами.\nВы хотите удалить все потерянные связи и продолжить?",
+    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue?",
     "RoundDecimalParamLabel": "Decimal place accuracy",
     "RoundMultipleParamLabel": "Multiplicity",
     "RoundParamLabel": "Rounding parameter",
@@ -1351,7 +1351,7 @@
     "ExpireCertDateError": "Expired certificate expiration date"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
-    "ErrFileNameAdd": "Файл с именем \"{0}\" не может быть добавлен, вероятно он уже есть в списке"
+    "ErrFileNameAdd": "\"{0}\" file cannot be added to the list. Perhaps, it has already been added"
   },
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Cancel",
@@ -1579,7 +1579,7 @@
     "ChangedCount": "• Изменено существующих: {0};\n",
     "ConflictForAll": "Применить ко всем конфликтам",
     "ConflictSummary": "Всего конфликтов: {0}.\nОсталось решить: {1}.",
-    "CopyError": "Ошибка копирования в буфер обмена",
+    "CopyError": "Error while copying to clipboard",
     "CopySuccessMsg": "Скопировано {0} запись(и\/ей)",
     "CopyText": "Copy",
     "EditConflict": "Изменить существующую запись.",
@@ -1761,7 +1761,7 @@
     "HasNotStorageItems": "No files to be copied\/cut",
     "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
-    "ServerPasteException": "Сообщение сервера об ошибке"
+    "ServerPasteException": "Server error message"
   },
   "filestorage/DragAndDropHandler": {
     "DropText": "Drag and drop to start the upload",
@@ -1797,7 +1797,7 @@
     "ConfirmExtractInFolder": "Files with matching names in \"{0}\" folder will be replaced.\nDo you want to extract?",
     "ConfirmExtractTitle": "\"{0}\" Archive Extraction",
     "ConfirmStopLoaders": "Active downloads will be canceled. Do you want to continue?",
-    "CopyError": "Ошибка копирования в буфер обмена",
+    "CopyError": "Error while copying to clipboard",
     "CreateDirectoryTitle": "New Folder",
     "CreatePackageTitle": "Create Package",
     "Delete": "Delete",
@@ -1916,7 +1916,7 @@
     "DBObjTypeSchema": "Schemas",
     "DBObjTypeTable": "Tables",
     "DBObjTypeView": "Views",
-    "ErrAccesToDbObject": "Невозможно получить доступ к объекту \"{0}\""
+    "ErrAccesToDbObject": "Failed to get access to object \"{0}\""
   },
   "imports/dwh/DWConst": {
     "MetaDataNodeTypeAttr": "Attribute",
@@ -2331,7 +2331,7 @@
   },
   "mxgraph/port/AddPort": {
     "AddInputPortDescription": "To create a new port, click the button or drag a connection from a compatible output port and drop it here.",
-    "AddPortDisplayName": "Добавить ещё один порт"
+    "AddPortDisplayName": "Add another port"
   },
   "mxgraph/port/Port": {
     "ItemCountOnDemand": "Count unavailable",
@@ -2485,8 +2485,8 @@
     "ErrColumnNotRenderedFmt": "Failed to add HTML element to column header \"{0}\" | \"{1}\". Column not yet rendered"
   },
   "viewers/browse/BrowseView": {
-    "ErrExportFailed": "Не удалось экспортировать Таблицу",
-    "ErrExportFormFailed": "Не удалось экспортировать Форму",
+    "ErrExportFailed": "Failed to export Table",
+    "ErrExportFormFailed": "Failed to export Form",
     "ErrMaxPage": "There is no page with the index larger than the last index",
     "ErrMinPage": "There is no page with index smaller than the starting index",
     "ErrOverRowLimitFmt": "Failed to set row index more than {0}",
@@ -2677,7 +2677,7 @@
     "WarnDependencySuffix": "Do you want to continue action?"
   },
   "viewers/cube/CubeView": {
-    "ErrExportFailed": "Не удалось экспортировать кросс-таблицу Куба",
+    "ErrExportFailed": "Failed to export the Cube cross table",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
     "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
@@ -2726,7 +2726,7 @@
     "NestedSortCaption": "Sorted headers among nested headers"
   },
   "viewers/dataquality/QualityView": {
-    "ErrExportFailed": "Не удалось экспортировать таблицы Качества данных",
+    "ErrExportFailed": "Failed to export Data Quality Tables",
     "ExportToastTitle": "Export from Data Quality",
     "NotAvailable": "Not available",
     "NotCalculated": "Not calculated"
@@ -2935,7 +2935,7 @@
     "Exclude": "Exclude",
     "GroupField_Excluded": "Исключенные",
     "NotDeleteAndContinue": "Не удалять и продолжить",
-    "RemoveInvalidRelationsConfirm": "Обнаружены связи с несуществующими объектами.\nВы хотите удалить все потерянные связи и продолжить?"
+    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue?"
   },
   "wizards/columns/DataSetOutputSocketWizard": {
     "frmColumnsMappingTitle": "Configure Output Columns"
@@ -3074,7 +3074,7 @@
     "MsgSatisfiesExcludedNodes": "Нельзя в выходное дерево добавить узел \"{0}\", который находится в списке исключенных узлов",
     "NotDeleteAndContinue": "Не удалять и продолжить",
     "RemoveAllMappingDataTreeNodesConfirm": "Do you really want to delete all output nodes?",
-    "RemoveInvalidRelationsConfirm": "Обнаружены связи с несуществующими объектами.\nВы хотите удалить все потерянные связи и продолжить?",
+    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue??",
     "RemoveNodeWithChildsConfirm": "Do you really want to delete \"{0}\" node with child nodes?",
     "RemoveRequiredMappingNodeDefConfirm": "\"{0}\" node is used. Do you really want to delete it?",
     "WarnCannotDeleteRootNode": "It is not possible to delete root node"
@@ -3152,7 +3152,7 @@
     "DefaultPreparePreviewMaskText": "Prepare preview"
   },
   "wizards/random/RandSeedEdit": {
-    "CopyError": "Ошибка копирования в буфер обмена",
+    "CopyError": "Error while copying to clipboard",
     "InvalidRandSeed": "Value \"{0}\" is not integer",
     "InvalidRandSeedMax": "Random seed must be less or equal to 2147483647",
     "InvalidRandSeedMin": "Random seed must exceed 0",

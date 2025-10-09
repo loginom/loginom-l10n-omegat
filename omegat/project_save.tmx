@@ -5486,6 +5486,10 @@ Calculations are performed with the String characters sequence using UTF-8 encod
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175446Z">
+        <seg>Links with non-existent objects were found.
+Do you want to delete all lost links and continue?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6072,6 +6076,9 @@ Calculations are performed with the String characters sequence using UTF-8 encod
 {0} file cannot be added to the list. Perhaps, it has already been added</note>
       <tuv lang="ru">
         <seg>Файл с именем "{0}" не может быть добавлен, вероятно он уже есть в списке</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T174658Z">
+        <seg>"{0}" file cannot be added to the list. Perhaps, it has already been added</seg>
       </tuv>
     </tu>
     <tu>
@@ -7949,6 +7956,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/VariablesClipboard.CopyError</note>
       <tuv lang="ru">
         <seg>Ошибка копирования в буфер обмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175653Z">
+        <seg>Error while copying to clipboard</seg>
       </tuv>
     </tu>
     <tu>
@@ -9894,6 +9904,9 @@ Server error message: </note>
       <tuv lang="ru">
         <seg>Сообщение сервера об ошибке</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T174755Z">
+        <seg>Server error message</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -10243,6 +10256,9 @@ Do you want to extract?</seg>
 Error while copying to clipboard:</note>
       <tuv lang="ru">
         <seg>Ошибка копирования в буфер обмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T174825Z">
+        <seg>Error while copying to clipboard</seg>
       </tuv>
     </tu>
     <tu>
@@ -11367,6 +11383,9 @@ Error while copying to clipboard:</note>
 Failed to get access to object "{0}". Reason: "{1}"</note>
       <tuv lang="ru">
         <seg>Невозможно получить доступ к объекту "{0}"</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T174905Z">
+        <seg>Failed to get access to object "{0}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -15336,6 +15355,9 @@ Add another port.</note>
       <tuv lang="ru">
         <seg>Добавить ещё один порт</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175010Z">
+        <seg>Add another port</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -16591,6 +16613,9 @@ Failed to export Table:
       <tuv lang="ru">
         <seg>Не удалось экспортировать Таблицу</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175046Z">
+        <seg>Failed to export Table</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -16605,6 +16630,9 @@ Failed to export Form:
 {0}</note>
       <tuv lang="ru">
         <seg>Не удалось экспортировать Форму</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175058Z">
+        <seg>Failed to export Form</seg>
       </tuv>
     </tu>
     <tu>
@@ -18444,6 +18472,9 @@ Failed to export the Cube cross table:
       <tuv lang="ru">
         <seg>Не удалось экспортировать кросс-таблицу Куба</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175130Z">
+        <seg>Failed to export the Cube cross table</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -18901,6 +18932,9 @@ Failed to export Data Quality Tables:
 {0}</note>
       <tuv lang="ru">
         <seg>Не удалось экспортировать таблицы Качества данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175153Z">
+        <seg>Failed to export Data Quality Tables</seg>
       </tuv>
     </tu>
     <tu>
@@ -20868,6 +20902,10 @@ Links with non-existent objects were found. Do you want to delete all lost links
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175423Z">
+        <seg>Links with non-existent objects were found.
+Do you want to delete all lost links and continue?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -22016,6 +22054,10 @@ Links with non-existent objects were found. Do you want to delete all lost links
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175516Z">
+        <seg>Links with non-existent objects were found.
+Do you want to delete all lost links and continue??</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -22643,6 +22685,9 @@ Apply</note>
 Error while copying to clipboard:</note>
       <tuv lang="ru">
         <seg>Ошибка копирования в буфер обмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175712Z">
+        <seg>Error while copying to clipboard</seg>
       </tuv>
     </tu>
     <tu>
@@ -24973,6 +25018,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
 {0}</note>
       <tuv lang="ru">
         <seg>В ходе вставки возникли ошибки. Повторить принудительно?</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T174126Z">
+        <seg>Errors occurred while pasting. Do you want to repeat forcedly?</seg>
       </tuv>
     </tu>
     <tu>
@@ -27724,6 +27772,9 @@ An error occurred while switching to "{0}.{1}".
 {2}</note>
       <tuv lang="ru">
         <seg>При переходе на "{0}.{1}" возникла ошибка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T174549Z">
+        <seg>An error occurred while switching to "{0}.{1}".</seg>
       </tuv>
     </tu>
     <tu>
@@ -30688,6 +30739,9 @@ Apply</note>
       <note>Key = components/filterdata/ValueListEditor.CopyError</note>
       <tuv lang="ru">
         <seg>Ошибка копирования в буфер обмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T175634Z">
+        <seg>Error while copying to clipboard</seg>
       </tuv>
     </tu>
     <tu>
