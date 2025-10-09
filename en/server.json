@@ -60,6 +60,7 @@
     "Name": "Name",
     "OutputColumn": "Output column",
     "OutputTable": "Output table",
+    "OutputTables": "Массив выходных таблиц",
     "RowCount": "Row count",
     "TableAddColumn": "Add Column",
     "TableAppend": "Add row",
@@ -113,12 +114,15 @@
   "Common/HTTP/HTTPContext_Synapse": {
     "ErrUnsupportedAuthModeCert": "Authentication using the client certificate from storage not supported"
   },
+  "Common/HTTP/HTTPContext_Win": {
+    "ErrTimeout": "Истекло время выполнения запроса"
+  },
   "Common/HTTP/HTTPNetRequest": {
     "ErrHTTPNetRequest": "Request to \"%s\" URL failed"
   },
   "Common/HTTP/SynapseHTTPSend": {
     "ErrHTTPResult": "Failed to make HTTP request. Status code %d: %s",
-    "ErrHTTPSocket": "Failed to make HTTP request. TCP/IP Socket error %d: %s",
+    "ErrHTTPSocket": "Failed to make HTTP request. TCP\/IP Socket error %d: %s",
     "ErrMaximumRedirectReached": "Maximum redirect reached at: %s",
     "ErrStreamIsDirectReadOnly": "Random access to stream data is not possible",
     "ErrStreamSizeUnspecified": "Data stream size not defined"
@@ -185,7 +189,7 @@
     "ErrColumnIndexOutOfRange": "HTTP messages encoder is configured to export the column with index #%d, however the data source contains only %d values",
     "ErrDuplicateSearchPattern": "\"%s\" search string occurring more than once",
     "ErrEncoderNotInitialized": "HTTP messages encoder not initialized",
-    "ErrInfNaNNotAllowed": "Infinities and NaN are not valid floating point numbers to be passed in GET/POST requests URL Encoded/URL Replacement",
+    "ErrInfNaNNotAllowed": "Infinities and NaN are not valid floating point numbers to be passed in GET\/POST requests URL Encoded\/URL Replacement",
     "ErrNoInputMessage": "\"%s\" operation does not contain the incoming message description",
     "ErrNonHttpBinding": "\"%s\" is not HTTP binding",
     "ErrNonHttpMessage": "\"%s\" message of \"%s\" operation is not HTTP message",
@@ -224,9 +228,10 @@
     "ErrBindingOperationExtensionCollision": "Types of \"%s\" binding extensions and \"%s\" operations do not match",
     "ErrCantDefineTransmissionPrimitive": "Failed to define data exchange primitive for %s operation, %s port type",
     "ErrFaultMustHaveExactlyOnePart": "Error defining %s operation, %s port type: fault message must contain exactly one part",
-    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
+    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation\/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
     "ErrHttpPartReferencesComplexElement": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to %s{%s} XSD schema element related to the complex type",
     "ErrHttpPartReferencesComplexType": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to the complex type of %s{%s} XSD schema",
+    "ErrImportNotContainNamespace": "Элемент XSD-схемы <import\/> должен содержать атрибут namespace",
     "ErrInputMimeTypeContainsWildcard": "The incoming service message content must relate to the specific MIME type (actually - %s)",
     "ErrInvalidMimeType": "Invalid MIME type: %s",
     "ErrItemTypeNotFound": "\"%s\" array item type not found in schema",
@@ -235,10 +240,10 @@
     "ErrMessageDefNotFound": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding not found",
     "ErrMessageMustSpecifyExtension": "\"%s\" message extension (\"%s\" operation of \"%s\" binding) not specified or not supported",
     "ErrMessageSoapVersionConflict": "SOAP version of %s message conflicts with %s operation version",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts.NOTE": "Старый исходник:\nЭлемент \"<%s/>\" без атрибута \"part\" ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной\n\nСтарый перевод:\n\"<%s/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "Элемент \"<%s\/>\" без атрибута part ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной",
     "ErrMimeContentReferencesComplexElement": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to %s{%s} XSD schema element related to the complex type",
     "ErrMimeContentReferencesComplexType": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to the complex type of %s{%s} XSD schema",
-    "ErrNoDefinitionsElement": "<definitions/> element of WSDL description is missing or does not belong to the WSDL namespace",
+    "ErrNoDefinitionsElement": "<definitions\/> element of WSDL description is missing or does not belong to the WSDL namespace",
     "ErrNotArrayType": "\"%s\" is not an array type description",
     "ErrOpDefNotFoundInPortType": "\"%s\" operation referenced by \"%s\" binding not found in \"%s\" port type definition",
     "ErrOperationMustSpecifyExtension": "\"%s\" operation extension of \"%s\" port binding not specified or not supported",
@@ -250,8 +255,8 @@
     "ErrPortTypeNotFound": "\"%s\" port type for \"%s\" binding not found",
     "ErrSchemaDoesNotContainPartElement": "\"%s\" part references \"%s\"{\"%s\"} element not found in XSD schema",
     "ErrSchemaDoesNotContainPartType": "\"%s\" part references \"%s\"{\"%s\"} type not found in XSD schema",
-    "ErrSeveralElementsNotAllowed": "More than one <%s/> element not allowed in WSDL description",
-    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
+    "ErrSeveralElementsNotAllowed": "More than one <%s\/> element not allowed in WSDL description",
+    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation\/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
     "ErrSoapBodyInNonSoapMessage": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding is not SOAP message, but it contains SOAP body",
     "ErrSoapDocumentEncoded": "\"Document\" style SOAP messages with \"encoded\" usage type are not supported",
     "ErrSoapDocumentLiteralPartRefersToType": "Unsupported combination of parameters: \"%s\" part referenced as XSD schema type is assigned to document style SOAP message with literal usage type",
@@ -270,7 +275,7 @@
     "ErrBindingOperationExtensionCollision": "Types of \"%s\" binding extensions and \"%s\" operations do not match",
     "ErrCantDefineTransmissionPrimitive": "Failed to define data exchange primitive for %s operation, %s port type",
     "ErrFaultMustHaveExactlyOnePart": "Error defining %s operation, %s port type: fault message must contain exactly one part",
-    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
+    "ErrHTTPOperationExtensionMissing": "No required extension element \"<http:operation\/>\" in \"%s\" binding HTTP declaration for \"%s\" operation ",
     "ErrHttpPartReferencesComplexElement": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to %s{%s} XSD schema element related to the complex type",
     "ErrHttpPartReferencesComplexType": "\"%s\" part included into \"%s\" message of \"%s\" type (\"%s\" operation) refers to the complex type of %s{%s} XSD schema",
     "ErrInputMimeTypeContainsWildcard": "The incoming service message content must relate to the specific MIME type (actually - %s)",
@@ -281,10 +286,10 @@
     "ErrMessageDefNotFound": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding not found",
     "ErrMessageMustSpecifyExtension": "\"%s\" message extension (\"%s\" operation of \"%s\" binding) not specified or not supported",
     "ErrMessageSoapVersionConflict": "SOAP version of %s message conflicts with %s operation version",
-    "ErrMimeContentMessageDefHasMultipleOrNoParts.NOTE": "Старый исходник:\nЭлемент \"<%s/>\" без атрибута \"part\" ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной\n\nСтарый перевод:\n\"<%s/>\" element without \"part\" attribute refers to \"%s\" message definition, which contains more than one part or does not contain any",
+    "ErrMimeContentMessageDefHasMultipleOrNoParts": "Элемент \"<%s\/>\" без атрибута part ссылается на определение сообщения \"%s\", которое содержит более одной части либо не содержит ни одной",
     "ErrMimeContentReferencesComplexElement": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to %s{%s} XSD schema element related to the complex type",
     "ErrMimeContentReferencesComplexType": "mime:content extension element in \"%s\" message (\"%s\" operation) is associated with \"%s\" part that refers to the complex type of %s{%s} XSD schema",
-    "ErrNoDefinitionsElement": "<definitions/> element of WSDL description is missing or does not belong to the WSDL namespace",
+    "ErrNoDefinitionsElement": "<definitions\/> element of WSDL description is missing or does not belong to the WSDL namespace",
     "ErrNotArrayType": "\"%s\" is not an array type description",
     "ErrOpDefNotFoundInPortType": "\"%s\" operation referenced by \"%s\" binding not found in \"%s\" port type definition",
     "ErrOperationMustSpecifyExtension": "\"%s\" operation extension of \"%s\" port binding not specified or not supported",
@@ -296,8 +301,8 @@
     "ErrPortTypeNotFound": "\"%s\" port type for \"%s\" binding not found",
     "ErrSchemaDoesNotContainPartElement": "\"%s\" part references \"%s\"{\"%s\"} element not found in XSD schema",
     "ErrSchemaDoesNotContainPartType": "\"%s\" part references \"%s\"{\"%s\"} type not found in XSD schema",
-    "ErrSeveralElementsNotAllowed": "More than one <%s/> element not allowed in WSDL description",
-    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
+    "ErrSeveralElementsNotAllowed": "More than one <%s\/> element not allowed in WSDL description",
+    "ErrSoapActionRequiredForHTTP": "It is required to specify \"<soap:operation\/>\" extension element with soapAction attribute for SOAP HTTP transport operations",
     "ErrSoapBodyInNonSoapMessage": "\"%s\" message referenced by \"%s\" operation of \"%s\" binding is not SOAP message, but it contains SOAP body",
     "ErrSoapDocumentEncoded": "\"Document\" style SOAP messages with \"encoded\" usage type are not supported",
     "ErrSoapDocumentLiteralPartRefersToType": "Unsupported combination of parameters: \"%s\" part referenced as XSD schema type is assigned to document style SOAP message with literal usage type",
@@ -325,7 +330,7 @@
     "NodePath": "Tree node path"
   },
   "Common/XML/Processor/XMLImportImpl": {
-    "ErrCDATAInNonStringType": "%s element from %s namespace cannot contain <CDATA/> section because it is of '%s' type",
+    "ErrCDATAInNonStringType": "%s element from %s namespace cannot contain <CDATA\/> section because it is of '%s' type",
     "ErrMaxOccExceeded": "Maximum number of \"%s\" element occurrences exceeded (%d allowed)",
     "ErrNoParentElement": "No parent element in \"%s\" element",
     "ErrSiblingAttributionFailed": "It is not possible to define \"%1:s{%2:s}\" sibling corresponding the schema for \"%0:s\" element",
@@ -357,9 +362,9 @@
     "ErrNoneValueAttempt": "Attempt to set or get a value for the node with dtNone data type",
     "ErrParentPathOnTreeRoot": "Attempt to get the parent node path for the tree root node",
     "ErrRootElementPathOnTreeRoot": "Attempt to get the schema root element path for the tree root node",
-    "ErrSetAsStringDatetimeAttempt": "Attempt to set the SetAsString based value for the \"Date/time\" data type node",
+    "ErrSetAsStringDatetimeAttempt": "Attempt to set the SetAsString based value for the \"Date\/time\" data type node",
     "ErrSetAsStringVariantAttempt": "Attempt to set the SetAsString based value for the \"Variable\" data type node",
-    "ErrSetDateTimeAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Date/time\" data type",
+    "ErrSetDateTimeAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Date\/time\" data type",
     "ErrSetVariantAsStringTypeMismatch": "Failed to set value via the SetDateTimeAsString function for the node with non \"Variant\" data type",
     "ErrTreeSelectionUpdate": "EndUpdateSelection method called without BeginUpdateSelection method",
     "ErrValueConversionImpossible": "Failed to convert \"%s\" string to \"%s\" value",
@@ -547,7 +552,7 @@
     "ErrLowerLimit": "No lower bins bound specified",
     "ErrNoDefineExternalBins": "No external bins found",
     "ErrNoDefineExternalBound": "No bounds for external bins found",
-    "ErrSkoAvgFmt": "Failed to get SD/mean for %s field",
+    "ErrSkoAvgFmt": "Failed to get SD\/mean for %s field",
     "ErrStatFmt": "Failed to get minimum maximum for %s field",
     "ErrTooManyBinsFmt": "Too many bins defined for %s integer field",
     "ErrUpperLimit": "No upper bins bound specified",
@@ -605,7 +610,8 @@
   },
   "components/calcdata/CalcItem": {
     "ErrExprParse": "Error parsing \"%s\" expression",
-    "ExprCalculateError": "Error calculating \"%s\" expression, row %d of the input dataset"
+    "ExprCalculateError": "Error calculating \"%s\" expression, row %d of the input dataset",
+    "ExprCalculateErrorTrace": ", Трасса вызовов: \"%s\""
   },
   "components/calcdata/CalcItemChakra": {
     "ErrExprParse": "Error parsing \"%s\" expression",
@@ -659,6 +665,7 @@
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrReplacingInputVariableNotFound": "Input variable to replace with expression \"%s\" not found",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
+    "ExprCalculateErrorTrace": ", Трасса вызовов: \"%s\"",
     "ExprNameNotExists": "No expression with name \"%s\" exists",
     "NameNotExists": "No input variable or expression with \"%s\" name exists",
     "PreviewProcess": "Previewing calculation results",
@@ -758,6 +765,7 @@
     "ErrInputBinningMissValue": "External binning for \"%s\" column does not contain unique \"%s\" value",
     "ErrInputBinningMissValues": "External binning contains not all unique values of \"%s\" column",
     "ErrInputRangeDataSourceIsNotExist": "No external binning data source",
+    "ErrMoreThanOneTargetColumn": "Во входных данных более одного выходного поля",
     "ErrNoModel": "Model not trained. The node requires training before use",
     "InputRangesDataSource": "External quantization ranges"
   },
@@ -934,12 +942,12 @@
     "VendorDesc": "XML document generation according to given XSD schema"
   },
   "components/datereform/DateReform": {
-    "ErrFormatingString": "Error converting date/time to string with %s format",
+    "ErrFormatingString": "Error converting date\/time to string with %s format",
     "ISO8601": "ISO8601"
   },
   "components/datereform/DateReformVendor": {
     "VendorCaption": "Date and Time",
-    "VendorDescription": "Reform date/time"
+    "VendorDescription": "Reform date\/time"
   },
   "components/duplicates/DuplicatesEngine": {
     "Contradiction": "Contradiction",
@@ -1076,10 +1084,10 @@
     "ErrDatePeriodUndefined": "Failed to define time span",
     "ErrDateSourceTypeDataNotSupported": "Use date from dataset is not supported to define time span",
     "ErrEmptyCompareValueList": "No list of values specified",
-    "ErrIncorrectCompareLowerBound.NOTE": "Старый исходник:\nВведенное значение нижней границы не соответствует типу фильтруемого столбца\n\nСтарый перевод:\nThe entered lower bound value does not match the filtered column type",
-    "ErrIncorrectCompareUpperBound.NOTE": "Старый исходник:\nВведенное значение верхней границы не соответствует типу фильтруемого столбца\n\nСтарый перевод:\nThe entered upper bound value does not match the filtered column type",
-    "ErrIncorrectCompareValue.NOTE": "Старый исходник:\nВведенное значение не соответствует типу фильтруемого столбца\n\nСтарый перевод:\nThe entered value does not match the filtered column type",
-    "ErrIncorrectCompareValueList.NOTE": "Старый исходник:\nЗначения списка не соответствуют типу фильтруемого столбца\n\nСтарый перевод:\nList values do not match the filtered column type",
+    "ErrIncorrectCompareLowerBound": "Введенное значение нижней границы \"%s\" не соответствует типу фильтруемого столбца",
+    "ErrIncorrectCompareUpperBound": "Введенное значение верхней границы \"%s\" не соответствует типу фильтруемого столбца",
+    "ErrIncorrectCompareValue": "Введенное значение \"%s\" не соответствует типу фильтруемого столбца",
+    "ErrIncorrectCompareValueList": "Значение списка \"%s\" не соответствует типу фильтруемого столбца",
     "ErrIncorrectRelationType": "Relation type does not match the filtered column type",
     "ErrNoConditions": "No filtering criteria",
     "ErrRowNumberNotSupported": "Row numerators not supported",
@@ -1212,6 +1220,7 @@
     "VendorDesc": "Group data"
   },
   "components/javascript/JavaScriptEngine": {
+    "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "InputDataSource": "Input data source",
     "JavaScriptConfigureOutputTableProcess": "Preparing output columns",
     "OutputDataSet": "Output dataset"
@@ -1242,6 +1251,37 @@
   "components/joindata/JoinDataVendor": {
     "VendorCaption": "Join",
     "VendorDescription": "Join two datasets"
+  },
+  "components/jointree/JoinTree": {
+    "ErrCannotSkipJoinedArrayRootNode": "Невозможно пропустить корневой узел присоединяемого дерева, который является массивом",
+    "ErrMainTreeNodeMustBeArray": "Связываемый узел основного дерева %s должен быть массивом",
+    "ErrMainTreeNodeMustBeContainer": "Связываемый узел основного дерева %s должен быть контейнером",
+    "ErrMainTreeNodeMustNotBeArray": "Связываемый узел основного дерева %s не должен быть массивом",
+    "ErrMainTreeNodeMustNotBeInsideArray": "Связываемый узел основного дерева %s не должен находиться в массиве",
+    "ErrMainTreeNodeNotAssigned": "Не указан связываемый узел основного дерева"
+  },
+  "components/jointree/JoinTreeVendor": {
+    "VendorCaption": "Слияние (дерево)",
+    "VendorDescription": "Слияние двух деревьев данных"
+  },
+  "components/jsontotree/JSONToTreeEngine": {
+    "ErrCannotExcludeRoot": "Нельзя исключить корневой узел JSON, если он является массивом или у него не один дочерний узел",
+    "ErrContainerNodeInfo": "Узел контейнера \"%s\" не может отобразить JSON значение не объектного типа",
+    "ErrEmptyTreeTemplate": "Не задано дерево при отключенном автоматическом определении структуры",
+    "ErrJSONIsNull": "Отсутствует строка с JSON значением",
+    "ErrNoSourceColumns": "Не указан столбец содержащий строку JSON",
+    "ErrNotArrayForMultipleRows": "Корневой узел должен быть массивом, если набор данных содержит несколько строк",
+    "ErrNotArrayNodeInfo": "Описание узла выходного дерева \"%s\" не является массивом",
+    "ErrNotArrayRootForEmptyData": "Корневой узел должен быть массивом, если набор данных не содержит ни одной строки",
+    "ErrNotExistNodeInfo": "Не найдено описание узла выходного дерева для JSON узла \"%s\"",
+    "ErrRootNotContainerAfterExclude": "Нельзя исключить корневой узел JSON, если его дочерний узел не является объектом или массивом объектов",
+    "ErrSoManySourceColumns": "Указано слишком много столбцов содержащих строку JSON",
+    "ErrUnexpectedJSONType": "Тип данных узла %s не соответствует обявленному типу %s",
+    "ParseError": "Ошибка парсинга на позиции %d: \"%s\""
+  },
+  "components/jsontotree/JSONToTreeVendor": {
+    "VendorCaption": "JSON в дерево",
+    "VendorDesc": "Формирование дерева данных из JSON-строк"
   },
   "components/linregression/LinRegression": {
     "ErrWrongPreNormLength": "The normalized string size %d differs from nominal %d"
@@ -1412,7 +1452,10 @@
     "VendorDesc": "Logistic regression"
   },
   "components/loop/LoopComponent": {
+    "ActivateWorkerProcess": "Активация вычислителя \"%s\"",
     "AppendDataSetProcess": "Appending output datasets",
+    "CreateWorkerProcess": "Создание вычислителя №%d",
+    "CreateWorkersProcess": "Создание вычислителей",
     "ErrCannotSetLinkedVariables": "Invalid operation: LinkedVariables property change",
     "ErrColumnCountChanged": "The column count in the dataset differs from the previous iteration",
     "ErrColumnDataTypesChanged": "The column data types in the dataset differ from the previous iteration",
@@ -1446,6 +1489,7 @@
     "IterationProcess": "Iteration #%d",
     "IterationStatusSocketName": "Iteration execution status",
     "IterationSuccessFlagFieldDisplayName": "Success flag field",
+    "PrepareWorkerProcess": "Подготовка вычислителя \"%s\"",
     "WarningTeachCriticalIterationCount": "Node training started with iterations count %d. Training with many iterations can cause memory overflow error."
   },
   "components/loop/LoopComponentVendor": {
@@ -1573,10 +1617,20 @@
     "VendorDesc": "Selection of test and training sets"
   },
   "components/python/PythonComponentSettings": {
-    "AutoDetect.NOTE": "Имеющиеся переводы:\nAutodetect\nAuto",
+    "AutoDetect": "Определять автоматически",
+    "PythonAllowUnknownEnvs": "Разрешить неизвестные окружения",
+    "PythonContainerCLI": "Контейнерный CLI",
+    "PythonEnvironment": "Окружение",
+    "PythonEnvs": "Известные окружения",
+    "PythonEnvsEmptyText": "Только окружение по умолчанию",
     "PythonExe": "Interpreter path",
     "PythonExePassEnv": "Pass node environment variables",
-    "PythonLib": "Library path"
+    "PythonLib": "Library path",
+    "PythonPyEnv": "Окружение по умолчанию (PY_ENV)",
+    "PythonPyEnvUsageType": "Использовать PY_ENV как",
+    "PythonPyEnvUsageTypeImage": "Имя образа",
+    "PythonPyEnvUsageTypeVEnv": "Путь venv",
+    "PythonRunInContainer": "Запускать в контейнере"
   },
   "components/python/PythonEngine": {
     "APP_ENVVAR": "LOGINOM",
@@ -1586,6 +1640,7 @@
     "ErrCurrentDirectory": "Failed to get current directory",
     "ErrDisallowedExecution": "Python execution forbidden in security settings",
     "ErrGetNativePath": "Failed to resolve the file system path from the \"%s\" path in the file storage",
+    "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "ErrPythonInProcessNotSupported": "Python execution inside the process is not supported, Python is started in the separate process.",
     "InputPortOptional": "Input port is optional",
     "OutputDataFrameExample": "Resulting output pd.DataFrame",
@@ -1608,7 +1663,11 @@
   "components/python/PythonExeEngineImpl": {
     "ErrCannotCreateProcess": "Failed to start \"%s\"",
     "ErrInt32Overflow": "Value %d is out of 32-bit integer range",
+    "ErrInvalidFile": "Невалидный файл \"%\"",
+    "ErrPythonDumpInputTableDataN": "Ошибка при записи данных входной таблицы #%d",
     "ErrPythonExeNotFound": "Python interpreter path specified in application settings does not exist",
+    "ErrPythonLoadOutputTableN": "Ошибка при чтении выходной таблицы #%d",
+    "ErrPythonNotAllowedEnvironment": "Окружение \"%s\" не входит в список разрешённых",
     "PreviewProcess": "Previewing data",
     "PythonDumpDataProcess": "Writing input data",
     "PythonDumpInputTableDataNProcess": "Writing data of input table #%d",
@@ -1616,10 +1675,13 @@
     "PythonDumpInputTablesDataProcess": "Writing data of input tables",
     "PythonExeFailed": "Python interpreter execution finished with error code %d",
     "PythonExeTerminatedBySignal": "Python interpreter execution was interrupted by signal %d",
+    "PythonLoadOutputTableNProcess": "Чтение выходной таблицы #%d",
     "PythonLoadOutputTableProcess": "Reading output table",
+    "PythonLoadOutputTablesProcess": "Чтение выходных таблиц",
     "PythonScriptExecutionProcess": "Executing the script",
-    "ShmBaseDir": "/dev/shm/loginom",
-    "WarnPreviewRunning": "Preview already running"
+    "ShmBaseDir": "\/dev\/shm\/loginom",
+    "WarnPreviewRunning": "Preview already running",
+    "WarnPythonKilledByTimeout": "Процесс интерпретатора Python принудительно остановлен по истечнии тайм-аута отмены"
   },
   "components/python/PythonInterface": {
     "ErrPythonDllNotUnloaded": "Failed to unload \"%s\" library from the process memory",
@@ -1628,24 +1690,24 @@
     "ErrPythonLibraryNotFound": "Python library not found"
   },
   "components/python/PythonModuleData": {
-    "ColumnGet": "Get($self, row, /)\n--\n\nGet column cell value\nArguments:\n  row: int\n    Table row index.\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
-    "ColumnIsNull": "IsNull($self, row, /)\n--\n\nCheck if there is a value in the column cell\nArguments:\n  row: int\n    Table row index.\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
-    "ColumnSet": "Set($self, value, /)\n--\n\nSet value in the column cell of the appended row\nArguments:\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None.\nResult:\n  None",
+    "ColumnGet": "Get($self, row, \/)\n--\n\nGet column cell value\nArguments:\n  row: int\n    Table row index.\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
+    "ColumnIsNull": "IsNull($self, row, \/)\n--\n\nCheck if there is a value in the column cell\nArguments:\n  row: int\n    Table row index.\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
+    "ColumnSet": "Set($self, value, \/)\n--\n\nSet value in the column cell of the appended row\nArguments:\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None.\nResult:\n  None",
     "ErrColumnInfoNoRequiredProperty": "Column definition does not contain required '%s' property",
     "ErrInvalidColumnDataKind": "Invalid data kind",
     "ErrInvalidColumnDataType": "Invalid data type",
     "ErrInvalidColumnUsageType": "Invalid usage type",
     "ErrNoCorrespondingObject": "Python object not associated with work object",
     "TableAddColumn": "AddColumn($self, ColumnInfo=None, Name=None, DisplayName=None, DataType=None, DataKind=None, DefaultUsageType=None)\n--\n\nAdd new column\nArguments:\n  ColumnInfo\n    Any object with the column metadata, for example, another column. Name is a required attribute; DisplayName, DataType, DataKind, DefaultUsageType are optional.\n  Name: str\n    Column name.\n  DisplayName: str\n    Column caption.\n  DataType: int\n    Column data type.\n  DataKind: int\n    Column data kind.\n  DefaultUsageType: int\n    Column default usage type.\nResult:\n  A new table column. Unspecified attributes of the new column are initialized with default values.",
-    "TableAppend": "Append($self, /)\n--\n\nAppend new row\n\nResult:\n  None",
-    "TableAssignColumns": "AssignColumns($self, source, /)\n--\n\nCreate columns by decriptions\nArguments:\n  source: Iterable\n    The object returning iterator over the column metadata objects, for example, InputTable.Columns. The column metadata object must contain the Name attribute and optionally DisplayName, DataType, DataKind, DefaultUsageType.",
-    "TableClearColumns": "ClearColumns($self, /)\n--\n\nDelete all columns\nResult:\n  None",
-    "TableDeleteColumn": "DeleteColumn($self, col, /)\n--\n\nDelete column by index or name\nArguments:\n  col: Union[int, str]\n    Index or name of deleted column.\nResult:\n  None",
-    "TableGet": "Get($self, row, col, /)\n--\n\nGet table cell value\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
-    "TableGetColumn": "GetColumn($self, col, /)\n--\n\nGet column by index or name\n\nArguments:\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Table column",
+    "TableAppend": "Append($self, \/)\n--\n\nAppend new row\n\nResult:\n  None",
+    "TableAssignColumns": "AssignColumns($self, source, \/)\n--\n\nCreate columns by decriptions\nArguments:\n  source: Iterable\n    The object returning iterator over the column metadata objects, for example, InputTable.Columns. The column metadata object must contain the Name attribute and optionally DisplayName, DataType, DataKind, DefaultUsageType.",
+    "TableClearColumns": "ClearColumns($self, \/)\n--\n\nDelete all columns\nResult:\n  None",
+    "TableDeleteColumn": "DeleteColumn($self, col, \/)\n--\n\nDelete column by index or name\nArguments:\n  col: Union[int, str]\n    Index or name of deleted column.\nResult:\n  None",
+    "TableGet": "Get($self, row, col, \/)\n--\n\nGet table cell value\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Cell value according to the column type (bool, int, str, float or datetime.datetime). If the cell is null, None is returned.",
+    "TableGetColumn": "GetColumn($self, col, \/)\n--\n\nGet column by index or name\n\nArguments:\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  Table column",
     "TableInsertColumn": "InsertColumn($self, Index, ColumnInfo=None, Name=None, DisplayName=None, DataType=None, DataKind=None, DefaultUsageType=None)\n--\n\nInsert a new column according to the given index\nArguments:\n  Index: int\n    The index according to which the column is inserted.\n  ColumnInfo\n    Any object with the column metadata, for example, another column. Name is a required attribute; DisplayName, DataType, DataKind, DefaultUsageType are optional.\n  Name: str\n    Column name.\n  DisplayName: str\n    Column caption.\n  DataType: int\n    Column data type.\n  DataKind: int\n    Column data kind.\n  DefaultUsageType: int\n    Column default usage type.\nResult:\n  A new table column. Unspecified attributes of the new column are initialized with default values.",
-    "TableIsNull": "IsNull($self, row, col, /)\n--\n\nCheck if there is a value in the table cell\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
-    "TableSet": "Set($self, col, value, /)\n--\n\nSet value in the cell of the appended row\nArguments:\n  col: Union[int, str]\n    Index or name of table column\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None\nResult:\n  None"
+    "TableIsNull": "IsNull($self, row, col, \/)\n--\n\nCheck if there is a value in the table cell\n\nArguments:\n  row: int\n    Table row index\n  col: Union[int, str]\n    Index or name of table column\nResult:\n  True, if the table cell is null.\n  False, if the table cell contains a value.",
+    "TableSet": "Set($self, col, value, \/)\n--\n\nSet value in the cell of the appended row\nArguments:\n  col: Union[int, str]\n    Index or name of table column\n  value: Union[bool, int, str, float, datetime.datetime, None]\n    The value of the type compatible with column (bool, int, str, float, datetime.datetime, datetime.date, datetime.time, time.struct_time and their descendants) or None\nResult:\n  None"
   },
   "components/python/PythonUtils": {
     "ErrLoadedExtensionRegistrationFailed": "Error executing service code of Python extensions loading registration",
@@ -1723,6 +1785,7 @@
     "RESTClientErrorRowID": "Error executing request generated from row %d of the input dataset: %s"
   },
   "components/restclient/RESTClientSend": {
+    "ErrCharsetNotSupported": "Кодировка символов \"%s\" ответа HTTP не поддерживается",
     "ErrHTTPHeaderRedefined": "\"%s\" header already exists in the request",
     "ErrNotAcceptableResponseContentType": "Invalid Content-Type received: \"%s\", expected: \"%s\""
   },
@@ -1738,7 +1801,7 @@
     "VendorDesc": "Selection of representative subset"
   },
   "components/slidingwindow/SlidingWindow": {
-    "ErrOutputColCountOverflow": "Too high values are specified for Depth period and/or Forecast horizon"
+    "ErrOutputColCountOverflow": "Too high values are specified for Depth period and\/or Forecast horizon"
   },
   "components/slidingwindow/SlidingWindowVendor": {
     "VendorCaption": "Lag",
@@ -1789,19 +1852,28 @@
     "VendorDesc": "Data sorting"
   },
   "components/sqlscript/SQLScriptEngine": {
-    "ConnectProcess.NOTE": "Имеющиеся переводы:\nConnecting to DB\nConnection to DB",
+    "ConnectProcess": "Подключение к БД",
     "ErrCodeDisplayName": "Error Code",
     "ErrExecQuery": "Error executing DB query.",
+    "ErrInSubCommand": "Ошибка при выполнении %d-й команды скрипта",
     "ErrMsgDisplayName": "Error message",
     "ErrNotConnectedToDatabase": "No connection with database",
     "ErrSQLNotSpecified": "SQL query text not specified",
+    "ErrSuccessMsg": "Успешное завершение",
+    "ExecQueryProcess": "Выполнение SQL скрипта",
     "ExecTimeoutExpired": "Execution timeout expired.",
     "GetTablesProcess": "Getting table list",
+    "ProcessDataProcess": "Итерации по строкам входных данных",
+    "RowNumberDisplayName": "Номер строки данных",
     "SQLScriptOutputDataSet": "Errors",
+    "SQLScriptWarnIdenticalMacro": "Имя подстановки \"%s\" одновременно совпадает с именем поля источника данных и переменной. Используется значение поля.",
+    "SQLScriptWarnIdenticalParam": "Имя параметра \"%s\" одновременно совпадает с именем поля источника данных и переменной. Используется значение поля.",
     "WarnDBConnectionIsBusy": "Connection to DB is busy"
   },
   "components/sqlscript/SQLScriptVendor": {
-    "SQLScriptOutputDataSet": "Errors"
+    "SQLScriptOutputDataSet": "Errors",
+    "VendorCaption": "SQL-скрипт",
+    "VendorDesc": "Выполнение SQL скриптов через настроенное подключение к базе данных"
   },
   "components/treetodata/TreeToDataEngine": {
     "ComputeRowCountProcess": "Calculating the number of rows",
@@ -1818,6 +1890,14 @@
   "components/treetodata/TreeToDataVendor": {
     "VendorCaption": "Tree to Table",
     "VendorDesc": "Create data table from data tree"
+  },
+  "components/treetojson/TreeToJSONEngine": {
+    "ErrExcludeMultipleRoot": "Корневой узел не может быть исключен так как он является массивом в строке JSON",
+    "ErrExcludeNotContainerRoot": "Корневой узел не может быть исключен так как он не является контейнером с одним узлом"
+  },
+  "components/treetojson/TreeToJSONVendor": {
+    "VendorCaption": "Дерево в JSON",
+    "VendorDesc": "Формирование строк JSON из дерева данных"
   },
   "components/ungroupdata/UngroupData": {
     "ConfidenceBandLowerDisplayName": "Lower bound 95% CI",
@@ -1900,7 +1980,14 @@
   },
   "components/uniontree/UnionTree": {
     "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
-    "ErrNoActiveInputs": "No active inputs"
+    "ErrNoActiveInputs": "No active inputs",
+    "ErrRowCountExceedMaxValue": "Количество строк результирующего дерева превысило максимальное значение %d",
+    "JoinedDataTree": "Присоединяемое дерево",
+    "MainDataTree": "Главное дерево"
+  },
+  "components/uniontree/UnionTreeVendor": {
+    "VendorCaption": "Объединение (дерево)",
+    "VendorDescription": "Объединение нескольких деревьев данных"
   },
   "components/unionvariables/UnionVariables": {
     "ErrNoActiveInputs": "No active inputs",
@@ -1971,10 +2058,12 @@
     "ConnectProcess": "Connecting to DB",
     "CreateTableProcess": "Creating the table",
     "DeleteFromTableNotify": "Deleting records from table",
+    "DropTableIfExistsProcess": "Удаление существующей таблицы",
     "ErrCodeDisplayName": "Error Code",
     "ErrColumnNotFound": "\"%s\" column not found in the data source",
     "ErrColumnTypesMismatch": "\"%s\" column type is not compatible with \"%s\" source column type",
     "ErrDataSourceSelect": "No data source mapping provided",
+    "ErrDeleteNotSupported": "Операция удаления записей не поддерживается текущей базой данных",
     "ErrDuringExportError": "Error while exporting to DB",
     "ErrExecQuery": "Error executing DB query.",
     "ErrFieldForDeleteNotSelected": "No fields by which data should be deleted specified",
@@ -1991,7 +2080,11 @@
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
     "ExecQueryProcess": "Executing the query",
     "GetTablesProcess": "Getting table list",
+    "GetTypeInfoProcess": "Получение информации о типах данных",
     "GroupDataNotify": "Grouping data",
+    "InfoParamSetsLowerBound": "число строк в пачке меньше %d",
+    "InfoSwitchToInsert": "Переключение на добавление записей через INSERT. Причина: ",
+    "RecreateTableProcess": "Пересоздание таблицы",
     "ResultStatusVariables": "Execution status",
     "TruncateTableNotify": "Truncating the table",
     "UpdateRecordsNotify": "Updating existing table records",
@@ -2003,7 +2096,7 @@
     "VendorDesc": "Export to database through configured connection"
   },
   "exports/excelfile/ExportExcelFile": {
-    "PropErrErrSheetName": "The excel sheet name cannot contain the following characters: ? * / [ ]",
+    "PropErrErrSheetName": "The excel sheet name cannot contain the following characters: ? * \/ [ ]",
     "PropErrLongSheetName": "Excel sheet name cannot be longer than 31 characters",
     "PropErrNoSheetName": "No sheet name specified",
     "SaveExcelBookProcess": "Saving to file",
@@ -2146,6 +2239,7 @@
     "ErrLoadSheetData": "Failed to get Excel worksheet data"
   },
   "imports/excelfile/ImportExcelFile": {
+    "AutoDetectColumnsProcess": "Автоопределение новых столбцов",
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" field to logical value.",
     "ErrColumnExcistFmt": "\"%s\" field already exists",
     "ErrColumnInvalidIdentFmt": "\"%s\" cannot be an identifier",
@@ -2157,7 +2251,7 @@
     "ErrOpenExcelBook": "Failed to open %s Excel file",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
     "ErrPropInvalidNamedRange": "Invalid named range",
-    "ErrPropInvalidSheetName": "The excel sheet name cannot contain the following characters: ? * / [ ]",
+    "ErrPropInvalidSheetName": "The excel sheet name cannot contain the following characters: ? * \/ [ ]",
     "ErrPropNamedRange": "Named range name not specified",
     "ErrPropNamedRangeNotFound": "\"%s\" named range not found in \"%s\" file",
     "ErrPropSheetName": "Excel sheet name not specified",
@@ -2166,6 +2260,7 @@
     "ErrSuggestRange": "Excel file is not open. According to the current settings it is impossible to determine the column count for import",
     "OpenExcelFileProcess": "Opening the file",
     "ReadDataProcess": "Reading data",
+    "ReadMetadataFilesProcess": "Чтение метаданных файлов",
     "ReadMetadataProcess": "Reading file's metadata"
   },
   "imports/excelfile/ImportExcelFileVendor": {
@@ -2256,8 +2351,9 @@
     "ChecksumError": "Checksum error"
   },
   "imports/textfile/ImportTextFile": {
+    "AutoDetectColumnsProcess": "Автоопределение новых столбцов",
     "ErrBooleanTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to logical value.",
-    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date/time.",
+    "ErrDateTimeTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to date\/time.",
     "ErrFloatTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to real number.",
     "ErrIncorrectMaxThreadCount": "Maximum thread count must be no less than %d",
     "ErrIntegerTypeCast": "Failed to convert \"%1:s\" value in \"%0:s\" column to integer.",
@@ -2309,6 +2405,7 @@
   "Libraries/bgdbrtl/ClickHouse/ClickHouseBlockReader": {
     "ErrColOutOfRange": "Column number %d is out of [%d, %d] range",
     "ErrFetch": "Error occurred while reading the dataset",
+    "ErrGetClusters": "Не удалось получить список доступных кластеров",
     "ErrGetFieldDesc": "Failed to get descriptions of fields for \"%s\" table",
     "ErrNoSuchSetting": "Configuration parameter with \"%s\" name does not exist",
     "ErrRowOutOfRange": "Row number %d is out of [%d, %d] range"
@@ -2327,13 +2424,19 @@
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
     "DatabaseTypeName": "ClickHouse",
+    "ErrInsertNoValues": "INSERT не содержит значений",
     "ErrNotOwnSession": "Session does not belong to the database",
-    "ErrStoredProcUnsupported": "ClickHouse does not support stored procedures"
+    "ErrStoredProcUnsupported": "ClickHouse does not support stored procedures",
+    "ErrTruncateDistributedTableForbidden": "TRUNCATE запрещено: таблица с Engine = Distributed создана на кластере \"%s\" (выбран \"%s\")",
+    "GetClustersProcess": "Получение списка кластеров"
   },
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDBUtils": {
     "ErrClickHouse": "ClickHouse error: %s",
     "ErrDate32OutOfRange": "Date %s is out of allowable range [%s, %s)",
     "ErrDateOutOfRange": "Date %s is out of allowable range [%s, %s]"
+  },
+  "Libraries/bgdbrtl/ClickHouse/ClickHouseDeleteHelper": {
+    "ErrDeleteFromDistributedTableForbidden": "Удаление запрещено: таблица с Engine = Distributed создана на кластере \"%s\" (выбран \"%s\")"
   },
   "Libraries/bgdbrtl/DB": {
     "ConnectionTimeout": "Connection timeout",
@@ -2350,6 +2453,7 @@
     "ErrIncorrectServer": "Invalid server",
     "ErrIndexColumnsNotSelect": "No columns to make an index are specified",
     "ErrLocalDBForbidden": "Connections to local databases on server are forbidden",
+    "ErrLoginPromptDisabled": "Текущему пользователю запрещено отключать запрос пароля",
     "ErrLoginTimeout": "The timeout for entering the username and password for connection has expired",
     "ErrOpenQuery": "Error while opening SQL:\n%s",
     "ErrParameterTypesDoNotMatch": "Parameter types do not match",
@@ -2366,6 +2470,7 @@
   },
   "Libraries/bgdbrtl/DBSSL": {
     "DecryptPrivateKey": "Error decrypting private key",
+    "ErrCertCheckModeUnsupported": "Указанный режим \"%s\" проверки сертификата сервера не поддерживается",
     "ErrFileNoAccess": "\"%s\" file unavailable",
     "ErrFileNotFound": "\"%s\" file not found",
     "ErrGetFileStorage": "No reference to file storage",
@@ -2405,6 +2510,7 @@
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
     "APP_ENVVAR": "LOGINOM",
     "DatabaseTypeName": "MS SQL (OLE DB)",
+    "ErrDriverNotInstalled": "Драйвер \"%s\" не установлен",
     "ErrMSSQLODBCDriverUnknown": "Unknown ODBC driver for SQL Server connection (%s=%s). A matching driver will be selected automatically."
   },
   "Libraries/bgdbrtl/UniDAC/MyUniDACDB": {
@@ -2421,13 +2527,19 @@
   "Libraries/bgdbrtl/UniDAC/ODBCUniDACDB": {
     "DatabaseTypeName": "ODBC",
     "ErrDriverDoesNotSupportQuotes": "Data source does not support quoted identifiers, \"%s\" driver",
-    "ErrFileDSNForbidden": "Connections through file DSN are forbidden"
+    "ErrFileDSNForbidden": "Connections through file DSN are forbidden",
+    "WarnRetrieveFieldTypeInfo": "Не удалось получить информацию о типах полей таблиц"
   },
   "Libraries/bgdbrtl/UniDAC/OracleUniDACDB": {
     "DatabaseTypeName": "Oracle"
   },
   "Libraries/bgdbrtl/UniDAC/PostgresUniDACDB": {
-    "DatabaseTypeName": "PostgreSQL"
+    "DatabaseTypeName": "PostgreSQL",
+    "InfoSwitchToInsert": "Переключение на добавление записей через INSERT. Причина: ",
+    "InfoTableUnsupportedTypes": "%s имеет неподдерживаемые типы данных",
+    "InfoTableWithRules": "таблица %s имеет заданное правило (RULE)",
+    "InfoViewNotTable": "%s не является таблицей",
+    "WarnTableRulesWillbeIgnored": "Установленные на таблицу %s правила (RULE) будут проигнорированы"
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
     "DatabaseTypeName": "SQLite",
@@ -2435,6 +2547,7 @@
     "ErrFileNoAccess": "\"%s\" file unavailable",
     "ErrIncorrectFileName": "File name is incorrectly specified, the following characters are prohibited: %s",
     "ErrNotCursor": "The last command in SQL script does not return the cursor",
+    "ErrUnableToLoadSQLiteExtension": "Не удалось загрузить расширение SQLite \"%s\"",
     "SQLiteError": "SQLite error: ",
     "SQLiteFuncOverridingNotSupported": "Function override for SQLite versions below 3.7.3 not supported"
   },
@@ -2458,7 +2571,14 @@
     "ErrSubSetPowerIsZerro": "Attempt to extract all subsets with the power less than 0 or more than the set power as such"
   },
   "Libraries/bgrtl/CachedDataSet": {
-    "ErrRowCountLimitReached": "Maximum row count limit reached"
+    "ErrBlockIsNotFill": "Блоки объединённого набора не были заполнены",
+    "ErrBlockUnionDataSetNotExist": "Запрошенный блок объединённого набора не существует",
+    "ErrBlockUnionDataSetRange": "Выход за пределы выделенного блока в объединённом наборе данных",
+    "ErrPartUnionDataSetNotExist": "Запрошенная часть объединённого набора не существует",
+    "ErrRowCountLimitReached": "Maximum row count limit reached",
+    "ErrTargetHeapIsLoad": "Куча целевого набора уже загружена",
+    "ErrUnionDataSetIsNotPrepared": "Объединённый набор данных не подготовлен к заполнению",
+    "ErrUnionDataSetIsPrepared": "Объединённый набор данных уже подготовлен к заполнению"
   },
   "Libraries/bgrtl/CachedDataTree": {
     "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
@@ -2501,7 +2621,7 @@
     "ObjMetaDesc": "object"
   },
   "Libraries/bgrtl/ClipboardAdapter": {
-    "ErrHTMLFormatNotImplemented": "Invalid clipboard format. Only text/plain is supported",
+    "ErrHTMLFormatNotImplemented": "Invalid clipboard format. Only text\/plain is supported",
     "ErrReadForbidden": "It is forbidden to read values",
     "ErrUnsupportedDelimiter": "Only CR+LF and LF line breaks are supported",
     "ErrWriteForbidden": "It is forbidden to write values"
@@ -2562,15 +2682,25 @@
     "ErrUnexpectedEndUpdate": "Failed to call EndUpdate method without calling BeginUpdate first"
   },
   "Libraries/bgrtl/DataTreeCommon": {
+    "ErrCannotGetContainerExists": "Невозможно получить признак существования контейнера для узла с идентификатором %d: узел не является контейнером",
     "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",
     "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
     "ErrCannotGetRowRange": "Failed to get the row range for the node with identifier %d: the node is not an array"
+  },
+  "Libraries/bgrtl/DataTreeJSONNodeDefsBuilder": {
+    "ErrJSONFileRead": "Ошибка при чтении файла \"%s\"",
+    "ErrJSONIsArrayChanged": "Узел %s в одном из полей JSON объявлен как массив, а в другом нет",
+    "ErrJSONIsObjectChanged": "Узел %s в одном из полей JSON объявлен как контейнер, а в другом нет",
+    "ErrJSONOverSize": "Превышение допустимого размера JSON",
+    "ErrRootNotContainer": "Корень JSON не является объектом или массивом объектов",
+    "ParseError": "Ошибка парсинга на позиции %d: \"%s\""
   },
   "Libraries/bgrtl/DataTreeNodeDefs": {
     "ErrCannotInitializeNodeWithDifferentContainerFlag": "Failed to initialize the node from the source node which differs by the container flag value",
     "ErrChangeDataKindNotAllowed": "Failed to change the data kind of the node that is a container",
     "ErrChangeDataTypeNotAllowed": "Failed to change the data type of the node that is a container",
     "ErrChangeIsContainerNotAllowed": "Failed to change the container indicator of a node that is a root node, or contains child nodes",
+    "ErrDuplicateExcludedNodes": "В списке исключений найдены дубликаты: %s",
     "ErrNodeCantBeContinuous": "\"%s\" node of \"%s\" type cannot be continuous",
     "ErrOnlyContainerNodeCanHaveSubNodes": "Only container node can have subnodes",
     "RootNodeDisplayName": "Root"
@@ -2578,6 +2708,11 @@
   "Libraries/bgrtl/DataTreeNodeDefsVendor": {
     "ErrInvalidUsageType": "Usage type \"%s\" is not valid for the configurable node \"%s\"",
     "ErrNodeTypesMismatch": "%s node type is not compatible with %s source node type"
+  },
+  "Libraries/bgrtl/DataTreeNodeInfoLinks": {
+    "ErrLinkedNodeInfoNotFound": "Узел по пути %s не найден",
+    "ErrLinkedNodeInfoNotSpecified": "Ссылка на узел не задана",
+    "ErrLinkedNodeInfoTypesMismatch": "Тип узла %s не совместим с типом исходного узла"
   },
   "Libraries/bgrtl/DateUtils": {
     "AvailableData": "dataset",
@@ -2663,6 +2798,7 @@
     "ErrInvalidIndex": "Index value %d of \"%s\" parameter is out of [%d, %d] range",
     "ErrInvalidMethodParam": "Invalid value of %s parameter for %s method: \"%s\"",
     "ErrInvalidParam": "Invalid value of %s parameter: \"%s\"",
+    "ErrInvalidParams": "Недопустимые значения параметров",
     "ErrMethodParamIsNull": "%s parameter of %s method must be initialized",
     "ErrMustGreaterOrEqualThan": "Value %g of \"%s\" parameter must be more than or equal to %g",
     "ErrMustGreaterOrEqualThanInt": "Value %d of \"%s\" parameter must be more than or equal to %d",
@@ -2770,7 +2906,7 @@
     "WSDLFilesDesc": "Web service description files",
     "XlsbFilesDesc": "Excel 2007 binary workbook",
     "XlsFilesDesc": "MS Excel files",
-    "XlsmFilesDesc.NOTE": "Старый исходник:\nДвоичная книга Excel 2007 с поддержкой макросов\n\nСтарый перевод:\nExcel 2007 binary macro-enabled workbook",
+    "XlsmFilesDesc": "Книга Excel 2007 с поддержкой макросов",
     "XlsxFilesDesc": "Excel 2007 workbook",
     "XMLFilesDesc": "XML files",
     "XSDFilesDesc": "XML schema files",
@@ -2820,6 +2956,19 @@
     "ErrStreamWriteBufferInvalidParams": "Invalid parameter values when writing to the data stream: Length = %d; Count = %d; Offset = %d",
     "ErrStreamWriteBufferLength": "When writing to the data stream, the initial buffer size of %d is less than the number of bytes %d required for writing"
   },
+  "Libraries/bgrtl/JSONParser": {
+    "ErrJSONAddNode": "Ошибка добавления JSON узла",
+    "ErrJSONBadArray": "Некорректный JSON массив",
+    "ErrJSONBadNumber": "Некорректное JSON число",
+    "ErrJSONBadObject": "Некорректный JSON объект",
+    "ErrJSONBadString": "Некорректная JSON строка",
+    "ErrJSONBadWord": "Недопустимое значение \"%s\"",
+    "ErrJSONSyntax": "Ошибка парсинга JSON",
+    "ErrJSONUnexpectedChar": "Получен символ %s вместо ожидаемого %s",
+    "ErrJSONUnknownValue": "Неопределенное JSON значение",
+    "ErrParserNotInited": "Парсер JSON не инициализирован",
+    "InvalidDateTimeTemplate": "Недопустимый шаблон даты времени \"%s\""
+  },
   "Libraries/bgrtl/LocaleUtils": {
     "ErrLocaleNotSupported": "\"%s\" locale not supported",
     "LocaleName": "Locale"
@@ -2840,6 +2989,9 @@
     "ErrActionCookieInvalidOwner": "The object action Cookie belongs to another object",
     "ErrActionNotBeginning": "Action hasn't been started",
     "ErrOwnerDiposedBeforeActionCookie": "The object has been disposed before the object action Cookie"
+  },
+  "Libraries/bgrtl/Patterns": {
+    "ErrDuplicatePatterns": "Найдены правила с одинаковыми параметрами (дубликаты)"
   },
   "Libraries/bgrtl/ProgressTracker": {
     "ErrCannotChangeMaxSavedProcessCount": "Failed to change the maximum count of saved processes: buffer of saved processes has already been used",
@@ -2897,7 +3049,7 @@
     "ErrWrongSyncClass": "Invalid synchronization source class. Expected instance of %s class, actually %s"
   },
   "Libraries/bgrtl/StrDateUtils": {
-    "ErrInvalidDateTime": "\"%s\" string cannot be converted to the date/time value"
+    "ErrInvalidDateTime": "\"%s\" string cannot be converted to the date\/time value"
   },
   "Libraries/bgrtl/Streams": {
     "ErrCachedStreamSeek0AfterLargeRead": "It is not possible to move to the stream start as %d bytes already are read and it exceeds %d cache size"
@@ -2906,6 +3058,7 @@
     "ErrInvalidBoolean": "\"%s\" string cannot be converted to the boolean value",
     "ErrInvalidFloat": "\"%s\" string cannot be converted to the real type value",
     "ErrInvalidHexStr": "String \"%s\" is not a valid representation of a hexadecimal number",
+    "ErrOverSizeBuild": "Размер создаваемой строки превысил максимальный в 2Гб",
     "LocaleInvariant": "Invariant",
     "NotSet": "Unspecified",
     "NullValue": "<Null>"
@@ -2926,12 +3079,12 @@
     "ErrObjectDeleteRefCount": "Failed to delete the object of %s class due to interface references to it: %d"
   },
   "Libraries/bgrtl/System": {
-    "ErrConvertDateTimeToBool": "Failed to convert the Date/time value %g to the boolean value",
-    "ErrConvertDateTimeToInt": "Failed to convert the Date/time value %g to integer",
+    "ErrConvertDateTimeToBool": "Failed to convert the Date\/time value %g to the boolean value",
+    "ErrConvertDateTimeToInt": "Failed to convert the Date\/time value %g to integer",
     "ErrConvertFloatToBool": "Failed to convert the real value %g to the boolean value",
-    "ErrConvertFloatToDateTime": "Failed to convert the real value %g to the Date/time value",
+    "ErrConvertFloatToDateTime": "Failed to convert the real value %g to the Date\/time value",
     "ErrConvertFloatToInt": "Failed to convert the real value %g to integer",
-    "ErrConvertIntToDateTime": "Failed to convert the integer value %d to the Date/time value",
+    "ErrConvertIntToDateTime": "Failed to convert the integer value %d to the Date\/time value",
     "ErrConvertIntToFloat": "Failed to convert the integer value %d to the real number without accuracy loss",
     "ErrConvertIntToSet": "Failed to convert number %d of %d bits to the set of %d bits",
     "ErrConvertSetToInt": "Failed to convert the set of %d bits to the number of %d bits",
@@ -2947,9 +3100,11 @@
   },
   "Libraries/bgrtl/SysUtils": {
     "ErrCopyPasteRecursive": "\"%s\" folder cannot be copied into itself",
+    "ErrCreateFile": "Невозможно создать файл: \"%s\"",
     "ErrCutPasteRecursive": "\"%s\" folder cannot be moved into itself",
     "ErrDirectoryNotExists": "\"%s\" folder does not exist",
-    "ErrFileMapping": "\"%s\" file mapping error"
+    "ErrFileMapping": "\"%s\" file mapping error",
+    "ErrOpenFile": "Невозможно открыть файл: \"%s\""
   },
   "Libraries/bgrtl/TextStream": {
     "ErrBadUnicodeStream": "Source data stream has invalid Unicode format",
@@ -3339,6 +3494,7 @@
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "ErrFileNameEmpty": "File name cannot be empty",
     "ErrFileNotFound": "\"%s\" file not found",
+    "ErrFoundFileNames": "Не удалось подготовить имена файлов",
     "ErrStorageIsNull": "File storage not specified",
     "FileNameDisplayName": "File name",
     "FileTimeDisplayName": "File time"
@@ -3373,6 +3529,7 @@
     "FullNameAttribute": "Full name attribute",
     "Host": "Host",
     "NameAttribute": "Name attribute",
+    "NoCheckCertificate": "Не проверять сертификат сервера",
     "Password": "Password",
     "Port": "Port",
     "UseSASL": "Use SASL"
@@ -3419,7 +3576,7 @@
     "ErrCreateSolver": "Error creating sparse solver with type: %s",
     "ErrNoMatrixOrRhs": "Matrix or right side not set",
     "ErrNonSquareSuperMatrixNotSupportedYet": "Solver SuperLU does not support non-square matrices yet",
-    "ErrSizesNotEqual": "The matrix column count and dimension of the right part/solution do not match",
+    "ErrSizesNotEqual": "The matrix column count and dimension of the right part\/solution do not match",
     "ErrSuperLUSolver": "SuperLU Solver procedure failed",
     "ErrSuperMatrixNotConverted": "Matrix not converted to SuperLU format",
     "ErrWrongArrayType": "Unsupported array type: %s",
@@ -3516,7 +3673,7 @@
     "Rows": "Rows"
   },
   "Libraries/Model/DataSet/DataSourceVariablesMultiInputDataSetMultiOutputModelComponentEngine": {
-    "InputVariables.NOTE": "Имеющиеся переводы:\nInput Variables\nInput variables"
+    "InputVariables": "Входные переменные"
   },
   "Libraries/Model/DataSet/DataSourceVariablesMultiInputModelComponentEngine": {
     "InputVariables": "Input variables"
@@ -3530,6 +3687,7 @@
     "InputDataSource": "Data source"
   },
   "Libraries/Model/DataSet/ImportModelComponentEngine": {
+    "ErrParallelImportError": "При параллельном импорте возникла ошибка",
     "InputConnection": "Connection",
     "OutputDataSet": "Dataset"
   },
@@ -3720,6 +3878,7 @@
     "ErrPackageNameInvalidFirstCharacter": "\"%s\" package name starts with the invalid \"%s\" character",
     "ErrPackageNotFoundByFileName": "Failed to find %s package",
     "ErrPackageWithNameLinkAlreadyExists": "Reference to package with name \"%s\" already exists",
+    "ErrReviveExceptions": "При восстановлении ссылки на пакет с именем %s и версией %s возникли ошибки",
     "ErrVariableNamesAndValuesCountMustBeEqual": "Number of names and variables values must be the same",
     "ErrVariableNotFound": "Variable with \"%s\" name not found",
     "ErrVariableValuesMustBeInOneArray": "Variable values must be contained in one array only",
@@ -3792,10 +3951,12 @@
     "ActivateModelNodeInputsProcess": "Activating node inputs",
     "ActivateModelNodesProcess": "Activating nodes",
     "AddInputSocketCaption": "\"%s\" input added to \"%s\" node",
+    "AddOutputSocketCaption": "Добавлен выход \"%s\" к узлу \"%s\"",
     "ComponentOutputPort": "Component",
     "CopyNodeCaption": "\"%s\" Element Copied",
     "DeleteElementsCaption": "Elements deleted",
     "DeleteInputSocketCaption": "\"%s\" Input of \"%s\" Node Deleted",
+    "DeleteOutputSocketCaption": "Удален выход \"%s\" узла \"%s\"",
     "DependentNodeOutputPort": "Dependent nodes",
     "ErrActivateFromWebServiceCanceled": "Request processing cancelled",
     "ErrActivateModelNodes": "Error occurred while activating nodes",
@@ -4022,7 +4183,7 @@
   },
   "Libraries/Normalization/NormalizerSettings": {
     "ErrMinMaxNormTypeNotSupported": "The selected \"%s\" normalization type is not supported by Min-Max normalization settings",
-    "ErrMinMaxStatNaN": "Failed to calculate the maximum/minimum value for the range normalization settings, \"%s\" column",
+    "ErrMinMaxStatNaN": "Failed to calculate the maximum\/minimum value for the range normalization settings, \"%s\" column",
     "ErrNanDivisor": "Failed to calculate divisor to normalize relations, \"%s\" column",
     "ErrQuotientNormTypeNotSupported": "The selected \"%s\" normalization type is not supported by the relation normalization settings",
     "ErrQuotientStatNotSupported": "Use of the selected statistics parameter \"%s\" as divisor in the relation normalization settings is not allowed",
@@ -4076,6 +4237,7 @@
     "ErrNotImplemented": "This functionality not implemented"
   },
   "Libraries/OpenID/OpenID": {
+    "InvalidTokenResponce": "При запросе токена ответ не является JSON который содержит токен",
     "MissingClaim": "Token has no claim %s",
     "TokenNotIncludeRolesClame": "Token has no list of roles with claim %s",
     "TokenRequestError": "Error receiving token. %s"
@@ -4087,11 +4249,13 @@
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
     "FoldersClaim": "Claim of the list of shared folders",
+    "NoCheckCertificate": "Не проверять сертификат сервера",
     "OpenIDClient": "Client ID",
     "OpenIDProviderName": "Login button caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
     "RedirectURI": "Token receiver's URL",
+    "ResponseMode": "Формат ответа на запрос аутентификации",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint",
     "UpdateUserRole": "Update user role",
@@ -4189,7 +4353,7 @@
   },
   "Libraries/RESTClientConnection/RESTClientConnectionVendor": {
     "RESTClientConnectionVendorCaption": "REST Service",
-    "RESTClientConnectionVendorDesc": "Connector to GET/POST web service"
+    "RESTClientConnectionVendorDesc": "Connector to GET\/POST web service"
   },
   "Libraries/rpc/BaseSocketMessageTransport": {
     "ErrCouldNotConnectToServer": "Failed to establish connection: %s",
@@ -4211,6 +4375,7 @@
   "Libraries/rpc/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Arrays nesting level above %d is not supported",
     "ErrCodePageNotSupported": "The string has unsupported codepage %d. Only UTF-8 and UTF-16 are supported.",
+    "ErrInvalidMessageFormatVersion": "Неверный номер версии формата сообщения: %d, ожидается: %d",
     "ErrInvalidMessageSignature": "Invalid message signature",
     "ErrMessageSizeCannotBeNegative": "Message size cannot be negative",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
@@ -4222,6 +4387,9 @@
   },
   "Libraries/rpc/RemotingConvertUtils": {
     "ErrValueOutOfRange": "%d value is not in the range of allowable values %s"
+  },
+  "Libraries/rpc/RpcExceptUtils": {
+    "ErrUnknownExceptionID": "Неизвестный идентификатор исключения: %d"
   },
   "Libraries/rpc/ServerRemoteObjects": {
     "ErrQueryInterfaceNotAllowed": "Failed to query interface with %s identifier via QueryInterface",
@@ -4247,6 +4415,9 @@
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d, %d]",
     "IdleLockTimeOut": "Session was locked by idle timeout: %d seconds"
+  },
+  "Libraries/rpc/WebSocketMessageTransport": {
+    "ConnectionClosedUnansweredPing": "Подключение через WebSocket было закрыто из-за того, что не получен ответ на сообщение Ping"
   },
   "Libraries/rpc/WebSocketRemoteServer": {
     "ErrSSLChangeAfterStart": "SSL parameters cannot be changed after server start"
@@ -4329,6 +4500,8 @@
   "Studio/DeductorServer": {
     "AutoSavePackageError": "Error occurred while autosaving \"%s\" package",
     "AutoSavePackagesFailed": "Packages autosave failed",
+    "ChangePassException": "Пароль пользователя должен быть изменен",
+    "ChangePassNotAllowed": "Пароль можно менять только у пользователей с локальной аутентификацией",
     "EnteredMaintenanceMode": "Server entered maintenance mode",
     "ErrAccessDenied": "Access denied",
     "ErrApplicationModeRunNotAllowed": "The current user has no batch processing rights",
@@ -4370,9 +4543,11 @@
     "ErrUpdatePublishedPackageErrors": "Errors occurred while updating %s package publishing",
     "LeftMaintenanceMode": "Server left maintenance mode",
     "LicSessionCountExceeded": "Count of sessions allowed according to your license exceeded",
+    "LogChangePassFailed": "Не удалось изменить пароль у пользователя %s",
     "LogFailedLogin": "Failed to log into %s account",
     "LogFailedToken": "Failed to log into account",
     "LogFailedTokenVariables": "Error preparing variables from OpenID token",
+    "LogFileCreatedBy": "Лог-файл создан %s %s",
     "LogLDAPCaption": "LDAP",
     "LogLoggingCaption": "Logging",
     "LogMaintenanceStateUnchanged": "Maintenance mode status unchanged",
@@ -4381,6 +4556,7 @@
     "LogSettingsComponentChanged": "Server component parameter %s:\"%s\" changed",
     "LogTokenClaimNone": "Token has no claim %s",
     "LogTokenClaimTypeErr": "Value of claim %s is in the wrong format",
+    "NewPassAsPreviousException": "Новый пароль не должен совпадать со старым",
     "PackageClosedLogMsg": "\"%s\" package closed",
     "PackageOpenedEditLogMsg": "\"%s\" package opened in the edit mode",
     "PackageOpenedReadLogMsg": "\"%s\" package opened in the read-only mode",
@@ -4392,6 +4568,7 @@
     "PublishedPackageUpdated": "Published package \"%s\" updated",
     "ServerIsInMaintenance": "The server is in maintenance mode",
     "ServerStartLogMsg": "%s started",
+    "ServerStopLogMsg": "%s остановлен",
     "SessionBatch": "Batch processing",
     "SessionCloseLogMsg": "Closed session for %s user",
     "SessionInitializedLogMsg": "Initialized session for %s user",
@@ -4409,12 +4586,18 @@
     "ErrCannotConfigureActiveConnection": "Cannot change active connection settings"
   },
   "Studio/DeductorServerSettings": {
+    "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
+    "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
+    "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
+    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+    "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
     "FailedLoginCountLimit": "Password entry attempts limit",
     "FailedLoginTimeout": "Password entry timeout",
     "IdleDisconnectTimeout": "Session disconnection timeout",
     "IdleLockTimeout": "Session lock timeout",
     "MaxSchedulerHistoryDays": "Store scheduler history (days)",
     "PackagePoolSize": "Package pool size",
+    "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
     "PublishedPackagesUpdatePeriod": "Web services change check period",
     "RAMLimitKB": "Memory limit (KB)",
     "RAMLimitRatio": "Memory usage ratio",
@@ -4443,6 +4626,7 @@
   },
   "Studio/DeductorUsers": {
     "AllowedApplicationModes": "Allowed application modes",
+    "AllowPasswordSave": "Разрешить сохранять пароль к БД",
     "AllowPublish": "Allow packages publishing",
     "AuthMode": "Authentication",
     "Blocked": "Blocked",
@@ -4458,6 +4642,8 @@
     "ErrLDAPUserNotFound": "%s user not found in the directory service",
     "ErrLeadingOrTrailingWhitespaceInPassword": "Password must not begin or end with a space",
     "ErrLoginNameChanged": "Username change not allowed",
+    "ErrLoginPeer": "Ошибка аутентификации Peer",
+    "ErrMaxLengthPassword": "Пароль должен содержать максимум %d символов",
     "ErrNoUsersWithAdminPrivileges": "There are no users with admin privileges",
     "ErrOpenIDUserNotFound": "User not found",
     "ErrTokenUserName": "Token has no username",
@@ -4466,6 +4652,7 @@
     "ErrUserNameConflictsWithSharedDirectory": "Username conflicts with %s shared directory name",
     "ErrUserNameIsReserved": "%s identifier has already been reserved and it cannot be used as a username",
     "ErrUserNameMustBeValid": "Username can consist of Latin letters, digits, _ - . characters and space,\nbut it cannot end with a dot or space.",
+    "ExternName": "Системный пользователь",
     "GroupEveryone": "All",
     "IsAdmin": "Admin",
     "IsDesigner": "Workflow design",
@@ -4474,12 +4661,34 @@
     "LogAddUser": "%s user added",
     "LogDeleteGroup": "%s group deleted",
     "LogDeleteUser": "%s user deleted",
+    "LogFailedLoginPeer": "Ошибка при аутентификации Peer",
+    "LogFailedLoginPeerID": "Ошибка при аутентификации Peer (uid: %s)",
+    "LogFailedLoginPeerRunModeOnly": "Аутентификация Peer возможна только в пакетном режиме",
+    "LogMustChangePassword": "Требовать смену пароля при следующем входе",
     "LogUserPropertySet": "%s account change",
     "Password": "Password",
+    "PeerAuthNotSupported": "Аутентификации Peer не поддерживается на этой платформе",
     "ReservedUserName": "loginom",
     "SchedulerFullAccess": "Access to all scheduler jobs",
     "UseGlobalFileStorage": "Use global file storage",
     "UserMetaDesc": "User"
+  },
+  "Studio/PasswordPolicy": {
+    "Digits": "Количество цифр",
+    "Lowercase": "Количество строчных букв",
+    "MaxLength": "Максимальная длина пароля",
+    "MaxPasswordLength": "максимум %d символов",
+    "Minimum": "минимум",
+    "MinLength": "Минимальная длина пароля",
+    "MinPasswordLength": "%d символов",
+    "PasswordDigits": "%d цифр",
+    "PasswordLowercase": "%d строчных букв",
+    "PasswordSpecial": "%d специальных символов",
+    "PasswordUppercase": "%d заглавных букв",
+    "PolicyException": "Пароль не обеспечивает требований к сложности",
+    "PolicyPreset": "Ограничения пароля",
+    "Special": "Количество специальных символов",
+    "Uppercase": "Количество заглавных букв"
   },
   "Studio/RegistrationEditionDependentComponents": {
     "1Cv8Connection": "1C:Enterprise 8 connector",
@@ -4504,12 +4713,16 @@
     "ErrCannotStartDisabledJob": "Execution of job \"%s\" forbidden",
     "ErrHistoryCountMustNotBeNegative": "Count of history records must not be negative",
     "ErrInvalidExceptionInfoFormat": "Incorrect format of exception information",
+    "ErrInvalidStartAfterJobStatuses": "Указаны недопустимые статусы для запуска задачи",
+    "ErrInvalidStopTimeoutUnit": "Недопустимая единица измерения тайм-аута остановки: %s",
+    "ErrInvalidTimeFilterBound": "Значение границы интервала времени должно быть в диапазоне от 0:00 включительно до 24:00 не включительно",
     "ErrPeriodCountMustBePositive": "Repeat period count must be positive",
     "ErrSchedulerInitException": "An exception occurred when initalizing job scheduler",
     "ErrSchedulerJobAlreadyDeleted": "Job has already been deleted",
     "ErrSchedulerJobIsNotConfiguring": "Job is not being configured",
     "ErrSchedulerNotInitialized": "Job scheduler initialization failed",
     "ErrSchedulerThreadException": "An exception occurred in the main thread of the job scheduler",
+    "ErrStopTimeoutCountMustBePositive": "Значение тайм-аута остановки должно быть положительным",
     "LogAddJob": "Job \"%s\" belonging to user %s created in the scheduler",
     "LogClearJobs": "All jobs deleted from the scheduler",
     "LogClearJobsOfUser": "All jobs belonging to user %s deleted from the scheduler",
@@ -4547,13 +4760,15 @@
     "SSLPrivateKeyFile": "Private key file name",
     "UnixSocket": "Unix socket",
     "UnixSocketFileName": "loginomd",
+    "UnixSocketMode": "Unix socket permissions",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL/TLS port"
+    "WSSPort": "WebSocket SSL\/TLS port"
   },
   "Viewers/Browse/BrowseView": {
     "ErrExportBusy": "Failed to export table in the process of data modification",
     "ErrExportDataInvalid": "Failed to export table with unprepared data",
     "ErrExportDeactivate": "Export deactivated due to node deactivation",
+    "ErrTooManyCellsForSearch": "Выбрано слишком много ячеек для поиска",
     "LogColumnNotFoundFmt": "No %s field found in the input dataset. The field has been deleted from the displayed fields.",
     "LogNewColumnFmt": "New %s field appeared in the input dataset. The field has been added to the displayed fields.",
     "NullText": "",
@@ -4634,6 +4849,7 @@
     "VendorDesc": "\"Coarse classes\" visualizer"
   },
   "Viewers/Cube/CubeCalcSummaries": {
+    "CalculationExpressioErrorTrace": ", Трасса вызовов: \"%s\"",
     "ErrCalculationExpression": "Error occurred while calculating the expression corresponding to calculated measure \"%s\"",
     "ErrExprResultIsString": "The expression result is of string type",
     "ErrParseExpression": "Error occurred while parsing the expression corresponding to calculated measure \"%s\"",

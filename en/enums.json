@@ -3,7 +3,7 @@
     "CalcFuncCategory": {
       "$Caption": "Function Category",
       "Financical": "Financial",
-      "DateTime": "Date/Time",
+      "DateTime": "Date\/Time",
       "Mathematic": "Math",
       "Statistic": "Statistical",
       "Logic": "Logical",
@@ -35,7 +35,8 @@
       "$Caption": "Authentication Type",
       "Absent": "Not required",
       "NamePass": "Username and password",
-      "OAuth.NOTE": "Имеющиеся переводы:\nOAuth token\nOAuth Token",
+      "Basic": "Basic",
+      "OAuth": "Токен OAuth",
       "Cert": "Client certificate from storage",
       "FileCert": "Client certificate files"
     }
@@ -46,7 +47,7 @@
       "Ok": "No errors",
       "Cancelled": "Canceled by user",
       "InitError": "Initialization error: %s",
-      "InvalidMultipartBoundary": "Invalid multipart/related boundary",
+      "InvalidMultipartBoundary": "Invalid multipart\/related boundary",
       "HeaderTooLong": "HTTP header too long",
       "UnexpectedMessageEnd": "Unexpected message end",
       "UnknownMessageStructure": "Unrecognized message structure",
@@ -63,7 +64,8 @@
       "NoContextForInputMessage": "No context for generation of the incoming service message",
       "UnsupportedSoapTransport": "Unsupported SOAP transport",
       "PrepareError": "Error in preparing request data: %s",
-      "UnimplementedRequestType": "The requests with %s extensions are not currently supported"
+      "UnimplementedRequestType": "The requests with %s extensions are not currently supported",
+      "Timedout": "Время выполнения истекло"
     }
   },
   "Common/WSDL/WSDL": {
@@ -109,7 +111,8 @@
       "Cancelled": "Canceled by user",
       "DataSourceIsEmpty": "The input data source contains no records",
       "InitError": "Error initializing export procedure: %s",
-      "ExportError": "Error executing export procedure: %s"
+      "ExportError": "Error executing export procedure: %s",
+      "TimedOut": "Время выполнения истекло"
     },
     "XMLRequestErrorCode": {
       "$Caption": "XML request processing result",
@@ -123,7 +126,8 @@
       "SaxParserError": "Error parsing XML document: %s",
       "MIMEParserError": "Error processing server response: %s",
       "UnsupportedRequestType": "Unsupported request type",
-      "BadRequestParam": "Bad request parameter"
+      "BadRequestParam": "Bad request parameter",
+      "TimedOut": "Время выполнения истекло"
     }
   },
   "Common/XML/SAX/XMLSAX_MSXML": {
@@ -168,7 +172,7 @@
       "None": "Unknown",
       "Date": "Date",
       "Time": "Time",
-      "DateTime": "Date/time",
+      "DateTime": "Date\/time",
       "Float": "Floating point number (single precision)",
       "Double": "Floating point number (double precision)",
       "Decimal": "Decimal number",
@@ -255,9 +259,9 @@
     },
     "BinningSDMode": {
       "$Caption": "Bin Create Mode",
-      "sdm1": "+/- 1 SD",
-      "sdm2": "+/- 2 SD",
-      "sdm3": "+/- 3 SD"
+      "sdm1": "+\/- 1 SD",
+      "sdm2": "+\/- 2 SD",
+      "sdm3": "+\/- 3 SD"
     }
   },
   "components/calcdata": {
@@ -396,12 +400,12 @@
     },
     "DateReformFormat": {
       "$Caption": "Output Column Data Type",
-      "DateTime": "Date/Time",
+      "DateTime": "Date\/Time",
       "Number": "Number",
       "String": "String"
     },
     "DateReformFunction": {
-      "$Caption": "Date/Time Conversion Method",
+      "$Caption": "Date\/Time Conversion Method",
       "YearAndQuarter": "Year + quarter",
       "YearAndMonth": "Year + month",
       "YearAndWeek": "Year + week",
@@ -510,24 +514,34 @@
   },
   "components/jointree": {
     "JoinTreeOperationType": {
-      "$Caption.NOTE": "Имеющиеся переводы:\nOperation Type\nOperation type"
+      "$Caption": "Тип операции",
+      "InsertIntoContainer": "Включить узел в контейнер",
+      "InsertIntoArray": "Включить узел в массив"
+    },
+    "JoinTreeType": {
+      "$Caption": "Тип дерева данных",
+      "Main": "Главное дерево",
+      "Joined": "Присоединяемое дерево"
     }
   },
   "components/jsontotree": {
     "RootGeneration": {
-      "Auto": "Autodetect"
+      "$Caption": "Корневой узел",
+      "Auto": "Autodetect",
+      "Array": "Всегда массив",
+      "NotArray": "Всегда не массив"
     }
   },
   "components/linregression": {
     "LinRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
-      "Enter.NOTE": "Старый исходник:\nEnter - Принудительное включение\n\nСтарый перевод:\nEnter",
-      "Forward.NOTE": "Старый исходник:\nForward - Пошаговое включение\n\nСтарый перевод:\nForward",
-      "Backward.NOTE": "Старый исходник:\nBackward - Пошаговое исключение\n\nСтарый перевод:\nBackward",
-      "Stepwise.NOTE": "Старый исходник:\nStepwise - Пошаговое включение/исключение\n\nСтарый перевод:\nStepwise",
-      "L2.NOTE": "Старый исходник:\nRidge - Гребневая регрессия\n\nСтарый перевод:\nRidge",
-      "L1.NOTE": "Старый исходник:\nLASSO - Регрессия Лассо\n\nСтарый перевод:\nLASSO",
-      "L1L2.NOTE": "Старый исходник:\nElastic-net - Регрессия \"эластичная сеть\"\n\nСтарый перевод:\nElastic Net"
+      "Enter": "Enter (Принудительное включение)",
+      "Forward": "Forward (Пошаговое включение)",
+      "Backward": "Backward (Пошаговое исключение)",
+      "Stepwise": "Stepwise (Пошаговое включение\/исключение)",
+      "L2": "Ridge (Гребневая регрессия)",
+      "L1": "LASSO (Регрессия Лассо)",
+      "L1L2": "Elastic-net (Регрессия \"эластичная сеть\")"
     },
     "LinRegSelQuality": {
       "$Caption": "Factor Selection Criterion",
@@ -556,13 +570,13 @@
     },
     "LogRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
-      "Enter.NOTE": "Старый исходник:\nEnter - Принудительное включение\n\nСтарый перевод:\nEnter",
-      "Forward.NOTE": "Старый исходник:\nForward - Пошаговое включение\n\nСтарый перевод:\nForward",
-      "Backward.NOTE": "Старый исходник:\nBackward - Пошаговое исключение\n\nСтарый перевод:\nBackward",
-      "Stepwise.NOTE": "Старый исходник:\nStepwise - Пошаговое включение/исключение\n\nСтарый перевод:\nStepwise",
-      "L2.NOTE": "Старый исходник:\nRidge - Гребневая регрессия\n\nСтарый перевод:\nRidge",
-      "L1.NOTE": "Старый исходник:\nLASSO - Регрессия Лассо\n\nСтарый перевод:\nLASSO",
-      "L1L2.NOTE": "Старый исходник:\nElastic-net - Регрессия \"эластичная сеть\"\n\nСтарый перевод:\nElastic Net"
+      "Enter": "Enter (Принудительное включение)",
+      "Forward": "Forward (Пошаговое включение)",
+      "Backward": "Backward (Пошаговое исключение)",
+      "Stepwise": "Stepwise (Пошаговое включение\/исключение)",
+      "L2": "Ridge (Гребневая регрессия)",
+      "L1": "LASSO (Регрессия Лассо)",
+      "L1L2": "Elastic-net (Регрессия \"эластичная сеть\")"
     },
     "LogRegSelQuality": {
       "$Caption": "Factor Selection Criterion",
@@ -632,7 +646,8 @@
       "LinearInterp": "Linear interpolation",
       "CubicInterp": "Cubic interpolation",
       "SplineInterp": "Spline interpolation",
-      "ZeroValue": "Replace with 0"
+      "ZeroValue": "Replace with 0",
+      "PreviosValue": "Заменять предыдущим значением"
     },
     "ActionOut": {
       "$Caption": "Outliers Elimination Method",
@@ -702,7 +717,7 @@
       "$Caption": "Wavelet Type",
       "Daubechies": "Daubechies",
       "Coiflet": "Coiflet",
-      "CDF97": "CDF 9/7"
+      "CDF97": "CDF 9\/7"
     }
   },
   "components/sonn": {
@@ -764,7 +779,9 @@
   },
   "components/uniontree": {
     "UnionTreeOperationType": {
-      "$Caption.NOTE": "Имеющиеся переводы:\nOperation Type\nOperation type"
+      "$Caption": "Тип операции",
+      "ConcatAllActive": "Конкатенация всех деревьев",
+      "SelectFirstActive": "Выбор первого активного дерева"
     }
   },
   "components/variablestodata": {
@@ -776,8 +793,10 @@
   },
   "exports/database": {
     "DBExportFastLoaderUsage": {
-      "No.NOTE": "Имеющиеся переводы:\nNone\nNo",
-      "Yes": "Yes"
+      "$Caption": "Использовать быстрый загрузчик",
+      "No": "Нет",
+      "Yes": "Yes",
+      "Auto": "Авто"
     },
     "DBExportType": {
       "$Caption": "Export Mode",
@@ -835,7 +854,7 @@
   "imports/database": {
     "BDCommandType": {
       "$Caption": "Command Text Type",
-      "Table": "Table/view name",
+      "Table": "Table\/view name",
       "Text": "SQL query"
     }
   },
@@ -917,7 +936,9 @@
   },
   "Libraries/bgdbrtl/DB": {
     "CertCheckMode": {
+      "$Caption": "Проверка сертификата сервера",
       "NoCheck": "Off",
+      "CA": "Только подпись",
       "Identity": "Full"
     },
     "DBServerType": {
@@ -957,7 +978,12 @@
   },
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
     "MsSQLClient": {
-      "Auto": "Auto"
+      "$Caption": "Клиент",
+      "Auto": "Auto",
+      "NativeClient": "SQL Server Native Client",
+      "MSOLEDB": "Microsoft OLE DB Driver for SQL Server",
+      "AutoModern": "Автоматически (современные)",
+      "Direct": "Без клиента"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
@@ -1074,7 +1100,7 @@
       "$Caption": "Data Type",
       "None": "Undefined",
       "Boolean": "Logical",
-      "DateTime": "Date/Time",
+      "DateTime": "Date\/Time",
       "Float": "Real",
       "Integer": "Integer",
       "String": "String",
@@ -1254,7 +1280,7 @@
   },
   "Libraries/bgrtl/TimeZones": {
     "ExportXMLSpecifyTimeZone": {
-      "$Caption": "Presence of the Time Zone in the Date/Time Values",
+      "$Caption": "Presence of the Time Zone in the Date\/Time Values",
       "None": "Do not specify",
       "AllButDate": "Do not specify for Date",
       "All": "Specify always"
@@ -1286,7 +1312,7 @@
       "Sequence": "Sequence"
     },
     "LearnPartitionMethod": {
-      "$Caption": "Method of Training/Test Component Partitioning with Training",
+      "$Caption": "Method of Training\/Test Component Partitioning with Training",
       "Random": "Random",
       "Sequence": "Sequence",
       "ByColumn": "By column"
@@ -1344,8 +1370,10 @@
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "AutoDetectColumnsMode": {
-      "None.NOTE": "Имеющиеся переводы:\nNone\nNo",
-      "All.NOTE": "Имеющиеся переводы:\nAll\nIn rows and columns"
+      "$Caption": "Автоопределение столбцов",
+      "None": "Нет",
+      "New": "Только новые",
+      "All": "Все"
     },
     "FileInfoColumnsType": {
       "$Caption": "File info",
@@ -1390,7 +1418,7 @@
     "LDAPConnectionSecurity": {
       "$Caption": "Connection Security",
       "Simple": "Simple connection",
-      "SSL": "SSL/TLS",
+      "SSL": "SSL\/TLS",
       "StartTLS": "STARTTLS"
     },
     "LDAPUserRole": {
@@ -1522,7 +1550,13 @@
       "UseGlobalFileStorage": "Use global file storage",
       "AllowPublish": "Allow packages publishing",
       "SchedulerFullAccess": "Access to all scheduler jobs",
+      "AllowPasswordSave": "Разрешить сохранять пароль к БД",
       "RunMode": "Batch processing"
+    },
+    "OpenIDResponseMode": {
+      "$Caption": "Формат ответа",
+      "Query": "Параметры в query",
+      "Fragment": "Параметры в fragment"
     },
     "OpenIDUserRole": {
       "$Caption": "New User Role",
@@ -1580,12 +1614,18 @@
   },
   "Libraries/RESTClientConnection/RESTClientConnection": {
     "ParamURLType": {
+      "$Caption": "Тип URL параметров",
+      "QueryString": "Строка запроса",
+      "AddSegments": "Добавление сегментов",
       "Replacement": "Replace"
     }
   },
   "Studio/DeductorServerSettings": {
     "MultiSessionRestriction": {
-      "None.NOTE": "Имеющиеся переводы:\nNone\nNo"
+      "$Caption": "Ограничение мультисессионности",
+      "None": "Нет",
+      "LoginForbid": "Запрет входа",
+      "SessionInterrupt": "Закрыть текущие сессии"
     }
   },
   "Studio/DeductorSessionsManager": {
@@ -1613,12 +1653,19 @@
       "None": "None",
       "Local": "Local",
       "LDAP": "LDAP",
-      "OpenID": "OpenID"
+      "OpenID": "OpenID",
+      "Peer": "Peer"
     }
   },
   "Studio/PasswordPolicy": {
     "PolicyPreset": {
-      "None.NOTE": "Имеющиеся переводы:\nNone\nNo"
+      "$Caption": "Профиль политики",
+      "None": "Нет",
+      "Simple": "Простой",
+      "Standard": "Стандартный",
+      "Strong": "Сильный",
+      "Complete": "Полный",
+      "Custom": "Пользовательский"
     }
   },
   "Viewers/Browse/BrowseViewSearch": {
@@ -1652,7 +1699,7 @@
       "$Caption": "Axis Type",
       "Linear": "Linear",
       "Logarithmic": "Logarithmic",
-      "Datetime": "Date/Time",
+      "Datetime": "Date\/Time",
       "Category": "Categories"
     },
     "ChartLinkKind": {
