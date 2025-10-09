@@ -96,7 +96,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "colName": {
       "text": "Role or Right in Application"
@@ -226,10 +226,10 @@
   },
   "admin/SharedDirectoryForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "Save"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "colDisplayName": {
       "text": "Full Name"
@@ -290,10 +290,10 @@
   },
   "admin/UserForm": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "Save"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxAuthMode": {
       "fieldLabel": "Authentication"
@@ -352,7 +352,7 @@
       "text": "Add"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "colPackage": {
       "text": "Package"
@@ -439,7 +439,7 @@
   },
   "app/ConfigureDerivedVendorForm": {
     "btnApply": {
-      "text": "Изменить"
+      "text": "Change"
     },
     "btnCancel": {
       "text": "Cancel"
@@ -506,7 +506,7 @@
       "text": "Перейти"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "chkFindFromSelection": {
       "boxLabel": "Начать поиск с выделенного"
@@ -943,10 +943,10 @@
   },
   "app/PackageForm": {
     "btnApply": {
-      "text": "Изменить"
+      "text": "Change"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxDeactivateUpstreamOnCompletion": {
       "fieldLabel": "Деактивация групп узлов по завершению"
@@ -972,10 +972,10 @@
   },
   "app/PackageLinkForm": {
     "btnApply": {
-      "text": "Изменить"
+      "text": "Change"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "edtName": {
       "fieldLabel": "Name"
@@ -992,10 +992,10 @@
   },
   "app/PackagesAutoSavePanel": {
     "btnApply": {
-      "text": "Сохранить"
+      "text": "Save"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "chbEnableAutoSave": {
       "boxLabel": " ",
@@ -1177,7 +1177,7 @@
   },
   "app/PublishedPackagesAddForm": {
     "btnClose": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnPublish": {
       "text": "Publish"
@@ -1674,7 +1674,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "edtGUID": {
       "fieldLabel": "GUID"
@@ -2042,10 +2042,10 @@
   },
   "components/calcdata/ExprEditForm": {
     "btnApply": {
-      "text": "Изменить"
+      "text": "Change"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxDataType": {
       "fieldLabel": "Data type"
@@ -2215,10 +2215,10 @@
       "tooltip": "Merge with next"
     },
     "btnModifyCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnModifyCancelFineClassesChart": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnModifyOk": {
       "text": "Apply"
@@ -2495,7 +2495,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbNullGroup": {
       "boxLabel": "Null"
@@ -2866,7 +2866,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnDeselectAll": {
       "text": "Uncheck all"
@@ -3838,7 +3838,7 @@
       "text": "Create Table"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnDefaults": {
       "text": "Restore",
@@ -4069,7 +4069,7 @@
       "text": "Create Table"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnDefaults": {
       "text": "Restore",
@@ -4183,7 +4183,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     }
   },
   "filedialog/OpenDialogForm": {
@@ -4361,7 +4361,7 @@
       "text": "OK"
     },
     "btnCancelEdit": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnConcatenation": {
       "text": "OR"
@@ -4614,7 +4614,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "frmBetweenValuesDialog": {
       "title": "Interval Boundaries"
@@ -4625,7 +4625,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "frmCompareValuesDialog": {
       "title": "Compare value"
@@ -4636,7 +4636,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "frmDateValuesDialog": {
       "title": "Select Time Span"
@@ -4740,7 +4740,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -5581,7 +5581,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -5627,7 +5627,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbbDataType": {
       "fieldLabel": "Data type"
@@ -5650,7 +5650,7 @@
       "text": "Filter"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbbRelation": {
       "fieldLabel": "Condition"
@@ -5694,7 +5694,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -5732,7 +5732,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cntMaxCount": {
       "title": "Maximum Count"
@@ -5849,7 +5849,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "colDimensionDisplayName": {
       "text": "Dimension"
@@ -5976,7 +5976,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbRegister": {
       "boxLabel": "Case-sensitive"
@@ -5999,7 +5999,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnCheckAll": {
       "tooltip": "Check all"
@@ -6037,7 +6037,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "frmDimensionsTunePanel": {
       "title": "Configure Dimensions"
@@ -6171,7 +6171,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "chbIndicatorSwitch": {
       "boxLabel": "Quality indicator"
@@ -6601,7 +6601,7 @@
       "tooltip": "Extract unique values"
     },
     "btnModifyCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "btnModifyOk": {
       "text": "Apply"
@@ -6860,7 +6860,7 @@
       "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxDataKind": {
       "fieldLabel": "Data kind"
@@ -6941,7 +6941,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxPathServer": {
       "fieldLabel": "Server"
@@ -6976,7 +6976,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxPathProtocol": {
       "fieldLabel": "Protocol"
@@ -7017,7 +7017,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "frmSSLSettings": {
       "title": "SSL settings"
@@ -7050,7 +7050,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "fldFactor": {
       "fieldLabel": "Factor"
@@ -7259,7 +7259,7 @@
       "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxDataKind": {
       "fieldLabel": "Data kind"
@@ -7316,7 +7316,7 @@
       "text": "Load"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxNamespace": {
       "emptyText": "All namespaces",
@@ -7397,7 +7397,7 @@
       "text": "OK"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxNormType": {
       "fieldLabel": "Normalizer"
@@ -7634,7 +7634,7 @@
       "text": "Добавить"
     },
     "btnCancel": {
-      "text": "Отмена"
+      "text": "Cancel"
     },
     "cbxDataType": {
       "fieldLabel": "Data type"

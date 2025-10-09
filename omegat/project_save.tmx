@@ -6088,7 +6088,7 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -9668,7 +9668,7 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -14398,7 +14398,7 @@ Active sessions continue working to enable saving changes.</seg>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -15377,7 +15377,7 @@ Add another port.</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -17891,7 +17891,7 @@ Do you really want to start exporting?</seg>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Change</seg>
       </tuv>
     </tu>
@@ -20776,6 +20776,9 @@ Save</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21039,6 +21042,9 @@ Do you want to delete all lost links and continue?</seg>
 Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
       </tuv>
     </tu>
     <tu>
@@ -22225,6 +22231,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23143,6 +23152,9 @@ Error while copying to clipboard:</note>
 Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
       </tuv>
     </tu>
     <tu>
@@ -25673,6 +25685,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25685,6 +25700,9 @@ Cancel</note>
 Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
       </tuv>
     </tu>
     <tu>
@@ -26274,6 +26292,9 @@ Error: {1}.</seg>
 Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
       </tuv>
     </tu>
     <tu>
@@ -26883,7 +26904,7 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Change</seg>
       </tuv>
     </tu>
@@ -27345,7 +27366,7 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160911Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -29151,6 +29172,9 @@ An error occurred while switching to "{0}.{1}".
 Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
       </tuv>
     </tu>
     <tu>
@@ -100308,6 +100332,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Save</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -100430,6 +100457,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -102717,6 +102747,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -102805,6 +102838,9 @@ Cancel</note>
 Старый перевод:
 Save</note>
       <tuv lang="ru">
+        <seg>OK</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
         <seg>OK</seg>
       </tuv>
     </tu>
@@ -103243,7 +103279,7 @@ Validity start date</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -103252,6 +103288,9 @@ Validity start date</note>
       <prop type="id">tu1275_0</prop>
       <note>Key = connections/webservice/AuthModalWindow.btnOK.text</note>
       <tuv lang="ru">
+        <seg>OK</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
         <seg>OK</seg>
       </tuv>
     </tu>
@@ -103369,7 +103408,7 @@ Authentication to Get WSDL File</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Change</seg>
       </tuv>
     </tu>
@@ -103571,6 +103610,9 @@ Label</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -104456,6 +104498,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104755,6 +104800,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104818,7 +104866,7 @@ Apply</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -104832,6 +104880,9 @@ Apply</note>
 Старый перевод:
 Apply</note>
       <tuv lang="ru">
+        <seg>OK</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
         <seg>OK</seg>
       </tuv>
     </tu>
@@ -104863,6 +104914,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104876,6 +104930,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104884,7 +104941,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -104895,7 +104952,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -105714,6 +105771,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105726,6 +105786,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -105982,6 +106045,9 @@ Save</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -106111,7 +106177,7 @@ Save</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -106765,6 +106831,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -106777,6 +106846,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -106802,6 +106874,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -106814,6 +106889,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -106839,6 +106917,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -106862,6 +106943,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -107272,6 +107356,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -107284,6 +107371,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -107590,7 +107680,7 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -107920,7 +108010,7 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Change</seg>
       </tuv>
     </tu>
@@ -107931,7 +108021,7 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -108553,6 +108643,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -108915,7 +109008,7 @@ Find</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -110638,6 +110731,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110650,6 +110746,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -110807,6 +110906,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110819,6 +110921,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -110917,6 +111022,9 @@ Cancel</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -111074,6 +111182,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -111097,6 +111208,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -111232,6 +111346,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -111244,6 +111361,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -111709,6 +111829,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -111721,6 +111844,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -112227,6 +112353,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -112239,6 +112368,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -112308,6 +112440,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -112320,6 +112455,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -112417,7 +112555,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -112466,6 +112604,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -112478,6 +112619,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -112509,7 +112653,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -113009,6 +113153,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -113021,6 +113168,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -114248,7 +114398,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -114795,7 +114945,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -114832,6 +114982,9 @@ Cancel</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -115856,6 +116009,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -116122,6 +116278,9 @@ Save</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -116134,6 +116293,9 @@ Save</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -116236,6 +116398,9 @@ Save</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -116248,6 +116413,9 @@ Save</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -116369,6 +116537,9 @@ Save</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -116381,6 +116552,9 @@ Save</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -116505,6 +116679,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -116517,6 +116694,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -117335,6 +117515,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -117453,7 +117636,7 @@ Load</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -117530,6 +117713,9 @@ Load</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -117852,6 +118038,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -117864,6 +118053,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -118781,6 +118973,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -119761,6 +119956,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119829,6 +120027,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119841,6 +120042,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -119884,6 +120088,9 @@ Cancel</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -119942,6 +120149,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119954,6 +120164,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -120023,6 +120236,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Save</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -120035,6 +120251,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -120264,7 +120483,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -120550,7 +120769,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -120605,7 +120824,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -120726,7 +120945,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Save</seg>
       </tuv>
     </tu>
@@ -120906,6 +121125,9 @@ Cancel</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -122945,6 +123167,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -122953,7 +123178,7 @@ Apply</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -122991,6 +123216,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123003,6 +123231,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -124546,6 +124777,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Изменить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Change</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -124558,6 +124792,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -125188,6 +125425,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -125211,6 +125451,9 @@ Cancel</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -125819,6 +126062,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Сохранить</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Save</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -125941,6 +126187,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -126285,6 +126534,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -126297,6 +126549,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>
@@ -126919,6 +127174,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -127037,7 +127295,7 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160912Z" creationid="zamaraev" creationdate="20251009T160912Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z" creationid="zamaraev" creationdate="20251009T160912Z">
         <seg>Cancel</seg>
       </tuv>
     </tu>
@@ -127659,6 +127917,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>OK</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231455Z">
+        <seg>OK</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -127671,6 +127932,9 @@ Apply</note>
 Cancel</note>
       <tuv lang="ru">
         <seg>Отмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T231357Z">
+        <seg>Cancel</seg>
       </tuv>
     </tu>
     <tu>

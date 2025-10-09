@@ -264,7 +264,7 @@
     "EditVendorTitle": "Derived Component Setting",
     "ErrMustSelectTargets": "It is required to select at least one checkbox: \"{0}\" or \"{1}\"",
     "NewVendorTitle": "New Derived Component",
-    "SaveBtnText": "Изменить"
+    "SaveBtnText": "Change"
   },
   "app/FindNodeForm": {
     "All": "Все",
@@ -482,8 +482,8 @@
   },
   "app/PackageForm": {
     "ApplyLocaleTitle": "Apply New Locale",
-    "Cancel": "Отмена",
-    "Confirm": "Изменить",
+    "Cancel": "Cancel",
+    "Confirm": "Change",
     "ConfirmLocaleChangeMsg": "After locale change strings may be compared in a different way.\nDo you really want to change locale?",
     "CurrentLocale": "Current locale of package is \"{0}\".",
     "DeactivateTurnedOff": "Выключено",
@@ -542,7 +542,7 @@
     "GroupEditingTitle": "Group Editing",
     "HiddenFieldLabel": "Hidden:",
     "HiddenFieldTip": "Not selected in the reports view mode",
-    "ModifyBtnText": "Изменить",
+    "ModifyBtnText": "Change",
     "ModifyVariableTitle": "Edit Variable",
     "ReadonlyFieldLabel": "Read-only:",
     "ReadonlyFieldTip": "Editable only in design mode"
@@ -841,7 +841,7 @@
     "AddExrTitle": "Add Expression",
     "ErrExprEmptyName": "Expression name cannot be empty",
     "ErrExprInvalidIdentifier": "The name entered for Expression \"{0}\" is not a valid identifier",
-    "ModifyBtnText": "Изменить",
+    "ModifyBtnText": "Change",
     "ModifyExprTitle": "Expression Parameters"
   },
   "components/calctree/CalcTreeExpressions": {
@@ -2954,7 +2954,7 @@
     "ErrColumnInvalidIdentifier": "Entered \"{0}\" column name is not a valid identifier",
     "ErrColumnNameAlreadyExists": "Column with \"{0}\" name already exists",
     "GroupEditingTitle": "Group Editing",
-    "ModifyBtnText": "Изменить",
+    "ModifyBtnText": "Change",
     "ModifyColumnDefTitle": "Edit Column"
   },
   "wizards/columns/EditTuneColumnDefForm": {
@@ -3093,7 +3093,7 @@
     "ErrNodeEmptyName": "Node name cannot be empty",
     "ErrNodeInvalidIdentifier": "Entered \"{0}\" node name is not a valid identifier",
     "ErrNodeNameAlreadyExists": "Node with \"{0}\" name already exists",
-    "ModifyBtnText": "Изменить",
+    "ModifyBtnText": "Change",
     "ModifyNodeDefTitle": "Edit Node",
     "UsageType": "Usage type"
   },
@@ -3201,7 +3201,7 @@
     "ErrVariableInvalidIdentifier": "Entered \"{0}\" variable name is not a valid identifier",
     "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
     "GroupEditingTitle": "Group Editing",
-    "ModifyBtnText": "Изменить",
+    "ModifyBtnText": "Change",
     "ModifyVariableTitle": "Edit Variable"
   },
   "wizards/variables/VariablesEditValuesWizard": {
