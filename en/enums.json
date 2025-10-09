@@ -535,13 +535,13 @@
   "components/linregression": {
     "LinRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
-      "Enter": "Enter (Принудительное включение)",
-      "Forward": "Forward (Пошаговое включение)",
-      "Backward": "Backward (Пошаговое исключение)",
-      "Stepwise": "Stepwise (Пошаговое включение\/исключение)",
-      "L2": "Ridge (Гребневая регрессия)",
-      "L1": "LASSO (Регрессия Лассо)",
-      "L1L2": "Elastic-net (Регрессия \"эластичная сеть\")"
+      "Enter": "Enter",
+      "Forward": "Forward",
+      "Backward": "Backward",
+      "Stepwise": "Stepwise",
+      "L2": "Ridge",
+      "L1": "LASSO",
+      "L1L2": "Elastic Net"
     },
     "LinRegSelQuality": {
       "$Caption": "Factor Selection Criterion",
@@ -570,13 +570,13 @@
     },
     "LogRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
-      "Enter": "Enter (Принудительное включение)",
-      "Forward": "Forward (Пошаговое включение)",
-      "Backward": "Backward (Пошаговое исключение)",
-      "Stepwise": "Stepwise (Пошаговое включение\/исключение)",
-      "L2": "Ridge (Гребневая регрессия)",
-      "L1": "LASSO (Регрессия Лассо)",
-      "L1L2": "Elastic-net (Регрессия \"эластичная сеть\")"
+      "Enter": "Enter",
+      "Forward": "Forward",
+      "Backward": "Backward",
+      "Stepwise": "Stepwise",
+      "L2": "Ridge",
+      "L1": "LASSO",
+      "L1L2": "Elastic Net"
     },
     "LogRegSelQuality": {
       "$Caption": "Factor Selection Criterion",

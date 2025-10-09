@@ -42719,6 +42719,9 @@ Enter</note>
       <tuv lang="ru">
         <seg>Enter (Принудительное включение)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172849Z">
+        <seg>Enter</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -42743,6 +42746,9 @@ Forward</note>
       <tuv lang="ru">
         <seg>Forward (Пошаговое включение)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172853Z">
+        <seg>Forward</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -42755,6 +42761,9 @@ Backward - Пошаговое исключение
 Backward</note>
       <tuv lang="ru">
         <seg>Backward (Пошаговое исключение)</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172856Z">
+        <seg>Backward</seg>
       </tuv>
     </tu>
     <tu>
@@ -42769,6 +42778,9 @@ Stepwise</note>
       <tuv lang="ru">
         <seg>Stepwise (Пошаговое включение/исключение)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172859Z">
+        <seg>Stepwise</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -42781,6 +42793,9 @@ Ridge - Гребневая регрессия
 Ridge</note>
       <tuv lang="ru">
         <seg>Ridge (Гребневая регрессия)</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172935Z">
+        <seg>Ridge</seg>
       </tuv>
     </tu>
     <tu>
@@ -42795,6 +42810,9 @@ LASSO</note>
       <tuv lang="ru">
         <seg>LASSO (Регрессия Лассо)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172906Z">
+        <seg>LASSO</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -42807,6 +42825,9 @@ Elastic-net - Регрессия "эластичная сеть"
 Elastic Net</note>
       <tuv lang="ru">
         <seg>Elastic-net (Регрессия "эластичная сеть")</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172921Z">
+        <seg>Elastic Net</seg>
       </tuv>
     </tu>
     <tu>
@@ -43052,6 +43073,9 @@ Enter</note>
       <tuv lang="ru">
         <seg>Enter (Принудительное включение)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172721Z">
+        <seg>Enter</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43064,6 +43088,9 @@ Forward - Пошаговое включение
 Forward</note>
       <tuv lang="ru">
         <seg>Forward (Пошаговое включение)</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172727Z">
+        <seg>Forward</seg>
       </tuv>
     </tu>
     <tu>
@@ -43078,6 +43105,9 @@ Backward</note>
       <tuv lang="ru">
         <seg>Backward (Пошаговое исключение)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172733Z">
+        <seg>Backward</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43090,6 +43120,9 @@ Stepwise - Пошаговое включение/исключение
 Stepwise</note>
       <tuv lang="ru">
         <seg>Stepwise (Пошаговое включение/исключение)</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172741Z">
+        <seg>Stepwise</seg>
       </tuv>
     </tu>
     <tu>
@@ -43104,6 +43137,9 @@ Ridge</note>
       <tuv lang="ru">
         <seg>Ridge (Гребневая регрессия)</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172746Z">
+        <seg>Ridge</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43116,6 +43152,9 @@ LASSO - Регрессия Лассо
 LASSO</note>
       <tuv lang="ru">
         <seg>LASSO (Регрессия Лассо)</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172750Z">
+        <seg>LASSO</seg>
       </tuv>
     </tu>
     <tu>
@@ -43140,6 +43179,9 @@ Elastic-net - Регрессия "эластичная сеть"
 Elastic Net</note>
       <tuv lang="ru">
         <seg>Elastic-net (Регрессия "эластичная сеть")</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251009T172811Z">
+        <seg>Elastic Net</seg>
       </tuv>
     </tu>
     <tu>
