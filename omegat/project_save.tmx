@@ -24688,6 +24688,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Ошибка аутентификации на LDAP сервере</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T135542Z">
+        <seg>LDAP server authentication error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -24802,6 +24805,9 @@ Error: {1}.</seg>
       <note>Key = admin/LDAPTestForm.AuthSuccess</note>
       <tuv lang="ru">
         <seg>Аутентификация на LDAP сервере произошла успешно</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T140950Z">
+        <seg>LDAP server authentication successful</seg>
       </tuv>
     </tu>
     <tu>
