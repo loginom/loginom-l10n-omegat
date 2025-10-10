@@ -16388,6 +16388,9 @@ Error: {0}</seg>
       <tuv lang="ru">
         <seg>Настройки не сохранены перед тестированием</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T131114Z">
+        <seg>Settings not saved before testing</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -17609,6 +17612,9 @@ Do you really want to start exporting?</seg>
       <note>Key = admin/LDAPSettings.EmptyParam</note>
       <tuv lang="ru">
         <seg>Параметр "{0}" не должен быть пустым</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T131218Z">
+        <seg>The "{0}" parameter must not be empty</seg>
       </tuv>
     </tu>
     <tu>
@@ -18850,6 +18856,9 @@ Do you really want to start exporting?</seg>
       <note>Key = admin/LDAPSettings.ErrorParams</note>
       <tuv lang="ru">
         <seg>Ошибки в параметрах настройки LDAP:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T131300Z">
+        <seg>Errors in LDAP configuration parameters:</seg>
       </tuv>
     </tu>
     <tu>
