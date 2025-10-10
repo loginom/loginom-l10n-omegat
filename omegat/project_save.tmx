@@ -4490,6 +4490,9 @@ Probability - the value of the chi-square distribution function.</seg>
       <tuv lang="ru">
         <seg>InvChi2(Степени_свободы, Вероятность)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T130036Z">
+        <seg>InvChi2(Degrees_of_freedom, Probability)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -4497,6 +4500,9 @@ Probability - the value of the chi-square distribution function.</seg>
       <note>Key = StatFunctions.InvChi2.Output</note>
       <tuv lang="ru">
         <seg>Функция, обратная функции распределения хи-квадрат. Возвращает пороговое значение x, для которого функция вероятности имеет значение Вероятность. Если p=FChi2(N, x), то InvChi2(N, p) = x.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T131039Z">
+        <seg>The inverse of the chi-square distribution function. Returns the threshold value x for which the probability function has the value Probability. If p=FChi2(N, x), then InvChi2(N, p) = x.</seg>
       </tuv>
     </tu>
     <tu>
