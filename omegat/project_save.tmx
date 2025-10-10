@@ -13833,6 +13833,9 @@ Active sessions continue working to enable saving changes.</seg>
         <seg>При удалении общей папки можно также удалить её данные из файловой системы.
 Удалить папку?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160304Z">
+        <seg>When deleting a shared folder, you can also delete its data from the file system. Delete the folder?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -13950,6 +13953,9 @@ Active sessions continue working to enable saving changes.</seg>
       <note>Key = admin/SharedDirectoriesForm.DeleteSharedDirectory</note>
       <tuv lang="ru">
         <seg>Удалить только папку</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160324Z">
+        <seg>Delete folder only</seg>
       </tuv>
     </tu>
     <tu>
@@ -14576,6 +14582,9 @@ String: {2} Symbol: {3}</seg>
       <tuv lang="ru">
         <seg>Вы действительно хотите удалить все значения?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160351Z">
+        <seg>Do you really want to delete all values?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -14693,6 +14702,9 @@ String: {2} Symbol: {3}</seg>
       <note>Key = admin/StringListEditorForm.DuplicateValue</note>
       <tuv lang="ru">
         <seg>Значения должны быть уникальными</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160410Z">
+        <seg>Values must be unique</seg>
       </tuv>
     </tu>
     <tu>
