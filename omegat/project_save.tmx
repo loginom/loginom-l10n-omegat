@@ -27012,6 +27012,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Включено</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161936Z">
+        <seg>Enabled</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -27019,6 +27022,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.DeactivateUseServerSettings</note>
       <tuv lang="ru">
         <seg>Определяется настройками пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161956Z">
+        <seg>Determined by package settings</seg>
       </tuv>
     </tu>
     <tu>
@@ -27060,6 +27066,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.DestVariablesSelectorTitle</note>
       <tuv lang="ru">
         <seg>Выбор переменных пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T162140Z">
+        <seg>Select Package Variables</seg>
       </tuv>
     </tu>
     <tu>
@@ -27124,6 +27133,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Задача удалена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T162203Z">
+        <seg>Job was deleted</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -27131,6 +27143,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.ErrStartAfterJobNotSelected</note>
       <tuv lang="ru">
         <seg>Задача не выбрана</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T162214Z">
+        <seg>Job not selected</seg>
       </tuv>
     </tu>
     <tu>
