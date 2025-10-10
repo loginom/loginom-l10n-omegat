@@ -72,6 +72,9 @@ Port (default: %s)</note>
       <tuv lang="ru">
         <seg>Номер порта (по умолчанию: %s) или Unix domain socket (если не указан IP адрес)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T121847Z">
+        <seg>Port number (by default, %s) or Unix domain socket (if the IP address is not specified)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">batchlauncher.json</prop>
