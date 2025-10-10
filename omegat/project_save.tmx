@@ -4407,6 +4407,9 @@ Argument - the value for which the probability density should be calculated.</se
       <tuv lang="ru">
         <seg>DChi2(Степени_свободы, Аргумент)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T125530Z">
+        <seg>DChi2(</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
