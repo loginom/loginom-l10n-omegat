@@ -4407,8 +4407,8 @@ Argument - the value for which the probability density should be calculated.</se
       <tuv lang="ru">
         <seg>DChi2(Степени_свободы, Аргумент)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T125530Z">
-        <seg>DChi2(</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T125919Z">
+        <seg>DChi2(Degrees_of_freedom, Argument)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4454,6 +4454,9 @@ Number - an argument of the integer type.</seg>
       <note>Key = StatFunctions.FChi2.Description</note>
       <tuv lang="ru">
         <seg>FChi2(Степени_свободы, Аргумент)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T125539Z">
+        <seg>DChi2(</seg>
       </tuv>
     </tu>
     <tu>
