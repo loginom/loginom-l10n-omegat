@@ -30274,6 +30274,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Всегда проверять все сертификаты</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T154925Z">
+        <seg>Always verify all certificates</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -30984,6 +30987,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155054Z">
+        <seg>Deactivate node groups on completion</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31331,6 +31337,9 @@ List of Values</note>
       <note>Key = admin/ServerSettingsForm.DisableUserMultiSession</note>
       <tuv lang="ru">
         <seg>Запрет мультисессионности для пользователей</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155300Z">
+        <seg>Disable user multisessions</seg>
       </tuv>
     </tu>
     <tu>
