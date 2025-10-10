@@ -2405,6 +2405,9 @@ Absolute_Value - an optional boolean parameter.</seg>
       <tuv lang="ru">
         <seg>QuartersBetween(Дата1, Дата2[, Абсолютное_Значение = True])</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T123310Z">
+        <seg>QuartersBetween(Date1, Date2[, Absolute_Value = True])</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
