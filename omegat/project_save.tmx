@@ -29175,6 +29175,9 @@ An error occurred while switching to "{0}.{1}".
       <tuv lang="ru">
         <seg>Количество строчных букв</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142830Z">
+        <seg>Count of lowercase letters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -29309,6 +29312,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Максимальная длина пароля</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142851Z">
+        <seg>Maximum password lengths</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -29427,6 +29433,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Минимальная длина пароля</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142907Z">
+        <seg>Minimum password length</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -29544,6 +29553,9 @@ Apply</note>
       <note>Key = admin/PasswordPolicySettings.PolicyPreset</note>
       <tuv lang="ru">
         <seg>Профиль политики</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T143037Z">
+        <seg>Policy profile</seg>
       </tuv>
     </tu>
     <tu>
