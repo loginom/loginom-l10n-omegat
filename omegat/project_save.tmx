@@ -24314,6 +24314,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T131333Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
