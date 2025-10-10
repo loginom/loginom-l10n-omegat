@@ -24773,6 +24773,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Заметки: {0}</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161700Z">
+        <seg>Annotations: {0}</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25274,6 +25277,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
       <tuv lang="ru">
         <seg>Связи: {0}</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161712Z">
+        <seg>Links: {0}</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25314,6 +25320,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
       <note>Key = app/ModelForm.Nodes</note>
       <tuv lang="ru">
         <seg>Узлы: {0}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161722Z">
+        <seg>Nodes: {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -25499,6 +25508,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
       <tuv lang="ru">
         <seg>Удалить выделенную заметку?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161745Z">
+        <seg>Delete selected annotation?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25518,6 +25530,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
       <tuv lang="ru">
         <seg>Удалить выделенную связь?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161753Z">
+        <seg>Delete selected link?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25525,6 +25540,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
       <note>Key = app/ModelForm.RemoveNodeConfirm</note>
       <tuv lang="ru">
         <seg>Удалить выделенный узел?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161759Z">
+        <seg>Delete selected node?</seg>
       </tuv>
     </tu>
     <tu>
@@ -25538,6 +25556,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
 Do you really want to delete the selected objects?</note>
       <tuv lang="ru">
         <seg>Удалить выделенные объекты?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161816Z">
+        <seg>Delete selected objects?</seg>
       </tuv>
     </tu>
     <tu>
@@ -25878,6 +25899,9 @@ Do you really want to change locale?</seg>
       <tuv lang="ru">
         <seg>Выключено</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161836Z">
+        <seg>Disabled</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25886,6 +25910,9 @@ Do you really want to change locale?</seg>
       <tuv lang="ru">
         <seg>Включено</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161900Z">
+        <seg>Enabled</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25893,6 +25920,9 @@ Do you really want to change locale?</seg>
       <note>Key = app/PackageForm.DeactivateUseServerSettings</note>
       <tuv lang="ru">
         <seg>Определяется настройками сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161922Z">
+        <seg>Determined by server settings</seg>
       </tuv>
     </tu>
     <tu>
@@ -26970,6 +27000,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.DeactivateTurnedOff</note>
       <tuv lang="ru">
         <seg>Выключено</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161930Z">
+        <seg>Disabled</seg>
       </tuv>
     </tu>
     <tu>
