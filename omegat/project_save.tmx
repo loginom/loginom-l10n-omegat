@@ -29911,6 +29911,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Внимание! При наличии незакрытой сессии администратора невозможно будет осуществить вход с этого же аккаунта</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T154756Z">
+        <seg>Warning: It will be impossible to log in with the same administrator account if an unclosed session is present</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
