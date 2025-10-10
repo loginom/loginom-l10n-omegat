@@ -26642,6 +26642,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142153Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -27102,6 +27105,9 @@ Error: {1}.</seg>
       <note>Key = admin/OpenIDSettings.NotURL</note>
       <tuv lang="ru">
         <seg>{0} пустой или не является URL</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142238Z">
+        <seg>{0} is empty or not a URL</seg>
       </tuv>
     </tu>
     <tu>
@@ -27697,6 +27703,9 @@ Error: {1}.</seg>
       <note>Key = admin/OpenIDSettings.OpenIDTestLabel</note>
       <tuv lang="ru">
         <seg>Тестирование аутентификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142251Z">
+        <seg>Authentication testing</seg>
       </tuv>
     </tu>
     <tu>
@@ -28803,6 +28812,9 @@ An error occurred while switching to "{0}.{1}".
       <tuv lang="ru">
         <seg>Ошибка получения кода аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142323Z">
+        <seg>Error receiving authentication code</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -28920,6 +28932,9 @@ An error occurred while switching to "{0}.{1}".
       <note>Key = admin/PasswordPolicySettings.Digits</note>
       <tuv lang="ru">
         <seg>Количество цифр</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142813Z">
+        <seg>Count of digits</seg>
       </tuv>
     </tu>
     <tu>
