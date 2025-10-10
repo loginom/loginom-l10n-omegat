@@ -29675,6 +29675,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Количество специальных символов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T143131Z">
+        <seg>Count of special characters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -29792,6 +29795,9 @@ Apply</note>
       <note>Key = admin/PasswordPolicySettings.Uppercase</note>
       <tuv lang="ru">
         <seg>Количество заглавных букв</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T143149Z">
+        <seg>Count of uppercase letters</seg>
       </tuv>
     </tu>
     <tu>
