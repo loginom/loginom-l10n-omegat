@@ -21831,6 +21831,9 @@ Available extended connections</note>
       <tuv lang="ru">
         <seg>Производный компонент</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161504Z">
+        <seg>Derived component</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23877,6 +23880,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Сессия закрыта, потому что c этим же аккаунтом был осуществлен вход с другого места</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161610Z">
+        <seg>Session closed, as there was another login from this account</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23929,6 +23935,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>ОС</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161616Z">
+        <seg>OS</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23959,6 +23968,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Редакция</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161622Z">
+        <seg>Edition</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23977,6 +23989,9 @@ Error: {1}.</seg>
       <note>Key = app/MainForm.VersionLabel</note>
       <tuv lang="ru">
         <seg>Версия {0}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161630Z">
+        <seg>Version {0}</seg>
       </tuv>
     </tu>
     <tu>
