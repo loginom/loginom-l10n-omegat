@@ -31700,6 +31700,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>все</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155358Z">
+        <seg>all users</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31814,6 +31817,9 @@ List of Values</note>
       <note>Key = admin/ServerSettingsForm.FileModeUser</note>
       <tuv lang="ru">
         <seg>пользователь</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155324Z">
+        <seg>user</seg>
       </tuv>
     </tu>
     <tu>
@@ -31932,6 +31938,9 @@ List of Values</note>
       <note>Key = admin/ServerSettingsForm.FileModeUserAndGroup</note>
       <tuv lang="ru">
         <seg>пользователь и группа</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155337Z">
+        <seg>user and group</seg>
       </tuv>
     </tu>
     <tu>
@@ -32291,6 +32300,9 @@ File processing will take too long.</seg>
       <note>Key = admin/ServerSettingsForm.InvalidUnixMode</note>
       <tuv lang="ru">
         <seg>Значение должно быть восьмеричным числом от 000 до 777</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155847Z">
+        <seg>The value must be an octal number from 000 to 777</seg>
       </tuv>
     </tu>
     <tu>
