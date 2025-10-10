@@ -26151,6 +26151,9 @@ Do you want to save the package and reopen it now?</seg>
       <tuv lang="ru">
         <seg>Настройки не сохранены перед тестированием</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T141857Z">
+        <seg>Settings not saved before testing</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -26270,6 +26273,9 @@ Error: {1}.</seg>
       <note>Key = admin/OpenIDSettings.EmptyParam</note>
       <tuv lang="ru">
         <seg>Задан пустой {0}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142019Z">
+        <seg>Empty {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -26393,6 +26399,9 @@ Apply</note>
       <note>Key = admin/OpenIDSettings.ErrorParams</note>
       <tuv lang="ru">
         <seg>Ошибки в параметрах настройки OpenID:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T142113Z">
+        <seg>Errors in OpenID configuration parameters:</seg>
       </tuv>
     </tu>
     <tu>
