@@ -15313,6 +15313,9 @@ String: {2} Symbol: {3}</seg>
       <tuv lang="ru">
         <seg>Пароль нужно вводить полностью, а не редактировать</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160745Z">
+        <seg>Password editing not allowed. Please enter the whole password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
