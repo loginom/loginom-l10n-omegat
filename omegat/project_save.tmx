@@ -24446,6 +24446,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Тестирование аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T135437Z">
+        <seg>Authentication testing</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
