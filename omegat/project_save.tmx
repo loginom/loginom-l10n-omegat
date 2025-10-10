@@ -192,8 +192,8 @@ Format: &lt;Variable_name&gt;=&lt;Variable_value&gt;</seg>
       <tuv lang="ru">
         <seg>Неверное значение параметра %s ("%s"), он может принимать только значения %s или %s</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T121332Z">
-        <seg>Invalid value of %s parameter ("%s"). It can only accept values %s or %s</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T122524Z">
+        <seg>Invalid value for the %s parameter ("%s"). The accepted values are %s or %s</seg>
       </tuv>
     </tu>
     <tu>
