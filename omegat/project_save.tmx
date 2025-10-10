@@ -17157,6 +17157,9 @@ Do you really want to start exporting?</seg>
       <tuv lang="ru">
         <seg>Найти пользователя по логину или полному имени</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161103Z">
+        <seg>Find user by login or full username</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -20968,6 +20971,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Все</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161119Z">
+        <seg>All</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21218,6 +21224,9 @@ Apply</note>
       <note>Key = app/FindNodeForm.ModelNode</note>
       <tuv lang="ru">
         <seg>Узел сценария</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161130Z">
+        <seg>Workflow node</seg>
       </tuv>
     </tu>
     <tu>
@@ -21703,6 +21712,9 @@ Available extended connections</note>
       <note>Key = app/FindNodeForm.SearchNotFound</note>
       <tuv lang="ru">
         <seg>Ничего не найдено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161454Z">
+        <seg>No matches found.</seg>
       </tuv>
     </tu>
     <tu>
