@@ -25414,6 +25414,9 @@ Errors occurred while pasting. Do you want to repeat forcedly?
       <tuv lang="ru">
         <seg>Полное имя пользователя не определено</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T141234Z">
+        <seg>Full username not found</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
