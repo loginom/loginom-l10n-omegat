@@ -105,6 +105,9 @@ Port (default: %s)</note>
       <tuv lang="ru">
         <seg>Автоматическая деактивация групп узлов при их полном выполнении во время работы сценария</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T123230Z">
+        <seg>Automatic deactivation of node groups after their complete execution while running the workflow</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">batchlauncher.json</prop>
