@@ -15560,6 +15560,9 @@ Add another port.</note>
       <tuv lang="ru">
         <seg>Сохранение пароля к БД</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160957Z">
+        <seg>Save DB Password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -17039,6 +17042,9 @@ Search
 Find</note>
       <tuv lang="ru">
         <seg>Поиск</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T161015Z">
+        <seg>Search</seg>
       </tuv>
     </tu>
     <tu>
