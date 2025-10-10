@@ -30029,6 +30029,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Ограничение мультисессионности для администраторов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T143702Z">
+        <seg>Admin multisession restriction</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
