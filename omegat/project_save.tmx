@@ -6810,6 +6810,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>(не рекомендуется)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155859Z">
+        <seg>(not recommended)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7533,6 +7536,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Парольная политика</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T155918Z">
+        <seg>Password policy</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7865,6 +7871,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = admin/ServerSettingsForm.PreferOpenSSLOverSChannelForHTTPS</note>
       <tuv lang="ru">
         <seg>OpenSSL приоритетнее SChannel для HTTPS</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160030Z">
+        <seg>OpenSSL has higher priority than SChannel for HTTPS</seg>
       </tuv>
     </tu>
     <tu>
@@ -9512,6 +9521,9 @@ Use this SQL query only to create a table.</seg>
       <prop type="id">tu133_0</prop>
       <note>Key = admin/ServerSettingsForm.UnixSocketPermissions</note>
       <tuv lang="ru">
+        <seg>Unix socket permissions</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160041Z">
         <seg>Unix socket permissions</seg>
       </tuv>
     </tu>
@@ -13698,6 +13710,9 @@ Active sessions continue working to enable saving changes.</seg>
       <note>Key = admin/SharedDirectoriesForm.DeleteEverywhere</note>
       <tuv lang="ru">
         <seg>Удалить папку и данные</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T160058Z">
+        <seg>Delete folder and data</seg>
       </tuv>
     </tu>
     <tu>
