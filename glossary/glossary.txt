@@ -238,7 +238,7 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Несмещенная дисперсия	Unbiased variance
 Метод вызван	Method was called
 Заданная точность	Required (decimal) precision
-Хи-квадрат	Chi-square
+Хи-квадрат	сhi-square
 Видимость	Visibility
 Подмодель	Supernode
 Настроить область видимости	Configure the area of visibility
