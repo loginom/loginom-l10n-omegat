@@ -2417,6 +2417,10 @@ Absolute_Value - an optional boolean parameter.</seg>
         <seg>Возвращает количество полных кварталов между двумя датами.
 Если Дата2 раньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_Значение = True, то функция вернёт модуль значения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251010T124650Z">
+        <seg>Returns the number of complete quarters between two dates.
+If Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
