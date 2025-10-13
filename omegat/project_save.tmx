@@ -31349,6 +31349,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Перенос строки Linux (LF)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123037Z">
+        <seg>New line Linux (LF)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31455,6 +31458,9 @@ List of Values</note>
       <note>Key = components/groupdata/GroupDataWizard.TabSeparator</note>
       <tuv lang="ru">
         <seg>Табуляция (⭾)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123115Z">
+        <seg>Tab separator (⭾)</seg>
       </tuv>
     </tu>
     <tu>
