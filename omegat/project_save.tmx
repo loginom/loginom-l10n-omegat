@@ -27166,6 +27166,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Запрещено изменение переменной "{0}"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T105151Z">
+        <seg>Changing variable "{0}" is forbidden  </seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
