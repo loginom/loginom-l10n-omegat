@@ -31104,8 +31104,8 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Ошибка вставки из буфера обмена</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T114313Z">
-        <seg>Error when pasting from clipboard</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T114416Z">
+        <seg>Error pasting from clipboard</seg>
       </tuv>
     </tu>
     <tu>
@@ -31114,6 +31114,9 @@ Delete all lost links and continue?</seg>
       <note>Key = components/filterdata/ValueListEditor.PasteMaxSizeError</note>
       <tuv lang="ru">
         <seg>Превышен максимальный объём вставляемых данных. Допустимо не более {0} символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T115043Z">
+        <seg>Maximum data volume for pasting exceeded. No more than {0} characters allowed.</seg>
       </tuv>
     </tu>
     <tu>
