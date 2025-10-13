@@ -8047,8 +8047,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>• Изменено существующих: {0};</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T164208Z">
-        <seg>• Existing records altered: {0};</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164635Z">
+        <seg>• Existing records modified: {0};</seg>
       </tuv>
     </tu>
     <tu>
@@ -8137,6 +8137,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>При добавлении переменной {0}, произошла ошибка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164708Z">
+        <seg>Error when adding the {0} variable</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8144,6 +8147,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = ext/VariablesClipboard.ErrEditVariable</note>
       <tuv lang="ru">
         <seg>При изменении переменной {0}, произошла ошибка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164756Z">
+        <seg>Error when editing the {0} variable</seg>
       </tuv>
     </tu>
     <tu>
