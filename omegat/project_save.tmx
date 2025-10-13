@@ -5642,8 +5642,8 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Корневой узел выходного дерева - это массив, содержащий корневые узлы деревьев изо всех активных входных портов.</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T133002Z">
-        <seg>Output tree root node is an array containing root nodes of trees from all active input ports</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T133129Z">
+        <seg>The output tree root node is an array containing root nodes of trees from all active input ports.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5652,6 +5652,9 @@ Delete all lost links and continue?</seg>
       <note>Key = components/uniontree/UnionTreeWizard.SelectFirstActiveDescribe</note>
       <tuv lang="ru">
         <seg>Выходное дерево содержит те же данные, что и дерево в первом активном входном порту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T133112Z">
+        <seg>The output tree contains the same data as the tree from the first active input port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6012,6 +6015,9 @@ Delete all lost links and continue?</seg>
       <note>Key = connections/clickhouse/ClickHouseDBConnectionWizard.ErrGetClusterNames</note>
       <tuv lang="ru">
         <seg>Ошибка при получении списка кластеров</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T133358Z">
+        <seg>Error receiving cluster list</seg>
       </tuv>
     </tu>
     <tu>
