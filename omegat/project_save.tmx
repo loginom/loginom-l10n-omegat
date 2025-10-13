@@ -7673,6 +7673,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>{0} - не является правильным идентификатором.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T163603Z">
+        <seg>{0} is not a valid identifier.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7681,6 +7684,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Значение {0} не соответствует указанному типу данных - {1}.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T163814Z">
+        <seg>The {0} value doesn't match the specified data type {1}.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7688,6 +7694,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/ModelDataSerializer.UnrecognizedValueMsg</note>
       <tuv lang="ru">
         <seg>Не могу распознать указанное значение: {0}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T163933Z">
+        <seg>Cannot recognize the specified value: {0}</seg>
       </tuv>
     </tu>
     <tu>
