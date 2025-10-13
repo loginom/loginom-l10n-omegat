@@ -30022,8 +30022,8 @@ Apply</note>
       <tuv lang="ru">
         <seg>Выходное поле уже задано, заменить выходное поле?</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T112915Z">
-        <seg>Output field already specified. Change output field?</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113117Z">
+        <seg>Target field already specified. Change target field?</seg>
       </tuv>
     </tu>
     <tu>
@@ -30616,6 +30616,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Удалить и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113132Z">
+        <seg>Delete and continue</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -30635,6 +30638,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Не удалять и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113143Z">
+        <seg>Continue without deleting</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -30643,6 +30649,10 @@ Apply</note>
       <tuv lang="ru">
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113755Z">
+        <seg>Links to nonexistent objects detected.
+Delete all lost links and continue?</seg>
       </tuv>
     </tu>
     <tu>
