@@ -6254,6 +6254,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>При формировании SQL-запроса для удаления таблицы произошла ошибка:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150615Z">
+        <seg>An error occurred while generating an SQL query for deleting the table:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
