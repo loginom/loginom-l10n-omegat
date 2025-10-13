@@ -6131,8 +6131,8 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Файл с именем "{0}" не может быть добавлен, вероятно он уже есть в списке</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T174658Z">
-        <seg>"{0}" file cannot be added to the list. Perhaps, it has already been added</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150008Z">
+        <seg>File with name "{0}" cannot be added; it may be already in the list</seg>
       </tuv>
     </tu>
     <tu>
