@@ -8058,6 +8058,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Применить ко всем конфликтам</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164217Z">
+        <seg>Apply to all conflicts</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8066,6 +8069,10 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Всего конфликтов: {0}.
 Осталось решить: {1}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164304Z">
+        <seg>Total number of conflicts: {0}.
+Conflicts to resolve: {1}.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8097,6 +8104,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Скопировано {0} запись(и/ей)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164408Z">
+        <seg>{0} record(s) copied</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8115,6 +8125,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/VariablesClipboard.EditConflict</note>
       <tuv lang="ru">
         <seg>Изменить существующую запись.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164614Z">
+        <seg>Modify an existing record.</seg>
       </tuv>
     </tu>
     <tu>
