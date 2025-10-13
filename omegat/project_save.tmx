@@ -5585,6 +5585,9 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Удалить и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131845Z">
+        <seg>Delete and continue</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -5604,6 +5607,9 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Не удалять и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131904Z">
+        <seg>Continue without deleting</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -5612,6 +5618,10 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131953Z">
+        <seg>Links to nonexistent objects detected.
+Delete all lost links and continue?</seg>
       </tuv>
     </tu>
     <tu>
@@ -32781,6 +32791,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Каждую строку</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131714Z">
+        <seg>Each row</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -32789,6 +32802,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Управляется скриптом</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131731Z">
+        <seg>Controlled by the script</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -32796,6 +32812,9 @@ File processing will take too long.</seg>
       <note>Key = components/sqlscript/SQLScriptQueryWizard.TransactionWholeDataset</note>
       <tuv lang="ru">
         <seg>Весь набор данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131747Z">
+        <seg>Entire dataset</seg>
       </tuv>
     </tu>
     <tu>
@@ -32816,6 +32835,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Игнорировать ошибки при выполнении скрипта</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131807Z">
+        <seg>Ignore errors when running script</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -32834,6 +32856,9 @@ File processing will take too long.</seg>
       <note>Key = components/ungroupdata/UngroupDataWizard.DeleteAndContinue</note>
       <tuv lang="ru">
         <seg>Удалить и продолжить</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131819Z">
+        <seg>Delete and continue</seg>
       </tuv>
     </tu>
     <tu>
@@ -32930,6 +32955,9 @@ File processing will take too long.</seg>
       <note>Key = components/ungroupdata/UngroupDataWizard.GroupFieldMissingFields</note>
       <tuv lang="ru">
         <seg>Отсутствующие поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131831Z">
+        <seg>Missing fields</seg>
       </tuv>
     </tu>
     <tu>
