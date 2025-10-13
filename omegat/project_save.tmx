@@ -6082,6 +6082,9 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Имя параметра не может быть пустым</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T133422Z">
+        <seg>Parameter name cannot be empty</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6182,6 +6185,9 @@ Delete all lost links and continue?</seg>
       <note>Key = exports/dbexport/DBCreateTableDialog.DropTableIfExistsHint</note>
       <tuv lang="ru">
         <seg>Удалять существующую таблицу перед созданием таблицы с указанным именем</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T133532Z">
+        <seg>Delete the existing table before creating a table with the specified name</seg>
       </tuv>
     </tu>
     <tu>
