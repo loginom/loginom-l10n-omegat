@@ -5642,6 +5642,9 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Корневой узел выходного дерева - это массив, содержащий корневые узлы деревьев изо всех активных входных портов.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T133002Z">
+        <seg>Output tree root node is an array containing root nodes of trees from all active input ports</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
