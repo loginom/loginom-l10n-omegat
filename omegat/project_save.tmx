@@ -6419,6 +6419,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Имя поля не может быть пустым</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150842Z">
+        <seg>Field name cannot be empty</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6426,6 +6429,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = exports/dbexport/DBEditFieldDefsForm.FieldEditingTitle</note>
       <tuv lang="ru">
         <seg>Редактирование поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150911Z">
+        <seg>Edit Field</seg>
       </tuv>
     </tu>
     <tu>
@@ -6445,6 +6451,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = exports/dbexport/DBEditFieldDefsForm.TextTypeName</note>
       <tuv lang="ru">
         <seg>Строковый (макс)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150935Z">
+        <seg>String (max)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6563,6 +6572,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = exports/dbexport/DBExportParamsWizard.ErrDeleteNotSupported</note>
       <tuv lang="ru">
         <seg>Операция удаления записей не поддерживается текущей базой данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T151023Z">
+        <seg>Record deleting operation not supported by the current database</seg>
       </tuv>
     </tu>
     <tu>
@@ -7595,6 +7607,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Строка: {0}</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T151052Z">
+        <seg>Row: {0} </seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7603,6 +7618,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Ошибка валидации.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T151106Z">
+        <seg>Validation error.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7610,6 +7628,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/ModelDataSerializer.ErrorVariablesFormat</note>
       <tuv lang="ru">
         <seg>Неверный формат данных. Убедитесь, что каждая строка содержит не менее {0} значение(я/ий), разделённое(ые) табуляцией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T155926Z">
+        <seg>Invalid data format. Make sure that each row has not less than {0} tab-separated values.</seg>
       </tuv>
     </tu>
     <tu>
