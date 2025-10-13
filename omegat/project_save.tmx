@@ -27177,6 +27177,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Тип переменной пакета "{0}" не совместим с типом переменной задачи</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T105355Z">
+        <seg>The type of package variable "{0}" doesn't match the job variable type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
