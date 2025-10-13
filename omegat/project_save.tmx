@@ -8346,6 +8346,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Переменная {0} осталась без изменений. Проверьте возможность её редактирования или укажите данные отличающиеся от текущих.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T172940Z">
+        <seg>Variable {0} was not changed. Check if it can be edited or enter different data.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8353,6 +8356,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = ext/VariablesClipboard.VariablesNotChange</note>
       <tuv lang="ru">
         <seg>Не были изменены {0} переменных. Проверьте их редактируемость или используйте другие данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173023Z">
+        <seg>{0} variables were not changed. Check if they are editable or use different data.</seg>
       </tuv>
     </tu>
     <tu>
