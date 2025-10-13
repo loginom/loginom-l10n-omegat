@@ -7640,6 +7640,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>{0} - не является допустимым типом данных. Допустимые типы данных: boolean, datetime, float, integer, string, variant.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T163358Z">
+        <seg>{0} is not an allowable data type. Allowable data types: boolean, datetime, float, integer, string, and variant.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
