@@ -31338,6 +31338,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Перенос строки Windows (CRLF)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123022Z">
+        <seg>New line Windows (CRLF)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
