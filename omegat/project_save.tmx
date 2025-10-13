@@ -8225,6 +8225,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Обработано успешно: {0} из {1}.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T170942Z">
+        <seg>Executed succesfully: {0} of {1}.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8233,6 +8236,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Ошибка вставки из буфера обмена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T171014Z">
+        <seg>Error pasting from clipboard</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8240,6 +8246,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = ext/VariablesClipboard.PasteInterrupted</note>
       <tuv lang="ru">
         <seg>Вставка переменных прервана.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T171047Z">
+        <seg>Variable paste interrupted.</seg>
       </tuv>
     </tu>
     <tu>
