@@ -27199,6 +27199,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Нет задач, доступных для добавления</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T110659Z">
+        <seg>No available jobs to add</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -27206,6 +27209,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.NoAvailableUserJobsEmptyListText</note>
       <tuv lang="ru">
         <seg>Нет задач, доступных для выбора</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T110726Z">
+        <seg>No available jobs to select</seg>
       </tuv>
     </tu>
     <tu>
@@ -27335,6 +27341,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.SelfStartAfterJobCaption</note>
       <tuv lang="ru">
         <seg>Текущая задача</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T112706Z">
+        <seg>Current job</seg>
       </tuv>
     </tu>
     <tu>
