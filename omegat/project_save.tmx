@@ -31140,6 +31140,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Список значений</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T115156Z">
+        <seg>Value List</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
