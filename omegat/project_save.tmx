@@ -18088,6 +18088,9 @@ Do you really want to start exporting?</seg>
       <tuv lang="ru">
         <seg>Добавление вычисляемого факта</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173640Z">
+        <seg>Add Calculated Measure</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -18139,6 +18142,9 @@ Do you really want to start exporting?</seg>
       <note>Key = viewers/cube/CasesCalcPanel.ModifyCasesCalcTitle</note>
       <tuv lang="ru">
         <seg>Редактирование вычисляемого факта</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173655Z">
+        <seg>Edit Calculated Measure</seg>
       </tuv>
     </tu>
     <tu>
@@ -18437,6 +18443,9 @@ Maximum number of dots: {1}.</seg>
       <note>Key = viewers/cube/CubeChartPanel.SelectAndHightlght</note>
       <tuv lang="ru">
         <seg>Выбрать и подсветить</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173711Z">
+        <seg>Select and highlight</seg>
       </tuv>
     </tu>
     <tu>
@@ -20993,6 +21002,9 @@ Do you really want to delete "{1}" component?</seg>
       <tuv lang="ru">
         <seg>Столбец "{0}" используется. Вы действительно хотите его исключить?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173843Z">
+        <seg>Column "{0}" is in use. Do you really want to exclude it?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21094,6 +21106,9 @@ Save</note>
       <tuv lang="ru">
         <seg>Удалить и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173857Z">
+        <seg>Delete and continue</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21113,6 +21128,9 @@ Save</note>
       <tuv lang="ru">
         <seg>Исключенные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173900Z">
+        <seg>Excluded</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21120,6 +21138,9 @@ Save</note>
       <note>Key = wizards/columns/ColumnsMappingWizard.NotDeleteAndContinue</note>
       <tuv lang="ru">
         <seg>Не удалять и продолжить</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173916Z">
+        <seg>Continue without deleting</seg>
       </tuv>
     </tu>
     <tu>
