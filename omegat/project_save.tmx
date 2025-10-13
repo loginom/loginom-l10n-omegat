@@ -8258,6 +8258,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Вставка переменных выполнена:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T172411Z">
+        <seg>Variable paste successful:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
