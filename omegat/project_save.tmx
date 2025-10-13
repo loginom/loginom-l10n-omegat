@@ -11621,6 +11621,9 @@ Measure</note>
       <tuv lang="ru">
         <seg>Факт</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173431Z">
+        <seg>Measure</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -11631,6 +11634,9 @@ Item
 Element</note>
       <tuv lang="ru">
         <seg>Элемент</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173445Z">
+        <seg>Item</seg>
       </tuv>
     </tu>
     <tu>
@@ -15036,6 +15042,9 @@ String: {2} Symbol: {3}</seg>
       <tuv lang="ru">
         <seg>Новый пароль не должен совпадать со старым</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173513Z">
+        <seg>New password must not repeat the old one</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -15043,6 +15052,9 @@ String: {2} Symbol: {3}</seg>
       <note>Key = login/ChangePasswordForm.PassDontMatch</note>
       <tuv lang="ru">
         <seg>Введенные пароли не совпадают</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173538Z">
+        <seg>The passwords you entered do not match</seg>
       </tuv>
     </tu>
     <tu>
@@ -15903,6 +15915,9 @@ Add another port.</note>
       <note>Key = openid/OpenIDAdapter.WrongResponseMode</note>
       <tuv lang="ru">
         <seg>Формат ответа аутентификации не соответствует запрашиваемому формату</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173617Z">
+        <seg>Authentication response format doesn't match the requested format</seg>
       </tuv>
     </tu>
     <tu>
