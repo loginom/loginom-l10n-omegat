@@ -31459,8 +31459,8 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Табуляция (⭾)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T123115Z">
-        <seg>Tab separator (⭾)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123256Z">
+        <seg>Tab (⭾)</seg>
       </tuv>
     </tu>
     <tu>
@@ -31491,6 +31491,9 @@ List of Values</note>
       <note>Key = components/javascript/JavaScriptColumnsWizard.frmJavaScriptOutputTablesTitle</note>
       <tuv lang="ru">
         <seg>Настройка столбцов выходных таблиц JavaScript</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123314Z">
+        <seg>Configure JavaScript Output Table Columns</seg>
       </tuv>
     </tu>
     <tu>
@@ -31621,6 +31624,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>массив</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123322Z">
+        <seg>array</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31628,6 +31634,9 @@ List of Values</note>
       <note>Key = components/jointree/JoinTreeWizard.InsertIntoContainerListValue</note>
       <tuv lang="ru">
         <seg>контейнер</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123327Z">
+        <seg>container</seg>
       </tuv>
     </tu>
     <tu>
@@ -31648,6 +31657,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Имя JSON поля</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T123352Z">
+        <seg>JSON field name</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31655,6 +31667,9 @@ List of Values</note>
       <note>Key = components/jsontotree/JSONToTreeWizard.StrictModeHint</note>
       <tuv lang="ru">
         <seg>Строгая проверка соответствия входного JSON структуре выходного дерева</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T130732Z">
+        <seg>Strong check mapping input JSON to output tree structure</seg>
       </tuv>
     </tu>
     <tu>
