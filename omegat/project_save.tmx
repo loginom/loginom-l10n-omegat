@@ -30895,6 +30895,9 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>до</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113829Z">
+        <seg>to</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -30902,6 +30905,9 @@ Delete all lost links and continue?</seg>
       <note>Key = components/filterdata/FilterDataPanel.BlankFieldDisplayName</note>
       <tuv lang="ru">
         <seg>Выберите столбец</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113853Z">
+        <seg>Select column</seg>
       </tuv>
     </tu>
     <tu>
@@ -30976,6 +30982,9 @@ Delete all lost links and continue?</seg>
       <note>Key = components/filterdata/FilterDataPanel.OverflowCountInfo</note>
       <tuv lang="ru">
         <seg>и ещё {0}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113947Z">
+        <seg>and {0} more</seg>
       </tuv>
     </tu>
     <tu>
