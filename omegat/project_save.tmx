@@ -8170,8 +8170,8 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Превышен допустимый объем вставляемых данных. Максимальный размер данных для вставки: {0} символов.</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T165028Z">
-        <seg>и: {0}</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T170905Z">
+        <seg>Allowable paste data size exceeded. Maximum paste size is {0} characters.</seg>
       </tuv>
     </tu>
     <tu>
