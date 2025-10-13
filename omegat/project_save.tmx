@@ -8003,6 +8003,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Добавить как новую запись с уникальным именем.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164000Z">
+        <seg>Add as a new record with a unique name.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8010,6 +8013,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/VariablesClipboard.AddedCount</note>
       <tuv lang="ru">
         <seg>• Добавлено новых: {0};</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164101Z">
+        <seg>• New records added: {0};</seg>
       </tuv>
     </tu>
     <tu>
@@ -8030,6 +8036,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Прервать</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164123Z">
+        <seg>Abort</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8037,6 +8046,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/VariablesClipboard.ChangedCount</note>
       <tuv lang="ru">
         <seg>• Изменено существующих: {0};</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T164208Z">
+        <seg>• Existing records altered: {0};</seg>
       </tuv>
     </tu>
     <tu>
