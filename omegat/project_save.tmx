@@ -31060,6 +31060,9 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Вводимое значение должно быть уникальным</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T114020Z">
+        <seg>The value you enter must be unique</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31100,6 +31103,9 @@ Delete all lost links and continue?</seg>
       <note>Key = components/filterdata/ValueListEditor.PasteError</note>
       <tuv lang="ru">
         <seg>Ошибка вставки из буфера обмена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T114313Z">
+        <seg>Error when pasting from clipboard</seg>
       </tuv>
     </tu>
     <tu>
