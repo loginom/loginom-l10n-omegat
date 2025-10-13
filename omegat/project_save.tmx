@@ -8291,6 +8291,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Разрешить конфликт</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T172432Z">
+        <seg>Resolve conflict</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8299,6 +8302,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Пропустить вставку записи.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T172510Z">
+        <seg>Skip record paste.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8306,6 +8312,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = ext/VariablesClipboard.VariableConflictTitle</note>
       <tuv lang="ru">
         <seg>Конфликт переменных с одинаковыми именами</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T172624Z">
+        <seg>Same Name Variables Conflict</seg>
       </tuv>
     </tu>
     <tu>
@@ -8325,6 +8334,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = ext/VariablesClipboard.VariableNameExists</note>
       <tuv lang="ru">
         <seg>Переменная с именем {0} уже существует.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T172811Z">
+        <seg>Variable with name "{0}" already exists.</seg>
       </tuv>
     </tu>
     <tu>
