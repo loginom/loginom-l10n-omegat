@@ -27419,6 +27419,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Все переменные выбраны</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T112718Z">
+        <seg>All variables selected</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -27437,6 +27440,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/LogEntries.NoErrorDetails</note>
       <tuv lang="ru">
         <seg>Не удалось получить информацию о ошибке</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T112806Z">
+        <seg>Failed to get error details</seg>
       </tuv>
     </tu>
     <tu>
@@ -28359,6 +28365,9 @@ An error occurred while switching to "{0}.{1}".
       <prop type="id">tu621_0</prop>
       <note>Key = app/Version.SupportMail</note>
       <tuv lang="ru">
+        <seg>help@loginom.ru</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T112820Z">
         <seg>help@loginom.ru</seg>
       </tuv>
     </tu>
@@ -30013,6 +30022,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Выходное поле уже задано, заменить выходное поле?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T112915Z">
+        <seg>Output field already specified. Change output field?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -30020,6 +30032,9 @@ Apply</note>
       <note>Key = components/coarseclasses/CoarseClassesWizard.ReplaceTargetColumnTitle</note>
       <tuv lang="ru">
         <seg>Изменение выходного поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T113029Z">
+        <seg>Change Target Field</seg>
       </tuv>
     </tu>
     <tu>
