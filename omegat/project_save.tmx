@@ -8159,6 +8159,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Из них не отображаются {0}, т.к. не соответствуют фильтру.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T165011Z">
+        <seg>{0} of them not displayed, as they don't match the filter.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8166,6 +8169,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = ext/VariablesClipboard.MaxPasteSizeMsg</note>
       <tuv lang="ru">
         <seg>Превышен допустимый объем вставляемых данных. Максимальный размер данных для вставки: {0} символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T165028Z">
+        <seg>и: {0}</seg>
       </tuv>
     </tu>
     <tu>
