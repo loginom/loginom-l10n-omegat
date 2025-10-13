@@ -7651,6 +7651,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Некорректный заголовок: найден дубликат имени колонки.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T163450Z">
+        <seg>Invalid header: a duplicate column name found.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7658,6 +7661,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = ext/ModelDataSerializer.InvalidHeaderMsgEmpty</note>
       <tuv lang="ru">
         <seg>Некорректный заголовок: имя колонки не может быть пустым.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T163540Z">
+        <seg>Invalid header: column name cannot be empty.</seg>
       </tuv>
     </tu>
     <tu>
