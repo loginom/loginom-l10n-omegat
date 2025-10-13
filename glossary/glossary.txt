@@ -170,7 +170,6 @@ XSD-схема на входе	Input XSD schema
 Режим включенных/исключенных значений	Inclusive/exclusive filter
 Время жизни на время транзакции при неактивности	Idle-in-transaction timeout
 Не удалось получить путь к…	Failed to get path to…
-Ошибка при….	Error while….+ing
 Предпросмотр	Preview
 Тип кавычек	Identifier quotes
 Диапазон	Bin	Для квантования и конечных классов bin. Но для других контекстов возможно нет.
@@ -441,3 +440,4 @@ P-значение	P-value
 Область видимости	scope	в контексте OpenID
 Единственный	Only	Only — функция скрипта
 Степени свободы	Degrees of freedom
+Ошибка при….	Error (when/while)+ing
