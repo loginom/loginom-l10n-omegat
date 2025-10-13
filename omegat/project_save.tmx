@@ -31998,6 +31998,9 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Настройка столбцов выходных таблиц Python</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T130858Z">
+        <seg>Configure Python Output Tables Columns</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -32437,6 +32440,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Отключено (0)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T130943Z">
+        <seg>(0) disabled</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -32730,6 +32736,9 @@ File processing will take too long.</seg>
       <note>Key = components/sqlscript/SQLScriptCodeMirrorController.ErrFieldSameAsVariable</note>
       <tuv lang="ru">
         <seg>{0} имени поля в скрипте: существует также переменная с именем '{1}', при исполнении скрипта будет использовано поле из набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131327Z">
+        <seg>{0} of field name in script: a variable with name '{1}' also exists. When running the script, the field from the dataset will be used.</seg>
       </tuv>
     </tu>
     <tu>
