@@ -32805,6 +32805,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Выполнять скрипт для каждой строки входного набора</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131709Z">
+        <seg>Run script for each input set row</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
