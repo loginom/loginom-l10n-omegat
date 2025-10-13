@@ -6276,6 +6276,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Не указано имя таблицы для удаления.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150707Z">
+        <seg>Name of the table to delete not specified.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6328,6 +6331,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Заменить тип Строковый на Строковый (макс) для всех полей?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150806Z">
+        <seg>Change String type to String (max) type for all fields?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6335,6 +6341,9 @@ Use this SQL query only to create a table.</seg>
       <note>Key = exports/dbexport/DBCreateTableDialog.PromoteAllToStringMaxTitle</note>
       <tuv lang="ru">
         <seg>Замена типов полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T150826Z">
+        <seg>Change Field Types</seg>
       </tuv>
     </tu>
     <tu>
