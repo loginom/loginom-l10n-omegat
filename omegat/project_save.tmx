@@ -27155,6 +27155,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Переменная с именем "{0}" не найдена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T104057Z">
+        <seg>Variable with name "{0}" not found</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
