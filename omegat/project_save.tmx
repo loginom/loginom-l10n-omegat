@@ -32759,6 +32759,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>{0} переменной в скрипте: нельзя использовать переменную с именем '{1}' в скрипте, потому что существует такое же поле из набора данных.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T131544Z">
+        <seg>{0} of variable in script: the variable with name '{1}' cannot be used in script, as the same field exists in the dataset.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
