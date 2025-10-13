@@ -21517,6 +21517,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Клонировать подключение</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T173946Z">
+        <seg>Clone connection</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21793,6 +21796,9 @@ Apply</note>
 Available extended connections</note>
       <tuv lang="ru">
         <seg>Нет доступных подключений</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251013T174010Z">
+        <seg>No connections available</seg>
       </tuv>
     </tu>
     <tu>
