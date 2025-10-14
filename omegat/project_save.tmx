@@ -100764,8 +100764,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Корневой узел должен быть массивом, если набор данных содержит несколько строк</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T154048Z">
-        <seg>When the dataset contains several rows, the root node must be an array</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154225Z">
+        <seg>The root node must be an array if the dataset contains several rows</seg>
       </tuv>
     </tu>
     <tu>
@@ -100797,6 +100797,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Корневой узел должен быть массивом, если набор данных не содержит ни одной строки</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154240Z">
+        <seg>The root node must be an array if the dataset contains no rows</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100804,6 +100807,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.ErrNotExistNodeInfo</note>
       <tuv lang="ru">
         <seg>Не найдено описание узла выходного дерева для JSON узла "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154334Z">
+        <seg>Output tree node descrpition for JSON node "%s" not found</seg>
       </tuv>
     </tu>
     <tu>
