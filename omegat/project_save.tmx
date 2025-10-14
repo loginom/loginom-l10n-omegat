@@ -46577,6 +46577,9 @@ No</note>
       <tuv lang="ru">
         <seg>Проверка сертификата сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110424Z">
+        <seg>Check Server Certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -46595,6 +46598,9 @@ No</note>
       <note>Key = Libraries/bgdbrtl/DB.CertCheckMode.CA</note>
       <tuv lang="ru">
         <seg>Только подпись</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110435Z">
+        <seg>Signature only</seg>
       </tuv>
     </tu>
     <tu>
@@ -46901,6 +46907,9 @@ No</note>
       <tuv lang="ru">
         <seg>Клиент</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110440Z">
+        <seg>Client</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -46929,6 +46938,9 @@ No</note>
       <prop type="id">tu660_0</prop>
       <note>Key = Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB.MsSQLClient.NativeClient</note>
       <tuv lang="ru">
+        <seg>SQL Server Native Client</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T111726Z">
         <seg>SQL Server Native Client</seg>
       </tuv>
     </tu>
