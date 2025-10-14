@@ -57427,6 +57427,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Количество специальных символов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124256Z">
+        <seg>Count of special characters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57434,6 +57437,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/PasswordPolicy.PasswordPolicy.Uppercase</note>
       <tuv lang="ru">
         <seg>Количество заглавных букв</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124304Z">
+        <seg>Count of uppercase letters</seg>
       </tuv>
     </tu>
     <tu>
@@ -58102,6 +58108,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Net/RemoteMessageData.ErrInvalidMessageFormatVersion</note>
       <tuv lang="ru">
         <seg>Неверный номер версии формата сообщения: {0}, ожидается: {1}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124418Z">
+        <seg>Invalid number of message format version: {0} when {1} was expected</seg>
       </tuv>
     </tu>
     <tu>
@@ -88840,6 +88849,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Количество специальных символов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124238Z">
+        <seg>Count of special characters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88847,6 +88859,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.Uppercase</note>
       <tuv lang="ru">
         <seg>Количество заглавных букв</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124259Z">
+        <seg>Count of uppercase letters</seg>
       </tuv>
     </tu>
     <tu>
