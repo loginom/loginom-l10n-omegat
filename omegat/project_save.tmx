@@ -54923,6 +54923,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Шифровать протокол</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121256Z">
+        <seg>Encrypt the protocol</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -54930,6 +54933,9 @@ In rows and columns</note>
       <note>Key = Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB.MsSQLOleDbUniDACDatabaseConfigurator.TrustServerCert</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121329Z">
+        <seg>Do not check server certificate</seg>
       </tuv>
     </tu>
     <tu>
@@ -55227,6 +55233,9 @@ Caption
 Label</note>
       <tuv lang="ru">
         <seg>Метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121342Z">
+        <seg>Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -55951,6 +55960,9 @@ Label</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121425Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -56212,6 +56224,9 @@ Label</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121447Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -56285,6 +56300,9 @@ Label</note>
       <note>Key = Libraries/OpenID/OpenID.OpenIDConfigurator.ResponseMode</note>
       <tuv lang="ru">
         <seg>Формат ответа</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121457Z">
+        <seg>Response format</seg>
       </tuv>
     </tu>
     <tu>
@@ -56695,6 +56713,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121516Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -56702,6 +56723,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Libraries/RESTClientConnection/RESTClientConnection.RESTClientConnectionConfigurator.ParamURLType</note>
       <tuv lang="ru">
         <seg>Тип URL параметров</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121533Z">
+        <seg>URL parameters type</seg>
       </tuv>
     </tu>
     <tu>
