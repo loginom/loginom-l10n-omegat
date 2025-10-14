@@ -54604,6 +54604,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Тайм-аут сетевой записи (с)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121153Z">
+        <seg>Network send timeout (s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -54765,6 +54768,9 @@ In rows and columns</note>
       <note>Key = Libraries/bgdbrtl/DB.DBSSLConfigurator.CertCheckMode</note>
       <tuv lang="ru">
         <seg>Проверка сертификата сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121234Z">
+        <seg>Check server certificate</seg>
       </tuv>
     </tu>
     <tu>
