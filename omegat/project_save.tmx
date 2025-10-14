@@ -31386,8 +31386,8 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T155054Z">
-        <seg>Deactivate node groups on completion</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123539Z">
+        <seg>Deactivate node groups upon completion</seg>
       </tuv>
     </tu>
     <tu>
@@ -57020,6 +57020,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Всегда проверять сертификаты HTTPS</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123430Z">
+        <seg>Always verify HTTPS certificates</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57027,6 +57030,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/DeductorServerSettings.DeductorServerSettings.AlwaysVerifySSLCerts</note>
       <tuv lang="ru">
         <seg>Всегда проверять все сертификаты</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123456Z">
+        <seg>Always verify all certificates</seg>
       </tuv>
     </tu>
     <tu>
@@ -57036,6 +57042,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123530Z">
+        <seg>Deactivate node groups upon completion</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57043,6 +57052,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/DeductorServerSettings.DeductorServerSettings.DisableUserMultiSession</note>
       <tuv lang="ru">
         <seg>Запрет мультисессионности для пользователей</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123640Z">
+        <seg>Disable user multisessions</seg>
       </tuv>
     </tu>
     <tu>
@@ -57128,6 +57140,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/DeductorServerSettings.DeductorServerSettings.PreferOpenSSLOverSChannelForHTTPS</note>
       <tuv lang="ru">
         <seg>OpenSSL приоритетнее SChannel для HTTPS</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123709Z">
+        <seg>OpenSSL has higher priority than SChannel for HTTPS</seg>
       </tuv>
     </tu>
     <tu>
@@ -87732,6 +87747,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123549Z">
+        <seg>Deactivate node groups upon completion</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -87824,6 +87842,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServerSettings.PreferOpenSSLOverSChannelForHTTPS</note>
       <tuv lang="ru">
         <seg>OpenSSL приоритетнее SChannel для HTTPS</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123718Z">
+        <seg>OpenSSL has higher priority than SChannel for HTTPS</seg>
       </tuv>
     </tu>
     <tu>
@@ -120947,6 +120968,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123552Z">
+        <seg>Deactivate node groups upon completion</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -122892,6 +122916,9 @@ Move Up</note>
       <note>Key = app/scheduler/JobEditor.cbxDeactivateUpstreamOnCompletion.fieldLabel</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123606Z">
+        <seg>Deactivate node groups upon completion</seg>
       </tuv>
     </tu>
     <tu>
