@@ -35480,8 +35480,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Ограничение мультисессионности</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T112526Z">
-        <seg>Restrict Multiple Sessions</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112958Z">
+        <seg>Multisession Restriction</seg>
       </tuv>
     </tu>
     <tu>
@@ -35494,8 +35494,8 @@ No</note>
       <tuv lang="ru">
         <seg>Нет</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T112540Z">
-        <seg>No</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113005Z">
+        <seg>None</seg>
       </tuv>
     </tu>
     <tu>
