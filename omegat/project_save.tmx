@@ -52635,8 +52635,8 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Количество повторных запросов при ошибке</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T114138Z">
-        <seg>Number </seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114331Z">
+        <seg>Repeat requests after an error</seg>
       </tuv>
     </tu>
     <tu>
@@ -52646,6 +52646,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Задержка между запросами (мс)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114433Z">
+        <seg>Wait between requests (ms)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -52653,6 +52656,9 @@ In rows and columns</note>
       <note>Key = components/restclient.RESTClient.Timeout</note>
       <tuv lang="ru">
         <seg>Общий тайм-аут (с)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114454Z">
+        <seg>Overall timeout (c)</seg>
       </tuv>
     </tu>
     <tu>
