@@ -60221,6 +60221,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Создание вычислителя №%d</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160411Z">
+        <seg>Creating worker #%d</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -60228,6 +60231,9 @@ Ignore SSL certificate errors</note>
       <note>Key = components/loop/LoopComponent.CreateWorkersProcess</note>
       <tuv lang="ru">
         <seg>Создание вычислителей</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160423Z">
+        <seg>Creating workers</seg>
       </tuv>
     </tu>
     <tu>
@@ -60632,6 +60638,9 @@ Ignore SSL certificate errors</note>
       <note>Key = components/loop/LoopComponent.PrepareWorkerProcess</note>
       <tuv lang="ru">
         <seg>Подготовка вычислителя "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160521Z">
+        <seg>Preparing worker "%s"</seg>
       </tuv>
     </tu>
     <tu>
@@ -61975,6 +61984,9 @@ Auto</note>
       <tuv lang="ru">
         <seg>Определять автоматически</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160532Z">
+        <seg>Autodetect</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -61982,6 +61994,9 @@ Auto</note>
       <note>Key = components/python/PythonComponentSettings.PythonAllowUnknownEnvs</note>
       <tuv lang="ru">
         <seg>Разрешить неизвестные окружения</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160551Z">
+        <seg>Allow unknown environments</seg>
       </tuv>
     </tu>
     <tu>
@@ -61991,6 +62006,9 @@ Auto</note>
       <tuv lang="ru">
         <seg>Контейнерный CLI</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160601Z">
+        <seg>Container CLI</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -61998,6 +62016,9 @@ Auto</note>
       <note>Key = components/python/PythonComponentSettings.PythonEnvironment</note>
       <tuv lang="ru">
         <seg>Окружение</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160607Z">
+        <seg>Environment</seg>
       </tuv>
     </tu>
     <tu>
@@ -62018,6 +62039,9 @@ Auto</note>
       <tuv lang="ru">
         <seg>Известные окружения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160618Z">
+        <seg>Known environments</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62025,6 +62049,9 @@ Auto</note>
       <note>Key = components/python/PythonComponentSettings.PythonEnvsEmptyText</note>
       <tuv lang="ru">
         <seg>Только окружение по умолчанию</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160638Z">
+        <seg>Default environment only</seg>
       </tuv>
     </tu>
     <tu>
