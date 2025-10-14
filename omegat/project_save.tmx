@@ -29916,8 +29916,8 @@ Apply</note>
       <tuv lang="ru">
         <seg>Профиль политики</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T143037Z">
-        <seg>Policy profile</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113312Z">
+        <seg>Policy preset</seg>
       </tuv>
     </tu>
     <tu>
@@ -51535,6 +51535,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Тип источника дат</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113452Z">
+        <seg>Date source type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -51861,6 +51864,9 @@ In rows and columns</note>
       <note>Key = components/jointree.JoinTreeEngine.SkipJoinedRootNode</note>
       <tuv lang="ru">
         <seg>Пропустить корневой узел присоединяемого дерева</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113543Z">
+        <seg>Skip joined tree's root node</seg>
       </tuv>
     </tu>
     <tu>
@@ -57253,6 +57259,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/PasswordPolicy.PasswordPolicy.PolicyPreset</note>
       <tuv lang="ru">
         <seg>Профиль политики</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113439Z">
+        <seg>Policy preset</seg>
       </tuv>
     </tu>
     <tu>
