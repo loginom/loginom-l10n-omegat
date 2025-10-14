@@ -34963,6 +34963,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Параметры в query</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112240Z">
+        <seg>Query parameters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -34981,6 +34984,9 @@ File processing will take too long.</seg>
       <note>Key = Libraries/OpenID/OpenID.OpenIDResponseMode.Fragment</note>
       <tuv lang="ru">
         <seg>Параметры в fragment</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112251Z">
+        <seg>Fragment parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -35408,6 +35414,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Тип URL параметров</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112332Z">
+        <seg>URL Parameters Type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35416,6 +35425,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Строка запроса</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112347Z">
+        <seg>Query string</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35423,6 +35435,9 @@ File processing will take too long.</seg>
       <note>Key = Libraries/RESTClientConnection/RESTClientConnection.ParamURLType.AddSegments</note>
       <tuv lang="ru">
         <seg>Добавление сегментов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112359Z">
+        <seg>Add segments</seg>
       </tuv>
     </tu>
     <tu>
@@ -35464,6 +35479,9 @@ File processing will take too long.</seg>
       <note>Key = Studio/DeductorServerSettings.MultiSessionRestriction.$Caption</note>
       <tuv lang="ru">
         <seg>Ограничение мультисессионности</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112526Z">
+        <seg>Restrict Multiple Sessions</seg>
       </tuv>
     </tu>
     <tu>
