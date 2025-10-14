@@ -100621,8 +100621,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Связываемый узел основного дерева %s должен быть массивом</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T141930Z">
-        <seg>Node %s to connect from the main tree must be an array</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151058Z">
+        <seg>To be connected, node %s of the main tree must be an array</seg>
       </tuv>
     </tu>
     <tu>
