@@ -95200,6 +95200,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>, Трасса вызовов: "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T130026Z">
+        <seg>, Call stack trace: "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -96175,6 +96178,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/coarseclasses/CoarseClassesEngine.ErrMoreThanOneTargetColumn</note>
       <tuv lang="ru">
         <seg>Во входных данных более одного выходного поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T130106Z">
+        <seg>Input data has more than one output field</seg>
       </tuv>
     </tu>
     <tu>
