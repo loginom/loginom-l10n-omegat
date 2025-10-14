@@ -52657,8 +52657,8 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Общий тайм-аут (с)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T114454Z">
-        <seg>Overall timeout (c)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115506Z">
+        <seg>Overall timeout (s)</seg>
       </tuv>
     </tu>
     <tu>
@@ -53064,6 +53064,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Исключить корневой узел</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115427Z">
+        <seg>Exclude root node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -53380,6 +53383,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Общий тайм-аут (с)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115500Z">
+        <seg>Overall timeout (s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -53409,6 +53415,9 @@ In rows and columns</note>
       <note>Key = exports/database.DBExport.FastLoaderUsage</note>
       <tuv lang="ru">
         <seg>Использовать быстрый загрузчик</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115529Z">
+        <seg>Use fast loader</seg>
       </tuv>
     </tu>
     <tu>
@@ -53968,6 +53977,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Формировать метки полей из описаний</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115614Z">
+        <seg>Generate field captions from descriptions</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -54008,6 +54020,9 @@ In rows and columns</note>
       <note>Key = imports/excelfile.ImportExcelFileEngine.AutoDetectColumnsMode</note>
       <tuv lang="ru">
         <seg>Автоопределение столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115622Z">
+        <seg>Autodetect columns</seg>
       </tuv>
     </tu>
     <tu>
@@ -54060,6 +54075,9 @@ In rows and columns</note>
       <note>Key = imports/excelfile.ImportExcelFileEngine.MaxThreadCount</note>
       <tuv lang="ru">
         <seg>Макс. кол-во потоков</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115657Z">
+        <seg>Maximum thread count</seg>
       </tuv>
     </tu>
     <tu>
@@ -54233,6 +54251,9 @@ In rows and columns</note>
       <note>Key = imports/textfile.ImportTextFile.AutoDetectColumnsMode</note>
       <tuv lang="ru">
         <seg>Автоопределение столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115708Z">
+        <seg>Autodetect columns</seg>
       </tuv>
     </tu>
     <tu>
