@@ -100632,6 +100632,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Связываемый узел основного дерева %s должен быть контейнером</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151124Z">
+        <seg>To be connected, node %s of the main tree must be a container</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100639,6 +100642,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jointree/JoinTree.ErrMainTreeNodeMustNotBeArray</note>
       <tuv lang="ru">
         <seg>Связываемый узел основного дерева %s не должен быть массивом</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151130Z">
+        <seg>To be connected, node %s of the main tree must be an array</seg>
       </tuv>
     </tu>
     <tu>
@@ -100659,6 +100665,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Связываемый узел основного дерева %s не должен находиться в массиве</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151210Z">
+        <seg>To be connected, node %s of the main tree must not be included in an array</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100666,6 +100675,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jointree/JoinTree.ErrMainTreeNodeNotAssigned</note>
       <tuv lang="ru">
         <seg>Не указан связываемый узел основного дерева</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151246Z">
+        <seg>Main tree node to connect not specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -100675,6 +100687,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Слияние (дерево)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151317Z">
+        <seg>Join (Tree)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100682,6 +100697,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jointree/JoinTreeVendor.VendorDescription</note>
       <tuv lang="ru">
         <seg>Слияние двух деревьев данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151403Z">
+        <seg>Join of two data trees</seg>
       </tuv>
     </tu>
     <tu>
