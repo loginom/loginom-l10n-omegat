@@ -54593,6 +54593,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Тайм-аут сетевого чтения (с)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121131Z">
+        <seg>Network receive timeout (s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
