@@ -67175,6 +67175,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Элемент XSD-схемы &lt;import/&gt; должен содержать атрибут namespace</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124944Z">
+        <seg>Element &lt;import/&gt; of the XSD schema must include a namespace attribute</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -99650,6 +99653,9 @@ List values do not match the filtered column type</note>
       <note>Key = Common/HTTP/HTTPContext_Win.ErrTimeout</note>
       <tuv lang="ru">
         <seg>Истекло время выполнения запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124743Z">
+        <seg>Request timed out</seg>
       </tuv>
     </tu>
     <tu>
