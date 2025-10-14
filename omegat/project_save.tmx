@@ -44470,6 +44470,9 @@ Elastic Net</note>
       <tuv lang="ru">
         <seg>Заменять предыдущим значением</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105912Z">
+        <seg>Replace with the previous value</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -45482,6 +45485,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Тип операции</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105932Z">
+        <seg>Operation Type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -45489,6 +45495,9 @@ Operation type</note>
       <note>Key = components/uniontree.UnionTreeOperationType.ConcatAllActive</note>
       <tuv lang="ru">
         <seg>Конкатенация всех деревьев</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110221Z">
+        <seg>Concatenate all trees</seg>
       </tuv>
     </tu>
     <tu>
