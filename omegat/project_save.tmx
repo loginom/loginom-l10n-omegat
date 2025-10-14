@@ -22215,6 +22215,9 @@ Available extended connections</note>
       <tuv lang="ru">
         <seg>Удалить и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T100711Z">
+        <seg>Delete and continue</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -22234,6 +22237,9 @@ Available extended connections</note>
       <tuv lang="ru">
         <seg>Исключенные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T100716Z">
+        <seg>Excluded</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -22241,6 +22247,9 @@ Available extended connections</note>
       <note>Key = wizards/datatree/DataTreeNodeDefsMappingWizard.ExcludeRequiredMappingNodeDefConfirm</note>
       <tuv lang="ru">
         <seg>Узел "{0}" используется. Вы действительно хотите его исключить?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T100759Z">
+        <seg>Node "{0}" is in use. Do you really want to exclude it?</seg>
       </tuv>
     </tu>
     <tu>
@@ -22315,6 +22324,9 @@ Available extended connections</note>
       <note>Key = wizards/datatree/DataTreeNodeDefsMappingWizard.MsgSatisfiesExcludedNodes</note>
       <tuv lang="ru">
         <seg>Нельзя в выходное дерево добавить узел "{0}", который находится в списке исключенных узлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101126Z">
+        <seg>Node "{0}" cannot be added to the output tree, as it is currently in the list of excluded nodes</seg>
       </tuv>
     </tu>
     <tu>
