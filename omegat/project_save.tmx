@@ -62626,8 +62626,8 @@ Result:
       <tuv lang="ru">
         <seg>Чтение выходной таблицы #%d</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T161245Z">
-        <seg>Reading ouput table #%d</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161358Z">
+        <seg>Reading output table #%d</seg>
       </tuv>
     </tu>
     <tu>
@@ -62647,6 +62647,9 @@ Result:
       <note>Key = components/python/PythonExeEngineImpl.PythonLoadOutputTablesProcess</note>
       <tuv lang="ru">
         <seg>Чтение выходных таблиц</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161300Z">
+        <seg>Reading output tables</seg>
       </tuv>
     </tu>
     <tu>
@@ -62699,6 +62702,9 @@ Result:
       <note>Key = components/python/PythonExeEngineImpl.WarnPythonKilledByTimeout</note>
       <tuv lang="ru">
         <seg>Процесс интерпретатора Python принудительно остановлен по истечнии тайм-аута отмены</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161854Z">
+        <seg>Python interpreter process killed after timeout</seg>
       </tuv>
     </tu>
     <tu>
