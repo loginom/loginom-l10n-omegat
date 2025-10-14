@@ -442,3 +442,4 @@ P-значение	P-value
 Степени свободы	Degrees of freedom
 Ошибка при….	Error (when/while)+ing
 профиль политики	policy preset
+Элемент XSD-схемы	XSD schema element	(не item)
