@@ -100709,6 +100709,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Нельзя исключить корневой узел JSON, если он является массивом или у него не один дочерний узел</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151536Z">
+        <seg>Cannot exclude JSON root node if it's an array or has more than one child nodes</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100717,6 +100720,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Узел контейнера "%s" не может отобразить JSON значение не объектного типа</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151651Z">
+        <seg>Container node "%s" cannot display a JSON value of non-object type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100724,6 +100730,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.ErrEmptyTreeTemplate</note>
       <tuv lang="ru">
         <seg>Не задано дерево при отключенном автоматическом определении структуры</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151824Z">
+        <seg>Tree not specified while structure autodetect is disabled</seg>
       </tuv>
     </tu>
     <tu>
