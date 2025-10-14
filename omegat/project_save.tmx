@@ -62483,6 +62483,9 @@ Result:
       <tuv lang="ru">
         <seg>Невалидный файл "%"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161040Z">
+        <seg>Invalid file "%"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62490,6 +62493,9 @@ Result:
       <note>Key = components/python/PythonExeEngineImpl.ErrPythonDumpInputTableDataN</note>
       <tuv lang="ru">
         <seg>Ошибка при записи данных входной таблицы #%d</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161156Z">
+        <seg>Error writing data of input table #%d</seg>
       </tuv>
     </tu>
     <tu>
@@ -62510,6 +62516,9 @@ Result:
       <tuv lang="ru">
         <seg>Ошибка при чтении выходной таблицы #%d</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161146Z">
+        <seg>Error reading output table #%d</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62517,6 +62526,9 @@ Result:
       <note>Key = components/python/PythonExeEngineImpl.ErrPythonNotAllowedEnvironment</note>
       <tuv lang="ru">
         <seg>Окружение "%s" не входит в список разрешённых</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161223Z">
+        <seg>Environment "%s" is not listed as allowed</seg>
       </tuv>
     </tu>
     <tu>
@@ -62613,6 +62625,9 @@ Result:
       <note>Key = components/python/PythonExeEngineImpl.PythonLoadOutputTableNProcess</note>
       <tuv lang="ru">
         <seg>Чтение выходной таблицы #%d</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161245Z">
+        <seg>Reading ouput table #%d</seg>
       </tuv>
     </tu>
     <tu>
