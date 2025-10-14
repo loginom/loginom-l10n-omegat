@@ -22854,6 +22854,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Значение не может быть меньше {0}</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101407Z">
+        <seg>Value cannot be less than {0}</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23644,6 +23647,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Переменная "{0}" используется. Вы действительно хотите ее исключить?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101506Z">
+        <seg>Variable "{0}" is in use. Do you really want to exclude it?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23832,6 +23838,9 @@ Do you want to cancel the active processes and close the package without saving?
       <tuv lang="ru">
         <seg>Готово</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101525Z">
+        <seg>Done</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -23839,6 +23848,9 @@ Do you want to cancel the active processes and close the package without saving?
       <note>Key = wizards/WizardForm.BtnDoneWhateverCaption</note>
       <tuv lang="ru">
         <seg>Всё равно продолжить</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101549Z">
+        <seg>Continue anyway</seg>
       </tuv>
     </tu>
     <tu>
