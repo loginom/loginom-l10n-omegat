@@ -56910,6 +56910,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T122833Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
