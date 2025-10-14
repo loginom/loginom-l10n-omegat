@@ -54351,6 +54351,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Макс. кол-во потоков</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115722Z">
+        <seg>Maximum thread count</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -54556,6 +54559,9 @@ In rows and columns</note>
       <note>Key = Libraries/bgdbrtl/ClickHouse/ClickHouseDB.ClickHouseDatabaseConfigurator.Cluster</note>
       <tuv lang="ru">
         <seg>Кластер</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115732Z">
+        <seg>Cluster</seg>
       </tuv>
     </tu>
     <tu>
