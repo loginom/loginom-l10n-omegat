@@ -62094,6 +62094,9 @@ Auto</note>
       <tuv lang="ru">
         <seg>Окружение по умолчанию (PY_ENV)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160659Z">
+        <seg>Default environment (PY_ENV)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62101,6 +62104,9 @@ Auto</note>
       <note>Key = components/python/PythonComponentSettings.PythonPyEnvUsageType</note>
       <tuv lang="ru">
         <seg>Использовать PY_ENV как</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160716Z">
+        <seg>Use PY_ENV as</seg>
       </tuv>
     </tu>
     <tu>
@@ -62110,6 +62116,9 @@ Auto</note>
       <tuv lang="ru">
         <seg>Имя образа</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160728Z">
+        <seg>Image name</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62118,6 +62127,9 @@ Auto</note>
       <tuv lang="ru">
         <seg>Путь venv</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160809Z">
+        <seg>Venv path</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62125,6 +62137,9 @@ Auto</note>
       <note>Key = components/python/PythonComponentSettings.PythonRunInContainer</note>
       <tuv lang="ru">
         <seg>Запускать в контейнере</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160822Z">
+        <seg>Run in container</seg>
       </tuv>
     </tu>
     <tu>
@@ -62221,6 +62236,9 @@ Auto</note>
       <note>Key = components/python/PythonEngine.ErrPreviewWhenNotConfiguring</note>
       <tuv lang="ru">
         <seg>Предпросмотр возможен только при настройке узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T161024Z">
+        <seg>Preview available only during node configuration</seg>
       </tuv>
     </tu>
     <tu>
