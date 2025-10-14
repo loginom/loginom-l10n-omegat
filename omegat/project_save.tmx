@@ -56812,6 +56812,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T121548Z">
+        <seg>Do not check server certificate</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -56890,6 +56893,9 @@ Ignore SSL certificate errors</note>
 Authentication is the same as for WSDL</note>
       <tuv lang="ru">
         <seg>Аутентификация, как и для получения WSDL</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T122456Z">
+        <seg>Same authentication as for receiving WSDL</seg>
       </tuv>
     </tu>
     <tu>
