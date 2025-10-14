@@ -34930,6 +34930,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Разрешить сохранять пароль к БД</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112105Z">
+        <seg>Allow saving DB password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -34948,6 +34951,9 @@ File processing will take too long.</seg>
       <note>Key = Libraries/OpenID/OpenID.OpenIDResponseMode.$Caption</note>
       <tuv lang="ru">
         <seg>Формат ответа</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112221Z">
+        <seg>Response Format</seg>
       </tuv>
     </tu>
     <tu>
@@ -50284,6 +50290,9 @@ No</note>
       <tuv lang="ru">
         <seg>Автоопределение столбцов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T111923Z">
+        <seg>Autodetect Columns</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -50295,6 +50304,9 @@ No</note>
       <tuv lang="ru">
         <seg>Нет</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T111940Z">
+        <seg>No</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -50302,6 +50314,9 @@ No</note>
       <note>Key = Libraries/FileConnection/ImportFileModelComponentEngine.AutoDetectColumnsMode.New</note>
       <tuv lang="ru">
         <seg>Только новые</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112033Z">
+        <seg>New only</seg>
       </tuv>
     </tu>
     <tu>
@@ -50313,6 +50328,9 @@ All
 In rows and columns</note>
       <tuv lang="ru">
         <seg>Все</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112020Z">
+        <seg>All</seg>
       </tuv>
     </tu>
     <tu>
