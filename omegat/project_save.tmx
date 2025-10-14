@@ -100610,6 +100610,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Невозможно пропустить корневой узел присоединяемого дерева, который является массивом</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T141437Z">
+        <seg>The joined tree's root node is an array and cannot be skipped</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
