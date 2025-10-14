@@ -60188,6 +60188,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Активация вычислителя "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T160328Z">
+        <seg>Activating worker "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
