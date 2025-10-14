@@ -99048,6 +99048,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Значение списка "%s" не соответствует типу фильтруемого столбца</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T140843Z">
+        <seg>The list value "%s" doesn't match the filtered column's type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100331,6 +100334,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/javascript/JavaScriptEngine.ErrPreviewWhenNotConfiguring</note>
       <tuv lang="ru">
         <seg>Предпросмотр возможен только при настройке узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T141234Z">
+        <seg>Preview available only during node configuration</seg>
       </tuv>
     </tu>
     <tu>
