@@ -100742,8 +100742,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Отсутствует строка с JSON значением</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T151908Z">
-        <seg>No JSON value row</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T153705Z">
+        <seg>No row with JSON value</seg>
       </tuv>
     </tu>
     <tu>
@@ -100753,8 +100753,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Не указан столбец содержащий строку JSON</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T153616Z">
-        <seg>Column with JSON line not specified</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T153723Z">
+        <seg>Column with JSON row not specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -100763,6 +100763,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.ErrNotArrayForMultipleRows</note>
       <tuv lang="ru">
         <seg>Корневой узел должен быть массивом, если набор данных содержит несколько строк</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T153906Z">
+        <seg>The root node must be an array if the dataset contains several rows</seg>
       </tuv>
     </tu>
     <tu>
