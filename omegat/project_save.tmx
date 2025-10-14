@@ -41721,6 +41721,9 @@ No</note>
       <tuv lang="ru">
         <seg>Basic</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101608Z">
+        <seg>Basic</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -41841,6 +41844,9 @@ OAuth token
 OAuth Token</note>
       <tuv lang="ru">
         <seg>Токен OAuth</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101650Z">
+        <seg>OAuth token</seg>
       </tuv>
     </tu>
     <tu>
@@ -43283,6 +43289,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Тип операции</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101821Z">
+        <seg>Operation Type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43290,6 +43299,9 @@ Operation type</note>
       <note>Key = components/jointree.JoinTreeOperationType.InsertIntoContainer</note>
       <tuv lang="ru">
         <seg>Включить узел в контейнер</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105409Z">
+        <seg>Include node in container</seg>
       </tuv>
     </tu>
     <tu>
@@ -44686,6 +44698,9 @@ Elastic Net</note>
       <note>Key = Common/WSDL/Processor/WSDLRequestProcessor.WSDLPrepareRequestStatus.Timedout</note>
       <tuv lang="ru">
         <seg>Время выполнения истекло</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101739Z">
+        <seg>Execution timed out</seg>
       </tuv>
     </tu>
     <tu>
@@ -48171,6 +48186,9 @@ No</note>
       <tuv lang="ru">
         <seg>Время выполнения истекло</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101748Z">
+        <seg>Execution timed out</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -49751,6 +49769,9 @@ No</note>
       <note>Key = Common/XML/Processor/XMLRequestProcessor.XMLRequestErrorCode.TimedOut</note>
       <tuv lang="ru">
         <seg>Время выполнения истекло</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101757Z">
+        <seg>Execution timed out</seg>
       </tuv>
     </tu>
     <tu>
