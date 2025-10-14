@@ -52899,6 +52899,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Выполнять скрипт для каждой строки</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114510Z">
+        <seg>Run script for each row</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -52918,6 +52921,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Разбивать на команды</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114524Z">
+        <seg>Split into commands</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -52925,6 +52931,9 @@ In rows and columns</note>
       <note>Key = components/sqlscript.SQLScriptEngine.Timeout</note>
       <tuv lang="ru">
         <seg>Тайм-аут работы скрипта (с)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114546Z">
+        <seg>Script run timeout (c)</seg>
       </tuv>
     </tu>
     <tu>
@@ -53011,6 +53020,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Дата и время в формате ISO 8601</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114653Z">
+        <seg>Date and time in ISO 8601 format</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -53019,6 +53031,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Формировать JSON имена из меток узлов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114746Z">
+        <seg>Generate JSON captions from node captions</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -53026,6 +53041,9 @@ In rows and columns</note>
       <note>Key = components/treetojson.TreeToJSONEngine.MultiRowOutput</note>
       <tuv lang="ru">
         <seg>Формировать набор строк для массива корневых узлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114938Z">
+        <seg>Generate a row set for root nodes array</seg>
       </tuv>
     </tu>
     <tu>
