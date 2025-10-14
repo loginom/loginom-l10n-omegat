@@ -67549,8 +67549,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Тип элемента массива "%s" не найден в схеме</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
-        <seg>"%s" array item type not found in schema</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T153958Z" creationid="zamaraev" creationdate="20251009T160911Z">
+        <seg>Array item type "%s" not found in schema</seg>
       </tuv>
     </tu>
     <tu>
@@ -72832,8 +72832,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Тип элемента массива "%s" не найден в схеме</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
-        <seg>"%s" array item type not found in schema</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154009Z" creationid="zamaraev" creationdate="20251009T160911Z">
+        <seg>Array item type "%s" not found in schema</seg>
       </tuv>
     </tu>
     <tu>
@@ -100764,8 +100764,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Корневой узел должен быть массивом, если набор данных содержит несколько строк</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T153906Z">
-        <seg>The root node must be an array if the dataset contains several rows</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154048Z">
+        <seg>When the dataset contains several rows, the root node must be an array</seg>
       </tuv>
     </tu>
     <tu>
@@ -100785,6 +100785,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.ErrNotArrayNodeInfo</note>
       <tuv lang="ru">
         <seg>Описание узла выходного дерева "%s" не является массивом</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154201Z">
+        <seg>Description of output tree node "%s" is not an array</seg>
       </tuv>
     </tu>
     <tu>
