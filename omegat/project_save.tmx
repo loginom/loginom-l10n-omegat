@@ -43322,6 +43322,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Включить узел в массив</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105419Z">
+        <seg>Include node in array</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43329,6 +43332,9 @@ Operation type</note>
       <note>Key = components/jointree.JoinTreeType.$Caption</note>
       <tuv lang="ru">
         <seg>Тип дерева данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105530Z">
+        <seg>Data Tree Type</seg>
       </tuv>
     </tu>
     <tu>
