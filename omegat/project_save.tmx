@@ -100852,6 +100852,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Ошибка парсинга на позиции %d: "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154915Z">
+        <seg>Error when parsing at position %d: "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100860,6 +100863,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>JSON в дерево</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154951Z">
+        <seg>JSON to Tree</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100867,6 +100873,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeVendor.VendorDesc</note>
       <tuv lang="ru">
         <seg>Формирование дерева данных из JSON-строк</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T155547Z">
+        <seg>Generating a data tree from JSON rows</seg>
       </tuv>
     </tu>
     <tu>
