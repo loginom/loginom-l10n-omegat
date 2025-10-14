@@ -99000,6 +99000,9 @@ The entered lower bound value does not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Введенное значение нижней границы "%s" не соответствует типу фильтруемого столбца</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T140231Z">
+        <seg>Value "%s" entered as the lower bound doesn't match the filtered column's type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
