@@ -441,3 +441,4 @@ P-значение	P-value
 Единственный	Only	Only — функция скрипта
 Степени свободы	Degrees of freedom
 Ошибка при….	Error (when/while)+ing
+профиль политики	policy preset
