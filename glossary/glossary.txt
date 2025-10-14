@@ -443,3 +443,4 @@ P-значение	P-value
 Ошибка при….	Error (when/while)+ing
 профиль политики	policy preset
 Элемент XSD-схемы	XSD schema element	(не item)
+Трасса	stack trace	https://en.wikipedia.org/wiki/Stack_trace
