@@ -51876,6 +51876,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Автоопределение структуры</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113558Z">
+        <seg>Autodetect structure</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -51883,6 +51886,9 @@ In rows and columns</note>
       <note>Key = components/jsontotree.JSONToTreeEngine.DateTimeFormat</note>
       <tuv lang="ru">
         <seg>Формат даты и времени</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113620Z">
+        <seg>Date and time format</seg>
       </tuv>
     </tu>
     <tu>
@@ -51892,6 +51898,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Исключить корневой узел</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113629Z">
+        <seg>Exclude root node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -51899,6 +51908,9 @@ In rows and columns</note>
       <note>Key = components/jsontotree.JSONToTreeEngine.RootGeneration</note>
       <tuv lang="ru">
         <seg>Корневой узел</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113642Z">
+        <seg>Root node</seg>
       </tuv>
     </tu>
     <tu>
@@ -51908,6 +51920,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Столбец, содержащий JSON</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113719Z">
+        <seg>JSON-containing column</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -51915,6 +51930,9 @@ In rows and columns</note>
       <note>Key = components/jsontotree.JSONToTreeEngine.StrictMode</note>
       <tuv lang="ru">
         <seg>Строгое соответствие структуры</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113812Z">
+        <seg>Strong structure match</seg>
       </tuv>
     </tu>
     <tu>
@@ -52540,6 +52558,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Переменная окружения PY_ENV</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113842Z">
+        <seg>Environment variable PY_ENV</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -52602,6 +52623,9 @@ In rows and columns</note>
       <note>Key = components/restclient.RESTClient.FailedRequestDelayMS</note>
       <tuv lang="ru">
         <seg>Задержка между неудачными запросами (мс)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114040Z">
+        <seg>Delay after failed request (ms)</seg>
       </tuv>
     </tu>
     <tu>
