@@ -58208,6 +58208,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Неизвестный идентификатор исключения: {0}</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124436Z">
+        <seg>Unknown exception identifier: {0}</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">rpc.json</prop>
@@ -94882,6 +94885,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = Common/CodeExec/CodeAPI.OutputTables</note>
       <tuv lang="ru">
         <seg>Массив выходных таблиц</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T124633Z">
+        <seg>Array of output tables</seg>
       </tuv>
     </tu>
     <tu>
