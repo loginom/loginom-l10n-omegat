@@ -64484,6 +64484,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Номер строки данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162233Z">
+        <seg>Data row number</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
