@@ -45507,6 +45507,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Выбор первого активного дерева</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110236Z">
+        <seg>Select the first active tree</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -45548,6 +45551,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Использовать быстрый загрузчик</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110257Z">
+        <seg>Use Fast Loader</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -45558,6 +45564,9 @@ None
 No</note>
       <tuv lang="ru">
         <seg>Нет</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110305Z">
+        <seg>No</seg>
       </tuv>
     </tu>
     <tu>
@@ -45588,6 +45597,9 @@ No</note>
       <note>Key = exports/database.DBExportFastLoaderUsage.Auto</note>
       <tuv lang="ru">
         <seg>Авто</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T110339Z">
+        <seg>Automatically</seg>
       </tuv>
     </tu>
     <tu>
