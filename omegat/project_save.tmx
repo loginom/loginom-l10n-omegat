@@ -94705,6 +94705,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>, Трасса вызовов: "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T130005Z">
+        <seg>, Call stack trace: "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
