@@ -35494,6 +35494,9 @@ No</note>
       <tuv lang="ru">
         <seg>Нет</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112540Z">
+        <seg>No</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35502,6 +35505,9 @@ No</note>
       <tuv lang="ru">
         <seg>Запрет входа</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112704Z">
+        <seg>Deny login</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35509,6 +35515,9 @@ No</note>
       <note>Key = Studio/DeductorServerSettings.MultiSessionRestriction.SessionInterrupt</note>
       <tuv lang="ru">
         <seg>Закрыть текущие сессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T112824Z">
+        <seg>Close current sessions</seg>
       </tuv>
     </tu>
     <tu>
