@@ -43344,6 +43344,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Главное дерево</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105537Z">
+        <seg>Main tree</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43352,6 +43355,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Присоединяемое дерево</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105550Z">
+        <seg>Tree to join</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43359,6 +43365,9 @@ Operation type</note>
       <note>Key = components/jsontotree.RootGeneration.$Caption</note>
       <tuv lang="ru">
         <seg>Корневой узел</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105601Z">
+        <seg>Root Node</seg>
       </tuv>
     </tu>
     <tu>
@@ -43379,6 +43388,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Всегда массив</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105616Z">
+        <seg>Always an array</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -43386,6 +43398,9 @@ Operation type</note>
       <note>Key = components/jsontotree.RootGeneration.NotArray</note>
       <tuv lang="ru">
         <seg>Всегда не массив</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105644Z">
+        <seg>Never an array</seg>
       </tuv>
     </tu>
     <tu>
@@ -43395,8 +43410,8 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Отбор факторов и защита от переобучения</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
-        <seg>Factor Selection and Protection against Overfitting</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T105826Z" creationid="zamaraev" creationdate="20251009T160911Z">
+        <seg>Factor Selection and Protection Against Overfitting</seg>
       </tuv>
     </tu>
     <tu>
