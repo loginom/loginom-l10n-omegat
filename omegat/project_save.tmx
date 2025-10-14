@@ -63843,6 +63843,9 @@ Result:
       <tuv lang="ru">
         <seg>Кодировка символов "%s" ответа HTTP не поддерживается</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162010Z">
+        <seg>Character encoding "%s" not supported for HTTP response</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64338,6 +64341,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Подключение к БД</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162020Z">
+        <seg>Connecting to DB</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64367,6 +64373,9 @@ Connection to DB</note>
       <note>Key = components/sqlscript/SQLScriptEngine.ErrInSubCommand</note>
       <tuv lang="ru">
         <seg>Ошибка при выполнении %d-й команды скрипта</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162118Z">
+        <seg>Error running command %d of the script</seg>
       </tuv>
     </tu>
     <tu>
@@ -64420,6 +64429,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Успешное завершение</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162137Z">
+        <seg>Completed successfully</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64427,6 +64439,9 @@ Connection to DB</note>
       <note>Key = components/sqlscript/SQLScriptEngine.ExecQueryProcess</note>
       <tuv lang="ru">
         <seg>Выполнение SQL скрипта</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162147Z">
+        <seg>Running SQL script</seg>
       </tuv>
     </tu>
     <tu>
@@ -64457,6 +64472,9 @@ Connection to DB</note>
       <note>Key = components/sqlscript/SQLScriptEngine.ProcessDataProcess</note>
       <tuv lang="ru">
         <seg>Итерации по строкам входных данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T162203Z">
+        <seg>Iterating through input data rows</seg>
       </tuv>
     </tu>
     <tu>
