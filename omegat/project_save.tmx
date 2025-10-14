@@ -52624,8 +52624,8 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Задержка между неудачными запросами (мс)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T114040Z">
-        <seg>Delay after failed request (ms)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114149Z">
+        <seg>Wait after failed request (ms)</seg>
       </tuv>
     </tu>
     <tu>
@@ -52634,6 +52634,9 @@ In rows and columns</note>
       <note>Key = components/restclient.RESTClient.FailedRequestRepeat</note>
       <tuv lang="ru">
         <seg>Количество повторных запросов при ошибке</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T114138Z">
+        <seg>Number </seg>
       </tuv>
     </tu>
     <tu>
