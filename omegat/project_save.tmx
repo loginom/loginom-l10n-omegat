@@ -46951,6 +46951,9 @@ No</note>
       <tuv lang="ru">
         <seg>Microsoft OLE DB Driver for SQL Server</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T111736Z">
+        <seg>Microsoft OLE DB Driver for SQL Server</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -46959,6 +46962,9 @@ No</note>
       <tuv lang="ru">
         <seg>Автоматически (современные)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T111821Z">
+        <seg>Automatically (modern)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -46966,6 +46972,9 @@ No</note>
       <note>Key = Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB.MsSQLClient.Direct</note>
       <tuv lang="ru">
         <seg>Без клиента</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T111903Z">
+        <seg>Without client</seg>
       </tuv>
     </tu>
     <tu>
