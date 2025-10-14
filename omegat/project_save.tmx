@@ -35747,6 +35747,9 @@ No</note>
       <tuv lang="ru">
         <seg>Peer</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113131Z">
+        <seg>Peer</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35754,6 +35757,9 @@ No</note>
       <note>Key = Studio/PasswordPolicy.PolicyPreset.$Caption</note>
       <tuv lang="ru">
         <seg>Профиль политики</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113230Z">
+        <seg>Policy Preset</seg>
       </tuv>
     </tu>
     <tu>
@@ -35766,6 +35772,9 @@ No</note>
       <tuv lang="ru">
         <seg>Нет</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113147Z">
+        <seg>None</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35773,6 +35782,9 @@ No</note>
       <note>Key = Studio/PasswordPolicy.PolicyPreset.Simple</note>
       <tuv lang="ru">
         <seg>Простой</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113202Z">
+        <seg>Simple</seg>
       </tuv>
     </tu>
     <tu>
@@ -35782,6 +35794,9 @@ No</note>
       <tuv lang="ru">
         <seg>Стандартный</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113206Z">
+        <seg>Standard</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35789,6 +35804,9 @@ No</note>
       <note>Key = Studio/PasswordPolicy.PolicyPreset.Strong</note>
       <tuv lang="ru">
         <seg>Сильный</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113209Z">
+        <seg>Strong</seg>
       </tuv>
     </tu>
     <tu>
@@ -35798,6 +35816,9 @@ No</note>
       <tuv lang="ru">
         <seg>Полный</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113217Z">
+        <seg>Complete</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -35805,6 +35826,9 @@ No</note>
       <note>Key = Studio/PasswordPolicy.PolicyPreset.Custom</note>
       <tuv lang="ru">
         <seg>Пользовательский</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T113225Z">
+        <seg>Custom</seg>
       </tuv>
     </tu>
     <tu>
