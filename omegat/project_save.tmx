@@ -30400,8 +30400,8 @@ Apply</note>
       <tuv lang="ru">
         <seg>Ограничение мультисессионности для администраторов</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T143702Z">
-        <seg>Admin multisession restriction</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123403Z">
+        <seg>Restrict multisessions for admins</seg>
       </tuv>
     </tu>
     <tu>
@@ -57008,6 +57008,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/DeductorServerSettings.DeductorServerSettings.AdminMultiSessionRestriction</note>
       <tuv lang="ru">
         <seg>Ограничение мультисессионности для администраторов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T122932Z">
+        <seg>Restrict multisessions for admins</seg>
       </tuv>
     </tu>
     <tu>
