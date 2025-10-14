@@ -53053,6 +53053,9 @@ In rows and columns</note>
       <tuv lang="ru">
         <seg>Выдавать форматированный JSON</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T115411Z">
+        <seg>Return formatted JSON</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
