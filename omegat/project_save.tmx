@@ -29674,8 +29674,8 @@ Apply</note>
       <tuv lang="ru">
         <seg>Максимальная длина пароля</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T142851Z">
-        <seg>Maximum password lengths</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123903Z">
+        <seg>Maximum password length</seg>
       </tuv>
     </tu>
     <tu>
@@ -57328,6 +57328,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Unix socket permissions</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123729Z">
+        <seg>Unix socket permissions</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57358,6 +57361,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Количество цифр</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123802Z">
+        <seg>Count of digits</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57377,6 +57383,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Количество строчных букв</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123827Z">
+        <seg>Count of lowercase letters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57385,6 +57394,9 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Максимальная длина пароля</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123910Z">
+        <seg>Maximum password length</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57392,6 +57404,9 @@ Ignore SSL certificate errors</note>
       <note>Key = Studio/PasswordPolicy.PasswordPolicy.MinLength</note>
       <tuv lang="ru">
         <seg>Минимальная длина пароля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123940Z">
+        <seg>Minimum password length</seg>
       </tuv>
     </tu>
     <tu>
@@ -88687,6 +88702,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Количество цифр</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123809Z">
+        <seg>Count of digits</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88695,6 +88713,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Количество строчных букв</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123833Z">
+        <seg>Count of lowercase letters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88702,6 +88723,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.MaxLength</note>
       <tuv lang="ru">
         <seg>Максимальная длина пароля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123907Z">
+        <seg>Maximum password length</seg>
       </tuv>
     </tu>
     <tu>
@@ -88737,6 +88761,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.MinLength</note>
       <tuv lang="ru">
         <seg>Минимальная длина пароля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T123959Z">
+        <seg>Minimum password length</seg>
       </tuv>
     </tu>
     <tu>
