@@ -100742,6 +100742,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Отсутствует строка с JSON значением</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T151908Z">
+        <seg>No JSON value row</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100749,6 +100752,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.ErrNoSourceColumns</note>
       <tuv lang="ru">
         <seg>Не указан столбец содержащий строку JSON</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T153616Z">
+        <seg>Column with JSON line not specified</seg>
       </tuv>
     </tu>
     <tu>
