@@ -99016,6 +99016,9 @@ The entered upper bound value does not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Введенное значение верхней границы "%s" не соответствует типу фильтруемого столбца</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T140328Z">
+        <seg>Value "%s" entered as the upper bound doesn't match the filtered column's type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -99028,6 +99031,9 @@ The entered upper bound value does not match the filtered column type</note>
 The entered value does not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Введенное значение "%s" не соответствует типу фильтруемого столбца</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T140802Z">
+        <seg>The entered value "%s" doesn't match the filtered column's type</seg>
       </tuv>
     </tu>
     <tu>
