@@ -100819,6 +100819,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Нельзя исключить корневой узел JSON, если его дочерний узел не является объектом или массивом объектов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154558Z">
+        <seg>Cannot exclude JSON root node when its child node is not an object or an array of objects</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100827,6 +100830,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Указано слишком много столбцов содержащих строку JSON</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154643Z">
+        <seg>Too many columns containing a JSON row specified</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -100834,6 +100840,9 @@ List values do not match the filtered column type</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.ErrUnexpectedJSONType</note>
       <tuv lang="ru">
         <seg>Тип данных узла %s не соответствует обявленному типу %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T154803Z">
+        <seg>Data type of node %s doesn't match the expected %s type</seg>
       </tuv>
     </tu>
     <tu>
