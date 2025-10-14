@@ -21863,6 +21863,9 @@ Available extended connections</note>
       <tuv lang="ru">
         <seg>проверяется подпись</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T100526Z">
+        <seg>checking signature</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21870,6 +21873,9 @@ Available extended connections</note>
       <note>Key = wizards/connection/DBConnectionWizard.CertCheckModeFull</note>
       <tuv lang="ru">
         <seg>проверяется подпись и хост</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T100538Z">
+        <seg>checking signature and host</seg>
       </tuv>
     </tu>
     <tu>
@@ -21911,6 +21917,9 @@ Available extended connections</note>
       <note>Key = wizards/connection/DBConnectionWizard.SystemCA</note>
       <tuv lang="ru">
         <seg>системные</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T100607Z">
+        <seg>system</seg>
       </tuv>
     </tu>
     <tu>
