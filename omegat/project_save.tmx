@@ -22336,6 +22336,9 @@ Available extended connections</note>
       <tuv lang="ru">
         <seg>Не удалять и продолжить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101141Z">
+        <seg>Continue without deleting</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -22361,9 +22364,9 @@ Links with non-existent objects were found. Do you want to delete all lost links
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T175516Z">
-        <seg>Links with non-existent objects were found.
-Do you want to delete all lost links and continue??</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251014T101317Z">
+        <seg>Links with nonexistent objects were found.
+Do you want to delete all lost links and continue?</seg>
       </tuv>
     </tu>
     <tu>
