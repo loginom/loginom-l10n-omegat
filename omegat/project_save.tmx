@@ -70910,6 +70910,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Объединённый набор данных не подготовлен к заполнению</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T132954Z">
+        <seg>Combined dataset not prepared for fill-in</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70917,6 +70920,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/CachedDataSet.ErrUnionDataSetIsPrepared</note>
       <tuv lang="ru">
         <seg>Объединённый набор данных уже подготовлен к заполнению</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133018Z">
+        <seg>Combined dataset already prepared for fill-in</seg>
       </tuv>
     </tu>
     <tu>
@@ -71849,6 +71855,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/DataTreeCommon.ErrCannotGetContainerExists</note>
       <tuv lang="ru">
         <seg>Невозможно получить признак существования контейнера для узла с идентификатором %d: узел не является контейнером</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133134Z">
+        <seg>Cannot receive container indicator for node with identifier %d: the node is not a container</seg>
       </tuv>
     </tu>
     <tu>
