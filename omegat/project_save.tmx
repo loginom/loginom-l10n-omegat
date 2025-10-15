@@ -84953,8 +84953,8 @@ Input variables</note>
       <tuv lang="ru">
         <seg>При запросе токена ответ не является JSON который содержит токен</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T141604Z">
-        <seg>The response to token request is not a token-containing JSON</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141858Z">
+        <seg>Token request response is not a token-containing JSON</seg>
       </tuv>
     </tu>
     <tu>
@@ -85075,6 +85075,9 @@ Input variables</note>
       <note>Key = Libraries/OpenID/OpenIDConfigurator.NoCheckCertificate</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141923Z">
+        <seg>Do not check server certificate</seg>
       </tuv>
     </tu>
     <tu>
