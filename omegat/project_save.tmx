@@ -68977,6 +68977,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Автоопределение новых столбцов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124941Z">
+        <seg>Autodetecting new columns</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -69458,6 +69461,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Не удалось получить список доступных кластеров</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T125017Z">
+        <seg>Failed to receive the list of available clusters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -69609,6 +69615,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>INSERT не содержит значений</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T125136Z">
+        <seg>INSERT doesn't contain values</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -69649,6 +69658,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgdbrtl/ClickHouse/ClickHouseDB.ErrTruncateDistributedTableForbidden</note>
       <tuv lang="ru">
         <seg>TRUNCATE запрещено: таблица с Engine = Distributed создана на кластере "%s" (выбран "%s")</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T125505Z">
+        <seg>TRUNCATE is prohibited: the table with Engine = Distributed was created on cluster "%s" ("%s" is selected)</seg>
       </tuv>
     </tu>
     <tu>
