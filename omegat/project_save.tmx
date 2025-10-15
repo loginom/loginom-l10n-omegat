@@ -123954,6 +123954,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Максимальное время выполнения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151550Z">
+        <seg>Maximum execution time</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123962,6 +123965,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Значение тайм-аута остановки должно быть положительным</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151616Z">
+        <seg>Stop timeout value must be positive</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123969,6 +123975,9 @@ Start immediately if the start was skipped</note>
       <note>Key = app/scheduler/JobEditor.edtTimeFilterEnd.blankText</note>
       <tuv lang="ru">
         <seg>Не указана граница временного интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151640Z">
+        <seg>Time range limit not specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -123989,6 +123998,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Не указана граница временного интервала</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151649Z">
+        <seg>Time range limit not specified</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123996,6 +124008,9 @@ Start immediately if the start was skipped</note>
       <note>Key = app/scheduler/JobEditor.edtTimeFilterStart.fieldLabel</note>
       <tuv lang="ru">
         <seg>с</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151654Z">
+        <seg>from</seg>
       </tuv>
     </tu>
     <tu>
