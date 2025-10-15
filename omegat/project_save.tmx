@@ -102930,6 +102930,9 @@ Request Parameters</note>
       <tuv lang="ru">
         <seg>Требовать смену пароля при следующем входе</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150334Z">
+        <seg>Require password change on next login</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103510,6 +103513,9 @@ Label</note>
       <note>Key = admin/UserForm.edtExternName.fieldLabel</note>
       <tuv lang="ru">
         <seg>Системный пользователь</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150343Z">
+        <seg>System user</seg>
       </tuv>
     </tu>
     <tu>
@@ -110024,6 +110030,9 @@ Configure fields</note>
 Go to Node</note>
       <tuv lang="ru">
         <seg>Перейти</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150501Z">
+        <seg>Go</seg>
       </tuv>
     </tu>
     <tu>
@@ -129424,6 +129433,9 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Переместить вверх</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150223Z">
+        <seg>Move up</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129554,6 +129566,9 @@ Delete all
 Delete All</note>
       <tuv lang="ru">
         <seg>Удалить все</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150230Z">
+        <seg>Delete all</seg>
       </tuv>
     </tu>
     <tu>
