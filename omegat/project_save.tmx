@@ -89669,6 +89669,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Значение тайм-аута остановки должно быть положительным</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145106Z">
+        <seg>Stop timeout value must be positive</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -90075,6 +90078,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Unix socket permissions</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145112Z">
+        <seg>Unix socket permissions</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -90148,6 +90154,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Viewers/Browse/BrowseView.ErrTooManyCellsForSearch</note>
       <tuv lang="ru">
         <seg>Выбрано слишком много ячеек для поиска</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145155Z">
+        <seg>Too many cells for search selected</seg>
       </tuv>
     </tu>
     <tu>
@@ -90761,6 +90770,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Viewers/Cube/CubeCalcSummaries.CalculationExpressioErrorTrace</note>
       <tuv lang="ru">
         <seg>, Трасса вызовов: "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145242Z">
+        <seg>, Call stack trace: "%s"</seg>
       </tuv>
     </tu>
     <tu>
