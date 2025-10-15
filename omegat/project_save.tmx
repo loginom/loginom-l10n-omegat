@@ -70855,6 +70855,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Выход за пределы выделенного блока в объединённом наборе данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T132602Z">
+        <seg>Out of the selected block's range in the combined dataset</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
