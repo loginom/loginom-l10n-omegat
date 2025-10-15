@@ -72098,6 +72098,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Узел по пути %s не найден</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134524Z">
+        <seg>Node in path %s not found</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
