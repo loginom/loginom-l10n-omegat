@@ -74549,6 +74549,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Ошибка парсинга JSON</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135253Z">
+        <seg>Error parsing JSON</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74556,6 +74559,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <note>Key = Libraries/bgrtl/JSONParser.ErrJSONUnexpectedChar</note>
       <tuv lang="ru">
         <seg>Получен символ %s вместо ожидаемого %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135347Z">
+        <seg>%s character received instead of expected %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -74576,6 +74582,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Неопределенное JSON значение</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135440Z">
+        <seg>Undefined JSON value</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74584,6 +74593,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Парсер JSON не инициализирован</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135455Z">
+        <seg>JSON parser not initialized</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74591,6 +74603,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <note>Key = Libraries/bgrtl/JSONParser.InvalidDateTimeTemplate</note>
       <tuv lang="ru">
         <seg>Недопустимый шаблон даты времени "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140132Z">
+        <seg>Invalid datetime template "%s"</seg>
       </tuv>
     </tu>
     <tu>
