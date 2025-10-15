@@ -445,3 +445,6 @@ P-значение	P-value
 Элемент XSD-схемы	XSD schema element	(не item)
 Трасса	stack trace	https://en.wikipedia.org/wiki/Stack_trace
 принудительно остановлен	killed	н-р, процесс Python
+Некорректный	invalid
+Некорректный	bad
+Недопустимое	invalid
