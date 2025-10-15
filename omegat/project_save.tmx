@@ -64737,6 +64737,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Формирование строк JSON из дерева данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121322Z">
+        <seg>Generating JSON strings from a data tree</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -65570,6 +65573,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Количество строк результирующего дерева превысило максимальное значение %d</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121424Z">
+        <seg>The number of strings in the resulting tree exceeds the maximum value %d</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -65577,6 +65583,9 @@ Connection to DB</note>
       <note>Key = components/uniontree/UnionTree.JoinedDataTree</note>
       <tuv lang="ru">
         <seg>Присоединяемое дерево</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121526Z">
+        <seg>Tree to join</seg>
       </tuv>
     </tu>
     <tu>
@@ -65586,6 +65595,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Главное дерево</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121517Z">
+        <seg>Main tree</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -65593,6 +65605,9 @@ Connection to DB</note>
       <note>Key = components/uniontree/UnionTreeVendor.VendorCaption</note>
       <tuv lang="ru">
         <seg>Объединение (дерево)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121537Z">
+        <seg>Union (Tree)</seg>
       </tuv>
     </tu>
     <tu>
@@ -65612,6 +65627,9 @@ Connection to DB</note>
       <note>Key = components/uniontree/UnionTreeVendor.VendorDescription</note>
       <tuv lang="ru">
         <seg>Объединение нескольких деревьев данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124255Z">
+        <seg>Combining multiple data trees</seg>
       </tuv>
     </tu>
     <tu>
