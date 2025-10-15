@@ -64704,8 +64704,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Корневой узел не может быть исключен так как он является массивом в строке JSON</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T120924Z">
-        <seg>The root node cannot be excluded because it's an array in a JSON string</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121037Z">
+        <seg>The root node cannot be excluded as it's an array in a JSON string</seg>
       </tuv>
     </tu>
     <tu>
@@ -64725,6 +64725,9 @@ Connection to DB</note>
       <note>Key = components/treetojson/TreeToJSONVendor.VendorCaption</note>
       <tuv lang="ru">
         <seg>Дерево в JSON</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121146Z">
+        <seg>Tree to JSON</seg>
       </tuv>
     </tu>
     <tu>
