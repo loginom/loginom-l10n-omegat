@@ -72120,6 +72120,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Ссылка на узел не задана</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134546Z">
+        <seg>Reference to node not specified</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -72127,6 +72130,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/DataTreeNodeInfoLinks.ErrLinkedNodeInfoTypesMismatch</note>
       <tuv lang="ru">
         <seg>Тип узла %s не совместим с типом исходного узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134656Z">
+        <seg>%s node type doesn't match the source node type</seg>
       </tuv>
     </tu>
     <tu>
