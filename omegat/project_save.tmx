@@ -71856,8 +71856,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Невозможно получить признак существования контейнера для узла с идентификатором %d: узел не является контейнером</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T133134Z">
-        <seg>Cannot receive container indicator for node with identifier %d: the node is not a container</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140729Z">
+        <seg>Failed to receive container indicator for node with identifier %d: the node is not a container</seg>
       </tuv>
     </tu>
     <tu>
