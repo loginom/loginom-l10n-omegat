@@ -71911,6 +71911,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Ошибка при чтении файла "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133147Z">
+        <seg>Error reading file "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -71918,6 +71921,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/DataTreeJSONNodeDefsBuilder.ErrJSONIsArrayChanged</note>
       <tuv lang="ru">
         <seg>Узел %s в одном из полей JSON объявлен как массив, а в другом нет</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133541Z">
+        <seg>Node %s is declared an array in one of JSON fields but is not an array in another one</seg>
       </tuv>
     </tu>
     <tu>
