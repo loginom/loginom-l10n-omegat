@@ -204,7 +204,6 @@ XSD-схема на входе	Input XSD schema
 Заданные итерации	Given iterations
 По заданным долям	By given quotas
 Вне списка	Not listed
-В списке	Listed
 Количество пропусков	Null count
 Принудительное включение	Enter
 Пошаговое включение	Forward
