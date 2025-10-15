@@ -85155,6 +85155,9 @@ Input variables</note>
       <tuv lang="ru">
         <seg>Формат ответа на запрос аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141953Z">
+        <seg>Authentication request response format</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -86214,6 +86217,9 @@ Input variables</note>
       <tuv lang="ru">
         <seg>Неверный номер версии формата сообщения: %d, ожидается: %d</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142142Z">
+        <seg>Invalid number of message format version: %d when %d was expected</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -86331,6 +86337,9 @@ Input variables</note>
       <note>Key = Libraries/rpc/RpcExceptUtils.ErrUnknownExceptionID</note>
       <tuv lang="ru">
         <seg>Неизвестный идентификатор исключения: %d</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142207Z">
+        <seg>Unknown exception identifier: %d</seg>
       </tuv>
     </tu>
     <tu>
@@ -86592,6 +86601,9 @@ Input variables</note>
       <note>Key = Libraries/rpc/WebSocketMessageTransport.ConnectionClosedUnansweredPing</note>
       <tuv lang="ru">
         <seg>Подключение через WebSocket было закрыто из-за того, что не получен ответ на сообщение Ping</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142327Z">
+        <seg>WebSocket connection closed because Ping message was not responded</seg>
       </tuv>
     </tu>
     <tu>
