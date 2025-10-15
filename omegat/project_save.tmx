@@ -89207,6 +89207,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>%d цифр</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143745Z">
+        <seg>%d digits</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89214,6 +89217,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.PasswordLowercase</note>
       <tuv lang="ru">
         <seg>%d строчных букв</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143757Z">
+        <seg>%d lowercase letters</seg>
       </tuv>
     </tu>
     <tu>
@@ -89223,6 +89229,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>%d специальных символов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143817Z">
+        <seg>%d special characters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89231,6 +89240,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>%d заглавных букв</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143826Z">
+        <seg>%d uppercase letters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89238,6 +89250,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.PolicyException</note>
       <tuv lang="ru">
         <seg>Пароль не обеспечивает требований к сложности</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T144115Z">
+        <seg>Password doesn't meet complexity requirements</seg>
       </tuv>
     </tu>
     <tu>
