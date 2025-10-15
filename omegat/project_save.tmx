@@ -123473,6 +123473,9 @@ Move Down</note>
       <tuv lang="ru">
         <seg>Переместить вниз</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150918Z">
+        <seg>Move down</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123483,6 +123486,9 @@ Move up
 Move Up</note>
       <tuv lang="ru">
         <seg>Переместить вверх</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150924Z">
+        <seg>Move up</seg>
       </tuv>
     </tu>
     <tu>
@@ -123558,6 +123564,9 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Выбрать из пакета</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150939Z">
+        <seg>Select from Package</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123565,6 +123574,9 @@ Move Up</note>
       <note>Key = app/scheduler/JobEditor.btnSelectDestVariables.tooltip</note>
       <tuv lang="ru">
         <seg>Выбрать из пакета...</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150950Z">
+        <seg>Select from package...</seg>
       </tuv>
     </tu>
     <tu>
@@ -123656,6 +123668,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Запустить сразу, если пропущен запуск</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151024Z">
+        <seg>Start immediately if the start was skipped</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123663,6 +123678,9 @@ Start immediately if the start was skipped</note>
       <note>Key = app/scheduler/JobEditor.chkStartOnServerStartup.fieldLabel</note>
       <tuv lang="ru">
         <seg>Запускать при старте сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151326Z">
+        <seg>Start upon server startup</seg>
       </tuv>
     </tu>
     <tu>
