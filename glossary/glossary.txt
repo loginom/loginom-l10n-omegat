@@ -449,3 +449,4 @@ P-значение	P-value
 Некорректный	bad
 Недопустимое	invalid
 Невозможно	failed to
+Неверный	invalid
