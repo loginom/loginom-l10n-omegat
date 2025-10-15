@@ -71922,8 +71922,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Узел %s в одном из полей JSON объявлен как массив, а в другом нет</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T133541Z">
-        <seg>Node %s is declared an array in one of JSON fields but is not an array in another one</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133651Z">
+        <seg>Node %s is declared an array in one JSON field but not in another one</seg>
       </tuv>
     </tu>
     <tu>
@@ -71933,6 +71933,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Узел %s в одном из полей JSON объявлен как контейнер, а в другом нет</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133627Z">
+        <seg>Node %s is declared a container in one JSON field but not in another one</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -71941,6 +71944,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Превышение допустимого размера JSON</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133720Z">
+        <seg>Allowable JSON size exceeded</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -71948,6 +71954,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/DataTreeJSONNodeDefsBuilder.ErrRootNotContainer</note>
       <tuv lang="ru">
         <seg>Корень JSON не является объектом или массивом объектов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133811Z">
+        <seg>JSON root is not an object or an array of objects</seg>
       </tuv>
     </tu>
     <tu>
