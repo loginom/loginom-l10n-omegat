@@ -64704,6 +64704,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Корневой узел не может быть исключен так как он является массивом в строке JSON</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T120924Z">
+        <seg>The root node cannot be excluded because it's an array in a JSON string</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64711,6 +64714,9 @@ Connection to DB</note>
       <note>Key = components/treetojson/TreeToJSONEngine.ErrExcludeNotContainerRoot</note>
       <tuv lang="ru">
         <seg>Корневой узел не может быть исключен так как он не является контейнером с одним узлом</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T121014Z">
+        <seg>The root node cannot be excluded as it's not a one-node container</seg>
       </tuv>
     </tu>
     <tu>
