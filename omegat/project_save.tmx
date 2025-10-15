@@ -66530,6 +66530,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Переключение на добавление записей через INSERT. Причина:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124730Z">
+        <seg>Switching to adding records via INSERT. Reason:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -66537,6 +66540,9 @@ Connection to DB</note>
       <note>Key = exports/database/DBExport.RecreateTableProcess</note>
       <tuv lang="ru">
         <seg>Пересоздание таблицы</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124841Z">
+        <seg>Re-creating the table</seg>
       </tuv>
     </tu>
     <tu>
@@ -67965,6 +67971,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Автоопределение новых столбцов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124855Z">
+        <seg>Autodetecting new columns</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -68214,6 +68223,9 @@ Connection to DB</note>
       <note>Key = imports/excelfile/ImportExcelFile.ReadMetadataFilesProcess</note>
       <tuv lang="ru">
         <seg>Чтение метаданных файлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124929Z">
+        <seg>Reading files' metadata</seg>
       </tuv>
     </tu>
     <tu>
