@@ -70580,6 +70580,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>%s не является таблицей</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130434Z">
+        <seg>%s is not a table</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70587,6 +70590,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgdbrtl/UniDAC/PostgresUniDACDB.WarnTableRulesWillbeIgnored</note>
       <tuv lang="ru">
         <seg>Установленные на таблицу %s правила (RULE) будут проигнорированы</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130520Z">
+        <seg>Rules (RULE) set for table %s will be ignored</seg>
       </tuv>
     </tu>
     <tu>
@@ -70661,6 +70667,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB.ErrUnableToLoadSQLiteExtension</note>
       <tuv lang="ru">
         <seg>Не удалось загрузить расширение SQLite "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130606Z">
+        <seg>Failed to load SQLite extension "%s"</seg>
       </tuv>
     </tu>
     <tu>
@@ -70824,6 +70833,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Блоки объединённого набора не были заполнены</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130651Z">
+        <seg>Blocks of combined set not filled</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70831,6 +70843,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/CachedDataSet.ErrBlockUnionDataSetNotExist</note>
       <tuv lang="ru">
         <seg>Запрошенный блок объединённого набора не существует</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130732Z">
+        <seg>The requested block of the combined set doesn't exist</seg>
       </tuv>
     </tu>
     <tu>
