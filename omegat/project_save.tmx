@@ -82476,6 +82476,9 @@ Input variables</note>
       <tuv lang="ru">
         <seg>Добавлен выход "%s" к узлу "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141305Z">
+        <seg>Output "%s" Added to Node "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -82538,6 +82541,9 @@ Input variables</note>
       <note>Key = Libraries/Model/ModelWorkFlow.DeleteOutputSocketCaption</note>
       <tuv lang="ru">
         <seg>Удален выход "%s" узла "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141404Z">
+        <seg>Output "%s" Deleted from Node "%s"</seg>
       </tuv>
     </tu>
     <tu>
