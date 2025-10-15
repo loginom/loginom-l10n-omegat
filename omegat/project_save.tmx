@@ -118608,6 +118608,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Информация о тестовом подключении</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150100Z">
+        <seg>Test Connection Details</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119789,6 +119792,9 @@ Shared Folders</note>
       <tuv lang="ru">
         <seg>Общие папки</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150110Z">
+        <seg>Shared folders</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -120752,6 +120758,9 @@ Edit Variable</note>
       <tuv lang="ru">
         <seg>Содержимое</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150118Z">
+        <seg>Content</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -120991,6 +121000,9 @@ Edit Variable</note>
       <tuv lang="ru">
         <seg>Токен</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150124Z">
+        <seg>Token</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -121109,6 +121121,9 @@ Edit Variable</note>
       <tuv lang="ru">
         <seg>Полное имя пользователя</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150137Z">
+        <seg>Full username</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -121226,6 +121241,9 @@ Edit Variable</note>
       <note>Key = admin/OpenIDTestForm.txtUserInfo.fieldLabel</note>
       <tuv lang="ru">
         <seg>Информация о пользователе</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150149Z">
+        <seg>User info</seg>
       </tuv>
     </tu>
     <tu>
@@ -129287,6 +129305,9 @@ Move down
 Move Down</note>
       <tuv lang="ru">
         <seg>Переместить вниз</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150218Z">
+        <seg>Move down</seg>
       </tuv>
     </tu>
     <tu>
