@@ -123712,6 +123712,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Ограничить время выполнения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151335Z">
+        <seg>Limit execution time</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123752,6 +123755,9 @@ Start immediately if the start was skipped</note>
       <note>Key = app/scheduler/JobEditor.colAfterJobStatuses.text</note>
       <tuv lang="ru">
         <seg>Статус для запуска задачи</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T151536Z">
+        <seg>Status for Job Start</seg>
       </tuv>
     </tu>
     <tu>
