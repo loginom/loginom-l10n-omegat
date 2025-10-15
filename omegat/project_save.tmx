@@ -75253,6 +75253,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Размер создаваемой строки превысил максимальный в 2Гб</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140343Z">
+        <seg>The new string size exceeds the maximum of 2 GB</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -75656,6 +75659,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <note>Key = Libraries/bgrtl/SysUtils.ErrCreateFile</note>
       <tuv lang="ru">
         <seg>Невозможно создать файл: "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140620Z">
+        <seg>Failed to create file: "%s"</seg>
       </tuv>
     </tu>
     <tu>
