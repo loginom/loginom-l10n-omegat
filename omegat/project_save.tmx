@@ -87126,6 +87126,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Пароль пользователя должен быть изменен</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142403Z">
+        <seg>User password must be changed</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -87133,6 +87136,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.ChangePassNotAllowed</note>
       <tuv lang="ru">
         <seg>Пароль можно менять только у пользователей с локальной аутентификацией</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142441Z">
+        <seg>Password can be changed only for users with local authentication</seg>
       </tuv>
     </tu>
     <tu>
@@ -87636,6 +87642,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.LogChangePassFailed</note>
       <tuv lang="ru">
         <seg>Не удалось изменить пароль у пользователя %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142546Z">
+        <seg>Failed to change password for user %s</seg>
       </tuv>
     </tu>
     <tu>
