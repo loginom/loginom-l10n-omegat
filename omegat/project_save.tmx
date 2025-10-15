@@ -6573,8 +6573,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Операция удаления записей не поддерживается текущей базой данных</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T151023Z">
-        <seg>Record deleting operation not supported by the current database</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124414Z">
+        <seg>Record-deleting operation not supported by the current database</seg>
       </tuv>
     </tu>
     <tu>
@@ -66211,6 +66211,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Удаление существующей таблицы</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124322Z">
+        <seg>Deleting an existing table</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -66284,6 +66287,9 @@ Connection to DB</note>
       <note>Key = exports/database/DBExport.ErrDeleteNotSupported</note>
       <tuv lang="ru">
         <seg>Операция удаления записей не поддерживается текущей базой данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124516Z">
+        <seg>Record-deleting operation not supported by the current database</seg>
       </tuv>
     </tu>
     <tu>
@@ -66491,6 +66497,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Получение информации о типах данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124555Z">
+        <seg>Receiving data types information</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -66509,6 +66518,9 @@ Connection to DB</note>
       <note>Key = exports/database/DBExport.InfoParamSetsLowerBound</note>
       <tuv lang="ru">
         <seg>число строк в пачке меньше %d</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T124645Z">
+        <seg>row count in batch less than %d</seg>
       </tuv>
     </tu>
     <tu>
