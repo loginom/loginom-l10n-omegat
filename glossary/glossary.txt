@@ -451,3 +451,5 @@ P-значение	P-value
 Неверный	invalid
 в пакетном режиме	in batch processing mode	(режим пакетной обработки)
 единица измерения	unit	(unit of measure)
+включительно	inclusive
+не включительно	non-inclusive
