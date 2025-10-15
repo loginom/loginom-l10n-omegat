@@ -88567,6 +88567,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Разрешить сохранять пароль к БД</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142830Z">
+        <seg>Allow saving DB password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88751,6 +88754,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Ошибка аутентификации Peer</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142845Z">
+        <seg>Peer authentication error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88758,6 +88764,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorUsers.ErrMaxLengthPassword</note>
       <tuv lang="ru">
         <seg>Пароль должен содержать максимум %d символов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143019Z">
+        <seg>Password must be up to %d characters</seg>
       </tuv>
     </tu>
     <tu>
@@ -88868,6 +88877,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Системный пользователь</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143029Z">
+        <seg>System user</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88975,6 +88987,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Ошибка при аутентификации Peer</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143040Z">
+        <seg>Peer authentication error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88983,6 +88998,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Ошибка при аутентификации Peer (uid: %s)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143054Z">
+        <seg>Peer authentication error (uid: %s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88990,6 +89008,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/DeductorUsers.LogFailedLoginPeerRunModeOnly</note>
       <tuv lang="ru">
         <seg>Аутентификация Peer возможна только в пакетном режиме</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143519Z">
+        <seg>Peer authentication is available only in batch processing mode</seg>
       </tuv>
     </tu>
     <tu>
