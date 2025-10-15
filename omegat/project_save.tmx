@@ -112449,6 +112449,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Тестирование LDAP аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145430Z">
+        <seg>LDAP Authentication Testing</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -113701,6 +113704,9 @@ Cancel</note>
       <note>Key = admin/LDAPTestForm.pnlSearch.title</note>
       <tuv lang="ru">
         <seg>Тестовый поиск пользователя</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145421Z">
+        <seg>Test User Search</seg>
       </tuv>
     </tu>
     <tu>
@@ -114960,6 +114966,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Результат тестирования подключения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145453Z">
+        <seg>Connection test result</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -116155,6 +116164,9 @@ Cancel</note>
       <note>Key = admin/LDAPTestForm.txtSearchResult.fieldLabel</note>
       <tuv lang="ru">
         <seg>Результат поиска пользователя</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150037Z">
+        <seg>User search result</seg>
       </tuv>
     </tu>
     <tu>
