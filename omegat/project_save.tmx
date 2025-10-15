@@ -70866,6 +70866,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Запрошенная часть объединённого набора не существует</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T132804Z">
+        <seg>The requested part of the combined set doesn't exist</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70895,6 +70898,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/CachedDataSet.ErrTargetHeapIsLoad</note>
       <tuv lang="ru">
         <seg>Куча целевого набора уже загружена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T132857Z">
+        <seg>Target set heap already loaded</seg>
       </tuv>
     </tu>
     <tu>
