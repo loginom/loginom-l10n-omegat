@@ -64506,6 +64506,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Имя подстановки "%s" одновременно совпадает с именем поля источника данных и переменной. Используется значение поля.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T103222Z">
+        <seg>Substitution name "%s" matches a data source field name and a variable name simultaneously. The field value is used.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
