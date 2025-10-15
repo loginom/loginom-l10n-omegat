@@ -74747,6 +74747,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Найдены правила с одинаковыми параметрами (дубликаты)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140157Z">
+        <seg>Rules with the same parameters (duplicates) detected</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
