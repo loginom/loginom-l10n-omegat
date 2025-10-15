@@ -87698,6 +87698,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Лог-файл создан %s %s</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142607Z">
+        <seg>Log file created by %s %s</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -87793,6 +87796,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.NewPassAsPreviousException</note>
       <tuv lang="ru">
         <seg>Новый пароль не должен совпадать со старым</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142627Z">
+        <seg>New password must not repeat the old one</seg>
       </tuv>
     </tu>
     <tu>
@@ -87944,6 +87950,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.ServerStopLogMsg</note>
       <tuv lang="ru">
         <seg>%s остановлен</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142638Z">
+        <seg>%s stopped</seg>
       </tuv>
     </tu>
     <tu>
@@ -88107,6 +88116,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Ограничение мультисессионности для администраторов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142701Z">
+        <seg>Restrict multisessions for admins</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88115,6 +88127,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Всегда проверять сертификаты HTTPS</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142741Z">
+        <seg>Always verify HTTPS certificates</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88122,6 +88137,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServerSettings.AlwaysVerifySSLCerts</note>
       <tuv lang="ru">
         <seg>Всегда проверять все сертификаты</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142745Z">
+        <seg>Always verify all certificates</seg>
       </tuv>
     </tu>
     <tu>
@@ -88141,6 +88159,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServerSettings.DisableUserMultiSession</note>
       <tuv lang="ru">
         <seg>Запрет мультисессионности для пользователей</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142803Z">
+        <seg>Disable user multisessions</seg>
       </tuv>
     </tu>
     <tu>
@@ -102215,6 +102236,9 @@ Cancel</note>
       <note>Key = admin/UserForm.chkAllowPasswordSave.boxLabel</note>
       <tuv lang="ru">
         <seg>Разрешить сохранять пароль к БД</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T142824Z">
+        <seg>Allow saving DB password</seg>
       </tuv>
     </tu>
     <tu>
