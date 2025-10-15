@@ -70503,6 +70503,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Не удалось получить информацию о типах полей таблиц</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130204Z">
+        <seg>Failed to receive information about table field types</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70544,6 +70547,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Переключение на добавление записей через INSERT. Причина:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130225Z">
+        <seg>Switching to adding records via INSERT. Reason:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70552,6 +70558,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>%s имеет неподдерживаемые типы данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130304Z">
+        <seg>%s has unsupported data types</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -70559,6 +70568,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgdbrtl/UniDAC/PostgresUniDACDB.InfoTableWithRules</note>
       <tuv lang="ru">
         <seg>таблица %s имеет заданное правило (RULE)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T130424Z">
+        <seg>table %s has a rule specified (RULE)</seg>
       </tuv>
     </tu>
     <tu>
