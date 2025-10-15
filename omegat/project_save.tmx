@@ -89020,6 +89020,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Требовать смену пароля при следующем входе</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143631Z">
+        <seg>Require password change on next login</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89060,6 +89063,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/DeductorUsers.PeerAuthNotSupported</note>
       <tuv lang="ru">
         <seg>Аутентификации Peer не поддерживается на этой платформе</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143653Z">
+        <seg>Peer authentication not supported on this platform</seg>
       </tuv>
     </tu>
     <tu>
@@ -89157,6 +89163,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>максимум %d символов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143720Z">
+        <seg>maximum %d characters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89164,6 +89173,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.Minimum</note>
       <tuv lang="ru">
         <seg>минимум</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143726Z">
+        <seg>minimum</seg>
       </tuv>
     </tu>
     <tu>
@@ -89183,6 +89195,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/PasswordPolicy.MinPasswordLength</note>
       <tuv lang="ru">
         <seg>%d символов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T143734Z">
+        <seg>%d characters</seg>
       </tuv>
     </tu>
     <tu>
