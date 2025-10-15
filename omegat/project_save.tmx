@@ -72892,6 +72892,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Недопустимые значения параметров</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134727Z">
+        <seg>Invalid parameter values</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74027,6 +74030,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Книга Excel 2007 с поддержкой макросов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134803Z">
+        <seg>Excel 2007 macro-enabled workbook</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74477,6 +74483,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Ошибка добавления JSON узла</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134815Z">
+        <seg>Error adding JSON node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74485,6 +74494,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Некорректный JSON массив</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134852Z">
+        <seg>Bad JSON array</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74492,6 +74504,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <note>Key = Libraries/bgrtl/JSONParser.ErrJSONBadNumber</note>
       <tuv lang="ru">
         <seg>Некорректное JSON число</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134844Z">
+        <seg>Bad JSON number</seg>
       </tuv>
     </tu>
     <tu>
