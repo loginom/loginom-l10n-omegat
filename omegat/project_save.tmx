@@ -89581,6 +89581,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Значение границы интервала времени должно быть в диапазоне от 0:00 включительно до 24:00 не включительно</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T145040Z">
+        <seg>Time range limit value must be between 0:00 inclusive and 24:00 non-inclusive</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
