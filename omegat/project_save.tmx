@@ -71966,6 +71966,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Ошибка парсинга на позиции %d: "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133857Z">
+        <seg>Error parsing at position %d: "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -72028,6 +72031,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgrtl/DataTreeNodeDefs.ErrDuplicateExcludedNodes</note>
       <tuv lang="ru">
         <seg>В списке исключений найдены дубликаты: %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T134113Z">
+        <seg>Duplicates detected in the list of exceptions: %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -101092,8 +101098,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Ошибка парсинга на позиции %d: "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T154915Z">
-        <seg>Error when parsing at position %d: "%s"</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T133912Z">
+        <seg>Error parsing at position %d: "%s"</seg>
       </tuv>
     </tu>
     <tu>
