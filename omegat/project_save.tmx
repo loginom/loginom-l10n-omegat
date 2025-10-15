@@ -75715,6 +75715,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Невозможно открыть файл: "%s"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140807Z">
+        <seg>Failed to open file: "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -79038,6 +79041,9 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Не удалось подготовить имена файлов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140818Z">
+        <seg>Failed to prepare file names</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -79342,6 +79348,9 @@ Reason: %s</seg>
       <note>Key = Libraries/LDAP/LDAPConfigurator.NoCheckCertificate</note>
       <tuv lang="ru">
         <seg>Не проверять сертификат сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140834Z">
+        <seg>Do not check server certificate</seg>
       </tuv>
     </tu>
     <tu>
@@ -80344,6 +80353,9 @@ Input variables</note>
       <tuv lang="ru">
         <seg>Входные переменные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140854Z">
+        <seg>Input variables</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -80406,6 +80418,9 @@ Input variables</note>
       <note>Key = Libraries/Model/DataSet/ImportModelComponentEngine.ErrParallelImportError</note>
       <tuv lang="ru">
         <seg>При параллельном импорте возникла ошибка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T140952Z">
+        <seg>Error importing in parallel</seg>
       </tuv>
     </tu>
     <tu>
@@ -81910,6 +81925,9 @@ Input variables</note>
       <note>Key = Libraries/Model/ModelPackage.ErrReviveExceptions</note>
       <tuv lang="ru">
         <seg>При восстановлении ссылки на пакет с именем %s и версией %s возникли ошибки</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141142Z">
+        <seg>Errors restoring reference to package with %s name and %s version</seg>
       </tuv>
     </tu>
     <tu>
