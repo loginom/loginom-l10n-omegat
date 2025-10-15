@@ -64561,6 +64561,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>SQL-скрипт</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T120110Z">
+        <seg>SQL Script</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
