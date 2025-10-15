@@ -74494,8 +74494,8 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Некорректный JSON массив</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T134852Z">
-        <seg>Bad JSON array</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135003Z">
+        <seg>Invalid JSON array</seg>
       </tuv>
     </tu>
     <tu>
@@ -74505,8 +74505,8 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Некорректное JSON число</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T134844Z">
-        <seg>Bad JSON number</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135011Z">
+        <seg>Invalid JSON number</seg>
       </tuv>
     </tu>
     <tu>
@@ -74516,6 +74516,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Некорректный JSON объект</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135135Z">
+        <seg>Invalid JSON object</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74524,6 +74527,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <tuv lang="ru">
         <seg>Некорректная JSON строка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135150Z">
+        <seg>Invalid JSON string</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -74531,6 +74537,9 @@ Excel 2007 binary macro-enabled workbook</note>
       <note>Key = Libraries/bgrtl/JSONParser.ErrJSONBadWord</note>
       <tuv lang="ru">
         <seg>Недопустимое значение "%s"</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T135246Z">
+        <seg>Invalid "%s" value</seg>
       </tuv>
     </tu>
     <tu>
