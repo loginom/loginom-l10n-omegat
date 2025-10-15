@@ -450,3 +450,4 @@ P-значение	P-value
 Невозможно	failed to
 Неверный	invalid
 в пакетном режиме	in batch processing mode	(режим пакетной обработки)
+единица измерения	unit	(unit of measure)
