@@ -110267,6 +110267,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Начать поиск с выделенного</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150522Z">
+        <seg>Start search from selected</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110503,6 +110506,9 @@ Find</note>
       <tuv lang="ru">
         <seg>Поиск</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150555Z">
+        <seg>Search</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110623,6 +110629,9 @@ Search
 Find</note>
       <tuv lang="ru">
         <seg>Поиск</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150600Z">
+        <seg>Search</seg>
       </tuv>
     </tu>
     <tu>
@@ -110746,6 +110755,9 @@ Find</note>
 Find Workflow Node</note>
       <tuv lang="ru">
         <seg>Найти</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150627Z">
+        <seg>Search</seg>
       </tuv>
     </tu>
     <tu>
@@ -117344,6 +117356,9 @@ Find node...</note>
       <tuv lang="ru">
         <seg>Найти...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150648Z">
+        <seg>Find</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -123212,6 +123227,9 @@ Caption
 Label</note>
       <tuv lang="ru">
         <seg>Метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T150812Z">
+        <seg>By caption</seg>
       </tuv>
     </tu>
     <tu>
