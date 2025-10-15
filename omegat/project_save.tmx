@@ -84953,6 +84953,9 @@ Input variables</note>
       <tuv lang="ru">
         <seg>При запросе токена ответ не является JSON который содержит токен</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T141604Z">
+        <seg>The response to token request is not a token-containing JSON</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
