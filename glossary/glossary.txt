@@ -142,7 +142,7 @@ XSD-схема на входе	Input XSD schema
 Количество	Count
 Неверный тип данных	Invalid data type
 Дополнить таблицу данными	Append data to table
-Не удалось	Failed
+Не удалось	failed to
 Пакет	Package
 Настройки соответствия	Mapping settings
 Фильтр строк	Row filter
