@@ -64572,6 +64572,9 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Выполнение SQL скриптов через настроенное подключение к базе данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T120728Z">
+        <seg>Running SQL scripts via a configured database connection</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
