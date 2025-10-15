@@ -69659,8 +69659,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>TRUNCATE запрещено: таблица с Engine = Distributed создана на кластере "%s" (выбран "%s")</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T125505Z">
-        <seg>TRUNCATE is prohibited: the table with Engine = Distributed was created on cluster "%s" ("%s" is selected)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T125816Z">
+        <seg>TRUNCATE not allowed: the table with Engine = Distributed was created on cluster "%s" ("%s" is selected)</seg>
       </tuv>
     </tu>
     <tu>
@@ -69669,6 +69669,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgdbrtl/ClickHouse/ClickHouseDB.GetClustersProcess</note>
       <tuv lang="ru">
         <seg>Получение списка кластеров</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T125515Z">
+        <seg>Receiving cluster list</seg>
       </tuv>
     </tu>
     <tu>
@@ -69710,6 +69713,9 @@ Connection to DB</note>
       <note>Key = Libraries/bgdbrtl/ClickHouse/ClickHouseDeleteHelper.ErrDeleteFromDistributedTableForbidden</note>
       <tuv lang="ru">
         <seg>Удаление запрещено: таблица с Engine = Distributed создана на кластере "%s" (выбран "%s")</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251015T125746Z">
+        <seg>Deleting is prohibited: the table with Engine = Distributed was created on cluster "%s" ("%s" is selected)</seg>
       </tuv>
     </tu>
     <tu>
