@@ -101489,6 +101489,9 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Присоединяемое дерево (для информации)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003410Z">
+        <seg>Joining Tree (For Information)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -101566,6 +101569,9 @@ Move Down</note>
       <tuv lang="ru">
         <seg>Переместить вниз</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003422Z">
+        <seg>Move down</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -101576,6 +101582,9 @@ Move up
 Move Up</note>
       <tuv lang="ru">
         <seg>Переместить вверх</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003429Z">
+        <seg>Move up</seg>
       </tuv>
     </tu>
     <tu>
@@ -101610,6 +101619,9 @@ Data kind</note>
       <tuv lang="ru">
         <seg>Вид данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003454Z">
+        <seg>Data Kind</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -101639,6 +101651,9 @@ Data kind</note>
       <note>Key = components/jsontotree/JSONToTreeWizard.colNodes.text</note>
       <tuv lang="ru">
         <seg>Узел JSON</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003504Z">
+        <seg>JSON Node</seg>
       </tuv>
     </tu>
     <tu>
@@ -129780,6 +129795,9 @@ Delete All</note>
       <tuv lang="ru">
         <seg>Включить узел в</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003237Z">
+        <seg>Include node in</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129787,6 +129805,9 @@ Delete All</note>
       <note>Key = components/jointree/JoinTreeWizard.pnlJoinTree.title</note>
       <tuv lang="ru">
         <seg>Настройка слияния деревьев</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003259Z">
+        <seg>Configure Tree Join</seg>
       </tuv>
     </tu>
     <tu>
