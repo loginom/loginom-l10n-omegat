@@ -101143,8 +101143,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Слияние (дерево)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T151317Z">
-        <seg>Join (Tree)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T101836Z">
+        <seg>Tree Join</seg>
       </tuv>
     </tu>
     <tu>
