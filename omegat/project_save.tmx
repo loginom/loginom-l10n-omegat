@@ -65612,8 +65612,8 @@ Connection to DB</note>
       <tuv lang="ru">
         <seg>Объединение (дерево)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251015T121537Z">
-        <seg>Union (Tree)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T102052Z">
+        <seg>Tree Union</seg>
       </tuv>
     </tu>
     <tu>
