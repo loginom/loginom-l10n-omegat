@@ -129218,8 +129218,8 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Открыть окно предпросмотра...</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251016T002619Z">
-        <seg>Ope preview window...</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003116Z">
+        <seg>Open preview window...</seg>
       </tuv>
     </tu>
     <tu>
@@ -129332,8 +129332,8 @@ Relation</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ ниже</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251016T002845Z">
-        <seg>Add OR operator lower</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002911Z">
+        <seg>Add OR operator after</seg>
       </tuv>
     </tu>
     <tu>
@@ -129456,6 +129456,9 @@ Move Down</note>
       <tuv lang="ru">
         <seg>Копировать выбранные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002919Z">
+        <seg>Copy selected</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129485,6 +129488,9 @@ Move Down</note>
       <note>Key = components/filterdata/ValueListEditor.btnPaste.tooltip</note>
       <tuv lang="ru">
         <seg>Добавить к выбранным</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002927Z">
+        <seg>Add to selected</seg>
       </tuv>
     </tu>
     <tu>
@@ -129708,6 +129714,9 @@ Delete All</note>
       <tuv lang="ru">
         <seg>Только подходящие узлы</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002952Z">
+        <seg>Suitable Nodes Only</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129715,6 +129724,9 @@ Delete All</note>
       <note>Key = components/jointree/JoinTreeWizard.btnShowJoinedTree.text</note>
       <tuv lang="ru">
         <seg>Показать узлы присоединяемого дерева</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003028Z">
+        <seg>Show Joining Tree Nodes</seg>
       </tuv>
     </tu>
     <tu>
@@ -129745,6 +129757,9 @@ Delete All</note>
       <note>Key = components/jointree/JoinTreeWizard.colMainTreeNode.text</note>
       <tuv lang="ru">
         <seg>Узел основного дерева</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003054Z">
+        <seg>Main Tree Node</seg>
       </tuv>
     </tu>
     <tu>
