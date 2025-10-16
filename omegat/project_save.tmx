@@ -56697,8 +56697,8 @@ Label</note>
       <tuv lang="ru">
         <seg>Аутентификация для выполнения запроса</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
-        <seg>Authentication to execute request</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004404Z" creationid="zamaraev" creationdate="20251009T160911Z">
+        <seg>Authentication for request execution</seg>
       </tuv>
     </tu>
     <tu>
@@ -56878,8 +56878,8 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Аутентификация для выполнения запроса</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251009T160911Z" creationid="zamaraev" creationdate="20251009T160911Z">
-        <seg>Authentication to execute request</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004339Z" creationid="zamaraev" creationdate="20251009T160911Z">
+        <seg>Authentication for request execution</seg>
       </tuv>
     </tu>
     <tu>
@@ -104623,6 +104623,9 @@ Save</note>
       <tuv lang="ru">
         <seg>Заменить URL параметры в таблице на указанные в URL сервиса</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004211Z">
+        <seg>Replace URL parameters in table with those specified in service URL</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104744,6 +104747,9 @@ Authentication to Execute Request</note>
       <tuv lang="ru">
         <seg>Аутентификация для выполнения запроса</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004327Z">
+        <seg>Authentication for request execution</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104751,6 +104757,9 @@ Authentication to Execute Request</note>
       <note>Key = connections/restservice/ConnectionWizard.txtExampleURL.fieldLabel</note>
       <tuv lang="ru">
         <seg>Пример сформированного URL</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004423Z">
+        <seg>Example of generated URL</seg>
       </tuv>
     </tu>
     <tu>
