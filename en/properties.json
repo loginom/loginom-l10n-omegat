@@ -1065,7 +1065,7 @@
       "AdminMultiSessionRestriction": "Restrict multisessions for admins",
       "AlwaysVerifyHTTPSCerts": "Always verify HTTPS certificates",
       "AlwaysVerifySSLCerts": "Always verify all certificates",
-      "DeactivateUpstreamOnCompletion": "Deactivate node groups upon completion",
+      "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
       "DisableUserMultiSession": "Disable user multisessions",
       "FailedLoginCountLimit": "Password entry attempts limit",
       "FailedLoginTimeout": "Password entry timeout",

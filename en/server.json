@@ -1261,7 +1261,7 @@
     "ErrMainTreeNodeNotAssigned": "Main tree node to connect not specified"
   },
   "components/jointree/JoinTreeVendor": {
-    "VendorCaption": "Join (Tree)",
+    "VendorCaption": "Tree Join",
     "VendorDescription": "Join of two data trees"
   },
   "components/jsontotree/JSONToTreeEngine": {
@@ -1986,7 +1986,7 @@
     "MainDataTree": "Main tree"
   },
   "components/uniontree/UnionTreeVendor": {
-    "VendorCaption": "Union (Tree)",
+    "VendorCaption": "Tree Union",
     "VendorDescription": "Combining multiple data trees"
   },
   "components/unionvariables/UnionVariables": {
@@ -4589,7 +4589,7 @@
     "AdminMultiSessionRestriction": "Restrict multisessions for admins",
     "AlwaysVerifyHTTPSCerts": "Always verify HTTPS certificates",
     "AlwaysVerifySSLCerts": "Always verify all certificates",
-    "DeactivateUpstreamOnCompletion": "Deactivate node groups upon completion",
+    "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
     "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
     "FailedLoginTimeout": "Password entry timeout",

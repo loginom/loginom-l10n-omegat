@@ -949,7 +949,7 @@
       "text": "Cancel"
     },
     "cbxDeactivateUpstreamOnCompletion": {
-      "fieldLabel": "Deactivate node groups upon completion"
+      "fieldLabel": "Deactivate node groups on completion"
     },
     "cbxLocale": {
       "fieldLabel": "Locale"
@@ -1380,7 +1380,7 @@
       "tooltip": "Select from package..."
     },
     "cbxDeactivateUpstreamOnCompletion": {
-      "fieldLabel": "Deactivate node groups upon completion"
+      "fieldLabel": "Deactivate node groups on completion"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Package to start"

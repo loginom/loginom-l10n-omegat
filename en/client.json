@@ -99,13 +99,13 @@
     "ComponentSettings": "Component parameters",
     "ConnectionSettings": "Connection parameters",
     "CurrentLocale": "Current locale is \"{0}\".",
-    "DeactivateUpstreamOnCompletion": "Deactivate node groups upon completion",
+    "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
     "DefaultLocaleModified": "modified",
     "DirectorySettings": "Folders",
     "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
     "FailedLoginTimeout": "Password entry timeout (s)",
-    "FileModeAllUsers": "all users",
+    "FileModeAllUsers": "all",
     "FileModeUser": "user",
     "FileModeUserAndGroup": "user and group",
     "IdleDisconnectTimeout": "Session disconnection timeout (s)",
@@ -310,7 +310,7 @@
     "FavoritesTitle": "Favorites",
     "MsgDisconnectedByDispatcher": "Admin closed session via Session Manager",
     "MsgDisconnectedByIdleTimeout": "Session was closed by idle timeout",
-    "MsgDisconnectedByLogin": "Session closed, as there was another login from this account",
+    "MsgDisconnectedByLogin": "Session closed because of another login from this account",
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
@@ -732,7 +732,7 @@
     "CompanyWebsite": "https:\/\/loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom",
-    "SupportMail": "help@loginom.ru"
+    "SupportMail": "help@loginom.com"
   },
   "app/WindowTitle": {
     "Close": "Close",
@@ -916,7 +916,7 @@
   "components/coarseclasses/CoarseClassesWizard": {
     "ErrNoStatistics": "Failed to get statistics",
     "InputPortsNotActived": "Do you want to activate input ports?",
-    "ReplaceTargetColumnPrompt": "Target field already specified. Change target field?",
+    "ReplaceTargetColumnPrompt": "Target field already set. Change target field?",
     "ReplaceTargetColumnTitle": "Change Target Field",
     "ReplaceTargetColumnYesText": "Replace"
   },
@@ -1106,7 +1106,7 @@
   },
   "components/jsontotree/JSONToTreeWizard": {
     "JSONNameLabel": "JSON field name",
-    "StrictModeHint": "Strong check mapping input JSON to output tree structure"
+    "StrictModeHint": "Strong check when mapping input JSON to output tree structure"
   },
   "components/linregression/LinRegressionWizard": {
     "RegressionDetailPage": "Detailed configuring of linear regression",
@@ -1582,7 +1582,7 @@
     "CopyError": "Error while copying to clipboard",
     "CopySuccessMsg": "{0} record(s) copied",
     "CopyText": "Copy",
-    "EditConflict": "Modify an existing record.",
+    "EditConflict": "Modify existing record.",
     "ErrAddVariable": "Error when adding the {0} variable",
     "ErrEditVariable": "Error when editing the {0} variable",
     "HiddenVars": "\n{0} of them not displayed, as they don't match the filter.",
