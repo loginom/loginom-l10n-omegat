@@ -4458,8 +4458,8 @@ Number - an argument of the integer type.</seg>
       <tuv lang="ru">
         <seg>FChi2(Степени_свободы, Аргумент)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T125539Z">
-        <seg>DChi2(</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005909Z">
+        <seg>FChi2(Degrees_of_freedom, Argument)</seg>
       </tuv>
     </tu>
     <tu>
