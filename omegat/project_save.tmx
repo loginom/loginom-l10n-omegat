@@ -106538,6 +106538,9 @@ Apply</note>
       <tuv lang="ru">
         <seg>Сообщить об ошибке</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005055Z">
+        <seg>Report an Error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -109122,6 +109125,9 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Настройка полей</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005107Z">
+        <seg>Configure Fields</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -109669,6 +109675,9 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Новый пароль</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005120Z">
+        <seg>New password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -109688,6 +109697,9 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Подтвердите пароль</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005236Z">
+        <seg>Confirm password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -109696,6 +109708,9 @@ Configure fields</note>
       <tuv lang="ru">
         <seg>Старый пароль</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005245Z">
+        <seg>Old password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -109703,6 +109718,9 @@ Configure fields</note>
       <note>Key = login/ChangePasswordForm.frmChangePassword.title</note>
       <tuv lang="ru">
         <seg>Требуется изменить пароль</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005349Z">
+        <seg>Password Change Required</seg>
       </tuv>
     </tu>
     <tu>
