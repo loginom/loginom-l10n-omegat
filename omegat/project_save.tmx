@@ -101663,6 +101663,9 @@ Data kind</note>
       <tuv lang="ru">
         <seg>JSON в дерево</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003514Z">
+        <seg>JSON to Tree</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -101670,6 +101673,9 @@ Data kind</note>
       <note>Key = components/jsontotree/JSONToTreeWizard.mniLoadByJSON.text</note>
       <tuv lang="ru">
         <seg>Загрузить из JSON...</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003531Z">
+        <seg>Load from JSON...</seg>
       </tuv>
     </tu>
     <tu>
@@ -102429,6 +102435,9 @@ Disable</note>
       <tuv lang="ru">
         <seg>Отключено</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003550Z">
+        <seg>Disabled</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -102529,6 +102538,9 @@ Disable</note>
 Request Parameters</note>
       <tuv lang="ru">
         <seg>URL параметры запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003614Z">
+        <seg>URL Request Parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -103135,6 +103147,9 @@ Label</note>
       <tuv lang="ru">
         <seg>Метка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003631Z">
+        <seg>Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103145,6 +103160,9 @@ Caption
 Label</note>
       <tuv lang="ru">
         <seg>Метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003639Z">
+        <seg>Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -103198,6 +103216,9 @@ Label</note>
       <tuv lang="ru">
         <seg>SQL-скрипт</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003654Z">
+        <seg>SQL Script</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103227,6 +103248,9 @@ Label</note>
       <note>Key = components/sqlscript/SQLScriptQueryWizard.lblExecuteTitle.text</note>
       <tuv lang="ru">
         <seg>Текст скрипта</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003717Z">
+        <seg>Script text</seg>
       </tuv>
     </tu>
     <tu>
@@ -103313,6 +103337,9 @@ Label</note>
       <tuv lang="ru">
         <seg>:FIELD</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003720Z">
+        <seg>:FIELD</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103343,6 +103370,9 @@ Label</note>
       <tuv lang="ru">
         <seg>%FIELD%</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003728Z">
+        <seg>%FIELD%</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103362,6 +103392,9 @@ Label</note>
       <tuv lang="ru">
         <seg>My Panel</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003732Z">
+        <seg>My Panel</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103369,6 +103402,9 @@ Label</note>
       <note>Key = components/sqlscript/SQLScriptQueryWizard.tabFields.title</note>
       <tuv lang="ru">
         <seg>Поля входного набора</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003744Z">
+        <seg>Input Set Fields</seg>
       </tuv>
     </tu>
     <tu>
@@ -103465,6 +103501,9 @@ Label</note>
       <note>Key = components/treetojson/TreeToJSONWizard.frmTreeToJSON.title</note>
       <tuv lang="ru">
         <seg>Дерево в JSON</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003754Z">
+        <seg>Tree to JSON</seg>
       </tuv>
     </tu>
     <tu>
@@ -103586,6 +103625,9 @@ Show Lost Links
 Show lost links</note>
       <tuv lang="ru">
         <seg>Отображать потерянные связи</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003810Z">
+        <seg>Show lost links</seg>
       </tuv>
     </tu>
     <tu>
