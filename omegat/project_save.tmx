@@ -101489,8 +101489,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Присоединяемое дерево (для информации)</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251016T003410Z">
-        <seg>Joining Tree (For Information)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004022Z">
+        <seg>The Joining Tree (For Information)</seg>
       </tuv>
     </tu>
     <tu>
@@ -103728,6 +103728,9 @@ Operation type</note>
       <tuv lang="ru">
         <seg>Тип операции</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003819Z">
+        <seg>Operation Type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -103735,6 +103738,9 @@ Operation type</note>
       <note>Key = components/uniontree/UnionTreeWizard.frmUnionTree.title</note>
       <tuv lang="ru">
         <seg>Настройка объединения деревьев</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T003929Z">
+        <seg>Configure Tree Union </seg>
       </tuv>
     </tu>
     <tu>
@@ -104551,6 +104557,9 @@ Save</note>
       <tuv lang="ru">
         <seg>Добавить URL параметры запроса</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004059Z">
+        <seg>Add URL request parameters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104602,6 +104611,9 @@ Save</note>
       <note>Key = connections/restservice/ConnectionWizard.btnGetURLParam.text</note>
       <tuv lang="ru">
         <seg>Получить URL параметры запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004114Z">
+        <seg>Get URL request parameters</seg>
       </tuv>
     </tu>
     <tu>
