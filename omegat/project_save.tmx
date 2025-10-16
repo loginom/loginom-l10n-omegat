@@ -101209,8 +101209,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Не указан столбец содержащий строку JSON</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T153723Z">
-        <seg>Column with JSON row not specified</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T010119Z">
+        <seg>Column with JSON string not specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -101286,8 +101286,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Указано слишком много столбцов содержащих строку JSON</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T154643Z">
-        <seg>Too many columns containing a JSON row specified</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T010130Z">
+        <seg>Too many columns containing a JSON string specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -101330,8 +101330,8 @@ List values do not match the filtered column type</note>
       <tuv lang="ru">
         <seg>Формирование дерева данных из JSON-строк</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T155547Z">
-        <seg>Generating a data tree from JSON rows</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T010112Z">
+        <seg>Generating a data tree from JSON strings</seg>
       </tuv>
     </tu>
     <tu>
