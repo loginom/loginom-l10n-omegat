@@ -129124,6 +129124,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Добавить условие фильтрации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002203Z">
+        <seg>Add filter condition</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
