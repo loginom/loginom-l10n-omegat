@@ -23,9 +23,9 @@
   "admin/LDAPSettings": {
     "ConnectionSecurity": "Connection security",
     "DefaultUserRole": "New user role",
-    "DirtySettings": "Настройки не сохранены перед тестированием",
-    "EmptyParam": "Параметр \"{0}\" не должен быть пустым",
-    "ErrorParams": "Ошибки в параметрах настройки LDAP:",
+    "DirtySettings": "Settings not saved before testing",
+    "EmptyParam": "The \"{0}\" parameter must not be empty",
+    "ErrorParams": "Errors in LDAP configuration parameters:",
     "LDAPAccount": "Account",
     "LDAPBaseDN": "Base domain name",
     "LDAPFilter": "LDAP filter",
@@ -34,18 +34,18 @@
     "LDAPNameAttribute": "Attribute with username",
     "LDAPPassword": "Password",
     "LDAPPort": "Port",
-    "NoCheckCertificate": "Не проверять сертификат сервера",
-    "TestLabel": "Тестирование аутентификации",
+    "NoCheckCertificate": "Do not check server certificate",
+    "TestLabel": "Authentication testing",
     "UseSASL": "Use SASL"
   },
   "admin/LDAPTestForm": {
-    "AuthFailed": "Ошибка аутентификации на LDAP сервере",
-    "AuthSuccess": "Аутентификация на LDAP сервере произошла успешно",
-    "ConnectFailed": "Ошибка подключения к LDAP серверу",
-    "SearchFailed": "Пользователь {0} не найден",
-    "SearchSuccess": "Пользователь {0} был найден на сервере LDAP",
-    "UserFullName": "Полное имя пользователя: {0}",
-    "UserFullNameNotFound": "Полное имя пользователя не определено"
+    "AuthFailed": "LDAP server authentication error",
+    "AuthSuccess": "LDAP server authentication successful",
+    "ConnectFailed": "LDAP server connection error",
+    "SearchFailed": "User {0} not found",
+    "SearchSuccess": "User {0} found on LDAP server",
+    "UserFullName": "Full username: {0}",
+    "UserFullNameNotFound": "Full username not found"
   },
   "admin/OpenIDSettings": {
     "AllowUsersWithoutRole": "Allow login for users without roles",
@@ -53,20 +53,20 @@
     "AutoGetToken": "Automatic reception of token",
     "ClaimsToVariables": "Claims extracted to variables",
     "DefaultUserRole": "New user role",
-    "DirtySettings": "Настройки не сохранены перед тестированием",
-    "EmptyParam": "Задан пустой {0}",
-    "ErrorParams": "Ошибки в параметрах настройки OpenID:",
+    "DirtySettings": "Settings not saved before testing",
+    "EmptyParam": "Empty {0}",
+    "ErrorParams": "Errors in OpenID configuration parameters:",
     "FoldersClaim": "Claim of the list of shared folders",
-    "NoCheckCertificate": "Не проверять сертификат сервера",
+    "NoCheckCertificate": "Do not check server certificate",
     "NoClaimsToVariables": "No extractable claims",
     "NoFoldersClaim": "No folder permissions mapping",
     "NoRoleMapping": "No role mapping",
-    "NotURL": "{0} пустой или не является URL",
+    "NotURL": "{0} is empty or not a URL",
     "OpenIDClient": "Client ID",
     "OpenIDProviderName": "Login button caption",
     "OpenIDScope": "Scope",
     "OpenIDSecret": "Client secret",
-    "OpenIDTestLabel": "Тестирование аутентификации",
+    "OpenIDTestLabel": "Authentication testing",
     "RedirectURI": "Client URL",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint",
@@ -77,40 +77,40 @@
     "UserRoleNameMap": "List of role names"
   },
   "admin/OpenIDTestForm": {
-    "AuthCodeError": "Ошибка получения кода аутентификации"
+    "AuthCodeError": "Error receiving authentication code"
   },
   "admin/PasswordPolicySettings": {
-    "Digits": "Количество цифр",
+    "Digits": "Count of digits",
     "EmptyParam": "Unspecified",
-    "Lowercase": "Количество строчных букв",
-    "MaxLength": "Максимальная длина пароля",
-    "MinLength": "Минимальная длина пароля",
-    "PolicyPreset": "Профиль политики",
-    "Special": "Количество специальных символов",
-    "Uppercase": "Количество заглавных букв"
+    "Lowercase": "Count of lowercase letters",
+    "MaxLength": "Maximum password length",
+    "MinLength": "Minimum password length",
+    "PolicyPreset": "Policy preset",
+    "Special": "Count of special characters",
+    "Uppercase": "Count of uppercase letters"
   },
   "admin/ServerSettingsForm": {
-    "AdminLoginForbidTip": "Внимание! При наличии незакрытой сессии администратора невозможно будет осуществить вход с этого же аккаунта",
-    "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
-    "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
-    "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
+    "AdminLoginForbidTip": "Warning: It will be impossible to log in with the same administrator account if an unclosed session is present",
+    "AdminMultiSessionRestriction": "Restrict multisessions for admins",
+    "AlwaysVerifyHTTPSCerts": "Always verify HTTPS certificates",
+    "AlwaysVerifySSLCerts": "Always verify all certificates",
     "AppSettings": "Application parameters",
     "Bind": "IP address",
     "ComponentSettings": "Component parameters",
     "ConnectionSettings": "Connection parameters",
     "CurrentLocale": "Current locale is \"{0}\".",
-    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+    "DeactivateUpstreamOnCompletion": "Deactivate node groups upon completion",
     "DefaultLocaleModified": "modified",
     "DirectorySettings": "Folders",
-    "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
+    "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
     "FailedLoginTimeout": "Password entry timeout (s)",
-    "FileModeAllUsers": "все",
-    "FileModeUser": "пользователь",
-    "FileModeUserAndGroup": "пользователь и группа",
+    "FileModeAllUsers": "all users",
+    "FileModeUser": "user",
+    "FileModeUserAndGroup": "user and group",
     "IdleDisconnectTimeout": "Session disconnection timeout (s)",
     "IdleLockTimeout": "Session lock timeout (s)",
-    "InvalidUnixMode": "Значение должно быть восьмеричным числом от 000 до 777",
+    "InvalidUnixMode": "The value must be an octal number from 000 to 777",
     "LDAPSettings": "LDAP parameters",
     "Limit": "Limit",
     "Locale": "Locale",
@@ -125,16 +125,16 @@
     "MsgNewLocaleAfterRestart": "New locale will be applied after restart.",
     "NeedDN": "Resolve domain names",
     "NeedPackageName": "Log the package name for the node",
-    "NotRecommendedValue": "(не рекомендуется)",
+    "NotRecommendedValue": "(not recommended)",
     "NotSet": "Unspecified ({0})",
     "NullAsDefault": "Default",
     "NullAsDisabled": "Off",
     "OpenIDSettings": "OpenID parameters",
     "PackagePoolSize": "Package pool size",
-    "PasswordPolicySettings": "Парольная политика",
+    "PasswordPolicySettings": "Password policy",
     "PingPeriod": "Connection check period (s)",
     "Port": "TCP port",
-    "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
+    "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL has higher priority than SChannel for HTTPS",
     "PublishedPackagesUpdatePeriod": "Web services change check period (s)",
     "RAMLimit": "Memory limit",
     "RAMLimitDecreaseAfterRestart": "Memory limit will be decreased after restart.",
@@ -186,9 +186,9 @@
     "SessionLastTimeDisposing": "Deleting"
   },
   "admin/SharedDirectoriesForm": {
-    "DeleteEverywhere": "Удалить папку и данные",
-    "DeleteSharedDirectoriesConfirm": "При удалении общей папки можно также удалить её данные из файловой системы.\nУдалить папку?",
-    "DeleteSharedDirectory": "Удалить только папку"
+    "DeleteEverywhere": "Delete folder and data",
+    "DeleteSharedDirectoriesConfirm": "When deleting a shared folder, you can also delete its data from the file system. Delete the folder?",
+    "DeleteSharedDirectory": "Delete folder only"
   },
   "admin/SharedDirectoryForm": {
     "AddBtnText": "Add",
@@ -197,19 +197,19 @@
     "SaveBtnText": "Save"
   },
   "admin/StringListEditorForm": {
-    "DeleteAllVariantsPrompt": "Вы действительно хотите удалить все значения?",
-    "DuplicateValue": "Значения должны быть уникальными",
+    "DeleteAllVariantsPrompt": "Do you really want to delete all values?",
+    "DuplicateValue": "Values must be unique",
     "EmptyValue": "Value cannot be empty"
   },
   "admin/UserForm": {
     "AddBtnText": "Add",
     "EditName": "Edit user",
     "NewUser": "New user",
-    "PasswordMaskedCharacterError": "Пароль нужно вводить полностью, а не редактировать",
+    "PasswordMaskedCharacterError": "Password editing not allowed. Please enter the whole password",
     "SaveBtnText": "Save"
   },
   "admin/UserListForm": {
-    "AllowDBPasswordSaveTitle": "Сохранение пароля к БД",
+    "AllowDBPasswordSaveTitle": "Save DB Password",
     "AllowPublishTitle": "Publish Packages",
     "AuthModeTitle": "Authentication",
     "BlockedTitle": "Blocked",
@@ -221,8 +221,8 @@
     "LoginTitle": "Login",
     "RolesTitle": "Roles",
     "SchedulerFullAccessTitle": "Access to All Jobs",
-    "Search": "Поиск",
-    "SearchTooltip": "Найти пользователя по логину или полному имени",
+    "Search": "Search",
+    "SearchTooltip": "Find user by login or full username",
     "Update": "Refresh"
   },
   "admin/UserModel": {
@@ -267,14 +267,14 @@
     "SaveBtnText": "Change"
   },
   "app/FindNodeForm": {
-    "All": "Все",
+    "All": "All",
     "Connection": "Connection",
-    "ModelNode": "Узел сценария",
+    "ModelNode": "Workflow node",
     "SearchByGUID": "By GUID",
     "SearchByLabel": "By caption",
     "SearchByName": "By name",
-    "SearchNotFound": "Ничего не найдено.",
-    "Vendor": "Производный компонент"
+    "SearchNotFound": "No matches found.",
+    "Vendor": "Derived component"
   },
   "app/LicenseItem": {
     "ErrorStateFmt": "Failed to get information on {0} license"
@@ -310,16 +310,16 @@
     "FavoritesTitle": "Favorites",
     "MsgDisconnectedByDispatcher": "Admin closed session via Session Manager",
     "MsgDisconnectedByIdleTimeout": "Session was closed by idle timeout",
-    "MsgDisconnectedByLogin": "Сессия закрыта, потому что c этим же аккаунтом был осуществлен вход с другого места",
+    "MsgDisconnectedByLogin": "Session closed, as there was another login from this account",
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
-    "OSLabel": "ОС",
+    "OSLabel": "OS",
     "PackageCloseFormat": "Do you want to close package \"{0}\" also?",
     "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
-    "PlatformEditionLabel": "Редакция",
+    "PlatformEditionLabel": "Edition",
     "ServerDisplayName": "Server",
-    "VersionLabel": "Версия {0}",
+    "VersionLabel": "Version {0}",
     "WarnAutoSavePackagesUnsaved": "Failed to autosave packages:\n{0}"
   },
   "app/MainMenuForm": {
@@ -392,7 +392,7 @@
     "AddNewLoop": "Add Loop node to workflow",
     "AddNewNode": "Add node to workflow",
     "AddSchedulerJobByNode": "Add job to scheduler...",
-    "Annotations": "Заметки: {0}",
+    "Annotations": "Annotations: {0}",
     "CancelOperation": "Cancel operation",
     "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
@@ -433,11 +433,11 @@
     "GoToDerivedVendor": "Go to derived component",
     "GoToDerivedVendors": "Go to derived components",
     "HideControlVariablesPorts": "Hide control variables port",
-    "Links": "Связи: {0}",
+    "Links": "Links: {0}",
     "LockedIconTooltip": "Node locked during runtime or setup",
     "NodeBatchMode": "Configure node activation mode...",
     "NodeIsLocked": "Comment change forbidden: node is locked",
-    "Nodes": "Узлы: {0}",
+    "Nodes": "Nodes: {0}",
     "NodeVisibility": "Configure visibility...",
     "NodeVisibilityByDefault": "Default",
     "NodeVisibilityInternal": "Visibility inside current package",
@@ -452,11 +452,11 @@
     "PackageNamePrefix": "Package=",
     "PropertyInspectorLocale": "en",
     "RecreateBaseNodeForDerivedVendor": "Recreate base node",
-    "RemoveAnnotationConfirm": "Удалить выделенную заметку?",
+    "RemoveAnnotationConfirm": "Delete selected annotation?",
     "RemoveComment": "Delete comment",
-    "RemoveLinkConfirm": "Удалить выделенную связь?",
-    "RemoveNodeConfirm": "Удалить выделенный узел?",
-    "RemoveSelectedConfirm": "Удалить выделенные объекты?",
+    "RemoveLinkConfirm": "Delete selected link?",
+    "RemoveNodeConfirm": "Delete selected node?",
+    "RemoveSelectedConfirm": "Delete selected objects?",
     "RenameNode": "Rename...",
     "ResetConfiguration": "Restore original node configuration",
     "SelectNode": "First select node in workflow",
@@ -486,9 +486,9 @@
     "Confirm": "Change",
     "ConfirmLocaleChangeMsg": "After locale change strings may be compared in a different way.\nDo you really want to change locale?",
     "CurrentLocale": "Current locale of package is \"{0}\".",
-    "DeactivateTurnedOff": "Выключено",
-    "DeactivateTurnedOn": "Включено",
-    "DeactivateUseServerSettings": "Определяется настройками сервера",
+    "DeactivateTurnedOff": "Disabled",
+    "DeactivateTurnedOn": "Enabled",
+    "DeactivateUseServerSettings": "Determined by server settings",
     "DefaultLocaleModified": "modified",
     "ErrIncorrectVersionFormat": "Invalid version format",
     "ErrInvalidPackageName": "\"{0}\" is invalid package name",
@@ -599,25 +599,25 @@
     "AddVariableWindowApplyText": "Add",
     "AddVariableWindowTitle": "Add Variable",
     "CaptionNotSet": "Unspecified",
-    "DeactivateTurnedOff": "Выключено",
-    "DeactivateTurnedOn": "Включено",
-    "DeactivateUseServerSettings": "Определяется настройками пакета",
+    "DeactivateTurnedOff": "Disabled",
+    "DeactivateTurnedOn": "Enabled",
+    "DeactivateUseServerSettings": "Determined by package settings",
     "DeleteAllStartAfterJobPrompt": "Do you really want to delete all?",
     "DeleteAllVariablesPrompt": "Do you really want to delete all variables?",
     "DestVariablesSelectorApplyText": "Select",
-    "DestVariablesSelectorTitle": "Выбор переменных пакета",
+    "DestVariablesSelectorTitle": "Select Package Variables",
     "EditVariablesWindowTitle": "Edit Variables",
     "EditVariableWindowApplyText": "Change",
     "EditVariableWindowTitle": "Edit Variable",
     "ErrInvalidNodeKey": "The value entered is not a valid identifier or GUID in the {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} format.",
-    "ErrStartAfterJobNotFound": "Задача удалена",
-    "ErrStartAfterJobNotSelected": "Задача не выбрана",
-    "ErrVariableNotFound": "Переменная с именем \"{0}\" не найдена",
-    "ErrVariableRestriction": "Запрещено изменение переменной \"{0}\"",
-    "ErrVariableTypesMismatch": "Тип переменной пакета \"{0}\" не совместим с типом переменной задачи",
+    "ErrStartAfterJobNotFound": "Job was deleted",
+    "ErrStartAfterJobNotSelected": "Job not selected",
+    "ErrVariableNotFound": "Variable with name \"{0}\" not found",
+    "ErrVariableRestriction": "Changing variable \"{0}\" is not allowed",
+    "ErrVariableTypesMismatch": "The type of package variable \"{0}\" doesn't match the job variable type",
     "MillisecondCountMinTextErrFmt": "Millisecond count must be more or equal to {0}",
-    "NoAvailableUserJobs": "Нет задач, доступных для добавления",
-    "NoAvailableUserJobsEmptyListText": "Нет задач, доступных для выбора",
+    "NoAvailableUserJobs": "No available jobs to add",
+    "NoAvailableUserJobsEmptyListText": "No available jobs to select",
     "NodeSelectorApplyText": "Select",
     "NodeSelectorTitle": "Select Node",
     "PeriodCountMinTextErr": "Repeat period count must be positive",
@@ -628,7 +628,7 @@
     "PeriodTypeMonth": "months",
     "PeriodTypeSecond": "seconds",
     "PeriodTypeWeek": "weeks",
-    "SelfStartAfterJobCaption": "Текущая задача"
+    "SelfStartAfterJobCaption": "Current job"
   },
   "app/scheduler/JobVariableEditor": {
     "ErrorInvalidNameFmt": "The name value of variable \"{0}\" name is not a valid identifier",
@@ -636,11 +636,11 @@
     "ErrVariableNameAlreadyExists": "Variable with \"{0}\" name already exists",
     "GetValueList": "Get list",
     "VariableListIsEmpty": "No variables",
-    "VariableListIsEmptyAllSelected": "Все переменные выбраны"
+    "VariableListIsEmptyAllSelected": "All variables selected"
   },
   "app/scheduler/LogEntries": {
     "LogEntriesTitle": "Completed",
-    "NoErrorDetails": "Не удалось получить информацию о ошибке"
+    "NoErrorDetails": "Failed to get error details"
   },
   "app/scheduler/SchedulerForm": {
     "ActiveSessionsReceiveErr": "Failed to receive the list of active sessions for the selected jobs",
@@ -916,8 +916,8 @@
   "components/coarseclasses/CoarseClassesWizard": {
     "ErrNoStatistics": "Failed to get statistics",
     "InputPortsNotActived": "Do you want to activate input ports?",
-    "ReplaceTargetColumnPrompt": "Выходное поле уже задано, заменить выходное поле?",
-    "ReplaceTargetColumnTitle": "Изменение выходного поля",
+    "ReplaceTargetColumnPrompt": "Target field already specified. Change target field?",
+    "ReplaceTargetColumnTitle": "Change Target Field",
     "ReplaceTargetColumnYesText": "Replace"
   },
   "components/columnflipping/ColumnFlippingWizard": {
@@ -994,10 +994,10 @@
     "frmClusterizationTitle": "EM Clustering"
   },
   "components/enrichdata/EnrichDataWizard": {
-    "DeleteAndContinue": "Удалить и продолжить",
+    "DeleteAndContinue": "Delete and continue",
     "NotAssignedColumn": "Not selected",
-    "NotDeleteAndContinue": "Не удалять и продолжить",
-    "RemoveInvalidLinksConfirm": "Обнаружены связи с несуществующими объектами.\nВы хотите удалить все потерянные связи и продолжить?"
+    "NotDeleteAndContinue": "Continue without deleting",
+    "RemoveInvalidLinksConfirm": "Links to nonexistent objects detected.\nDelete all lost links and continue?"
   },
   "components/execcmd/ExecCmdCodeMirrorController": {
     "CmdPlaceholder": "Enter command text"
@@ -1027,14 +1027,14 @@
   },
   "components/filterdata/FilterDataPanel": {
     "BetweenValueFrom": "from ",
-    "BetweenValueTo": " до ",
-    "BlankFieldDisplayName": "Выберите столбец",
+    "BetweenValueTo": " to ",
+    "BlankFieldDisplayName": "Select column",
     "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
     "DeleteAllTitle": "Delete All Conditions",
     "GetValueList": "Get list",
     "InvalidField": "Field is specified incorrectly",
     "OperatorOR": "OR",
-    "OverflowCountInfo": "и ещё {0}",
+    "OverflowCountInfo": "and {0} more",
     "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed",
     "ValueListIsEmpty": "No values"
   },
@@ -1044,14 +1044,14 @@
   "components/filterdata/ValueListEditor": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
     "CopyError": "Error while copying to clipboard",
-    "ErrNotUniqueValue": "Вводимое значение должно быть уникальным",
+    "ErrNotUniqueValue": "The value you enter must be unique",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
     "NoMenuCopyWarn": "To copy data, use hotkey",
     "NoMenuPasteWarn": "To paste data, use hotkey",
-    "PasteError": "Ошибка вставки из буфера обмена",
-    "PasteMaxSizeError": "Превышен максимальный объём вставляемых данных. Допустимо не более {0} символов.",
+    "PasteError": "Error pasting from clipboard",
+    "PasteMaxSizeError": "Maximum data volume for pasting exceeded. No more than {0} characters allowed.",
     "PermissionReq": "Grant Loginom access to clipboard",
-    "ValueListTitle": "Список значений"
+    "ValueListTitle": "Value List"
   },
   "components/groupdata/GroupDataWizard": {
     "Ascending": "Ascending",
@@ -1069,8 +1069,8 @@
     "GroupDataDimensionTooltipName": "Group",
     "GroupDataFactor": "Parameters",
     "GroupDataTitle": "Grouping",
-    "NewlineCRLFSeparator": "Перенос строки Windows (CRLF)",
-    "NewlineLFSeparator": "Перенос строки Linux (LF)",
+    "NewlineCRLFSeparator": "New line Windows (CRLF)",
+    "NewlineLFSeparator": "New line Linux (LF)",
     "NoSeparator": "No separator",
     "NoSorting": "No sorting",
     "NoWrapper": "No text qualifier",
@@ -1079,14 +1079,14 @@
     "SemicolonSpaceSeparator": "Semicolon with space (;␣)",
     "SingleQuoteWrapper": "Single quotes (')",
     "SpaceSeparator": "Space (␣)",
-    "TabSeparator": "Табуляция (⭾)",
+    "TabSeparator": "Tab (⭾)",
     "UniqueOnly": "Unique only"
   },
   "components/javascript/JavaScriptCodeMirrorController": {
     "CodePlaceholder": "Enter script"
   },
   "components/javascript/JavaScriptColumnsWizard": {
-    "frmJavaScriptOutputTablesTitle": "Настройка столбцов выходных таблиц JavaScript",
+    "frmJavaScriptOutputTablesTitle": "Configure JavaScript Output Table Columns",
     "frmJavaScriptOutputTableTitle": "Configure JavaScript Output Table Columns"
   },
   "components/joindata/JoinDataWizard": {
@@ -1101,12 +1101,12 @@
     "RightJoinDataDesc": "The outer right join includes into result all rows from the joining dataset supplemented by the column values from the main dataset that coincide in the key fields."
   },
   "components/jointree/JoinTreeWizard": {
-    "InsertIntoArrayListValue": "массив",
-    "InsertIntoContainerListValue": "контейнер"
+    "InsertIntoArrayListValue": "array",
+    "InsertIntoContainerListValue": "container"
   },
   "components/jsontotree/JSONToTreeWizard": {
-    "JSONNameLabel": "Имя JSON поля",
-    "StrictModeHint": "Строгая проверка соответствия входного JSON структуре выходного дерева"
+    "JSONNameLabel": "JSON field name",
+    "StrictModeHint": "Strong check mapping input JSON to output tree structure"
   },
   "components/linregression/LinRegressionWizard": {
     "RegressionDetailPage": "Detailed configuring of linear regression",
@@ -1151,7 +1151,7 @@
     "DefaultEnv": "Default"
   },
   "components/python/PythonColumnsWizard": {
-    "frmPythonOutputTablesTitle": "Настройка столбцов выходных таблиц Python",
+    "frmPythonOutputTablesTitle": "Configure Python Output Tables Columns",
     "frmPythonOutputTableTitle": "Configure Python Output Table Columns"
   },
   "components/python/PythonOutputPreviewForm": {
@@ -1201,7 +1201,7 @@
     "UniqueValuesLimitErr": "Failed to show the unique values number of which exceeds {0}"
   },
   "components/restclient/AdditionalParamsWizard": {
-    "TurnedOff": "Отключено (0)"
+    "TurnedOff": "(0) disabled"
   },
   "components/restclient/MessageBody": {
     "ErrNotCompatibleMessageBodyFmt": "Data type of the input dataset field {0} is incompatible with request body"
@@ -1242,22 +1242,22 @@
     "ErrNotInteger": "The value must be an integer"
   },
   "components/sqlscript/SQLScriptCodeMirrorController": {
-    "ErrFieldSameAsVariable": "{0} имени поля в скрипте: существует также переменная с именем '{1}', при исполнении скрипта будет использовано поле из набора данных.",
-    "ErrVariableSameAsField": "{0} переменной в скрипте: нельзя использовать переменную с именем '{1}' в скрипте, потому что существует такое же поле из набора данных."
+    "ErrFieldSameAsVariable": "{0} of field name in script: a variable with name '{1}' also exists. When running the script, the field from the dataset will be used.",
+    "ErrVariableSameAsField": "{0} of variable in script: the variable with name '{1}' cannot be used in script, as the same field exists in the dataset."
   },
   "components/sqlscript/SQLScriptQueryWizard": {
     "ErrNotInteger": "The value must be an integer",
-    "TransactionSingleRow": "Каждую строку",
-    "TransactionTurnedOff": "Управляется скриптом",
-    "TransactionWholeDataset": "Весь набор данных",
-    "TTRun4EachRow": "Выполнять скрипт для каждой строки входного набора",
-    "TTSilentActivation": "Игнорировать ошибки при выполнении скрипта"
+    "TransactionSingleRow": "Each row",
+    "TransactionTurnedOff": "Controlled by the script",
+    "TransactionWholeDataset": "Entire dataset",
+    "TTRun4EachRow": "Run script for each input set row",
+    "TTSilentActivation": "Ignore errors when running script"
   },
   "components/treetodata/TreeToDataWizard": {
     "GlobalNodeIndex": "Global node index"
   },
   "components/ungroupdata/UngroupDataWizard": {
-    "DeleteAndContinue": "Удалить и продолжить",
+    "DeleteAndContinue": "Delete and continue",
     "ErrDataTypeTimeAxisFields": "Field data types for data sequentializing must match",
     "ErrInSelectGroupFields": "Ungroupable field not selected",
     "ErrInSelectOutputFields": "No field for ungrouped values dereference selected",
@@ -1265,7 +1265,7 @@
     "ErrInSelectQuotaFields": "No field with quotas selected",
     "ErrInSelectTimeAxisFields": "No fields for data sequentializing selected",
     "ErrNoLinksDefined": "No links defined",
-    "GroupFieldMissingFields": "Отсутствующие поля",
+    "GroupFieldMissingFields": "Missing fields",
     "NoTimeAxisColumn": "No column selected",
     "OutputColumnUsageType": "Field with names",
     "QuotaColumnUsageType": "Field with quotas",
@@ -1277,14 +1277,14 @@
     "UngroupedColumnUsageType": "Ungroupable"
   },
   "components/uniondata/UnionDataWizard": {
-    "DeleteAndContinue": "Удалить и продолжить",
+    "DeleteAndContinue": "Delete and continue",
     "NotAssignedColumn": "Not selected",
-    "NotDeleteAndContinue": "Не удалять и продолжить",
-    "RemoveInvalidLinksConfirm": "Обнаружены связи с несуществующими объектами.\nВы хотите удалить все потерянные связи и продолжить?"
+    "NotDeleteAndContinue": "Continue without deleting",
+    "RemoveInvalidLinksConfirm": "Links to nonexistent objects detected.\nDelete all lost links and continue?"
   },
   "components/uniontree/UnionTreeWizard": {
-    "ConcatAllActiveDescribe": "Корневой узел выходного дерева - это массив, содержащий корневые узлы деревьев изо всех активных входных портов.",
-    "SelectFirstActiveDescribe": "Выходное дерево содержит те же данные, что и дерево в первом активном входном порту."
+    "ConcatAllActiveDescribe": "The output tree root node is an array containing root nodes of trees from all active input ports.",
+    "SelectFirstActiveDescribe": "The output tree contains the same data as the tree from the first active input port."
   },
   "components/variablestodata/VariablesToDataWizard": {
     "VarToColumnsDescribe": "Each variable will create a new field in the table.",
@@ -1332,7 +1332,7 @@
     "PartPrefix": "Part: "
   },
   "connections/clickhouse/ClickHouseDBConnectionWizard": {
-    "ErrGetClusterNames": "Ошибка при получении списка кластеров"
+    "ErrGetClusterNames": "Error receiving cluster list"
   },
   "connections/dwh/DWConnectionWizard": {
     "ErrSchemaNameIsTooLongFmt": "Schema name cannot contain more than {0} characters."
@@ -1344,34 +1344,34 @@
   "connections/restservice/ConnectionWizard": {
     "DeleteAllParamsPrompt": "Do you really want to delete all parameters?",
     "DublicateGetMethodParamNameFmt": "\"{0}\" parameter already exists",
-    "EmptyParamName": "Имя параметра не может быть пустым"
+    "EmptyParamName": "Parameter name cannot be empty"
   },
   "connections/webservice/AuthenticationForm": {
     "ErrUnsupportedAuthModeFmt": "Authentication mode \"{0}\" not supported",
     "ExpireCertDateError": "Expired certificate expiration date"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
-    "ErrFileNameAdd": "\"{0}\" file cannot be added to the list. Perhaps, it has already been added"
+    "ErrFileNameAdd": "File with name \"{0}\" cannot be added; it may be already in the list"
   },
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Cancel",
     "ContinueEdit": "Edit",
     "ContinueReset": "Reset",
     "CreateTableBtnText": "Create Table",
-    "DropTableIfExistsHint": "Удалять существующую таблицу перед созданием таблицы с указанным именем",
+    "DropTableIfExistsHint": "Delete the existing table before creating a table with the specified name",
     "DublicateFieldName": "A field with the same name already exists",
     "EditorModeQuestionBody": "Attention! Any standard DDL queries are allowed in the editor.\nUse this SQL query only to create a table.",
     "EditorModeQuestionTitle": "Edit SQL Query",
     "ErrCreateTable": "Error when forming SQL table creation query:",
-    "ErrDropTable": "При формировании SQL-запроса для удаления таблицы произошла ошибка:",
+    "ErrDropTable": "An error occurred while generating an SQL query for deleting the table:",
     "ErrEmptySQLText": "SQL query text must not be empty",
-    "ErrEmptyTableName": "Не указано имя таблицы для удаления.",
+    "ErrEmptyTableName": "Name of the table to delete not specified.",
     "ErrFieldInvalidIdentifier": "The field name entered is not a valid identifier",
     "ErrFieldSize": "Size of {0} field must be more than 0",
     "ErrTableName": "Invalid table name",
     "ExecuteSQLRequestBtnText": "Execute Query",
-    "PromoteAllToStringMaxBody": "Заменить тип Строковый на Строковый (макс) для всех полей?",
-    "PromoteAllToStringMaxTitle": "Замена типов полей",
+    "PromoteAllToStringMaxBody": "Change String type to String (max) type for all fields?",
+    "PromoteAllToStringMaxTitle": "Change Field Types",
     "ResetQuestionBody": "Do you want to reset the SQL query changes?",
     "ResetQuestionTitle": "Reset Changes"
   },
@@ -1381,10 +1381,10 @@
     "TooltipReset": "Reset changes"
   },
   "exports/dbexport/DBEditFieldDefsForm": {
-    "ErrFieldEmptyName": "Имя поля не может быть пустым",
-    "FieldEditingTitle": "Редактирование поля",
+    "ErrFieldEmptyName": "Field name cannot be empty",
+    "FieldEditingTitle": "Edit Field",
     "GroupEditingTitle": "Group Editing",
-    "TextTypeName": "Строковый (макс)"
+    "TextTypeName": "String (max)"
   },
   "exports/dbexport/DBExportMappingWizard": {
     "colDisplayNameTitle": "Database Table Fields",
@@ -1398,7 +1398,7 @@
     "WarnUpdateFieldsDetails": "List of table columns in which changes occurred:"
   },
   "exports/dbexport/DBExportParamsWizard": {
-    "ErrDeleteNotSupported": "Операция удаления записей не поддерживается текущей базой данных",
+    "ErrDeleteNotSupported": "Record-deleting operation not supported by the current database",
     "ErrTableNameNotSelected": "No table name specified",
     "ErrTruncateNotSupported": "TRUNCATE operation not supported by the current database",
     "ErrUpdateNotSupported": "Record update by key not supported by the current database",
@@ -1526,15 +1526,15 @@
     "Loading": "Loading"
   },
   "ext/ModelDataSerializer": {
-    "ContextErrorMsg": "Строка: {0}",
-    "ErrorTitleMsg": "Ошибка валидации.",
-    "ErrorVariablesFormat": "Неверный формат данных. Убедитесь, что каждая строка содержит не менее {0} значение(я\/ий), разделённое(ые) табуляцией.",
-    "InvalidDataTypeMsg": "{0} - не является допустимым типом данных. Допустимые типы данных: boolean, datetime, float, integer, string, variant.",
-    "InvalidHeaderMsgDuplicate": "Некорректный заголовок: найден дубликат имени колонки.",
-    "InvalidHeaderMsgEmpty": "Некорректный заголовок: имя колонки не может быть пустым.",
-    "InvalidNameMsg": "{0} - не является правильным идентификатором.",
-    "InvalidValueMsg": "Значение {0} не соответствует указанному типу данных - {1}.",
-    "UnrecognizedValueMsg": "Не могу распознать указанное значение: {0}"
+    "ContextErrorMsg": "Row: {0} ",
+    "ErrorTitleMsg": "Validation error.",
+    "ErrorVariablesFormat": "Invalid data format. Make sure that each row has not less than {0} tab-separated values.",
+    "InvalidDataTypeMsg": "{0} is not an allowable data type. Allowable data types: boolean, datetime, float, integer, string, and variant.",
+    "InvalidHeaderMsgDuplicate": "Invalid header: a duplicate column name found.",
+    "InvalidHeaderMsgEmpty": "Invalid header: column name cannot be empty.",
+    "InvalidNameMsg": "{0} is not a valid identifier.",
+    "InvalidValueMsg": "The {0} value doesn't match the specified data type {1}.",
+    "UnrecognizedValueMsg": "Cannot recognize the specified value: {0}"
   },
   "ext/MultiDragDropController": {
     "BadDDTagConfig": "DDTag must contain at least one row",
@@ -1572,36 +1572,36 @@
     "ColumnUndefined": "Column undefined"
   },
   "ext/VariablesClipboard": {
-    "AddConflict": "Добавить как новую запись с уникальным именем.",
-    "AddedCount": "• Добавлено новых: {0};\n",
+    "AddConflict": "Add as a new record with a unique name.",
+    "AddedCount": "• New records added: {0};\n",
     "BadBrowserMsg": "This operation is not supported in our browser.",
-    "BreakConflict": "Прервать",
-    "ChangedCount": "• Изменено существующих: {0};\n",
-    "ConflictForAll": "Применить ко всем конфликтам",
-    "ConflictSummary": "Всего конфликтов: {0}.\nОсталось решить: {1}.",
+    "BreakConflict": "Abort",
+    "ChangedCount": "• Existing records modified: {0};\n",
+    "ConflictForAll": "Apply to all conflicts",
+    "ConflictSummary": "Total number of conflicts: {0}.\nConflicts to resolve: {1}.",
     "CopyError": "Error while copying to clipboard",
-    "CopySuccessMsg": "Скопировано {0} запись(и\/ей)",
+    "CopySuccessMsg": "{0} record(s) copied",
     "CopyText": "Copy",
-    "EditConflict": "Изменить существующую запись.",
-    "ErrAddVariable": "При добавлении переменной {0}, произошла ошибка",
-    "ErrEditVariable": "При изменении переменной {0}, произошла ошибка",
-    "HiddenVars": "\nИз них не отображаются {0}, т.к. не соответствуют фильтру.",
-    "MaxPasteSizeMsg": "Превышен допустимый объем вставляемых данных. Максимальный размер данных для вставки: {0} символов.",
+    "EditConflict": "Modify an existing record.",
+    "ErrAddVariable": "Error when adding the {0} variable",
+    "ErrEditVariable": "Error when editing the {0} variable",
+    "HiddenVars": "\n{0} of them not displayed, as they don't match the filter.",
+    "MaxPasteSizeMsg": "Allowable paste data size exceeded. Maximum paste size is {0} characters.",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
     "NoMenuCopyWarn": "To copy data, use hotkey",
     "NoMenuPasteWarn": "To paste data, use hotkey",
-    "PartialPasteOverview": "Обработано успешно: {0} из {1}.\n",
-    "PasteError": "Ошибка вставки из буфера обмена",
-    "PasteInterrupted": "Вставка переменных прервана.\n",
-    "PasteSuccessful": "Вставка переменных выполнена:\n",
+    "PartialPasteOverview": "Executed succesfully: {0} of {1}.\n",
+    "PasteError": "Error pasting from clipboard",
+    "PasteInterrupted": "Variable paste interrupted.\n",
+    "PasteSuccessful": "Variable paste successful:\n",
     "PasteText": "Paste",
     "PermissionReq": "Grant Loginom access to clipboard",
-    "ResolveConflict": "Разрешить конфликт",
-    "SkipConflict": "Пропустить вставку записи.",
-    "VariableConflictTitle": "Конфликт переменных с одинаковыми именами",
-    "VariableNameExists": "Переменная с именем {0} уже существует.\n",
-    "VariableNotChange": "Переменная {0} осталась без изменений. Проверьте возможность её редактирования или укажите данные отличающиеся от текущих.",
-    "VariablesNotChange": "Не были изменены {0} переменных. Проверьте их редактируемость или используйте другие данные."
+    "ResolveConflict": "Resolve conflict",
+    "SkipConflict": "Skip record paste.",
+    "VariableConflictTitle": "Same Name Variables Conflict",
+    "VariableNameExists": "Variable with name \"{0}\" already exists.\n",
+    "VariableNotChange": "Variable {0} was not changed. Check if it is editable or enter different data.",
+    "VariablesNotChange": "{0} variables were not changed. Check if they are editable or use different data."
   },
   "ext/VariantEditor": {
     "EmptyStringText": "<Empty string>",
@@ -1719,7 +1719,7 @@
     "XlsbFilesDesc": "Excel 2007 binary workbooks",
     "XlsFileDesc": "MS Excel file",
     "XlsFilesDesc": "MS Excel files",
-    "XlsmFileDesc": "Книга Excel 2007 с поддержкой макросов",
+    "XlsmFileDesc": "Excel 2007 macro-enabled workbook",
     "XlsmFilesDesc": "Excel 2007 binary macro-enabled workbooks",
     "XlsxFileDesc": "Excel 2007 workbook",
     "XlsxFilesDesc": "Excel 2007 workbooks",
@@ -1922,8 +1922,8 @@
     "MetaDataNodeTypeAttr": "Attribute",
     "MetaDataNodeTypeCube": "Cube",
     "MetaDataNodeTypeDim": "Dimension",
-    "MetaDataNodeTypeFact": "Факт",
-    "MetaDataNodeTypeItem": "Элемент",
+    "MetaDataNodeTypeFact": "Measure",
+    "MetaDataNodeTypeItem": "Item",
     "MetaDataNodeTypeLevel": "Level",
     "MetaDataNodeTypeProc": "Process"
   },
@@ -2256,8 +2256,8 @@
   },
   "login/ChangePasswordForm": {
     "ErrLeadingOrTrailingWhitespaceInPassword": "Password must not begin or end with a space",
-    "NewPassAsPrevious": "Новый пароль не должен совпадать со старым",
-    "PassDontMatch": "Введенные пароли не совпадают"
+    "NewPassAsPrevious": "New password must not repeat the old one",
+    "PassDontMatch": "The passwords you entered do not match"
   },
   "login/Login": {
     "VersionLabelFmt": "Version: {0}"
@@ -2371,7 +2371,7 @@
     "TextShare": "Share..."
   },
   "openid/OpenIDAdapter": {
-    "WrongResponseMode": "Формат ответа аутентификации не соответствует запрашиваемому формату"
+    "WrongResponseMode": "Authentication response format doesn't match the requested format"
   },
   "packages/deductor-theme/const/Palletes": {
     "Composite": "Composite",
@@ -2614,12 +2614,12 @@
   },
   "viewers/cube/CasesCalcPanel": {
     "AddBtnText": "Add",
-    "AddCasesCalcTitle": "Добавление вычисляемого факта",
+    "AddCasesCalcTitle": "Add Calculated Measure",
     "ErrCaseAlreadyExist": "Measure with \"{0}\" name already exists",
     "ErrDimAlreadyExist": "\"{0}\" dimension already exists",
     "ErrWhitespaceExpression": "Expression cannot be empty string",
     "ModifyBtnText": "Change",
-    "ModifyCasesCalcTitle": "Редактирование вычисляемого факта"
+    "ModifyCasesCalcTitle": "Edit Calculated Measure"
   },
   "viewers/cube/CasesFilterPanel": {
     "ErrBounds": "Minimum more than maximum",
@@ -2651,7 +2651,7 @@
     "InvertTraces": "Invert series visibility",
     "NoData": "No data to display",
     "ResetColor": "Reset color",
-    "SelectAndHightlght": "Выбрать и подсветить ",
+    "SelectAndHightlght": "Select and highlight ",
     "ShowAllTraces": "Show all series",
     "Title": "Title:",
     "TooltipLoading": "Loading...",
@@ -2921,7 +2921,7 @@
     "colDisplayNameTuneText": "Caption",
     "CreateMappingToAllConfirm": "Do you really want to create output columns for all inputs?",
     "EmptyListText": "No matching columns",
-    "ExcludeRequiredMappingColumnConfirm": "Столбец \"{0}\" используется. Вы действительно хотите его исключить?",
+    "ExcludeRequiredMappingColumnConfirm": "Column \"{0}\" is in use. Do you really want to exclude it?",
     "frmColumnsMappingTitle": "Column Mapping Settings",
     "frmColumnsTitle": "Configure Columns",
     "GroupField_MissingFields": "Missing columns",
@@ -2931,10 +2931,10 @@
   },
   "wizards/columns/ColumnsMappingWizard": {
     "Delete": "Delete",
-    "DeleteAndContinue": "Удалить и продолжить",
+    "DeleteAndContinue": "Delete and continue",
     "Exclude": "Exclude",
-    "GroupField_Excluded": "Исключенные",
-    "NotDeleteAndContinue": "Не удалять и продолжить",
+    "GroupField_Excluded": "Excluded",
+    "NotDeleteAndContinue": "Continue without deleting",
     "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue?"
   },
   "wizards/columns/DataSetOutputSocketWizard": {
@@ -2986,7 +2986,7 @@
     "BtnDeactivateAll": "Deactivate all",
     "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
     "BtnTextTest": "Test",
-    "BtnTooltipClone": "Клонировать подключение",
+    "BtnTooltipClone": "Clone connection",
     "BtnTooltipConnect": "Activate connection",
     "BtnTooltipDelete": "Delete connection...",
     "BtnTooltipEdit": "Configure connection...",
@@ -3007,7 +3007,7 @@
     "LabelConnectionPath": "Path",
     "LabelTitle": "Caption",
     "MultioperationError": "Multioperation error",
-    "NoConnections": "Нет доступных подключений",
+    "NoConnections": "No connections available",
     "PropertyInspectorLocale": "en",
     "TestConnectionsError": "Multiple connections test error",
     "TestConnectionSuccess": "Connection successful",
@@ -3015,11 +3015,11 @@
     "VendorTreeConnections": "Data sources"
   },
   "wizards/connection/DBConnectionWizard": {
-    "CertCheckModeCA": "проверяется подпись",
-    "CertCheckModeFull": "проверяется подпись и хост",
+    "CertCheckModeCA": "checking signature",
+    "CertCheckModeFull": "checking signature and host",
     "ErrGetServerNames": "Error getting server list",
     "Filename": "File name",
-    "SystemCA": "системные"
+    "SystemCA": "system"
   },
   "wizards/connection/LockTimeoutStore": {
     "Default": "Default"
@@ -3062,19 +3062,19 @@
     "colTargetNodeTuneText": "Caption",
     "CreateMappingToAllConfirm": "Do you really want to create output nodes for all inputs?",
     "Delete": "Delete",
-    "DeleteAndContinue": "Удалить и продолжить",
+    "DeleteAndContinue": "Delete and continue",
     "Exclude": "Exclude",
-    "Excluded": "Исключенные",
-    "ExcludeRequiredMappingNodeDefConfirm": "Узел \"{0}\" используется. Вы действительно хотите его исключить?",
+    "Excluded": "Excluded",
+    "ExcludeRequiredMappingNodeDefConfirm": "Node \"{0}\" is in use. Do you really want to exclude it?",
     "frmDataTreeMappingTitle": "Data Trees Mapping Settings",
     "frmDataTreeTitle": "Configure Data Tree",
     "MsgAddedDataTreeNodeCanNotSelected": "Node has been added, but it is not selected because it does not match the filter",
     "MsgConnectedDataTreeNodeCanNotSelected": "Node in the output tree connected, but it is not selected because it does not match the filter",
     "MsgEditedDataTreeNodeCanNotSelected": "Node has been renamed, but it is not selected because it does not match the filter",
-    "MsgSatisfiesExcludedNodes": "Нельзя в выходное дерево добавить узел \"{0}\", который находится в списке исключенных узлов",
-    "NotDeleteAndContinue": "Не удалять и продолжить",
+    "MsgSatisfiesExcludedNodes": "Node \"{0}\" cannot be added to the output tree, as it is currently in the list of excluded nodes",
+    "NotDeleteAndContinue": "Continue without deleting",
     "RemoveAllMappingDataTreeNodesConfirm": "Do you really want to delete all output nodes?",
-    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue??",
+    "RemoveInvalidRelationsConfirm": "Links with nonexistent objects were found.\nDo you want to delete all lost links and continue?",
     "RemoveNodeWithChildsConfirm": "Do you really want to delete \"{0}\" node with child nodes?",
     "RemoveRequiredMappingNodeDefConfirm": "\"{0}\" node is used. Do you really want to delete it?",
     "WarnCannotDeleteRootNode": "It is not possible to delete root node"
@@ -3128,7 +3128,7 @@
   },
   "wizards/InputFileConnectionWizard": {
     "AutoMaxThreadCount": "Autodetect",
-    "MaxThreadCountMinPrefix": "Значение не может быть меньше {0}",
+    "MaxThreadCountMinPrefix": "Value cannot be less than {0}",
     "MsgFileAlreadyExist": "{0} file exists. Do you want to overwrite?",
     "MsgNotConnected": "Connection is not active. Do you want to activate it now?"
   },
@@ -3222,7 +3222,7 @@
     "CreateMappingToAllConfirm": "Do you really want to create output variables for all inputs?",
     "Delete": "Delete",
     "EmptyListText": "No matching variables",
-    "ExcludeRequiredMappingVariableConfirm": "Переменная \"{0}\" используется. Вы действительно хотите ее исключить?",
+    "ExcludeRequiredMappingVariableConfirm": "Variable \"{0}\" is in use. Do you really want to exclude it?",
     "frmColumnsMappingTitle": "Variables Mapping Settings",
     "frmColumnsTitle": "Configure Variables",
     "GroupField_MissingFields": "Missing variables",
@@ -3242,8 +3242,8 @@
     "NotFoundSocket": "Node does not contain the requested port"
   },
   "wizards/WizardForm": {
-    "BtnDoneCaption": "Готово",
-    "BtnDoneWhateverCaption": "Всё равно продолжить",
+    "BtnDoneCaption": "Done",
+    "BtnDoneWhateverCaption": "Continue anyway",
     "BtnNextCaption": "Next",
     "BtnResizeMaximize": "Expand",
     "BtnResizeMinimize": "Collapse",

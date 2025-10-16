@@ -50,16 +50,16 @@
       "text": "Find"
     },
     "frmLDAPTestForm": {
-      "title": "Тестирование LDAP аутентификации"
+      "title": "LDAP Authentication Testing"
     },
     "pnlSearch": {
-      "title": "Тестовый поиск пользователя"
+      "title": "Test User Search"
     },
     "txtAuthResult": {
-      "fieldLabel": "Результат тестирования подключения"
+      "fieldLabel": "Connection test result"
     },
     "txtSearchResult": {
-      "fieldLabel": "Результат поиска пользователя"
+      "fieldLabel": "User search result"
     },
     "txtUserName": {
       "fieldLabel": "User"
@@ -67,25 +67,25 @@
   },
   "admin/OpenIDTestForm": {
     "frmOpenIDTestForm": {
-      "title": "Информация о тестовом подключении"
+      "title": "Test Connection Details"
     },
     "txtFolders": {
-      "fieldLabel": "Общие папки"
+      "fieldLabel": "Shared folders"
     },
     "txtPayload": {
-      "fieldLabel": "Содержимое"
+      "fieldLabel": "Content"
     },
     "txtRoles": {
       "fieldLabel": "List of roles"
     },
     "txtToken": {
-      "fieldLabel": "Токен"
+      "fieldLabel": "Token"
     },
     "txtUserFullName": {
-      "fieldLabel": "Полное имя пользователя"
+      "fieldLabel": "Full username"
     },
     "txtUserInfo": {
-      "fieldLabel": "Информация о пользователе"
+      "fieldLabel": "User info"
     },
     "txtUserName": {
       "fieldLabel": "Username"
@@ -270,13 +270,13 @@
       "tooltip": "Edit"
     },
     "btnMoveDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnMoveUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move up"
     },
     "colDelete": {
-      "tooltip": "Удалить все"
+      "tooltip": "Delete all"
     },
     "colDelete.0": {
       "tooltip": "Delete"
@@ -302,7 +302,7 @@
       "boxLabel": "Administration"
     },
     "chkAllowPasswordSave": {
-      "boxLabel": "Разрешить сохранять пароль к БД"
+      "boxLabel": "Allow saving DB password"
     },
     "chkAllowPublish": {
       "boxLabel": "Allow publishing packages"
@@ -317,7 +317,7 @@
       "boxLabel": "File storage full access"
     },
     "chkMustChangePassword": {
-      "boxLabel": "Требовать смену пароля при следующем входе"
+      "boxLabel": "Require password change on next login"
     },
     "chkRunner": {
       "boxLabel": "Batch processing"
@@ -332,7 +332,7 @@
       "title": "User Roles"
     },
     "edtExternName": {
-      "fieldLabel": "Системный пользователь"
+      "fieldLabel": "System user"
     },
     "edtFullName": {
       "fieldLabel": "Full name"
@@ -503,25 +503,25 @@
   },
   "app/FindNodeForm": {
     "btnApply": {
-      "text": "Перейти"
+      "text": "Go"
     },
     "btnCancel": {
       "text": "Cancel"
     },
     "chkFindFromSelection": {
-      "boxLabel": "Начать поиск с выделенного"
+      "boxLabel": "Start search from selected"
     },
     "edtGUID": {
       "emptyText": "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}"
     },
     "edtLabel": {
-      "emptyText": "Поиск"
+      "emptyText": "Search"
     },
     "edtName": {
-      "emptyText": "Поиск"
+      "emptyText": "Search"
     },
     "frmFindNodeForm": {
-      "title": "Найти"
+      "title": "Search"
     }
   },
   "app/LicenseItem": {
@@ -667,7 +667,7 @@
       "tooltip": "Expand\/collapse to nodes"
     },
     "btnFindNode": {
-      "tooltip": "Найти..."
+      "tooltip": "Find..."
     },
     "btnPublishPackage": {
       "tooltip": "Publish..."
@@ -949,7 +949,7 @@
       "text": "Cancel"
     },
     "cbxDeactivateUpstreamOnCompletion": {
-      "fieldLabel": "Деактивация групп узлов по завершению"
+      "fieldLabel": "Deactivate node groups upon completion"
     },
     "cbxLocale": {
       "fieldLabel": "Locale"
@@ -1299,7 +1299,7 @@
       "tooltip": "Check all"
     },
     "colDisplayName": {
-      "text": "Метка"
+      "text": "By caption"
     },
     "colName": {
       "text": "Name"
@@ -1355,10 +1355,10 @@
       "text": "Last day"
     },
     "btnMoveStartAfterJobItemDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnMoveStartAfterJobItemUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move up"
     },
     "btnMoveVariableDown": {
       "tooltip": "Move down"
@@ -1376,11 +1376,11 @@
       "text": "Check all"
     },
     "btnSelectDestVariables": {
-      "text": "Выбрать из пакета",
-      "tooltip": "Выбрать из пакета..."
+      "text": "Select from Package",
+      "tooltip": "Select from package..."
     },
     "cbxDeactivateUpstreamOnCompletion": {
-      "fieldLabel": "Деактивация групп узлов по завершению"
+      "fieldLabel": "Deactivate node groups upon completion"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Package to start"
@@ -1403,15 +1403,15 @@
     },
     "chkStartIfMissedSchedule": {
       "boxLabel": " ",
-      "fieldLabel": "Запустить сразу, если пропущен запуск"
+      "fieldLabel": "Start immediately if the start was skipped"
     },
     "chkStartOnServerStartup": {
       "boxLabel": " ",
-      "fieldLabel": "Запускать при старте сервера"
+      "fieldLabel": "Start upon server startup"
     },
     "chkStopTimeout": {
       "boxLabel": " ",
-      "fieldLabel": "Ограничить время выполнения"
+      "fieldLabel": "Limit execution time"
     },
     "chkTeach": {
       "boxLabel": " ",
@@ -1424,7 +1424,7 @@
       "text": "Package"
     },
     "colAfterJobStatuses": {
-      "text": "Статус для запуска задачи"
+      "text": "Status for Job Start"
     },
     "colDeleteAfterJobTrigger": {
       "tooltip": "Delete all..."
@@ -1468,16 +1468,16 @@
       "fieldLabel": "Start"
     },
     "edtStopTimeoutCount": {
-      "fieldLabel": "Максимальное время выполнения",
-      "minText": "Значение тайм-аута остановки должно быть положительным"
+      "fieldLabel": "Maximum execution time",
+      "minText": "Stop timeout value must be positive"
     },
     "edtTimeFilterEnd": {
-      "blankText": "Не указана граница временного интервала",
+      "blankText": "Time range limit not specified",
       "fieldLabel": "to"
     },
     "edtTimeFilterStart": {
-      "blankText": "Не указана граница временного интервала",
-      "fieldLabel": "с"
+      "blankText": "Time range limit not specified",
+      "fieldLabel": "from"
     },
     "pnlDaysOfMonth": {
       "title": "Days of the month"
@@ -1492,22 +1492,22 @@
       "title": "Schedule"
     },
     "pnlScheduleFilters": {
-      "title": "Запускать повтор"
+      "title": "Start Repeat"
     },
     "pnlSetting": {
       "title": "Start Parameters"
     },
     "pnlStartAfterJobs": {
-      "title": "Завершение задачи"
+      "title": "Finish Job"
     },
     "pnlStartOnServerStartup": {
-      "title": "Запуск сервера"
+      "title": "Start Server"
     },
     "pnlTime": {
       "title": "Time"
     },
     "pnlTriggers": {
-      "title": "Триггеры"
+      "title": "Triggers"
     },
     "pnlVariables": {
       "title": "Variables"
@@ -2604,7 +2604,7 @@
       "text": "Delete link"
     },
     "mniLoadByJSON": {
-      "text": "Загрузить из JSON..."
+      "text": "Load from JSON..."
     },
     "mniLoadByXSD": {
       "text": "Load from XSD..."
@@ -2745,31 +2745,31 @@
   },
   "components/filterdata/FilterDataPanel": {
     "btnAdd": {
-      "text": "Добавить условие",
-      "tooltip": "Добавить условие фильтрации"
+      "text": "Add Filter",
+      "tooltip": "Add filter condition"
     },
     "btnAddOR": {
-      "text": "Добавить оператор ИЛИ",
-      "tooltip": "Добавить оператор ИЛИ"
+      "text": "Add OR Operator",
+      "tooltip": "Add OR operator"
     },
     "btnClone": {
       "tooltip": "Clone"
     },
     "btnMoveDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnMoveUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move up"
     },
     "btnPreview": {
       "text": "Preview",
-      "tooltip": "Открыть окно предпросмотра..."
+      "tooltip": "Open preview window..."
     },
     "btnWordWrap": {
-      "tooltip": "Переносить текст"
+      "tooltip": "Wrap text"
     },
     "chkEnableFilter": {
-      "boxLabel": "Включить фильтр"
+      "boxLabel": "Enable filter"
     },
     "colCaseSensitive": {
       "text": "Case-sensitive"
@@ -2784,16 +2784,16 @@
       "text": "Field"
     },
     "colRelationType": {
-      "text": "Условие"
+      "text": "Antecedent"
     },
     "colValue": {
       "text": "Value"
     },
     "mniAddORAfter": {
-      "text": "Добавить оператор ИЛИ ниже"
+      "text": "Add OR operator after"
     },
     "mniAddORBefore": {
-      "text": "Добавить оператор ИЛИ выше"
+      "text": "Add OR operator before"
     },
     "mniDelete": {
       "text": "Delete"
@@ -2826,7 +2826,7 @@
       "tooltip": "Check all"
     },
     "btnCopy": {
-      "tooltip": "Копировать выбранные"
+      "tooltip": "Copy selected"
     },
     "btnEdit": {
       "tooltip": "Edit..."
@@ -2835,7 +2835,7 @@
       "tooltip": "Get list"
     },
     "btnPaste": {
-      "tooltip": "Добавить к выбранным"
+      "tooltip": "Add to selected"
     },
     "btnReverseCheck": {
       "tooltip": "Invert selection"
@@ -2896,10 +2896,10 @@
   },
   "components/jointree/JoinTreeWizard": {
     "btnSelectableNodesOnly": {
-      "text": "Только подходящие узлы"
+      "text": "Suitable Nodes Only"
     },
     "btnShowJoinedTree": {
-      "text": "Показать узлы присоединяемого дерева"
+      "text": "Show Joining Tree Nodes"
     },
     "colJoinedTree": {
       "text": "Node"
@@ -2908,19 +2908,19 @@
       "text": "Name"
     },
     "colMainTreeNode": {
-      "text": "Узел основного дерева"
+      "text": "Main Tree Node"
     },
     "colMainTreeNodeName": {
       "text": "Name"
     },
     "lblOperationType": {
-      "text": "Включить узел в"
+      "text": "Include node in"
     },
     "pnlJoinTree": {
-      "title": "Настройка слияния деревьев"
+      "title": "Configure Tree Join"
     },
     "trpJoinedTree": {
-      "title": "Присоединяемое дерево (для информации)"
+      "title": "The Joining Tree (For Information)"
     }
   },
   "components/jsontotree/JSONToTreeWizard": {
@@ -2943,16 +2943,16 @@
       "tooltip": "Load from XSD..."
     },
     "btnMoveDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnMoveUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move up"
     },
     "btnNextExpandable": {
       "tooltip": "Next recursive unexpanded node"
     },
     "colDataKind": {
-      "text": "Вид данных"
+      "text": "Data Kind"
     },
     "colDelete": {
       "tooltip": "Delete all..."
@@ -2961,13 +2961,13 @@
       "tooltip": "Delete"
     },
     "colNodes": {
-      "text": "Узел JSON"
+      "text": "JSON Node"
     },
     "frmJSONToTree": {
-      "title": "JSON в дерево"
+      "title": "JSON to Tree"
     },
     "mniLoadByJSON": {
-      "text": "Загрузить из JSON..."
+      "text": "Load from JSON..."
     },
     "mniLoadByXSD": {
       "text": "Load from XSD..."
@@ -3158,7 +3158,7 @@
       "title": "Additional Parameters"
     },
     "pedFailedRequestRepeat.valueConfig": {
-      "emptyText": "Отключено"
+      "emptyText": "Disabled"
     },
     "pedTimeout.valueConfig": {
       "emptyText": "∞"
@@ -3182,7 +3182,7 @@
       "text": "Field"
     },
     "colParam": {
-      "text": "URL параметры запроса"
+      "text": "URL Request Parameters"
     },
     "mniFieldAutoLink": {
       "text": "Auto Link"
@@ -3329,10 +3329,10 @@
       "fieldLabel": "Connection"
     },
     "colDisplayText": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colFieldDisplayText": {
-      "text": "Метка"
+      "text": "Caption"
     },
     "colFieldName": {
       "text": "Name"
@@ -3344,7 +3344,7 @@
       "text": "Name"
     },
     "frmSQLScript": {
-      "title": "SQL-скрипт"
+      "title": "SQL Script"
     },
     "grdFields": {
       "title": "Fields"
@@ -3353,7 +3353,7 @@
       "title": "Variables"
     },
     "lblExecuteTitle": {
-      "text": "Текст скрипта"
+      "text": "Script text"
     },
     "lblFields": {
       "text": "Fields"
@@ -3392,7 +3392,7 @@
       "title": "My Panel"
     },
     "tabFields": {
-      "title": "Поля входного набора"
+      "title": "Input Set Fields"
     },
     "tabVariables": {
       "title": "Variables"
@@ -3420,7 +3420,7 @@
   },
   "components/treetojson/TreeToJSONWizard": {
     "frmTreeToJSON": {
-      "title": "Дерево в JSON"
+      "title": "Tree to JSON"
     }
   },
   "components/ungroupdata/UngroupDataWizard": {
@@ -3452,7 +3452,7 @@
       "title": "Configure Ungrouping"
     },
     "mniShowInvalidRelations": {
-      "text": "Отображать потерянные связи"
+      "text": "Show lost links"
     },
     "txtSupportColumn": {
       "fieldLabel": "Ordinal field in reference data"
@@ -3478,10 +3478,10 @@
   },
   "components/uniontree/UnionTreeWizard": {
     "cntOperationType": {
-      "title": "Тип операции"
+      "title": "Operation Type"
     },
     "frmUnionTree": {
-      "title": "Настройка объединения деревьев"
+      "title": "Configure Tree Union "
     }
   },
   "components/variablestodata/VariablesToDataWizard": {
@@ -3689,7 +3689,7 @@
   },
   "connections/restservice/ConnectionWizard": {
     "btnAdd": {
-      "text": "Добавить URL параметры запроса",
+      "text": "Add URL request parameters",
       "tooltip": "Add"
     },
     "btnDelete": {
@@ -3699,8 +3699,8 @@
       "tooltip": "Delete all..."
     },
     "btnGetURLParam": {
-      "text": "Получить URL параметры запроса",
-      "tooltip": "Заменить URL параметры в таблице на указанные в URL сервиса"
+      "text": "Get URL request parameters",
+      "tooltip": "Replace URL parameters in table with those specified in service URL"
     },
     "btnMoveDown": {
       "tooltip": "Move down"
@@ -3730,10 +3730,10 @@
       "regexText": "Invalid Content-Type value format"
     },
     "txtAuth": {
-      "fieldLabel": "Аутентификация для выполнения запроса"
+      "fieldLabel": "Authentication for request execution"
     },
     "txtExampleURL": {
-      "fieldLabel": "Пример сформированного URL"
+      "fieldLabel": "Example of generated URL"
     }
   },
   "connections/tableaurest/TableauRestConnectionParams": {
@@ -3755,7 +3755,7 @@
       "text": "Serial number"
     },
     "colStart": {
-      "text": "Дата начала"
+      "text": "Start Date"
     },
     "colSubject": {
       "text": "Issued to"
@@ -3772,7 +3772,7 @@
       "text": "OK"
     },
     "frmAuthModalWindow": {
-      "title": "Настройка аутентификации"
+      "title": "Configure Authentication"
     }
   },
   "connections/webservice/ConnectionWizard": {
@@ -3786,7 +3786,7 @@
       "fieldLabel": "Authentication Type"
     },
     "txtWSDLAuth": {
-      "fieldLabel": "Аутентификация для получения WSDL-файла"
+      "fieldLabel": "Authentication for getting WSDL file"
     }
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
@@ -3820,7 +3820,7 @@
       "tooltip": "Delete"
     },
     "edtDisplayName": {
-      "fieldLabel": "Метка"
+      "fieldLabel": "Caption"
     },
     "frmXSDFilesConnection": {
       "title": "Configure XSD Schema Set"
@@ -3842,7 +3842,7 @@
     },
     "btnDefaults": {
       "text": "Restore",
-      "tooltip": "Восстановить список полей"
+      "tooltip": "Restore field list"
     },
     "btnEdit": {
       "text": "Edit",
@@ -3855,14 +3855,14 @@
       "tooltip": "Move up"
     },
     "btnStringMax": {
-      "text": "Все строковые макс",
-      "tooltip": "Все строковые макс..."
+      "text": "All Strings Max.",
+      "tooltip": "All strings max..."
     },
     "cbxTableName": {
       "fieldLabel": "Table name"
     },
     "chkDropTableIfExists": {
-      "fieldLabel": "Удалять существующую таблицу"
+      "fieldLabel": "Delete existing table"
     },
     "colDelete": {
       "tooltip": "Delete all"
@@ -3874,10 +3874,10 @@
       "text": "Field name"
     },
     "colNotNull": {
-      "text": "Не NULL"
+      "text": "Not NULL"
     },
     "colPrimaryKey": {
-      "tooltip": "Первичный ключ"
+      "tooltip": "Primary key"
     },
     "colSize": {
       "text": "Size"
@@ -3886,7 +3886,7 @@
       "text": "Field type"
     },
     "frmDBCreateTableDialog": {
-      "title": "Создание таблицы"
+      "title": "Create Table"
     },
     "tabFields": {
       "title": "Table Fields"
@@ -3903,13 +3903,13 @@
       "text": "Cancel"
     },
     "cbxDataType": {
-      "fieldLabel": "Тип данных"
+      "fieldLabel": "Data type"
     },
     "chkNotNull": {
-      "fieldLabel": "Не NULL"
+      "fieldLabel": "Not NULL"
     },
     "chkPrimaryKey": {
-      "fieldLabel": "Первичный ключ"
+      "fieldLabel": "Primary key"
     },
     "edtName": {
       "fieldLabel": "Field name"
@@ -3918,7 +3918,7 @@
       "fieldLabel": "Size"
     },
     "frmDBEditFieldDefsForm": {
-      "title": "Редактирование поля"
+      "title": "Edit Field"
     }
   },
   "exports/dbexport/DBExportParamsWizard": {
@@ -4172,10 +4172,10 @@
   },
   "ext/errormessage/DetailPanel": {
     "btnDetais": {
-      "text": "Технические подробности"
+      "text": "Technical Details"
     },
     "btnMailto": {
-      "text": "Сообщить об ошибке"
+      "text": "Report an Error"
     }
   },
   "ext/ModalWindow": {
@@ -4769,7 +4769,7 @@
   },
   "imports/excelfile/ImportExcelColumnDefsWizard": {
     "frmImportSettings": {
-      "title": "Настройка полей"
+      "title": "Configure Fields"
     }
   },
   "imports/excelfile/ImportExcelFilePreviewWizard": {
@@ -4927,16 +4927,16 @@
       "text": "Cancel"
     },
     "edtNewPassword1": {
-      "fieldLabel": "Новый пароль"
+      "fieldLabel": "New password"
     },
     "edtNewPassword2": {
-      "fieldLabel": "Подтвердите пароль"
+      "fieldLabel": "Confirm password"
     },
     "edtOldPassword": {
-      "fieldLabel": "Старый пароль"
+      "fieldLabel": "Old password"
     },
     "frmChangePassword": {
-      "title": "Требуется изменить пароль"
+      "title": "Password Change Required"
     }
   },
   "login/Login": {
@@ -6728,7 +6728,7 @@
   },
   "wizards/columns/ColumnsMappingWizard": {
     "btnAddExcluded": {
-      "tooltip": "Добавить в исключенные"
+      "tooltip": "Add to excluded"
     },
     "btnAddExtension": {
       "tooltip": "Add extension..."
@@ -6737,7 +6737,7 @@
       "tooltip": "Add..."
     },
     "btnAddMappingToExcluded": {
-      "tooltip": "Добавить в исключенные"
+      "tooltip": "Add to excluded"
     },
     "btnAutoLink": {
       "text": "Auto Link"
@@ -6999,7 +6999,7 @@
   },
   "wizards/connection/MsSQLConnectionParams": {
     "cntMsSQLConnectionParams": {
-      "title": "Параметры SQL Server"
+      "title": "SQL Server Parameters"
     }
   },
   "wizards/connection/MySQLConnectionParams": {
@@ -7137,7 +7137,7 @@
       "tooltip": "Add child node"
     },
     "btnAddExcluded": {
-      "tooltip": "Добавить в исключенные"
+      "tooltip": "Add to excluded"
     },
     "btnAddSibling": {
       "tooltip": "Add neighboring node"
@@ -7188,7 +7188,7 @@
       "tooltip": "Check all"
     },
     "btnShowExcluded": {
-      "tooltip": "Отображать исключенные"
+      "tooltip": "Show excluded"
     },
     "btnShowInvalidRelations": {
       "text": "Show Lost Links"
@@ -7236,7 +7236,7 @@
       "title": "Data Trees Mapping Settings"
     },
     "mniLoadByJSON": {
-      "text": "Загрузить из JSON..."
+      "text": "Load from JSON..."
     },
     "mniLoadByXSD": {
       "text": "Load from XSD..."
@@ -7290,25 +7290,25 @@
   },
   "wizards/datatree/JSONLoadingDialog": {
     "btnApply": {
-      "text": "Загрузить"
+      "text": "Load"
     },
     "btnCancel": {
       "text": "Cancel"
     },
     "cbxDateTimeTemplate": {
-      "fieldLabel": "Шаблон даты\/времени"
+      "fieldLabel": "Date\/time template"
     },
     "frmJSONLoadingDialog": {
-      "title": "Загрузить дерево из JSON"
+      "title": "Load Tree from JSON"
     },
     "lblRewriteHint": {
-      "text": "При загрузке схемы существующие узлы будут удалены"
+      "text": "Existing nodes will be deleted when loading schema"
     },
     "pnlFile": {
-      "title": "Из файла"
+      "title": "From File"
     },
     "pnlText": {
-      "title": "Из строки"
+      "title": "From String"
     }
   },
   "wizards/datatree/XSDLoadingDialog": {
@@ -7653,7 +7653,7 @@
       "fieldLabel": "Name"
     },
     "frmEditVariableForm": {
-      "title": "Добавить переменную"
+      "title": "Add Variable"
     }
   },
   "wizards/WizardForm": {
@@ -7661,7 +7661,7 @@
       "tooltip": "Close"
     },
     "btnDone": {
-      "text": "Готово"
+      "text": "Done"
     },
     "btnError": {
       "text": "Show Details..."

@@ -32,7 +32,7 @@
   },
   "Net/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Arrays nesting level above {0} is not supported",
-    "ErrInvalidMessageFormatVersion": "Неверный номер версии формата сообщения: {0}, ожидается: {1}",
+    "ErrInvalidMessageFormatVersion": "Invalid number of message format version: {0} when {1} was expected",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
     "ErrMessageSizeOverflow": "Maximum message size exceeded",
     "ErrUnknownInterfaceGUID": "Interface with {0} identifier not registered",
@@ -42,7 +42,7 @@
     "ErrUnsupportedParameterType": "Unsupported argument type"
   },
   "Net/RpcExceptUtils": {
-    "ErrUnknownExceptionID": "Неизвестный идентификатор исключения: {0}"
+    "ErrUnknownExceptionID": "Unknown exception identifier: {0}"
   },
   "Net/ServerRemoteObjects": {
     "ErrQueryInterfaceNotAllowed": "Failed to query interface with {0} identifier via QueryInterface",

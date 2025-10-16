@@ -36,7 +36,7 @@
       "Absent": "Not required",
       "NamePass": "Username and password",
       "Basic": "Basic",
-      "OAuth": "Токен OAuth",
+      "OAuth": "OAuth token",
       "Cert": "Client certificate from storage",
       "FileCert": "Client certificate files"
     }
@@ -65,7 +65,7 @@
       "UnsupportedSoapTransport": "Unsupported SOAP transport",
       "PrepareError": "Error in preparing request data: %s",
       "UnimplementedRequestType": "The requests with %s extensions are not currently supported",
-      "Timedout": "Время выполнения истекло"
+      "Timedout": "Execution timed out"
     }
   },
   "Common/WSDL/WSDL": {
@@ -112,7 +112,7 @@
       "DataSourceIsEmpty": "The input data source contains no records",
       "InitError": "Error initializing export procedure: %s",
       "ExportError": "Error executing export procedure: %s",
-      "TimedOut": "Время выполнения истекло"
+      "TimedOut": "Execution timed out"
     },
     "XMLRequestErrorCode": {
       "$Caption": "XML request processing result",
@@ -127,7 +127,7 @@
       "MIMEParserError": "Error processing server response: %s",
       "UnsupportedRequestType": "Unsupported request type",
       "BadRequestParam": "Bad request parameter",
-      "TimedOut": "Время выполнения истекло"
+      "TimedOut": "Execution timed out"
     }
   },
   "Common/XML/SAX/XMLSAX_MSXML": {
@@ -514,27 +514,27 @@
   },
   "components/jointree": {
     "JoinTreeOperationType": {
-      "$Caption": "Тип операции",
-      "InsertIntoContainer": "Включить узел в контейнер",
-      "InsertIntoArray": "Включить узел в массив"
+      "$Caption": "Operation Type",
+      "InsertIntoContainer": "Include node in container",
+      "InsertIntoArray": "Include node in array"
     },
     "JoinTreeType": {
-      "$Caption": "Тип дерева данных",
-      "Main": "Главное дерево",
-      "Joined": "Присоединяемое дерево"
+      "$Caption": "Data Tree Type",
+      "Main": "Main tree",
+      "Joined": "Tree to join"
     }
   },
   "components/jsontotree": {
     "RootGeneration": {
-      "$Caption": "Корневой узел",
+      "$Caption": "Root Node",
       "Auto": "Autodetect",
-      "Array": "Всегда массив",
-      "NotArray": "Всегда не массив"
+      "Array": "Always an array",
+      "NotArray": "Never an array"
     }
   },
   "components/linregression": {
     "LinRegressionMethod": {
-      "$Caption": "Factor Selection and Protection against Overfitting",
+      "$Caption": "Factor Selection and Protection Against Overfitting",
       "Enter": "Enter",
       "Forward": "Forward",
       "Backward": "Backward",
@@ -647,7 +647,7 @@
       "CubicInterp": "Cubic interpolation",
       "SplineInterp": "Spline interpolation",
       "ZeroValue": "Replace with 0",
-      "PreviosValue": "Заменять предыдущим значением"
+      "PreviosValue": "Replace with the previous value"
     },
     "ActionOut": {
       "$Caption": "Outliers Elimination Method",
@@ -779,9 +779,9 @@
   },
   "components/uniontree": {
     "UnionTreeOperationType": {
-      "$Caption": "Тип операции",
-      "ConcatAllActive": "Конкатенация всех деревьев",
-      "SelectFirstActive": "Выбор первого активного дерева"
+      "$Caption": "Operation Type",
+      "ConcatAllActive": "Concatenate all trees",
+      "SelectFirstActive": "Select the first active tree"
     }
   },
   "components/variablestodata": {
@@ -793,10 +793,10 @@
   },
   "exports/database": {
     "DBExportFastLoaderUsage": {
-      "$Caption": "Использовать быстрый загрузчик",
-      "No": "Нет",
+      "$Caption": "Use Fast Loader",
+      "No": "No",
       "Yes": "Yes",
-      "Auto": "Авто"
+      "Auto": "Automatically"
     },
     "DBExportType": {
       "$Caption": "Export Mode",
@@ -936,9 +936,9 @@
   },
   "Libraries/bgdbrtl/DB": {
     "CertCheckMode": {
-      "$Caption": "Проверка сертификата сервера",
+      "$Caption": "Check Server Certificate",
       "NoCheck": "Off",
-      "CA": "Только подпись",
+      "CA": "Signature only",
       "Identity": "Full"
     },
     "DBServerType": {
@@ -978,12 +978,12 @@
   },
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
     "MsSQLClient": {
-      "$Caption": "Клиент",
+      "$Caption": "Client",
       "Auto": "Auto",
       "NativeClient": "SQL Server Native Client",
       "MSOLEDB": "Microsoft OLE DB Driver for SQL Server",
-      "AutoModern": "Автоматически (современные)",
-      "Direct": "Без клиента"
+      "AutoModern": "Automatically (modern)",
+      "Direct": "Without client"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
@@ -1370,10 +1370,10 @@
   },
   "Libraries/FileConnection/ImportFileModelComponentEngine": {
     "AutoDetectColumnsMode": {
-      "$Caption": "Автоопределение столбцов",
-      "None": "Нет",
-      "New": "Только новые",
-      "All": "Все"
+      "$Caption": "Autodetect Columns",
+      "None": "No",
+      "New": "New only",
+      "All": "All"
     },
     "FileInfoColumnsType": {
       "$Caption": "File info",
@@ -1550,13 +1550,13 @@
       "UseGlobalFileStorage": "Use global file storage",
       "AllowPublish": "Allow packages publishing",
       "SchedulerFullAccess": "Access to all scheduler jobs",
-      "AllowPasswordSave": "Разрешить сохранять пароль к БД",
+      "AllowPasswordSave": "Allow saving DB password",
       "RunMode": "Batch processing"
     },
     "OpenIDResponseMode": {
-      "$Caption": "Формат ответа",
-      "Query": "Параметры в query",
-      "Fragment": "Параметры в fragment"
+      "$Caption": "Response Format",
+      "Query": "Query parameters",
+      "Fragment": "Fragment parameters"
     },
     "OpenIDUserRole": {
       "$Caption": "New User Role",
@@ -1614,18 +1614,18 @@
   },
   "Libraries/RESTClientConnection/RESTClientConnection": {
     "ParamURLType": {
-      "$Caption": "Тип URL параметров",
-      "QueryString": "Строка запроса",
-      "AddSegments": "Добавление сегментов",
+      "$Caption": "URL Parameters Type",
+      "QueryString": "Query string",
+      "AddSegments": "Add segments",
       "Replacement": "Replace"
     }
   },
   "Studio/DeductorServerSettings": {
     "MultiSessionRestriction": {
-      "$Caption": "Ограничение мультисессионности",
-      "None": "Нет",
-      "LoginForbid": "Запрет входа",
-      "SessionInterrupt": "Закрыть текущие сессии"
+      "$Caption": "Multisession Restriction",
+      "None": "None",
+      "LoginForbid": "Deny login",
+      "SessionInterrupt": "Close current sessions"
     }
   },
   "Studio/DeductorSessionsManager": {
@@ -1659,13 +1659,13 @@
   },
   "Studio/PasswordPolicy": {
     "PolicyPreset": {
-      "$Caption": "Профиль политики",
-      "None": "Нет",
-      "Simple": "Простой",
-      "Standard": "Стандартный",
-      "Strong": "Сильный",
-      "Complete": "Полный",
-      "Custom": "Пользовательский"
+      "$Caption": "Policy Preset",
+      "None": "None",
+      "Simple": "Simple",
+      "Standard": "Standard",
+      "Strong": "Strong",
+      "Complete": "Complete",
+      "Custom": "Custom"
     }
   },
   "Viewers/Browse/BrowseViewSearch": {

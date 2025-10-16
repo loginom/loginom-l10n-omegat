@@ -436,8 +436,8 @@
     },
     "QuartersBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
-      "Description": "QuartersBetween(Дата1, Дата2[, Абсолютное_Значение = True])",
-      "Output": "Возвращает количество полных кварталов между двумя датами.\nЕсли Дата2 раньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_Значение = True, то функция вернёт модуль значения"
+      "Description": "QuartersBetween(Date1, Date2[, Absolute_Value = True])",
+      "Output": "Returns the number of complete quarters between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Random": {
       "Arguments": "Arguments are absent.",
@@ -621,8 +621,8 @@
     },
     "WeeksBetween": {
       "Arguments": "Date1, Date2 - Date\/Time type arguments.\nAbsolute_Value - an optional boolean parameter.",
-      "Description": "WeeksBetween(Дата1, Дата2[, Абсолютное_Значение = True])",
-      "Output": "Возвращает количество полных недель между двумя датами.\nЕсли Дата2 раньше Дата1 и Абсолютное_Значение = False, то будет возвращено отрицательное число полных временных промежутков между датами; если Абсолютное_Значение = True, то функция вернёт модуль значения"
+      "Description": "WeeksBetween(Date1, Date2[, Absolute_Value = True])",
+      "Output": "Returns the number of complete weeks between two dates.\nIf Date2 is earlier than Date1 and Absolute_Value = False, the function will return the negative number of complete time spans between the dates; if Absolute_Value = True, the function will return the absolute value"
     },
     "Year": {
       "Arguments": "Date - a Date\/Time type argument.",
@@ -685,22 +685,22 @@
   "StatFunctions": {
     "DChi2": {
       "Arguments": "Degrees_of_freedom - the number of the degrees of freedom.\nArgument - the value for which the probability density should be calculated.",
-      "Description": "DChi2(Степени_свободы, Аргумент)",
+      "Description": "DChi2(Degrees_of_freedom, Argument)",
       "Output": "The density function of the chi-square gamma distribution. The function returns probability density."
     },
     "FChi2": {
       "Arguments": "Degrees_of_freedom - the number of the degrees of freedom.\nArgument - the value for which the probability should be calculated.",
-      "Description": "FChi2(Степени_свободы, Аргумент)",
+      "Description": "FChi2(Degrees_of_freedom, Argument)",
       "Output": "The chi-square distribution function. Returns the left-sided probability of chi-square distribution P(X <= Argument)."
     },
     "InvChi2": {
       "Arguments": "Degrees_of_freedom - the number of the degrees of freedom.\nProbability - the value of the chi-square distribution function.",
-      "Description": "InvChi2(Степени_свободы, Вероятность)",
-      "Output": "Функция, обратная функции распределения хи-квадрат. Возвращает пороговое значение x, для которого функция вероятности имеет значение Вероятность. Если p=FChi2(N, x), то InvChi2(N, p) = x."
+      "Description": "InvChi2(Degrees_of_freedom, Probability)",
+      "Output": "The inverse of the chi-square distribution function. Returns the threshold value x for which the probability function has the value Probability. If p=FChi2(N, x), then InvChi2(N, p) = x."
     },
     "PChi2": {
       "Arguments": "Degrees_of_freedom - the number of the degrees of freedom.\nArgument - the value for which the probability should be calculated.",
-      "Description": "PChi2(Степени_свободы, Аргумент)",
+      "Description": "PChi2(Degrees_of_freedom, Argument)",
       "Output": "An additional chi-square distribution function. Returns the right-sided probability of chi-square distribution P(X > Argument)."
     }
   },
