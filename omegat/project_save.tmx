@@ -124075,6 +124075,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Запускать повтор</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T001113Z">
+        <seg>Start Repeat</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -124094,6 +124097,9 @@ Start immediately if the start was skipped</note>
       <tuv lang="ru">
         <seg>Завершение задачи</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T001246Z">
+        <seg>Finish Job</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -124101,6 +124107,9 @@ Start immediately if the start was skipped</note>
       <note>Key = app/scheduler/JobEditor.pnlStartOnServerStartup.title</note>
       <tuv lang="ru">
         <seg>Запуск сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T001304Z">
+        <seg>Start Server</seg>
       </tuv>
     </tu>
     <tu>
@@ -124120,6 +124129,9 @@ Start immediately if the start was skipped</note>
       <note>Key = app/scheduler/JobEditor.pnlTriggers.title</note>
       <tuv lang="ru">
         <seg>Триггеры</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T001308Z">
+        <seg>Triggers</seg>
       </tuv>
     </tu>
     <tu>
@@ -128606,6 +128618,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Загрузить из JSON...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T001326Z">
+        <seg>Load from JSON...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129097,6 +129112,9 @@ Cancel</note>
       <note>Key = components/filterdata/FilterDataPanel.btnAdd.text</note>
       <tuv lang="ru">
         <seg>Добавить условие</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T001355Z">
+        <seg>Add Filter</seg>
       </tuv>
     </tu>
     <tu>
