@@ -31392,8 +31392,8 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T123539Z">
-        <seg>Deactivate node groups upon completion</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T102438Z">
+        <seg>Deactivate node groups on completion</seg>
       </tuv>
     </tu>
     <tu>
@@ -57048,8 +57048,8 @@ Ignore SSL certificate errors</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T123530Z">
-        <seg>Deactivate node groups upon completion</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T102446Z">
+        <seg>Deactivate node groups on completion</seg>
       </tuv>
     </tu>
     <tu>
@@ -88155,8 +88155,8 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T123549Z">
-        <seg>Deactivate node groups upon completion</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T102450Z">
+        <seg>Deactivate node groups on completion</seg>
       </tuv>
     </tu>
     <tu>
@@ -121814,8 +121814,8 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T123552Z">
-        <seg>Deactivate node groups upon completion</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T102500Z">
+        <seg>Deactivate node groups on completion</seg>
       </tuv>
     </tu>
     <tu>
@@ -123778,8 +123778,8 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Деактивация групп узлов по завершению</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251014T123606Z">
-        <seg>Deactivate node groups upon completion</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T102826Z">
+        <seg>Deactivate node groups on completion</seg>
       </tuv>
     </tu>
     <tu>
