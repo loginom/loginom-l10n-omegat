@@ -104838,6 +104838,9 @@ Validity start date</note>
       <tuv lang="ru">
         <seg>Дата начала</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004434Z">
+        <seg>Start Date</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104889,6 +104892,9 @@ Validity start date</note>
       <note>Key = connections/webservice/AuthModalWindow.frmAuthModalWindow.title</note>
       <tuv lang="ru">
         <seg>Настройка аутентификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004449Z">
+        <seg>Configure Authentication</seg>
       </tuv>
     </tu>
     <tu>
@@ -104944,6 +104950,9 @@ Authentication to get WSDL file
 Authentication to Get WSDL File</note>
       <tuv lang="ru">
         <seg>Аутентификация для получения WSDL-файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004549Z">
+        <seg>Authentication for getting WSDL file</seg>
       </tuv>
     </tu>
     <tu>
@@ -105110,6 +105119,9 @@ Label</note>
       <tuv lang="ru">
         <seg>Метка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004603Z">
+        <seg>Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105227,6 +105239,9 @@ Restore default field list</note>
       <tuv lang="ru">
         <seg>Восстановить список полей</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004633Z">
+        <seg>Restore field list</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105279,6 +105294,9 @@ Restore default field list</note>
       <tuv lang="ru">
         <seg>Все строковые макс</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004712Z">
+        <seg>All Strings (Max)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105286,6 +105304,9 @@ Restore default field list</note>
       <note>Key = exports/dbexport/DBCreateTableDialog.btnStringMax.tooltip</note>
       <tuv lang="ru">
         <seg>Все строковые макс...</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004729Z">
+        <seg>All strings max...</seg>
       </tuv>
     </tu>
     <tu>
