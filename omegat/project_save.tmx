@@ -3900,6 +3900,9 @@ Absolute_Value - an optional boolean parameter.</seg>
       <tuv lang="ru">
         <seg>WeeksBetween(Дата1, Дата2[, Абсолютное_Значение = True])</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005729Z">
+        <seg>WeeksBetween(Date1, Date2[, Absolute_Value = True])</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -4524,6 +4527,9 @@ Argument - the value for which the probability should be calculated.</seg>
       <note>Key = StatFunctions.PChi2.Description</note>
       <tuv lang="ru">
         <seg>PChi2(Степени_свободы, Аргумент)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005802Z">
+        <seg>PChi2(Degrees_of_freedom, Argument)</seg>
       </tuv>
     </tu>
     <tu>
