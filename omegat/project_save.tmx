@@ -8132,8 +8132,8 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Изменить существующую запись.</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T164614Z">
-        <seg>Modify an existing record.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T111228Z">
+        <seg>Modify existing record.</seg>
       </tuv>
     </tu>
     <tu>
