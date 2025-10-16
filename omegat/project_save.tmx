@@ -30252,8 +30252,8 @@ Apply</note>
       <tuv lang="ru">
         <seg>Выходное поле уже задано, заменить выходное поле?</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T113117Z">
-        <seg>Target field already specified. Change target field?</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T103816Z">
+        <seg>Target field already set. Change target field?</seg>
       </tuv>
     </tu>
     <tu>
