@@ -105294,8 +105294,8 @@ Restore default field list</note>
       <tuv lang="ru">
         <seg>Все строковые макс</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251016T004712Z">
-        <seg>All Strings (Max)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004757Z">
+        <seg>All Strings Max.</seg>
       </tuv>
     </tu>
     <tu>
@@ -105338,6 +105338,9 @@ Restore default field list</note>
       <tuv lang="ru">
         <seg>Удалять существующую таблицу</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004830Z">
+        <seg>Delete existing table</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105379,6 +105382,9 @@ Restore default field list</note>
       <tuv lang="ru">
         <seg>Не NULL</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004838Z">
+        <seg>Not NULL</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105386,6 +105392,9 @@ Restore default field list</note>
       <note>Key = exports/dbexport/DBCreateTableDialog.colPrimaryKey.tooltip</note>
       <tuv lang="ru">
         <seg>Первичный ключ</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004847Z">
+        <seg>Primary key</seg>
       </tuv>
     </tu>
     <tu>
@@ -105421,6 +105430,9 @@ Restore default field list</note>
 Create New Table</note>
       <tuv lang="ru">
         <seg>Создание таблицы</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004926Z">
+        <seg>Create Table</seg>
       </tuv>
     </tu>
     <tu>
@@ -105488,6 +105500,9 @@ Data type</note>
       <tuv lang="ru">
         <seg>Тип данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004933Z">
+        <seg>Data type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105496,6 +105511,9 @@ Data type</note>
       <tuv lang="ru">
         <seg>Не NULL</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004941Z">
+        <seg>Not NULL</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -105503,6 +105521,9 @@ Data type</note>
       <note>Key = exports/dbexport/DBEditFieldDefsForm.chkPrimaryKey.fieldLabel</note>
       <tuv lang="ru">
         <seg>Первичный ключ</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T004949Z">
+        <seg>Primary key</seg>
       </tuv>
     </tu>
     <tu>
@@ -105533,6 +105554,9 @@ Data type</note>
       <note>Key = exports/dbexport/DBEditFieldDefsForm.frmDBEditFieldDefsForm.title</note>
       <tuv lang="ru">
         <seg>Редактирование поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005007Z">
+        <seg>Edit Field</seg>
       </tuv>
     </tu>
     <tu>
@@ -106502,6 +106526,9 @@ Apply</note>
       <note>Key = ext/errormessage/DetailPanel.btnDetais.text</note>
       <tuv lang="ru">
         <seg>Технические подробности</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005033Z">
+        <seg>Technical Details</seg>
       </tuv>
     </tu>
     <tu>
