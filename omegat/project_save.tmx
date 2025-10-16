@@ -31898,8 +31898,8 @@ List of Values</note>
       <tuv lang="ru">
         <seg>Строгая проверка соответствия входного JSON структуре выходного дерева</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251013T130732Z">
-        <seg>Strong check mapping input JSON to output tree structure</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T104133Z">
+        <seg>Strong check when mapping input JSON to output tree structure</seg>
       </tuv>
     </tu>
     <tu>
