@@ -117149,6 +117149,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Добавить в исключенные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005404Z">
+        <seg>Add to excluded</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -117178,6 +117181,9 @@ Cancel</note>
       <note>Key = wizards/columns/ColumnsMappingWizard.btnAddMappingToExcluded.tooltip</note>
       <tuv lang="ru">
         <seg>Добавить в исключенные</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005409Z">
+        <seg>Add to excluded</seg>
       </tuv>
     </tu>
     <tu>
@@ -118190,6 +118196,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Параметры SQL Server</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005424Z">
+        <seg>SQL Server Parameters</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -118713,6 +118722,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Добавить в исключенные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005431Z">
+        <seg>Add to excluded</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -118930,6 +118942,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Отображать исключенные</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005441Z">
+        <seg>Show excluded</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119113,6 +119128,9 @@ Cancel</note>
       <note>Key = wizards/datatree/DataTreeNodeDefsMappingWizard.mniLoadByJSON.text</note>
       <tuv lang="ru">
         <seg>Загрузить из JSON...</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005501Z">
+        <seg>Load from JSON...</seg>
       </tuv>
     </tu>
     <tu>
@@ -119322,6 +119340,9 @@ Load</note>
       <tuv lang="ru">
         <seg>Загрузить</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005513Z">
+        <seg>Load</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119341,6 +119362,9 @@ Load</note>
       <tuv lang="ru">
         <seg>Шаблон даты/времени</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005526Z">
+        <seg>Date/time template</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119348,6 +119372,9 @@ Load</note>
       <note>Key = wizards/datatree/JSONLoadingDialog.frmJSONLoadingDialog.title</note>
       <tuv lang="ru">
         <seg>Загрузить дерево из JSON</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005547Z">
+        <seg>Load Tree from JSON</seg>
       </tuv>
     </tu>
     <tu>
@@ -119368,6 +119395,9 @@ Load</note>
       <tuv lang="ru">
         <seg>При загрузке схемы существующие узлы будут удалены</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005602Z">
+        <seg>Existing nodes will be deleted when loading schema</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119376,6 +119406,9 @@ Load</note>
       <tuv lang="ru">
         <seg>Из файла</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005614Z">
+        <seg>From File</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -119383,6 +119416,9 @@ Load</note>
       <note>Key = wizards/datatree/JSONLoadingDialog.pnlText.title</note>
       <tuv lang="ru">
         <seg>Из строки</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005633Z">
+        <seg>From String</seg>
       </tuv>
     </tu>
     <tu>
@@ -120767,6 +120803,9 @@ Edit Variable</note>
       <tuv lang="ru">
         <seg>Добавить переменную</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005641Z">
+        <seg>Add Variable</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -120785,6 +120824,9 @@ Edit Variable</note>
       <note>Key = wizards/WizardForm.btnDone.text</note>
       <tuv lang="ru">
         <seg>Готово</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T005646Z">
+        <seg>Done</seg>
       </tuv>
     </tu>
     <tu>
