@@ -129135,6 +129135,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002547Z">
+        <seg>Add OR Operator</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
