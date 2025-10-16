@@ -454,3 +454,4 @@ P-значение	P-value
 не включительно	non-inclusive
 условия фильтрации	filter criteria
 условие фильтрации	filter condition
+слияние	join
