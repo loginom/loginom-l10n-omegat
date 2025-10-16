@@ -24110,8 +24110,8 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Сессия закрыта, потому что c этим же аккаунтом был осуществлен вход с другого места</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251010T161610Z">
-        <seg>Session closed, as there was another login from this account</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T103140Z">
+        <seg>Session closed because of another login from this account</seg>
       </tuv>
     </tu>
     <tu>
