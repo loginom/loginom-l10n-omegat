@@ -129146,6 +129146,9 @@ Cancel</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002556Z">
+        <seg>Add OR operator</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129179,6 +129182,9 @@ Move Down</note>
       <tuv lang="ru">
         <seg>Переместить вниз</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002603Z">
+        <seg>Move down</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129189,6 +129195,9 @@ Move up
 Move Up</note>
       <tuv lang="ru">
         <seg>Переместить вверх</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002608Z">
+        <seg>Move up</seg>
       </tuv>
     </tu>
     <tu>
@@ -129209,6 +129218,9 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Открыть окно предпросмотра...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002619Z">
+        <seg>Ope preview window...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129217,6 +129229,9 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Переносить текст</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002631Z">
+        <seg>Wrap text</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129224,6 +129239,9 @@ Move Up</note>
       <note>Key = components/filterdata/FilterDataPanel.chkEnableFilter.boxLabel</note>
       <tuv lang="ru">
         <seg>Включить фильтр</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002657Z">
+        <seg>Enable filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -129292,6 +129310,9 @@ Relation</note>
       <tuv lang="ru">
         <seg>Условие</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002817Z">
+        <seg>Antecedent</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129311,6 +129332,9 @@ Relation</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ ниже</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002845Z">
+        <seg>Add OR operator lower</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -129318,6 +129342,9 @@ Relation</note>
       <note>Key = components/filterdata/FilterDataPanel.mniAddORBefore.text</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ выше</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251016T002902Z">
+        <seg>Add OR operator before</seg>
       </tuv>
     </tu>
     <tu>
