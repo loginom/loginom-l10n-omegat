@@ -3388,9 +3388,6 @@
     "pedTimeout.valueConfig": {
       "emptyText": "∞"
     },
-    "pnlTableView": {
-      "title": "My Panel"
-    },
     "tabFields": {
       "title": "Поля входного набора"
     },
