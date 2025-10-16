@@ -405,7 +405,6 @@ P-значение	P-value
 Осуществлять перебор, перебирать	Iterate over
 Количество отсчетов	Lag count
 Транспонировать	Transpose
-Условия фильтрации	Filtering criteria
 Сложное условие	Complex criterion
 Метод скользящего окна	Windowing method
 Таблица замен	Replacement table
@@ -453,3 +452,5 @@ P-значение	P-value
 единица измерения	unit	(unit of measure)
 включительно	inclusive
 не включительно	non-inclusive
+условия фильтрации	filter criteria
+условие фильтрации	filter condition
