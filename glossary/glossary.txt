@@ -456,3 +456,4 @@ P-значение	P-value
 условия фильтрации	filter criteria
 условие фильтрации	filter condition
 слияние	join
+Трасса вызовов	stack trace
