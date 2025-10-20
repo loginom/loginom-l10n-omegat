@@ -5519,8 +5519,8 @@ Calculations are performed with the String characters sequence using UTF-8 encod
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150812Z" creationid="zamaraev" creationdate="20251016T150812Z">
-        <seg>Links with non-existent objects were found.
+      <tuv lang="en" changeid="mihalina" changedate="20251020T154004Z" creationid="zamaraev" creationdate="20251016T150812Z">
+        <seg>Links with nonexistent objects were found.
 Do you want to delete all lost links and continue?</seg>
       </tuv>
     </tu>
@@ -21091,8 +21091,8 @@ Do you really want to delete "{1}" component?</seg>
         <seg>Обнаружены связи с несуществующими объектами.
 Вы хотите удалить все потерянные связи и продолжить?</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150812Z" creationid="zamaraev" creationdate="20251016T150812Z">
-        <seg>Links with non-existent objects were found.
+      <tuv lang="en" changeid="mihalina" changedate="20251020T154415Z" creationid="zamaraev" creationdate="20251016T150812Z">
+        <seg>Links with nonexistent objects were found.
 Do you want to delete all lost links and continue?</seg>
       </tuv>
     </tu>
