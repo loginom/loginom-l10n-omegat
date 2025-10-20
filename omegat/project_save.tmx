@@ -8331,8 +8331,8 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Переменная с именем {0} уже существует.</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150812Z" creationid="zamaraev" creationdate="20251016T150812Z">
-        <seg>Variable with name "{0}" already exists.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T130310Z" creationid="zamaraev" creationdate="20251016T150812Z">
+        <seg>Variable with name {0} already exists.</seg>
       </tuv>
     </tu>
     <tu>
