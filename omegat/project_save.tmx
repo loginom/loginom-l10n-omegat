@@ -128660,8 +128660,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Условие</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Antecedent</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T130346Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Operator</seg>
       </tuv>
     </tu>
     <tu>
