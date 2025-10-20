@@ -70295,8 +70295,8 @@ Result:
       <tuv lang="ru">
         <seg>таблица %s имеет заданное правило (RULE)</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>table %s has a rule specified (RULE)</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T155136Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>table %s has a rule specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -101204,8 +101204,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Добавить соседний узел</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Add neighboring node</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T155154Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Add sibling node</seg>
       </tuv>
     </tu>
     <tu>
@@ -118067,8 +118067,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Добавить соседний узел</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Add neighboring node</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T155224Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Add sibling node</seg>
       </tuv>
     </tu>
     <tu>
@@ -125943,8 +125943,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Добавить соседний узел</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Add neighboring node</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T155143Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Add sibling node</seg>
       </tuv>
     </tu>
     <tu>
@@ -127725,8 +127725,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Добавить соседний узел</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Add neighboring node</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T155149Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Add sibling node</seg>
       </tuv>
     </tu>
     <tu>
