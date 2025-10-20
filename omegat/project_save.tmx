@@ -70317,8 +70317,8 @@ Result:
       <tuv lang="ru">
         <seg>Установленные на таблицу %s правила (RULE) будут проигнорированы</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Rules (RULE) set for table %s will be ignored</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T134325Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Rules set for table %s will be ignored</seg>
       </tuv>
     </tu>
     <tu>
@@ -70647,8 +70647,8 @@ Result:
       <tuv lang="ru">
         <seg>Объединённый набор данных уже подготовлен к заполнению</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Combined dataset already prepared for fill-in</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T134502Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Combined dataset already prepared to be filled</seg>
       </tuv>
     </tu>
     <tu>
