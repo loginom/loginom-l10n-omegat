@@ -94868,8 +94868,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>, Трасса вызовов: "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>, Call stack trace: "%s"</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T134134Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>, Stack trace: "%s"</seg>
       </tuv>
     </tu>
     <tu>
