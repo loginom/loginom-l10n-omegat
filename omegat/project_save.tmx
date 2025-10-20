@@ -70636,8 +70636,8 @@ Result:
       <tuv lang="ru">
         <seg>Объединённый набор данных не подготовлен к заполнению</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Combined dataset not prepared for fill-in</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T134955Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Combined dataset not prepared to be filled</seg>
       </tuv>
     </tu>
     <tu>
