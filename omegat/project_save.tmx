@@ -25605,8 +25605,8 @@ Do you really want to create one more component?</seg>
       <tuv lang="ru">
         <seg>Пересоздать базовый узел</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150812Z" creationid="zamaraev" creationdate="20251016T150812Z">
-        <seg>Recreate base node</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T154623Z" creationid="zamaraev" creationdate="20251016T150812Z">
+        <seg>Re-create base node</seg>
       </tuv>
     </tu>
     <tu>
@@ -66800,8 +66800,8 @@ Result:
       <tuv lang="ru">
         <seg>Не удалось пересоздать таблицу "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Failed to recreate "%s" table</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T154631Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Failed to re-create "%s" table</seg>
       </tuv>
     </tu>
     <tu>
@@ -70955,8 +70955,8 @@ Result:
       <tuv lang="ru">
         <seg>Невозможно пересоздать индекс имен элементов</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Failed to recreate node name index</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T154654Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Failed to re-create node name index</seg>
       </tuv>
     </tu>
     <tu>
@@ -75574,8 +75574,8 @@ Do you want to sync all extensions?</seg>
       <tuv lang="ru">
         <seg>Невозможно пересоздать индекс имен узлов</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>Failed to recreate node name index</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T154716Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>Failed to re-create node name index</seg>
       </tuv>
     </tu>
     <tu>
