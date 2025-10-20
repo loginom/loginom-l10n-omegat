@@ -611,7 +611,7 @@
   "components/calcdata/CalcItem": {
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ExprCalculateError": "Error calculating \"%s\" expression, row %d of the input dataset",
-    "ExprCalculateErrorTrace": ", Call stack trace: \"%s\""
+    "ExprCalculateErrorTrace": ", Stack trace: \"%s\""
   },
   "components/calcdata/CalcItemChakra": {
     "ErrExprParse": "Error parsing \"%s\" expression",
@@ -665,7 +665,7 @@
     "ErrExprParse": "Error parsing \"%s\" expression",
     "ErrReplacingInputVariableNotFound": "Input variable to replace with expression \"%s\" not found",
     "ErrVarValueSet": "Error setting \"%s\" expression value",
-    "ExprCalculateErrorTrace": ", Call stack trace: \"%s\"",
+    "ExprCalculateErrorTrace": ", Stack trace: \"%s\"",
     "ExprNameNotExists": "No expression with name \"%s\" exists",
     "NameNotExists": "No input variable or expression with \"%s\" name exists",
     "PreviewProcess": "Previewing calculation results",
@@ -2539,7 +2539,7 @@
     "InfoTableUnsupportedTypes": "%s has unsupported data types",
     "InfoTableWithRules": "table %s has a rule specified (RULE)",
     "InfoViewNotTable": "%s is not a table",
-    "WarnTableRulesWillbeIgnored": "Rules (RULE) set for table %s will be ignored"
+    "WarnTableRulesWillbeIgnored": "Rules set for table %s will be ignored"
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
     "DatabaseTypeName": "SQLite",
@@ -2577,8 +2577,8 @@
     "ErrPartUnionDataSetNotExist": "The requested part of the combined set doesn't exist",
     "ErrRowCountLimitReached": "Maximum row count limit reached",
     "ErrTargetHeapIsLoad": "Target set heap already loaded",
-    "ErrUnionDataSetIsNotPrepared": "Combined dataset not prepared for fill-in",
-    "ErrUnionDataSetIsPrepared": "Combined dataset already prepared for fill-in"
+    "ErrUnionDataSetIsNotPrepared": "Combined dataset not prepared to be filled",
+    "ErrUnionDataSetIsPrepared": "Combined dataset already prepared to be filled"
   },
   "Libraries/bgrtl/CachedDataTree": {
     "ErrCannotGetForeignKey": "Failed to get the foreign key for the node with identifier %d: the node is not an array",

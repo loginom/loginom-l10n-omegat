@@ -521,7 +521,7 @@
       "emptyText": "Search"
     },
     "frmFindNodeForm": {
-      "title": "Search"
+      "title": "Find"
     }
   },
   "app/LicenseItem": {
@@ -2784,7 +2784,7 @@
       "text": "Field"
     },
     "colRelationType": {
-      "text": "Antecedent"
+      "text": "Operator"
     },
     "colValue": {
       "text": "Value"
@@ -3852,8 +3852,8 @@
       "tooltip": "Move up"
     },
     "btnStringMax": {
-      "text": "All Strings Max.",
-      "tooltip": "All strings max..."
+      "text": "All String(max)",
+      "tooltip": "All string(max)..."
     },
     "cbxTableName": {
       "fieldLabel": "Table name"

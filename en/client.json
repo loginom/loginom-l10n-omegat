@@ -1384,7 +1384,7 @@
     "ErrFieldEmptyName": "Field name cannot be empty",
     "FieldEditingTitle": "Edit Field",
     "GroupEditingTitle": "Group Editing",
-    "TextTypeName": "String (max)"
+    "TextTypeName": "String(max)"
   },
   "exports/dbexport/DBExportMappingWizard": {
     "colDisplayNameTitle": "Database Table Fields",
@@ -1573,10 +1573,10 @@
   },
   "ext/VariablesClipboard": {
     "AddConflict": "Add as a new record with a unique name.",
-    "AddedCount": "• New records added: {0};\n",
+    "AddedCount": "• New added: {0};\n",
     "BadBrowserMsg": "This operation is not supported in our browser.",
-    "BreakConflict": "Abort",
-    "ChangedCount": "• Existing records modified: {0};\n",
+    "BreakConflict": "Stop",
+    "ChangedCount": "• Existing modified: {0};\n",
     "ConflictForAll": "Apply to all conflicts",
     "ConflictSummary": "Total number of conflicts: {0}.\nConflicts to resolve: {1}.",
     "CopyError": "Error while copying to clipboard",
@@ -1599,7 +1599,7 @@
     "ResolveConflict": "Resolve conflict",
     "SkipConflict": "Skip record paste.",
     "VariableConflictTitle": "Same Name Variables Conflict",
-    "VariableNameExists": "Variable with name \"{0}\" already exists.\n",
+    "VariableNameExists": "Variable with name {0} already exists.\n",
     "VariableNotChange": "Variable {0} was not changed. Check if it is editable or enter different data.",
     "VariablesNotChange": "{0} variables were not changed. Check if they are editable or use different data."
   },
