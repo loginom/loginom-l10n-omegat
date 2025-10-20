@@ -2082,7 +2082,7 @@
       "tooltip": "Add container"
     },
     "btnAddSiblingExpr": {
-      "tooltip": "Add neighboring node"
+      "tooltip": "Add sibling node"
     },
     "btnDeleteExprNode": {
       "tooltip": "Delete"
@@ -2544,7 +2544,7 @@
       "tooltip": "Add child node"
     },
     "btnAddSibling": {
-      "tooltip": "Add neighboring node"
+      "tooltip": "Add sibling node"
     },
     "btnAutoLinkAll": {
       "text": "Auto Link All"
@@ -2928,7 +2928,7 @@
       "tooltip": "Add child node"
     },
     "btnAddSibling": {
-      "tooltip": "Add neighboring node"
+      "tooltip": "Add sibling node"
     },
     "btnBuildTreeTemplate": {
       "tooltip": "Autodetect the structure"
@@ -3853,7 +3853,7 @@
     },
     "btnStringMax": {
       "text": "All String(max)",
-      "tooltip": "All string(max)..."
+      "tooltip": "All String to String(max)..."
     },
     "cbxTableName": {
       "fieldLabel": "Table name"
@@ -7137,7 +7137,7 @@
       "tooltip": "Add to excluded"
     },
     "btnAddSibling": {
-      "tooltip": "Add neighboring node"
+      "tooltip": "Add sibling node"
     },
     "btnAutoLink": {
       "text": "Auto Link"

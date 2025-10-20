@@ -2144,7 +2144,7 @@
     "ErrColumnNotFound": "\"%s\" field not found in the data source",
     "ErrColumnTypesMismatch": "\"%s\" field type is not compatible with \"%s\" source field type",
     "ErrCouldntCreateTable": "Failed to create \"%s\" table",
-    "ErrCouldntRewriteTable": "Failed to recreate \"%s\" table",
+    "ErrCouldntRewriteTable": "Failed to re-create \"%s\" table",
     "ErrDataSourceSelect": "No data source mapping provided",
     "ErrDuringExport": "Error while exporting to Tableau file",
     "ErrExtensionNotSupported": "\"%s\" extension is not a correct extension of Tableau Extract file",
@@ -2537,7 +2537,7 @@
     "DatabaseTypeName": "PostgreSQL",
     "InfoSwitchToInsert": "Switching to adding records via INSERT. Reason: ",
     "InfoTableUnsupportedTypes": "%s has unsupported data types",
-    "InfoTableWithRules": "table %s has a rule specified (RULE)",
+    "InfoTableWithRules": "table %s has a rule specified",
     "InfoViewNotTable": "%s is not a table",
     "WarnTableRulesWillbeIgnored": "Rules set for table %s will be ignored"
   },
@@ -2606,7 +2606,7 @@
     "ErrSameItemsGuid": "\"%s\" and \"%s\" items have the same \"%s\" identifiers",
     "ErrSameItemsID": "\"%s\" and \"%s\" items have the same identifiers \"%d\"",
     "ErrSameItemsName": "\"%s\" and \"%s\" items have the same \"%s\" names",
-    "ErrUnableToRecreateNamesIndex": "Failed to recreate node name index",
+    "ErrUnableToRecreateNamesIndex": "Failed to re-create node name index",
     "ErrVendorAlreadyRegistered": "\"%s\" vendor has already been registered",
     "ErrVendorNameConverterAlreadyRegistered": "Name converter from \"%s\" to\"%s\" vendors already registered",
     "ItemMetaDesc": "Item"
@@ -3124,7 +3124,7 @@
   },
   "Libraries/bgrtl/Trees": {
     "ErrTreeWalk": "This tree walk implementation is missing",
-    "ErrUnableToRecreateNamesIndex": "Failed to recreate node name index",
+    "ErrUnableToRecreateNamesIndex": "Failed to re-create node name index",
     "NodeMetaDesc": "Node",
     "RootDisplayName": "Root"
   },

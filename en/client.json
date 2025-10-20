@@ -451,7 +451,7 @@
     "NotFoundDerivedVendor": "Failed to find derived component in the opened packages",
     "PackageNamePrefix": "Package=",
     "PropertyInspectorLocale": "en",
-    "RecreateBaseNodeForDerivedVendor": "Recreate base node",
+    "RecreateBaseNodeForDerivedVendor": "Re-create base node",
     "RemoveAnnotationConfirm": "Delete selected annotation?",
     "RemoveComment": "Delete comment",
     "RemoveLinkConfirm": "Delete selected link?",
@@ -1269,7 +1269,7 @@
     "NoTimeAxisColumn": "No column selected",
     "OutputColumnUsageType": "Field with names",
     "QuotaColumnUsageType": "Field with quotas",
-    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue?",
+    "RemoveInvalidRelationsConfirm": "Links with nonexistent objects were found.\nDo you want to delete all lost links and continue?",
     "RoundDecimalParamLabel": "Decimal place accuracy",
     "RoundMultipleParamLabel": "Multiplicity",
     "RoundParamLabel": "Rounding parameter",
@@ -1573,10 +1573,10 @@
   },
   "ext/VariablesClipboard": {
     "AddConflict": "Add as a new record with a unique name.",
-    "AddedCount": "• New added: {0};\n",
+    "AddedCount": "• Variables added: {0};\n",
     "BadBrowserMsg": "This operation is not supported in our browser.",
     "BreakConflict": "Stop",
-    "ChangedCount": "• Existing modified: {0};\n",
+    "ChangedCount": "• Variables modified: {0};\n",
     "ConflictForAll": "Apply to all conflicts",
     "ConflictSummary": "Total number of conflicts: {0}.\nConflicts to resolve: {1}.",
     "CopyError": "Error while copying to clipboard",
@@ -2935,7 +2935,7 @@
     "Exclude": "Exclude",
     "GroupField_Excluded": "Excluded",
     "NotDeleteAndContinue": "Continue without deleting",
-    "RemoveInvalidRelationsConfirm": "Links with non-existent objects were found.\nDo you want to delete all lost links and continue?"
+    "RemoveInvalidRelationsConfirm": "Links with nonexistent objects were found.\nDo you want to delete all lost links and continue?"
   },
   "wizards/columns/DataSetOutputSocketWizard": {
     "frmColumnsMappingTitle": "Configure Output Columns"
