@@ -8010,8 +8010,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>• Добавлено новых: {0};</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251020T140201Z" creationid="zamaraev" creationdate="20251016T150812Z">
-        <seg>• New added: {0};</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T153514Z" creationid="zamaraev" creationdate="20251016T150812Z">
+        <seg>• Variables added: {0};</seg>
       </tuv>
     </tu>
     <tu>
@@ -8043,8 +8043,8 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>• Изменено существующих: {0};</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251020T135050Z" creationid="zamaraev" creationdate="20251016T150812Z">
-        <seg>• Existing modified: {0};</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251020T153405Z" creationid="zamaraev" creationdate="20251016T150812Z">
+        <seg>• Variables modified: {0};</seg>
       </tuv>
     </tu>
     <tu>
