@@ -27,8 +27,6 @@ String	String	последовательность символов.
 Уровень логирования	Logging level
 Выходной набор	Output dataset
 Число e	e constant
-В заданной степени	In the given degree
-Константы "ПИ"	pi constant
 Логарифм	Logarithm
 Аргумент	Argument
 Подстрока	Substring
@@ -456,3 +454,5 @@ P-значение	P-value
 условие фильтрации	filter condition
 слияние	join
 Трасса вызовов	stack trace
+в заданной степени	raised to the specified (given) power
+константы "ПИ"	the constant pi
