@@ -113201,7 +113201,7 @@ To solve this problem it is required to enable Caching.</seg>
     <tu>
       <prop type="file">views.json</prop>
       <prop type="id">tu1991_0</prop>
-      <note>Key = viewers/cube/CubeView.btnSuspendAutoCalculate.tooltip</note>
+      <note>аKey = viewers/cube/CubeView.btnSuspendAutoCalculate.tooltip</note>
       <tuv lang="ru">
         <seg>Приостановить автовычисление</seg>
       </tuv>
