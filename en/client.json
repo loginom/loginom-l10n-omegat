@@ -1370,7 +1370,7 @@
     "ErrFieldSize": "Size of {0} field must be more than 0",
     "ErrTableName": "Invalid table name",
     "ExecuteSQLRequestBtnText": "Execute Query",
-    "PromoteAllToStringMaxBody": "Change String type to String (max) type for all fields?",
+    "PromoteAllToStringMaxBody": "Change String type to String(max) type for all fields?",
     "PromoteAllToStringMaxTitle": "Change Field Types",
     "ResetQuestionBody": "Do you want to reset the SQL query changes?",
     "ResetQuestionTitle": "Reset Changes"
