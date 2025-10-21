@@ -796,7 +796,7 @@
       "$Caption": "Use Fast Loader",
       "No": "No",
       "Yes": "Yes",
-      "Auto": "Automatically"
+      "Auto": "Auto"
     },
     "DBExportType": {
       "$Caption": "Export Mode",
