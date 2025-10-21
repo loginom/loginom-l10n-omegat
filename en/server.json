@@ -4849,7 +4849,7 @@
     "VendorDesc": "\"Coarse classes\" visualizer"
   },
   "Viewers/Cube/CubeCalcSummaries": {
-    "CalculationExpressioErrorTrace": ", Call stack trace: \"%s\"",
+    "CalculationExpressioErrorTrace": ", Stack trace: \"%s\"",
     "ErrCalculationExpression": "Error occurred while calculating the expression corresponding to calculated measure \"%s\"",
     "ErrExprResultIsString": "The expression result is of string type",
     "ErrParseExpression": "Error occurred while parsing the expression corresponding to calculated measure \"%s\"",

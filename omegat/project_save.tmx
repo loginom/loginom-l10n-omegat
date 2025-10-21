@@ -90484,8 +90484,8 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>, Трасса вызовов: "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251016T150813Z" creationid="zamaraev" creationdate="20251016T150813Z">
-        <seg>, Call stack trace: "%s"</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20251021T085019Z" creationid="zamaraev" creationdate="20251016T150813Z">
+        <seg>, Stack trace: "%s"</seg>
       </tuv>
     </tu>
     <tu>
