@@ -20,28 +20,28 @@
       "Name": "Имя"
     }
   },
-  "Common/HTTPClient/WSDLClientAuth": {
-    "WSDLAuthentication": {
+  "Common/HTTPClient/WebServiceAuth": {
+    "WebServiceAuth": {
       "CertFileCredentials": "Реквизиты аутентификации пользовательским сертификатом",
       "Mode": "Тип аутентификации",
-      "NamePassCredentials": "Реквизиты аутентификации по имени пользователя и паролю",
-      "OAuthCredentials": "Реквизиты аутентификации по токену OAuth"
+      "OAuthCredentials": "Реквизиты аутентификации по токену OAuth",
+      "PasswordCredentials": "Реквизиты аутентификации по имени пользователя и паролю"
     },
-    "WSDLCertFileAuthCredentials": {
+    "WebServiceCertFileCredentials": {
       "SSLCert": "Сертификат пользователя",
       "SSLKey": "Приватный ключ",
       "SSLKeyPassword": "Пароль приватного ключа"
     },
-    "WSDLNamePassAuthCredentials": {
+    "WebServiceOAuthCredentials": {
+      "Token": "Токен OAuth"
+    },
+    "WebServicePasswordCredentials": {
       "Password": "Пароль",
       "UserName": "Имя пользователя"
-    },
-    "WSDLOAuthCredentials": {
-      "Token": "Токен OAuth"
     }
   },
-  "Common/HTTPClient/WSDLRequestDebug": {
-    "WSDLRequestDebug": {
+  "Common/HTTPClient/WebServiceRequestDebug": {
+    "WebServiceRequestDebug": {
       "DumpRequest": "Сохранять текст запроса в папку",
       "DumpRequestFolder": "Папка на диске для сохранения запросов",
       "ResponseStub": "Имя файла, подставляемого в качестве ответа",
@@ -270,6 +270,7 @@
       "CaseSensitive": "Учитывать регистр",
       "CompareValue": "Значение для сравнения",
       "CompareValueList": "Список значений",
+      "CompareValueListAsString": "Список значений в виде строки",
       "CompareValueLowerBound": "Нижняя граница",
       "CompareValuePeriodBaseDate": "Базовая дата интервала",
       "CompareValuePeriodCount": "Значение временного промежутка",
@@ -720,6 +721,7 @@
       "ClearPoolOnDeactivate": "Очищать пул при деактивации"
     },
     "DatabaseConfigurator": {
+      "BusyTimeout": "Тайм-аут ожидания сессии (с)",
       "CharacterSet": "Кодовая страница",
       "ConnectionTimeout": "Тайм-аут подключения (с)",
       "DatabasePath": "Строка подключения",
@@ -728,6 +730,7 @@
       "LoginPrompt": "Спрашивать пароль",
       "Password": "Пароль",
       "QuotedObjectNames": "Обрамлять имена кавычками",
+      "SingleConnectionMode": "Работать в одной сессии",
       "SystemTables": "Показывать системные таблицы",
       "UserName": "Логин"
     },
@@ -939,7 +942,9 @@
       "MinLogLevel": "Уровень логирования"
     },
     "LoggerConfigurator": {
+      "LogFileOperations": "Логировать удаление файлов",
       "LoggerType": "Тип логирования",
+      "LogRowCount": "Логировать количество строк при активации узла",
       "NeedDN": "Разрешать доменные имена",
       "NeedPackageName": "Логировать имя пакета у узла"
     },
@@ -1063,9 +1068,11 @@
   "Studio/DeductorServerSettings": {
     "DeductorServerSettings": {
       "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
+      "AllowedImageURLs": "Разрешенные URL для загрузки изображений при отображении их в Markdown",
+      "AllowedLinkURLs": "Разрешенные URL для формирования ссылок в Markdown",
       "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
       "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
-      "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+      "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершении",
       "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
       "FailedLoginCountLimit": "Лимит попыток ввода пароля",
       "FailedLoginTimeout": "Тайм-аут ввода пароля",

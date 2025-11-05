@@ -30,8 +30,8 @@
       "PATCH": "PATCH"
     }
   },
-  "Common/HTTPClient/WSDLClientAuth": {
-    "WSDLAuthMode": {
+  "Common/HTTPClient/WebServiceAuth": {
+    "WebServiceAuthMode": {
       "$Caption": "Тип аутентификации",
       "Absent": "Не требуется",
       "NamePass": "Имя пользователя и пароль",

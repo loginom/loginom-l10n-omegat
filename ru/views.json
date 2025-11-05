@@ -45,6 +45,20 @@
       "text": "Копировать информацию"
     }
   },
+  "admin/AllowURLsForm": {
+    "btnApply": {
+      "text": "OK"
+    },
+    "btnCancel": {
+      "text": "Отмена"
+    },
+    "rbAny": {
+      "boxLabel": "Любые"
+    },
+    "rbList": {
+      "boxLabel": "Только разрешенные"
+    }
+  },
   "admin/LDAPTestForm": {
     "btnSearch": {
       "text": "Найти"
@@ -949,13 +963,16 @@
       "text": "Отмена"
     },
     "cbxDeactivateUpstreamOnCompletion": {
-      "fieldLabel": "Деактивация групп узлов по завершению"
+      "fieldLabel": "Деактивация групп узлов по завершении"
     },
     "cbxLocale": {
       "fieldLabel": "Локаль"
     },
     "chbBinaryCmpUniqValues": {
       "fieldLabel": "Сравнивать строковые уникальные значения бинарно"
+    },
+    "chbMarkdownEnabled": {
+      "fieldLabel": "Синтаксис Markdown для заметок и комментариев"
     },
     "chbUseBasePackageFileStorage": {
       "fieldLabel": "Использовать относительные пути базового пакета"
@@ -1380,7 +1397,7 @@
       "tooltip": "Выбрать из пакета..."
     },
     "cbxDeactivateUpstreamOnCompletion": {
-      "fieldLabel": "Деактивация групп узлов по завершению"
+      "fieldLabel": "Деактивация групп узлов по завершении"
     },
     "cbxPackageFileName": {
       "fieldLabel": "Запускаемый пакет"
@@ -2784,7 +2801,7 @@
       "text": "Поле"
     },
     "colRelationType": {
-      "text": "Условие"
+      "text": "Оператор"
     },
     "colValue": {
       "text": "Значение"
@@ -3816,9 +3833,6 @@
     "colRemoveFile.0": {
       "tooltip": "Удалить"
     },
-    "edtDisplayName": {
-      "fieldLabel": "Метка"
-    },
     "frmXSDFilesConnection": {
       "title": "Настройка набора XSD-схем"
     },
@@ -3852,8 +3866,8 @@
       "tooltip": "Переместить вверх"
     },
     "btnStringMax": {
-      "text": "Все строковые макс",
-      "tooltip": "Все строковые макс..."
+      "text": "Все Строковые(max)",
+      "tooltip": "Все Строковые в Строковые(max)..."
     },
     "cbxTableName": {
       "fieldLabel": "Имя таблицы"
@@ -4969,6 +4983,65 @@
       "emptyText": "Логин"
     }
   },
+  "markdown/MarkdownEditor": {
+    "btnBold": {
+      "tooltip": "Полужирный"
+    },
+    "btnCode": {
+      "text": "Однострочный",
+      "tooltip": "Однострочный код"
+    },
+    "btnH1": {
+      "tooltip": "Заголовок 1"
+    },
+    "btnH2": {
+      "tooltip": "Заголовок 2"
+    },
+    "btnH3": {
+      "tooltip": "Заголовок 3"
+    },
+    "btnImage": {
+      "tooltip": "Изображение"
+    },
+    "btnItalic": {
+      "tooltip": "Курсив"
+    },
+    "btnLine": {
+      "text": "Разделитель",
+      "tooltip": "Разделитель"
+    },
+    "btnLink": {
+      "tooltip": "Ссылка"
+    },
+    "btnList": {
+      "tooltip": "Ненумерованный список"
+    },
+    "btnManyCode": {
+      "text": "Многострочный",
+      "tooltip": "Многострочный код"
+    },
+    "btnNumList": {
+      "tooltip": "Нумерованный список"
+    },
+    "btnQuote": {
+      "tooltip": "Цитата"
+    },
+    "btnStrikethrough": {
+      "tooltip": "Зачеркнутый"
+    },
+    "btnTable": {
+      "tooltip": "Таблица"
+    },
+    "btnTaskList": {
+      "tooltip": "Чекбоксы"
+    },
+    "pnlEdit": {
+      "title": "Редактор"
+    },
+    "pnlPreview": {
+      "title": "Предпросмотр"
+    }
+  },
   "progress/ProgressForm": {
     "colActionDelete": {
       "tooltip": "Удалить все завершенные процессы..."
@@ -5540,16 +5613,22 @@
       "tooltip": "Добавить визуализатор в отчеты"
     },
     "btnClone": {
-      "text": "Клонировать",
       "tooltip": "Клонировать"
     },
+    "btnCopy": {
+      "tooltip": "Копировать"
+    },
+    "btnCut": {
+      "tooltip": "Вырезать"
+    },
     "btnDelete": {
-      "text": "Удалить",
       "tooltip": "Удалить..."
     },
     "btnDeleteAll": {
-      "text": "Удалить все",
       "tooltip": "Удалить все..."
+    },
+    "btnPaste": {
+      "tooltip": "Вставить"
     },
     "btnRename": {
       "text": "Переименовать",
@@ -6926,9 +7005,6 @@
     "fldDescription": {
       "fieldLabel": "Комментарий"
     },
-    "fldLabel": {
-      "fieldLabel": "Метка"
-    },
     "frmConnectionWizard": {
       "title": "Параметры подключения"
     }
@@ -7136,6 +7212,9 @@
     "btnAddExcluded": {
       "tooltip": "Добавить в исключенные"
     },
+    "btnAddMappingToExcluded": {
+      "tooltip": "Добавить в исключенные"
+    },
     "btnAddSibling": {
       "tooltip": "Добавить соседний узел"
     },
@@ -7183,9 +7262,6 @@
     },
     "btnSelectAll": {
       "tooltip": "Выбрать все"
-    },
-    "btnShowExcluded": {
-      "tooltip": "Отображать исключенные"
     },
     "btnShowInvalidRelations": {
       "text": "Отображать потерянные связи"
@@ -7339,23 +7415,17 @@
     }
   },
   "wizards/done/DoneWizard": {
-    "btnDisplayNameDefault": {
-      "text": "По умолчанию"
-    },
     "btnNameDefault": {
       "text": "По умолчанию"
     },
-    "edtDisplayName": {
-      "fieldLabel": "Метка"
+    "cbxLogRowCount": {
+      "boxLabel": "Логировать количество строк при активации узла"
     },
     "edtName": {
       "fieldLabel": "Имя"
     },
     "frmDonePage": {
       "title": "Описание узла"
-    },
-    "txtDesc": {
-      "fieldLabel": "Комментарий"
     }
   },
   "wizards/genericmodelcomponent/GenericModelComponentWizard": {

@@ -92,6 +92,7 @@
   "admin/ServerSettingsForm": {
     "AdminLoginForbidTip": "Внимание! При наличии незакрытой сессии администратора невозможно будет осуществить вход с этого же аккаунта",
     "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
+    "AllowAnyURLs": "Любые URL",
     "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
     "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
     "AppSettings": "Параметры приложения",
@@ -99,8 +100,10 @@
     "ComponentSettings": "Параметры компонента",
     "ConnectionSettings": "Параметры подключения",
     "CurrentLocale": "Текущая локаль \"{0}\".",
-    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершении",
     "DefaultLocaleModified": "изменена",
+    "DenyImageURLs": "Загрузка изображений запрещена",
+    "DenyLinkURLs": "Формирование ссылкок запрещено",
     "DirectorySettings": "Папки",
     "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
     "FailedLoginCountLimit": "Лимит попыток ввода пароля",
@@ -110,15 +113,21 @@
     "FileModeUserAndGroup": "пользователь и группа",
     "IdleDisconnectTimeout": "Тайм-аут закрытия сессии (сек)",
     "IdleLockTimeout": "Тайм-аут блокировки сессии (сек)",
+    "ImageURLs": "URL для загрузки изображений",
+    "ImageURLsFormTitle": "URL префиксы, с которых разрешена загрузка изображений для Markdown",
     "InvalidUnixMode": "Значение должно быть восьмеричным числом от 000 до 777",
     "LDAPSettings": "Параметры LDAP",
     "Limit": "Лимит",
+    "LinkURLs": "URL для формирования ссылок",
+    "LinkURLsFormTitle": "URL префиксы, которые могут быть использованы для ссылок в Markdown",
     "Locale": "Локаль",
     "LogFileMaxIndex": "Количество резервных файлов",
     "LogFileMaxSize": "Максимальный размер файла",
     "LogFileName": "Имя файла",
+    "LogFileOperations": "Логировать удаление файлов",
     "LogFileRewrite": "Перезапись файла",
     "LoggerSettings": "Параметры логирования",
+    "LogRowCount": "Логировать количество строк при активации узла",
     "LogType": "Тип логирования",
     "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
     "MinLogLevel": "Уровень логирования",
@@ -392,11 +401,16 @@
     "AddNewLoop": "Добавить узел Цикл в сценарий",
     "AddNewNode": "Добавить узел в сценарий",
     "AddSchedulerJobByNode": "Добавить задачу в планировщик...",
+    "AnnotationEditorTabTitle": "Заметка (markdown)",
+    "AnnotationEditorWindowTitle": "Редактирование заметки",
     "Annotations": "Заметки: {0}",
+    "AutogenerateNodeTitle": "Сгенерировать автоматические метки",
     "CancelOperation": "Отменить операцию",
     "CantFindGenericModelNode": "Узел подмодели не найден",
     "CantFindSourceNode": "Невозможно найти исходный узел",
     "CloneNode": "Клонировать узел",
+    "CommentEditorTabTitle": "Комментарий (markdown)",
+    "CommentEditorWindowTitle": "Редактирование комментария",
     "ComposeAnnotations": "Свернуть заметки в подмодель",
     "ComposeExpandNode": "Свернуть элементы в подмодель / Развернуть подмодель",
     "ComposeItems": "Свернуть элементы в подмодель",
@@ -428,6 +442,7 @@
     "ErrVendorMalfunction": "Компонент узла \"{0}\" неисправен",
     "ExpandNode": "Развернуть подмодель",
     "ForceRetry": "Повторить принудительно",
+    "GenerateNodeTitle": "Автоматическая метка",
     "GoToConnection": "Перейти к подключению",
     "GoToConnections": "Перейти к подключениям",
     "GoToDerivedVendor": "Перейти к производному компоненту",
@@ -435,6 +450,7 @@
     "HideControlVariablesPorts": "Скрыть порт управляющих переменных",
     "Links": "Связи: {0}",
     "LockedIconTooltip": "Узел блокируется во время выполнения или настройки",
+    "LogRowCount": "Логировать количество строк",
     "NodeBatchMode": "Настроить режим активации узла...",
     "NodeIsLocked": "Узел заблокирован, изменить комментарий нельзя",
     "Nodes": "Узлы: {0}",
@@ -452,6 +468,7 @@
     "PackageNamePrefix": "Пакет=",
     "PropertyInspectorLocale": "ru",
     "RecreateBaseNodeForDerivedVendor": "Пересоздать базовый узел",
+    "RefreshNodeTitle": "Обновить метку",
     "RemoveAnnotationConfirm": "Удалить выделенную заметку?",
     "RemoveComment": "Удалить комментарий",
     "RemoveLinkConfirm": "Удалить выделенную связь?",
@@ -459,7 +476,10 @@
     "RemoveSelectedConfirm": "Удалить выделенные объекты?",
     "RenameNode": "Переименовать...",
     "ResetConfiguration": "Восстановить исходную конфигурацию узла",
+    "SaveBtnText": "Сохранить",
+    "SelectLabel": "Сперва выделите метку узла на сценарии",
     "SelectNode": "Сперва выделите узел на сценарии",
+    "SelectOneLabel": "Выберите только одну метку узла",
     "SelectOneNode": "Выберите только один узел",
     "SelectOneNodeOrLink": "Выберите только один узел или связь",
     "SelectSomething": "Сперва выделите объект на сценарии",
@@ -1351,6 +1371,8 @@
     "ExpireCertDateError": "Истек срок годности сертификата"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
+    "AutomaticConnectionTitle": "Автоматическая метка",
+    "CustomConnectionTitle": "Пользовательская метка",
     "ErrFileNameAdd": "Файл с именем \"{0}\" не может быть добавлен, вероятно он уже есть в списке"
   },
   "exports/dbexport/DBCreateTableDialog": {
@@ -1370,7 +1392,7 @@
     "ErrFieldSize": "Поле {0} должно быть с размером больше 0",
     "ErrTableName": "Неправильное имя таблицы",
     "ExecuteSQLRequestBtnText": "Выполнить запрос",
-    "PromoteAllToStringMaxBody": "Заменить тип Строковый на Строковый (макс) для всех полей?",
+    "PromoteAllToStringMaxBody": "Заменить тип Строковый на Строковый(max) для всех полей?",
     "PromoteAllToStringMaxTitle": "Замена типов полей",
     "ResetQuestionBody": "Сбросить изменения SQL-запроса?",
     "ResetQuestionTitle": "Сброс изменений"
@@ -1384,7 +1406,7 @@
     "ErrFieldEmptyName": "Имя поля не может быть пустым",
     "FieldEditingTitle": "Редактирование поля",
     "GroupEditingTitle": "Групповое редактирование",
-    "TextTypeName": "Строковый (макс)"
+    "TextTypeName": "Строковый(max)"
   },
   "exports/dbexport/DBExportMappingWizard": {
     "colDisplayNameTitle": "Поля таблицы базы данных",
@@ -1528,7 +1550,7 @@
   "ext/ModelDataSerializer": {
     "ContextErrorMsg": "Строка: {0}",
     "ErrorTitleMsg": "Ошибка валидации.",
-    "ErrorVariablesFormat": "Неверный формат данных. Убедитесь, что каждая строка содержит не менее {0} значение(я/ий), разделённое(ые) табуляцией.",
+    "ErrorVariablesFormat": "Неверный формат данных. Убедитесь, что каждая строка содержит не менее {0} значений, разделённых табуляцией.",
     "InvalidDataTypeMsg": "{0} - не является допустимым типом данных. Допустимые типы данных: boolean, datetime, float, integer, string, variant.",
     "InvalidHeaderMsgDuplicate": "Некорректный заголовок: найден дубликат имени колонки.",
     "InvalidHeaderMsgEmpty": "Некорректный заголовок: имя колонки не может быть пустым.",
@@ -1600,7 +1622,7 @@
     "SkipConflict": "Пропустить вставку записи.",
     "VariableConflictTitle": "Конфликт переменных с одинаковыми именами",
     "VariableNameExists": "Переменная с именем {0} уже существует.\n",
-    "VariableNotChange": "Переменная {0} осталась без изменений. Проверьте возможность её редактирования или укажите данные отличающиеся от текущих.",
+    "VariableNotChange": "Переменная {0} осталась без изменений. Проверьте возможность её редактирования или укажите данные, отличающиеся от текущих.",
     "VariablesNotChange": "Не были изменены {0} переменных. Проверьте их редактируемость или используйте другие данные."
   },
   "ext/VariantEditor": {
@@ -2594,6 +2616,7 @@
     "NeedNotEmptyGroupName": "Необходимо задать непустое имя группы",
     "SetNewGroupName": "Имя новой группы:",
     "ShowInReports": "Показать в Отчетах",
+    "SkippedInvalidVendors": "Визуализаторы, которые не совместимы с портом, не были добавлены",
     "TitleUndefined": "визуализатор",
     "TuneViews": "Визуализаторы",
     "VendorNotValid": "Выбран несовместимый с портом визуализатор",
@@ -2973,6 +2996,8 @@
     "MoveButtonTooltip": "Переместить в {0}"
   },
   "wizards/connection/ConnectionConfigWizard": {
+    "AutomaticConnectionTitle": "Автоматическая метка",
+    "CustomConnectionTitle": "Пользовательская метка",
     "TestConnectionSuccess": "Тестирование соединения прошло успешно",
     "TestConnectionTitle": "Тестирование соединения",
     "WizardTitle": "параметры подключения"
@@ -2983,6 +3008,7 @@
   },
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Настроить модификатор доступа...",
+    "BtnAutogenerateSelectedTitles": "Сгенерировать автоматические метки",
     "BtnDeactivateAll": "Деактивировать все",
     "BtnShowVendorsEdit": "Показать/скрыть дерево коннекторов",
     "BtnTextTest": "Тестировать",
@@ -3003,6 +3029,7 @@
     "Delete": "Удалить",
     "DeleteConnectionPrompt": "Действительно удалить подключение {0}?",
     "DeleteConnectionPromptTitle": "Удаление подключения",
+    "GenerateNodeTitle": "Автоматическая метка",
     "InsertConnection": "Добавить подключение",
     "LabelConnectionPath": "Адрес",
     "LabelTitle": "Метка",
@@ -3099,6 +3126,11 @@
   },
   "wizards/datatree/TuneDataTreeInputPortWizard": {
     "frmDataTreeMappingTitle": "Настройка входного дерева данных"
+  },
+  "wizards/done/DoneWizard": {
+    "AutomaticNodeTitle": "Автоматическая метка",
+    "CustomNodeTitle": "Пользовательская метка",
+    "EditCommentTabTitle": "Комментарий"
   },
   "wizards/genericmodelcomponent/GenericModelComponentWizard": {
     "ActionAdd": "Добавить",

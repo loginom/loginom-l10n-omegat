@@ -159,7 +159,7 @@
   "Common/HTTPClient/HTTPHeaders": {
     "ErrInvalidHeaderName": "Недопустимое имя заголовка %s"
   },
-  "Common/HTTPClient/WSDLClientAuth": {
+  "Common/HTTPClient/WebServiceAuth": {
     "ErrFileNoAccess": "Файл \"%s\" недоступен",
     "ErrFileNotFound": "Файл \"%s\" не найден",
     "ErrGetFileStorage": "Отсутствует ссылка на файловое хранилище"
@@ -464,6 +464,7 @@
   },
   "components/assnrules/AssnRulesEngine": {
     "AssnRulesApplyProcess": "Применение модели ассоциативных правил",
+    "AssnRulesComponentShortTitle": "Ассоц. правила: ",
     "AssnRulesFPGrowthProcess": "Поиск частых наборов",
     "AssnRulesFPTreeProcess": "Построение FP-дерева",
     "AssnRulesTraceRulesProcess": "Поиск правил",
@@ -498,6 +499,7 @@
   },
   "components/autocorrelation/AutoCorrelationEngine": {
     "ACFDisplayName": "АКФ",
+    "AutoCorrelationShortTip": "Автокорр.: ",
     "ErrFFTHugeSize": "Размеры входного источника данных превышают допустимые значения для расчета в частотной области",
     "ErrOverflow": "Размеры входного источника данных или число лагов превышают допустимые значения",
     "LagDisplayName": "Лаг",
@@ -511,6 +513,7 @@
     "VendorDesc": "Расчет значений автокорреляционной функции"
   },
   "components/binning/Binning": {
+    "BinningComponentTitle": "Квантование: ",
     "CalculatingBarChartsProcess": "Расчет гистограммы",
     "CalculatingBinsProcess": "Расчет интервалов",
     "ErrBinsInvalidFmt": "Для столбца \"%s\" интервалы не пригодны для квантования",
@@ -678,6 +681,7 @@
   },
   "components/clope/ClopeEngine": {
     "ClopeApplyNotify": "Применение модели",
+    "ClopeComponentShortTitle": "Кластериз. транз.: ",
     "ClopeTrainNotify": "Поиск кластеров",
     "ClopeTransactionNotify": "Подготовка транзакций",
     "ColumnNameCluster": "Номер кластера",
@@ -705,6 +709,7 @@
     "NAdditionalIters": "Число итераций дообучения"
   },
   "components/clusterization/ClusterizationEngine": {
+    "ClusterizationComponentTitle": "Кластериз.: ",
     "ClusterizationTrainNotify": "Поиск кластеров",
     "ColumnNameCluster": "Номер кластера",
     "ColumnNameDistance": "Расстояние до центра кластера",
@@ -756,6 +761,7 @@
     "ClassSignificantPostfix": " Значимость",
     "CoarseClassesCalcStatProcess": "Расчет статистики конечных классов",
     "CoarseClassesProcess": "Построение конечных классов",
+    "CoarseClassesShortTitle": "Кон. классы: ",
     "ErrClassStorageNotDefined": "Хранилище начальных классов одного из столбцов не определено",
     "ErrCoarseClassBuilderNotValid": "Хранилище начальных классов не соответствует установленным настройкам",
     "ErrExternalBinningOverFlow": "Размер внешнего разбиения для столбца \"%s\" превышают допустимое значение",
@@ -802,7 +808,9 @@
     "DataTypesColumnDisplayName": "Типы данных",
     "DisplayNamesColumnDisplayName": "Метки",
     "ErrRowCountExceedMaxValue": "Количество строк результирующего набора превысило максимальное значение",
+    "InfoColumnsTip": "Инф.: %s",
     "NamesColumnDisplayName": "Имена",
+    "TransposedColumnsTip": "Трансп.: %s",
     "ValuesColumnDisplayName": "Значения"
   },
   "components/columnflipping/ColumnFlippingVendor": {
@@ -810,11 +818,18 @@
     "VendorDesc": "Создание плоской таблицы из сводной"
   },
   "components/coluniondata/ColUnionData": {
+    "CutToShortestPrefix": "Обрезать до мин. набора",
     "ErrNoActiveInputs": "Нет ни одного активного входа",
     "ErrNoTailsAlignDataSource": "Отсутствует источник данных для выравнивания",
+    "ExtendToJoinedPrefix": "Дополнять до присоед. табл. %d",
+    "ExtendToJoinedVariablesPrefix": "Дополнять до присоед. перем. %d",
+    "ExtendToLongestPrefix": "Дополнять до макс. набора",
+    "ExtendToMainPrefix": "Дополнять до Главной",
     "JoinedDataSource": "Присоединяемая таблица",
     "JoinedVariables": "Присоединяемые переменные",
-    "MainDataSource": "Главная таблица"
+    "MainDataSource": "Главная таблица",
+    "RepeatDatasetPaddingPostfix": "повторять набор данных",
+    "RepeatLastRowPaddingPostfix": "повторять последнюю строку"
   },
   "components/coluniondata/ColUnionDataVendor": {
     "VendorCaption": "Соединение",
@@ -839,6 +854,9 @@
     "ErrInputSocketDefIsEmtpy": "Не указаны типы следующих входов: ",
     "OutputSocketDisplayNameTemplate": "%s - %s"
   },
+  "components/condition/ConditionComponentEngine": {
+    "DebugMode": "Отладка"
+  },
   "components/condition/ConditionComponentVendor": {
     "VendorCaption": "Условие",
     "VendorDesc": "Условное выполнение ветки модели"
@@ -846,6 +864,8 @@
   "components/corranalysis/CorrAnalysis": {
     "ColumnSet1": "Поле1",
     "ColumnSet2": "Поле2",
+    "CorrAnalysisComponentTitleFmt": "Корр. анализ: %s x %s",
+    "CorrAnalysisEmptySetTip": "[пусто]",
     "CorrAnalysisExtremumCFNotify": "Вычисление экстремумов взаимно корреляционных функций",
     "CorrAnalysisNotify": "Вычисление коэффициентов корреляции",
     "CorrAnalysisPirsonNotify": "Вычисление коэффициентов корреляции Пирсона",
@@ -875,6 +895,7 @@
     "VendorDesc": "Создание сводной таблицы из плоской"
   },
   "components/datarecovery/DataRecovery": {
+    "DataRecoveryComponentShortTitle": "Пропуски: ",
     "DataRecoveryProcess": "Заполнение пропусков",
     "NullStrDefaultValue": "Не задано",
     "PaymentAdditionalFeaturesProcess": "Расчет дополнительных характеристик",
@@ -886,6 +907,7 @@
     "VendorDesc": "Заполнение пропущенных данных"
   },
   "components/datatotree/DataToTreeEngine": {
+    "DataToTreeShortTitle": "Табл. в дерево: ",
     "ErrCannotSetSourceColumnForContainer": "Невозможно задать исходный столбец для узла-контейнера %s",
     "ErrCanOnlySetIndexColumnForArray": "Невозможно задать столбец с индексом для узла %s, который не является массивом",
     "ErrIndexColumnNotFound": "Не удалось найти столбец с индексом %s для узла %s",
@@ -908,6 +930,7 @@
   },
   "components/datatovariables/DataToVariablesEngine": {
     "DataToVariablesNotify": "Расчет переменных",
+    "DataToVariablesShortComponentTitle": "Табл. в перем.: ",
     "ErrNoColumnsForProcessing": "Не указаны столбцы для обработки",
     "ErrNoOneAggregation": "Необходимо указать хотя бы один вариант агрегации для поля \"%s\"",
     "FindMedianNotify": "Расчет медианы"
@@ -917,6 +940,7 @@
     "VendorDesc": "Агрегация данных в переменные"
   },
   "components/datatoxml/DataToXML": {
+    "DataToXMLShortTitle": "Формир. XML: ",
     "ErrCannotProceedWithoutRootElement": "Для выполнения операции необходимо сначала выбрать корневой элемент XML",
     "ErrDocIDColumnNotAssigned": "Не определено поле, являющееся Идентификатором документа",
     "ErrExportNotConfigured": "Дерево XML не настроено",
@@ -942,6 +966,7 @@
     "VendorDesc": "Формирование XML-документа в соответствии с заданной схемой XSD"
   },
   "components/datereform/DateReform": {
+    "DateReformColumnFmt": "%s (%s)",
     "ErrFormatingString": "Ошибка преобразования даты/времени в строку с форматом %s",
     "ISO8601": "ISO8601"
   },
@@ -954,6 +979,7 @@
     "ContradictionGroup": "Группа противоречия",
     "Duplicate": "Дубликат",
     "DuplicateGroup": "Группа дубликата",
+    "DuplicatesComponentTitle": "Дубликаты: ",
     "DuplicatesIndexingNotify": "Поиск дубликатов и противоречий",
     "ErrNoColumnsForProcessing": "Не указаны столбцы для обработки",
     "SortingNotify": "Сортировка"
@@ -963,6 +989,7 @@
     "VendorDesc": "Выявление дубликатов и противоречий"
   },
   "components/elimoutlier/ElimOutlier": {
+    "ElimOutlierComponentTitle": "Выбросы: ",
     "ErrOutDataSetIndexOutOfRange": "Индекс выходного набора %d вне диапазона [%d, %d]",
     "ErrSetValueRestricted": "Запрещена замена заданным значением в упорядоченном наборе данных для колонки \"%s\" с непрерывным видом данных",
     "GenerationOutputSetsProcess": "Формирование выходных наборов",
@@ -982,6 +1009,7 @@
     "ColumnNameProbability": "Вероятность принадлежности",
     "ColumnNameUniqueCoordSuffix": "|Координата",
     "ColumnNameUniqueValueSuffix": "|Значение",
+    "EMComponentTitle": "ЕМ Кластериз.: ",
     "ErrClustersRowCountOverflow": "Переполнение количества строк выходного набора данных \"Центры кластеров\"",
     "ErrNoColumnsForProcessing": "Не указаны столбцы для обработки",
     "ErrNoModel": "Модель не построена. Необходимо обучить узел перед применением",
@@ -1013,6 +1041,7 @@
     "ErrDisallowedExecution": "Выполнение узла запрещено параметрами безопасности",
     "ErrMsgDisplayName": "Сообщение об ошибке",
     "ErrResultCmdLineIsEmpty": "Результирующая командная строка пустая.",
+    "ExecCmdShortComponentTitle": "Программа",
     "ExecTimeoutExpired": "Время ожидания выполнения истекло.",
     "ResultDisplayName": "Результат выполнения"
   },
@@ -1028,7 +1057,8 @@
     "ErrReferencedVendorNotAvailable": "Не доступен исходный компонент \"%s\" GUID=%s",
     "ErrReferencedVendorNotFound": "Не найден исходный компонент GUID=%s",
     "ErrReferencedVendorNotSpecified": "Не задан исходный компонент",
-    "ErrUnableToLoadComponentConfig": "Не удалось загрузить конфигурацию внутреннего компонента"
+    "ErrUnableToLoadComponentConfig": "Не удалось загрузить конфигурацию внутреннего компонента",
+    "ExecNodeGeneratedTitle": "%s (выполнение)"
   },
   "components/execnode/ExecNodeComponentVendor": {
     "InputBaseNode": "Базовый узел",
@@ -1051,6 +1081,7 @@
     "ErrorDataSet": "Ошибки и коды завершения",
     "ErrorDescColumn": "Описание ошибки",
     "ErrWindowsTimeZoneNotSupported": "Временная зона \"%s\" не поддерживается",
+    "ExtractXMLTitleFmt": "Разбор XML: %s",
     "InputDataSource": "Входной источник данных",
     "XSDConnection": "Подключение к источнику XSD-схемы"
   },
@@ -1066,6 +1097,7 @@
     "ErrWrongModel": "Входные данные не соответствуют обученной ранее модели",
     "FactorAnalysisColumnsDisplayNames": "Метка",
     "FactorAnalysisColumnsNames": "Имя",
+    "FactorAnalysisComponentShortTitle": "Фактор. анализ: ",
     "FactorAnalysisDisplayName": "Фактор",
     "FactorAnalysisNotify": "Расчет факторов",
     "OutDataSetFactors": "Факторы",
@@ -1092,6 +1124,7 @@
     "ErrNoConditions": "Нет ни одного условия фильтрации",
     "ErrRowNumberNotSupported": "Использование нумераторов строк не поддерживается",
     "ErrUnknownDataType": "Не указан тип данных",
+    "ErrValueListBindingNotSupported": "Привязка переменной к списку значений возможна только для целого и строкового типа фильтруемого столбца",
     "ManyFirstPostfix": "первые",
     "ManyLastPostfix": "последние",
     "MonthFirstPostfix": "первый",
@@ -1170,6 +1203,7 @@
     "AdjustedR2": "Скорректированный коэффициент детерминации",
     "AIC": "Информационный критерий Акаике",
     "AICc": "Информационный критерий Акаике скорректированный",
+    "ARIMAXComponentTitle": "ARIMAX: ",
     "BIC": "Информационный критерий Байеса",
     "CoefficientColumn": "Коэффициент",
     "CoefficientTypeColumn": "Тип",
@@ -1210,6 +1244,7 @@
     "ErrNoOneAggregation": "Необходимо указать хотя бы один вариант агрегации для факта \"%s\"",
     "FindMedianNotify": "Расчет медианы",
     "GroupDataNotify": "Группировка данных",
+    "GroupDataTipsSeparator": " по ",
     "SortNotify": "Сортировка результата"
   },
   "components/groupdata/GroupDataSet": {
@@ -1222,6 +1257,7 @@
   "components/javascript/JavaScriptEngine": {
     "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "InputDataSource": "Входной источник данных",
+    "JavaScriptComponentTitle": "JS: ",
     "JavaScriptConfigureOutputTableProcess": "Подготовка выходных столбцов",
     "OutputDataSet": "Выходной набор данных"
   },
@@ -1241,12 +1277,17 @@
   },
   "components/joindata/JoinData": {
     "CompareIndexesProcess": "Сопоставление индексов",
+    "DifferencePrefix": "Разность",
     "DisplayNamePrefix": "Соединение",
     "ErrInvalidColNamePrefix": "Префикс имени \"%s\" не является правильным идентификатором",
     "ErrRowCountExceedMaxValue": "Количество строк результирующего набора превысило максимальное значение %d",
     "FormResultProcess": "Формирование выходного набора",
+    "FullJoinPrefix": "Полное",
     "JoinedTableIndexProcess": "Индексирование присоединяемой таблицы",
-    "MainTableIndexProcess": "Индексирование главной таблицы"
+    "JoinPrefix": "Внутреннее",
+    "LeftJoinPrefix": "Левое",
+    "MainTableIndexProcess": "Индексирование главной таблицы",
+    "RightJoinPrefix": "Правое"
   },
   "components/joindata/JoinDataVendor": {
     "VendorCaption": "Слияние",
@@ -1312,6 +1353,7 @@
     "ErrWrongOutputField": "Недопустимые свойства выходного поля \"%s\", вид данных \"%s\", тип данных \"%s\"",
     "FStatistic": "F-статистика",
     "Intercept": "<Константа>",
+    "LinRegressionShortTitle": "Линрегрессия: ",
     "LinRegTrainProcess": "Построение модели",
     "LogLikelihood": "Логарифм функции правдоподобия",
     "ModelDF": "Число степеней свободы модели",
@@ -1391,6 +1433,7 @@
     "ErrWrongOutputUniqueCount": "Число уникальных значений выходной колонки \"%s\" равно %d (требуется ровно 2)",
     "ErrWrongProportionGeneralSet": "Доля событий в генеральном множестве должна быть больше 0 % и меньше 100 %",
     "Intercept": "<Константа>",
+    "LogRegressionShortTitle": "Логрегрессия: ",
     "LogRegStoreStatProcess": "Расчет показателей качества",
     "LogRegTrainProcess": "Построение модели",
     "ModelDF": "Число степеней свободы модели",
@@ -1482,6 +1525,7 @@
     "ErrSocketNotConfigured": "Порт \"%s\" не настроен",
     "ErrUnsupportedInputSocketType": "Порт \"%s\" имеет неподдерживаемый тип",
     "GroupProcessingProcess": "Групповая обработка",
+    "GroupProcessingShort": "группа",
     "InputDataSourceGroupingProcess": "Определение групп в исходном наборе данных",
     "IterationErrorDetailsFieldDisplayName": "Детальная информация об ошибке",
     "IterationErrorMessageFieldDisplayName": "Сообщение об ошибке",
@@ -1489,7 +1533,9 @@
     "IterationProcess": "Итерация №%d",
     "IterationStatusSocketName": "Статус выполнения итераций",
     "IterationSuccessFlagFieldDisplayName": "Признак успешного завершения",
+    "IterativeLoopShort": "итерационный",
     "PrepareWorkerProcess": "Подготовка вычислителя \"%s\"",
+    "RepeatLoopShort": "постусловие",
     "WarningTeachCriticalIterationCount": "Запущено обучение узла с количеством итераций %d. Обучение с большим количеством итераций может вызывать ошибку переполнения памяти."
   },
   "components/loop/LoopComponentVendor": {
@@ -1545,6 +1591,7 @@
   },
   "components/neuralnet/NeuralNetEngine": {
     "ActualClsIDColumn": "ID класса|Факт",
+    "ClsComponentShortTitle": "Нейросеть (клас.): ",
     "CVAvgCE": "Средняя перекрестная энтропия при кросс-валидации",
     "CVAvgError": "Средняя абсолютная ошибка при кросс-валидации",
     "CVAvgRelError": "Средняя относительная ошибка при кросс-валидации",
@@ -1575,6 +1622,7 @@
     "PredictedClsIDColumn": "ID класса|Прогноз",
     "PredictedClsProbColumn": "Апостериорная вероятность",
     "PredictedColumn": "%s|Прогноз",
+    "RegComponentShortTitle": "Нейросеть (регр.): ",
     "TestAvgCE": "Средняя перекрестная энтропия на тестовом множестве",
     "TestAvgError": "Средняя абсолютная ошибка на тестовом множестве",
     "TestAvgRelError": "Средняя относительная ошибка на тестовом множестве",
@@ -1609,7 +1657,13 @@
     "OutDataSetCommon": "Общий выходной набор",
     "OutDataSetTeach": "Обучающий выходной набор",
     "OutDataSetTest": "Тестовый выходной набор",
+    "PartitionAbsoluteRowCount": "%s: %d шт.",
+    "PartitionControlVariablesAbsoluteRowCount": "%s: %s (стр)",
+    "PartitionControlVariablesRelativeRowCount": "%s: %s (%%)",
     "PartitionDisplayName": "Тестовое множество",
+    "PartitionRelativeRowCount": "%s: %4.2f%%",
+    "TeachTip": "Обучающее",
+    "TestTip": "Тестовое",
     "UnspecifiedBiasColumn": "Не выбрано поле для отбора со смещением."
   },
   "components/partition/PartitionVendor": {
@@ -1644,7 +1698,8 @@
     "ErrPythonInProcessNotSupported": "Выполнение Python внутри процесса не поддерживается, Python запущен в отдельном процессе.",
     "InputPortOptional": "Входной порт необязательный",
     "OutputDataFrameExample": "Полученный выходной pd.DataFrame",
-    "PrepareCompatibleComment": "Если включена опция \"Разрешить формировать выходные столбцы из кода\", структуру выходного набора можно подготовить по pd.DataFrame"
+    "PrepareCompatibleComment": "Если включена опция \"Разрешить формировать выходные столбцы из кода\", структуру выходного набора можно подготовить по pd.DataFrame",
+    "PythonComponentTitle": "Python: "
   },
   "components/python/PythonEngineImpl": {
     "ErrPreviewPythonIsBusy": "Python занят. Невозможно запустить предпросмотр",
@@ -1738,7 +1793,10 @@
     "VendorDesc": "Оценка качества данных"
   },
   "components/reformcolumns/ReformColumns": {
-    "ErrExcludeAllColumnsFromProcessing": "Нельзя исключить все столбцы из дальнейшей обработки"
+    "CachedTip": "Кэширование",
+    "ChangedTip": "Изменение",
+    "ErrExcludeAllColumnsFromProcessing": "Нельзя исключить все столбцы из дальнейшей обработки",
+    "ExcludedTip": "Удаление"
   },
   "components/reformcolumns/ReformColumnsVendor": {
     "VendorCaption": "Параметры полей",
@@ -1748,7 +1806,9 @@
     "ErrSourceGuidNotFound": "Нет входной таблицы замен с GUID = %s",
     "InputReplaceDataSource": "Таблица замен",
     "PrecisionPostfix": " Отклонение",
+    "ReplaceColumnComponentTitle": "Замена: ",
     "ReplacedPostfix": " Заменен",
+    "ReplaceFromSourceTip": " (т)",
     "ReplacePostfix": " Замена"
   },
   "components/replace/ReplaceColumnsVendor": {
@@ -1765,7 +1825,8 @@
     "ErrUsageType": "Не назначены поля входной таблицы замен"
   },
   "components/replacevariables/ReplaceVariables": {
-    "ReplacePostfix": " Замена"
+    "ReplacePostfix": " Замена",
+    "ReplaceVariablesComponentTitle": "Замена (перем.): "
   },
   "components/replacevariables/ReplaceVariablesVendor": {
     "VendorCaption": "Замена (переменные)",
@@ -1794,6 +1855,10 @@
     "VendorDesc": "Выполняет запрос через подключение к REST-сервису"
   },
   "components/sampling/SamplingEngine": {
+    "SamplingAbsoluteControlVariableTitle": "Сэмплинг: %s, %s (стр)",
+    "SamplingAbsoluteGeneratedTitle": "Сэмплинг: %s, %d шт.",
+    "SamplingRelativeControlVariableTitle": "Сэмплинг: %s, %s (%%)",
+    "SamplingRelativeGeneratedTitle": "Сэмплинг: %s, %4.2f%%",
     "UnspecifiedBiasColumn": "Не выбрано поле для отбора со смещением."
   },
   "components/sampling/SamplingVendor": {
@@ -1815,6 +1880,7 @@
     "ErrSmoothingAlgorithmError": "Ошибка в алгоритме сглаживания",
     "ErrSmoothingLambdaIsNegative": "Задано отрицательное значение параметра Lambda",
     "ErrSmoothingPeriodLessThenTwo": "Период сглаживания не может быть меньше двух",
+    "SmoothingComponentTitle": "Сглаживание: ",
     "SmoothingDisplayNamePostfix": "_smoothed",
     "SmoothingNotify": "Сглаживание"
   },
@@ -1837,6 +1903,7 @@
     "OutDataSetCenters": "Координаты узлов",
     "OutDataSetClusters": "Разбиение на кластеры",
     "PrepareDataNotify": "Подготовка данных",
+    "SONNComponentShortTitle": "Самоорг. сеть: ",
     "SONNTrainNotify": "Обучение сети"
   },
   "components/sonn/SONNVendor": {
@@ -1881,7 +1948,8 @@
     "ErrNoDataNodeSelected": "Не выбрано ни одного узла с данными",
     "ErrRowOutOfRange": "Номер строки %d вне диапазона [%d, %d]",
     "GlobalIndex": "Глобальный индекс",
-    "PrepareRowIndexesProcess": "Подготовка индексов строк"
+    "PrepareRowIndexesProcess": "Подготовка индексов строк",
+    "TreeToDataShortComponentTitle": "Дерево в табл.: "
   },
   "components/treetodata/TreeToDataModelComponentEngine": {
     "InputDataTree": "Входное дерево данных",
@@ -1890,10 +1958,6 @@
   "components/treetodata/TreeToDataVendor": {
     "VendorCaption": "Дерево в таблицу",
     "VendorDesc": "Формирование таблицы данных из дерева данных"
-  },
-  "components/treetojson/TreeToJSONEngine": {
-    "ErrExcludeMultipleRoot": "Корневой узел не может быть исключен так как он является массивом в строке JSON",
-    "ErrExcludeNotContainerRoot": "Корневой узел не может быть исключен так как он не является контейнером с одним узлом"
   },
   "components/treetojson/TreeToJSONVendor": {
     "VendorCaption": "Дерево в JSON",
@@ -1929,6 +1993,7 @@
     "RoundedUngroupValueDisplayNamePostfix": "Округлено",
     "SeasonalIndex": "Сезонный индекс",
     "SupportInputDataSource": "Данные для расчета долей",
+    "UngroupDataShortTitleFmt": "Разгруппировка: %s",
     "UngroupInputDataSource": "Разгруппируемые данные",
     "UngroupOutputDataSource": "Выход разгруппировки",
     "UngroupQualityDisplayName": "Индекс качества разгруппировки",
@@ -2002,7 +2067,9 @@
   "components/variablestodata/VariablesToDataEngine": {
     "DisplayName": "Метка",
     "Name": "Имя",
-    "Value": "Значение"
+    "Value": "Значение",
+    "VariablesToDataColumnsTip": "В столбцы: ",
+    "VariablesToDataRowsTip": "В строки: "
   },
   "components/variablestodata/VariablesToDataModelComponentEngine": {
     "InputVariables": "Входные переменные",
@@ -2025,7 +2092,8 @@
     "WSDLClientConnection": "Подключение к SOAP-сервису",
     "WSDLClientError": "Ошибка при выполнении запроса с идентификатором %s: %s",
     "WSDLClientErrorNoID": "Ошибка при выполнении запроса: %s",
-    "WSDLClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки №%d входного набора: %s"
+    "WSDLClientErrorRowID": "Ошибка при выполнении запроса, сформированного из строки №%d входного набора: %s",
+    "WSDLClientGeneratedTitle": "SOAP-запрос: %s"
   },
   "components/wsdlclient/WSDLClientBase": {
     "ErrIncorrectWSDLClientRequestConfiguration": "Конфигурация запроса к веб-сервису содержит ошибки",
@@ -2055,9 +2123,11 @@
   },
   "exports/database/DBExport": {
     "AddToTableNotify": "Добавление записей в таблицу",
+    "AppendPostfix": "дополнить таблицу",
     "ConnectProcess": "Подключение к БД",
     "CreateTableProcess": "Создание таблицы",
     "DeleteFromTableNotify": "Удаление записей из таблицы",
+    "DeletePostfix": "удалить по ключам",
     "DropTableIfExistsProcess": "Удаление существующей таблицы",
     "ErrCodeDisplayName": "Код завершения",
     "ErrColumnNotFound": "В источнике данных не найдена колонка \"%s\"",
@@ -2079,14 +2149,19 @@
     "ErrTruncateNotSupported": "Операция TRUNCATE не поддерживается текущей базой данных",
     "ErrUpdateNotSupported": "Операция обновления записей по ключу не поддерживается текущей базой данных",
     "ExecQueryProcess": "Выполнение запроса",
+    "GetFieldsProcess": "Получение списка полей",
     "GetTablesProcess": "Получение списка таблиц",
     "GetTypeInfoProcess": "Получение информации о типах данных",
     "GroupDataNotify": "Группировка данных",
     "InfoParamSetsLowerBound": "число строк в пачке меньше %d",
     "InfoSwitchToInsert": "Переключение на добавление записей через INSERT. Причина: ",
+    "OverloadPostfix": "очистить и заполнить",
     "RecreateTableProcess": "Пересоздание таблицы",
+    "RefreshPostfix": "удалить записи и дополнить",
     "ResultStatusVariables": "Статус выполнения",
+    "TruncateAndRefillPostfix": "заполнить после TRUNCATE",
     "TruncateTableNotify": "Выполнение TRUNCATE таблицы",
+    "UpdatePostfix": "обновить записи",
     "UpdateRecordsNotify": "Обновить существующие записи в таблице",
     "WarnDBConnectionIsBusy": "Подключение к БД занято"
   },
@@ -2214,6 +2289,7 @@
   },
   "imports/database/DBImport": {
     "ConnectProcess": "Подключение к БД",
+    "DBImportQueryTitle": "SQL-запрос",
     "ErrCodeDisplayName": "Код завершения",
     "ErrExecQuery": "Ошибка при выполнении запроса к базе данных.",
     "ErrMsgDisplayName": "Сообщение об ошибке",
@@ -2425,7 +2501,6 @@
   "Libraries/bgdbrtl/ClickHouse/ClickHouseDB": {
     "DatabaseTypeName": "ClickHouse",
     "ErrInsertNoValues": "INSERT не содержит значений",
-    "ErrNotOwnSession": "Сессия не принадлежит базе данных",
     "ErrStoredProcUnsupported": "ClickHouse не поддерживает хранимые процедуры",
     "ErrTruncateDistributedTableForbidden": "TRUNCATE запрещено: таблица с Engine = Distributed создана на кластере \"%s\" (выбран \"%s\")",
     "GetClustersProcess": "Получение списка кластеров"
@@ -2441,6 +2516,7 @@
   "Libraries/bgdbrtl/DB": {
     "ConnectionTimeout": "Тайм-аут подключения",
     "ErrConnectionCancelled": "Подключение прервано",
+    "ErrConnectionIsBusy": "Подключение к БД занято",
     "ErrConnectionString": "Не указана строка подключения",
     "ErrDatabasePathNotExists": "Файл \"%s\" не найден",
     "ErrDBPath": "Не удалось получить путь к БД",
@@ -2455,6 +2531,7 @@
     "ErrLocalDBForbidden": "Подключения к локальным БД сервера запрещены",
     "ErrLoginPromptDisabled": "Текущему пользователю запрещено отключать запрос пароля",
     "ErrLoginTimeout": "Время ожидания ввода логина и пароля для подключения истекло",
+    "ErrNotOwnSession": "Сессия не принадлежит базе данных",
     "ErrOpenQuery": "Ошибка открытия SQL:\n%s",
     "ErrParameterTypesDoNotMatch": "Типы параметров не совпадают",
     "ErrPrepareProcedure": "Ошибка подготовки хранимой процедуры \"%s\"",
@@ -2462,7 +2539,7 @@
     "ErrSetSequence": "Ошибка установки Sequence для DB. Старый Sequence = %d",
     "ErrTableNameNotSelect": "Не указано имя таблицы",
     "ErrTableNotExists": "Таблица не существует",
-    "ErrTestConnection": "Ошибка проверки подключения:\n%s",
+    "ErrTestConnection": "Ошибка проверки подключения",
     "ErrUnPrepareQuery": "Ошибка очистки подготовленного запроса",
     "LockTimeout": "Тайм-аут блокировки",
     "WarnNoPassword": "Не указан пароль для подключения к \"%s\"",
@@ -2553,7 +2630,6 @@
   },
   "Libraries/bgdbrtl/UniDAC/UniDACDB": {
     "Direct": "Не использовать клиент СУБД",
-    "ErrNotOwnSession": "Сессия не принадлежит базе данных",
     "ServerListInaccessible": "Список серверов СУБД недоступен"
   },
   "Libraries/bgrtl/ArchiveManager": {
@@ -2925,7 +3001,8 @@
     "ErrMountedDirectoryPathIsNotAbsolutePath": "Указанный путь к монтируемой директории не является абсолютным путём: \"%s\"",
     "ErrNoMountedDirectories": "Не смонтировано ни одной директории",
     "ErrParentFileStorageNotConnected": "Корневое хранилище файлов не подключено",
-    "ErrTestConnection": "Ошибка проверки подключения:\n%s"
+    "ErrTestConnection": "Ошибка проверки подключения",
+    "LogRemoveDirectory": "Удаление директории %s со всем её содержимым"
   },
   "Libraries/bgrtl/FormatHook": {
     "Args": "Параметры",
@@ -3104,7 +3181,11 @@
     "ErrCutPasteRecursive": "Папка \"%s\" не может быть перемещена сама в себя",
     "ErrDirectoryNotExists": "Папка \"%s\" не существует",
     "ErrFileMapping": "Ошибка мэппинга файла \"%s\"",
-    "ErrOpenFile": "Невозможно открыть файл: \"%s\""
+    "ErrOpenFile": "Невозможно открыть файл: \"%s\"",
+    "LogDeleteFileFailedFmt": "Файл \"%s\" не был удалён",
+    "LogDeleteFileSuccessfulFmt": "Файл \"%s\" успешно удалён",
+    "LogRemoveDirectoryFailedFmt": "Директория \"%s\" не была удалёна",
+    "LogRemoveDirectorySuccessfulFmt": "Директория \"%s\" успешно удалена"
   },
   "Libraries/bgrtl/TextStream": {
     "ErrBadUnicodeStream": "Исходный поток данных имеет неправильный Unicode формат",
@@ -3551,7 +3632,9 @@
   },
   "Libraries/Log/LoggerConfigurator": {
     "ErrCannotConfigureLogger": "Не удалось применить параметры логирования",
+    "LogFileOperations": "Логировать удаление файлов",
     "LoggerType": "Тип логирования",
+    "LogRowCount": "Логировать количество строк при активации узла",
     "MinLogLevel": "Уровень логирования",
     "NeedDN": "Разрешать доменные имена",
     "NeedPackageName": "Логировать имя пакета у узла"
@@ -3999,6 +4082,8 @@
     "LogActivateNodeSuccess": "Успешно активирован узел \"%s\" GUID=%s",
     "LogActivatePackagedNodeStart": "Активация узла \"%s\" GUID=%s Пакет=%s",
     "LogActivatePackagedNodeSuccess": "Успешно активирован узел \"%s\" GUID=%s Пакет=%s",
+    "LogActivatePortSuccess": "Активирован порт \"%s\" узла \"%s\" GUID=%s Количество строк=%d",
+    "LogActivatePortUnknownRowCountSuccess": "Активирован порт \"%s\" узла \"%s\" GUID=%s Количество строк недоступно",
     "LogDeactivateNode": "Деактивирован узел \"%s\" GUID=%s",
     "LogNodeActivationError": "Ошибка активации узла \"%s\" GUID=%s",
     "LogNodeLoadingError": "Ошибка загрузки узла \"%s\" GUID=%s",
@@ -4587,9 +4672,11 @@
   },
   "Studio/DeductorServerSettings": {
     "AdminMultiSessionRestriction": "Ограничение мультисессионности для администраторов",
+    "AllowedImageURLs": "Разрешенные URL для загрузки изображений при отображении их в Markdown",
+    "AllowedLinkURLs": "Разрешенные URL для кликабельных ссылок в Markdown",
     "AlwaysVerifyHTTPSCerts": "Всегда проверять сертификаты HTTPS",
     "AlwaysVerifySSLCerts": "Всегда проверять все сертификаты",
-    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершению",
+    "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершении",
     "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
     "FailedLoginCountLimit": "Лимит попыток ввода пароля",
     "FailedLoginTimeout": "Тайм-аут ввода пароля",
@@ -4744,7 +4831,7 @@
     "ErrSharedDirectoryAlreadyDeleted": "Общая директория уже удалена",
     "ErrSharedDirectoryNameConflictsWithUser": "Имя общей директории не может совпадать с именем пользователя %s",
     "ErrSharedDirectoryNameIsReserved": "Идентификатор %s зарезервирован и не может быть использован в качестве имени общей директории",
-    "ErrSharedDirectoryNameMustBeValid": "Имя общей директории может состоять из латинских букв, цифр, символов _ - . и пробела,\nно не может заканчиваться точкой или пробелом.",
+    "ErrSharedDirectoryNameMustBeValid": "Имя общей директории не может содержать следующие символы: \\ / : * ? \" < > | и не может заканчиваться точкой или пробелом, а длина должна быть меньше 256.",
     "LogAddDirectory": "Создана общая директория %s",
     "LogDeleteDirectory": "Удалена общая директория %s",
     "LogGroupPermissionsGranted": "Выданы права доступа к общей директории %s",
@@ -5115,7 +5202,7 @@
     "VendorDesc": "Отображение статистических показателей"
   },
   "Warehouse2/DataWarehouseConnection": {
-    "ErrTestConnection": "Ошибка проверки подключения: %s"
+    "ErrTestConnection": "Ошибка проверки подключения"
   },
   "Warehouse2/DBMDEngine": {
     "ErrDimensionFKIsNull": "Ссылка на измерение \"%s\" не найдена.\nНе указано значение внешнего ключа.",
