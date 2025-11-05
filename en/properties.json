@@ -33,7 +33,7 @@
       "SSLKeyPassword": "Private key password"
     },
     "WebServiceOAuthCredentials": {
-      "Token.NOTE": "Имеющиеся переводы:\nOAuth token\nOAuth Token"
+      "Token": "Токен OAuth"
     },
     "WebServicePasswordCredentials": {
       "Password": "Password",
@@ -270,6 +270,7 @@
       "CaseSensitive": "Case-sensitive",
       "CompareValue": "Comparison value",
       "CompareValueList": "List of values",
+      "CompareValueListAsString": "Список значений в виде строки",
       "CompareValueLowerBound": "Lower bound",
       "CompareValuePeriodBaseDate": "Base interval date",
       "CompareValuePeriodCount": "Time span value",
@@ -624,7 +625,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table/View",
+      "CommandText": "Table\/View",
       "FieldDescAsDisplayName": "Generate field captions from descriptions",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
@@ -720,6 +721,7 @@
       "ClearPoolOnDeactivate": "Clear pool when deactivated"
     },
     "DatabaseConfigurator": {
+      "BusyTimeout": "Тайм-аут ожидания сессии (с)",
       "CharacterSet": "Codepage",
       "ConnectionTimeout": "Connection timeout (s)",
       "DatabasePath": "Connection string",
@@ -728,6 +730,7 @@
       "LoginPrompt": "Login prompt",
       "Password": "Password",
       "QuotedObjectNames": "Quote names",
+      "SingleConnectionMode": "Работать в одной сессии",
       "SystemTables": "Show system tables",
       "UserName": "Username"
     },
@@ -939,7 +942,9 @@
       "MinLogLevel": "Logging level"
     },
     "LoggerConfigurator": {
+      "LogFileOperations": "Логировать удаление файлов",
       "LoggerType": "Logging type",
+      "LogRowCount": "Логировать количество строк при активации узла",
       "NeedDN": "Resolve domain names",
       "NeedPackageName": "Log the package name for the node"
     },
@@ -1010,9 +1015,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact/inexact data priority",
-      "FactLessMore": "Less/more factors priority",
-      "QualitySpeed": "Accuracy/speed priority"
+      "ExactInexact": "Exact\/inexact data priority",
+      "FactLessMore": "Less\/more factors priority",
+      "QualitySpeed": "Accuracy\/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -1063,6 +1068,8 @@
   "Studio/DeductorServerSettings": {
     "DeductorServerSettings": {
       "AdminMultiSessionRestriction": "Restrict multisessions for admins",
+      "AllowedImageURLs": "Разрешенные URL для загрузки изображений при отображении их в Markdown",
+      "AllowedLinkURLs": "Разрешенные URL для формирования ссылок в Markdown",
       "AlwaysVerifyHTTPSCerts": "Always verify HTTPS certificates",
       "AlwaysVerifySSLCerts": "Always verify all certificates",
       "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
@@ -1092,7 +1099,7 @@
       "UnixSocket": "Unix socket",
       "UnixSocketMode": "Unix socket permissions",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL/TLS port"
+      "WSSPort": "WebSocket SSL\/TLS port"
     }
   },
   "Studio/PasswordPolicy": {

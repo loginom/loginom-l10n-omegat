@@ -1,10 +1,10 @@
 {
   "about/About": {
-    "AppLersionAPI": "/api/v1/loginom-version",
+    "AppLersionAPI": "\/api\/v1\/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https://loginom.com/downloads/",
-    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
+    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
     "NewVersionIsAvaliableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
@@ -92,6 +92,7 @@
   "admin/ServerSettingsForm": {
     "AdminLoginForbidTip": "Warning: It will be impossible to log in with the same administrator account if an unclosed session is present",
     "AdminMultiSessionRestriction": "Restrict multisessions for admins",
+    "AllowAnyURLs": "Любые URL",
     "AlwaysVerifyHTTPSCerts": "Always verify HTTPS certificates",
     "AlwaysVerifySSLCerts": "Always verify all certificates",
     "AppSettings": "Application parameters",
@@ -101,6 +102,8 @@
     "CurrentLocale": "Current locale is \"{0}\".",
     "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
     "DefaultLocaleModified": "modified",
+    "DenyImageURLs": "Загрузка изображений запрещена",
+    "DenyLinkURLs": "Формирование ссылкок запрещено",
     "DirectorySettings": "Folders",
     "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
@@ -110,15 +113,21 @@
     "FileModeUserAndGroup": "user and group",
     "IdleDisconnectTimeout": "Session disconnection timeout (s)",
     "IdleLockTimeout": "Session lock timeout (s)",
+    "ImageURLs": "URL для загрузки изображений",
+    "ImageURLsFormTitle": "URL префиксы, с которых разрешена загрузка изображений для Markdown",
     "InvalidUnixMode": "The value must be an octal number from 000 to 777",
     "LDAPSettings": "LDAP parameters",
     "Limit": "Limit",
+    "LinkURLs": "URL для формирования ссылок",
+    "LinkURLsFormTitle": "URL префиксы, которые могут быть использованы для ссылок в Markdown",
     "Locale": "Locale",
     "LogFileMaxIndex": "Number of backup files",
     "LogFileMaxSize": "Maximum file size",
     "LogFileName": "File name",
+    "LogFileOperations": "Логировать удаление файлов",
     "LogFileRewrite": "Rewrite file",
     "LoggerSettings": "Logging parameters",
+    "LogRowCount": "Логировать количество строк при активации узла",
     "LogType": "Logging type",
     "MaxSchedulerHistoryDays": "Store scheduler history (days)",
     "MinLogLevel": "Logging level",
@@ -153,7 +162,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL/TLS port"
+    "WSSPort": "WebSocket SSL\/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -245,7 +254,7 @@
     "ConfirmQuit": "Unsaved packages. Exit anyway?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https://qa.loginom.com/questions/"
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -392,13 +401,18 @@
     "AddNewLoop": "Add Loop node to workflow",
     "AddNewNode": "Add node to workflow",
     "AddSchedulerJobByNode": "Add job to scheduler...",
+    "AnnotationEditorTabTitle": "Заметка (markdown)",
+    "AnnotationEditorWindowTitle": "Редактирование заметки",
     "Annotations": "Annotations: {0}",
+    "AutogenerateNodeTitle": "Сгенерировать автоматические метки",
     "CancelOperation": "Cancel operation",
     "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
     "CloneNode": "Clone node",
+    "CommentEditorTabTitle": "Комментарий (markdown)",
+    "CommentEditorWindowTitle": "Редактирование комментария",
     "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode / Expand supernode",
+    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
     "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation to supernode",
@@ -428,6 +442,7 @@
     "ErrVendorMalfunction": "\"{0}\" node component is malfunctioning",
     "ExpandNode": "Expand supernode",
     "ForceRetry": "Force retry",
+    "GenerateNodeTitle": "Автоматическая метка",
     "GoToConnection": "Go to connection",
     "GoToConnections": "Go to connections",
     "GoToDerivedVendor": "Go to derived component",
@@ -435,6 +450,7 @@
     "HideControlVariablesPorts": "Hide control variables port",
     "Links": "Links: {0}",
     "LockedIconTooltip": "Node locked during runtime or setup",
+    "LogRowCount": "Логировать количество строк",
     "NodeBatchMode": "Configure node activation mode...",
     "NodeIsLocked": "Comment change forbidden: node is locked",
     "Nodes": "Nodes: {0}",
@@ -452,6 +468,7 @@
     "PackageNamePrefix": "Package=",
     "PropertyInspectorLocale": "en",
     "RecreateBaseNodeForDerivedVendor": "Re-create base node",
+    "RefreshNodeTitle": "Обновить метку",
     "RemoveAnnotationConfirm": "Delete selected annotation?",
     "RemoveComment": "Delete comment",
     "RemoveLinkConfirm": "Delete selected link?",
@@ -460,7 +477,9 @@
     "RenameNode": "Rename...",
     "ResetConfiguration": "Restore original node configuration",
     "SaveBtnText": "Save",
+    "SelectLabel": "Сперва выделите метку узла на сценарии",
     "SelectNode": "First select node in workflow",
+    "SelectOneLabel": "Выберите только одну метку узла",
     "SelectOneNode": "Select only one node",
     "SelectOneNodeOrLink": "Select only one node or link",
     "SelectSomething": "First select object in workflow",
@@ -565,7 +584,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http://schemas.loginom.com/integration",
+    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -730,7 +749,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https://loginom.com",
+    "CompanyWebsite": "https:\/\/loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom",
     "SupportMail": "help@loginom.com"
@@ -741,7 +760,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https://qa.loginom.com/questions/",
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -1352,6 +1371,8 @@
     "ExpireCertDateError": "Expired certificate expiration date"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
+    "AutomaticConnectionTitle": "Автоматическая метка",
+    "CustomConnectionTitle": "Пользовательская метка",
     "ErrFileNameAdd": "File with name \"{0}\" cannot be added; it may be already in the list"
   },
   "exports/dbexport/DBCreateTableDialog": {
@@ -1448,7 +1469,7 @@
     "Pallete": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open/close was found"
+    "ToggleRowNotFoundRow": "No row to open\/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Dataset not active"
@@ -1759,8 +1780,8 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied/cut",
-    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied\/cut",
+    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message"
   },
@@ -1810,7 +1831,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied/cut",
+    "HasNotStorageItems": "No files to be copied\/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1865,11 +1886,11 @@
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "/api/v1/loginom-version",
+    "AppLersionAPI": "\/api\/v1\/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https://loginom.com/downloads/",
-    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
+    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
     "NewVersionIsAvaliableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
@@ -1985,7 +2006,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (/)"
+    "Slash": "Slash (\/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -2287,7 +2308,7 @@
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show/Hide Comment",
+    "CommentBtn": "Show\/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -2562,7 +2583,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " / ",
+    "CompareTo": " \/ ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -2595,6 +2616,7 @@
     "NeedNotEmptyGroupName": "Group name cannot be empty",
     "SetNewGroupName": "New group name:",
     "ShowInReports": "Show in reports",
+    "SkippedInvalidVendors": "Визуализаторы, которые не совместимы с портом, не были добавлены",
     "TitleUndefined": "visualizer",
     "TuneViews": "Visualizers",
     "VendorNotValid": "Selected visualizer is incompatible with the port",
@@ -2974,6 +2996,8 @@
     "MoveButtonTooltip": "Move to {0}"
   },
   "wizards/connection/ConnectionConfigWizard": {
+    "AutomaticConnectionTitle": "Автоматическая метка",
+    "CustomConnectionTitle": "Пользовательская метка",
     "TestConnectionSuccess": "Connection successful",
     "TestConnectionTitle": "Connection test",
     "WizardTitle": "Connection Parameters"
@@ -2984,8 +3008,9 @@
   },
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
+    "BtnAutogenerateSelectedTitles": "Сгенерировать автоматические метки",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipClone": "Clone connection",
     "BtnTooltipConnect": "Activate connection",
@@ -3004,6 +3029,7 @@
     "Delete": "Delete",
     "DeleteConnectionPrompt": "Do you really want to delete {0} connection?",
     "DeleteConnectionPromptTitle": "Delete Connection",
+    "GenerateNodeTitle": "Автоматическая метка",
     "InsertConnection": "Add connection",
     "LabelConnectionPath": "Path",
     "LabelTitle": "Caption",
@@ -3102,6 +3128,8 @@
     "frmDataTreeMappingTitle": "Configure Input Data Tree"
   },
   "wizards/done/DoneWizard": {
+    "AutomaticNodeTitle": "Автоматическая метка",
+    "CustomNodeTitle": "Пользовательская метка",
     "EditCommentTabTitle": "Comment"
   },
   "wizards/genericmodelcomponent/GenericModelComponentWizard": {
@@ -3111,7 +3139,7 @@
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
     "Delete": "Delete",
-    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
