@@ -7085,6 +7085,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Логировать количество строк при активации узла</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152013Z">
+        <seg>Log row count upon node activation</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -80559,6 +80562,9 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Логировать количество строк при активации узла</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152023Z">
+        <seg>Log row count upon node activation</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -84130,6 +84136,9 @@ Reason: %s</seg>
       <note>Key = Libraries/Model/ModelWorkFlow.LogActivatePortSuccess</note>
       <tuv lang="ru">
         <seg>Активирован порт "%s" узла "%s" GUID=%s Количество строк=%d</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152258Z">
+        <seg>Port "%s" of node "%s" activated GUID=%s Row count=%d</seg>
       </tuv>
     </tu>
     <tu>
@@ -120400,6 +120409,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = wizards/done/DoneWizard.cbxLogRowCount.boxLabel</note>
       <tuv lang="ru">
         <seg>Логировать количество строк при активации узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152018Z">
+        <seg>Log row count upon node activation</seg>
       </tuv>
     </tu>
     <tu>
