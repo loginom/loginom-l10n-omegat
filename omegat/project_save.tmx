@@ -65506,6 +65506,9 @@ Result:
       <tuv lang="ru">
         <seg>Дерево в табл.:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T130240Z">
+        <seg>Tree to Table:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -65942,6 +65945,9 @@ Result:
       <note>Key = components/ungroupdata/UngroupData.UngroupDataShortTitleFmt</note>
       <tuv lang="ru">
         <seg>Разгруппировка: %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T130315Z">
+        <seg>Ungroup: %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -66589,6 +66595,9 @@ Result:
       <tuv lang="ru">
         <seg>В столбцы:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T130320Z">
+        <seg>To columns:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -66596,6 +66605,9 @@ Result:
       <note>Key = components/variablestodata/VariablesToDataEngine.VariablesToDataRowsTip</note>
       <tuv lang="ru">
         <seg>В строки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T130332Z">
+        <seg>To rows:</seg>
       </tuv>
     </tu>
     <tu>
