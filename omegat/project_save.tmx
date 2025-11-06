@@ -100770,6 +100770,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Привязка переменной к списку значений возможна только для целого и строкового типа фильтруемого столбца</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124226Z">
+        <seg>Binding variable to value list is only possible for integer and string type of filtered column</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -101515,6 +101518,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>ARIMAX:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124230Z">
+        <seg>ARIMAX:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -101963,6 +101969,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>по</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124250Z">
+        <seg>by</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -102035,6 +102044,9 @@ To solve this problem it is required to enable Caching.</seg>
       <prop type="id">tu978_0</prop>
       <note>Key = components/javascript/JavaScriptEngine.JavaScriptComponentTitle</note>
       <tuv lang="ru">
+        <seg>JS:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124257Z">
         <seg>JS:</seg>
       </tuv>
     </tu>
@@ -102265,6 +102277,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Полное</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124308Z">
+        <seg>Full</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -102283,6 +102298,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/joindata/JoinData.JoinPrefix</note>
       <tuv lang="ru">
         <seg>Внутреннее</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124559Z">
+        <seg>Inner</seg>
       </tuv>
     </tu>
     <tu>
