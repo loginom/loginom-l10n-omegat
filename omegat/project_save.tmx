@@ -94993,6 +94993,9 @@ Errors may occur when executing SQL queries to DW.</seg>
       <tuv lang="ru">
         <seg>Автокорр.:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T101901Z">
+        <seg>Autocorr.:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
