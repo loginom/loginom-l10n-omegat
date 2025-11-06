@@ -97888,6 +97888,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Инф.: %s</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T120830Z">
+        <seg>Info: %s</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -97906,6 +97909,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/columnflipping/ColumnFlipping.TransposedColumnsTip</note>
       <tuv lang="ru">
         <seg>Трансп.: %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T120901Z">
+        <seg>Transp.: %s</seg>
       </tuv>
     </tu>
     <tu>
@@ -97958,6 +97964,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/coluniondata/ColUnionData.CutToShortestPrefix</note>
       <tuv lang="ru">
         <seg>Обрезать до мин. набора</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T121026Z">
+        <seg>Cut to min. set</seg>
       </tuv>
     </tu>
     <tu>
