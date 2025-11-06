@@ -67453,8 +67453,8 @@ Result:
       <tuv lang="ru">
         <seg>очистить и заполнить</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T132727Z">
-        <seg>clear and append</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T132958Z">
+        <seg>clear and fill in</seg>
       </tuv>
     </tu>
     <tu>
@@ -67475,8 +67475,8 @@ Result:
       <tuv lang="ru">
         <seg>удалить записи и дополнить</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T132820Z">
-        <seg>delete records and append</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133107Z">
+        <seg>delete records and add</seg>
       </tuv>
     </tu>
     <tu>
@@ -67519,6 +67519,9 @@ Result:
       <tuv lang="ru">
         <seg>заполнить после TRUNCATE</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133021Z">
+        <seg>fill in after TRUNCATE</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -67537,6 +67540,9 @@ Result:
       <note>Key = exports/database/DBExport.UpdatePostfix</note>
       <tuv lang="ru">
         <seg>обновить записи</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133032Z">
+        <seg>update records</seg>
       </tuv>
     </tu>
     <tu>
