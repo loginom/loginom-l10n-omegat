@@ -25334,6 +25334,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Сгенерировать автоматические метки</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162724Z">
+        <seg>Autogenerate Captions</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25386,6 +25389,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Комментарий (markdown)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162739Z">
+        <seg>Comment (Markdown)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25393,6 +25399,9 @@ Error: {1}.</seg>
       <note>Key = app/ModelForm.CommentEditorWindowTitle</note>
       <tuv lang="ru">
         <seg>Редактирование комментария</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162749Z">
+        <seg>Comment Editor</seg>
       </tuv>
     </tu>
     <tu>
@@ -25789,6 +25798,9 @@ Do you really want to create one more component?</seg>
       <tuv lang="ru">
         <seg>Автоматическая метка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162811Z">
+        <seg>Auto-Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25873,6 +25885,9 @@ Do you really want to create one more component?</seg>
       <note>Key = app/ModelForm.LogRowCount</note>
       <tuv lang="ru">
         <seg>Логировать количество строк</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162826Z">
+        <seg>Log row count</seg>
       </tuv>
     </tu>
     <tu>
@@ -26102,6 +26117,9 @@ Do you really want to create one more component?</seg>
       <tuv lang="ru">
         <seg>Обновить метку</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162842Z">
+        <seg>Refresh Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -26208,6 +26226,9 @@ Do you really want to create one more component?</seg>
       <note>Key = app/ModelForm.SelectLabel</note>
       <tuv lang="ru">
         <seg>Сперва выделите метку узла на сценарии</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163343Z">
+        <seg>First select node caption in workflow</seg>
       </tuv>
     </tu>
     <tu>
