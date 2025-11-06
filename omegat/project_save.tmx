@@ -61128,6 +61128,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>группа</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124645Z">
+        <seg>group</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -61213,6 +61216,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>итерационный</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124700Z">
+        <seg>iterative</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -61242,6 +61248,9 @@ OAuth Token</note>
       <note>Key = components/loop/LoopComponent.RepeatLoopShort</note>
       <tuv lang="ru">
         <seg>постусловие</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124837Z">
+        <seg>postcondition</seg>
       </tuv>
     </tu>
     <tu>
@@ -61812,6 +61821,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Нейросеть (клас.):</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124856Z">
+        <seg>Neural Net (Class.):</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62182,6 +62194,9 @@ OAuth Token</note>
       <note>Key = components/neuralnet/NeuralNetEngine.RegComponentShortTitle</note>
       <tuv lang="ru">
         <seg>Нейросеть (регр.):</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124958Z">
+        <seg>Neural Net (Reg.):</seg>
       </tuv>
     </tu>
     <tu>
