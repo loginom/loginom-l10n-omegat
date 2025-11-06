@@ -68699,6 +68699,9 @@ SQL Query</note>
       <tuv lang="ru">
         <seg>SQL-запрос</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133113Z">
+        <seg>SQL Query</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -71007,6 +71010,9 @@ Connection test error:
 %s</note>
       <tuv lang="ru">
         <seg>Ошибка проверки подключения</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133130Z">
+        <seg>Connection test error</seg>
       </tuv>
     </tu>
     <tu>
@@ -75211,6 +75217,9 @@ Connection test error:
       <tuv lang="ru">
         <seg>Ошибка проверки подключения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133139Z">
+        <seg>Connection test error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -75218,6 +75227,9 @@ Connection test error:
       <note>Key = Libraries/bgrtl/FileStorageEngine.LogRemoveDirectory</note>
       <tuv lang="ru">
         <seg>Удаление директории %s со всем её содержимым</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133254Z">
+        <seg>Remove folder %s with all contents</seg>
       </tuv>
     </tu>
     <tu>
@@ -76712,6 +76724,9 @@ Connection test error:
       <tuv lang="ru">
         <seg>Файл "%s" не был удалён</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133331Z">
+        <seg>Failed to delete file "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -76719,6 +76734,9 @@ Connection test error:
       <note>Key = Libraries/bgrtl/SysUtils.LogDeleteFileSuccessfulFmt</note>
       <tuv lang="ru">
         <seg>Файл "%s" успешно удалён</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133347Z">
+        <seg>File "%s" succesfully deleted</seg>
       </tuv>
     </tu>
     <tu>
@@ -76728,6 +76746,9 @@ Connection test error:
       <tuv lang="ru">
         <seg>Директория "%s" не была удалёна</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T133358Z">
+        <seg>Failed to delete folder "%s"</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -76735,6 +76756,9 @@ Connection test error:
       <note>Key = Libraries/bgrtl/SysUtils.LogRemoveDirectorySuccessfulFmt</note>
       <tuv lang="ru">
         <seg>Директория "%s" успешно удалена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T151645Z">
+        <seg>Directory "%s" succesfully deleted</seg>
       </tuv>
     </tu>
     <tu>
