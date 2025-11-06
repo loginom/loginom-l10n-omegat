@@ -98372,6 +98372,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Корр. анализ: %s x %s</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T121420Z">
+        <seg>Corr. analysis: %s x %s</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -98754,6 +98757,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Табл. в дерево:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T121438Z">
+        <seg>Table to tree:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -98938,6 +98944,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Табл. в перем.:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T121502Z">
+        <seg>Table to var.:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -99000,6 +99009,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/datatoxml/DataToXML.DataToXMLShortTitle</note>
       <tuv lang="ru">
         <seg>Формир. XML:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T123544Z">
+        <seg>Generate XML:</seg>
       </tuv>
     </tu>
     <tu>
