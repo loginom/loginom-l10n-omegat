@@ -26249,6 +26249,9 @@ Do you really want to create one more component?</seg>
       <tuv lang="ru">
         <seg>Выберите только одну метку узла</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163521Z">
+        <seg>Select only one node caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
