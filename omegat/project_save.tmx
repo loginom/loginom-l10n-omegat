@@ -99285,6 +99285,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>%s (%s)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T123554Z">
+        <seg>%s (%s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -99392,6 +99395,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Дубликаты:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T123600Z">
+        <seg>Duplicates:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -99454,6 +99460,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/elimoutlier/ElimOutlier.ElimOutlierComponentTitle</note>
       <tuv lang="ru">
         <seg>Выбросы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T123603Z">
+        <seg>Outliers:</seg>
       </tuv>
     </tu>
     <tu>
@@ -99649,6 +99658,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/em/EMEngine.EMComponentTitle</note>
       <tuv lang="ru">
         <seg>ЕМ Кластериз.:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T123804Z">
+        <seg>EM Clustering:</seg>
       </tuv>
     </tu>
     <tu>
