@@ -62558,6 +62558,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>%s: %d шт.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125029Z">
+        <seg>%s: %d items</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62565,6 +62568,9 @@ OAuth Token</note>
       <note>Key = components/partition/PartitionEngine.PartitionControlVariablesAbsoluteRowCount</note>
       <tuv lang="ru">
         <seg>%s: %s (стр)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125055Z">
+        <seg>%s: %s (rows)</seg>
       </tuv>
     </tu>
     <tu>
@@ -62585,6 +62591,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>%s: %s (%%)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125101Z">
+        <seg>%s: %s (%%)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -62602,6 +62611,9 @@ OAuth Token</note>
       <prop type="id">tu1322_0</prop>
       <note>Key = components/partition/PartitionEngine.PartitionRelativeRowCount</note>
       <tuv lang="ru">
+        <seg>%s: %4.2f%%</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125110Z">
         <seg>%s: %4.2f%%</seg>
       </tuv>
     </tu>
@@ -62984,6 +62996,9 @@ OAuth Token</note>
       <prop type="id">tu1354_0</prop>
       <note>Key = components/python/PythonEngine.PythonComponentTitle</note>
       <tuv lang="ru">
+        <seg>Python:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125121Z">
         <seg>Python:</seg>
       </tuv>
     </tu>
@@ -64160,6 +64175,9 @@ Result:
       <tuv lang="ru">
         <seg>Изменение</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125139Z">
+        <seg>Changed</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64256,6 +64274,9 @@ Result:
       <tuv lang="ru">
         <seg>Замена:</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125144Z">
+        <seg>Replace:</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64274,6 +64295,9 @@ Result:
       <note>Key = components/replace/ReplaceColumns.ReplaceFromSourceTip</note>
       <tuv lang="ru">
         <seg>(т)</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125210Z">
+        <seg>(t)</seg>
       </tuv>
     </tu>
     <tu>
@@ -64414,6 +64438,9 @@ Result:
       <note>Key = components/replacevariables/ReplaceVariables.ReplaceVariablesComponentTitle</note>
       <tuv lang="ru">
         <seg>Замена (перем.):</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125237Z">
+        <seg>Replace (Var.):</seg>
       </tuv>
     </tu>
     <tu>
