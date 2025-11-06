@@ -64670,6 +64670,9 @@ Result:
       <tuv lang="ru">
         <seg>Сэмплинг: %s, %s (стр)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125314Z">
+        <seg>Sampling: %s, %s (Rows)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64677,6 +64680,9 @@ Result:
       <note>Key = components/sampling/SamplingEngine.SamplingAbsoluteGeneratedTitle</note>
       <tuv lang="ru">
         <seg>Сэмплинг: %s, %d шт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125343Z">
+        <seg>Sampling: %s, %d Items</seg>
       </tuv>
     </tu>
     <tu>
@@ -64697,6 +64703,9 @@ Result:
       <tuv lang="ru">
         <seg>Сэмплинг: %s, %s (%%)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125354Z">
+        <seg>Sampling: %s, %s (%%)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -64704,6 +64713,9 @@ Result:
       <note>Key = components/sampling/SamplingEngine.SamplingRelativeGeneratedTitle</note>
       <tuv lang="ru">
         <seg>Сэмплинг: %s, %4.2f%%</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125405Z">
+        <seg>Sampling: %s, %4.2f%%</seg>
       </tuv>
     </tu>
     <tu>
@@ -64844,6 +64856,9 @@ Result:
       <note>Key = components/smoothing/SmoothingEngine.SmoothingComponentTitle</note>
       <tuv lang="ru">
         <seg>Сглаживание:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T125411Z">
+        <seg>Smoothing:</seg>
       </tuv>
     </tu>
     <tu>
@@ -65083,6 +65098,9 @@ Result:
       <note>Key = components/sonn/SONNEngine.SONNComponentShortTitle</note>
       <tuv lang="ru">
         <seg>Самоорг. сеть:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T130228Z">
+        <seg>SONN:</seg>
       </tuv>
     </tu>
     <tu>
