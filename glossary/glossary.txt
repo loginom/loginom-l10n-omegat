@@ -457,3 +457,4 @@ P-значение	P-value
 Трасса вызовов	stack trace
 в заданной степени	raised to the specified (given) power
 константы "ПИ"	the constant pi
+заметки	annotations	функционал программы
