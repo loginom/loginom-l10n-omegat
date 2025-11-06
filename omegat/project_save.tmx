@@ -30640,6 +30640,9 @@ Do you really want to start port configuration?</seg>
       <tuv lang="ru">
         <seg>Любые URL</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154525Z">
+        <seg>Any URLs</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -31861,6 +31864,9 @@ Delete all lost links and continue?</seg>
       <note>Key = admin/ServerSettingsForm.DenyImageURLs</note>
       <tuv lang="ru">
         <seg>Загрузка изображений запрещена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162108Z">
+        <seg>Loading images not allowed</seg>
       </tuv>
     </tu>
     <tu>
@@ -110972,6 +110978,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Чекбоксы</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154432Z">
+        <seg>Checkboxes</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110979,6 +110988,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.pnlEdit.title</note>
       <tuv lang="ru">
         <seg>Редактор</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154444Z">
+        <seg>Editor</seg>
       </tuv>
     </tu>
     <tu>
