@@ -94235,6 +94235,9 @@ Connection test error: %s</note>
       <tuv lang="ru">
         <seg>Ошибка проверки подключения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152635Z">
+        <seg>Connection test error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -114576,6 +114579,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Любые</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152642Z">
+        <seg>Any</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -115793,6 +115799,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = admin/AllowURLsForm.rbList.boxLabel</note>
       <tuv lang="ru">
         <seg>Только разрешенные</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152713Z">
+        <seg>Allowed only</seg>
       </tuv>
     </tu>
     <tu>
@@ -122665,6 +122674,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = app/PackageForm.chbMarkdownEnabled.fieldLabel</note>
       <tuv lang="ru">
         <seg>Синтаксис Markdown для заметок и комментариев</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152953Z">
+        <seg>Markdown syntax for annotations and comments</seg>
       </tuv>
     </tu>
     <tu>
