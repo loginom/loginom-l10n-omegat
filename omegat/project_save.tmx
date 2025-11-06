@@ -84148,6 +84148,9 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Активирован порт "%s" узла "%s" GUID=%s Количество строк недоступно</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152315Z">
+        <seg>Port "%s" of node "%s" activated GUID=%s Row count unavailable</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89224,6 +89227,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Разрешенные URL для загрузки изображений при отображении их в Markdown</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152350Z">
+        <seg>Allowed image load URLs for display in Markdown</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89231,6 +89237,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServerSettings.AllowedLinkURLs</note>
       <tuv lang="ru">
         <seg>Разрешенные URL для кликабельных ссылок в Markdown</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152412Z">
+        <seg>Allowed URLs for clickable links in Markdown</seg>
       </tuv>
     </tu>
     <tu>
@@ -91019,6 +91028,9 @@ Shared directory name can consist of Latin letters, digits, _ - . characters and
 but it cannot end with a dot or space.</note>
       <tuv lang="ru">
         <seg>Имя общей директории не может содержать следующие символы: \ / : * ? " &lt; &gt; | и не может заканчиваться точкой или пробелом, а длина должна быть меньше 256.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T152628Z">
+        <seg>A shared directory name cannot include the following characters: \ / : * ? " &lt; &gt; | and cannot end with a full stop or space. The name's length must be less than 256.</seg>
       </tuv>
     </tu>
     <tu>
