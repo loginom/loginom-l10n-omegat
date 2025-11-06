@@ -57069,6 +57069,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Разрешенные URL для формирования ссылок в Markdown</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T100723Z">
+        <seg>URLs allowed for generating links in Markdown</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
