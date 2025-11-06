@@ -96656,8 +96656,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Кластериз. транз.:</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T115148Z">
-        <seg>Transact. clust.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T120636Z">
+        <seg>Trans. clust.</seg>
       </tuv>
     </tu>
     <tu>
@@ -96919,6 +96919,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/clusterization/ClusterizationEngine.ClusterizationComponentTitle</note>
       <tuv lang="ru">
         <seg>Кластериз.:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T120704Z">
+        <seg>Clust.:</seg>
       </tuv>
     </tu>
     <tu>
@@ -97444,6 +97447,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/coarseclasses/CoarseClassesEngine.CoarseClassesShortTitle</note>
       <tuv lang="ru">
         <seg>Кон. классы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T120743Z">
+        <seg>Coarse classes:</seg>
       </tuv>
     </tu>
     <tu>
