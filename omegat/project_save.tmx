@@ -51503,6 +51503,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Список значений в виде строки</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T095705Z">
+        <seg>List of values as a string</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -54646,6 +54649,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Тайм-аут ожидания сессии (с)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T095732Z">
+        <seg>Session wait timeout (s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -54752,6 +54758,9 @@ OAuth Token</note>
       <note>Key = Libraries/bgdbrtl/DB.DatabaseConfigurator.SingleConnectionMode</note>
       <tuv lang="ru">
         <seg>Работать в одной сессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T095847Z">
+        <seg>Single session work mode</seg>
       </tuv>
     </tu>
     <tu>
