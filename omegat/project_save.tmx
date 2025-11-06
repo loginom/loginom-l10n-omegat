@@ -58686,6 +58686,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Левое</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124602Z">
+        <seg>Left</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -58704,6 +58707,9 @@ OAuth Token</note>
       <note>Key = components/joindata/JoinData.RightJoinPrefix</note>
       <tuv lang="ru">
         <seg>Правое</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124605Z">
+        <seg>Right</seg>
       </tuv>
     </tu>
     <tu>
@@ -59284,6 +59290,9 @@ OAuth Token</note>
       <note>Key = components/linregression/LinRegressionEngine.LinRegressionShortTitle</note>
       <tuv lang="ru">
         <seg>Линрегрессия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124620Z">
+        <seg>Lin. Regression:</seg>
       </tuv>
     </tu>
     <tu>
@@ -60084,6 +60093,9 @@ OAuth Token</note>
       <note>Key = components/logregression/LogRegressionEngine.LogRegressionShortTitle</note>
       <tuv lang="ru">
         <seg>Логрегрессия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T124634Z">
+        <seg>Log. Regression:</seg>
       </tuv>
     </tu>
     <tu>
