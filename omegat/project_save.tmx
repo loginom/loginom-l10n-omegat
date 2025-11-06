@@ -5995,6 +5995,9 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>URL для формирования ссылок</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162423Z">
+        <seg>URL for generating links</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6112,6 +6115,9 @@ Delete all lost links and continue?</seg>
       <note>Key = admin/ServerSettingsForm.LinkURLsFormTitle</note>
       <tuv lang="ru">
         <seg>URL префиксы, которые могут быть использованы для ссылок в Markdown</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162507Z">
+        <seg>URL Prefixes Allowed for Links in Markdown</seg>
       </tuv>
     </tu>
     <tu>
@@ -25295,6 +25301,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Заметка (markdown)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162536Z">
+        <seg>Annotation (Markdown)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25302,6 +25311,9 @@ Error: {1}.</seg>
       <note>Key = app/ModelForm.AnnotationEditorWindowTitle</note>
       <tuv lang="ru">
         <seg>Редактирование заметки</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162559Z">
+        <seg>Annotation Editor</seg>
       </tuv>
     </tu>
     <tu>
