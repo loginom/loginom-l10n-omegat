@@ -38,7 +38,6 @@ String	String	последовательность символов.
 Пакет	Package
 Не удалось подключиться к серверу	Server connection failed
 Ряд	Series
-Заголовок	Caption
 Метка	Caption
 Вернуть изменения до точки	Rollback to backup point
 Выходной набор	Output dataset
