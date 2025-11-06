@@ -6711,6 +6711,9 @@ Use this SQL query only to create a table.</seg>
       <tuv lang="ru">
         <seg>Логировать удаление файлов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T151924Z">
+        <seg>Log file deletion</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -76746,8 +76749,8 @@ Connection test error:
       <tuv lang="ru">
         <seg>Директория "%s" не была удалёна</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T133358Z">
-        <seg>Failed to delete folder "%s"</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T151744Z">
+        <seg>Failed to delete directory "%s"</seg>
       </tuv>
     </tu>
     <tu>
@@ -80533,6 +80536,9 @@ Reason: %s</seg>
       <note>Key = Libraries/Log/LoggerConfigurator.LogFileOperations</note>
       <tuv lang="ru">
         <seg>Логировать удаление файлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T151903Z">
+        <seg>Log file deletion</seg>
       </tuv>
     </tu>
     <tu>
