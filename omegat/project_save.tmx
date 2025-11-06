@@ -57069,8 +57069,8 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Разрешенные URL для формирования ссылок в Markdown</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T100723Z">
-        <seg>URLs allowed for generating links in Markdown</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T101109Z">
+        <seg>Allowed URLs for generating links in Markdown</seg>
       </tuv>
     </tu>
     <tu>
@@ -91609,6 +91609,9 @@ but it cannot end with a dot or space.</note>
       <note>Key = components/assnrules/AssnRulesEngine.AssnRulesComponentShortTitle</note>
       <tuv lang="ru">
         <seg>Ассоц. правила:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T101644Z">
+        <seg>Assoc. rules:</seg>
       </tuv>
     </tu>
     <tu>
