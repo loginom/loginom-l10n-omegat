@@ -110906,6 +110906,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Многострочный</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154133Z">
+        <seg>Multi-Line</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110913,6 +110916,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.btnManyCode.tooltip</note>
       <tuv lang="ru">
         <seg>Многострочный код</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154140Z">
+        <seg>Multi-line code</seg>
       </tuv>
     </tu>
     <tu>
@@ -110922,6 +110928,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Нумерованный список</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154239Z">
+        <seg>Ordered list</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110930,6 +110939,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Цитата</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154323Z">
+        <seg>Quote</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110937,6 +110949,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.btnStrikethrough.tooltip</note>
       <tuv lang="ru">
         <seg>Зачеркнутый</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154416Z">
+        <seg>Strikethrough</seg>
       </tuv>
     </tu>
     <tu>
