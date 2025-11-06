@@ -66826,6 +66826,9 @@ Result:
       <tuv lang="ru">
         <seg>SOAP-запрос: %s</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T132618Z">
+        <seg>SOAP Request: %s</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
