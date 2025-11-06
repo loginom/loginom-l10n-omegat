@@ -110807,6 +110807,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Заголовок 2</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153532Z">
+        <seg>Title 2</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110814,6 +110817,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.btnH3.tooltip</note>
       <tuv lang="ru">
         <seg>Заголовок 3</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153534Z">
+        <seg>Title 3</seg>
       </tuv>
     </tu>
     <tu>
@@ -110833,6 +110839,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.btnItalic.tooltip</note>
       <tuv lang="ru">
         <seg>Курсив</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153644Z">
+        <seg>Italic</seg>
       </tuv>
     </tu>
     <tu>
@@ -110885,6 +110894,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.btnList.tooltip</note>
       <tuv lang="ru">
         <seg>Ненумерованный список</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T154119Z">
+        <seg>Unordered list</seg>
       </tuv>
     </tu>
     <tu>
