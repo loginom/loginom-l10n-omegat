@@ -6369,6 +6369,9 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Автоматическая метка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163536Z">
+        <seg>Auto-Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -6376,6 +6379,9 @@ Delete all lost links and continue?</seg>
       <note>Key = connections/xsdfiles/XSDFilesConnectionWizard.CustomConnectionTitle</note>
       <tuv lang="ru">
         <seg>Пользовательская метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163545Z">
+        <seg>Custom Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -18118,6 +18124,9 @@ Do you really want to start exporting?</seg>
       <tuv lang="ru">
         <seg>Визуализаторы, которые не совместимы с портом, не были добавлены</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163613Z">
+        <seg>Visualizers incompatible with the port were not added</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21611,6 +21620,9 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Автоматическая метка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163618Z">
+        <seg>Auto-Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21618,6 +21630,9 @@ Do you want to delete all lost links and continue?</seg>
       <note>Key = wizards/connection/ConnectionConfigWizard.CustomConnectionTitle</note>
       <tuv lang="ru">
         <seg>Пользовательская метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163625Z">
+        <seg>Custom Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -21703,6 +21718,9 @@ Do you want to delete all lost links and continue?</seg>
       <note>Key = wizards/connection/ConnectionsViewWizard.BtnAutogenerateSelectedTitles</note>
       <tuv lang="ru">
         <seg>Сгенерировать автоматические метки</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163644Z">
+        <seg>Autogenerate Captions</seg>
       </tuv>
     </tu>
     <tu>
@@ -21953,6 +21971,9 @@ Do you want to delete all lost links and continue?</seg>
       <note>Key = wizards/connection/ConnectionsViewWizard.GenerateNodeTitle</note>
       <tuv lang="ru">
         <seg>Автоматическая метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163654Z">
+        <seg>Auto-Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -22800,6 +22821,9 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Автоматическая метка</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163706Z">
+        <seg>Auto-Caption</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -22807,6 +22831,9 @@ Do you want to delete all lost links and continue?</seg>
       <note>Key = wizards/done/DoneWizard.CustomNodeTitle</note>
       <tuv lang="ru">
         <seg>Пользовательская метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163714Z">
+        <seg>Custom Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -42048,6 +42075,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Токен OAuth</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163754Z">
+        <seg>OAuth token</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -51914,6 +51944,9 @@ OAuth token
 OAuth Token</note>
       <tuv lang="ru">
         <seg>Токен OAuth</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T163811Z">
+        <seg>OAuth token</seg>
       </tuv>
     </tu>
     <tu>
