@@ -36,7 +36,7 @@
       "Absent": "Not required",
       "NamePass": "Username and password",
       "Basic": "Basic",
-      "OAuth": "Токен OAuth",
+      "OAuth": "OAuth token",
       "Cert": "Client certificate from storage",
       "FileCert": "Client certificate files"
     }

@@ -33,7 +33,7 @@
       "SSLKeyPassword": "Private key password"
     },
     "WebServiceOAuthCredentials": {
-      "Token": "Токен OAuth"
+      "Token": "OAuth token"
     },
     "WebServicePasswordCredentials": {
       "Password": "Password",
@@ -270,7 +270,7 @@
       "CaseSensitive": "Case-sensitive",
       "CompareValue": "Comparison value",
       "CompareValueList": "List of values",
-      "CompareValueListAsString": "Список значений в виде строки",
+      "CompareValueListAsString": "List of values as a string",
       "CompareValueLowerBound": "Lower bound",
       "CompareValuePeriodBaseDate": "Base interval date",
       "CompareValuePeriodCount": "Time span value",
@@ -721,7 +721,7 @@
       "ClearPoolOnDeactivate": "Clear pool when deactivated"
     },
     "DatabaseConfigurator": {
-      "BusyTimeout": "Тайм-аут ожидания сессии (с)",
+      "BusyTimeout": "Session wait timeout (s)",
       "CharacterSet": "Codepage",
       "ConnectionTimeout": "Connection timeout (s)",
       "DatabasePath": "Connection string",
@@ -730,7 +730,7 @@
       "LoginPrompt": "Login prompt",
       "Password": "Password",
       "QuotedObjectNames": "Quote names",
-      "SingleConnectionMode": "Работать в одной сессии",
+      "SingleConnectionMode": "Single session work mode",
       "SystemTables": "Show system tables",
       "UserName": "Username"
     },
@@ -942,9 +942,9 @@
       "MinLogLevel": "Logging level"
     },
     "LoggerConfigurator": {
-      "LogFileOperations": "Логировать удаление файлов",
+      "LogFileOperations": "Log file deletion",
       "LoggerType": "Logging type",
-      "LogRowCount": "Логировать количество строк при активации узла",
+      "LogRowCount": "Log row count upon node activation",
       "NeedDN": "Resolve domain names",
       "NeedPackageName": "Log the package name for the node"
     },
@@ -1068,8 +1068,8 @@
   "Studio/DeductorServerSettings": {
     "DeductorServerSettings": {
       "AdminMultiSessionRestriction": "Restrict multisessions for admins",
-      "AllowedImageURLs": "Разрешенные URL для загрузки изображений при отображении их в Markdown",
-      "AllowedLinkURLs": "Разрешенные URL для формирования ссылок в Markdown",
+      "AllowedImageURLs": "Allowed image load URLs for display in Markdown",
+      "AllowedLinkURLs": "Allowed URLs for generating links in Markdown",
       "AlwaysVerifyHTTPSCerts": "Always verify HTTPS certificates",
       "AlwaysVerifySSLCerts": "Always verify all certificates",
       "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",

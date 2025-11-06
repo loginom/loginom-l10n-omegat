@@ -53,10 +53,10 @@
       "text": "Cancel"
     },
     "rbAny": {
-      "boxLabel": "Любые"
+      "boxLabel": "Any"
     },
     "rbList": {
-      "boxLabel": "Только разрешенные"
+      "boxLabel": "Allowed only"
     }
   },
   "admin/LDAPTestForm": {
@@ -972,7 +972,7 @@
       "fieldLabel": "Binary comparison of unique string values"
     },
     "chbMarkdownEnabled": {
-      "fieldLabel": "Синтаксис Markdown для заметок и комментариев"
+      "fieldLabel": "Markdown syntax for annotations and comments"
     },
     "chbUseBasePackageFileStorage": {
       "fieldLabel": "Use relative paths of base package"
@@ -4985,26 +4985,26 @@
   },
   "markdown/MarkdownEditor": {
     "btnBold": {
-      "tooltip": "Полужирный"
+      "tooltip": "Bold"
     },
     "btnCode": {
-      "text": "Однострочный",
-      "tooltip": "Однострочный код"
+      "text": "Single-Line",
+      "tooltip": "Single-line code"
     },
     "btnH1": {
-      "tooltip": "Заголовок 1"
+      "tooltip": "Title 1"
     },
     "btnH2": {
-      "tooltip": "Заголовок 2"
+      "tooltip": "Title 2"
     },
     "btnH3": {
-      "tooltip": "Заголовок 3"
+      "tooltip": "Title 3"
     },
     "btnImage": {
       "tooltip": "Image"
     },
     "btnItalic": {
-      "tooltip": "Курсив"
+      "tooltip": "Italic"
     },
     "btnLine": {
       "text": "Separator",
@@ -5014,29 +5014,29 @@
       "tooltip": "Reference"
     },
     "btnList": {
-      "tooltip": "Ненумерованный список"
+      "tooltip": "Unordered list"
     },
     "btnManyCode": {
-      "text": "Многострочный",
-      "tooltip": "Многострочный код"
+      "text": "Multi-Line",
+      "tooltip": "Multi-line code"
     },
     "btnNumList": {
-      "tooltip": "Нумерованный список"
+      "tooltip": "Ordered list"
     },
     "btnQuote": {
-      "tooltip": "Цитата"
+      "tooltip": "Quote"
     },
     "btnStrikethrough": {
-      "tooltip": "Зачеркнутый"
+      "tooltip": "Strikethrough"
     },
     "btnTable": {
       "tooltip": "Table"
     },
     "btnTaskList": {
-      "tooltip": "Чекбоксы"
+      "tooltip": "Checkboxes"
     },
     "pnlEdit": {
-      "title": "Редактор"
+      "title": "Editor"
     },
     "pnlPreview": {
       "title": "Preview"
@@ -7419,7 +7419,7 @@
       "text": "Default"
     },
     "cbxLogRowCount": {
-      "boxLabel": "Логировать количество строк при активации узла"
+      "boxLabel": "Log row count upon node activation"
     },
     "edtName": {
       "fieldLabel": "Name"
