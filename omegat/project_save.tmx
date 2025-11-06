@@ -94993,8 +94993,8 @@ Errors may occur when executing SQL queries to DW.</seg>
       <tuv lang="ru">
         <seg>Автокорр.:</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T101901Z">
-        <seg>Autocorr.:</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T102005Z">
+        <seg>Autocorrelation:</seg>
       </tuv>
     </tu>
     <tu>
@@ -95124,6 +95124,9 @@ Errors may occur when executing SQL queries to DW.</seg>
       <note>Key = components/binning/Binning.BinningComponentTitle</note>
       <tuv lang="ru">
         <seg>Квантование:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T102059Z">
+        <seg>Binning:</seg>
       </tuv>
     </tu>
     <tu>
@@ -96652,6 +96655,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = components/clope/ClopeEngine.ClopeComponentShortTitle</note>
       <tuv lang="ru">
         <seg>Кластериз. транз.:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T115148Z">
+        <seg>Transact. clust.</seg>
       </tuv>
     </tu>
     <tu>
