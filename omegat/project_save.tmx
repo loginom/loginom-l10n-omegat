@@ -56068,6 +56068,9 @@ OAuth Token</note>
       <tuv lang="ru">
         <seg>Логировать удаление файлов</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T095906Z">
+        <seg>Log file deletion</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -56086,6 +56089,9 @@ OAuth Token</note>
       <note>Key = Libraries/Log/LoggerConfigurator.LoggerConfigurator.LogRowCount</note>
       <tuv lang="ru">
         <seg>Логировать количество строк при активации узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T100319Z">
+        <seg>Log row count upon node activation</seg>
       </tuv>
     </tu>
     <tu>
