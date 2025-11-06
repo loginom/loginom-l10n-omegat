@@ -110774,6 +110774,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Однострочный</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153344Z">
+        <seg>Single-Line</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110782,6 +110785,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Однострочный код</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153353Z">
+        <seg>Single-line code</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -110789,6 +110795,9 @@ To solve this problem it is required to enable Caching.</seg>
       <note>Key = markdown/MarkdownEditor.btnH1.tooltip</note>
       <tuv lang="ru">
         <seg>Заголовок 1</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153521Z">
+        <seg>Title 1</seg>
       </tuv>
     </tu>
     <tu>
