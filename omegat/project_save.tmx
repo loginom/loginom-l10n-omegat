@@ -31865,8 +31865,8 @@ Delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Загрузка изображений запрещена</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T162108Z">
-        <seg>Loading images not allowed</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162127Z">
+        <seg>Loading images is not allowed</seg>
       </tuv>
     </tu>
     <tu>
@@ -31985,6 +31985,9 @@ Delete all lost links and continue?</seg>
       <note>Key = admin/ServerSettingsForm.DenyLinkURLs</note>
       <tuv lang="ru">
         <seg>Формирование ссылкок запрещено</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162121Z">
+        <seg>Generating links is not allowed</seg>
       </tuv>
     </tu>
     <tu>
@@ -33206,6 +33209,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>URL для загрузки изображений</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162155Z">
+        <seg>URL for loading images</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -33323,6 +33329,9 @@ File processing will take too long.</seg>
       <note>Key = admin/ServerSettingsForm.ImageURLsFormTitle</note>
       <tuv lang="ru">
         <seg>URL префиксы, с которых разрешена загрузка изображений для Markdown</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T162410Z">
+        <seg>URL Prefixes Allowed for Image Load in Markdown</seg>
       </tuv>
     </tu>
     <tu>
