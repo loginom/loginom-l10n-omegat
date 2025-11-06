@@ -110752,6 +110752,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Полужирный</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251106T153005Z">
+        <seg>Bold</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
