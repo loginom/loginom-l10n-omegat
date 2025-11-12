@@ -96899,8 +96899,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Кластериз. транз.:</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T120636Z">
-        <seg>Trans. clust.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251112T113734Z">
+        <seg>CLOPE:</seg>
       </tuv>
     </tu>
     <tu>
@@ -97163,8 +97163,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Кластериз.:</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T120704Z">
-        <seg>Clust.:</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251112T113824Z">
+        <seg>Clustering:</seg>
       </tuv>
     </tu>
     <tu>
