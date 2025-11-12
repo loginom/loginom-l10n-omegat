@@ -84232,8 +84232,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Активирован порт "%s" узла "%s" GUID=%s Количество строк недоступно</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T152315Z">
-        <seg>Port "%s" of node "%s" activated GUID=%s Row count unavailable</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251112T121611Z">
+        <seg>Port "%s" of node "%s" GUID=%s activated Row count unavailable</seg>
       </tuv>
     </tu>
     <tu>
@@ -98615,8 +98615,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Корр. анализ: %s x %s</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251106T121420Z">
-        <seg>Corr. analysis: %s x %s</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251112T113916Z">
+        <seg>Correlation: %s x %s</seg>
       </tuv>
     </tu>
     <tu>
