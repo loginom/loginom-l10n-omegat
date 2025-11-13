@@ -77,7 +77,6 @@ String	String	последовательность символов.
 Запрещено	Forbidden
 Порог разделения кластеров	Cluster splitting significance threshold
 Соединение нескольких наборов	Combine several datasets
-Разгруппируемое	Ungroupable
 Приостановить автовычисление	Defer layout update
 Формирование множеств	Selection of sets
 Модель не построена	Model is not trained
@@ -195,7 +194,6 @@ XSD-схема на входе	Input XSD schema
 Оценки классификатора	Classifier scores
 Оценки классификации	Classification scores
 Порог отсечения	Cutoff
-Не задано	Unspecified
 Максимум общей точности	Highest overall accuracy
 Коэффициент Джини	Gini index
 Заданные итерации	Given iterations
