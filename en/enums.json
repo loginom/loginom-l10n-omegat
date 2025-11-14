@@ -3,7 +3,7 @@
     "CalcFuncCategory": {
       "$Caption": "Function Category",
       "Financical": "Financial",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Mathematic": "Math",
       "Statistic": "Statistical",
       "Logic": "Logical",
@@ -47,7 +47,7 @@
       "Ok": "No errors",
       "Cancelled": "Canceled by user",
       "InitError": "Initialization error: %s",
-      "InvalidMultipartBoundary": "Invalid multipart\/related boundary",
+      "InvalidMultipartBoundary": "Invalid multipart/related boundary",
       "HeaderTooLong": "HTTP header too long",
       "UnexpectedMessageEnd": "Unexpected message end",
       "UnknownMessageStructure": "Unrecognized message structure",
@@ -159,12 +159,6 @@
     }
   },
   "Common/XML/XSD": {
-    "XSDAggregateType": {
-      "$Caption": "Content Model (Aggregation Type)",
-      "Sequence": "Sequence",
-      "Choice": "Choice",
-      "All": "All"
-    },
     "XSDDataTypeRefinement": {
       "$Caption": "XML Data Type Refinement",
       "Any": "Any type",
@@ -172,7 +166,7 @@
       "None": "Unknown",
       "Date": "Date",
       "Time": "Time",
-      "DateTime": "Date\/time",
+      "DateTime": "Date/time",
       "Float": "Floating point number (single precision)",
       "Double": "Floating point number (double precision)",
       "Decimal": "Decimal number",
@@ -259,9 +253,9 @@
     },
     "BinningSDMode": {
       "$Caption": "Bin Create Mode",
-      "sdm1": "+\/- 1 SD",
-      "sdm2": "+\/- 2 SD",
-      "sdm3": "+\/- 3 SD"
+      "sdm1": "+/- 1 SD",
+      "sdm2": "+/- 2 SD",
+      "sdm3": "+/- 3 SD"
     }
   },
   "components/calcdata": {
@@ -400,12 +394,12 @@
     },
     "DateReformFormat": {
       "$Caption": "Output Column Data Type",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Number": "Number",
       "String": "String"
     },
     "DateReformFunction": {
-      "$Caption": "Date\/Time Conversion Method",
+      "$Caption": "Date/Time Conversion Method",
       "YearAndQuarter": "Year + quarter",
       "YearAndMonth": "Year + month",
       "YearAndWeek": "Year + week",
@@ -425,14 +419,6 @@
       "Date": "Date",
       "Time": "Time",
       "User": "User format"
-    }
-  },
-  "components/em": {
-    "EMModification": {
-      "$Caption": "Algorithm Type",
-      "Standard": "Standard",
-      "Stochastic": "Stochastic",
-      "Classification": "Classification"
     }
   },
   "components/factoranalysis": {
@@ -562,11 +548,6 @@
       "Manual": "Custom",
       "Sampling": "Take from Sampling node",
       "Partition": "Take from Partitioning node"
-    },
-    "CalibrationType": {
-      "$Caption": "Type of Event Weight Correction",
-      "Const": "By constant",
-      "Weight": "By weights"
     },
     "LogRegressionMethod": {
       "$Caption": "Factor Selection and Protection against Overfitting",
@@ -717,7 +698,7 @@
       "$Caption": "Wavelet Type",
       "Daubechies": "Daubechies",
       "Coiflet": "Coiflet",
-      "CDF97": "CDF 9\/7"
+      "CDF97": "CDF 9/7"
     }
   },
   "components/sonn": {
@@ -733,16 +714,6 @@
       "Kohonen": "Kohonen network",
       "GNG": "Neural gas",
       "ESOINN": "ESOINN"
-    }
-  },
-  "components/sorting": {
-    "SortingBufferingType": {
-      "$Caption": "Data Buffer Type",
-      "Default": "Default",
-      "Whole": "All data",
-      "Minimal": "Minimum",
-      "UserDefined": "Set",
-      "WholePreCache": "Precache all data"
     }
   },
   "components/ungroupdata": {
@@ -809,39 +780,11 @@
     }
   },
   "exports/excelfile": {
-    "ExcelCaptionType": {
-      "$Caption": "Column Header Type",
-      "AsName": "Field names",
-      "AsDisplayName": "Field captions"
-    },
-    "ExcelHeadersRow": {
-      "$Caption": "Column Headers",
-      "IncludeHeadersRow": "The first row is the header",
-      "NoHeadersRow": "No header row",
-      "NoHeadersRowAfterData": "No header row if data is added below"
-    },
     "ExcelHeadersRowWebSet": {
       "$Caption": "Column Headers",
       "NoHeadersRow": "No header row",
       "HeadersRowAsName": "Field names",
       "HeadersRowAsDisplayName": "Field captions"
-    },
-    "ExcelLimitRowType": {
-      "$Caption": "Row Limit Type",
-      "NoLimit": "No limit",
-      "LastRow": "Last row",
-      "RowsCount": "Row count"
-    },
-    "ExcelUpdateFileMode": {
-      "$Caption": "Update Excel File",
-      "ForceCreateFile": "Replace an existing file",
-      "Update": "Change an existing file"
-    },
-    "ExcelUpdateSheetMode": {
-      "$Caption": "Excel Sheet Update",
-      "ForceCreateSheet": "Replace existing sheet",
-      "AddBelow": "Add data below",
-      "Merge": "Do not delete existing data in the worksheet"
     }
   },
   "exports/textfile": {
@@ -854,7 +797,7 @@
   "imports/database": {
     "BDCommandType": {
       "$Caption": "Command Text Type",
-      "Table": "Table\/view name",
+      "Table": "Table/view name",
       "Text": "SQL query"
     }
   },
@@ -880,11 +823,6 @@
       "Number": "By number",
       "Name": "By name",
       "NamedRange": "Named range"
-    },
-    "ExcelUsedRangeType": {
-      "$Caption": "Range Selection Type",
-      "UsedRange": "Auto",
-      "ExplicitRange": "Set"
     }
   },
   "imports/kafka": {
@@ -953,50 +891,9 @@
       "MySQL": "MySQL",
       "PostgreSQL": "PostgreSQL",
       "SQLite": "SQLite"
-    },
-    "ObjectQuotesType": {
-      "$Caption": "Identifier Quotes",
-      "SquareBrackets": "Square brackets []",
-      "DoubleQuotes": "Double quotes \"\"",
-      "Apostrophes": "Apostrophes ``"
-    },
-    "TransactionIsolationLevel": {
-      "$Caption": "Transaction Isolation Level",
-      "ReadUnCommitted": "Read uncommitted",
-      "ReadCommitted": "Read committed",
-      "RepeatableRead": "Repeatable Read",
-      "Snapshot": "Snapshot",
-      "Serializable": "Serializable"
-    }
-  },
-  "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
-    "BigQueryAuthMechanismType": {
-      "$Caption": "Authentication Mechanism",
-      "ServiceAcc": "Service authentication",
-      "UserAcc": "User authentication"
-    }
-  },
-  "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
-    "MsSQLClient": {
-      "$Caption": "Client",
-      "Auto": "Auto",
-      "NativeClient": "SQL Server Native Client",
-      "MSOLEDB": "Microsoft OLE DB Driver for SQL Server",
-      "AutoModern": "Automatically (modern)",
-      "Direct": "Without client"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
-    "SQLiteClientLibrary": {
-      "$Caption": "DBMS Client Library",
-      "Sqlite3": "sqlite3",
-      "Sqlcipher": "sqlcipher"
-    },
-    "SQLiteEncryptionAlgorithm": {
-      "$Caption": "Encryption Algorithm",
-      "CryptNone": "-",
-      "CryptAES256CBC": "AES-256"
-    },
     "SQLiteJournalMode": {
       "$Caption": "Transaction Journal Mode",
       "JournalDefault": "Default",
@@ -1011,12 +908,6 @@
       "LikeNoCase": "Case-insensitive ASCII characters",
       "LikeCase": "Case-sensitive",
       "LikeUnicode": "Case-insensitive"
-    },
-    "SQLiteLockingMode": {
-      "$Caption": "Database Locking Mode",
-      "LockDefault": "Default",
-      "LockNormal": "Normal",
-      "LockExclusive": "Exclusive"
     },
     "SQLiteSync": {
       "$Caption": "Sync Mode",
@@ -1090,17 +981,11 @@
       "Teach": "Train",
       "Test": "Test"
     },
-    "DataSourceTypeEx": {
-      "$Caption": "Extended Set of Data Type",
-      "Teach": "",
-      "Test": "",
-      "All": "All"
-    },
     "DataType": {
       "$Caption": "Data Type",
       "None": "Undefined",
       "Boolean": "Logical",
-      "DateTime": "Date\/Time",
+      "DateTime": "Date/Time",
       "Float": "Real",
       "Integer": "Integer",
       "String": "String",
@@ -1119,16 +1004,6 @@
       "Current": "Current date",
       "Data": "From dataset",
       "Custom": "Absolute date"
-    },
-    "DateTimePart": {
-      "$Caption": "Date Time Part",
-      "MiliSeconds": "Millisecond",
-      "Seconds": "Second",
-      "Minute": "Minute",
-      "Hour": "Hour",
-      "Day": "Day",
-      "Month": "Month",
-      "Year": "Year"
     },
     "DateTimeSpanType": {
       "$Caption": "Units of Date Time Spans",
@@ -1178,11 +1053,6 @@
       "LeftJustify": "Align left",
       "RightJustify": "Align right",
       "Center": "Align center"
-    },
-    "PeriodKind": {
-      "$Caption": "Types of Periods",
-      "Relative": "Relative",
-      "Absolute": "Absolute"
     },
     "RelationType": {
       "$Caption": "Relation Type",
@@ -1280,7 +1150,7 @@
   },
   "Libraries/bgrtl/TimeZones": {
     "ExportXMLSpecifyTimeZone": {
-      "$Caption": "Presence of the Time Zone in the Date\/Time Values",
+      "$Caption": "Presence of the Time Zone in the Date/Time Values",
       "None": "Do not specify",
       "AllButDate": "Do not specify for Date",
       "All": "Specify always"
@@ -1312,7 +1182,7 @@
       "Sequence": "Sequence"
     },
     "LearnPartitionMethod": {
-      "$Caption": "Method of Training\/Test Component Partitioning with Training",
+      "$Caption": "Method of Training/Test Component Partitioning with Training",
       "Random": "Random",
       "Sequence": "Sequence",
       "ByColumn": "By column"
@@ -1418,7 +1288,7 @@
     "LDAPConnectionSecurity": {
       "$Caption": "Connection Security",
       "Simple": "Simple connection",
-      "SSL": "SSL\/TLS",
+      "SSL": "SSL/TLS",
       "StartTLS": "STARTTLS"
     },
     "LDAPUserRole": {
@@ -1443,14 +1313,6 @@
       "$Caption": "Logging Options",
       "File": "File",
       "Journald": "journald"
-    }
-  },
-  "Libraries/Model/DataSet/ImportModelComponentEngine": {
-    "CacheStringsMode": {
-      "$Caption": "Cache Strings Mode",
-      "Off": "Disable",
-      "Manual": "Custom",
-      "Auto": "Auto"
     }
   },
   "Libraries/Model/DerivedModelComponent": {
@@ -1487,22 +1349,6 @@
       "Error": "Error",
       "Winsorizing": "Winsorization"
     },
-    "DefaultInteractionType": {
-      "$Caption": "Interaction Type",
-      "None": "No interaction",
-      "TwoWay": "All twoway",
-      "ThreeWay": "All threeway"
-    },
-    "NormMultType": {
-      "$Caption": "Multiplication Normalization Type",
-      "C": "Multiplication of 2 continuous",
-      "D": "Multiplication of 2 discrete",
-      "CD": "Continuous to discrete multiplication",
-      "CG": "Multiplication of several continuous",
-      "DG": "Multiplication of several discrete",
-      "CDG": "Multiplication of several continuous and discrete",
-      "A": "Multiplication with special factors"
-    },
     "NormSettingsType": {
       "$Caption": "Normalization Type",
       "None": "No",
@@ -1523,22 +1369,6 @@
       "Constant": "Constant",
       "Mult": "Multiplication",
       "Index": "Unique value index"
-    },
-    "RemovableType": {
-      "$Caption": "Field Delete Feature",
-      "Removable": "Removable",
-      "Irremovable": "Irremovable",
-      "StrictIrremovable": "Fixed irremovable"
-    },
-    "SpecInterFactor": {
-      "$Caption": "Special Interaction Factor",
-      "Any": "ANY",
-      "AnyOther": "ANY OTHER",
-      "AnyContinuous": "ANY CONTINUOUS",
-      "AnyDiscrete": "ANY DISCRETE",
-      "AnyOtherContinuous": "ANY OTHER CONTINUOUS",
-      "AnyOtherDiscrete": "ANY DISCRETE",
-      "Same": "SAME"
     }
   },
   "Libraries/OpenID/OpenID": {
@@ -1682,13 +1512,6 @@
     }
   },
   "Viewers/Chart/ChartTypes": {
-    "AxesAlign": {
-      "$Caption": "Align Axes",
-      "None": "No",
-      "Threshold": "Origin",
-      "GridLines": "Match grid",
-      "Scale": "Combine scale"
-    },
     "AxisPosition": {
       "$Caption": "Axis Position",
       "Abscissa": "Lower",
@@ -1699,7 +1522,7 @@
       "$Caption": "Axis Type",
       "Linear": "Linear",
       "Logarithmic": "Logarithmic",
-      "Datetime": "Date\/Time",
+      "Datetime": "Date/Time",
       "Category": "Categories"
     },
     "ChartLinkKind": {
@@ -1839,11 +1662,6 @@
       "Source": "In original order",
       "Custom": "Random order"
     },
-    "CubeDimensionTotalPosition": {
-      "$Caption": "Total Position",
-      "Bottom": "At the bottom",
-      "None": "Do not show"
-    },
     "CubeDimensionType": {
       "$Caption": "Dimension Type",
       "Cols": "Columns",
@@ -1872,12 +1690,6 @@
     }
   },
   "Viewers/Cube/CubeSummaries": {
-    "CubeCaseCellViewType": {
-      "$Caption": "Value Display Type",
-      "Text": "Text",
-      "ImageText": "Text and Color bar",
-      "Image": "Color bar"
-    },
     "CubeColumnWidthMode": {
       "$Caption": "Column Width Change Mode",
       "EqualCases": "Equal measure width",
@@ -2131,21 +1943,9 @@
       "NullCount": "Null count",
       "NotNullCount": "Values",
       "UniqueCount": "Unique"
-    },
-    "StatViewQuartileNumber": {
-      "$Caption": "Quartile Number",
-      "Lower": "Lower quartile",
-      "Median": "Median",
-      "Upper": "Upper quartile"
     }
   },
   "Warehouse2/MDConsts": {
-    "DWExtractExtendedFilterType": {
-      "$Caption": "Extended Filter Type",
-      "None": "Static filter",
-      "UserCustom": "Use custom filter",
-      "Variables": "Filter with variables used"
-    },
     "MDAggregateFunction": {
       "$Caption": "Aggregation",
       "Sum": "Sum",

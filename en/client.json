@@ -1,11 +1,11 @@
 {
   "about/About": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppVersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
-    "NewVersionIsAvaliableFmt": "Latest stable version {0}"
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionIsAvailableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
     "ClaimAdd": "Add claim",
@@ -103,7 +103,7 @@
     "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
     "DefaultLocaleModified": "modified",
     "DenyImageURLs": "Loading images is not allowed",
-    "DenyLinkURLs": "Generating links is not allowed",
+    "DenyLinkURLs.NOTE": "Старый исходник:\nФормирование ссылкок запрещено\n\nСтарый перевод:\nGenerating links is not allowed",
     "DirectorySettings": "Folders",
     "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
@@ -162,7 +162,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL\/TLS port"
+    "WSSPort": "WebSocket SSL/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -254,7 +254,7 @@
     "ConfirmQuit": "Unsaved packages. Exit anyway?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "QAHref": "https://qa.loginom.com/questions/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -412,7 +412,7 @@
     "CommentEditorTabTitle": "Comment (Markdown)",
     "CommentEditorWindowTitle": "Comment Editor",
     "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
+    "ComposeExpandNode": "Collapse items to supernode / Expand supernode",
     "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation to supernode",
@@ -584,7 +584,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
+    "DisNamespace": "http://schemas.loginom.com/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -749,7 +749,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https:\/\/loginom.com",
+    "CompanyWebsite": "https://loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom",
     "SupportMail": "help@loginom.com"
@@ -760,7 +760,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "QAHref": "https://qa.loginom.com/questions/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -807,19 +807,19 @@
     "DescriptionMin": "Minimum",
     "DescriptionN": "Number",
     "InputPortsNotActived": "Do you want to activate input ports?",
-    "LabelTamplateA1Dat": "%MIN[from d.m.yy h:mm]%MAX[ to d.m.yy h:mm]",
-    "LabelTamplateA1Num": "%MIN[from #,0.####]%MAX[ to #,0.####]",
-    "LabelTamplateA2Dat": "%OP%MIN..%MAX%CP",
-    "LabelTamplateA2Num": "%OP%MIN[4]..%MAX[4]%CP",
-    "LabelTamplateA3Dat": "%FD[5] %OP%MIN..%MAX%CP",
-    "LabelTamplateA3Num": "%FD[5] %OP%MIN[4]..%MAX[4]%CP",
-    "LabelTamplateAve": "%AVE",
-    "LabelTamplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #.####]",
-    "LabelTamplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #.####]",
-    "LabelTamplateExampleDat": "%FN (%FD[5]) %OP%MIN[d-mmm-yy h:mm]..%MAX[d-mmm-yy h:mm]%CP",
-    "LabelTamplateMax": "%MAX",
-    "LabelTamplateMin": "%MIN",
-    "LabelTamplateN": "%N",
+    "LabelTemplateA1Dat": "%MIN[from d.m.yy h:mm]%MAX[ to d.m.yy h:mm]",
+    "LabelTemplateA1Num": "%MIN[from #,0.####]%MAX[ to #,0.####]",
+    "LabelTemplateA2Dat": "%OP%MIN..%MAX%CP",
+    "LabelTemplateA2Num": "%OP%MIN[4]..%MAX[4]%CP",
+    "LabelTemplateA3Dat": "%FD[5] %OP%MIN..%MAX%CP",
+    "LabelTemplateA3Num": "%FD[5] %OP%MIN[4]..%MAX[4]%CP",
+    "LabelTemplateAve": "%AVE",
+    "LabelTemplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #.####]",
+    "LabelTemplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, average - #.####]",
+    "LabelTemplateExampleDat": "%FN (%FD[5]) %OP%MIN[d-mmm-yy h:mm]..%MAX[d-mmm-yy h:mm]%CP",
+    "LabelTemplateMax": "%MAX",
+    "LabelTemplateMin": "%MIN",
+    "LabelTemplateN": "%N",
     "LowerInclusive": "<= x <",
     "MsgBoxTitle": "Attention",
     "ProcessInfo": "Processing has been already started for selected columns.",
@@ -985,7 +985,7 @@
     "SetValueMethod": "Replace with"
   },
   "components/datatotree/DataToTreeWizard": {
-    "ClearAllLinksPromtTitle": "Delete",
+    "ClearAllLinksPromptTitle": "Delete",
     "ConfirmClearAllLinks": "Do you want to delete all links?",
     "Delete": "Delete",
     "GlobalNodeIndex": "Global index",
@@ -1227,11 +1227,11 @@
     "ErrNotCompatibleMessageBodyFmt": "Data type of the input dataset field {0} is incompatible with request body"
   },
   "components/restclient/ParamLinks": {
-    "AutoMapPromtTitle": "Auto Link",
+    "AutoMapPromptTitle": "Auto Link",
     "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
     "ConfirmDeleteAll": "Do you want to delete all links?",
     "Delete": "Delete",
-    "DeletePromtTitle": "Delete",
+    "DeletePromptTitle": "Delete",
     "ErrNoParamFmt": "Input dataset field \"{0}\" has been assigned for nonexistent parameter \"{1}\"",
     "ErrNotCompatibleParamDataTypeFmt": "Data type of the input dataset field \"{0}\" is incompatible with parameter \"{1}\""
   },
@@ -1314,11 +1314,11 @@
     "PartMessagePrefix": "Part: "
   },
   "components/wsdlclient/CommonRequestController": {
-    "AutoMapPromtTitle": "Auto Link",
+    "AutoMapPromptTitle": "Auto Link",
     "ConfirmAutoMap": "Links will be automatically mapped by field caption and data type. Already configured links will be deleted.",
     "ConfirmDeleteAll": "Do you want to delete all links?",
     "Delete": "Delete",
-    "DeletePromtTitle": "Delete",
+    "DeletePromptTitle": "Delete",
     "ErrInvalidLinkFound": "Invalid link of \"{0}\" field with \"{1}\" request has been found",
     "ErrMultilinkFound": "Multiple link of \"{0}\" request with \"{1}\" field has been found and it willl be deleted",
     "NotLink": "not linked"
@@ -1371,9 +1371,8 @@
     "ExpireCertDateError": "Expired certificate expiration date"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
-    "AutomaticConnectionTitle": "Auto-Caption",
-    "CustomConnectionTitle": "Custom Caption",
-    "ErrFileNameAdd": "File with name \"{0}\" cannot be added; it may be already in the list"
+    "ErrFileNameAdd": "File with name \"{0}\" cannot be added; it may be already in the list",
+    "XSDFilesConnectionTitle": "Configure XSD Schema Set"
   },
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Cancel",
@@ -1464,12 +1463,12 @@
   "ext/colorfield/Field": {
     "UndefinedHexFormat": "Invalid hexadecimal number format"
   },
-  "ext/colorfield/Pallete": {
-    "EmptyPalleteText": "Standard",
-    "Pallete": "Palette"
+  "ext/colorfield/Palette": {
+    "EmptyPaletteText": "Standard",
+    "Palette": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open\/close was found"
+    "ToggleRowNotFoundRow": "No row to open/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Dataset not active"
@@ -1780,8 +1779,8 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied\/cut",
-    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied/cut",
+    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message"
   },
@@ -1831,7 +1830,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied\/cut",
+    "HasNotStorageItems": "No files to be copied/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1886,12 +1885,12 @@
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "\/api\/v1\/loginom-version",
+    "AppVersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
-    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
-    "NewVersionIsAvaliableFmt": "The latest stable version is {0}"
+    "NewVersionCommunityHref": "https://loginom.com/downloads/",
+    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionIsAvailableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
     "CleanConfirm": "Do you want to clean the list of recently opened packages?",
@@ -2006,7 +2005,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (\/)"
+    "Slash": "Slash (/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -2308,7 +2307,7 @@
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show\/Hide Comment",
+    "CommentBtn": "Show/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -2395,7 +2394,7 @@
   "openid/OpenIDAdapter": {
     "WrongResponseMode": "Authentication response format doesn't match the requested format"
   },
-  "packages/deductor-theme/const/Palletes": {
+  "packages/deductor-theme/const/Palettes": {
     "Composite": "Composite",
     "Elegant": "Elegant",
     "Quiet": "Quiet",
@@ -2583,7 +2582,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " \/ ",
+    "CompareTo": " / ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -3010,7 +3009,7 @@
     "AccessModification": "Configure visibility...",
     "BtnAutogenerateSelectedTitles": "Autogenerate Captions",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipClone": "Clone connection",
     "BtnTooltipConnect": "Activate connection",
@@ -3139,7 +3138,7 @@
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
     "Delete": "Delete",
-    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",
@@ -3175,7 +3174,7 @@
     "ValidateEditorsErr": "Error in settings of normalizer parameters"
   },
   "wizards/normalization/NormTuneWizard": {
-    "ErrNormaliserSync": "Failed to auto-sync normalizer settings with field data",
+    "ErrNormalizerSync": "Failed to auto-sync normalizer settings with field data",
     "InputColumnGroup": "Inputs",
     "OutputColumnGroup": "Outputs"
   },

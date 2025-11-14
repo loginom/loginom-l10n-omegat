@@ -1155,6 +1155,9 @@
     "colDelete.0": {
       "tooltip": "Удалить"
     },
+    "colDescription": {
+      "text": "Описание"
+    },
     "colDisplayName": {
       "text": "Метка"
     },
@@ -1813,7 +1816,7 @@
     "btnActivationPort": {
       "text": "Активировать"
     },
-    "btnApplyLabelTamplate": {
+    "btnApplyLabelTemplate": {
       "tooltip": "Применить шаблон метки"
     },
     "btnBoundTypeInv": {
@@ -1834,7 +1837,7 @@
     "btnLabelTemplateGetHelp": {
       "text": "Образец"
     },
-    "cbbLabelTamplate": {
+    "cbbLabelTemplate": {
       "fieldLabel": "Шаблон"
     },
     "colAlwaysDefaultSettings": {
@@ -3803,7 +3806,7 @@
       "fieldLabel": "Аутентификация для получения WSDL-файла"
     }
   },
-  "connections/xsdfiles/XSDFilesConnectionWizard": {
+  "connections/xsdfiles/XSDFilesConnectionParams": {
     "btnAdd": {
       "text": "Добавить",
       "tooltip": "Добавить файл..."
@@ -3832,12 +3835,6 @@
     },
     "colRemoveFile.0": {
       "tooltip": "Удалить"
-    },
-    "frmXSDFilesConnection": {
-      "title": "Настройка набора XSD-схем"
-    },
-    "txtDesc": {
-      "fieldLabel": "Комментарий"
     }
   },
   "exports/dbexport/DBCreateTableDialog": {
@@ -6891,6 +6888,9 @@
       "text": "Назначение",
       "tooltip": "Назначение по умолчанию"
     },
+    "colDescription": {
+      "text": "Описание"
+    },
     "colDisplayName": {
       "text": "Выходные"
     },
@@ -7712,6 +7712,9 @@
     },
     "cbxUsageType": {
       "fieldLabel": "Назначение"
+    },
+    "edtDescription": {
+      "fieldLabel": "Описание"
     },
     "edtDisplayName": {
       "fieldLabel": "Метка"

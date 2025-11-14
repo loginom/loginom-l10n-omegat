@@ -681,7 +681,7 @@
   },
   "components/clope/ClopeEngine": {
     "ClopeApplyNotify": "Применение модели",
-    "ClopeComponentShortTitle": "Кластериз. транз.: ",
+    "ClopeComponentShortTitle": "CLOPE: ",
     "ClopeTrainNotify": "Поиск кластеров",
     "ClopeTransactionNotify": "Подготовка транзакций",
     "ColumnNameCluster": "Номер кластера",
@@ -1299,7 +1299,8 @@
     "ErrMainTreeNodeMustBeContainer": "Связываемый узел основного дерева %s должен быть контейнером",
     "ErrMainTreeNodeMustNotBeArray": "Связываемый узел основного дерева %s не должен быть массивом",
     "ErrMainTreeNodeMustNotBeInsideArray": "Связываемый узел основного дерева %s не должен находиться в массиве",
-    "ErrMainTreeNodeNotAssigned": "Не указан связываемый узел основного дерева"
+    "ErrMainTreeNodeNotAssigned": "Не указан связываемый узел основного дерева",
+    "JoinTreeShortTitle": "Слияние (дер.): "
   },
   "components/jointree/JoinTreeVendor": {
     "VendorCaption": "Слияние (дерево)",
@@ -1318,6 +1319,7 @@
     "ErrRootNotContainerAfterExclude": "Нельзя исключить корневой узел JSON, если его дочерний узел не является объектом или массивом объектов",
     "ErrSoManySourceColumns": "Указано слишком много столбцов содержащих строку JSON",
     "ErrUnexpectedJSONType": "Тип данных узла %s не соответствует обявленному типу %s",
+    "JSONToTreeTitle": "JSON в дерево: ",
     "ParseError": "Ошибка парсинга на позиции %d: \"%s\""
   },
   "components/jsontotree/JSONToTreeVendor": {
@@ -1657,11 +1659,7 @@
     "OutDataSetCommon": "Общий выходной набор",
     "OutDataSetTeach": "Обучающий выходной набор",
     "OutDataSetTest": "Тестовый выходной набор",
-    "PartitionAbsoluteRowCount": "%s: %d шт.",
-    "PartitionControlVariablesAbsoluteRowCount": "%s: %s (стр)",
-    "PartitionControlVariablesRelativeRowCount": "%s: %s (%%)",
     "PartitionDisplayName": "Тестовое множество",
-    "PartitionRelativeRowCount": "%s: %4.2f%%",
     "TeachTip": "Обучающее",
     "TestTip": "Тестовое",
     "UnspecifiedBiasColumn": "Не выбрано поле для отбора со смещением."
@@ -1717,10 +1715,11 @@
   },
   "components/python/PythonExeEngineImpl": {
     "ErrCannotCreateProcess": "Не удалось запустить \"%s\"",
+    "ErrConfiguredPythonExeNotFound": "Путь интерпретатора Python, указанный в настройках приложения, не существует",
     "ErrInt32Overflow": "Значение %d выходит за границы допустимых значений 32-битного целого",
     "ErrInvalidFile": "Невалидный файл \"%\"",
     "ErrPythonDumpInputTableDataN": "Ошибка при записи данных входной таблицы #%d",
-    "ErrPythonExeNotFound": "Путь интерпретатора Python, указанный в настройках приложения, не существует",
+    "ErrPythonExeNotFound": "Исполняемый файл python3 не найден",
     "ErrPythonLoadOutputTableN": "Ошибка при чтении выходной таблицы #%d",
     "ErrPythonNotAllowedEnvironment": "Окружение \"%s\" не входит в список разрешённых",
     "PreviewProcess": "Предварительный просмотр данных",
@@ -1808,7 +1807,7 @@
     "PrecisionPostfix": " Отклонение",
     "ReplaceColumnComponentTitle": "Замена: ",
     "ReplacedPostfix": " Заменен",
-    "ReplaceFromSourceTip": " (т)",
+    "ReplaceFromSourceTip": "(табл)",
     "ReplacePostfix": " Замена"
   },
   "components/replace/ReplaceColumnsVendor": {
@@ -1855,10 +1854,7 @@
     "VendorDesc": "Выполняет запрос через подключение к REST-сервису"
   },
   "components/sampling/SamplingEngine": {
-    "SamplingAbsoluteControlVariableTitle": "Сэмплинг: %s, %s (стр)",
-    "SamplingAbsoluteGeneratedTitle": "Сэмплинг: %s, %d шт.",
-    "SamplingRelativeControlVariableTitle": "Сэмплинг: %s, %s (%%)",
-    "SamplingRelativeGeneratedTitle": "Сэмплинг: %s, %4.2f%%",
+    "SamplingGeneratedTitleFmt": "Сэмплинг: %s, %s",
     "UnspecifiedBiasColumn": "Не выбрано поле для отбора со смещением."
   },
   "components/sampling/SamplingVendor": {
@@ -2044,11 +2040,14 @@
     "VendorDescription": "Объединение нескольких наборов данных"
   },
   "components/uniontree/UnionTree": {
+    "ConcatPostfix": "конкатенация",
     "ErrCannotGetRowCount": "Невозможно получить количество строк для узла с идентификатором %d: узел не является массивом",
     "ErrNoActiveInputs": "Нет ни одного активного входа",
     "ErrRowCountExceedMaxValue": "Количество строк результирующего дерева превысило максимальное значение %d",
+    "FirstActivePostfix": "первое активное",
     "JoinedDataTree": "Присоединяемое дерево",
-    "MainDataTree": "Главное дерево"
+    "MainDataTree": "Главное дерево",
+    "UnionTreeShortTitle": "Объединение (дер.): "
   },
   "components/uniontree/UnionTreeVendor": {
     "VendorCaption": "Объединение (дерево)",
@@ -4307,9 +4306,6 @@
     "ErrTuneNormColumnDefsVendorNotSet": "Вендор настраиваемых полей с нормализацией не установлен",
     "ErrWrongConstructor": "Вызван неправильный конструктор коллекции колонок"
   },
-  "Libraries/Normalization/TuneNormColumnDefsVendor": {
-    "ErrIncorrectUsedDK": "Недопустимый вид данных \"%s\" нормализируемого столбца \"%s\""
-  },
   "Libraries/Normalization/TuneNormDataSource": {
     "CreateInDataProcessCaption": "Подготовка входного набора данных",
     "CreateNormalDataProcessCaption": "Создание нормализированного набора данных",
@@ -4465,6 +4461,8 @@
     "ErrMessageSizeCannotBeNegative": "Размер сообщения не должен быть отрицательным",
     "ErrMessageSizeIncrementCannotBeNegative": "Инкремент размера сообщения не должен быть отрицательным",
     "ErrMessageSizeOverflow": "Превышен максимальный допустимый размер сообщения",
+    "ErrMethodCallNotAllowed": "Данный метод нельзя вызывать через RPC",
+    "ErrReadDynamicDataOutOfBounds": "Недопустимо чтение динамических данных за пределами сообщения",
     "ErrUnknownInterfaceGUID": "Интерфейс с идентификатором %s не зарегистрирован",
     "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: %d",
     "ErrUnknownInterfaceName": "Интерфейс %s не зарегистрирован",
@@ -4487,7 +4485,7 @@
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Уже зарегистрирован другой обработчик исключений RPC",
     "ErrDifferentRpcVersionAlreadyRegistered": "Уже зарегистрирован другой номер версии RPC",
     "ErrDisconnectedSession": "Соединение разорвано",
-    "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
+    "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта: %s",
     "ErrInvalidObjectID": "Невалидный идентификатор объекта: %d",
     "ErrInvalidRangeBounds": "Левая граница диапазона [%d, %d] больше правой",
     "ErrInvalidSessionID": "Невалидный идентификатор сессии: %d",
@@ -4622,6 +4620,7 @@
     "ErrSaveAsAlreadyOpenedPackage": "Невозможно сохранить пакет в файл \"%s\". Пакет с таким файлом уже открыт в текущей сессии",
     "ErrSavePackagePermissionDenied": "Не достаточно прав для сохранения пакета с именем %s",
     "ErrSessionAlreadyContainsPackage": "В текущей сессии уже открыт пакет %s",
+    "ErrSessionAlreadyExistsInCurrentThread": "В текущем потоке уже существует сессия %s:%s",
     "ErrSessionBackupAlreadyDeleted": "Данная резервная копия сессии уже была удалена другим клиентом из-под текущей учётной записи",
     "ErrSessionBackupAlreadyRestored": "Данная резервная копия сессии уже была восстановлена другим клиентом из-под текущей учётной записи",
     "ErrSessionBackupModified": "Данная резервная копия сессии была изменена другим клиентом из-под текущей учётной записи",

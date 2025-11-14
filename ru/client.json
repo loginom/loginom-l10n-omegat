@@ -1,11 +1,11 @@
 {
   "about/About": {
-    "AppLersionAPI": "/api/v1/loginom-version",
+    "AppVersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Неверный ответ сервиса с информацией о последней версии",
     "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https://loginom.ru/downloads/",
     "NewVersionHref": "https://loginom.ru/tags/release-notes/",
-    "NewVersionIsAvaliableFmt": "Актуальная версия {0}"
+    "NewVersionIsAvailableFmt": "Актуальная версия {0}"
   },
   "admin/ClaimsToVariablesForm": {
     "ClaimAdd": "Добавить клейм",
@@ -103,7 +103,7 @@
     "DeactivateUpstreamOnCompletion": "Деактивация групп узлов по завершении",
     "DefaultLocaleModified": "изменена",
     "DenyImageURLs": "Загрузка изображений запрещена",
-    "DenyLinkURLs": "Формирование ссылкок запрещено",
+    "DenyLinkURLs": "Формирование ссылок запрещено",
     "DirectorySettings": "Папки",
     "DisableUserMultiSession": "Запрет мультисессионности для пользователей",
     "FailedLoginCountLimit": "Лимит попыток ввода пароля",
@@ -807,19 +807,19 @@
     "DescriptionMin": "Минимум",
     "DescriptionN": "Номер",
     "InputPortsNotActived": "Активировать входные порты?",
-    "LabelTamplateA1Dat": "%MIN[от d.m.yy h:mm]%MAX[ до d.m.yy h:mm]",
-    "LabelTamplateA1Num": "%MIN[от #,0.####]%MAX[ до #,0.####]",
-    "LabelTamplateA2Dat": "%OP%MIN..%MAX%CP",
-    "LabelTamplateA2Num": "%OP%MIN[4]..%MAX[4]%CP",
-    "LabelTamplateA3Dat": "%FD[5] %OP%MIN..%MAX%CP",
-    "LabelTamplateA3Num": "%FD[5] %OP%MIN[4]..%MAX[4]%CP",
-    "LabelTamplateAve": "%AVE",
-    "LabelTamplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, среднее - #.####]",
-    "LabelTamplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, среднее - #.####]",
-    "LabelTamplateExampleDat": "%FN (%FD[5]) %OP%MIN[d-mmm-yy h:mm]..%MAX[d-mmm-yy h:mm]%CP",
-    "LabelTamplateMax": "%MAX",
-    "LabelTamplateMin": "%MIN",
-    "LabelTamplateN": "%N",
+    "LabelTemplateA1Dat": "%MIN[от d.m.yy h:mm]%MAX[ до d.m.yy h:mm]",
+    "LabelTemplateA1Num": "%MIN[от #,0.####]%MAX[ до #,0.####]",
+    "LabelTemplateA2Dat": "%OP%MIN..%MAX%CP",
+    "LabelTemplateA2Num": "%OP%MIN[4]..%MAX[4]%CP",
+    "LabelTemplateA3Dat": "%FD[5] %OP%MIN..%MAX%CP",
+    "LabelTemplateA3Num": "%FD[5] %OP%MIN[4]..%MAX[4]%CP",
+    "LabelTemplateAve": "%AVE",
+    "LabelTemplateExample1Num": "%FN (%FD[5]) %OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, среднее - #.####]",
+    "LabelTemplateExample2Num": "%OP%MIN[4][r5]..%MAX[4][r5]%CP%AVE[, среднее - #.####]",
+    "LabelTemplateExampleDat": "%FN (%FD[5]) %OP%MIN[d-mmm-yy h:mm]..%MAX[d-mmm-yy h:mm]%CP",
+    "LabelTemplateMax": "%MAX",
+    "LabelTemplateMin": "%MIN",
+    "LabelTemplateN": "%N",
     "LowerInclusive": "<= x <",
     "MsgBoxTitle": "Внимание",
     "ProcessInfo": "Для выбранных колонок уже запущен процесс обработки.",
@@ -985,7 +985,7 @@
     "SetValueMethod": "Заменять на"
   },
   "components/datatotree/DataToTreeWizard": {
-    "ClearAllLinksPromtTitle": "Удаление",
+    "ClearAllLinksPromptTitle": "Удаление",
     "ConfirmClearAllLinks": "Удалить все связи?",
     "Delete": "Удалить",
     "GlobalNodeIndex": "Глобальный индекс",
@@ -1227,11 +1227,11 @@
     "ErrNotCompatibleMessageBodyFmt": "Тип данных поля входного набора {0} несовместим с телом запроса"
   },
   "components/restclient/ParamLinks": {
-    "AutoMapPromtTitle": "Автоматическое связывание",
+    "AutoMapPromptTitle": "Автоматическое связывание",
     "ConfirmAutoMap": "Будет выполнена автоматическая расстановка связей по метке поля и типу данных. Уже настроенные связи будут удалены.",
     "ConfirmDeleteAll": "Удалить все связи?",
     "Delete": "Удалить",
-    "DeletePromtTitle": "Удаление",
+    "DeletePromptTitle": "Удаление",
     "ErrNoParamFmt": "Поле входного набора \"{0}\" назначено несуществующему параметру \"{1}\"",
     "ErrNotCompatibleParamDataTypeFmt": "Тип данных поля входного набора \"{0}\" несовместим с параметром \"{1}\""
   },
@@ -1314,11 +1314,11 @@
     "PartMessagePrefix": "Часть: "
   },
   "components/wsdlclient/CommonRequestController": {
-    "AutoMapPromtTitle": "Автоматическое связывание",
+    "AutoMapPromptTitle": "Автоматическое связывание",
     "ConfirmAutoMap": "Будет выполнена автоматическая расстановка связей по метке поля и типу данных. Уже настроенные связи будут удалены.",
     "ConfirmDeleteAll": "Удалить все связи?",
     "Delete": "Удалить",
-    "DeletePromtTitle": "Удаление",
+    "DeletePromptTitle": "Удаление",
     "ErrInvalidLinkFound": "Обнаружена невалидная связь поля \"{0}\" с запросом \"{1}\"",
     "ErrMultilinkFound": "Обнаружена множественная связь запроса \"{0}\" с полем \"{1}\", которая будет удалена",
     "NotLink": "не связано"
@@ -1371,9 +1371,8 @@
     "ExpireCertDateError": "Истек срок годности сертификата"
   },
   "connections/xsdfiles/XSDFilesConnectionWizard": {
-    "AutomaticConnectionTitle": "Автоматическая метка",
-    "CustomConnectionTitle": "Пользовательская метка",
-    "ErrFileNameAdd": "Файл с именем \"{0}\" не может быть добавлен, вероятно он уже есть в списке"
+    "ErrFileNameAdd": "Файл с именем \"{0}\" не может быть добавлен, вероятно он уже есть в списке",
+    "XSDFilesConnectionTitle": "Настройка набора XSD-схем"
   },
   "exports/dbexport/DBCreateTableDialog": {
     "CancelOperation": "Отмена",
@@ -1464,9 +1463,9 @@
   "ext/colorfield/Field": {
     "UndefinedHexFormat": "Неверный шестнадцатеричный формат числа"
   },
-  "ext/colorfield/Pallete": {
-    "EmptyPalleteText": "Стандартная",
-    "Pallete": "Палитра"
+  "ext/colorfield/Palette": {
+    "EmptyPaletteText": "Стандартная",
+    "Palette": "Палитра"
   },
   "ext/CustomRowBody": {
     "ToggleRowNotFoundRow": "Не найдена строка для раскрытия/закрытия"
@@ -1886,12 +1885,12 @@
     "DeleteAllTitle": "Удаление всех условий"
   },
   "homepage/Banner": {
-    "AppLersionAPI": "/api/v1/loginom-version",
+    "AppVersionAPI": "/api/v1/loginom-version",
     "ErrVersionWrongServiceResponse": "Неверный ответ сервиса с информацией о последней версии",
     "LoginomVersionKey": "loginom_version",
     "NewVersionCommunityHref": "https://loginom.ru/downloads/",
     "NewVersionHref": "https://loginom.ru/tags/release-notes/",
-    "NewVersionIsAvaliableFmt": "Доступна актуальная версия {0}"
+    "NewVersionIsAvailableFmt": "Доступна актуальная версия {0}"
   },
   "homepage/HomePage": {
     "CleanConfirm": "Очистить список последних открытых пакетов?",
@@ -2395,7 +2394,7 @@
   "openid/OpenIDAdapter": {
     "WrongResponseMode": "Формат ответа аутентификации не соответствует запрашиваемому формату"
   },
-  "packages/deductor-theme/const/Palletes": {
+  "packages/deductor-theme/const/Palettes": {
     "Composite": "Составная",
     "Elegant": "Изящная",
     "Quiet": "Спокойная",
@@ -2423,7 +2422,10 @@
     "MsgProcessingAborted": "Обработка прервана",
     "MsgStoplText": "Отменить выполнение всех процессов?",
     "ProcessActionDeleteTip": "Удалить процесс",
-    "ProcessActionStopTip": "Отменить процесс"
+    "ProcessActionStopTip": "Отменить процесс",
+    "ProgressExecuting": "вычисление...",
+    "ProgressLessSecond": "< 1c",
+    "ProgressRemaining": "осталось: {0}"
   },
   "propedit/CustomPropEdit": {
     "ErrDataType": "Тип данных свойства несовместим с компонентом",
@@ -3175,7 +3177,7 @@
     "ValidateEditorsErr": "Ошибка в настройках параметров нормализатора"
   },
   "wizards/normalization/NormTuneWizard": {
-    "ErrNormaliserSync": "Не удалось автоматически синхронизировать настройки нормализатора с данными поля",
+    "ErrNormalizerSync": "Не удалось автоматически синхронизировать настройки нормализатора с данными поля",
     "InputColumnGroup": "Входные",
     "OutputColumnGroup": "Выходные"
   },

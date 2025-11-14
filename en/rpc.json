@@ -33,6 +33,7 @@
   "Net/RemoteMessageData": {
     "ErrArrayLevelNotSupported": "Arrays nesting level above {0} is not supported",
     "ErrInvalidMessageFormatVersion": "Invalid number of message format version: {0} when {1} was expected",
+    "ErrInvalidMessageSignature": "Invalid message signature",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
     "ErrMessageSizeOverflow": "Maximum message size exceeded",
     "ErrUnknownInterfaceGUID": "Interface with {0} identifier not registered",
@@ -56,7 +57,7 @@
     "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
     "ErrDisconnectedSession": "Connection lost",
     "ErrDisconnectedSessionClientOnly": "Server connection lost",
-    "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
+    "ErrIncorrectMainServerObjectInterfaceID.NOTE": "Старый исходник:\nПолучен некорректный идентификатор интерфейса главного серверного объекта\n\nСтарый перевод:\nInvalid interface identifier of the main server object received",
     "ErrInvalidObjectID": "Invalid object identifier: {0}",
     "ErrInvalidResponseMessageType": "Invalid response message type: {0}",
     "ErrInvalidSessionID": "Invalid session identifier: {0}",
