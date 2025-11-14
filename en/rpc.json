@@ -59,7 +59,7 @@
     "ErrDifferentRpcVerionAlreadyRegistered": "Another RPC version number already registered",
     "ErrDisconnectedSession": "Connection lost",
     "ErrDisconnectedSessionClientOnly": "Server connection lost",
-    "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта: {0}",
+    "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received: {0}",
     "ErrInvalidObjectID": "Invalid object identifier: {0}",
     "ErrInvalidResponseMessageType": "Invalid response message type: {0}",
     "ErrInvalidSessionID": "Invalid session identifier: {0}",

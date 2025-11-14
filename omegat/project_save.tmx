@@ -32198,6 +32198,9 @@ Generating links is not allowed</note>
       <tuv lang="ru">
         <seg>Формирование ссылок запрещено</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251114T183022Z" creationid="zamaraev" creationdate="20251114T172917Z">
+        <seg>Generating links is not allowed</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -57254,6 +57257,9 @@ Invalid interface identifier of the main server object received</note>
       <tuv lang="ru">
         <seg>Получен некорректный идентификатор интерфейса главного серверного объекта: {0}</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251114T183531Z" creationid="zamaraev" creationdate="20251114T172917Z">
+        <seg>Invalid interface identifier of the main server object received: {0}</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">rpc.json</prop>
@@ -63136,6 +63142,9 @@ Result:
 (table)</note>
       <tuv lang="ru">
         <seg>(табл)</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251114T173253Z" creationid="zamaraev" creationdate="20251114T172917Z">
+        <seg>(table)</seg>
       </tuv>
     </tu>
     <tu>
@@ -86350,6 +86359,9 @@ Invalid interface identifier of the main server object received</note>
       <tuv lang="ru">
         <seg>Получен некорректный идентификатор интерфейса главного серверного объекта: %s</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251114T183600Z" creationid="zamaraev" creationdate="20251114T172918Z">
+        <seg>Invalid interface identifier of the main server object received: %s</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -95624,6 +95636,9 @@ To solve this problem it is required to enable Caching.</seg>
 Старый перевод:
 CLOPE: </note>
       <tuv lang="ru">
+        <seg>CLOPE:</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20251114T173227Z" creationid="zamaraev" creationdate="20251114T172917Z">
         <seg>CLOPE:</seg>
       </tuv>
     </tu>

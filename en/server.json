@@ -1807,7 +1807,7 @@
     "PrecisionPostfix": " Deviation",
     "ReplaceColumnComponentTitle": "Replace: ",
     "ReplacedPostfix": " Replaced",
-    "ReplaceFromSourceTip": "(табл)",
+    "ReplaceFromSourceTip": "(table)",
     "ReplacePostfix": " Replace"
   },
   "components/replace/ReplaceColumnsVendor": {
@@ -4485,7 +4485,7 @@
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Another RPC exception handler already registered",
     "ErrDifferentRpcVersionAlreadyRegistered": "Another RPC version number already registered",
     "ErrDisconnectedSession": "Connection lost",
-    "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта: %s",
+    "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received: %s",
     "ErrInvalidObjectID": "Invalid object identifier: %d",
     "ErrInvalidRangeBounds": "The left bound of range [%d, %d] has been set higher than the right one",
     "ErrInvalidSessionID": "Invalid session identifier: %d",

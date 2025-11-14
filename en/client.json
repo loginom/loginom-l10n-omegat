@@ -103,7 +103,7 @@
     "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
     "DefaultLocaleModified": "modified",
     "DenyImageURLs": "Loading images is not allowed",
-    "DenyLinkURLs": "Формирование ссылок запрещено",
+    "DenyLinkURLs": "Generating links is not allowed",
     "DirectorySettings": "Folders",
     "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
