@@ -1,10 +1,10 @@
 {
   "about/About": {
-    "AppVersionAPI": "/api/v1/loginom-version",
+    "AppVersionAPI": "\/api\/v1\/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https://loginom.com/downloads/",
-    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
+    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
     "NewVersionIsAvailableFmt": "Latest stable version {0}"
   },
   "admin/ClaimsToVariablesForm": {
@@ -103,7 +103,7 @@
     "DeactivateUpstreamOnCompletion": "Deactivate node groups on completion",
     "DefaultLocaleModified": "modified",
     "DenyImageURLs": "Loading images is not allowed",
-    "DenyLinkURLs.NOTE": "Старый исходник:\nФормирование ссылкок запрещено\n\nСтарый перевод:\nGenerating links is not allowed",
+    "DenyLinkURLs": "Формирование ссылок запрещено",
     "DirectorySettings": "Folders",
     "DisableUserMultiSession": "Disable user multisessions",
     "FailedLoginCountLimit": "Password entry attempts limit",
@@ -162,7 +162,7 @@
     "UserStorageDirectory": "Users data",
     "VmUsedData": "Used",
     "WSPort": "WebSocket port",
-    "WSSPort": "WebSocket SSL/TLS port"
+    "WSSPort": "WebSocket SSL\/TLS port"
   },
   "admin/SessionsManagerForm": {
     "ConfirmPackageClose": "Do you want to close \"{0}\" package without saving changes?",
@@ -254,7 +254,7 @@
     "ConfirmQuit": "Unsaved packages. Exit anyway?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https://qa.loginom.com/questions/"
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -412,7 +412,7 @@
     "CommentEditorTabTitle": "Comment (Markdown)",
     "CommentEditorWindowTitle": "Comment Editor",
     "ComposeAnnotations": "Collapse annotations to supernode",
-    "ComposeExpandNode": "Collapse items to supernode / Expand supernode",
+    "ComposeExpandNode": "Collapse items to supernode \/ Expand supernode",
     "ComposeItems": "Collapse items to supernode",
     "ComposeNodes": "Collapse nodes to supernode",
     "ComposeSingleAnnotation": "Collapse annotation to supernode",
@@ -584,7 +584,7 @@
     "PortIsNotActive": "Port not activated"
   },
   "app/PublishedPackagesAddForm": {
-    "DisNamespace": "http://schemas.loginom.com/integration",
+    "DisNamespace": "http:\/\/schemas.loginom.com\/integration",
     "ErrNamespaceIsBlank": "Namespace cannot be empty",
     "ErrPathNotSpecified": "Path to the package file is not specified",
     "ErrPublishPackage": "Failed to publish package: \"{0}\"",
@@ -749,7 +749,7 @@
     "QuickAccessGroupName": "Quick access"
   },
   "app/Version": {
-    "CompanyWebsite": "https://loginom.com",
+    "CompanyWebsite": "https:\/\/loginom.com",
     "LegalCopyright": "© OOO ANALITICHESKIE TEHNOLOGII 2017",
     "ProductName": "Loginom",
     "SupportMail": "help@loginom.com"
@@ -760,7 +760,7 @@
     "HelpMenu": "Help",
     "Minimize": "Minimize",
     "QA": "Ask a question",
-    "QAHref": "https://qa.loginom.com/questions/",
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
     "Restore": "Restore"
   },
   "codemirror/CodeMirrorTernController": {
@@ -1468,7 +1468,7 @@
     "Palette": "Palette"
   },
   "ext/CustomRowBody": {
-    "ToggleRowNotFoundRow": "No row to open/close was found"
+    "ToggleRowNotFoundRow": "No row to open\/close was found"
   },
   "ext/DataSourceProxy": {
     "DataSourceNotActive": "Dataset not active"
@@ -1779,8 +1779,8 @@
     "Copied": "Copied",
     "CopySuffix": "copy",
     "Cuted": "Cut",
-    "HasNotStorageItems": "No files to be copied/cut",
-    "ItemsAreSimilar": "Names of {0} files/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
+    "HasNotStorageItems": "No files to be copied\/cut",
+    "ItemsAreSimilar": "Names of {0} files\/directories are similar. When pasted, they will be overwritten. Do you want to continue?",
     "NoItemsInBuffer": "Clipboard is empty. It is required to copy files or folders first",
     "ServerPasteException": "Server error message"
   },
@@ -1830,7 +1830,7 @@
     "FileAlreadyExists": "A file with the same name already exists",
     "FileStorageNotConnected": "No connection to file storage",
     "FullPathCopied": "Full names of selected files were copied to clipboard",
-    "HasNotStorageItems": "No files to be copied/cut",
+    "HasNotStorageItems": "No files to be copied\/cut",
     "InvalidFileName": "File name contains invalid characters",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
@@ -1885,11 +1885,11 @@
     "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
-    "AppVersionAPI": "/api/v1/loginom-version",
+    "AppVersionAPI": "\/api\/v1\/loginom-version",
     "ErrVersionWrongServiceResponse": "Bad service response to the latest version request",
     "LoginomVersionKey": "loginom_version",
-    "NewVersionCommunityHref": "https://loginom.com/downloads/",
-    "NewVersionHref": "https://loginom.com/tags/release-notes/",
+    "NewVersionCommunityHref": "https:\/\/loginom.com\/downloads\/",
+    "NewVersionHref": "https:\/\/loginom.com\/tags\/release-notes\/",
     "NewVersionIsAvailableFmt": "The latest stable version is {0}"
   },
   "homepage/HomePage": {
@@ -2005,7 +2005,7 @@
     "Default": "Unspecified",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
-    "Slash": "Slash (/)"
+    "Slash": "Slash (\/)"
   },
   "imports/textfile/ImportTextFileParamsWizard": {
     "CollapseColumnDefsTuning": "Collapse",
@@ -2307,7 +2307,7 @@
     "DefaultLabelValue": "Caption"
   },
   "mxgraph/node/comment/Comment": {
-    "CommentBtn": "Show/Hide Comment",
+    "CommentBtn": "Show\/Hide Comment",
     "ErrCommentVisiblyNotSaved": "Failed to save comment state",
     "NodeIsLocked": "Comment change forbidden: node is locked"
   },
@@ -2422,7 +2422,10 @@
     "MsgProcessingAborted": "Processing aborted",
     "MsgStoplText": "Do you want to cancel all processes?",
     "ProcessActionDeleteTip": "Delete process",
-    "ProcessActionStopTip": "Cancel process"
+    "ProcessActionStopTip": "Cancel process",
+    "ProgressExecuting": "вычисление...",
+    "ProgressLessSecond": "< 1c",
+    "ProgressRemaining": "осталось: {0}"
   },
   "propedit/CustomPropEdit": {
     "ErrDataType": "Property data type is incompatible with component",
@@ -2582,7 +2585,7 @@
   },
   "viewers/clusterprofiles/GridController": {
     "CenterCoord": "Coordinate: ",
-    "CompareTo": " / ",
+    "CompareTo": " \/ ",
     "ConversionError": "Failed to convert to number",
     "EmptyValue": "empty string",
     "InfiniteValues": "Sample contains infinite values",
@@ -3009,7 +3012,7 @@
     "AccessModification": "Configure visibility...",
     "BtnAutogenerateSelectedTitles": "Autogenerate Captions",
     "BtnDeactivateAll": "Deactivate all",
-    "BtnShowVendorsEdit": "Show/Hide Connectors Tree",
+    "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
     "BtnTextTest": "Test",
     "BtnTooltipClone": "Clone connection",
     "BtnTooltipConnect": "Activate connection",
@@ -3138,7 +3141,7 @@
     "ActionInsert": "Paste",
     "DefaultSocketCaption": "Port",
     "Delete": "Delete",
-    "DeleteAllConfirm": "Do you want to delete all inputs/outputs?",
+    "DeleteAllConfirm": "Do you want to delete all inputs\/outputs?",
     "EmptyName": "<Unspecified>",
     "ErrCompareIndex": "The server amount of sockets does not match the client amount of sockets.",
     "ErrGetAvalibleSocketDefFmt": "Failed to get socket definition for {0} vendor.",

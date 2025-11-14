@@ -625,7 +625,7 @@
   },
   "imports/database": {
     "DBImport": {
-      "CommandText": "Table/View",
+      "CommandText": "Table\/View",
       "FieldDescAsDisplayName": "Generate field captions from descriptions",
       "SilentActivation": "Ignore errors",
       "Timeout": "Import timeout (s)"
@@ -1015,9 +1015,9 @@
       "UseDetailedSettings": "Use detailed settings"
     },
     "RegressionSimpleParams": {
-      "ExactInexact": "Exact/inexact data priority",
-      "FactLessMore": "Less/more factors priority",
-      "QualitySpeed": "Accuracy/speed priority"
+      "ExactInexact": "Exact\/inexact data priority",
+      "FactLessMore": "Less\/more factors priority",
+      "QualitySpeed": "Accuracy\/speed priority"
     },
     "RegressionStatisticsParams": {
       "PredictionIntervalLevel": "Confidence level, %"
@@ -1099,7 +1099,7 @@
       "UnixSocket": "Unix socket",
       "UnixSocketMode": "Unix socket permissions",
       "WSPort": "WebSocket port",
-      "WSSPort": "WebSocket SSL/TLS port"
+      "WSSPort": "WebSocket SSL\/TLS port"
     }
   },
   "Studio/PasswordPolicy": {
