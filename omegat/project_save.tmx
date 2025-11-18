@@ -3805,6 +3805,9 @@ Returns the Argument without leading and trailing spaces.</note>
       <tuv lang="ru">
         <seg>Возвращает Аргумент без ведущих и ведомых пробелов, а также символов с кодом меньше 32.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T143528Z">
+        <seg>Returns the Argument without leading spaces, trailing spaces, and characters with the code less than 32.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
