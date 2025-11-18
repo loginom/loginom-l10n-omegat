@@ -456,3 +456,5 @@ P-значение	P-value
 заметки	annotations	функционал программы
 нумерованный список	ordered list
 ненумерованный список	unordered list
+ведомый пробел	trailing space
+ведущий пробел	leading space
