@@ -2508,6 +2508,9 @@ Value_by_default - an optional parameter, a numeric expression, the value of whi
       <tuv lang="ru">
         <seg>SHA512_256(Строка)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141421Z">
+        <seg>SHA512_256(String)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
