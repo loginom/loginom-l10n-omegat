@@ -1326,6 +1326,9 @@ MatchIndex - optional occurrence index of the Substring in the String to be retu
       <tuv lang="ru">
         <seg>SHA384(Строка)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T130445Z">
+        <seg>SHA384(String)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
