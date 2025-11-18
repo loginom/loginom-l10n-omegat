@@ -16605,6 +16605,9 @@ String: {2} Symbol: {3}</seg>
       <tuv lang="ru">
         <seg>вычисление...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T143910Z">
+        <seg>calculating...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -16613,6 +16616,9 @@ String: {2} Symbol: {3}</seg>
       <tuv lang="ru">
         <seg>&lt; 1c</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T143926Z">
+        <seg>&lt; 1s</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -16620,6 +16626,9 @@ String: {2} Symbol: {3}</seg>
       <note>Key = progress/ProgressForm.ProgressRemaining</note>
       <tuv lang="ru">
         <seg>осталось: {0}</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144003Z">
+        <seg>time left: {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -57102,6 +57111,9 @@ File processing will take too long.</seg>
       <note>Key = Net/RemoteMessageData.ErrMethodCallNotAllowed</note>
       <tuv lang="ru">
         <seg>Данный метод нельзя вызывать через RPC</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144043Z">
+        <seg>This method cannot be called via RPC</seg>
       </tuv>
     </tu>
     <tu>
