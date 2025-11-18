@@ -57123,6 +57123,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Недопустимо чтение динамических данных за пределами сообщения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144123Z">
+        <seg>Cannot read dynamic data out of message bounds</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">rpc.json</prop>
