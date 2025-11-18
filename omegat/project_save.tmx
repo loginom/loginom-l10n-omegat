@@ -798,6 +798,9 @@ Default_value - the expression of the string type the result of which is returne
       <tuv lang="ru">
         <seg>Строка - строка, для которой рассчитывается SHA256 значение.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122824Z">
+        <seg>String - a string for which the SHA256 value is calculated.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -104833,6 +104836,9 @@ Move Down</note>
       <tuv lang="ru">
         <seg>Переместить вниз</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122614Z">
+        <seg>Move down</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104877,6 +104883,9 @@ Up</note>
       <tuv lang="ru">
         <seg>Вверх</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122642Z">
+        <seg>Up</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -104887,6 +104896,9 @@ Move up
 Move Up</note>
       <tuv lang="ru">
         <seg>Переместить вверх</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122654Z">
+        <seg>Move up</seg>
       </tuv>
     </tu>
     <tu>
