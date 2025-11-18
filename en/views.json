@@ -3813,15 +3813,15 @@
     },
     "btnDown": {
       "text": "Down",
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move down"
     },
     "btnEdit": {
       "text": "Change",
       "tooltip": "Change file name..."
     },
     "btnUp": {
-      "text": "Вверх",
-      "tooltip": "Переместить вверх"
+      "text": "Up",
+      "tooltip": "Move up"
     },
     "btnVerify": {
       "text": "Validate",

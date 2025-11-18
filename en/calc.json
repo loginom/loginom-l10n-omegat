@@ -21,29 +21,29 @@
       "Output": "Function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
     },
     "SHA256": {
-      "Arguments": "Строка - строка, для которой рассчитывается SHA256 значение.",
-      "Description": "SHA256(Строка)",
-      "Output": "Функция возвращает HEX значение SHA256, рассчитанное от заданной строки.\nРасчеты производятся над последовательностью символов Строки в кодировке UTF-8."
+      "Arguments": "String - a string for which the SHA256 value is calculated.",
+      "Description": "SHA256(String)",
+      "Output": "The function returns the HEX value of the SHA256 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "SHA384": {
-      "Arguments": "Строка - строка, для которой рассчитывается SHA384 значение.",
-      "Description": "SHA384(Строка)",
-      "Output": "Функция возвращает HEX значение SHA384, рассчитанное от заданной строки.\nРасчеты производятся над последовательностью символов Строки в кодировке UTF-8."
+      "Arguments": "String - a string for which the SHA384 value is calculated.",
+      "Description": "SHA384(String)",
+      "Output": "The function returns the HEX value of the SHA384 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "SHA512": {
-      "Arguments": "Строка - строка, для которой рассчитывается SHA512 значение.",
-      "Description": "SHA512(Строка)",
-      "Output": "Функция возвращает HEX значение SHA512, рассчитанное от заданной строки.\nРасчеты производятся над последовательностью символов Строки в кодировке UTF-8."
+      "Arguments": "String - a string for which the SHA512 value is calculated.",
+      "Description": "SHA512(String)",
+      "Output": "The function returns the HEX value of the SHA512 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "SHA512_224": {
-      "Arguments": "Строка - строка, для которой рассчитывается SHA512\/224 значение.",
-      "Description": "SHA512_224(Строка)",
-      "Output": "Функция возвращает HEX значение SHA512\/224, рассчитанное от заданной строки.\nРасчеты производятся над последовательностью символов Строки в кодировке UTF-8."
+      "Arguments": "String - a string for which the SHA512\/224 value is calculated.",
+      "Description": "SHA512_224(String)",
+      "Output": "The function returns the HEX value of the SHA512\/224 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "SHA512_256": {
-      "Arguments": "Строка - строка, для которой рассчитывается SHA512\/256 значение.",
-      "Description": "SHA512_256(Строка)",
-      "Output": "Функция возвращает HEX значение SHA512\/256, рассчитанное от заданной строки.\nРасчеты производятся над последовательностью символов Строки в кодировке UTF-8."
+      "Arguments": "String - a string for which the SHA512\/256 value is calculated.",
+      "Description": "SHA512_256(String)",
+      "Output": "The function returns the HEX value of the SHA512\/256 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     }
   },
   "DataFunctions": {
@@ -612,17 +612,17 @@
     "Trim": {
       "Arguments": "Argument - string expression.",
       "Description": "Trim(Argument)",
-      "Output": "Возвращает Аргумент без ведущих и ведомых пробелов, а также символов с кодом меньше 32."
+      "Output": "Returns the Argument without leading and trailing spaces and characters with the code less than 32."
     },
     "TrimLeft": {
       "Arguments": "Argument - string expression.",
       "Description": "TrimLeft(Argument)",
-      "Output": "Возвращает Аргумент без ведущих пробелов, а также символов с кодом меньше 32."
+      "Output": "Returns the Argument without leading and trailing spaces and characters with the code less than 32."
     },
     "TrimRight": {
       "Arguments": "Argument - string expression.",
       "Description": "TrimRight(Argument)",
-      "Output": "Возвращает Аргумент без ведомых пробелов, а также символов с кодом меньше 32."
+      "Output": "Returns the Argument without trailing spaces and characters with the code less than 32."
     },
     "UnixToDateTime": {
       "Arguments": "UnixTime - integer number of seconds elapsed since 1970-01-01T00:00:00Z;\nReturn_In_UTC - an optional boolean parameter.",

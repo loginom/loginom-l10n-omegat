@@ -2423,9 +2423,9 @@
     "MsgStoplText": "Do you want to cancel all processes?",
     "ProcessActionDeleteTip": "Delete process",
     "ProcessActionStopTip": "Cancel process",
-    "ProgressExecuting": "вычисление...",
-    "ProgressLessSecond": "< 1c",
-    "ProgressRemaining": "осталось: {0}"
+    "ProgressExecuting": "calculating...",
+    "ProgressLessSecond": "< 1s",
+    "ProgressRemaining": "time left: {0}"
   },
   "propedit/CustomPropEdit": {
     "ErrDataType": "Property data type is incompatible with component",

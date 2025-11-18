@@ -1300,7 +1300,7 @@
     "ErrMainTreeNodeMustNotBeArray": "To be connected, node %s of the main tree must be an array",
     "ErrMainTreeNodeMustNotBeInsideArray": "To be connected, node %s of the main tree must not be included in an array",
     "ErrMainTreeNodeNotAssigned": "Main tree node to connect not specified",
-    "JoinTreeShortTitle": "Слияние (дер.): "
+    "JoinTreeShortTitle": "Join (Tree): "
   },
   "components/jointree/JoinTreeVendor": {
     "VendorCaption": "Tree Join",
@@ -1319,7 +1319,7 @@
     "ErrRootNotContainerAfterExclude": "Cannot exclude JSON root node when its child node is not an object or an array of objects",
     "ErrSoManySourceColumns": "Too many columns containing a JSON string specified",
     "ErrUnexpectedJSONType": "Data type of node %s doesn't match the expected %s type",
-    "JSONToTreeTitle": "JSON в дерево: ",
+    "JSONToTreeTitle": "JSON to Tree: ",
     "ParseError": "Error parsing at position %d: \"%s\""
   },
   "components/jsontotree/JSONToTreeVendor": {
@@ -1719,7 +1719,7 @@
     "ErrInt32Overflow": "Value %d is out of 32-bit integer range",
     "ErrInvalidFile": "Invalid file \"%\"",
     "ErrPythonDumpInputTableDataN": "Error writing data of input table #%d",
-    "ErrPythonExeNotFound": "Исполняемый файл python3 не найден",
+    "ErrPythonExeNotFound": "Python3 executable file not found",
     "ErrPythonLoadOutputTableN": "Error reading output table #%d",
     "ErrPythonNotAllowedEnvironment": "Environment \"%s\" is not listed as allowed",
     "PreviewProcess": "Previewing data",
@@ -1854,7 +1854,7 @@
     "VendorDesc": "Request execution through REST service connection"
   },
   "components/sampling/SamplingEngine": {
-    "SamplingGeneratedTitleFmt": "Сэмплинг: %s, %s",
+    "SamplingGeneratedTitleFmt": "Sampling: %s, %s",
     "UnspecifiedBiasColumn": "Biased sampling field not selected."
   },
   "components/sampling/SamplingVendor": {
@@ -2040,14 +2040,14 @@
     "VendorDescription": "Union of several datasets"
   },
   "components/uniontree/UnionTree": {
-    "ConcatPostfix": "конкатенация",
+    "ConcatPostfix": "concatenate",
     "ErrCannotGetRowCount": "Failed to get the row count for the node with identifier %d: the node is not an array",
     "ErrNoActiveInputs": "No active inputs",
     "ErrRowCountExceedMaxValue": "The number of strings in the resulting tree exceeds the maximum value %d",
-    "FirstActivePostfix": "первое активное",
+    "FirstActivePostfix": "first active",
     "JoinedDataTree": "Tree to join",
     "MainDataTree": "Main tree",
-    "UnionTreeShortTitle": "Объединение (дер.): "
+    "UnionTreeShortTitle": "Union (Tree): "
   },
   "components/uniontree/UnionTreeVendor": {
     "VendorCaption": "Tree Union",
@@ -4461,8 +4461,8 @@
     "ErrMessageSizeCannotBeNegative": "Message size cannot be negative",
     "ErrMessageSizeIncrementCannotBeNegative": "Message size increment cannot be negative",
     "ErrMessageSizeOverflow": "Maximum message size exceeded",
-    "ErrMethodCallNotAllowed": "Данный метод нельзя вызывать через RPC",
-    "ErrReadDynamicDataOutOfBounds": "Недопустимо чтение динамических данных за пределами сообщения",
+    "ErrMethodCallNotAllowed": "This method cannot be called via RPC",
+    "ErrReadDynamicDataOutOfBounds": "Cannot read dynamic data out of message bounds",
     "ErrUnknownInterfaceGUID": "Interface with %s identifier not registered",
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrUnknownInterfaceName": "%s interface not registered",
@@ -4620,7 +4620,7 @@
     "ErrSaveAsAlreadyOpenedPackage": "Failed to save package to file \"%s\". The package with such file has already been opened in the current session",
     "ErrSavePackagePermissionDenied": "No appropriate rights to save package with %s name",
     "ErrSessionAlreadyContainsPackage": "%s package already open in the current session",
-    "ErrSessionAlreadyExistsInCurrentThread": "В текущем потоке уже существует сессия %s:%s",
+    "ErrSessionAlreadyExistsInCurrentThread": "Current thread already has session %s:%s",
     "ErrSessionBackupAlreadyDeleted": "This session backup has already been deleted by another client from the current account",
     "ErrSessionBackupAlreadyRestored": "This session backup has already been restored by another client from the current account",
     "ErrSessionBackupModified": "This session backup has already been changed by another client from the current account",
