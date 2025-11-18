@@ -86182,6 +86182,9 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Недопустимо чтение динамических данных за пределами сообщения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122504Z">
+        <seg>Cannot read dynamic data out of message bounds</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -87499,6 +87502,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.ErrSessionAlreadyExistsInCurrentThread</note>
       <tuv lang="ru">
         <seg>В текущем потоке уже существует сессия %s:%s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122542Z">
+        <seg>Current thread already has session %s:%s</seg>
       </tuv>
     </tu>
     <tu>
