@@ -458,3 +458,4 @@ P-значение	P-value
 ненумерованный список	unordered list
 ведомый пробел	trailing space
 ведущий пробел	leading space
+исполняемый файл	executable file
