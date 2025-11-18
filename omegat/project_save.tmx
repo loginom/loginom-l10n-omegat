@@ -62120,6 +62120,9 @@ Python interpreter path specified in application settings does not exist</note>
       <tuv lang="ru">
         <seg>Исполняемый файл python3 не найден</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144837Z">
+        <seg>Python3 executable file not found</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -63591,6 +63594,9 @@ Result:
       <note>Key = components/sampling/SamplingEngine.SamplingGeneratedTitleFmt</note>
       <tuv lang="ru">
         <seg>Сэмплинг: %s, %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144854Z">
+        <seg>Sampling: %s, %s</seg>
       </tuv>
     </tu>
     <tu>
