@@ -57744,6 +57744,9 @@ Invalid interface identifier of the main server object received</note>
       <tuv lang="ru">
         <seg>Слияние (дер.):</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144605Z">
+        <seg>Join (Tree):</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -57916,6 +57919,9 @@ Invalid interface identifier of the main server object received</note>
       <note>Key = components/jsontotree/JSONToTreeEngine.JSONToTreeTitle</note>
       <tuv lang="ru">
         <seg>JSON в дерево:</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T144620Z">
+        <seg>JSON to Tree:</seg>
       </tuv>
     </tu>
     <tu>
