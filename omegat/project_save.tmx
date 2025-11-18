@@ -1071,6 +1071,10 @@ Seconds - seconds in the form of a number.</seg>
         <seg>Функция возвращает HEX значение SHA256, рассчитанное от заданной строки.
 Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T130423Z">
+        <seg>The function returns a HEX value SHA256 calculated based on the given string.
+Calculations are performed with the String characters sequence using UTF-8 encoding.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -1188,6 +1192,9 @@ Seconds - seconds in the form of a number.</seg>
       <note>Key = CryptFunctions.SHA384.Arguments</note>
       <tuv lang="ru">
         <seg>Строка - строка, для которой рассчитывается SHA384 значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T130437Z">
+        <seg>String - a string for which the SHA384 value is calculated.</seg>
       </tuv>
     </tu>
     <tu>
