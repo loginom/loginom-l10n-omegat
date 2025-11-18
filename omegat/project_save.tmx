@@ -935,6 +935,9 @@ Day - day in the form of a number.</seg>
       <tuv lang="ru">
         <seg>SHA256(Строка)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T130159Z">
+        <seg>SHA256(String)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
