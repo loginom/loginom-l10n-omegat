@@ -1606,6 +1606,9 @@ ElementN - values of the list elements</seg>
       <tuv lang="ru">
         <seg>Строка - строка, для которой рассчитывается SHA512 значение.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141325Z">
+        <seg>String - a string for which the SHA512 value is calculated.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -1735,6 +1738,9 @@ ElementN - values of the list elements</seg>
       <tuv lang="ru">
         <seg>SHA512(Строка)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141332Z">
+        <seg>SHA512(String)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -1860,6 +1866,9 @@ String2 - expressions of the string type.</seg>
         <seg>Функция возвращает HEX значение SHA512, рассчитанное от заданной строки.
 Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141214Z">
+        <seg>The function returns the HEX value of the SHA512 calculated from the given string. The String's character sequence is processed using UTF-8 encoding.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -1983,6 +1992,9 @@ Argument2,
       <note>Key = CryptFunctions.SHA512_224.Arguments</note>
       <tuv lang="ru">
         <seg>Строка - строка, для которой рассчитывается SHA512/224 значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141349Z">
+        <seg>String - a string for which the SHA512/224 value is calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2110,6 +2122,9 @@ Argument2,
       <tuv lang="ru">
         <seg>SHA512_224(Строка)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141401Z">
+        <seg>SHA512_224(String)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
@@ -2234,6 +2249,9 @@ Divisor - integer numeric expression.</seg>
       <tuv lang="ru">
         <seg>Функция возвращает HEX значение SHA512/224, рассчитанное от заданной строки.
 Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141238Z">
+        <seg>The function returns the HEX value of the SHA512/224 calculated from the given string. The String's character sequence is processed using UTF-8 encoding.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2364,6 +2382,9 @@ The current date and time represent the time the expression gets calculated, and
       <note>Key = CryptFunctions.SHA512_256.Arguments</note>
       <tuv lang="ru">
         <seg>Строка - строка, для которой рассчитывается SHA512/256 значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141410Z">
+        <seg>String - a string for which the SHA512/256 value is calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2613,6 +2634,9 @@ As a random number will be generated each time when getting the expression value
       <tuv lang="ru">
         <seg>Функция возвращает HEX значение SHA512/256, рассчитанное от заданной строки.
 Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T141303Z">
+        <seg>The function returns the HEX value of the SHA512/256 calculated from the given string. The String's character sequence is processed using UTF-8 encoding.</seg>
       </tuv>
     </tu>
     <tu>
