@@ -86171,6 +86171,9 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Данный метод нельзя вызывать через RPC</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20251118T122304Z">
+        <seg>This method cannot be called via RPC</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
