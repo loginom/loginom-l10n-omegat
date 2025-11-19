@@ -3,7 +3,7 @@
     "CRC32": {
       "Arguments": "String - a string for which the CRC32 value is calculated.",
       "Description": "CRC32(String)",
-      "Output": "Function returns a CRC32 checksum calculated for a given string.\nThe calculations operate the UTF-8 encoded sequence of the string's characters."
+      "Output": "The function returns the numeric value of the CRC32 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "HardKey": {
       "Arguments": "Arguments are absent.",
@@ -13,12 +13,12 @@
     "MD5": {
       "Arguments": "String - a string for which the MD5 value is calculated.",
       "Description": "MD5(String)",
-      "Output": "Function returns HEX value MD5 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the MD5 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "SHA1": {
       "Arguments": "String - a string for which the SHA1 value is calculated.",
       "Description": "SHA1(String)",
-      "Output": "Function returns HEX value SHA1 calculated on the basis of the given string.\nCalculations are performed with the String characters sequence using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA1 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
     },
     "SHA256": {
       "Arguments": "String - a string for which the SHA256 value is calculated.",
@@ -617,7 +617,7 @@
     "TrimLeft": {
       "Arguments": "Argument - string expression.",
       "Description": "TrimLeft(Argument)",
-      "Output": "Returns the Argument without leading and trailing spaces and characters with the code less than 32."
+      "Output": "Returns the Argument without leading spaces and characters with the code less than 32."
     },
     "TrimRight": {
       "Arguments": "Argument - string expression.",
@@ -697,7 +697,7 @@
       "Output": "Returns the string part group matching the regular expression.\nGroups are numbered from left to right according to occurrence of opening brackets.\nPCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions."
     },
     "RegExReplace": {
-      "Arguments": "RegularExpression - the regular expression string;\nInputString - the input string that will be replaced;\nReplaceString - the string that will be inserted instead of the input string part matching the regular expression;\nMatchIndex - the index of the matched substring. The parameter must be within the range from 1 to RegExMatchCount..\nExtendedSyntax - extended replacement syntax (The PCRE2 library is used).",
+      "Arguments": "RegularExpression - the regular expression string;\nInputString - the input string that will be replaced;\nReplaceString - the string that will be inserted instead of the input string part matching the regular expression;\nMatchIndex - the index of the matched substring. The parameter must be within the range from 1 to RegExMatchCount;\nExtendedSyntax - extended replacement syntax (The PCRE2 library is used).",
       "Description": "RegExReplace(RegularExpression, InputString, ReplaceString [, MatchIndex = 1, ExtendedSyntax = False])",
       "Output": "Returns the InputString in which the MatchIndex-th occurrence of the RegularExpression will be replaced with the ReplaceString.\nThe PCRE2 library is used. Syntax and semantics are compatible with Perl regular expressions."
     },

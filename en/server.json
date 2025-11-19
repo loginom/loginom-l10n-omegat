@@ -4508,7 +4508,7 @@
   "Libraries/TableauRestConnection/TableauRestCommon": {
     "ErrTableauPublishingNotSupported": "Tableau server publishing not supported",
     "HttpResponse": "Unexpected server response. Response code: %d, message: %s",
-    "ProjectNotFound": "Project with with \"%s\" name not found on server"
+    "ProjectNotFound": "Project with \"%s\" name not found on server"
   },
   "Libraries/TableauRestConnection/TableauRestConnectionVendor": {
     "TableauRestConnectionVendorCaption": "Tableau Server",

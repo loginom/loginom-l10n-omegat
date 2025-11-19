@@ -2337,7 +2337,7 @@
       "fieldLabel": "Minimum rate, %"
     },
     "fldUniformityCoef": {
-      "fieldLabel": "Uniformity,%"
+      "fieldLabel": "Uniformity, %"
     },
     "lblCoarseClass": {
       "text": "Coarse classes"
