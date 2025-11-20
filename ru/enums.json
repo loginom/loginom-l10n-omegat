@@ -159,6 +159,12 @@
     }
   },
   "Common/XML/XSD": {
+    "XSDAggregateType": {
+      "$Caption": "Модель контента (тип агрегации)",
+      "Sequence": "Последовательность (sequence)",
+      "Choice": "Выбор (choice)",
+      "All": "Все (all)"
+    },
     "XSDDataTypeRefinement": {
       "$Caption": "Уточнение типа данных XML",
       "Any": "Любой тип",
@@ -421,6 +427,14 @@
       "User": "Свой формат"
     }
   },
+  "components/em": {
+    "EMModification": {
+      "$Caption": "Тип алгоритма",
+      "Standard": "Классический",
+      "Stochastic": "Стохастический",
+      "Classification": "Классификационный"
+    }
+  },
   "components/factoranalysis": {
     "FactorRotationType": {
       "$Caption": "Метод вращения",
@@ -548,6 +562,11 @@
       "Manual": "Задать вручную",
       "Sampling": "Взять из узла сэмплинга",
       "Partition": "Взять из узла разбиения на множества"
+    },
+    "CalibrationType": {
+      "$Caption": "Тип поправки на долю событий",
+      "Const": "Константой",
+      "Weight": "Весами"
     },
     "LogRegressionMethod": {
       "$Caption": "Отбор факторов и защита от переобучения",
@@ -716,6 +735,16 @@
       "ESOINN": "ESOINN"
     }
   },
+  "components/sorting": {
+    "SortingBufferingType": {
+      "$Caption": "Тип буфера данных",
+      "Default": "По умолчанию",
+      "Whole": "Все данные",
+      "Minimal": "Минимальный",
+      "UserDefined": "Заданный",
+      "WholePreCache": "Все данные, предварительно кэшировать"
+    }
+  },
   "components/ungroupdata": {
     "SeasonalityPeriod": {
       "$Caption": "Период сезонности",
@@ -780,11 +809,39 @@
     }
   },
   "exports/excelfile": {
+    "ExcelCaptionType": {
+      "$Caption": "Тип заголовка столбцов",
+      "AsName": "Имена полей",
+      "AsDisplayName": "Метки полей"
+    },
+    "ExcelHeadersRow": {
+      "$Caption": "Заголовки столбцов",
+      "IncludeHeadersRow": "Первая строка является заголовком",
+      "NoHeadersRow": "Нет строки заголовков",
+      "NoHeadersRowAfterData": "Нет строки заголовков если данные добавляются ниже"
+    },
     "ExcelHeadersRowWebSet": {
       "$Caption": "Заголовки столбцов",
       "NoHeadersRow": "Нет строки заголовков",
       "HeadersRowAsName": "Имена полей",
       "HeadersRowAsDisplayName": "Метки полей"
+    },
+    "ExcelLimitRowType": {
+      "$Caption": "Тип ограничения строк",
+      "NoLimit": "Не ограничивать",
+      "LastRow": "Последняя строка",
+      "RowsCount": "Количество строк"
+    },
+    "ExcelUpdateFileMode": {
+      "$Caption": "Обновление файла excel",
+      "ForceCreateFile": "Заменить существующий файл",
+      "Update": "Внести изменения в существующий файл"
+    },
+    "ExcelUpdateSheetMode": {
+      "$Caption": "Обновление листа Excel",
+      "ForceCreateSheet": "Заменить существующий лист",
+      "AddBelow": "Добавлять данные ниже",
+      "Merge": "Не удалять существующие данные на листе"
     }
   },
   "exports/textfile": {
@@ -823,6 +880,11 @@
       "Number": "По номеру",
       "Name": "По имени",
       "NamedRange": "Именованный диапазон"
+    },
+    "ExcelUsedRangeType": {
+      "$Caption": "Тип выбора диапазона",
+      "UsedRange": "Автоматический",
+      "ExplicitRange": "Заданный"
     }
   },
   "imports/kafka": {
@@ -891,9 +953,50 @@
       "MySQL": "MySQL",
       "PostgreSQL": "PostgreSQL",
       "SQLite": "SQLite"
+    },
+    "ObjectQuotesType": {
+      "$Caption": "Тип кавычек",
+      "SquareBrackets": "Квадратные скобки []",
+      "DoubleQuotes": "Двойные кавычки \"\"",
+      "Apostrophes": "Апострофы ``"
+    },
+    "TransactionIsolationLevel": {
+      "$Caption": "Уровень изолированности транзакций",
+      "ReadUnCommitted": "Read uncommitted",
+      "ReadCommitted": "Read committed",
+      "RepeatableRead": "Repeatable Read",
+      "Snapshot": "Snapshot",
+      "Serializable": "Serializable"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/BigQueryODBCUniDACDB": {
+    "BigQueryAuthMechanismType": {
+      "$Caption": "Механизм аутентификации",
+      "ServiceAcc": "Сервисная аутентификация",
+      "UserAcc": "Пользовательская аутентификация"
+    }
+  },
+  "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
+    "MsSQLClient": {
+      "$Caption": "Клиент",
+      "Auto": "Автоматически",
+      "NativeClient": "SQL Server Native Client",
+      "MSOLEDB": "Microsoft OLE DB Driver for SQL Server",
+      "AutoModern": "Автоматически (современные)",
+      "Direct": "Без клиента"
     }
   },
   "Libraries/bgdbrtl/UniDAC/SQLiteUniDACDB": {
+    "SQLiteClientLibrary": {
+      "$Caption": "Библиотека клиента СУБД",
+      "Sqlite3": "sqlite3",
+      "Sqlcipher": "sqlcipher"
+    },
+    "SQLiteEncryptionAlgorithm": {
+      "$Caption": "Алгоритм шифрования",
+      "CryptNone": "-",
+      "CryptAES256CBC": "AES-256"
+    },
     "SQLiteJournalMode": {
       "$Caption": "Режим журнала транзакций",
       "JournalDefault": "По умолчанию",
@@ -908,6 +1011,12 @@
       "LikeNoCase": "Без учёта регистра ASCII символов",
       "LikeCase": "С учётом регистра",
       "LikeUnicode": "Без учёта регистра"
+    },
+    "SQLiteLockingMode": {
+      "$Caption": "Режим блокировки БД",
+      "LockDefault": "По умолчанию",
+      "LockNormal": "Нормальный",
+      "LockExclusive": "Монопольный"
     },
     "SQLiteSync": {
       "$Caption": "Режим синхронизации",
@@ -981,6 +1090,12 @@
       "Teach": "Обучающее",
       "Test": "Тестовое"
     },
+    "DataSourceTypeEx": {
+      "$Caption": "Расширенный тип множества данных",
+      "Teach": "",
+      "Test": "",
+      "All": "Все вместе"
+    },
     "DataType": {
       "$Caption": "Тип данных",
       "None": "Неопределенный",
@@ -1004,6 +1119,16 @@
       "Current": "Текущая дата",
       "Data": "Имеющиеся данные",
       "Custom": "Абсолютная дата"
+    },
+    "DateTimePart": {
+      "$Caption": "Часть даты времени",
+      "MiliSeconds": "Миллисекунда",
+      "Seconds": "Секунда",
+      "Minute": "Минута",
+      "Hour": "Час",
+      "Day": "День",
+      "Month": "Месяц",
+      "Year": "Год"
     },
     "DateTimeSpanType": {
       "$Caption": "Единицы измерения интервалов даты времени",
@@ -1053,6 +1178,11 @@
       "LeftJustify": "По левому краю",
       "RightJustify": "По правому краю",
       "Center": "По центру"
+    },
+    "PeriodKind": {
+      "$Caption": "Виды периодов",
+      "Relative": "Относительный",
+      "Absolute": "Абсолютный"
     },
     "RelationType": {
       "$Caption": "Тип отношения",
@@ -1315,6 +1445,14 @@
       "Journald": "journald"
     }
   },
+  "Libraries/Model/DataSet/ImportModelComponentEngine": {
+    "CacheStringsMode": {
+      "$Caption": "Режим кэширования строк",
+      "Off": "Не использовать кэш",
+      "Manual": "Задать размер кэша вручную",
+      "Auto": "Определять автоматически"
+    }
+  },
   "Libraries/Model/DerivedModelComponent": {
     "DerivedModelComponentTarget": {
       "$Caption": "Целевые типы узлов",
@@ -1349,6 +1487,22 @@
       "Error": "Ошибка",
       "Winsorizing": "Винсоризация"
     },
+    "DefaultInteractionType": {
+      "$Caption": "Тип взаимодействий",
+      "None": "Без взаимодействий",
+      "TwoWay": "Все двухсторонние",
+      "ThreeWay": "Все трехсторонние"
+    },
+    "NormMultType": {
+      "$Caption": "Тип нормализации умножения",
+      "C": "Умножение 2-х непрерывных",
+      "D": "Умножение 2-х дискретных",
+      "CD": "Умножение непрерывного на дискретное",
+      "CG": "Умножение нескольких непрерывных",
+      "DG": "Умножение нескольких дискретных",
+      "CDG": "Умножение нескольких непрерывных и дискретных",
+      "A": "Умножение с участием специальных факторов"
+    },
     "NormSettingsType": {
       "$Caption": "Тип нормализации",
       "None": "Нет",
@@ -1369,6 +1523,22 @@
       "Constant": "Константа",
       "Mult": "Умножение",
       "Index": "Индекс уникального значения"
+    },
+    "RemovableType": {
+      "$Caption": "Опция удаления поля",
+      "Removable": "Удаляемое",
+      "Irremovable": "Неудаляемое",
+      "StrictIrremovable": "Фикс. неудаляемое"
+    },
+    "SpecInterFactor": {
+      "$Caption": "Специальный фактор-взаимодействие",
+      "Any": "ANY",
+      "AnyOther": "ANY OTHER",
+      "AnyContinuous": "ANY CONTINUOUS",
+      "AnyDiscrete": "ANY DISCRETE",
+      "AnyOtherContinuous": "ANY OTHER CONTINUOUS",
+      "AnyOtherDiscrete": "ANY OTHER DISCCRETE",
+      "Same": "SAME"
     }
   },
   "Libraries/OpenID/OpenID": {
@@ -1512,6 +1682,13 @@
     }
   },
   "Viewers/Chart/ChartTypes": {
+    "AxesAlign": {
+      "$Caption": "Выравнивать оси",
+      "None": "Нет",
+      "Threshold": "Начало координат",
+      "GridLines": "Совмещать сетку",
+      "Scale": "Совмещать масштаб"
+    },
     "AxisPosition": {
       "$Caption": "Позиция оси",
       "Abscissa": "Нижняя",
@@ -1662,6 +1839,11 @@
       "Source": "В исходном порядке",
       "Custom": "Произвольный порядок"
     },
+    "CubeDimensionTotalPosition": {
+      "$Caption": "Местоположение итогов",
+      "Bottom": "Внизу",
+      "None": "Не показывать"
+    },
     "CubeDimensionType": {
       "$Caption": "Тип измерения",
       "Cols": "Колонки",
@@ -1690,6 +1872,12 @@
     }
   },
   "Viewers/Cube/CubeSummaries": {
+    "CubeCaseCellViewType": {
+      "$Caption": "Тип представления значения",
+      "Text": "Только текст",
+      "ImageText": "Текст и график",
+      "Image": "Только график"
+    },
     "CubeColumnWidthMode": {
       "$Caption": "Режим изменения ширин колонок",
       "EqualCases": "Равная ширина фактов",
@@ -1943,9 +2131,21 @@
       "NullCount": "Пропуски",
       "NotNullCount": "Значения",
       "UniqueCount": "Уникальные"
+    },
+    "StatViewQuartileNumber": {
+      "$Caption": "Номер квартиля",
+      "Lower": "Нижний квартиль",
+      "Median": "Медиана",
+      "Upper": "Верхний квартиль"
     }
   },
   "Warehouse2/MDConsts": {
+    "DWExtractExtendedFilterType": {
+      "$Caption": "Тип расширенного фильтра",
+      "None": "Статический фильтр",
+      "UserCustom": "Пользовательский фильтр",
+      "Variables": "Фильтр с использованием переменных"
+    },
     "MDAggregateFunction": {
       "$Caption": "Агрегация",
       "Sum": "Сумма",
