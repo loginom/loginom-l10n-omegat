@@ -326,7 +326,7 @@
     "ErrXMLExportContextNoDataSource": "Attempt to create XML export context not specifying data source",
     "ErrXMLExportRootElementAttributeRepeats": "Failed to re-add %s attribute to %s XML document root element",
     "ErrXMLExportRootElementSubElementRepeats": "Failed to re-add %s element to root element of %s XML document",
-    "ErrXMLExportSchemaDoesNotAllowElement": "XSD schema does not allow to export %s element to current XML document",
+    "ErrXMLExportSchemaDoesNotAllowElement": "XSD schema does not allow exporting %s element to current XML document",
     "NodePath": "Tree node path"
   },
   "Common/XML/Processor/XMLImportImpl": {
@@ -3075,7 +3075,7 @@
   },
   "Libraries/bgrtl/QueueException": {
     "ErrAggregateExceptionMessage": "Exceptions occurred during processing",
-    "ErrQueueExceptionEndUnexpected": "Attempt to end the queued exception block handling without its start"
+    "ErrQueueExceptionEndUnexpected": "Attempt to end a queued exception handling block which wasn't started"
   },
   "Libraries/bgrtl/ScalarUtils": {
     "ErrScalarToValue": "Error converting value from the scalar data type",
@@ -3464,7 +3464,7 @@
     "ErrDuplicateSequenceItemNames": "The collection contains more than one item with %s name",
     "ErrGetConfigWriterItemByIndexNotSupported": "Getting derived configuration item by index not supported",
     "ErrGetConfigWriterItemCountNotSupported": "Getting derived item count of the configuration not supported",
-    "HintConvertAtomicConfigElement": "When reading the atomic element of %s configuration converting will be performed"
+    "HintConvertAtomicConfigElement": "When reading the atomic element of %s configuration, converting will be performed"
   },
   "Libraries/Config/ConfigXML": {
     "ErrErrorReadingAttribute": "Failed to read the value of attribute \"%s\"",
@@ -4781,7 +4781,7 @@
     "1Cv8QueryImport": "1C Query",
     "AccessODBCUniDACDatabase": "MS Access connector",
     "DataToXMLEngine": "XML Generation",
-    "ErrComponentNotAvailable": "\"%s\" component is unavailable in the current Loginom version",
+    "ErrComponentNotAvailable": "Component \"%s\" is unavailable in the current Loginom edition",
     "ExcelODBCUniDACDatabase": "MS Excel connector",
     "ExecCmdEngine": "Program Execution",
     "ExportTableau": "Export to Tableau file",

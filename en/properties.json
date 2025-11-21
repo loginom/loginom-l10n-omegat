@@ -1016,7 +1016,7 @@
     },
     "RegressionSimpleParams": {
       "ExactInexact": "Exact\/inexact data priority",
-      "FactLessMore": "Less\/more factors priority",
+      "FactLessMore": "Fewer\/more factors priority",
       "QualitySpeed": "Accuracy\/speed priority"
     },
     "RegressionStatisticsParams": {

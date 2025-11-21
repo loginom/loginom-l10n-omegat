@@ -266,7 +266,7 @@
     "DerivedVendorUsedByNodes": "{0} nodes that refer to this component found in the opened packages.",
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
     "ErrCannotDeleteUnit": "Failed to delete \"{0}\" module. Some of the nodes are currently locked.",
-    "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some of the derived nodes are currently locked."
+    "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some derived nodes are currently locked."
   },
   "app/ConfigureDerivedVendorForm": {
     "AddBtnText": "Add",
@@ -2468,7 +2468,7 @@
     "ErrUpdatableNotSupported": "IBGUpdatable interface is not supported by object"
   },
   "rpc/QueueException": {
-    "ErrQueueExceptionEndUnexpected": "Attempt to end the queued exception block handling without its start",
+    "ErrQueueExceptionEndUnexpected": "Attempt to end a queued exception handling block which wasn't started",
     "ErrUnknownInnerExceptionIsIgnored": "Internal exception of unknown {0} type ignored"
   },
   "rpc/rtl/Int64": {
@@ -3205,7 +3205,7 @@
     "AboveAccuracy": "Increased accuracy",
     "AbovePrecision": "Increased accuracy",
     "AboveSpeed": "Increased speed",
-    "LessFacts": "Less factors",
+    "LessFacts": "Fewer factors",
     "LowerAccuracy": "Reduced accuracy",
     "MaxAccuracy": "Accurate data",
     "MaxFacts": "Maximum factors",
