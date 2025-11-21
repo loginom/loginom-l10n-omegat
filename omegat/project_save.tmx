@@ -20054,8 +20054,8 @@ Do you really want to start exporting?</seg>
       <tuv lang="ru">
         <seg>Логарифм функции правдоподобия</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20251121T134338Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Log likelihood</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T134947Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Log-likelihood</seg>
       </tuv>
     </tu>
     <tu>
@@ -23650,8 +23650,8 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Меньше факторов</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Less factors</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T135138Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Fewer factors</seg>
       </tuv>
     </tu>
     <tu>
