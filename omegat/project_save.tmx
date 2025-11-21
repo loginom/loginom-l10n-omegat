@@ -56946,8 +56946,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Приоритет меньше/больше факторов</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Less/more factors priority</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T135232Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Fewer/more factors priority</seg>
       </tuv>
     </tu>
     <tu>
@@ -78821,8 +78821,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>XSD-схема не позволяет экспортировать элемент %s в текущий XML-документ</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>XSD schema does not allow to export %s element to current XML document</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T135330Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>XSD schema does not allow exporting %s element to current XML document</seg>
       </tuv>
     </tu>
     <tu>
@@ -79580,8 +79580,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>При чтении атомарного элемента конфигурации %s будет произведено конвертирование</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>When reading the atomic element of %s configuration converting will be performed</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T135508Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>When reading the atomic element of %s configuration, converting will be performed</seg>
       </tuv>
     </tu>
     <tu>
