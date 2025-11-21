@@ -90766,8 +90766,8 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Компонент "%s" недоступен в текущей редакции Loginom</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>"%s" component is unavailable in the current Loginom version</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T135649Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Component "%s" is unavailable in the current Loginom edition</seg>
       </tuv>
     </tu>
     <tu>
