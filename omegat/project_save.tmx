@@ -16943,8 +16943,8 @@ Error: {0}</seg>
       <tuv lang="ru">
         <seg>Попытка завершить блок отложенной обработки исключений, предварительно не начав его</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Attempt to end the queued exception block handling without its start</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T134252Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Attempt to end a queued exception handling block which wasn't started</seg>
       </tuv>
     </tu>
     <tu>
@@ -21611,8 +21611,8 @@ Do you want to delete all lost links and continue?</seg>
       <tuv lang="ru">
         <seg>Невозможно удалить компонент "{0}". Некоторые из производных узлов в данный момент заблокированы.</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Failed to delete "{0}" component. Some of the derived nodes are currently locked.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T134019Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Failed to delete "{0}" component. Some derived nodes are currently locked.</seg>
       </tuv>
     </tu>
     <tu>
