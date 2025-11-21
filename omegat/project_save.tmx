@@ -20054,8 +20054,8 @@ Do you really want to start exporting?</seg>
       <tuv lang="ru">
         <seg>Логарифм функции правдоподобия</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Log-likelihood</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T134338Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Log likelihood</seg>
       </tuv>
     </tu>
     <tu>
@@ -76067,8 +76067,8 @@ Do you want to sync all extensions?</seg>
       <tuv lang="ru">
         <seg>Попытка завершить блок отложенной обработки исключений, предварительно не начав его</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20251120T125143Z" creationid="zamaraev" creationdate="20251120T125143Z">
-        <seg>Attempt to end the queued exception block handling without its start</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20251121T134325Z" creationid="zamaraev" creationdate="20251120T125143Z">
+        <seg>Attempt to end a queued exception handling block which wasn't started</seg>
       </tuv>
     </tu>
     <tu>
