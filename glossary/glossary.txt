@@ -207,7 +207,6 @@ XSD-схема на входе	Input XSD schema
 Вне списка	Not listed
 В списке	Listed
 Количество пропусков	Null count
-Заполнение пропусков	Imputation
 Принудительное включение	Enter
 Пошаговое включение	Forward
 Пошаговое включение/исключение	Stepwise
