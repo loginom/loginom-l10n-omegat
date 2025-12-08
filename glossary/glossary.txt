@@ -43,9 +43,10 @@ String	String	последовательность символов.
 Выходной набор	Output dataset
 Настройка	Configure, configuring
 Настройки	Settings
-Общая папка	Shared folder
-Запрос	Request	Запрос данных по сети SOAP Request , REST Request...
-Запрос	Query	Запрос к базе данных
+общая папка	shared folder
+общий пакет	shared package
+запрос	request	Запрос данных по сети SOAP Request , REST Request...
+запрос	query	Запрос к базе данных
 Синхронизатор	Synchronizer
 Исследование	Exploration
 Подмножество	Subset
