@@ -35,10 +35,10 @@ String	String	последовательность символов.
 Накапливающаяся сумма	Cumulative sum
 Постоянная	Constant
 Недопустимый тип данных	Invalid data type
-Пакет	Package
-Не удалось подключиться к серверу	Server connection failed
-Ряд	Series
-Метка	Caption
+пакет	package
+не удалось подключиться к серверу	server connection failed
+ряд	series
+метка	caption
 Вернуть изменения до точки	Rollback to backup point
 Выходной набор	Output dataset
 Настройка	Configure, configuring
@@ -409,7 +409,7 @@ P-значение	P-value
 Доля	Quota
 Разгруппированные	Ungrouped
 Заголовок Content-Type	Content-Type caption
-Диспетчер	Session Manager
+диспетчер	Session Manager
 Установить/снять флажок	Select/Deselect a checkbox
 Доля событий	Event rate	Только в контексте конечных классов (Coarse Classes)
 Дубликаты и противоречия	Duplicates Detection	Это название компонента (узла)
