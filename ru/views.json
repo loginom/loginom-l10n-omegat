@@ -7481,6 +7481,9 @@
     }
   },
   "wizards/normalization/ControlRangeSettings": {
+    "btnGetRangeStatistics": {
+      "text": "Получить исходный диапазон"
+    },
     "btnTakeSourceRange": {
       "tooltip": "Взять исходный диапазон"
     },
@@ -7500,16 +7503,16 @@
     "cntRange": {
       "title": "Исходный диапазон"
     },
-    "edtFactRangeMax": {
+    "fcFactRangeMax": {
       "fieldLabel": "Максимальное"
     },
-    "edtFactRangeMin": {
+    "fcFactRangeMin": {
       "fieldLabel": "Минимальное"
     },
-    "edtRangeMax": {
+    "fcRangeMax": {
       "fieldLabel": "Максимальное"
     },
-    "edtRangeMin": {
+    "fcRangeMin": {
       "fieldLabel": "Минимальное"
     }
   },

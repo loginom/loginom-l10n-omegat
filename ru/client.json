@@ -688,7 +688,7 @@
     "JobVersionChangedPromptTitle": "Конфликт изменения задачи",
     "JobVersionChangedPromptYes": "Перезаписать",
     "NoRightsToViewNodePackages": "У пользователя \"{0}\" нет прав для просмотра узлов пакетов",
-    "NotFoundNodeFmt": "В пакете \"{0}\", не удалось найти узел \"{1}\"",
+    "NotFoundNodeFmt": "В пакете \"{0}\" не удалось найти узел \"{1}\"",
     "NotFoundPackageFileErr": "Не удалось найти запускаемый пакет \"{0}\"",
     "RootJobModelCaption": "Все задачи",
     "StopAllSessionsByJobPromptFmt": "Остановить выполнение всех сессий для задачи \"{0}\"?",
@@ -3167,6 +3167,7 @@
     "MsgNotConnected": "Подключение не активно. Активировать его сейчас?"
   },
   "wizards/normalization/ControlRangeSettings": {
+    "ErrBounds": "Минимум больше максимума",
     "ValidateEditorsErr": "Ошибка в настройках контроля диапазона значений"
   },
   "wizards/normalization/DiscreteNormParamsForm": {

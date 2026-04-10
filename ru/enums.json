@@ -1953,7 +1953,7 @@
       "FullColumns": "Заполненных полей",
       "FullRecords": "Полных записей",
       "UsefulColumns": "Пригодных столбцов",
-      "IndexEPV": "Индекс EPV"
+      "IndexEPV": "Индекс RPV"
     },
     "QualityViewCommonColumnType": {
       "$Caption": "Тип общей колонки",

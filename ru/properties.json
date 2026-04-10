@@ -757,6 +757,7 @@
   },
   "Libraries/bgdbrtl/UniDAC/MsSQLOleDbUniDACDB": {
     "MsSQLOleDbUniDACDatabaseConfigurator": {
+      "CharacterSet": "Язык сообщений",
       "Encrypt": "Шифровать протокол",
       "TrustServerCert": "Не проверять сертификат сервера"
     }

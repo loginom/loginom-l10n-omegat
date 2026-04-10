@@ -17,6 +17,8 @@
     "ErrCreateGuid": "Системная ошибка при создании GUID",
     "ErrGuidFormat": "Некорректный формат GUID: %s (поддерживаются [\"N\",\"D\",\"B\",\"P\"])",
     "ErrIntervalFormat": "Некорректный тип интервала: %s (поддерживается [\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"])",
+    "ErrInvalidDateFmt": "%d-%d-%d не является допустимым значением даты",
+    "ErrInvalidTimeFmt": "%d:%d:%d не является допустимым значением времени",
     "NumberOfIntervalsMustBePositive": "Число интервалов должно быть положительным"
   },
   "Common/CalcFunctions/FuncDesc": {
@@ -1255,7 +1257,6 @@
     "VendorDesc": "Группировка данных"
   },
   "components/javascript/JavaScriptEngine": {
-    "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "InputDataSource": "Входной источник данных",
     "JavaScriptComponentTitle": "JS: ",
     "JavaScriptConfigureOutputTableProcess": "Подготовка выходных столбцов",
@@ -1692,7 +1693,6 @@
     "ErrCurrentDirectory": "Не удалось определить текущую директорию",
     "ErrDisallowedExecution": "Выполнение Python запрещено параметрами безопасности",
     "ErrGetNativePath": "Не удалось получить путь в файловой системе по пути файлового хранилища \"%s\"",
-    "ErrPreviewWhenNotConfiguring": "Предпросмотр возможен только при настройке узла",
     "ErrPythonInProcessNotSupported": "Выполнение Python внутри процесса не поддерживается, Python запущен в отдельном процессе.",
     "InputPortOptional": "Входной порт необязательный",
     "OutputDataFrameExample": "Полученный выходной pd.DataFrame",
@@ -2333,6 +2333,7 @@
     "ErrPropSheetNumber": "Индекс листа Excel задан некорректно",
     "ErrSheet": "Не удалось найти лист Excel",
     "ErrSuggestRange": "Файл excel не открыт. По текущим настройкам невозможно определить количество столбцов для импорта",
+    "ErrUsedColumnDefsNotSpecified": "Импортируемые поля не определены",
     "OpenExcelFileProcess": "Открытие файла",
     "ReadDataProcess": "Чтение данных",
     "ReadMetadataFilesProcess": "Чтение метаданных файлов",
@@ -2535,6 +2536,7 @@
     "ErrParameterTypesDoNotMatch": "Типы параметров не совпадают",
     "ErrPrepareProcedure": "Ошибка подготовки хранимой процедуры \"%s\"",
     "ErrPrepareQuery": "Ошибка подготовки SQL:\n%s",
+    "ErrSchemaNotSpecified": "Не указано имя схемы",
     "ErrSetSequence": "Ошибка установки Sequence для DB. Старый Sequence = %d",
     "ErrTableNameNotSelect": "Не указано имя таблицы",
     "ErrTableNotExists": "Таблица не существует",
@@ -3043,7 +3045,8 @@
     "ErrJSONUnexpectedChar": "Получен символ %s вместо ожидаемого %s",
     "ErrJSONUnknownValue": "Неопределенное JSON значение",
     "ErrParserNotInited": "Парсер JSON не инициализирован",
-    "InvalidDateTimeTemplate": "Недопустимый шаблон даты времени \"%s\""
+    "InvalidDateTimeTemplate": "Недопустимый шаблон даты времени \"%s\"",
+    "InvalidEscapedUnicodeChars": "Недопустимая управляющая последовательность символов"
   },
   "Libraries/bgrtl/LocaleUtils": {
     "ErrLocaleNotSupported": "Локаль \"%s\" не поддерживается",
@@ -3872,7 +3875,8 @@
     "ErrAlreadyConfiguringSocket": "Компонент узла уже находится в состоянии настройки порта",
     "ErrInvalidComponentEngineImplementation": "Неверная реализация движка компонента",
     "ErrModelComponentAlreadyInitialized": "Компонент узла уже проинициализирован",
-    "ErrUnknownCouplerDefType": "Неизвестный тип описателя соединения"
+    "ErrUnknownCouplerDefType": "Неизвестный тип описателя соединения",
+    "WarnGenerateTitle": "Ошибка формирования автоматической метки"
   },
   "Libraries/Model/ModelComponentCouplerDefItems": {
     "CouplerDefMetaDesc": "Соединение"
@@ -3882,6 +3886,9 @@
   },
   "Libraries/Model/ModelComponentCouplers": {
     "ErrModelElementAlreadyInitialized": "Соединение уже проинициализировано"
+  },
+  "Libraries/Model/ModelComponentEngineBase": {
+    "ErrWhenNotConfiguring": "Действие возможно только при настройке узла"
   },
   "Libraries/Model/ModelComponentEngineVendor": {
     "ModelComponentEngineVendorMetaDesc": "вендор движков компонентов"
