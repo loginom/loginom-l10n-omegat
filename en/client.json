@@ -171,14 +171,14 @@
     "ConfirmSessionStop": "Do you want to cancel execution of \"{0}\" session?",
     "EnteredMaintenanceMode": "Server entered maintenance mode.",
     "EnterMaintenanceMsgText": "Enter maintenance mode?",
-    "EnterMaintenanceTooltip": "Entering server maintenance mode...",
+    "EnterMaintenanceTooltip": "Enter server maintenance mode...",
     "ErrCannotClosePackage": "Failed to close package. The package contains active processes that did not finish within timeout.",
     "ErrCannotCloseSession": "Failed to close session. The session contains active processes that did not finish within timeout.",
     "ErrCannotStopPackage": "Failed to stop package execution. The package contains active processes that did not finish within timeout.",
     "ErrCannotStopSession": "Failed to stop session execution. The session contains active processes that did not finish within timeout.",
     "InvalidMessageLength": "Message length limit: {0}",
     "LeaveMaintenanceMsgText": "Do you really want to leave the maintenance mode?",
-    "LeaveMaintenanceTooltip": "Leaving server maintenance mode...",
+    "LeaveMaintenanceTooltip": "Exit server maintenance mode...",
     "LeftMaintenanceMode": "Server left maintenance mode",
     "MaintenanceMessageOnLoginDefault": "The server is in maintenance mode",
     "MaintenanceMessageOnLoginLabel": "Login attempt response message:",
@@ -3167,6 +3167,7 @@
     "MsgNotConnected": "Connection is not active. Do you want to activate it now?"
   },
   "wizards/normalization/ControlRangeSettings": {
+    "ErrBounds": "Minimum more than maximum",
     "ValidateEditorsErr": "Error in value range control settings"
   },
   "wizards/normalization/DiscreteNormParamsForm": {

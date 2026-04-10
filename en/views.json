@@ -144,7 +144,7 @@
   "admin/SessionsManagerForm": {
     "btnCleanPool": {
       "text": "Clear pool",
-      "tooltip": "Clear pool of packages"
+      "tooltip": "Clear package pool"
     },
     "btnClose": {
       "text": "Close",
@@ -7481,6 +7481,9 @@
     }
   },
   "wizards/normalization/ControlRangeSettings": {
+    "btnGetRangeStatistics": {
+      "text": "Get source range"
+    },
     "btnTakeSourceRange": {
       "tooltip": "Take source range"
     },
@@ -7500,16 +7503,16 @@
     "cntRange": {
       "title": "Source Range"
     },
-    "edtFactRangeMax": {
+    "fcFactRangeMax": {
       "fieldLabel": "Maximum"
     },
-    "edtFactRangeMin": {
+    "fcFactRangeMin": {
       "fieldLabel": "Minimum"
     },
-    "edtRangeMax": {
+    "fcRangeMax": {
       "fieldLabel": "Maximum"
     },
-    "edtRangeMin": {
+    "fcRangeMin": {
       "fieldLabel": "Minimum"
     }
   },

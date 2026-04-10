@@ -17,6 +17,8 @@
     "ErrCreateGuid": "System error while creating GUID",
     "ErrGuidFormat": "Incorrect GUID format: %s ([\"N\", \"D\", \"B\", \"P\"] supported)",
     "ErrIntervalFormat": "Incorrect interval type: %s ([\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"] supported)",
+    "ErrInvalidDateFmt": "%d-%d-%d is not a valid date value",
+    "ErrInvalidTimeFmt": "%d:%d:%d is not a valid time value",
     "NumberOfIntervalsMustBePositive": "The number of intervals must be positive"
   },
   "Common/CalcFunctions/FuncDesc": {
@@ -975,18 +977,18 @@
     "VendorDescription": "Reform date\/time"
   },
   "components/duplicates/DuplicatesEngine": {
-    "Contradiction": "Contradiction",
-    "ContradictionGroup": "Contradiction group",
+    "Contradiction": "Inconsistency",
+    "ContradictionGroup": "Inconsistency group",
     "Duplicate": "Duplicate",
     "DuplicateGroup": "Duplicate group",
     "DuplicatesComponentTitle": "Duplicates: ",
-    "DuplicatesIndexingNotify": "Searching for duplicates and contradictions",
+    "DuplicatesIndexingNotify": "Searching for duplicates and inconsistencies",
     "ErrNoColumnsForProcessing": "No columns for processing specified",
     "SortingNotify": "Sorting data"
   },
   "components/duplicates/DuplicatesVendor": {
-    "VendorCaption": "Duplicates and Contradictions",
-    "VendorDesc": "Detection of duplicates and contradictions"
+    "VendorCaption": "Duplicates and Inconsistencies",
+    "VendorDesc": "Detection of duplicates and inconsistencies"
   },
   "components/elimoutlier/ElimOutlier": {
     "ElimOutlierComponentTitle": "Outliers: ",
@@ -1255,7 +1257,6 @@
     "VendorDesc": "Group data"
   },
   "components/javascript/JavaScriptEngine": {
-    "ErrPreviewWhenNotConfiguring": "Preview available only during node configuration",
     "InputDataSource": "Input data source",
     "JavaScriptComponentTitle": "JS: ",
     "JavaScriptConfigureOutputTableProcess": "Preparing output columns",
@@ -1692,7 +1693,6 @@
     "ErrCurrentDirectory": "Failed to get current directory",
     "ErrDisallowedExecution": "Python execution forbidden in security settings",
     "ErrGetNativePath": "Failed to resolve the file system path from the \"%s\" path in the file storage",
-    "ErrPreviewWhenNotConfiguring": "Preview available only during node configuration",
     "ErrPythonInProcessNotSupported": "Python execution inside the process is not supported, Python is started in the separate process.",
     "InputPortOptional": "Input port is optional",
     "OutputDataFrameExample": "Resulting output pd.DataFrame",
@@ -2333,6 +2333,7 @@
     "ErrPropSheetNumber": "Incorrect Excel worksheet index",
     "ErrSheet": "Failed to find Excel sheet",
     "ErrSuggestRange": "Excel file is not open. According to the current settings it is impossible to determine the column count for import",
+    "ErrUsedColumnDefsNotSpecified": "Fields to import not specified",
     "OpenExcelFileProcess": "Opening the file",
     "ReadDataProcess": "Reading data",
     "ReadMetadataFilesProcess": "Reading files' metadata",
@@ -2437,7 +2438,7 @@
     "ErrMultilineEofAchieved": "The text file end was reached before closing text qualifier was found. The file line number with multiline start: %d.",
     "ErrParseFmt": "Error occurred while parsing line %d: %s",
     "ErrUnsupportedCodePage": "Codepage %d not supported",
-    "ErrUsedColumnDefsNotSpecified": "Imported fields not specified",
+    "ErrUsedColumnDefsNotSpecified": "Fields to import not specified",
     "PrimaryKeyDisplayName": "<Key>",
     "ReadDataProcess": "Reading data"
   },
@@ -2535,6 +2536,7 @@
     "ErrParameterTypesDoNotMatch": "Parameter types do not match",
     "ErrPrepareProcedure": "Error preparing stored procedure \"%s\"",
     "ErrPrepareQuery": "SQL preparation error:\n%s",
+    "ErrSchemaNotSpecified": "No schema name specified",
     "ErrSetSequence": "Sequence initialization error for DB. Old Sequence = %d",
     "ErrTableNameNotSelect": "No table name specified",
     "ErrTableNotExists": "The table doesn't exist",
@@ -3043,7 +3045,8 @@
     "ErrJSONUnexpectedChar": "%s character received instead of expected %s",
     "ErrJSONUnknownValue": "Undefined JSON value",
     "ErrParserNotInited": "JSON parser not initialized",
-    "InvalidDateTimeTemplate": "Invalid datetime template \"%s\""
+    "InvalidDateTimeTemplate": "Invalid datetime template \"%s\"",
+    "InvalidEscapedUnicodeChars": "Invalid escape sequence"
   },
   "Libraries/bgrtl/LocaleUtils": {
     "ErrLocaleNotSupported": "\"%s\" locale not supported",
@@ -3872,7 +3875,8 @@
     "ErrAlreadyConfiguringSocket": "The node component is in the port configuring state",
     "ErrInvalidComponentEngineImplementation": "Invalid component engine implementation",
     "ErrModelComponentAlreadyInitialized": "The node component already initialized",
-    "ErrUnknownCouplerDefType": "Unknown type of the coupler definition"
+    "ErrUnknownCouplerDefType": "Unknown type of the coupler definition",
+    "WarnGenerateTitle": "Error generating auto-caption"
   },
   "Libraries/Model/ModelComponentCouplerDefItems": {
     "CouplerDefMetaDesc": "Coupler"
@@ -3882,6 +3886,9 @@
   },
   "Libraries/Model/ModelComponentCouplers": {
     "ErrModelElementAlreadyInitialized": "Coupler already initialized"
+  },
+  "Libraries/Model/ModelComponentEngineBase": {
+    "ErrWhenNotConfiguring": "This action is possible only when configuring the node"
   },
   "Libraries/Model/ModelComponentEngineVendor": {
     "ModelComponentEngineVendorMetaDesc": "component engine vendor"
@@ -4707,7 +4714,7 @@
     "LogSendMessageToAllUsers": "Message sent to all active users",
     "LogSendMessageToUser": "Message sent to the user",
     "NotResolvedIP": "Not available",
-    "PackagePoolNodeName": "Pool of packages",
+    "PackagePoolNodeName": "Package pool",
     "SharedPackagesNodeName": "Shared packages"
   },
   "Studio/DeductorUsers": {
@@ -5059,8 +5066,8 @@
     "ErrNotDefinedComponent": "Undefined component"
   },
   "Viewers/Duplicates/DuplicatesViewVendor": {
-    "VendorCaption": "Duplicates and Contradictions",
-    "VendorDesc": "Show duplicates and contradictions in table"
+    "VendorCaption": "Duplicates and Inconsistencies",
+    "VendorDesc": "Show duplicates and inconsistencies in table"
   },
   "Viewers/LinRegressReport/LinRegressReport": {
     "Component": "Component",

@@ -1634,7 +1634,7 @@
       "Client": "Remote session",
       "Self": "Session Manager",
       "Shared": "Shared packages",
-      "Pool": "Pool of packages",
+      "Pool": "Package pool",
       "Backup": "Backup session"
     },
     "SessionRole": {
@@ -1953,7 +1953,7 @@
       "FullColumns": "Fully filled fields",
       "FullRecords": "Fully filled records",
       "UsefulColumns": "Suitable columns",
-      "IndexEPV": "EPV index"
+      "IndexEPV": "RPV index"
     },
     "QualityViewCommonColumnType": {
       "$Caption": "Type of common column",
