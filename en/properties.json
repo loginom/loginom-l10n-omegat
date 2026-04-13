@@ -611,7 +611,7 @@
       "ValueFalse": "False",
       "ValueNull": "Null",
       "ValueTrue": "True",
-      "WriteBOM": "Add BOM"
+      "WriteBOM": "Add byte-order mark"
     }
   },
   "exports/xml": {
@@ -620,7 +620,7 @@
       "EscapeQuotes": "Escape single and double quotes",
       "EscapeTabCRLFInAttr": "Escape tabs and line breaks in attributes",
       "Prettify": "Add indents and line breaks",
-      "WriteBOM": "Write Byte Order Mark"
+      "WriteBOM": "Write byte-order mark"
     }
   },
   "imports/database": {

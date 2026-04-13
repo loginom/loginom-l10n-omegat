@@ -218,7 +218,7 @@
     "ErrNonSOAPMessage": "Non SOAP message",
     "ErrSoapBodyStyleNotRPC": "SOAP body in RPC operation does not support RPC style",
     "ErrSOAPEncodingNotSupported": "\"%s\" encoding style for %s SOAP version not supported",
-    "WarnBOMNotRecommended": "BOM (Byte order mark) addition to SOAP envelope top may cause failure of some servers (for example, Apache Xerces or Java services) to process the request"
+    "WarnBOMNotRecommended": "Adding a BOM (byte-order mark) at the begginning of a SOAP envelope may prevent some servers (for example, Apache Xerces or Java services) from processing the request"
   },
   "Common/WSDL/WSDL": {
     "ErrUnrecognizedSOAPNamespaceURI": "\"%s\" SOAP namespace not recognized"
