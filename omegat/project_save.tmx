@@ -54185,8 +54185,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Добавить BOM</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Add BOM</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T143846Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Add byte-order mark</seg>
       </tuv>
     </tu>
     <tu>
