@@ -565,7 +565,7 @@
       "WebSetting": "Settings"
     },
     "ExportExcelWebSetting": {
-      "HeadersRow": "Headers row"
+      "HeadersRow": "Header row"
     }
   },
   "exports/kafka": {
