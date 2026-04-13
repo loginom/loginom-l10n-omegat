@@ -50742,8 +50742,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Имя файла, Время модификации</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>File name, File time</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T145606Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>File name; modification time</seg>
       </tuv>
     </tu>
     <tu>
@@ -50753,8 +50753,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Относительный путь, Время модификации</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Relative path, File time</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T145616Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Relative path; modification time</seg>
       </tuv>
     </tu>
     <tu>
@@ -50764,8 +50764,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Абсолютный путь, Время модификации</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Absolute path, File time</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T145632Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Absolute path; modification time</seg>
       </tuv>
     </tu>
     <tu>
@@ -80460,8 +80460,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Время модификации</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>File time</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T145652Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Modification time</seg>
       </tuv>
     </tu>
     <tu>
