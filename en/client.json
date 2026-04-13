@@ -2939,7 +2939,7 @@
     "CodeExec": "Script execution"
   },
   "wizards/columndefs/ColumnDefsTuning": {
-    "UsableDesc": "Use"
+    "UsableDesc": "Include"
   },
   "wizards/columns/ColumnDefsMappingWizard": {
     "colDisplayNameText": "Outputs",
