@@ -1381,9 +1381,9 @@
       "Name": "File name",
       "RelativePath": "Relative path",
       "AbsolutePath": "Absolute path",
-      "NameTimeModified": "File name, File time",
-      "RelativePathTimeModified": "Relative path, File time",
-      "AbsolutePathTimeModified": "Absolute path, File time"
+      "NameTimeModified": "File name; modification time",
+      "RelativePathTimeModified": "Relative path; modification time",
+      "AbsolutePathTimeModified": "Absolute path; modification time"
     }
   },
   "Libraries/FileConnection/TextFileTypes": {

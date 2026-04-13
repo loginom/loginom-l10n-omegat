@@ -3580,7 +3580,7 @@
     "ErrFoundFileNames": "Failed to prepare file names",
     "ErrStorageIsNull": "File storage not specified",
     "FileNameDisplayName": "File name",
-    "FileTimeDisplayName": "File time"
+    "FileTimeDisplayName": "Modification time"
   },
   "Libraries/KafkaConnection/KafkaAuth": {
     "ErrFileNoAccess": "\"%s\" file unavailable",
