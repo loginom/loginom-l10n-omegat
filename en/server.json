@@ -4326,8 +4326,8 @@
   },
   "Libraries/OpenID/OpenID": {
     "InvalidTokenResponce": "Token request response is not a token-containing JSON",
-    "MissingClaim": "Token has no claim %s",
-    "TokenNotIncludeRolesClame": "Token has no list of roles with claim %s",
+    "MissingClaim": "The token does not contain the %s claim",
+    "TokenNotIncludeRolesClame": "The token does not contain the list of roles with the %s claim",
     "TokenRequestError": "Error receiving token. %s"
   },
   "Libraries/OpenID/OpenIDConfigurator": {
@@ -4645,7 +4645,7 @@
     "LogOpenIDCaption": "OpenID",
     "LogSettingsChanged": "Server parameter \"%s\" changed",
     "LogSettingsComponentChanged": "Server component parameter %s:\"%s\" changed",
-    "LogTokenClaimNone": "Token has no claim %s",
+    "LogTokenClaimNone": "The token does not contain the %s claim",
     "LogTokenClaimTypeErr": "Value of claim %s is in the wrong format",
     "NewPassAsPreviousException": "New password must not repeat the old one",
     "PackageClosedLogMsg": "\"%s\" package closed",
@@ -4739,7 +4739,7 @@
     "ErrMaxLengthPassword": "Password must be up to %d characters",
     "ErrNoUsersWithAdminPrivileges": "There are no users with admin privileges",
     "ErrOpenIDUserNotFound": "User not found",
-    "ErrTokenUserName": "Token has no username",
+    "ErrTokenUserName": "The token does not contain a username",
     "ErrUserAlreadyDeleted": "User already deleted",
     "ErrUserHasActiveSessions": "%s user has active sessions",
     "ErrUserNameConflictsWithSharedDirectory": "Username conflicts with %s shared directory name",
