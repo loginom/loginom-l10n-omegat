@@ -1063,7 +1063,7 @@
     "ContextUsageType": {
       "$Caption": "Usage Type",
       "Unspecified": "Unspecified",
-      "Useless": "Useless",
+      "Useless": "Unsupported",
       "Excluded": "Excluded",
       "Info": "Info",
       "Used": "Used",
@@ -1239,7 +1239,7 @@
       "$Caption": "Usage Type",
       "Unspecified": "Unspecified",
       "Excluded": "Excluded",
-      "Useless": "Useless",
+      "Useless": "Unsupported",
       "Active": "Active",
       "Predicted": "Output",
       "Key": "Key",
