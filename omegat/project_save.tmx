@@ -86410,8 +86410,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Токен не содержит клейм %s</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260413T173334Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>The token doesn't contain the %s claim</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T173436Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>The token does not contain the %s claim</seg>
       </tuv>
     </tu>
     <tu>
@@ -89246,8 +89246,8 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Токен не содержит клейм %s</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Token has no claim %s</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T173512Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>The token does not contain the %s claim</seg>
       </tuv>
     </tu>
     <tu>
@@ -90302,8 +90302,8 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Токен не содержит имя пользователя</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Token has no username</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T173550Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>The token does not contain a username</seg>
       </tuv>
     </tu>
     <tu>
