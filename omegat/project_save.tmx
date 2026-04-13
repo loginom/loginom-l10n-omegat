@@ -53811,8 +53811,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Строка заголовков</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Headers row</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T171045Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Header row</seg>
       </tuv>
     </tu>
     <tu>
