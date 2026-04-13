@@ -86410,8 +86410,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Токен не содержит клейм %s</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Token has no claim %s</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T173334Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>The token doesn't contain the %s claim</seg>
       </tuv>
     </tu>
     <tu>
@@ -86421,8 +86421,8 @@ Reason: %s</seg>
       <tuv lang="ru">
         <seg>Токен не содержит списка ролей с клеймом %s</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Token has no list of roles with claim %s</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T173417Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>The token does not contain the list of roles with the %s claim</seg>
       </tuv>
     </tu>
     <tu>
