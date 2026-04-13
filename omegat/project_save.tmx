@@ -66604,8 +66604,8 @@ Result:
       <tuv lang="ru">
         <seg>Добавление BOM (Byte order mark) в начало SOAP-конверта может привести к неспособности некоторых серверов (например, Apache Xerces или Java-служб) обработать запрос</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>BOM (Byte order mark) addition to SOAP envelope top may cause failure of some servers (for example, Apache Xerces or Java services) to process the request</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260413T144245Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Adding a BOM (byte-order mark) at the begginning of a SOAP envelope may prevent some servers (for example, Apache Xerces or Java services) from processing the request</seg>
       </tuv>
     </tu>
     <tu>
