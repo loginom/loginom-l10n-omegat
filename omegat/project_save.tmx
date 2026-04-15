@@ -52227,8 +52227,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Строгое соответствие структуры</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Strong structure match</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260415T174820Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Strict structure compliance</seg>
       </tuv>
     </tu>
     <tu>
