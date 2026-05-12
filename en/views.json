@@ -2536,17 +2536,17 @@
       "tooltip": "Add Filter"
     },
     "btnAddOR": {
-      "text": "Добавить оператор ИЛИ",
-      "tooltip": "Добавить оператор ИЛИ"
+      "text": "Add OR Operator",
+      "tooltip": "Add OR operator"
     },
     "btnClone": {
       "tooltip": "Clone"
     },
     "btnMoveDown": {
-      "tooltip": "Переместить вниз"
+      "tooltip": "Move Down"
     },
     "btnMoveUp": {
-      "tooltip": "Переместить вверх"
+      "tooltip": "Move Up"
     },
     "colAggregation": {
       "text": "Aggregation"

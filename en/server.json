@@ -2224,7 +2224,7 @@
     "ErrExtensionNotSupported": "\"%s\" extension is not a correct extension of Tableau Extract file",
     "ErrExtractSDKNotFound": "Tableau Extract SDK not installed",
     "ErrFilePath": "Failed to get path to file",
-    "ErrFillTable": "Failed to complete the %s tables",
+    "ErrFillTable": "Failed to complete the %s table",
     "ErrHyperExtractSDKNotFound": "Tableau Extract API 2.0 SDK not installed",
     "ErrHyperNotSupportedInWin32": "\"*.hyper\" data format supported only in 64-bit software version",
     "ErrMissingServerConnection": "No connection with Tableau server",

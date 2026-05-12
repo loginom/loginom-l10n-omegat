@@ -188,7 +188,7 @@
       "CaseSensitive": "Case-sensitive",
       "CompareValue": "Compared value",
       "FieldLink": "Compared field",
-      "RelationType": "Тип отношения"
+      "RelationType": "Relation type"
     }
   },
   "components/crosstab": {
