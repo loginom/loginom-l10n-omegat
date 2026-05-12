@@ -58858,6 +58858,9 @@ Relation type</note>
       <tuv lang="ru">
         <seg>Тип отношения</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T131541Z">
+        <seg>Relation type</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -69132,8 +69135,8 @@ Failed to complete the %s table</note>
       <tuv lang="ru">
         <seg>Не удалось заполнить таблицу %s</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260512T121416Z">
-        <seg>Failed to complete the %s tables</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T131841Z">
+        <seg>Failed to complete the %s table</seg>
       </tuv>
     </tu>
     <tu>
@@ -130944,6 +130947,9 @@ Add OR operator</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T131232Z">
+        <seg>Add OR Operator</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -130954,6 +130960,9 @@ Add OR Operator
 Add OR operator</note>
       <tuv lang="ru">
         <seg>Добавить оператор ИЛИ</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T131244Z">
+        <seg>Add OR operator</seg>
       </tuv>
     </tu>
     <tu>
@@ -130977,6 +130986,9 @@ Move Down</note>
       <tuv lang="ru">
         <seg>Переместить вниз</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T131154Z">
+        <seg>Move Down</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -130987,6 +130999,9 @@ Move up
 Move Up</note>
       <tuv lang="ru">
         <seg>Переместить вверх</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T131201Z">
+        <seg>Move Up</seg>
       </tuv>
     </tu>
     <tu>
