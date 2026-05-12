@@ -7910,6 +7910,9 @@ XLS (html)</note>
       <tuv lang="ru">
         <seg>XLSX</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T120929Z">
+        <seg>XLSX</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -49539,6 +49542,9 @@ XLS</note>
       <tuv lang="ru">
         <seg>XLSX</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T121046Z">
+        <seg>XLSX</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -64714,6 +64720,9 @@ Arguments:
       <tuv lang="ru">
         <seg>%d:%d:%d.%d не является допустимым значением времени</seg>
       </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T121236Z">
+        <seg>%d:%d:%d.%d is not a valid time value</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -69122,6 +69131,9 @@ Result:
 Failed to complete the %s table</note>
       <tuv lang="ru">
         <seg>Не удалось заполнить таблицу %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20260512T121416Z">
+        <seg>Failed to complete the %s tables</seg>
       </tuv>
     </tu>
     <tu>
