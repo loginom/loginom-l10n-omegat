@@ -18,7 +18,7 @@
     "ErrGuidFormat": "Incorrect GUID format: %s ([\"N\", \"D\", \"B\", \"P\"] supported)",
     "ErrIntervalFormat": "Incorrect interval type: %s ([\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"] supported)",
     "ErrInvalidDateFmt": "%d-%d-%d is not a valid date value",
-    "ErrInvalidTimeFmt": "%d:%d:%d.%d не является допустимым значением времени",
+    "ErrInvalidTimeFmt": "%d:%d:%d.%d is not a valid time value",
     "NumberOfIntervalsMustBePositive": "The number of intervals must be positive"
   },
   "Common/CalcFunctions/FuncDesc": {
@@ -2224,7 +2224,7 @@
     "ErrExtensionNotSupported": "\"%s\" extension is not a correct extension of Tableau Extract file",
     "ErrExtractSDKNotFound": "Tableau Extract SDK not installed",
     "ErrFilePath": "Failed to get path to file",
-    "ErrFillTable": "Не удалось заполнить таблицу %s",
+    "ErrFillTable": "Failed to complete the %s tables",
     "ErrHyperExtractSDKNotFound": "Tableau Extract API 2.0 SDK not installed",
     "ErrHyperNotSupportedInWin32": "\"*.hyper\" data format supported only in 64-bit software version",
     "ErrMissingServerConnection": "No connection with Tableau server",
