@@ -18,7 +18,7 @@
     "ErrGuidFormat": "Некорректный формат GUID: %s (поддерживаются [\"N\",\"D\",\"B\",\"P\"])",
     "ErrIntervalFormat": "Некорректный тип интервала: %s (поддерживается [\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"])",
     "ErrInvalidDateFmt": "%d-%d-%d не является допустимым значением даты",
-    "ErrInvalidTimeFmt": "%d:%d:%d не является допустимым значением времени",
+    "ErrInvalidTimeFmt": "%d:%d:%d.%d не является допустимым значением времени",
     "NumberOfIntervalsMustBePositive": "Число интервалов должно быть положительным"
   },
   "Common/CalcFunctions/FuncDesc": {
@@ -2137,7 +2137,7 @@
     "ErrExecQuery": "Ошибка при выполнении запроса к базе данных.",
     "ErrFieldForDeleteNotSelected": "Не указано ни одного поля, по которому необходимо удалить данные",
     "ErrFieldForUpdateNotSelected": "Не указано ни одного поля, которое необходимо обновить",
-    "ErrFillTable": "Заполнить таблицу \"%s\" не удалось",
+    "ErrFillTable": "Не удалось заполнить таблицу %s",
     "ErrKeyFieldForUpdateNotSelected": "Не указано ни одного ключевого поля, по которому необходимо обновить данные",
     "ErrMsgDisplayName": "Сообщение об ошибке",
     "ErrNotConnectedToDatabase": "Не установлено соединение с базой данных",
@@ -2224,7 +2224,7 @@
     "ErrExtensionNotSupported": "Расширение \"%s\" не является правильным расширением файла Tableau Extract",
     "ErrExtractSDKNotFound": "Tableau Extract SDK не установлено",
     "ErrFilePath": "Не удалось получить путь к файлу",
-    "ErrFillTable": "Заполнить таблицу \"%s\" не удалось",
+    "ErrFillTable": "Не удалось заполнить таблицу %s",
     "ErrHyperExtractSDKNotFound": "Tableau Extract API 2.0 SDK не установлено",
     "ErrHyperNotSupportedInWin32": "Формат данных \"*.hyper\" поддерживается только в 64-битной версии программы",
     "ErrMissingServerConnection": "Отсутствует подключение к серверу Tableau",
@@ -3604,7 +3604,8 @@
     "LogErrKafkaCallBackFmt": "Ошибка Kafka: \"%s\", причина: \"%s\""
   },
   "Libraries/LDAP/LDAPConfigurator": {
-    "Account": "Пользователь",
+    "Account": "Служебная учётная запись: логин/DN",
+    "AccountAuth": "Служебная учётная запись: аутентификация",
     "BaseDN": "База",
     "ConnectionSecurity": "Безопасность соединения",
     "DefaultUserRole": "Роль нового пользователя",
@@ -3613,7 +3614,7 @@
     "Host": "Хост",
     "NameAttribute": "Атрибут имени",
     "NoCheckCertificate": "Не проверять сертификат сервера",
-    "Password": "Пароль",
+    "Password": "Служебная учётная запись: пароль",
     "Port": "Порт",
     "UseSASL": "Использовать SASL"
   },
@@ -3825,6 +3826,9 @@
     "ErrCannotDeleteDerivedConnections": "Удаление производных подключений невозможно",
     "ErrCannotDeleteDerivedSocket": "Удаление производных портов невозможно",
     "ErrCannotDeleteDerivedVendors": "Удаление производных компонентов невозможно"
+  },
+  "Libraries/Model/FilterNodeCreator": {
+    "ErrFilterDataVendorNotCreated": "В текущем контексте нельзя создать компонент фильтрации данных"
   },
   "Libraries/Model/Generic/ModelGenericComponent": {
     "ErrInputSocketDefsEmptyName": "Не задано имя следующих входов: ",
@@ -4059,7 +4063,6 @@
     "ErrInactiveBranch": "Узел \"%s\" находится в неактивной ветви условия",
     "ErrInvalidModelCriticalSectionCookie": "Некорректный Cookie блокировки критической секции сценария",
     "ErrInvalidModelLockCookie": "Некорректный Cookie блокировки узлов сценария",
-    "ErrInvalidModelLockCookieOwner": "Некорректный владелец Cookie блокировки узлов сценария",
     "ErrModelHasLockedNodes": "Сценарий содержит %d заблокированных узлов",
     "ErrModelNodeAlreadyInitialized": "Узел уже проинициализирован",
     "ErrMultipleVariablesFound": "Обнаружено несколько переменных с именем \"%s\"",
@@ -4327,6 +4330,7 @@
   "Libraries/OpenID/OpenID": {
     "InvalidTokenResponce": "При запросе токена ответ не является JSON который содержит токен",
     "MissingClaim": "Токен не содержит клейм %s",
+    "MissingUserInfo": "Информация о пользователе не содержит свойство %s",
     "TokenNotIncludeRolesClame": "Токен не содержит списка ролей с клеймом %s",
     "TokenRequestError": "Ошибка получения токена. %s"
   },
@@ -4346,10 +4350,12 @@
     "ResponseMode": "Формат ответа на запрос аутентификации",
     "RolesClaim": "Клейм списка ролей",
     "TokenEndpoint": "URL запроса токена",
+    "UpdateUserName": "Обновлять полное имя пользователя",
     "UpdateUserRole": "Обновлять роль пользователя",
     "UserFullNameClaim": "Клейм полного имени пользователя в токене",
     "UserInfoEndpoint": "URL запроса информации о пользователе",
     "UserNameClaim": "Клейм имени пользователя в токене",
+    "UserNameFromToken": "Получение имени пользователя из токена",
     "UserRoleNameMap": "Список имен ролей для сопоставления ролям пользователя"
   },
   "Libraries/Optimization/Optimization": {
@@ -4475,6 +4481,9 @@
     "ErrUnknownInterfaceName": "Интерфейс %s не зарегистрирован",
     "ErrUnsupportedParameterType": "Не поддерживаемый тип аргумента"
   },
+  "Libraries/rpc/RemoteServer": {
+    "BindError": "Ошибка привязки к %s:%s (%s)."
+  },
   "Libraries/rpc/RemotingConvertUtils": {
     "ErrValueOutOfRange": "Значение %d не принадлежит диапазону допустимых значений типа %s"
   },
@@ -4487,6 +4496,7 @@
   },
   "Libraries/rpc/Session": {
     "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: %d секунд",
+    "DisconnectedSessionRecovered": "Сессия с разрывом связи восстановлена",
     "ErrAccessDenied": "Отказано в доступе",
     "ErrCannotAddSessionToClosingSessionHost": "Невозможно добавить новую сессию во время финализации SessionHost",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Уже зарегистрирован другой обработчик исключений RPC",
@@ -4504,7 +4514,13 @@
     "ErrSessionIsLocked": "Операция не может быть выполнена, так как сессия заблокирована",
     "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: %d",
     "ErrValueOutOfRange": "Значение %d не принадлежит допустимому диапазону значений [%d, %d]",
-    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: %d секунд"
+    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: %d секунд",
+    "KeepAliveTimedOut": "Сессия закрыта по тайм-ауту после разрыва связи: %d секунд",
+    "KeepAliveTimeoutStarted": "Сессия сохранена после обнаруженного разрыва связи",
+    "NetworkErrorDetected": "Обнаружен разрыв связи"
+  },
+  "Libraries/rpc/TCPRemoteServer": {
+    "UnixSocketError": "Ошибка при создании UNIX-сокета \"%s\" (%s)."
   },
   "Libraries/rpc/WebSocketMessageTransport": {
     "ConnectionClosedUnansweredPing": "Подключение через WebSocket было закрыто из-за того, что не получен ответ на сообщение Ping"
@@ -4530,6 +4546,13 @@
   "Libraries/WSDLClientConnection/WSDLClientConnectionVendor": {
     "WSDLClientConnectionVendorCaption": "SOAP-сервис",
     "WSDLClientConnectionVendorDesc": "Подключение к SOAP-сервису, заданному документом WSDL"
+  },
+  "Libraries/XLSXExport/XLSXFormatting": {
+    "ErrFontSizeLargerThanMax": "Размер шрифта больше максимально разрешённого значения %d",
+    "ErrFontSizeLesserThanMin": "Размер шрифта меньше минимально разрешённого значения %d"
+  },
+  "Libraries/XLSXExport/XLSXGenerate": {
+    "Sheet1Name": "Лист1"
   },
   "Libraries/XSDFilesConnection/XSDFilesConnection": {
     "ErrLoadXSD": "Ошибка при загрузке XSD-файлов"
@@ -4657,6 +4680,14 @@
     "PublishedPackageRemoved": "Завершена публикация пакета \"%s\"",
     "PublishedPackagesAutoUpdate": "Выполнено автоматическое обновление публикации пакетов",
     "PublishedPackageUpdated": "Обновлена публикация пакета \"%s\"",
+    "ReconnectAuthFail": "Ошибка в аутентификации пользователя \"%s\" при восстановлении сессии",
+    "ReconnectAuthRequest": "Отказ в восстановлении сессии без аутентификации",
+    "ReconnectBlockedSession": "Запрос на аутентификацию для восстановления заблокированной сессии",
+    "ReconnectChangedIP": "Попытка восстановить сессию с другого IP адреса",
+    "ReconnectSessionNotFound": "Сессия для восстановления не найдена",
+    "ReconnectSuccess": "Подключение к восстановленной сессии %s",
+    "ReconnectSuccessAuth": "Подключение к восстановленной сессии %s после успешной аутентификации",
+    "ReconnectWrongUser": "Попытка восстановить сессию с другого пользователя",
     "ServerIsInMaintenance": "Сервер находится в режиме обслуживания",
     "ServerStartLogMsg": "%s запущен",
     "ServerStopLogMsg": "%s остановлен",
@@ -4665,6 +4696,7 @@
     "SessionInitializedLogMsg": "Инициализирована сессия для пользователя %s",
     "SessionIntegrator": "Запрос из интегратора",
     "SessionInteractive": "Интерактивная сессия",
+    "SessionReconnectRequestLogMsg": "Получен запрос на восстановление связи с сессией",
     "UnsavedPackageClosedLogMsg": "Закрыт черновик пакета",
     "UnsavedPackageCreatedLogMsg": "Создан черновик пакета",
     "WarnClosePackageFailed": "Не удалось закрыть пакет %s из диспетчера, возможно, сессия уже закрыта",
@@ -4691,10 +4723,13 @@
     "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
     "PackagePoolSize": "Размер пула пакетов",
     "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
+    "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
     "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
     "RAMLimitKB": "Максимум используемой памяти (КБ)",
     "RAMLimitRatio": "Доля используемой памяти",
+    "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
     "SessionBackupDirectory": "Резервные копии сессий",
+    "SessionKeepAlive": "Время жизни сессии после разрыва",
     "StopTimeout": "Тайм-аут остановки сервера",
     "ThreadPoolSize": "Размер пула потоков",
     "TraceExceptions": "Трассировка исключений",
@@ -4739,12 +4774,13 @@
     "ErrMaxLengthPassword": "Пароль должен содержать максимум %d символов",
     "ErrNoUsersWithAdminPrivileges": "Не существует ни одного пользователя с правами администратора",
     "ErrOpenIDUserNotFound": "Пользователь не найден",
-    "ErrTokenUserName": "Токен не содержит имя пользователя",
+    "ErrTokenUserName": "Не удалось получить имя пользователя",
     "ErrUserAlreadyDeleted": "Пользователь уже удалён",
     "ErrUserHasActiveSessions": "У пользователя %s есть активные сессии",
     "ErrUserNameConflictsWithSharedDirectory": "Имя пользователя не может совпадать с именем общей директории %s",
     "ErrUserNameIsReserved": "Идентификатор %s зарезервирован и не может быть использован в качестве имени пользователя",
     "ErrUserNameMustBeValid": "Имя пользователя может состоять из латинских букв, цифр, символов _ - . и пробела,\nно не может заканчиваться точкой или пробелом.",
+    "ErrWrongAuthMode": "Изменение пароля допустимо только при локальной аутентификации",
     "ExternName": "Системный пользователь",
     "GroupEveryone": "Все",
     "IsAdmin": "Администратор",
@@ -4803,6 +4839,8 @@
     "WSDLClientConnection": "Подключение к SOAP-сервису"
   },
   "Studio/Scheduler": {
+    "ClaimName": "Имя клейма",
+    "ClaimValue": "Значение клейма",
     "ErrCannotStartDisabledJob": "Выполнение задачи \"%s\" запрещено",
     "ErrHistoryCountMustNotBeNegative": "Количество записей в истории не должно быть отрицательным",
     "ErrInvalidExceptionInfoFormat": "Информация об исключении имеет некорректный формат",
@@ -5237,6 +5275,7 @@
     "MsgGroupDeleteDimProcess": "Подготовка к удалению. Группировка данных по измерению.",
     "MsgLoadDataDimensionProcess": "Загрузка данных Измерения в Хранилище данных",
     "MsgLoadDataProcess": "Загрузка данных Процесса в Хранилище данных",
+    "MsgPrepareDimDataProcess": "Подготовка измерений перед загрузкой в Хранилище данных",
     "MsgRecordSkipDimValueIsNull": "Данные строки \"%d\" не добавлены в ХД. Значение измерения \"%s\" [%s] пустое.",
     "MsgStatisticsGatheringProcess": "Сбор статистики"
   },

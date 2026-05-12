@@ -184,9 +184,11 @@
       "Condition": "Условие"
     },
     "ConditionItem": {
+      "AggregationType": "Функция агрегации",
       "CaseSensitive": "Учитывать регистр",
       "CompareValue": "Сравниваемое значение",
-      "FieldLink": "Сравниваемое поле"
+      "FieldLink": "Сравниваемое поле",
+      "RelationType": "Тип отношения"
     }
   },
   "components/crosstab": {
@@ -560,7 +562,10 @@
   },
   "exports/excelfile": {
     "ExportExcelFile": {
+      "DecimalCount": "Знаков после запятой",
+      "DivideThousands": "Разделять тысячи",
       "FileType": "Тип файла Excel",
+      "FloatFormat": "Формат вещественных значений",
       "SheetName": "Имя листа",
       "WebSetting": "Настройки"
     },
@@ -924,7 +929,8 @@
   },
   "Libraries/LDAP/LDAP": {
     "LDAPConfigurator": {
-      "Account": "Учетная запись",
+      "Account": "Служебная учётная запись: логин/DN",
+      "AccountAuth": "Служебная учётная запись: аутентификация",
       "BaseDN": "Базовый домен",
       "ConnectionSecurity": "Безопасность соединения",
       "DefaultUserRole": "Роль нового пользователя",
@@ -933,7 +939,7 @@
       "Host": "Хост",
       "NameAttribute": "Атрибут имени",
       "NoCheckCertificate": "Не проверять сертификат сервера",
-      "Password": "Пароль",
+      "Password": "Служебная учётная запись: пароль",
       "Port": "Порт",
       "UseSASL": "Использовать SASL"
     }
@@ -984,10 +990,12 @@
       "ResponseMode": "Формат ответа",
       "RolesClaim": "Клейм списка ролей пользователя",
       "TokenEndpoint": "URL запроса токена",
+      "UpdateUserName": "Обновлять полное имя пользователя",
       "UpdateUserRole": "Обновлять роль пользователя",
       "UserFullNameClaim": "Клейм полного имени пользователя",
       "UserInfoEndpoint": "URL запроса информации о пользователе",
       "UserNameClaim": "Клейм имени пользователя",
+      "UserNameFromToken": "Получение имени пользователя из токена",
       "UserRoleNameMap": "Список ролей"
     }
   },
@@ -1082,10 +1090,13 @@
       "MaxSchedulerHistoryDays": "Хранение истории планировщика (дней)",
       "PackagePoolSize": "Размер пула пакетов",
       "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
+      "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
       "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов",
       "RAMLimitKB": "Максимум используемой памяти (КБ)",
       "RAMLimitRatio": "Доля используемой памяти",
+      "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
       "SessionBackupDirectory": "Директория, содержащая резервные копии сессий",
+      "SessionKeepAlive": "Время жизни сессии после разрыва",
       "StopTimeout": "Тайм-аут остановки сервера",
       "ThreadPoolSize": "Размер пула потоков",
       "TraceExceptions": "Трассировка исключений",

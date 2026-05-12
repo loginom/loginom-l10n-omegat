@@ -53,6 +53,7 @@
   },
   "Net/Session": {
     "ConnectionTimedOut": "Соединение закрыто по тайм-ауту неактивности: {0} секунд",
+    "DisconnectedSessionRecovered": "Сессия с разрывом связи восстановлена",
     "ErrAccessDenied": "Отказано в доступе",
     "ErrCannotAddSessionToClosingSessionHost": "Невозможно добавить новую сессию во время финализации SessionHost",
     "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Уже зарегистрирован другой обработчик исключений RPC",
@@ -68,7 +69,10 @@
     "ErrRpcVersionMismatch": "Клиент версии {0} не может подключиться к серверу версии {1}",
     "ErrSessionIsLocked": "Операция не может быть выполнена, так как сессия заблокирована",
     "ErrUnknownInterfaceID": "Неизвестный идентификатор интерфейса: {0}",
-    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: {0} секунд"
+    "IdleLockTimeOut": "Сессия заблокирована по тайм-ауту неактивности: {0} секунд",
+    "KeepAliveTimedOut": "Сессия закрыта по тайм-ауту после разрыва связи: {0} секунд",
+    "KeepAliveTimeoutStarted": "Сессия сохранена после обнаруженного разрыва связи",
+    "NetworkErrorDetected": "Обнаружен разрыв связи"
   },
   "Net/SessionThreaded": {
     "ErrIncorrectMainServerObjectInterfaceID": "Получен некорректный идентификатор интерфейса главного серверного объекта",
@@ -86,6 +90,8 @@
   },
   "Net/WebSocketMessageTransport": {
     "ErrConnectionClosed": "Удаленный компьютер закрыл соединение",
+    "ErrConnectionError": "Соединение через веб-сокет закрыто с ошибкой",
+    "ErrConnectionFailed": "Обрыв связи",
     "ErrFailedToConnectWebSocket": "Не удалось подключиться к веб-сокету по адресу {0}"
   }
 }

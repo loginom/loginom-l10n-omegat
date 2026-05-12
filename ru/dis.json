@@ -1,4 +1,7 @@
 {
+  "Integrator/McpServerGenerator": {
+    "ErrDuplicateToolNames": "MCP tool с именем {0} уже существует"
+  },
   "Integrator/Program": {
     "ErrInitializationException": "При инициализации сервиса возникло исключение",
     "StartingService": "Запуск сервиса, версия: {0}",

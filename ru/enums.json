@@ -814,6 +814,11 @@
       "AsName": "Имена полей",
       "AsDisplayName": "Метки полей"
     },
+    "ExcelFloatFormat": {
+      "$Caption": "Формат вещественных значений",
+      "General": "Общий",
+      "Number": "Числовой"
+    },
     "ExcelHeadersRow": {
       "$Caption": "Заголовки столбцов",
       "IncludeHeadersRow": "Первая строка является заголовком",
@@ -1170,7 +1175,7 @@
     },
     "GridExportFormat": {
       "$Caption": "Формат экспорта табличных данных",
-      "Excel": "XLS",
+      "Excel": "XLSX",
       "HTML": "HTML"
     },
     "HAlignment": {
@@ -1415,6 +1420,12 @@
     }
   },
   "Libraries/LDAP/LDAP": {
+    "LDAPAuthMethod": {
+      "$Caption": "Метод аутентификации",
+      "Simple": "Простая",
+      "SASLDigestMD5": "SASL DIGEST-MD5",
+      "SASLGSSAPI": "SASL GSSAPI"
+    },
     "LDAPConnectionSecurity": {
       "$Caption": "Безопасность соединения",
       "Simple": "Обычное соединение",
@@ -1618,6 +1629,17 @@
       "QueryString": "Строка запроса",
       "AddSegments": "Добавление сегментов",
       "Replacement": "Замена"
+    }
+  },
+  "Studio/DeductorServer": {
+    "ReconnectResult": {
+      "$Caption": "Результат подключения к сессии",
+      "Success": "Сессия восстановлена",
+      "NotFound": "Сессия не найдена",
+      "ChangedIP": "Нельзя зайти с другого IP",
+      "RequireAuth": "Требуется аутентификация",
+      "WrongUser": "Пользователь не владеет сессией",
+      "AuthFail": "Ошибка аутентификации"
     }
   },
   "Studio/DeductorServerSettings": {
@@ -1908,12 +1930,9 @@
       "Value": "Значение",
       "PercentByRow": "Процент по горизонтали",
       "PercentByCol": "Процент по вертикали",
-      "RankByRow": "Ранг по горизонтали",
-      "RankByCol": "Ранг по вертикали",
-      "CompareWithPrevByRow": "Отличие от предыдущего по горизонтали",
-      "CompareWithPrevByCol": "Отличие от предыдущего по вертикали",
-      "CumulativeSumByRow": "Накапливающаяся сумма по горизонтали",
-      "CumulativeSumByCol": "Накапливающаяся сумма по вертикали"
+      "PercentByRowParent": "Процент от родителя по горизонтали",
+      "PercentByColParent": "Процент от родителя по вертикали",
+      "PercentByGrandTotal": "Процент от общего итога"
     }
   },
   "Viewers/DataQuality/QualityViewHistogram": {
@@ -1953,7 +1972,7 @@
       "FullColumns": "Заполненных полей",
       "FullRecords": "Полных записей",
       "UsefulColumns": "Пригодных столбцов",
-      "IndexEPV": "Индекс RPV"
+      "IndexRPV": "Индекс RPV"
     },
     "QualityViewCommonColumnType": {
       "$Caption": "Тип общей колонки",

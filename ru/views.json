@@ -131,6 +131,10 @@
       "text": "Сохранить",
       "tooltip": "Сохранить"
     },
+    "btnSearch": {
+      "text": "Поиск",
+      "tooltip": "Найти параметр по имени или значению"
+    },
     "colCategory": {
       "text": "Категория"
     },
@@ -387,6 +391,9 @@
     },
     "btnAppearance": {
       "text": "Внешний вид"
+    },
+    "btnChangePassword": {
+      "text": "Изменить пароль"
     },
     "btnHelp": {
       "text": "Справка"
@@ -659,6 +666,9 @@
     "btnAddSchedulerJobByNode": {
       "tooltip": "Добавить задачу в планировщик..."
     },
+    "btnAddToFavorites": {
+      "tooltip": "Добавить в избранное"
+    },
     "btnClosePackage": {
       "tooltip": "Закрыть пакет"
     },
@@ -686,6 +696,12 @@
     "btnPublishPackage": {
       "tooltip": "Опубликовать..."
     },
+    "btnRemoveAllFromFavorites": {
+      "tooltip": "Очистить избранное..."
+    },
+    "btnRemoveFromFavorites": {
+      "tooltip": "Убрать из избранного"
+    },
     "btnRemoveNode": {
       "tooltip": "Удалить узел..."
     },
@@ -695,8 +711,20 @@
     "btnShow": {
       "tooltip": "Перейти"
     },
+    "btnShowBaseNode": {
+      "tooltip": "Перейти к базовому узлу"
+    },
+    "btnShowFavSource": {
+      "tooltip": "Перейти"
+    },
     "btnShowInPublished": {
       "tooltip": "Показать в веб-сервисах"
+    },
+    "btnShowPackage": {
+      "tooltip": "Открыть пакет"
+    },
+    "btnShowReferenceSource": {
+      "tooltip": "Перейти к источнику ссылки"
     },
     "btnShowViews": {
       "tooltip": "Показать визуализаторы"
@@ -769,7 +797,7 @@
       "tooltip": "Удалить выбранное..."
     },
     "btnRetrain": {
-      "tooltip": "Переобучить узел"
+      "tooltip": "Обучить узел"
     },
     "btnSettingComponents": {
       "tooltip": "Настроить панель"
@@ -1205,6 +1233,9 @@
     "cbxPackage": {
       "fieldLabel": "Пакет"
     },
+    "chbPublishMcpServer": {
+      "boxLabel": "Публиковать MCP сервер"
+    },
     "chbRefreshOnSave": {
       "boxLabel": "Обновлять публикацию при сохранении пакета"
     },
@@ -1256,6 +1287,9 @@
     },
     "colLabel": {
       "text": "Путь / Метка"
+    },
+    "colMcp": {
+      "text": "MCP"
     },
     "colName": {
       "text": "Имя"
@@ -1399,6 +1433,10 @@
       "text": "Выбрать из пакета",
       "tooltip": "Выбрать из пакета..."
     },
+    "btnViewOpenIDVariables": {
+      "text": "OpenID",
+      "tooltip": "Просмотр OpenID переменных..."
+    },
     "cbxDeactivateUpstreamOnCompletion": {
       "fieldLabel": "Деактивация групп узлов по завершении"
     },
@@ -1534,6 +1572,17 @@
     },
     "pnlWeek": {
       "title": "Дни недели"
+    }
+  },
+  "app/scheduler/JobTokenVariablesEditor": {
+    "btnRefresh": {
+      "text": "Обновить список переменных"
+    },
+    "colName": {
+      "text": "Переменная"
+    },
+    "colValue": {
+      "text": "Значение"
     }
   },
   "app/scheduler/JobVariableEditor": {
@@ -2433,9 +2482,6 @@
     "cbxDebugCondition": {
       "fieldLabel": "Выполнять ветвь условия"
     },
-    "cntConditions": {
-      "title": "Условие"
-    },
     "colBranch": {
       "text": "Список ветвей условия"
     },
@@ -2482,6 +2528,58 @@
     },
     "frmConditionSocketsWizard": {
       "title": "Настройка списка портов"
+    }
+  },
+  "components/condition/ConditionsView": {
+    "btnAdd": {
+      "text": "Добавить",
+      "tooltip": "Добавить условие"
+    },
+    "btnAddOR": {
+      "text": "Добавить оператор ИЛИ",
+      "tooltip": "Добавить оператор ИЛИ"
+    },
+    "btnClone": {
+      "tooltip": "Клонировать"
+    },
+    "btnMoveDown": {
+      "tooltip": "Переместить вниз"
+    },
+    "btnMoveUp": {
+      "tooltip": "Переместить вверх"
+    },
+    "colAggregation": {
+      "text": "Агрегация"
+    },
+    "colCaseSensitive": {
+      "text": "Регистр"
+    },
+    "colCompareValue": {
+      "text": "Значение"
+    },
+    "colDelete": {
+      "tooltip": "Удалить все..."
+    },
+    "colDelete.0": {
+      "tooltip": "Удалить"
+    },
+    "colField": {
+      "text": "Поле"
+    },
+    "colRelationType": {
+      "text": "Отношение"
+    },
+    "mniAddORAfter": {
+      "text": "Добавить оператор ИЛИ ниже"
+    },
+    "mniAddORBefore": {
+      "text": "Добавить оператор ИЛИ выше"
+    },
+    "mniDelete": {
+      "text": "Удалить"
+    },
+    "mniDeleteAll": {
+      "text": "Удалить все..."
     }
   },
   "components/corranalysis/CorrAnalysisWizard": {
@@ -2774,6 +2872,10 @@
     },
     "btnClone": {
       "tooltip": "Клонировать"
+    },
+    "btnCreateFilterNode": {
+      "text": "Создать узел \"Фильтр строк\"",
+      "tooltip": "Создать узел \"Фильтр строк\" на основе текущего фильтра..."
     },
     "btnMoveDown": {
       "tooltip": "Переместить вниз"
@@ -4267,6 +4369,10 @@
       "text": "Добавить задачу в планировщик...",
       "tooltip": "Добавить задачу в планировщик..."
     },
+    "btnAddToFavorites": {
+      "text": "Добавить в избранное",
+      "tooltip": "Добавить в избранное"
+    },
     "btnCopy": {
       "text": "Копировать",
       "tooltip": "Копировать"
@@ -4362,46 +4468,6 @@
     "mniExtractInFolder": {
       "text": "Распаковать в папке",
       "tooltip": "Распаковать в папке"
-    }
-  },
-  "filtersview/FilterItem": {
-    "btnApplyItemSettings": {
-      "text": "OK"
-    },
-    "btnCancelEdit": {
-      "text": "Отмена"
-    },
-    "btnConcatenation": {
-      "text": "ИЛИ"
-    },
-    "cbbAggregation": {
-      "fieldLabel": "Агрегация"
-    },
-    "cbbField": {
-      "fieldLabel": "Поле"
-    },
-    "cbbRelationType": {
-      "fieldLabel": "Условие"
-    },
-    "pnlBaseDate": {
-      "title": "Точка отсчета"
-    },
-    "rbCurrent": {
-      "boxLabel": "Текущая дата"
-    },
-    "rbCustom": {
-      "boxLabel": "Дата"
-    },
-    "rbData": {
-      "boxLabel": "Имеющиеся данные"
-    },
-    "tagValueList": {
-      "fieldLabel": "Список"
-    }
-  },
-  "filtersview/FiltersView": {
-    "btnDeleteAll": {
-      "text": "Удалить все условия"
     }
   },
   "homepage/Banner": {
@@ -4944,10 +5010,13 @@
       "fieldLabel": "Старый пароль"
     },
     "frmChangePassword": {
-      "title": "Требуется изменить пароль"
+      "title": "Изменение пароля"
     }
   },
   "login/Login": {
+    "btnCloseSession": {
+      "text": "Закрыть сессию"
+    },
     "btnFastStart": {
       "href": "https://loginom.ru/platform/quick-start/",
       "text": "Быстрый старт"
@@ -4978,6 +5047,9 @@
     },
     "edtUsername": {
       "emptyText": "Логин"
+    },
+    "lblReconnect": {
+      "text": "Для восстановления сессии необходима аутентификация"
     }
   },
   "markdown/MarkdownEditor": {
@@ -5095,6 +5167,20 @@
   "propedit/CommonPropEdit": {
     "PropContainer": {
       "fieldLabel": "Property Name"
+    }
+  },
+  "viewers/browse/BrowseFilterNodeCaptionForm": {
+    "btnApply": {
+      "text": "Добавить"
+    },
+    "btnCancel": {
+      "text": "Отмена"
+    },
+    "chkShowCreatedNode": {
+      "boxLabel": "Перейти к новому узлу после добавления"
+    },
+    "txtFilterNodeCaption": {
+      "emptyText": "Фильтр строк"
     }
   },
   "viewers/browse/BrowseFormat": {
@@ -5883,6 +5969,9 @@
     "mniMoveLeft": {
       "text": "Влево"
     },
+    "mniMovePivot": {
+      "text": "Повернуть"
+    },
     "mniMoveRight": {
       "text": "Вправо"
     },
@@ -6323,6 +6412,9 @@
     "btnTable": {
       "text": "Таблица",
       "tooltip": "Таблица"
+    },
+    "colDescription": {
+      "text": "Описание"
     },
     "colDisplayName": {
       "text": "Метка"

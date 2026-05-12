@@ -21,18 +21,19 @@
     "TestValue": "Тестировать"
   },
   "admin/LDAPSettings": {
+    "AccountAuth": "Служебная учётная запись: аутентификация",
     "ConnectionSecurity": "Безопасность соединения",
     "DefaultUserRole": "Роль нового пользователя",
     "DirtySettings": "Настройки не сохранены перед тестированием",
     "EmptyParam": "Параметр \"{0}\" не должен быть пустым",
     "ErrorParams": "Ошибки в параметрах настройки LDAP:",
-    "LDAPAccount": "Учетная запись",
+    "LDAPAccount": "Служебная учётная запись: логин/DN",
     "LDAPBaseDN": "Базовый домен",
     "LDAPFilter": "Фильтр LDAP",
     "LDAPFullNameAttribute": "Атрибут с полным именем пользователя",
     "LDAPHost": "Хост",
     "LDAPNameAttribute": "Атрибут с именем пользователя",
-    "LDAPPassword": "Пароль",
+    "LDAPPassword": "Служебная учётная запись: пароль",
     "LDAPPort": "Порт",
     "NoCheckCertificate": "Не проверять сертификат сервера",
     "TestLabel": "Тестирование аутентификации",
@@ -70,10 +71,12 @@
     "RedirectURI": "Адрес клиента",
     "RolesClaim": "Клейм списка ролей",
     "TokenEndpoint": "URL запроса токена",
+    "UpdateUserName": "Обновлять полное имя пользователя",
     "UpdateUserRole": "Обновлять роль пользователя",
     "UserFullNameClaim": "Клейм полного имени пользователя",
     "UserInfoEndpoint": "URL запроса информации о пользователе",
     "UserNameClaim": "Клейм имени пользователя",
+    "UserNameFromToken": "Получение имени пользователя из токена",
     "UserRoleNameMap": "Список имен ролей"
   },
   "admin/OpenIDTestForm": {
@@ -144,13 +147,16 @@
     "PingPeriod": "Период проверки соединения (сек)",
     "Port": "TCP порт",
     "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL приоритетнее SChannel для HTTPS",
+    "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
     "PublishedPackagesUpdatePeriod": "Период проверки изменения веб-сервисов (сек)",
     "RAMLimit": "Максимум используемой памяти",
     "RAMLimitDecreaseAfterRestart": "Лимит используемой памяти будет уменьшен после перезапуска.",
     "RAMLimitRatio": "Доля используемой памяти",
+    "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
     "SecuritySettings": "Параметры безопасности",
     "ServerSettings": "Параметры сервера",
     "SessionBackupDirectory": "Резервные копии сессий",
+    "SessionKeepAlive": "Время жизни сессии после разрыва (сек)",
     "SSLCertificateFile": "Имя файла сертификата",
     "SSLPrivateKeyFile": "Имя файла закрытого ключа",
     "StopTimeout": "Тайм-аут остановки сервера (сек)",
@@ -251,10 +257,13 @@
     "NotifyMsgFromAdminTitle": "Сообщение от Администратора"
   },
   "app/AppMenuForm": {
-    "ConfirmQuit": "Есть несохранённые пакеты. Выйти без сохранения?",
+    "ConfirmQuit": "Сохранить все несохранённые пакеты?",
     "ErrCannotCloseApplication": "Не удалось закрыть приложение из-за наличия активных процессов, которые не завершились в течение тайм-аута.",
     "Menu": "Меню",
-    "QAHref": "https://qa.loginom.ru/questions/"
+    "NotSaveAndQuitBtnText": "Выйти без сохранения",
+    "PasswordChangedSuccessfully": "Пароль пользователя успешно изменен",
+    "QAHref": "https://qa.loginom.ru/questions/",
+    "SaveAndQuitBtnText": "Сохранить и выйти"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nВы действительно хотите удалить компонент \"{1}\"?",
@@ -266,7 +275,11 @@
     "DerivedVendorUsedByNodes": "В открытых пакетах найдено {0} узлов, которые ссылаются на данный компонент.",
     "ErrCannotDeleteNode": "Невозможно удалить заблокированный узел \"{0}\".",
     "ErrCannotDeleteUnit": "Невозможно удалить модуль \"{0}\". Некоторые из узлов в данный момент заблокированы.",
-    "ErrSelectedVendorLocked": "Невозможно удалить компонент \"{0}\". Некоторые из производных узлов в данный момент заблокированы."
+    "ErrSelectedVendorLocked": "Невозможно удалить компонент \"{0}\". Некоторые из производных узлов в данный момент заблокированы.",
+    "NotFoundBaseNodePrompt": "В открытых пакетах не найден связанный узел:\n{0}\n\nПопробовать открыть пакет?",
+    "NotFoundNodeFmt": "В пакете \"{0}\" не удалось найти узел с GUID={1}",
+    "Open": "Открыть",
+    "PackageNamePrefix": "Пакет"
   },
   "app/ConfigureDerivedVendorForm": {
     "AddBtnText": "Добавить",
@@ -303,17 +316,21 @@
   },
   "app/MainForm": {
     "AskIfOpenPackageByLink": "Открытый пакет будет заблокирован вами до момента его закрытия. Открыть?",
+    "CancelReconnect": "Закрыть",
     "CantCreateShareLinks": "Не удалось сгенерировать адрес для текущей страницы",
     "CantFindPackage": "Не удалось найти пакет",
     "CantGetAbsolutePath": "Не удалось получить абсолютный путь для файла \"{0}\"",
     "CollapseMainToolbar": "Свернуть",
     "ConfirmCannotCloseModel": "Невозможно закрыть модуль \"{0}\" в пакете \"{1}\".\nНекоторые из узлов в данный момент заблокированы.\nВы хотите отменить активные процессы и закрыть пакет без сохранения?",
     "ConfirmQuitSave": "Сохранить изменения в пакете \"{0}\"?",
+    "DoReconnect": "Восстановить",
     "ErrAccessDenied": "Отказано в доступе",
+    "ErrDisconnected": "Обнаружен разрыв связи.",
     "ErrOpenUrlPath": "Не удается открыть URL \"{0}\".\nОшибка: {1}.",
     "ErrorMailSubject": "Сообщение об ошибке",
     "ErrPackageDontExists": "Пакет с именем \"{0}\" не найден",
     "ErrPackageNotSaved": "Текущий пакет не сохранён",
+    "ErrSessionClosed": "Запрашиваемая сессия уже была закрыта",
     "ErrUrlPathNotFound": "Ветка с именем \"{0}\" не найдена.",
     "ExpandMainToolbar": "Развернуть",
     "FavoritesTitle": "Избранное",
@@ -323,10 +340,18 @@
     "MsgManagedPackageClosed": "Пакет {0} был закрыт из диспетчера",
     "MsgNodeNotFound": "Указанный узел не найден. Переход невозможен.",
     "MsgTransportError": "Произошёл разрыв связи с сервером",
+    "NotSaveBtnText": "Не сохранять",
     "OSLabel": "ОС",
     "PackageCloseFormat": "Закрыть также пакет \"{0}\"?",
     "PackageCopyOpened": "Изменения в открытом по ссылке пакете \"{0}\" будут отражены в текущем пакете после его перезагрузки",
     "PlatformEditionLabel": "Редакция",
+    "ReconnectAuthFail": "Ошибка аутентификации",
+    "ReconnectCaption": "Восстановление сессии",
+    "ReconnectGenericFail": "Ошибка при попытке восстановить сессию",
+    "ReconnectionErrorChangedIP": "Настройки безопасности запрещают восстанавливать сессию с другого IP",
+    "ReconnectPrompt": "Восстановить сессию?",
+    "ReconnectWrongCredentials": "К сессии может подключиться только пользователь, который ее создал",
+    "SaveBtnText": "Сохранить",
     "ServerDisplayName": "Сервер",
     "VersionLabel": "Версия {0}",
     "WarnAutoSavePackagesUnsaved": "При автосохранении не удалось сохранить пакеты:\n{0}"
@@ -345,16 +370,21 @@
   "app/MapTree": {
     "About": "О программе",
     "AdminArea": "Администрирование",
+    "CloseBtnText": "Закрыть",
     "ConfirmCloseAllPackages": "Закрыть все пакеты?",
     "ConfirmCloseOtherPackages": "Закрыть другие пакеты?",
+    "ConfirmDeleteFavoriteFile": "Не удалось найти файл \"{0}\".\nВозможно, он был переименован, перемещен или удален.\n\nВы хотите удалить его из списка избранных?",
+    "ConfirmDeleteFavoriteFolder": "Не удалось найти папку \"{0}\".\nВозможно, она была переименована, перемещена или удалена.\n\nВы хотите удалить её из списка избранных?",
     "ConnectionDisplayNameDefault": "Подключение",
     "Connections": "Подключения",
     "ErrCannotClosePackage": "Не удалось закрыть пакет. Пакет содержит активные процессы, которые не завершились в течение тайм-аута.",
     "ErrInstanceAlreadyExist": "Идентификатору уже сопоставлен визуальный узел",
     "ErrInstanceNotFound": "Для идентификатора не существует сопоставленного визуального узла",
+    "Favorites": "Избранное",
     "FileStorage": "Файлы",
     "HomePage": "Начало",
     "InputPorts": "Входные порты",
+    "Keep": "Оставить",
     "Manager": "Диспетчер",
     "ModelViews": "Визуализаторы",
     "OutputPorts": "Выходные порты",
@@ -364,6 +394,7 @@
     "PublishedPackagesParentParent": "Веб-сервисы",
     "ReadOnlyPackageNamePostfix": " (только чтение)",
     "References": "Ссылки",
+    "Remove": "Удалить",
     "Reports": "Отчеты",
     "Scheduler": "Планировщик",
     "ServiceInputPorts": "Служебные входные порты",
@@ -376,6 +407,9 @@
     "WorkFlow": "Сценарий"
   },
   "app/MapTreeForm": {
+    "CantFindSourceNode": "Невозможно найти исходный узел",
+    "Clear": "Очистить",
+    "ClearFavoritesMsg": "Очистить список избранных файлов и папок?",
     "ConfirmRemovingReference": "Удалить ссылку \"{0}\"?",
     "Delete": "Удалить",
     "DisplayName": "Метка",
@@ -404,7 +438,7 @@
     "AnnotationEditorTabTitle": "Заметка (markdown)",
     "AnnotationEditorWindowTitle": "Редактирование заметки",
     "Annotations": "Заметки: {0}",
-    "AutogenerateNodeTitle": "Сгенерировать автоматические метки",
+    "AutogenerateNodeTitles": "Сгенерировать автоматические метки",
     "CancelOperation": "Отменить операцию",
     "CantFindGenericModelNode": "Узел подмодели не найден",
     "CantFindSourceNode": "Невозможно найти исходный узел",
@@ -443,6 +477,7 @@
     "ExpandNode": "Развернуть подмодель",
     "ForceRetry": "Повторить принудительно",
     "GenerateNodeTitle": "Автоматическая метка",
+    "GoToBaseNodeOfDerived": "Перейти к базовому узлу",
     "GoToConnection": "Перейти к подключению",
     "GoToConnections": "Перейти к подключениям",
     "GoToDerivedVendor": "Перейти к производному компоненту",
@@ -462,10 +497,7 @@
     "NodeVisibilityPublic": "видимость во всех пакетах",
     "NodeVisibilityPublished": "видимость во всех пакетах и в виде веб-сервиса",
     "NodeVisibilityTitle": "Видимость узла",
-    "NotFoundBaseNode": "Не удалось найти базовый узел {0} в открытых пакетах",
-    "NotFoundConnection": "Не удалось найти подключение в открытых пакетах",
     "NotFoundDerivedVendor": "Не удалось найти производный компонент в открытых пакетах",
-    "PackageNamePrefix": "Пакет=",
     "PropertyInspectorLocale": "ru",
     "RecreateBaseNodeForDerivedVendor": "Пересоздать базовый узел",
     "RefreshNodeTitle": "Обновить метку",
@@ -488,7 +520,7 @@
     "SetupNode": "Настроить узел...",
     "ShowControlVariablesPort": "Показать порт управляющих переменных",
     "ShowDataPreview": "Быстрый просмотр",
-    "TeachNode": "Переобучить узел",
+    "TeachNode": "Обучить узел",
     "TuneDerivedVendor": "Настроить...",
     "UndoableDeleteNode": "Удаление (принудительно)...",
     "UpdateConfiguration": "Обновить конфигурацию узла",
@@ -648,7 +680,9 @@
     "PeriodTypeMonth": "месяцев",
     "PeriodTypeSecond": "секунд",
     "PeriodTypeWeek": "недель",
-    "SelfStartAfterJobCaption": "Текущая задача"
+    "SelfStartAfterJobCaption": "Текущая задача",
+    "ViewTokenVariablesApplyText": "Закрыть",
+    "ViewTokenVariablesWindowTitle": "Переменные из токена OpenID"
   },
   "app/scheduler/JobVariableEditor": {
     "ErrorInvalidNameFmt": "Значение имени переменной \"{0}\" не является правильным идентификатором",
@@ -958,7 +992,12 @@
     "EmptyVendor": "Не задан"
   },
   "components/condition/ConditionsView": {
-    "UniqueValuesLimitInfo": "Поле \"{0}\" имеет количество уникальных значений {1}, в списке присутствуют только первые {2}"
+    "BlankFieldDisplayName": "Выберите поле",
+    "DeleteAllPrompt": "Вы действительно хотите удалить все условия из списка?",
+    "DeleteAllTitle": "Удаление всех условий",
+    "GetValueList": "Получить список",
+    "UniqueValuesLimitInfo": "Поле \"{0}\" имеет количество уникальных значений {1}, в списке присутствуют только первые {2}",
+    "ValueListIsEmpty": "Нет значений"
   },
   "components/corranalysis/CorrAnalysisWizard": {
     "CorrTypeExtremum": "Будет вычислен максимальный по модулю из коэффициентов корреляции двух процессов, рассчитанных при всевозможных временных сдвигах. Следует применять, если необходимо узнать линейную зависимость между двумя процессами или частями процессов, происходящими с некоторым временным лагом.",
@@ -1053,13 +1092,15 @@
     "DeleteAllTitle": "Удаление всех условий",
     "GetValueList": "Получить список",
     "InvalidField": "Поле указано не верно",
-    "OperatorOR": "ИЛИ",
     "OverflowCountInfo": "и ещё {0}",
     "UniqueValuesLimitInfo": "Поле \"{0}\" имеет количество уникальных значений {1}, в списке присутствуют только первые {2}",
     "ValueListIsEmpty": "Нет значений"
   },
   "components/filterdata/FilterDataWizard": {
     "ActivationCanceled": "Отменено пользователем"
+  },
+  "components/filterdata/FilterViewUtils": {
+    "OperatorOR": "ИЛИ"
   },
   "components/filterdata/ValueListEditor": {
     "BadBrowserMsg": "Данная операция не поддерживается в вашем браузере.",
@@ -1478,11 +1519,15 @@
   },
   "ext/ExportUtils": {
     "CantSaveDownLoadedFile": "Не удалось сохранить скачанный файл",
-    "ExcelMenuText": "XLS (html)",
+    "ExcelMenuText": "XLSX",
     "ExecutionStarted": "Экспорт уже начался",
     "ExportPrefix": "Экспорт в ",
     "HtmFileDesc": "Веб-страница",
-    "XlsFileDesc": "Файл MS Excel"
+    "WarnExcelMaxCol": "Документ формата XLSX не может содержать более {0} колонок. Колонки с {1} по {2} будут пропущены.",
+    "WarnExcelMaxRow": "Документ формата XLSX не может содержать более {0} строк. Строки с {1} по {2} будут пропущены.",
+    "WarnExport": "Обнаружены проблемы:\n\n{0}\n\nВы действительно хотите начать экспорт?",
+    "WarnExportTableSizeWarning": "Текущий размер экспортируемых данных составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.",
+    "XlsxFileDesc": "Книги Excel 2007"
   },
   "ext/ExtJS": {
     "ErrEnumMenuItemNotFound": "Элемент меню не найден",
@@ -1509,7 +1554,14 @@
     "SearchAction": "Искать"
   },
   "ext/GridClipboard": {
-    "ErrorTooMany": "Скопировать выделенные ячейки в буфер обмена не удалось. Выделено слишком много строк."
+    "BtnCopyYes": "Копировать",
+    "CopyLimitReached": "Превышено максимальное количество, скопировано только {0} строк данных.",
+    "ErrorTooMany": "Скопировать выделенные ячейки в буфер обмена не удалось. Выделено слишком много строк.",
+    "LoadingSplash": "Копируются данные...",
+    "MsgBoxFinishCopy": "Завершить копирование?",
+    "NoHTTPSMsg": "Скопировать выделенные ячейки в буфер обмена не удалось. Необходимо соединение по протоколу HTTPS.",
+    "ToastCopyLimit": " (первые {0} строк)",
+    "ToastName": "Копирование"
   },
   "ext/GridMenu": {
     "AllColumns": "Везде",
@@ -1556,15 +1608,6 @@
     "InvalidNameMsg": "{0} - не является правильным идентификатором.",
     "InvalidValueMsg": "Значение {0} не соответствует указанному типу данных - {1}.",
     "UnrecognizedValueMsg": "Не могу распознать указанное значение: {0}"
-  },
-  "ext/MultiDragDropController": {
-    "BadDDTagConfig": "DDTag должен содержать хотя бы одну строку",
-    "DDTagIntersect": "Пересечение DDTag у разных ресиверов в пределах одной dd зоны",
-    "DDZoneIsNotContainer": "dd зона должна быть контейнером",
-    "DDZoneReciever": "dd зона не может быть ресивером",
-    "NestedDDZone": "Вложенные dd зоны запрещены",
-    "NestedReciever": "Вложенные ресиверы запрещены",
-    "NonContainerRecieverBadConfig": "Ресивер может быть не контейнером, только если NoAddOnDrop == NoPlaceholder == true"
   },
   "ext/PaginationPlugin": {
     "ErrMaxPage": "Нельзя задать страницу больше последней",
@@ -1757,6 +1800,7 @@
   "filedialog/OpenDialogForm": {
     "AbsolutePathCaption": "Абсолютный",
     "BtnOpen": "Открыть",
+    "Favorite": "Избранное",
     "PathNotExists": "Путь \"{0}\" не существует",
     "RelativePathCaption": "Относительный"
   },
@@ -1788,13 +1832,32 @@
     "DropText": "Бросьте, чтобы начать загрузку",
     "EmptyDirectoryText": "Папка пуста. Перетащите файлы в эту область, чтобы загрузить их"
   },
+  "filestorage/FavoritesForm": {
+    "Clear": "Очистить",
+    "ClearFavorites": "Очистить избранное...",
+    "ClearFavoritesMsg": "Очистить список избранных файлов и папок?",
+    "ConfirmRemove": "Вы действительно хотите убрать выбранные элементы из \"Избранного\"?",
+    "FullPath": "Путь",
+    "GoToSource": "Перейти",
+    "Name": "Имя",
+    "Remove": "Убрать",
+    "RemoveFromFavorites": "Убрать из избранного",
+    "ShowPackage": "Открыть пакет"
+  },
   "filestorage/FileArchiver": {
     "ZipFileDesc": "ZIP-архив"
   },
   "filestorage/FileDownloader": {
-    "CancelDownload": "Отменить скачивание?",
     "CantSaveDownLoadedFile": "Не удалось сохранить скачанный файл",
-    "ConfirmCancelAll": "Хотите ли вы отменить скачивание всех остальных файлов?"
+    "ContinueAllBtn": "Продолжить для всех",
+    "ContinueBtn": "Продолжить",
+    "ErrContinueMsg": "Не удалось сохранить файл {0}\nХотите продолжить скачивание остальных файлов?",
+    "ErrContinueTitle": "Ошибка скачивания файла",
+    "Errors": "Ошибки",
+    "QuestionContinue": "Хотите продолжить скачивание остальных файлов?",
+    "QuestionContinueTitle": "Продолжение скачивания",
+    "StopBtn": "Остановить",
+    "UserActionRequired": "Для продолжения скачивания требуется действие пользователя"
   },
   "filestorage/FileSenderManager": {
     "FileAlreadyDownloading": "Файл \"{0}\" скачивается. Дождитесь окончания или отмените процесс скачивания.",
@@ -1832,6 +1895,7 @@
     "FullPathCopied": "Полные имена выделенных файлов скопированы в буфер обмена",
     "HasNotStorageItems": "Нет файлов для копирования/вырезания",
     "InvalidFileName": "Имя файла содержит недопустимые символы",
+    "MaxFavoritesAddingError": "В избранное можно добавить не более {0} элементов одновременно. Вы выбрали {1}.",
     "NeedNotEmptyFolderName": "Необходимо задать непустое имя каталога",
     "NoHTTPSMsg": "Для данной операции необходимо соединение по протоколу HTTPS.",
     "Open": "Открыть",
@@ -1854,35 +1918,6 @@
     "CancelAllConfirm": "Вы действительно хотите остановить все загрузки?",
     "CancelAllLoadersBtn": "Отменить все",
     "ErrCancelAllLoaders": "Ошибка отмены операций"
-  },
-  "filtersview/FilterItem": {
-    "EndingWith": "заканчивается на",
-    "Equal": "=",
-    "GetValueList": "Получить список",
-    "Greater": ">",
-    "GreaterOrEqual": ">=",
-    "In": "в списке",
-    "InvalidFilter": "Не настроен",
-    "IsFalse": "ЛОЖЬ",
-    "IsNotNull": "не пустое",
-    "IsNull": "пустое",
-    "IsTrue": "ИСТИНА",
-    "Less": "<",
-    "LessOrEqual": "<=",
-    "Like": "содержит",
-    "NotEndingWith": "не заканчивается на",
-    "NotEqual": "<>",
-    "NotIn": "не в списке",
-    "NotLike": "не содержит",
-    "NotStartingWith": "не начинается с",
-    "SetLabel": "Список",
-    "StartingWith": "начинается с",
-    "ValueListIsEmpty": "Нет значений"
-  },
-  "filtersview/FiltersView": {
-    "Delete": "Удалить",
-    "DeleteAllPrompt": "Вы действительно хотите удалить все условия из списка?",
-    "DeleteAllTitle": "Удаление всех условий"
   },
   "homepage/Banner": {
     "AppVersionAPI": "/api/v1/loginom-version",
@@ -2003,6 +2038,7 @@
     "Colon": "Двоеточие (:)",
     "Comma": "Запятая (,)",
     "Default": "Не задано",
+    "EmptyString": "Пустая строка",
     "Hyphen": "Дефис (-)",
     "Point": "Точка (.)",
     "Slash": "Слэш (/)"
@@ -2044,6 +2080,10 @@
   },
   "imports/xml/ImportXmlPreviewWizard": {
     "ErrNoFile": "Задано имя несуществующего XML-файла"
+  },
+  "lib/BrowserUtils": {
+    "ErrSaveFile": "Ошибка при сохранении файла",
+    "ErrSaveFileName": "Ошибка при сохранении файла \"{0}\""
   },
   "lib/Classes": {
     "ErrInvalidIndex": "Значение индекса {0} параметра \"{1}\" вне диапазона [{2}; {3}]"
@@ -2278,9 +2318,11 @@
   "login/ChangePasswordForm": {
     "ErrLeadingOrTrailingWhitespaceInPassword": "Пароль не должен начинаться или заканчиваться пробелом",
     "NewPassAsPrevious": "Новый пароль не должен совпадать со старым",
-    "PassDontMatch": "Введенные пароли не совпадают"
+    "PassDontMatch": "Введенные пароли не совпадают",
+    "PasswordMustChanged": "Требуется изменить пароль"
   },
   "login/Login": {
+    "BtnReconnect": "Восстановить сессию",
     "VersionLabelFmt": "Версия: {0}"
   },
   "login/LoginToken": {
@@ -2489,6 +2531,12 @@
     "ErrViewIsPanel": "Визуализатор должен быть наследником Ext.panel.Panel",
     "WarnViewerObjectDeleted": "Обработка события изменения статуса визуализатора \"{0}\" отменена, так как визуализатор был асинхронно удалён"
   },
+  "viewers/browse/BrowseFilterNodeCaptionForm": {
+    "AutomaticNodeTitle": "Автоматическая метка",
+    "CustomNodeTitle": "Пользовательская метка",
+    "DefaultNodeCaption": "Фильтр строк",
+    "FilterNodeCreated": "Узел \"{0}\" создан"
+  },
   "viewers/browse/BrowseFormat": {
     "ActColInAllInvisibleTip": "Скрыто",
     "ActColInAllVisibleTip": "Отображается",
@@ -2546,8 +2594,7 @@
     "SetSelectedPage": "Выбранная страница",
     "SortingButtonText": "Сортировка",
     "SortingTitle": "Сортировка",
-    "UndefinedCellValue": "",
-    "WarnExportTableSizeWarning": "Текущий размер Таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.\nВы действительно хотите начать экспорт?"
+    "UndefinedCellValue": ""
   },
   "viewers/chart/ChartUtils": {
     "ApplyDefaultColor": "Вернуть цвет по умолчанию",
@@ -2705,7 +2752,7 @@
     "ErrExportFailed": "Не удалось экспортировать кросс-таблицу Куба",
     "ExportToastTitle": "Экспорт из Куба",
     "HideSingleCase": "Скрыть единственный факт",
-    "WarnExportTableSizeWarning": "Текущий размер кросс-таблицы составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.\nВы действительно хотите начать экспорт?"
+    "RepeatHeader": "Повторять заголовки"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Отметить по маске"
@@ -2748,7 +2795,8 @@
     "CaseInvite": "Перенесите поля в область строк, столбцов или фильтров, перетащив из списка доступных полей слева или нажав кнопку \"+\"",
     "DescSortCaption": "Сортировка по убыванию",
     "ForwardSortNavButton": "Перейти к предыдущей сортировке",
-    "NestedSortCaption": "Среди свернутых заголовков есть отсортированные"
+    "NestedSortCaption": "Среди свернутых заголовков есть отсортированные",
+    "RepeatTotalCaption": "Итого:"
   },
   "viewers/dataquality/QualityView": {
     "ErrExportFailed": "Не удалось экспортировать таблицы Качества данных",
@@ -3010,7 +3058,7 @@
   },
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Настроить модификатор доступа...",
-    "BtnAutogenerateSelectedTitles": "Сгенерировать автоматические метки",
+    "AutogenerateSelectedTitles": "Сгенерировать автоматические метки",
     "BtnDeactivateAll": "Деактивировать все",
     "BtnShowVendorsEdit": "Показать/скрыть дерево коннекторов",
     "BtnTextTest": "Тестировать",
@@ -3289,6 +3337,8 @@
     "MsgCantJumpToPage": "Переход запрещен"
   },
   "wizards/WizardModelComponentForm": {
+    "BtnExecuteCaption": "Выполнить",
+    "BtnRetrainCaption": "Обучить",
     "ErrUnknownObject": "Попытка получить мастер настройки для неизвестного объекта"
   },
   "wizards/WizardModelConnectionForm": {
