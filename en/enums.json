@@ -814,6 +814,11 @@
       "AsName": "Field names",
       "AsDisplayName": "Field captions"
     },
+    "ExcelFloatFormat": {
+      "$Caption": "Real values format",
+      "General": "General",
+      "Number": "Number"
+    },
     "ExcelHeadersRow": {
       "$Caption": "Column Headers",
       "IncludeHeadersRow": "The first row is the header",
@@ -1063,7 +1068,7 @@
     "ContextUsageType": {
       "$Caption": "Usage Type",
       "Unspecified": "Unspecified",
-      "Useless": "Useless",
+      "Useless": "Unsupported",
       "Excluded": "Excluded",
       "Info": "Info",
       "Used": "Used",
@@ -1170,7 +1175,7 @@
     },
     "GridExportFormat": {
       "$Caption": "Tabular Data Export Format",
-      "Excel": "XLS",
+      "Excel": "XLSX",
       "HTML": "HTML"
     },
     "HAlignment": {
@@ -1239,7 +1244,7 @@
       "$Caption": "Usage Type",
       "Unspecified": "Unspecified",
       "Excluded": "Excluded",
-      "Useless": "Useless",
+      "Useless": "Unsupported",
       "Active": "Active",
       "Predicted": "Output",
       "Key": "Key",
@@ -1415,6 +1420,12 @@
     }
   },
   "Libraries/LDAP/LDAP": {
+    "LDAPAuthMethod": {
+      "$Caption": "Метод аутентификации",
+      "Simple": "Simple",
+      "SASLDigestMD5": "SASL DIGEST-MD5",
+      "SASLGSSAPI": "SASL GSSAPI"
+    },
     "LDAPConnectionSecurity": {
       "$Caption": "Connection Security",
       "Simple": "Simple connection",
@@ -1618,6 +1629,17 @@
       "QueryString": "Query string",
       "AddSegments": "Add segments",
       "Replacement": "Replace"
+    }
+  },
+  "Studio/DeductorServer": {
+    "ReconnectResult": {
+      "$Caption": "Результат подключения к сессии",
+      "Success": "Сессия восстановлена",
+      "NotFound": "Сессия не найдена",
+      "ChangedIP": "Нельзя зайти с другого IP",
+      "RequireAuth": "Требуется аутентификация",
+      "WrongUser": "Пользователь не владеет сессией",
+      "AuthFail": "Ошибка аутентификации"
     }
   },
   "Studio/DeductorServerSettings": {
@@ -1908,12 +1930,9 @@
       "Value": "Value",
       "PercentByRow": "Percent by row",
       "PercentByCol": "Percent by column",
-      "RankByRow": "Rank by row",
-      "RankByCol": "Rank by column",
-      "CompareWithPrevByRow": "Difference from previous by row",
-      "CompareWithPrevByCol": "Difference from previous by column",
-      "CumulativeSumByRow": "Cumulative sum by row",
-      "CumulativeSumByCol": "Cumulative sum by column"
+      "PercentByRowParent": "Процент от родителя по горизонтали",
+      "PercentByColParent": "Процент от родителя по вертикали",
+      "PercentByGrandTotal": "Процент от общего итога"
     }
   },
   "Viewers/DataQuality/QualityViewHistogram": {
@@ -1953,7 +1972,7 @@
       "FullColumns": "Fully filled fields",
       "FullRecords": "Fully filled records",
       "UsefulColumns": "Suitable columns",
-      "IndexEPV": "RPV index"
+      "IndexRPV": "RPV index"
     },
     "QualityViewCommonColumnType": {
       "$Caption": "Type of common column",

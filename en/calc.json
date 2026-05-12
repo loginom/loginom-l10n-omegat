@@ -3,7 +3,7 @@
     "CRC32": {
       "Arguments": "String - a string for which the CRC32 value is calculated.",
       "Description": "CRC32(String)",
-      "Output": "The function returns the numeric value of the CRC32 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the numeric value of the CRC32 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "HardKey": {
       "Arguments": "Arguments are absent.",
@@ -13,37 +13,37 @@
     "MD5": {
       "Arguments": "String - a string for which the MD5 value is calculated.",
       "Description": "MD5(String)",
-      "Output": "The function returns the HEX value of the MD5 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the MD5 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "SHA1": {
       "Arguments": "String - a string for which the SHA1 value is calculated.",
       "Description": "SHA1(String)",
-      "Output": "The function returns the HEX value of the SHA1 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA1 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "SHA256": {
       "Arguments": "String - a string for which the SHA256 value is calculated.",
       "Description": "SHA256(String)",
-      "Output": "The function returns the HEX value of the SHA256 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA256 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "SHA384": {
       "Arguments": "String - a string for which the SHA384 value is calculated.",
       "Description": "SHA384(String)",
-      "Output": "The function returns the HEX value of the SHA384 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA384 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "SHA512": {
       "Arguments": "String - a string for which the SHA512 value is calculated.",
       "Description": "SHA512(String)",
-      "Output": "The function returns the HEX value of the SHA512 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA512 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "SHA512_224": {
       "Arguments": "String - a string for which the SHA512\/224 value is calculated.",
       "Description": "SHA512_224(String)",
-      "Output": "The function returns the HEX value of the SHA512\/224 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA512\/224 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     },
     "SHA512_256": {
       "Arguments": "String - a string for which the SHA512\/256 value is calculated.",
       "Description": "SHA512_256(String)",
-      "Output": "The function returns the HEX value of the SHA512\/256 calculated from the given string. The String's character sequence is processed using UTF-8 encoding."
+      "Output": "The function returns the HEX value of the SHA512\/256 calculated from the given string.\nThe String's character sequence is processed using UTF-8 encoding."
     }
   },
   "DataFunctions": {
@@ -255,13 +255,13 @@
       "Output": "Function returns the date formed from the specified arguments."
     },
     "EncodeDateTime": {
-      "Arguments": "Year - year in the form of a number,\nMonth - month in the form of a number,\nDay - day in the form of a number,\nHours - hours in the form of a number,\nMinutes - minutes in the form of a number,\nSeconds - seconds in the form of a number.",
-      "Description": "EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)",
+      "Arguments": "Год - год в виде числа,\nМесяц - месяц в виде числа,\nДень - день в виде числа,\nЧасы - часы в виде числа,\nМинуты - минуты в виде числа,\nСекунды - секунды в виде числа,\nМиллисекунды - миллисекунды от 0 до 999.",
+      "Description": "EncodeDateTime(Год, Месяц, День, Часы, Минуты [, Секунды [, Миллисекунды]])",
       "Output": "Function returns the date and time formed from the specified arguments."
     },
     "EncodeTime": {
-      "Arguments": "Hours - hours in the form of a number,\nMinutes - minutes in the form of a number,\nSeconds - seconds in the form of a number.",
-      "Description": "EncodeTime(Hours, Minutes, Seconds)",
+      "Arguments": "Часы - часы в виде числа,\nМинуты - минуты в виде числа,\nСекунды - секунды в виде числа,\nМиллисекунды - миллисекунды от 0 до 999.",
+      "Description": "EncodeTime(Часы, Минуты [, Секунды [, Миллисекунды]])",
       "Output": "Function returns the time formed from the specified arguments."
     },
     "EndOfTheMonth": {

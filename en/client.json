@@ -21,18 +21,19 @@
     "TestValue": "Test"
   },
   "admin/LDAPSettings": {
+    "AccountAuth": "Служебная учётная запись: аутентификация",
     "ConnectionSecurity": "Connection security",
     "DefaultUserRole": "New user role",
     "DirtySettings": "Settings not saved before testing",
     "EmptyParam": "The \"{0}\" parameter must not be empty",
     "ErrorParams": "Errors in LDAP configuration parameters:",
-    "LDAPAccount": "Account",
+    "LDAPAccount": "Служебная учётная запись: логин\/DN",
     "LDAPBaseDN": "Base domain name",
     "LDAPFilter": "LDAP filter",
     "LDAPFullNameAttribute": "Attribute with full username",
     "LDAPHost": "Host",
     "LDAPNameAttribute": "Attribute with username",
-    "LDAPPassword": "Password",
+    "LDAPPassword": "Служебная учётная запись: пароль",
     "LDAPPort": "Port",
     "NoCheckCertificate": "Do not check server certificate",
     "TestLabel": "Authentication testing",
@@ -70,10 +71,12 @@
     "RedirectURI": "Client URL",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint",
+    "UpdateUserName": "Обновлять полное имя пользователя",
     "UpdateUserRole": "Update user role",
     "UserFullNameClaim": "Full username claim",
     "UserInfoEndpoint": "User information endpoint",
     "UserNameClaim": "Username claim",
+    "UserNameFromToken": "Получение имени пользователя из токена",
     "UserRoleNameMap": "List of role names"
   },
   "admin/OpenIDTestForm": {
@@ -144,13 +147,16 @@
     "PingPeriod": "Connection check period (s)",
     "Port": "TCP port",
     "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL has higher priority than SChannel for HTTPS",
+    "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
     "PublishedPackagesUpdatePeriod": "Web services change check period (s)",
     "RAMLimit": "Memory limit",
     "RAMLimitDecreaseAfterRestart": "Memory limit will be decreased after restart.",
     "RAMLimitRatio": "Memory usage ratio",
+    "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
     "SecuritySettings": "Security settings",
     "ServerSettings": "Server parameters",
     "SessionBackupDirectory": "Session backups",
+    "SessionKeepAlive": "Время жизни сессии после разрыва (сек)",
     "SSLCertificateFile": "Certificate file name",
     "SSLPrivateKeyFile": "Private key file name",
     "StopTimeout": "Server stop timeout (s)",
@@ -196,7 +202,7 @@
   },
   "admin/SharedDirectoriesForm": {
     "DeleteEverywhere": "Delete folder and data",
-    "DeleteSharedDirectoriesConfirm": "When deleting a shared folder, you can also delete its data from the file system. Delete the folder?",
+    "DeleteSharedDirectoriesConfirm": "When deleting a shared folder, you can also delete its data from the file system.\nDelete the folder?",
     "DeleteSharedDirectory": "Delete folder only"
   },
   "admin/SharedDirectoryForm": {
@@ -251,10 +257,13 @@
     "NotifyMsgFromAdminTitle": "Administrator Message"
   },
   "app/AppMenuForm": {
-    "ConfirmQuit": "Unsaved packages. Exit anyway?",
+    "ConfirmQuit": "Сохранить все несохранённые пакеты?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "QAHref": "https:\/\/qa.loginom.com\/questions\/"
+    "NotSaveAndQuitBtnText": "Выйти без сохранения",
+    "PasswordChangedSuccessfully": "Пароль пользователя успешно изменен",
+    "QAHref": "https:\/\/qa.loginom.com\/questions\/",
+    "SaveAndQuitBtnText": "Сохранить и выйти"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -266,7 +275,11 @@
     "DerivedVendorUsedByNodes": "{0} nodes that refer to this component found in the opened packages.",
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
     "ErrCannotDeleteUnit": "Failed to delete \"{0}\" module. Some of the nodes are currently locked.",
-    "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some derived nodes are currently locked."
+    "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some derived nodes are currently locked.",
+    "NotFoundBaseNodePrompt": "В открытых пакетах не найден связанный узел:\n{0}\n\nПопробовать открыть пакет?",
+    "NotFoundNodeFmt": "В пакете \"{0}\" не удалось найти узел с GUID={1}",
+    "Open": "Open",
+    "PackageNamePrefix": "Package"
   },
   "app/ConfigureDerivedVendorForm": {
     "AddBtnText": "Add",
@@ -303,17 +316,21 @@
   },
   "app/MainForm": {
     "AskIfOpenPackageByLink": "The open package will be locked by you until it is closed. Do you want to open it?",
+    "CancelReconnect": "Close",
     "CantCreateShareLinks": "Failed to generate url for the current page",
     "CantFindPackage": "Failed to find package",
     "CantGetAbsolutePath": "Failed to get absolute path for \"{0}\" file",
     "CollapseMainToolbar": "Collapse",
     "ConfirmCannotCloseModel": "Failed to close \"{0}\" module in \"{1}\" package.\nSome of the nodes are currently locked.\nDo you want to cancel the active processes and close the package without saving?",
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
+    "DoReconnect": "Restore",
     "ErrAccessDenied": "Access denied",
+    "ErrDisconnected": "Обнаружен разрыв связи.",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: {1}.",
     "ErrorMailSubject": "Error message",
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
+    "ErrSessionClosed": "Запрашиваемая сессия уже была закрыта",
     "ErrUrlPathNotFound": "\"{0}\" path not found.",
     "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
@@ -323,10 +340,18 @@
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
+    "NotSaveBtnText": "Не сохранять",
     "OSLabel": "OS",
     "PackageCloseFormat": "Do you want to close package \"{0}\" also?",
     "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
     "PlatformEditionLabel": "Edition",
+    "ReconnectAuthFail": "Ошибка аутентификации",
+    "ReconnectCaption": "Восстановление сессии",
+    "ReconnectGenericFail": "Ошибка при попытке восстановить сессию",
+    "ReconnectionErrorChangedIP": "Настройки безопасности запрещают восстанавливать сессию с другого IP",
+    "ReconnectPrompt": "Восстановить сессию?",
+    "ReconnectWrongCredentials": "К сессии может подключиться только пользователь, который ее создал",
+    "SaveBtnText": "Save",
     "ServerDisplayName": "Server",
     "VersionLabel": "Version {0}",
     "WarnAutoSavePackagesUnsaved": "Failed to autosave packages:\n{0}"
@@ -345,16 +370,21 @@
   "app/MapTree": {
     "About": "About",
     "AdminArea": "Administration",
+    "CloseBtnText": "Close",
     "ConfirmCloseAllPackages": "Do you want to close all packages?",
     "ConfirmCloseOtherPackages": "Do you want to close other packages?",
+    "ConfirmDeleteFavoriteFile": "Не удалось найти файл \"{0}\".\nВозможно, он был переименован, перемещен или удален.\n\nВы хотите удалить его из списка избранных?",
+    "ConfirmDeleteFavoriteFolder": "Не удалось найти папку \"{0}\".\nВозможно, она была переименована, перемещена или удалена.\n\nВы хотите удалить её из списка избранных?",
     "ConnectionDisplayNameDefault": "Connection",
     "Connections": "Connections",
     "ErrCannotClosePackage": "Failed to close package. The package contains active processes that did not finish within timeout.",
     "ErrInstanceAlreadyExist": "ID already mapped to visual node",
     "ErrInstanceNotFound": "There is no associated visual node for ID",
+    "Favorites": "Favorites",
     "FileStorage": "Files",
     "HomePage": "Home",
     "InputPorts": "Input ports",
+    "Keep": "Оставить",
     "Manager": "Session Manager",
     "ModelViews": "Visualizers",
     "OutputPorts": "Output ports",
@@ -364,6 +394,7 @@
     "PublishedPackagesParentParent": "Web services",
     "ReadOnlyPackageNamePostfix": " (read-only)",
     "References": "References",
+    "Remove": "Delete",
     "Reports": "Reports",
     "Scheduler": "Scheduler",
     "ServiceInputPorts": "Service input ports",
@@ -376,6 +407,9 @@
     "WorkFlow": "Workflow"
   },
   "app/MapTreeForm": {
+    "CantFindSourceNode": "Failed to find source node",
+    "Clear": "Clean",
+    "ClearFavoritesMsg": "Очистить список избранных файлов и папок?",
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
     "Delete": "Delete",
     "DisplayName": "Caption",
@@ -404,7 +438,7 @@
     "AnnotationEditorTabTitle": "Annotation (Markdown)",
     "AnnotationEditorWindowTitle": "Annotation Editor",
     "Annotations": "Annotations: {0}",
-    "AutogenerateNodeTitle": "Autogenerate Captions",
+    "AutogenerateNodeTitles": "Autogenerate Captions",
     "CancelOperation": "Cancel operation",
     "CantFindGenericModelNode": "Node of the supernode not found",
     "CantFindSourceNode": "Failed to find source node",
@@ -443,6 +477,7 @@
     "ExpandNode": "Expand supernode",
     "ForceRetry": "Force retry",
     "GenerateNodeTitle": "Auto-Caption",
+    "GoToBaseNodeOfDerived": "Go to base node",
     "GoToConnection": "Go to connection",
     "GoToConnections": "Go to connections",
     "GoToDerivedVendor": "Go to derived component",
@@ -462,10 +497,7 @@
     "NodeVisibilityPublic": "Visibility inside all packages",
     "NodeVisibilityPublished": "Visibility inside all packages and as web service",
     "NodeVisibilityTitle": "Node Visibility",
-    "NotFoundBaseNode": "Failed to find base {0} node in the opened packages",
-    "NotFoundConnection": "Failed to find connection in the opened packages",
     "NotFoundDerivedVendor": "Failed to find derived component in the opened packages",
-    "PackageNamePrefix": "Package=",
     "PropertyInspectorLocale": "en",
     "RecreateBaseNodeForDerivedVendor": "Re-create base node",
     "RefreshNodeTitle": "Refresh Caption",
@@ -488,7 +520,7 @@
     "SetupNode": "Configure node...",
     "ShowControlVariablesPort": "Show control variables port",
     "ShowDataPreview": "Quick view",
-    "TeachNode": "Retrain node",
+    "TeachNode": "Обучить узел",
     "TuneDerivedVendor": "Configure...",
     "UndoableDeleteNode": "Delete (forced)...",
     "UpdateConfiguration": "Update node configuration",
@@ -648,7 +680,9 @@
     "PeriodTypeMonth": "months",
     "PeriodTypeSecond": "seconds",
     "PeriodTypeWeek": "weeks",
-    "SelfStartAfterJobCaption": "Current job"
+    "SelfStartAfterJobCaption": "Current job",
+    "ViewTokenVariablesApplyText": "Close",
+    "ViewTokenVariablesWindowTitle": "Переменные из токена OpenID"
   },
   "app/scheduler/JobVariableEditor": {
     "ErrorInvalidNameFmt": "The name value of variable \"{0}\" name is not a valid identifier",
@@ -958,7 +992,12 @@
     "EmptyVendor": "Not defined"
   },
   "components/condition/ConditionsView": {
-    "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed"
+    "BlankFieldDisplayName": "Select field",
+    "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
+    "DeleteAllTitle": "Delete All Conditions",
+    "GetValueList": "Get list",
+    "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed",
+    "ValueListIsEmpty": "No values"
   },
   "components/corranalysis/CorrAnalysisWizard": {
     "CorrTypeExtremum": "The maximum absolute value of the correlation coefficients of two processes calculated for all possible time shifts will be calculated. It should be applied if it is required to determine the linear relationship between two processes, or parts of the processes that occur with a certain time lag.",
@@ -1053,13 +1092,15 @@
     "DeleteAllTitle": "Delete All Conditions",
     "GetValueList": "Get list",
     "InvalidField": "Field is specified incorrectly",
-    "OperatorOR": "OR",
     "OverflowCountInfo": "and {0} more",
     "UniqueValuesLimitInfo": "\"{0}\" field has {1} unique values, only the first {2} are listed",
     "ValueListIsEmpty": "No values"
   },
   "components/filterdata/FilterDataWizard": {
     "ActivationCanceled": "Canceled by user"
+  },
+  "components/filterdata/FilterViewUtils": {
+    "OperatorOR": "OR"
   },
   "components/filterdata/ValueListEditor": {
     "BadBrowserMsg": "This operation is not supported in our browser.",
@@ -1478,11 +1519,15 @@
   },
   "ext/ExportUtils": {
     "CantSaveDownLoadedFile": "Failed to save the downloaded file",
-    "ExcelMenuText": "XLS (html)",
+    "ExcelMenuText": "XLSX",
     "ExecutionStarted": "Export has already started",
     "ExportPrefix": "Export to ",
     "HtmFileDesc": "Webpage",
-    "XlsFileDesc": "MS Excel file"
+    "WarnExcelMaxCol": "Документ формата XLSX не может содержать более {0} колонок. Колонки с {1} по {2} будут пропущены.",
+    "WarnExcelMaxRow": "Документ формата XLSX не может содержать более {0} строк. Строки с {1} по {2} будут пропущены.",
+    "WarnExport": "Обнаружены проблемы:\n\n{0}\n\nВы действительно хотите начать экспорт?",
+    "WarnExportTableSizeWarning": "Текущий размер экспортируемых данных составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.",
+    "XlsxFileDesc": "Excel 2007 workbooks"
   },
   "ext/ExtJS": {
     "ErrEnumMenuItemNotFound": "Menu item not found",
@@ -1509,7 +1554,14 @@
     "SearchAction": "Search"
   },
   "ext/GridClipboard": {
-    "ErrorTooMany": "Failed to copy selected cells to clipboard. Too many rows selected."
+    "BtnCopyYes": "Copy",
+    "CopyLimitReached": "Превышено максимальное количество, скопировано только {0} строк данных.",
+    "ErrorTooMany": "Failed to copy selected cells to clipboard. Too many rows selected.",
+    "LoadingSplash": "Копируются данные...",
+    "MsgBoxFinishCopy": "Завершить копирование?",
+    "NoHTTPSMsg": "Скопировать выделенные ячейки в буфер обмена не удалось. Необходимо соединение по протоколу HTTPS.",
+    "ToastCopyLimit": " (первые {0} строк)",
+    "ToastName": "Копирование"
   },
   "ext/GridMenu": {
     "AllColumns": "All columns",
@@ -1556,15 +1608,6 @@
     "InvalidNameMsg": "{0} is not a valid identifier.",
     "InvalidValueMsg": "The {0} value doesn't match the specified data type {1}.",
     "UnrecognizedValueMsg": "Cannot recognize the specified value: {0}"
-  },
-  "ext/MultiDragDropController": {
-    "BadDDTagConfig": "DDTag must contain at least one row",
-    "DDTagIntersect": "DDTag intersection of different receivers within the same dd zone",
-    "DDZoneIsNotContainer": "dd zone must be container",
-    "DDZoneReciever": "dd zone cannot be receiver",
-    "NestedDDZone": "Nested dd zones are not supported",
-    "NestedReciever": "Nested receivers are not supported",
-    "NonContainerRecieverBadConfig": "The receiver may be not a container only if NoAddOnDrop == NoPlaceholder == true"
   },
   "ext/PaginationPlugin": {
     "ErrMaxPage": "There is no page with the index larger than the last index",
@@ -1757,6 +1800,7 @@
   "filedialog/OpenDialogForm": {
     "AbsolutePathCaption": "Absolute",
     "BtnOpen": "Open",
+    "Favorite": "Favorites",
     "PathNotExists": "\"{0}\" path does not exist",
     "RelativePathCaption": "Relative"
   },
@@ -1788,13 +1832,32 @@
     "DropText": "Drag and drop to start the upload",
     "EmptyDirectoryText": "Folder is empty. Drag files to this area to upload them"
   },
+  "filestorage/FavoritesForm": {
+    "Clear": "Clean",
+    "ClearFavorites": "Очистить избранное...",
+    "ClearFavoritesMsg": "Очистить список избранных файлов и папок?",
+    "ConfirmRemove": "Вы действительно хотите убрать выбранные элементы из \"Избранного\"?",
+    "FullPath": "Path",
+    "GoToSource": "Перейти",
+    "Name": "Name",
+    "Remove": "Убрать",
+    "RemoveFromFavorites": "Remove from favorite",
+    "ShowPackage": "Open package"
+  },
   "filestorage/FileArchiver": {
     "ZipFileDesc": "ZIP archive"
   },
   "filestorage/FileDownloader": {
-    "CancelDownload": "Cancel download?",
     "CantSaveDownLoadedFile": "Failed to save the downloaded file",
-    "ConfirmCancelAll": "Do you want to cancel the download of all other files?"
+    "ContinueAllBtn": "Continue for all",
+    "ContinueBtn": "Continue",
+    "ErrContinueMsg": "Failed to save file {0}\nDo you want to continue downloading other files?",
+    "ErrContinueTitle": "Error downloading file",
+    "Errors": "Errors",
+    "QuestionContinue": "Do you want to continue downloading other files?",
+    "QuestionContinueTitle": "Continue download",
+    "StopBtn": "Stop",
+    "UserActionRequired": "User action required to continue downloading other files"
   },
   "filestorage/FileSenderManager": {
     "FileAlreadyDownloading": "\"{0}\" file is being downloaded. Wait until the end or cancel the process of downloading.",
@@ -1832,6 +1895,7 @@
     "FullPathCopied": "Full names of selected files were copied to clipboard",
     "HasNotStorageItems": "No files to be copied\/cut",
     "InvalidFileName": "File name contains invalid characters",
+    "MaxFavoritesAddingError": "В избранное можно добавить не более {0} элементов одновременно. Вы выбрали {1}.",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
     "Open": "Open",
@@ -1854,35 +1918,6 @@
     "CancelAllConfirm": "Do you really want to cancel all downloads?",
     "CancelAllLoadersBtn": "Cancel All",
     "ErrCancelAllLoaders": "Error cancelling operations"
-  },
-  "filtersview/FilterItem": {
-    "EndingWith": "ending with",
-    "Equal": "=",
-    "GetValueList": "Get list",
-    "Greater": ">",
-    "GreaterOrEqual": ">=",
-    "In": "listed",
-    "InvalidFilter": "Not configured",
-    "IsFalse": "FALSE",
-    "IsNotNull": "Not null",
-    "IsNull": "null",
-    "IsTrue": "TRUE",
-    "Less": "<",
-    "LessOrEqual": "<=",
-    "Like": "contains",
-    "NotEndingWith": "not ending with",
-    "NotEqual": "<>",
-    "NotIn": "not listed",
-    "NotLike": "does not contain",
-    "NotStartingWith": "not starting with",
-    "SetLabel": "List",
-    "StartingWith": "starting with",
-    "ValueListIsEmpty": "No values"
-  },
-  "filtersview/FiltersView": {
-    "Delete": "Delete",
-    "DeleteAllPrompt": "Do you really want to delete all conditions from list?",
-    "DeleteAllTitle": "Delete All Conditions"
   },
   "homepage/Banner": {
     "AppVersionAPI": "\/api\/v1\/loginom-version",
@@ -2003,6 +2038,7 @@
     "Colon": "Colon (:)",
     "Comma": "Comma (,)",
     "Default": "Unspecified",
+    "EmptyString": "Empty string",
     "Hyphen": "Hyphen (-)",
     "Point": "Dot (.)",
     "Slash": "Slash (\/)"
@@ -2044,6 +2080,10 @@
   },
   "imports/xml/ImportXmlPreviewWizard": {
     "ErrNoFile": "Nonexistent XML file name specified"
+  },
+  "lib/BrowserUtils": {
+    "ErrSaveFile": "File saving error",
+    "ErrSaveFileName": "Error saving file \"{0}\""
   },
   "lib/Classes": {
     "ErrInvalidIndex": "{0} index value of \"{1}\" parameter is out of [{2}; {3}] range"
@@ -2278,9 +2318,11 @@
   "login/ChangePasswordForm": {
     "ErrLeadingOrTrailingWhitespaceInPassword": "Password must not begin or end with a space",
     "NewPassAsPrevious": "New password must not repeat the old one",
-    "PassDontMatch": "The passwords you entered do not match"
+    "PassDontMatch": "The passwords you entered do not match",
+    "PasswordMustChanged": "Password Change Required"
   },
   "login/Login": {
+    "BtnReconnect": "Восстановить сессию",
     "VersionLabelFmt": "Version: {0}"
   },
   "login/LoginToken": {
@@ -2489,6 +2531,12 @@
     "ErrViewIsPanel": "Visualizer must be Ext.panel.Panel descendant",
     "WarnViewerObjectDeleted": "Processing of \"{0}\" visualizer status change event was canceled because the visualizer was asynchronously deleted"
   },
+  "viewers/browse/BrowseFilterNodeCaptionForm": {
+    "AutomaticNodeTitle": "Auto-Caption",
+    "CustomNodeTitle": "Custom Caption",
+    "DefaultNodeCaption": "Row Filter",
+    "FilterNodeCreated": "Узел \"{0}\" создан"
+  },
   "viewers/browse/BrowseFormat": {
     "ActColInAllInvisibleTip": "Hidden",
     "ActColInAllVisibleTip": "Visible",
@@ -2546,8 +2594,7 @@
     "SetSelectedPage": "Selected page",
     "SortingButtonText": "Sort",
     "SortingTitle": "Sort",
-    "UndefinedCellValue": "",
-    "WarnExportTableSizeWarning": "The current Table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
+    "UndefinedCellValue": ""
   },
   "viewers/chart/ChartUtils": {
     "ApplyDefaultColor": "Apply default color",
@@ -2705,7 +2752,7 @@
     "ErrExportFailed": "Failed to export the Cube cross table",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
-    "WarnExportTableSizeWarning": "The current cross table size is {0} cells.\nThe exported file size is estimated to be at least {1} MB.\nDo you really want to start exporting?"
+    "RepeatHeader": "Повторять заголовки"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Check by Pattern"
@@ -2748,7 +2795,8 @@
     "CaseInvite": "Place fields in the row, column or filter zone by dragging from the left list of the available fields, or by clicking on \"+\" button",
     "DescSortCaption": "Sort Descending",
     "ForwardSortNavButton": "Go to Previous Sorted Header",
-    "NestedSortCaption": "Sorted headers among nested headers"
+    "NestedSortCaption": "Sorted headers among nested headers",
+    "RepeatTotalCaption": "Total:"
   },
   "viewers/dataquality/QualityView": {
     "ErrExportFailed": "Failed to export Data Quality Tables",
@@ -2939,7 +2987,7 @@
     "CodeExec": "Script execution"
   },
   "wizards/columndefs/ColumnDefsTuning": {
-    "UsableDesc": "Use"
+    "UsableDesc": "Include"
   },
   "wizards/columns/ColumnDefsMappingWizard": {
     "colDisplayNameText": "Outputs",
@@ -3010,7 +3058,7 @@
   },
   "wizards/connection/ConnectionsViewWizard": {
     "AccessModification": "Configure visibility...",
-    "BtnAutogenerateSelectedTitles": "Autogenerate Captions",
+    "AutogenerateSelectedTitles": "Autogenerate Captions",
     "BtnDeactivateAll": "Deactivate all",
     "BtnShowVendorsEdit": "Show\/Hide Connectors Tree",
     "BtnTextTest": "Test",
@@ -3289,6 +3337,8 @@
     "MsgCantJumpToPage": "Next move forbidden"
   },
   "wizards/WizardModelComponentForm": {
+    "BtnExecuteCaption": "Run",
+    "BtnRetrainCaption": "Обучить",
     "ErrUnknownObject": "Attempt to get wizard for unknown object"
   },
   "wizards/WizardModelConnectionForm": {

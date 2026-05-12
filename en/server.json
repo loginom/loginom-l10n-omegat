@@ -18,7 +18,7 @@
     "ErrGuidFormat": "Incorrect GUID format: %s ([\"N\", \"D\", \"B\", \"P\"] supported)",
     "ErrIntervalFormat": "Incorrect interval type: %s ([\"Year\", \"Quarter\", \"Month\", \"Week\", \"Day\", \"Hour\", \"Minute\", \"Second\"] supported)",
     "ErrInvalidDateFmt": "%d-%d-%d is not a valid date value",
-    "ErrInvalidTimeFmt": "%d:%d:%d is not a valid time value",
+    "ErrInvalidTimeFmt": "%d:%d:%d.%d не является допустимым значением времени",
     "NumberOfIntervalsMustBePositive": "The number of intervals must be positive"
   },
   "Common/CalcFunctions/FuncDesc": {
@@ -218,7 +218,7 @@
     "ErrNonSOAPMessage": "Non SOAP message",
     "ErrSoapBodyStyleNotRPC": "SOAP body in RPC operation does not support RPC style",
     "ErrSOAPEncodingNotSupported": "\"%s\" encoding style for %s SOAP version not supported",
-    "WarnBOMNotRecommended": "BOM (Byte order mark) addition to SOAP envelope top may cause failure of some servers (for example, Apache Xerces or Java services) to process the request"
+    "WarnBOMNotRecommended": "Adding a BOM (byte-order mark) at the begginning of a SOAP envelope may prevent some servers (for example, Apache Xerces or Java services) from processing the request"
   },
   "Common/WSDL/WSDL": {
     "ErrUnrecognizedSOAPNamespaceURI": "\"%s\" SOAP namespace not recognized"
@@ -2137,7 +2137,7 @@
     "ErrExecQuery": "Error executing DB query.",
     "ErrFieldForDeleteNotSelected": "No fields by which data should be deleted specified",
     "ErrFieldForUpdateNotSelected": "No fields to update specified",
-    "ErrFillTable": "Failed to fill \"%s\" table",
+    "ErrFillTable": "Failed to complete the %s table",
     "ErrKeyFieldForUpdateNotSelected": "No key field by which data should be updated specified",
     "ErrMsgDisplayName": "Error message",
     "ErrNotConnectedToDatabase": "No connection with database",
@@ -2224,7 +2224,7 @@
     "ErrExtensionNotSupported": "\"%s\" extension is not a correct extension of Tableau Extract file",
     "ErrExtractSDKNotFound": "Tableau Extract SDK not installed",
     "ErrFilePath": "Failed to get path to file",
-    "ErrFillTable": "Failed to fill \"%s\" table",
+    "ErrFillTable": "Не удалось заполнить таблицу %s",
     "ErrHyperExtractSDKNotFound": "Tableau Extract API 2.0 SDK not installed",
     "ErrHyperNotSupportedInWin32": "\"*.hyper\" data format supported only in 64-bit software version",
     "ErrMissingServerConnection": "No connection with Tableau server",
@@ -3604,7 +3604,8 @@
     "LogErrKafkaCallBackFmt": "Kafka error: \"%s\", reason: \"%s\""
   },
   "Libraries/LDAP/LDAPConfigurator": {
-    "Account": "User",
+    "Account": "Служебная учётная запись: логин\/DN",
+    "AccountAuth": "Служебная учётная запись: аутентификация",
     "BaseDN": "Base",
     "ConnectionSecurity": "Connection security",
     "DefaultUserRole": "New user role",
@@ -3613,7 +3614,7 @@
     "Host": "Host",
     "NameAttribute": "Name attribute",
     "NoCheckCertificate": "Do not check server certificate",
-    "Password": "Password",
+    "Password": "Служебная учётная запись: пароль",
     "Port": "Port",
     "UseSASL": "Use SASL"
   },
@@ -3825,6 +3826,9 @@
     "ErrCannotDeleteDerivedConnections": "It is not possible to delete the derived connections",
     "ErrCannotDeleteDerivedSocket": "It is not possible to delete the derived ports",
     "ErrCannotDeleteDerivedVendors": "It is not possible to delete the derived components"
+  },
+  "Libraries/Model/FilterNodeCreator": {
+    "ErrFilterDataVendorNotCreated": "В текущем контексте нельзя создать компонент фильтрации данных"
   },
   "Libraries/Model/Generic/ModelGenericComponent": {
     "ErrInputSocketDefsEmptyName": "No name of the following inputs specified: ",
@@ -4059,7 +4063,6 @@
     "ErrInactiveBranch": "\"%s\" node is in the inactive condition branch",
     "ErrInvalidModelCriticalSectionCookie": "Invalid Cookie for critical workflow section locking",
     "ErrInvalidModelLockCookie": "Invalid Cookie for workflow nodes locking",
-    "ErrInvalidModelLockCookieOwner": "Invalid owner of workflow node lock cookie",
     "ErrModelHasLockedNodes": "Workflow contains %d locked nodes",
     "ErrModelNodeAlreadyInitialized": "Node already initialized",
     "ErrMultipleVariablesFound": "Multiple variables with \"%s\" name found",
@@ -4326,8 +4329,9 @@
   },
   "Libraries/OpenID/OpenID": {
     "InvalidTokenResponce": "Token request response is not a token-containing JSON",
-    "MissingClaim": "Token has no claim %s",
-    "TokenNotIncludeRolesClame": "Token has no list of roles with claim %s",
+    "MissingClaim": "The token does not contain the %s claim",
+    "MissingUserInfo": "Информация о пользователе не содержит свойство %s",
+    "TokenNotIncludeRolesClame": "The token does not contain the list of roles with the %s claim",
     "TokenRequestError": "Error receiving token. %s"
   },
   "Libraries/OpenID/OpenIDConfigurator": {
@@ -4346,10 +4350,12 @@
     "ResponseMode": "Authentication request response format",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint",
+    "UpdateUserName": "Обновлять полное имя пользователя",
     "UpdateUserRole": "Update user role",
     "UserFullNameClaim": "Full username claim in token",
     "UserInfoEndpoint": "User information endpoint",
     "UserNameClaim": "Username claim in token",
+    "UserNameFromToken": "Получение имени пользователя из токена",
     "UserRoleNameMap": "List of role names to map to user roles"
   },
   "Libraries/Optimization/Optimization": {
@@ -4475,6 +4481,9 @@
     "ErrUnknownInterfaceName": "%s interface not registered",
     "ErrUnsupportedParameterType": "Unsupported argument type"
   },
+  "Libraries/rpc/RemoteServer": {
+    "BindError": "Ошибка привязки к %s:%s (%s)."
+  },
   "Libraries/rpc/RemotingConvertUtils": {
     "ErrValueOutOfRange": "%d value is not in the range of allowable values %s"
   },
@@ -4487,6 +4496,7 @@
   },
   "Libraries/rpc/Session": {
     "ConnectionTimedOut": "Connection was closed by idle timeout: %d seconds",
+    "DisconnectedSessionRecovered": "Сессия с разрывом связи восстановлена",
     "ErrAccessDenied": "Access denied",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while closing SessionHost",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Another RPC exception handler already registered",
@@ -4504,7 +4514,13 @@
     "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d, %d]",
-    "IdleLockTimeOut": "Session was locked by idle timeout: %d seconds"
+    "IdleLockTimeOut": "Session was locked by idle timeout: %d seconds",
+    "KeepAliveTimedOut": "Сессия закрыта по тайм-ауту после разрыва связи: %d секунд",
+    "KeepAliveTimeoutStarted": "Сессия сохранена после обнаруженного разрыва связи",
+    "NetworkErrorDetected": "Обнаружен разрыв связи"
+  },
+  "Libraries/rpc/TCPRemoteServer": {
+    "UnixSocketError": "Ошибка при создании UNIX-сокета \"%s\" (%s)."
   },
   "Libraries/rpc/WebSocketMessageTransport": {
     "ConnectionClosedUnansweredPing": "WebSocket connection closed because Ping message was not responded"
@@ -4530,6 +4546,13 @@
   "Libraries/WSDLClientConnection/WSDLClientConnectionVendor": {
     "WSDLClientConnectionVendorCaption": "SOAP Service",
     "WSDLClientConnectionVendorDesc": "Connector to SOAP service specified by WSDL document"
+  },
+  "Libraries/XLSXExport/XLSXFormatting": {
+    "ErrFontSizeLargerThanMax": "Размер шрифта больше максимально разрешённого значения %d",
+    "ErrFontSizeLesserThanMin": "Размер шрифта меньше минимально разрешённого значения %d"
+  },
+  "Libraries/XLSXExport/XLSXGenerate": {
+    "Sheet1Name": "Sheet1"
   },
   "Libraries/XSDFilesConnection/XSDFilesConnection": {
     "ErrLoadXSD": "Error loading XSD files"
@@ -4645,7 +4668,7 @@
     "LogOpenIDCaption": "OpenID",
     "LogSettingsChanged": "Server parameter \"%s\" changed",
     "LogSettingsComponentChanged": "Server component parameter %s:\"%s\" changed",
-    "LogTokenClaimNone": "Token has no claim %s",
+    "LogTokenClaimNone": "The token does not contain the %s claim",
     "LogTokenClaimTypeErr": "Value of claim %s is in the wrong format",
     "NewPassAsPreviousException": "New password must not repeat the old one",
     "PackageClosedLogMsg": "\"%s\" package closed",
@@ -4657,6 +4680,14 @@
     "PublishedPackageRemoved": "Package \"%s\" unpublished",
     "PublishedPackagesAutoUpdate": "Publication of packages updated automatically",
     "PublishedPackageUpdated": "Published package \"%s\" updated",
+    "ReconnectAuthFail": "Ошибка в аутентификации пользователя \"%s\" при восстановлении сессии",
+    "ReconnectAuthRequest": "Отказ в восстановлении сессии без аутентификации",
+    "ReconnectBlockedSession": "Запрос на аутентификацию для восстановления заблокированной сессии",
+    "ReconnectChangedIP": "Попытка восстановить сессию с другого IP адреса",
+    "ReconnectSessionNotFound": "Сессия для восстановления не найдена",
+    "ReconnectSuccess": "Подключение к восстановленной сессии %s",
+    "ReconnectSuccessAuth": "Подключение к восстановленной сессии %s после успешной аутентификации",
+    "ReconnectWrongUser": "Попытка восстановить сессию с другого пользователя",
     "ServerIsInMaintenance": "The server is in maintenance mode",
     "ServerStartLogMsg": "%s started",
     "ServerStopLogMsg": "%s stopped",
@@ -4665,6 +4696,7 @@
     "SessionInitializedLogMsg": "Initialized session for %s user",
     "SessionIntegrator": "Request from integrator",
     "SessionInteractive": "Interactive session",
+    "SessionReconnectRequestLogMsg": "Получен запрос на восстановление связи с сессией",
     "UnsavedPackageClosedLogMsg": "Package draft closed",
     "UnsavedPackageCreatedLogMsg": "Package draft created",
     "WarnClosePackageFailed": "Failed to close %s package from Session Manager. Probably, the session has already been closed",
@@ -4691,10 +4723,13 @@
     "MaxSchedulerHistoryDays": "Store scheduler history (days)",
     "PackagePoolSize": "Package pool size",
     "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL has higher priority than SChannel for HTTPS",
+    "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
     "PublishedPackagesUpdatePeriod": "Web services change check period",
     "RAMLimitKB": "Memory limit (KB)",
     "RAMLimitRatio": "Memory usage ratio",
+    "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
     "SessionBackupDirectory": "Session backups",
+    "SessionKeepAlive": "Время жизни сессии после разрыва",
     "StopTimeout": "Server stop timeout",
     "ThreadPoolSize": "Thread pool size",
     "TraceExceptions": "Trace exceptions",
@@ -4739,12 +4774,13 @@
     "ErrMaxLengthPassword": "Password must be up to %d characters",
     "ErrNoUsersWithAdminPrivileges": "There are no users with admin privileges",
     "ErrOpenIDUserNotFound": "User not found",
-    "ErrTokenUserName": "Token has no username",
+    "ErrTokenUserName": "Не удалось получить имя пользователя",
     "ErrUserAlreadyDeleted": "User already deleted",
     "ErrUserHasActiveSessions": "%s user has active sessions",
     "ErrUserNameConflictsWithSharedDirectory": "Username conflicts with %s shared directory name",
     "ErrUserNameIsReserved": "%s identifier has already been reserved and it cannot be used as a username",
     "ErrUserNameMustBeValid": "Username can consist of Latin letters, digits, _ - . characters and space,\nbut it cannot end with a dot or space.",
+    "ErrWrongAuthMode": "Изменение пароля допустимо только при локальной аутентификации",
     "ExternName": "System user",
     "GroupEveryone": "All",
     "IsAdmin": "Admin",
@@ -4803,6 +4839,8 @@
     "WSDLClientConnection": "SOAP service connector"
   },
   "Studio/Scheduler": {
+    "ClaimName": "Имя клейма",
+    "ClaimValue": "Значение клейма",
     "ErrCannotStartDisabledJob": "Execution of job \"%s\" forbidden",
     "ErrHistoryCountMustNotBeNegative": "Count of history records must not be negative",
     "ErrInvalidExceptionInfoFormat": "Incorrect format of exception information",
@@ -5237,6 +5275,7 @@
     "MsgGroupDeleteDimProcess": "Preparing to delete. Grouping data by dimension.",
     "MsgLoadDataDimensionProcess": "Loading the Dimension data into the Data Warehouse",
     "MsgLoadDataProcess": "Loading the Process data into the Data Warehouse",
+    "MsgPrepareDimDataProcess": "Подготовка измерений перед загрузкой в Хранилище данных",
     "MsgRecordSkipDimValueIsNull": "Data of \"%d\" row was not added to DW. \"%s\" [%s] dimension value is null.",
     "MsgStatisticsGatheringProcess": "Collecting statistics"
   },
