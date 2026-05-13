@@ -978,6 +978,10 @@ Seconds - seconds in the form of a number.</note>
 Секунды - секунды в виде числа,
 Миллисекунды - миллисекунды от 0 до 999.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260513T201217Z">
+        <seg>Year: the number of the year,
+Month: the number of the month,  </seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
