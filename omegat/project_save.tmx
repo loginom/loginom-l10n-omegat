@@ -59911,6 +59911,9 @@ Relation type</note>
       <tuv lang="ru">
         <seg>Обрыв связи</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162430Z">
+        <seg>Connection failed</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">rpc.json</prop>
@@ -81600,6 +81603,9 @@ User</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: логин/DN</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162451Z">
+        <seg>Service account: username/DN</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -81607,6 +81613,9 @@ User</note>
       <note>Key = Libraries/LDAP/LDAPConfigurator.AccountAuth</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: аутентификация</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162459Z">
+        <seg>Service account: authentication</seg>
       </tuv>
     </tu>
     <tu>
@@ -81719,6 +81728,9 @@ User</note>
 Password</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: пароль</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162527Z">
+        <seg>Service account: password</seg>
       </tuv>
     </tu>
     <tu>
