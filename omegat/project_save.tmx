@@ -7975,6 +7975,9 @@ XLS (html)</note>
       <tuv lang="ru">
         <seg>Документ формата XLSX не может содержать более {0} колонок. Колонки с {1} по {2} будут пропущены.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T154201Z">
+        <seg>An XLSX document cannot contain more than {0} columns. Columns from {1} to {2} will be skipped.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -7982,6 +7985,9 @@ XLS (html)</note>
       <note>Key = ext/ExportUtils.WarnExcelMaxRow</note>
       <tuv lang="ru">
         <seg>Документ формата XLSX не может содержать более {0} строк. Строки с {1} по {2} будут пропущены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T154226Z">
+        <seg>An XLSX document cannot contain more than {0} rows. Rows from {1} to {2} will be skipped.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7994,6 +8000,12 @@ XLS (html)</note>
 {0}
 
 Вы действительно хотите начать экспорт?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T154347Z">
+        <seg>Issues detected:
+
+{0}
+Do you really want to start export?</seg>
       </tuv>
     </tu>
     <tu>
