@@ -8016,6 +8016,10 @@ Do you really want to start export?</seg>
         <seg>Текущий размер экспортируемых данных составляет {0} ячеек.
 Размер экспортируемого файла оценивается в не менее {1} МБ.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T154939Z">
+        <seg>Current export data size is {0} cells.
+Estimated export file size is not less than {1} MB.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
