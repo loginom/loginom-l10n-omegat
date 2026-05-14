@@ -59757,6 +59757,9 @@ Relation type</note>
       <tuv lang="ru">
         <seg>Сессия закрыта по тайм-ауту после разрыва связи: {0} секунд</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162236Z">
+        <seg>Session closed upon connection break timeout: {0} seconds</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">rpc.json</prop>
@@ -59765,6 +59768,9 @@ Relation type</note>
       <tuv lang="ru">
         <seg>Сессия сохранена после обнаруженного разрыва связи</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162317Z">
+        <seg>Session saved upon connection break detection</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">rpc.json</prop>
@@ -59772,6 +59778,9 @@ Relation type</note>
       <note>Key = Net/Session.NetworkErrorDetected</note>
       <tuv lang="ru">
         <seg>Обнаружен разрыв связи</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162335Z">
+        <seg>Connection break detected</seg>
       </tuv>
     </tu>
     <tu>
@@ -59890,6 +59899,9 @@ Relation type</note>
       <note>Key = Net/WebSocketMessageTransport.ErrConnectionError</note>
       <tuv lang="ru">
         <seg>Соединение через веб-сокет закрыто с ошибкой</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162413Z">
+        <seg>Web socket connection closed with an error</seg>
       </tuv>
     </tu>
     <tu>
