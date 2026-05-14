@@ -11225,6 +11225,9 @@ More</note>
       <tuv lang="ru">
         <seg>Убрать</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155802Z">
+        <seg>Remove</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -11813,6 +11816,9 @@ Do you want to extract?</seg>
       <note>Key = filestorage/FileStorageForm.MaxFavoritesAddingError</note>
       <tuv lang="ru">
         <seg>В избранное можно добавить не более {0} элементов одновременно. Вы выбрали {1}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155942Z">
+        <seg>Not more than {0} items can be added to favorites at once. You have selected {1} items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16019,6 +16025,9 @@ String: {2} Symbol: {3}</seg>
       <note>Key = login/Login.BtnReconnect</note>
       <tuv lang="ru">
         <seg>Восстановить сессию</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160110Z">
+        <seg>Restore Session</seg>
       </tuv>
     </tu>
     <tu>
