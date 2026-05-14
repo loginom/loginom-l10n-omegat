@@ -83214,6 +83214,9 @@ Password</note>
       <tuv lang="ru">
         <seg>В текущем контексте нельзя создать компонент фильтрации данных</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T185157Z">
+        <seg>You cannot create a data filter component in the current context</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
