@@ -108524,6 +108524,9 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Изменить пароль</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200448Z">
+        <seg>Change Password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -126164,6 +126167,9 @@ Find</note>
       <tuv lang="ru">
         <seg>Поиск</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200333Z">
+        <seg>Search</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -126278,6 +126284,9 @@ Find</note>
       <note>Key = admin/ServerSettingsForm.btnSearch.tooltip</note>
       <tuv lang="ru">
         <seg>Найти параметр по имени или значению</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200415Z">
+        <seg>Search the parameter by name or value</seg>
       </tuv>
     </tu>
     <tu>
