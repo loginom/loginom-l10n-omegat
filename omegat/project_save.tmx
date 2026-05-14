@@ -25543,6 +25543,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Восстановить сессию?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T141245Z">
+        <seg>Restore session?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
