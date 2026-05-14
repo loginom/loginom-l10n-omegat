@@ -10834,6 +10834,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Время жизни сессии после разрыва (сек)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T130057Z">
+        <seg>Session lifetime after disconnect (s)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
