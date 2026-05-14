@@ -87415,6 +87415,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Информация о пользователе не содержит свойство %s</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T185313Z">
+        <seg>User info does not contain the %s property</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -87633,6 +87636,9 @@ Password</note>
       <note>Key = Libraries/OpenID/OpenIDConfigurator.UpdateUserName</note>
       <tuv lang="ru">
         <seg>Обновлять полное имя пользователя</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190327Z">
+        <seg>Update full username</seg>
       </tuv>
     </tu>
     <tu>
