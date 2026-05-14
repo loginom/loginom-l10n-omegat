@@ -25801,11 +25801,11 @@ Password</note>
 
 Вы хотите удалить его из списка избранных?</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260514T141819Z">
+      <tuv lang="en" changeid="mihalina" changedate="20260514T142001Z">
         <seg>File "{0}" not found.
 It may have been renamed, moved, or deleted.
 
-Do you want to remove it from the favorites?</seg>
+Do you want to remove it from favorites?</seg>
       </tuv>
     </tu>
     <tu>
@@ -25941,6 +25941,9 @@ Do you want to remove it from favorites?</seg>
       <note>Key = app/MapTree.Keep</note>
       <tuv lang="ru">
         <seg>Оставить</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T142035Z">
+        <seg>Leave as is</seg>
       </tuv>
     </tu>
     <tu>
@@ -26224,6 +26227,9 @@ Do you want to remove it from favorites?</seg>
       <note>Key = app/MapTreeForm.ClearFavoritesMsg</note>
       <tuv lang="ru">
         <seg>Очистить список избранных файлов и папок?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T142109Z">
+        <seg>Clear the list of favorite files and folders?</seg>
       </tuv>
     </tu>
     <tu>
