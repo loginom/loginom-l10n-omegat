@@ -36573,6 +36573,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Результат подключения к сессии</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160920Z">
+        <seg>Session Connection Result</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -36581,6 +36584,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Сессия восстановлена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160935Z">
+        <seg>Session restored</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -36588,6 +36594,9 @@ File processing will take too long.</seg>
       <note>Key = Studio/DeductorServer.ReconnectResult.NotFound</note>
       <tuv lang="ru">
         <seg>Сессия не найдена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160941Z">
+        <seg>Session not found</seg>
       </tuv>
     </tu>
     <tu>
@@ -36607,6 +36616,9 @@ File processing will take too long.</seg>
       <note>Key = Studio/DeductorServer.ReconnectResult.ChangedIP</note>
       <tuv lang="ru">
         <seg>Нельзя зайти с другого IP</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161013Z">
+        <seg>Login with a new IP restricted</seg>
       </tuv>
     </tu>
     <tu>
@@ -51739,6 +51751,9 @@ XLS</note>
       <tuv lang="ru">
         <seg>Метод аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160709Z">
+        <seg>Authentication method</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -51758,6 +51773,9 @@ XLS</note>
       <tuv lang="ru">
         <seg>SASL DIGEST-MD5</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160715Z">
+        <seg>SASL DIGEST-MD5</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -51775,6 +51793,9 @@ XLS</note>
       <prop type="id">tu970_0</prop>
       <note>Key = Libraries/LDAP/LDAP.LDAPAuthMethod.SASLGSSAPI</note>
       <tuv lang="ru">
+        <seg>SASL GSSAPI</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160723Z">
         <seg>SASL GSSAPI</seg>
       </tuv>
     </tu>
