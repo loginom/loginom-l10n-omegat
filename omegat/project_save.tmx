@@ -89331,6 +89331,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Размер шрифта меньше минимально разрешённого значения %d</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T191259Z">
+        <seg>The font size is less than the allowed minimum %d</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -90533,6 +90536,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.ReconnectAuthFail</note>
       <tuv lang="ru">
         <seg>Ошибка в аутентификации пользователя "%s" при восстановлении сессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T191609Z">
+        <seg>Authentication for user "%s" failed during session restore</seg>
       </tuv>
     </tu>
     <tu>
