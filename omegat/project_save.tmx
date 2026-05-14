@@ -112566,6 +112566,9 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Изменение пароля</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200954Z">
+        <seg>Change Password</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -112573,6 +112576,9 @@ Password Change Required</note>
       <note>Key = login/Login.btnCloseSession.text</note>
       <tuv lang="ru">
         <seg>Закрыть сессию</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T201016Z">
+        <seg>Close Session</seg>
       </tuv>
     </tu>
     <tu>
@@ -112746,6 +112752,9 @@ Password Change Required</note>
       <note>Key = login/Login.lblReconnect.text</note>
       <tuv lang="ru">
         <seg>Для восстановления сессии необходима аутентификация</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T201102Z">
+        <seg>Authentication required for session restore</seg>
       </tuv>
     </tu>
     <tu>
@@ -132651,6 +132660,9 @@ Move Up</note>
       <tuv lang="ru">
         <seg>Создать узел "Фильтр строк"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200932Z">
+        <seg>Create "Row Filter" node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -132658,6 +132670,9 @@ Move Up</note>
       <note>Key = components/filterdata/FilterDataPanel.btnCreateFilterNode.tooltip</note>
       <tuv lang="ru">
         <seg>Создать узел "Фильтр строк" на основе текущего фильтра...</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200926Z">
+        <seg>Create a "Row Filter" node based on the current filter...</seg>
       </tuv>
     </tu>
     <tu>
