@@ -8281,6 +8281,9 @@ Estimated export file size is not less than {1} MB.</seg>
       <tuv lang="ru">
         <seg>Превышено максимальное количество, скопировано только {0} строк данных.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155043Z">
+        <seg>Maximum count exceeded. Only {0} data rows were copied.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8311,6 +8314,9 @@ Estimated export file size is not less than {1} MB.</seg>
       <tuv lang="ru">
         <seg>Копируются данные...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155055Z">
+        <seg>Copying data...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8318,6 +8324,9 @@ Estimated export file size is not less than {1} MB.</seg>
       <note>Key = ext/GridClipboard.MsgBoxFinishCopy</note>
       <tuv lang="ru">
         <seg>Завершить копирование?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155213Z">
+        <seg>Finish copying?</seg>
       </tuv>
     </tu>
     <tu>
