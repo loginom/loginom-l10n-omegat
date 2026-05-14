@@ -57021,6 +57021,9 @@ Account</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: логин/DN</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161823Z">
+        <seg>Service account: username/DN</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57028,6 +57031,9 @@ Account</note>
       <note>Key = Libraries/LDAP/LDAP.LDAPConfigurator.AccountAuth</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: аутентификация</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161835Z">
+        <seg>Service account: authentication</seg>
       </tuv>
     </tu>
     <tu>
@@ -57151,6 +57157,9 @@ Account</note>
 Password</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: пароль</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161843Z">
+        <seg>Service account: password</seg>
       </tuv>
     </tu>
     <tu>
@@ -57523,6 +57532,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Обновлять полное имя пользователя</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161909Z">
+        <seg>Update full username</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -57585,6 +57597,9 @@ Password</note>
       <note>Key = Libraries/OpenID/OpenID.OpenIDConfigurator.UserNameFromToken</note>
       <tuv lang="ru">
         <seg>Получение имени пользователя из токена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161929Z">
+        <seg>Retrieve username from token</seg>
       </tuv>
     </tu>
     <tu>
@@ -58375,6 +58390,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Переподключаться только с текущего IP</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161952Z">
+        <seg>Reconnect only with current IP</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -58427,6 +58445,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Требовать аутентификацию при переподключении</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162009Z">
+        <seg>Request authentication on reconnect</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
@@ -58445,6 +58466,9 @@ Password</note>
       <note>Key = Studio/DeductorServerSettings.DeductorServerSettings.SessionKeepAlive</note>
       <tuv lang="ru">
         <seg>Время жизни сессии после разрыва</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162031Z">
+        <seg>Session lifetime after disconnect</seg>
       </tuv>
     </tu>
     <tu>
@@ -59523,6 +59547,9 @@ Relation type</note>
       <note>Key = Net/Session.DisconnectedSessionRecovered</note>
       <tuv lang="ru">
         <seg>Сессия с разрывом связи восстановлена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T162111Z">
+        <seg>Disconnected session restored</seg>
       </tuv>
     </tu>
     <tu>
