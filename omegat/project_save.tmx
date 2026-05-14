@@ -25250,6 +25250,9 @@ Do you want to cancel the active processes and close the package without saving?
       <tuv lang="ru">
         <seg>Обнаружен разрыв связи.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T134155Z">
+        <seg>Connection break detected.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
