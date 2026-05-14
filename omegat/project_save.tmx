@@ -25307,6 +25307,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Запрашиваемая сессия уже была закрыта</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T134230Z">
+        <seg>The requested session has already been closed</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
