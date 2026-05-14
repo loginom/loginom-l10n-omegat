@@ -92315,6 +92315,9 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Имя клейма</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195941Z">
+        <seg>Claim name</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -92322,6 +92325,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/Scheduler.ClaimValue</note>
       <tuv lang="ru">
         <seg>Значение клейма</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195949Z">
+        <seg>Claim value</seg>
       </tuv>
     </tu>
     <tu>
@@ -96212,6 +96218,9 @@ For object with ID=%s, Name="%s".</seg>
       <note>Key = Warehouse2/Deductor/DDWEngine.MsgPrepareDimDataProcess</note>
       <tuv lang="ru">
         <seg>Подготовка измерений перед загрузкой в Хранилище данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200311Z">
+        <seg>Preparing dimensions before upload into Data Warehouse</seg>
       </tuv>
     </tu>
     <tu>
