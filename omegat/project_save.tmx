@@ -11176,6 +11176,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Вы действительно хотите убрать выбранные элементы из "Избранного"?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155614Z">
+        <seg>Do you really want to remove the selected items from "Favorites"? </seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -11199,6 +11202,9 @@ Open
 More</note>
       <tuv lang="ru">
         <seg>Перейти</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155754Z">
+        <seg>Open</seg>
       </tuv>
     </tu>
     <tu>
