@@ -27533,6 +27533,9 @@ Retrain node</note>
       <tuv lang="ru">
         <seg>Обучить узел</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T153821Z">
+        <seg>Train the node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -29178,6 +29181,9 @@ Error: {1}.</seg>
       <note>Key = app/scheduler/JobEditor.ViewTokenVariablesWindowTitle</note>
       <tuv lang="ru">
         <seg>Переменные из токена OpenID</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T153943Z">
+        <seg>Variables from OpenID Token</seg>
       </tuv>
     </tu>
     <tu>
