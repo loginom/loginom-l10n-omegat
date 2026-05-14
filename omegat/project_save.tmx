@@ -21125,6 +21125,9 @@ Unsaved packages. Exit anyway?</note>
       <tuv lang="ru">
         <seg>Выйти без сохранения</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T132131Z">
+        <seg>Exit without saving</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -21242,6 +21245,9 @@ Unsaved packages. Exit anyway?</note>
       <note>Key = app/AppMenuForm.PasswordChangedSuccessfully</note>
       <tuv lang="ru">
         <seg>Пароль пользователя успешно изменен</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T132325Z">
+        <seg>User password changed successfully</seg>
       </tuv>
     </tu>
     <tu>
@@ -21481,6 +21487,9 @@ Unsaved packages. Exit anyway?</note>
       <note>Key = app/AppMenuForm.SaveAndQuitBtnText</note>
       <tuv lang="ru">
         <seg>Сохранить и выйти</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T132138Z">
+        <seg>Save and exit</seg>
       </tuv>
     </tu>
     <tu>
@@ -22834,6 +22843,12 @@ Do you want to delete all lost links and continue?</seg>
 {0}
 
 Попробовать открыть пакет?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T132600Z">
+        <seg>Linked node not found in open packages:
+{0}
+
+Try opening the package?</seg>
       </tuv>
     </tu>
     <tu>
