@@ -1000,6 +1000,9 @@ EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)</note>
       <tuv lang="ru">
         <seg>EncodeDateTime(Год, Месяц, День, Часы, Минуты [, Секунды [, Миллисекунды]])</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T120500Z">
+        <seg>EncodeDateTime(Year, Month, Day, Hours, Minutes [, Seconds [, Milliseconds]])</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">calc.json</prop>
