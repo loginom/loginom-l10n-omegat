@@ -132,8 +132,8 @@
       "tooltip": "Save"
     },
     "btnSearch": {
-      "text": "Поиск",
-      "tooltip": "Найти параметр по имени или значению"
+      "text": "Search",
+      "tooltip": "Search the parameter by name or value"
     },
     "colCategory": {
       "text": "Category"
@@ -393,7 +393,7 @@
       "text": "Appearance"
     },
     "btnChangePassword": {
-      "text": "Изменить пароль"
+      "text": "Change Password"
     },
     "btnHelp": {
       "text": "Help"
@@ -697,7 +697,7 @@
       "tooltip": "Publish..."
     },
     "btnRemoveAllFromFavorites": {
-      "tooltip": "Очистить избранное..."
+      "tooltip": "Clear favorites..."
     },
     "btnRemoveFromFavorites": {
       "tooltip": "Remove from favorite"
@@ -715,7 +715,7 @@
       "tooltip": "Go to base node"
     },
     "btnShowFavSource": {
-      "tooltip": "Перейти"
+      "tooltip": "Open"
     },
     "btnShowInPublished": {
       "tooltip": "Show in web services"
@@ -724,7 +724,7 @@
       "tooltip": "Open package"
     },
     "btnShowReferenceSource": {
-      "tooltip": "Перейти к источнику ссылки"
+      "tooltip": "Open the link source"
     },
     "btnShowViews": {
       "tooltip": "Show visualizers"
@@ -797,7 +797,7 @@
       "tooltip": "Delete selected..."
     },
     "btnRetrain": {
-      "tooltip": "Обучить узел"
+      "tooltip": "Train the node"
     },
     "btnSettingComponents": {
       "tooltip": "Configure panel"
@@ -1234,7 +1234,7 @@
       "fieldLabel": "Package"
     },
     "chbPublishMcpServer": {
-      "boxLabel": "Публиковать MCP сервер"
+      "boxLabel": "Publish the MCP server"
     },
     "chbRefreshOnSave": {
       "boxLabel": "Update publication on package saving"
@@ -1435,7 +1435,7 @@
     },
     "btnViewOpenIDVariables": {
       "text": "OpenID",
-      "tooltip": "Просмотр OpenID переменных..."
+      "tooltip": "View OpenID variables..."
     },
     "cbxDeactivateUpstreamOnCompletion": {
       "fieldLabel": "Deactivate node groups on completion"
@@ -1576,7 +1576,7 @@
   },
   "app/scheduler/JobTokenVariablesEditor": {
     "btnRefresh": {
-      "text": "Обновить список переменных"
+      "text": "Refresh Variable List"
     },
     "colName": {
       "text": "Variable"
@@ -2874,8 +2874,8 @@
       "tooltip": "Clone"
     },
     "btnCreateFilterNode": {
-      "text": "Создать узел \"Фильтр строк\"",
-      "tooltip": "Создать узел \"Фильтр строк\" на основе текущего фильтра..."
+      "text": "Create \"Row Filter\" node",
+      "tooltip": "Create a \"Row Filter\" node based on the current filter..."
     },
     "btnMoveDown": {
       "tooltip": "Move down"
@@ -5010,12 +5010,12 @@
       "fieldLabel": "Old password"
     },
     "frmChangePassword": {
-      "title": "Изменение пароля"
+      "title": "Change Password"
     }
   },
   "login/Login": {
     "btnCloseSession": {
-      "text": "Закрыть сессию"
+      "text": "Close Session"
     },
     "btnFastStart": {
       "href": "https:\/\/loginom.com\/platform\/quick-start\/",
@@ -5049,7 +5049,7 @@
       "emptyText": "Username"
     },
     "lblReconnect": {
-      "text": "Для восстановления сессии необходима аутентификация"
+      "text": "Authentication required for session restore"
     }
   },
   "markdown/MarkdownEditor": {
@@ -5177,7 +5177,7 @@
       "text": "Cancel"
     },
     "chkShowCreatedNode": {
-      "boxLabel": "Перейти к новому узлу после добавления"
+      "boxLabel": "Go to the newly added node"
     },
     "txtFilterNodeCaption": {
       "emptyText": "Row Filter"
@@ -5970,7 +5970,7 @@
       "text": "Left"
     },
     "mniMovePivot": {
-      "text": "Повернуть"
+      "text": "Pivot"
     },
     "mniMoveRight": {
       "text": "Right"

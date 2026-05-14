@@ -3604,8 +3604,8 @@
     "LogErrKafkaCallBackFmt": "Kafka error: \"%s\", reason: \"%s\""
   },
   "Libraries/LDAP/LDAPConfigurator": {
-    "Account": "Служебная учётная запись: логин\/DN",
-    "AccountAuth": "Служебная учётная запись: аутентификация",
+    "Account": "Service account: username\/DN",
+    "AccountAuth": "Service account: authentication",
     "BaseDN": "Base",
     "ConnectionSecurity": "Connection security",
     "DefaultUserRole": "New user role",
@@ -3614,7 +3614,7 @@
     "Host": "Host",
     "NameAttribute": "Name attribute",
     "NoCheckCertificate": "Do not check server certificate",
-    "Password": "Служебная учётная запись: пароль",
+    "Password": "Service account: password",
     "Port": "Port",
     "UseSASL": "Use SASL"
   },
@@ -3828,7 +3828,7 @@
     "ErrCannotDeleteDerivedVendors": "It is not possible to delete the derived components"
   },
   "Libraries/Model/FilterNodeCreator": {
-    "ErrFilterDataVendorNotCreated": "В текущем контексте нельзя создать компонент фильтрации данных"
+    "ErrFilterDataVendorNotCreated": "You cannot create a data filter component in the current context"
   },
   "Libraries/Model/Generic/ModelGenericComponent": {
     "ErrInputSocketDefsEmptyName": "No name of the following inputs specified: ",
@@ -4330,7 +4330,7 @@
   "Libraries/OpenID/OpenID": {
     "InvalidTokenResponce": "Token request response is not a token-containing JSON",
     "MissingClaim": "The token does not contain the %s claim",
-    "MissingUserInfo": "Информация о пользователе не содержит свойство %s",
+    "MissingUserInfo": "User info does not contain the %s property",
     "TokenNotIncludeRolesClame": "The token does not contain the list of roles with the %s claim",
     "TokenRequestError": "Error receiving token. %s"
   },
@@ -4350,12 +4350,12 @@
     "ResponseMode": "Authentication request response format",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint",
-    "UpdateUserName": "Обновлять полное имя пользователя",
+    "UpdateUserName": "Update full username",
     "UpdateUserRole": "Update user role",
     "UserFullNameClaim": "Full username claim in token",
     "UserInfoEndpoint": "User information endpoint",
     "UserNameClaim": "Username claim in token",
-    "UserNameFromToken": "Получение имени пользователя из токена",
+    "UserNameFromToken": "Retrieve username from token",
     "UserRoleNameMap": "List of role names to map to user roles"
   },
   "Libraries/Optimization/Optimization": {
@@ -4482,7 +4482,7 @@
     "ErrUnsupportedParameterType": "Unsupported argument type"
   },
   "Libraries/rpc/RemoteServer": {
-    "BindError": "Ошибка привязки к %s:%s (%s)."
+    "BindError": "Error binding with %s:%s (%s)."
   },
   "Libraries/rpc/RemotingConvertUtils": {
     "ErrValueOutOfRange": "%d value is not in the range of allowable values %s"
@@ -4496,7 +4496,7 @@
   },
   "Libraries/rpc/Session": {
     "ConnectionTimedOut": "Connection was closed by idle timeout: %d seconds",
-    "DisconnectedSessionRecovered": "Сессия с разрывом связи восстановлена",
+    "DisconnectedSessionRecovered": "Disconnected session restored",
     "ErrAccessDenied": "Access denied",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while closing SessionHost",
     "ErrDifferentRpcExceptionProcAlreadyRegistered": "Another RPC exception handler already registered",
@@ -4515,12 +4515,12 @@
     "ErrUnknownInterfaceID": "Unknown interface identifier: %d",
     "ErrValueOutOfRange": "Value %d is not in the range of allowable values [%d, %d]",
     "IdleLockTimeOut": "Session was locked by idle timeout: %d seconds",
-    "KeepAliveTimedOut": "Сессия закрыта по тайм-ауту после разрыва связи: %d секунд",
-    "KeepAliveTimeoutStarted": "Сессия сохранена после обнаруженного разрыва связи",
-    "NetworkErrorDetected": "Обнаружен разрыв связи"
+    "KeepAliveTimedOut": "Session closed upon connection break timeout: %d seconds",
+    "KeepAliveTimeoutStarted": "Session saved upon connection break detection",
+    "NetworkErrorDetected": "Connection break detected"
   },
   "Libraries/rpc/TCPRemoteServer": {
-    "UnixSocketError": "Ошибка при создании UNIX-сокета \"%s\" (%s)."
+    "UnixSocketError": "Error creating UNIX socket \"%s\" (%s)."
   },
   "Libraries/rpc/WebSocketMessageTransport": {
     "ConnectionClosedUnansweredPing": "WebSocket connection closed because Ping message was not responded"
@@ -4548,8 +4548,8 @@
     "WSDLClientConnectionVendorDesc": "Connector to SOAP service specified by WSDL document"
   },
   "Libraries/XLSXExport/XLSXFormatting": {
-    "ErrFontSizeLargerThanMax": "Размер шрифта больше максимально разрешённого значения %d",
-    "ErrFontSizeLesserThanMin": "Размер шрифта меньше минимально разрешённого значения %d"
+    "ErrFontSizeLargerThanMax": "The font size is larger than the allowed maximum %d",
+    "ErrFontSizeLesserThanMin": "The font size is less than the allowed minimum %d"
   },
   "Libraries/XLSXExport/XLSXGenerate": {
     "Sheet1Name": "Sheet1"
@@ -4680,14 +4680,14 @@
     "PublishedPackageRemoved": "Package \"%s\" unpublished",
     "PublishedPackagesAutoUpdate": "Publication of packages updated automatically",
     "PublishedPackageUpdated": "Published package \"%s\" updated",
-    "ReconnectAuthFail": "Ошибка в аутентификации пользователя \"%s\" при восстановлении сессии",
-    "ReconnectAuthRequest": "Отказ в восстановлении сессии без аутентификации",
-    "ReconnectBlockedSession": "Запрос на аутентификацию для восстановления заблокированной сессии",
-    "ReconnectChangedIP": "Попытка восстановить сессию с другого IP адреса",
-    "ReconnectSessionNotFound": "Сессия для восстановления не найдена",
-    "ReconnectSuccess": "Подключение к восстановленной сессии %s",
-    "ReconnectSuccessAuth": "Подключение к восстановленной сессии %s после успешной аутентификации",
-    "ReconnectWrongUser": "Попытка восстановить сессию с другого пользователя",
+    "ReconnectAuthFail": "Authentication for user \"%s\" failed during session restore",
+    "ReconnectAuthRequest": "Session restore denied without authentication",
+    "ReconnectBlockedSession": "Authentication request for a locked session restore",
+    "ReconnectChangedIP": "Attempt to restore session with a new IP address",
+    "ReconnectSessionNotFound": "Session to restore not found",
+    "ReconnectSuccess": "Connection to restored session %s",
+    "ReconnectSuccessAuth": "Connection to restored session %s upon successful authentication",
+    "ReconnectWrongUser": "Attempt to restore session under a new user",
     "ServerIsInMaintenance": "The server is in maintenance mode",
     "ServerStartLogMsg": "%s started",
     "ServerStopLogMsg": "%s stopped",
@@ -4696,7 +4696,7 @@
     "SessionInitializedLogMsg": "Initialized session for %s user",
     "SessionIntegrator": "Request from integrator",
     "SessionInteractive": "Interactive session",
-    "SessionReconnectRequestLogMsg": "Получен запрос на восстановление связи с сессией",
+    "SessionReconnectRequestLogMsg": "Session reconnect requested",
     "UnsavedPackageClosedLogMsg": "Package draft closed",
     "UnsavedPackageCreatedLogMsg": "Package draft created",
     "WarnClosePackageFailed": "Failed to close %s package from Session Manager. Probably, the session has already been closed",
@@ -4723,13 +4723,13 @@
     "MaxSchedulerHistoryDays": "Store scheduler history (days)",
     "PackagePoolSize": "Package pool size",
     "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL has higher priority than SChannel for HTTPS",
-    "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
+    "ProhibitReconnectChangeIP": "Reconnect only with current IP",
     "PublishedPackagesUpdatePeriod": "Web services change check period",
     "RAMLimitKB": "Memory limit (KB)",
     "RAMLimitRatio": "Memory usage ratio",
-    "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
+    "ReconnectRequiresAuth": "Request authentication on reconnect",
     "SessionBackupDirectory": "Session backups",
-    "SessionKeepAlive": "Время жизни сессии после разрыва",
+    "SessionKeepAlive": "Session lifetime after disconnect",
     "StopTimeout": "Server stop timeout",
     "ThreadPoolSize": "Thread pool size",
     "TraceExceptions": "Trace exceptions",
@@ -4774,13 +4774,13 @@
     "ErrMaxLengthPassword": "Password must be up to %d characters",
     "ErrNoUsersWithAdminPrivileges": "There are no users with admin privileges",
     "ErrOpenIDUserNotFound": "User not found",
-    "ErrTokenUserName": "Не удалось получить имя пользователя",
+    "ErrTokenUserName": "Failed to retrieve username",
     "ErrUserAlreadyDeleted": "User already deleted",
     "ErrUserHasActiveSessions": "%s user has active sessions",
     "ErrUserNameConflictsWithSharedDirectory": "Username conflicts with %s shared directory name",
     "ErrUserNameIsReserved": "%s identifier has already been reserved and it cannot be used as a username",
     "ErrUserNameMustBeValid": "Username can consist of Latin letters, digits, _ - . characters and space,\nbut it cannot end with a dot or space.",
-    "ErrWrongAuthMode": "Изменение пароля допустимо только при локальной аутентификации",
+    "ErrWrongAuthMode": "Changing the password is only allowed with local authentication",
     "ExternName": "System user",
     "GroupEveryone": "All",
     "IsAdmin": "Admin",
@@ -4839,8 +4839,8 @@
     "WSDLClientConnection": "SOAP service connector"
   },
   "Studio/Scheduler": {
-    "ClaimName": "Имя клейма",
-    "ClaimValue": "Значение клейма",
+    "ClaimName": "Claim name",
+    "ClaimValue": "Claim value",
     "ErrCannotStartDisabledJob": "Execution of job \"%s\" forbidden",
     "ErrHistoryCountMustNotBeNegative": "Count of history records must not be negative",
     "ErrInvalidExceptionInfoFormat": "Incorrect format of exception information",
@@ -5275,7 +5275,7 @@
     "MsgGroupDeleteDimProcess": "Preparing to delete. Grouping data by dimension.",
     "MsgLoadDataDimensionProcess": "Loading the Dimension data into the Data Warehouse",
     "MsgLoadDataProcess": "Loading the Process data into the Data Warehouse",
-    "MsgPrepareDimDataProcess": "Подготовка измерений перед загрузкой в Хранилище данных",
+    "MsgPrepareDimDataProcess": "Preparing dimensions before upload into Data Warehouse",
     "MsgRecordSkipDimValueIsNull": "Data of \"%d\" row was not added to DW. \"%s\" [%s] dimension value is null.",
     "MsgStatisticsGatheringProcess": "Collecting statistics"
   },

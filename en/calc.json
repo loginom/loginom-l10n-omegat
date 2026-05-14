@@ -255,13 +255,13 @@
       "Output": "Function returns the date formed from the specified arguments."
     },
     "EncodeDateTime": {
-      "Arguments": "Год - год в виде числа,\nМесяц - месяц в виде числа,\nДень - день в виде числа,\nЧасы - часы в виде числа,\nМинуты - минуты в виде числа,\nСекунды - секунды в виде числа,\nМиллисекунды - миллисекунды от 0 до 999.",
-      "Description": "EncodeDateTime(Год, Месяц, День, Часы, Минуты [, Секунды [, Миллисекунды]])",
+      "Arguments": "Year - the number of the year,\nMonth - the number of the month,\nDay - the number of the day,\nHours - the number of hours,\nMinutes - the number of minutes,\nSeconds - the number of seconds,\nMilliseconds - the number of milliseconds (0–999).",
+      "Description": "EncodeDateTime(Year, Month, Day, Hours, Minutes [, Seconds [, Milliseconds]])",
       "Output": "Function returns the date and time formed from the specified arguments."
     },
     "EncodeTime": {
-      "Arguments": "Часы - часы в виде числа,\nМинуты - минуты в виде числа,\nСекунды - секунды в виде числа,\nМиллисекунды - миллисекунды от 0 до 999.",
-      "Description": "EncodeTime(Часы, Минуты [, Секунды [, Миллисекунды]])",
+      "Arguments": "Hours - the number of hours,\nMinutes - the number of minutes,\nSeconds - the number of seconds,\nMilliseconds - the number of milliseconds (0–999).",
+      "Description": "EncodeTime(Hours, Minutes [, Seconds [, Milliseconds]])",
       "Output": "Function returns the time formed from the specified arguments."
     },
     "EndOfTheMonth": {

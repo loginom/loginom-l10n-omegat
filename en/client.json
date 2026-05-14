@@ -21,19 +21,19 @@
     "TestValue": "Test"
   },
   "admin/LDAPSettings": {
-    "AccountAuth": "Служебная учётная запись: аутентификация",
+    "AccountAuth": "Service account: authentication",
     "ConnectionSecurity": "Connection security",
     "DefaultUserRole": "New user role",
     "DirtySettings": "Settings not saved before testing",
     "EmptyParam": "The \"{0}\" parameter must not be empty",
     "ErrorParams": "Errors in LDAP configuration parameters:",
-    "LDAPAccount": "Служебная учётная запись: логин\/DN",
+    "LDAPAccount": "Service account: username\/DN",
     "LDAPBaseDN": "Base domain name",
     "LDAPFilter": "LDAP filter",
     "LDAPFullNameAttribute": "Attribute with full username",
     "LDAPHost": "Host",
     "LDAPNameAttribute": "Attribute with username",
-    "LDAPPassword": "Служебная учётная запись: пароль",
+    "LDAPPassword": "Service account: password",
     "LDAPPort": "Port",
     "NoCheckCertificate": "Do not check server certificate",
     "TestLabel": "Authentication testing",
@@ -71,12 +71,12 @@
     "RedirectURI": "Client URL",
     "RolesClaim": "Role list claim",
     "TokenEndpoint": "Token endpoint",
-    "UpdateUserName": "Обновлять полное имя пользователя",
+    "UpdateUserName": "Update full username",
     "UpdateUserRole": "Update user role",
     "UserFullNameClaim": "Full username claim",
     "UserInfoEndpoint": "User information endpoint",
     "UserNameClaim": "Username claim",
-    "UserNameFromToken": "Получение имени пользователя из токена",
+    "UserNameFromToken": "Retrieve username from token",
     "UserRoleNameMap": "List of role names"
   },
   "admin/OpenIDTestForm": {
@@ -147,16 +147,16 @@
     "PingPeriod": "Connection check period (s)",
     "Port": "TCP port",
     "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL has higher priority than SChannel for HTTPS",
-    "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
+    "ProhibitReconnectChangeIP": "Reconnect only with current IP",
     "PublishedPackagesUpdatePeriod": "Web services change check period (s)",
     "RAMLimit": "Memory limit",
     "RAMLimitDecreaseAfterRestart": "Memory limit will be decreased after restart.",
     "RAMLimitRatio": "Memory usage ratio",
-    "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
+    "ReconnectRequiresAuth": "Request authentication on reconnect",
     "SecuritySettings": "Security settings",
     "ServerSettings": "Server parameters",
     "SessionBackupDirectory": "Session backups",
-    "SessionKeepAlive": "Время жизни сессии после разрыва (сек)",
+    "SessionKeepAlive": "Session lifetime after disconnect (s)",
     "SSLCertificateFile": "Certificate file name",
     "SSLPrivateKeyFile": "Private key file name",
     "StopTimeout": "Server stop timeout (s)",
@@ -257,13 +257,13 @@
     "NotifyMsgFromAdminTitle": "Administrator Message"
   },
   "app/AppMenuForm": {
-    "ConfirmQuit": "Сохранить все несохранённые пакеты?",
+    "ConfirmQuit": "Save all unsaved packages?",
     "ErrCannotCloseApplication": "Failed to close the application due to active processes that did not finish within timeout.",
     "Menu": "Menu",
-    "NotSaveAndQuitBtnText": "Выйти без сохранения",
-    "PasswordChangedSuccessfully": "Пароль пользователя успешно изменен",
+    "NotSaveAndQuitBtnText": "Exit without saving",
+    "PasswordChangedSuccessfully": "User password changed successfully",
     "QAHref": "https:\/\/qa.loginom.com\/questions\/",
-    "SaveAndQuitBtnText": "Сохранить и выйти"
+    "SaveAndQuitBtnText": "Save and exit"
   },
   "app/AppUtils": {
     "ConfirmRemovingDerivedVendor": "{0}\nDo you really want to delete \"{1}\" component?",
@@ -276,8 +276,8 @@
     "ErrCannotDeleteNode": "Failed to delete the locked \"{0}\" node.",
     "ErrCannotDeleteUnit": "Failed to delete \"{0}\" module. Some of the nodes are currently locked.",
     "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some derived nodes are currently locked.",
-    "NotFoundBaseNodePrompt": "В открытых пакетах не найден связанный узел:\n{0}\n\nПопробовать открыть пакет?",
-    "NotFoundNodeFmt": "В пакете \"{0}\" не удалось найти узел с GUID={1}",
+    "NotFoundBaseNodePrompt": "Linked node not found in open packages:\n{0}\n\nTry opening the package?",
+    "NotFoundNodeFmt": "Failed to find the node with GUID={1} in the  \"{0}\" package",
     "Open": "Open",
     "PackageNamePrefix": "Package"
   },
@@ -325,12 +325,12 @@
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
     "DoReconnect": "Restore",
     "ErrAccessDenied": "Access denied",
-    "ErrDisconnected": "Обнаружен разрыв связи.",
+    "ErrDisconnected": "Connection break detected.",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: {1}.",
     "ErrorMailSubject": "Error message",
     "ErrPackageDontExists": "\"{0}\" package not found",
     "ErrPackageNotSaved": "Current package not saved",
-    "ErrSessionClosed": "Запрашиваемая сессия уже была закрыта",
+    "ErrSessionClosed": "The requested session has already been closed",
     "ErrUrlPathNotFound": "\"{0}\" path not found.",
     "ExpandMainToolbar": "Expand",
     "FavoritesTitle": "Favorites",
@@ -340,17 +340,17 @@
     "MsgManagedPackageClosed": "{0} package was closed via Session Manager",
     "MsgNodeNotFound": "The specified node was not found. Transition is not possible.",
     "MsgTransportError": "Server connection lost",
-    "NotSaveBtnText": "Не сохранять",
+    "NotSaveBtnText": "Do Not Save",
     "OSLabel": "OS",
     "PackageCloseFormat": "Do you want to close package \"{0}\" also?",
     "PackageCopyOpened": "Changes in package \"{0}\" opened through reference will be reflected in the current package upon its reload",
     "PlatformEditionLabel": "Edition",
-    "ReconnectAuthFail": "Ошибка аутентификации",
-    "ReconnectCaption": "Восстановление сессии",
-    "ReconnectGenericFail": "Ошибка при попытке восстановить сессию",
-    "ReconnectionErrorChangedIP": "Настройки безопасности запрещают восстанавливать сессию с другого IP",
-    "ReconnectPrompt": "Восстановить сессию?",
-    "ReconnectWrongCredentials": "К сессии может подключиться только пользователь, который ее создал",
+    "ReconnectAuthFail": "Authentication error",
+    "ReconnectCaption": "Session restore",
+    "ReconnectGenericFail": "Session restore error",
+    "ReconnectionErrorChangedIP": "Security settings prevent session restore with a new IP",
+    "ReconnectPrompt": "Restore session?",
+    "ReconnectWrongCredentials": "Only the user who created the session can connect",
     "SaveBtnText": "Save",
     "ServerDisplayName": "Server",
     "VersionLabel": "Version {0}",
@@ -373,8 +373,8 @@
     "CloseBtnText": "Close",
     "ConfirmCloseAllPackages": "Do you want to close all packages?",
     "ConfirmCloseOtherPackages": "Do you want to close other packages?",
-    "ConfirmDeleteFavoriteFile": "Не удалось найти файл \"{0}\".\nВозможно, он был переименован, перемещен или удален.\n\nВы хотите удалить его из списка избранных?",
-    "ConfirmDeleteFavoriteFolder": "Не удалось найти папку \"{0}\".\nВозможно, она была переименована, перемещена или удалена.\n\nВы хотите удалить её из списка избранных?",
+    "ConfirmDeleteFavoriteFile": "File \"{0}\" not found.\nIt may have been renamed, moved, or deleted.\n\nDo you want to remove it from favorites?",
+    "ConfirmDeleteFavoriteFolder": "Folder \"{0}\" not found.\nIt may have been renamed, moved, or deleted.\n\nDo you want to remove it from favorites?",
     "ConnectionDisplayNameDefault": "Connection",
     "Connections": "Connections",
     "ErrCannotClosePackage": "Failed to close package. The package contains active processes that did not finish within timeout.",
@@ -384,7 +384,7 @@
     "FileStorage": "Files",
     "HomePage": "Home",
     "InputPorts": "Input ports",
-    "Keep": "Оставить",
+    "Keep": "Leave as is",
     "Manager": "Session Manager",
     "ModelViews": "Visualizers",
     "OutputPorts": "Output ports",
@@ -409,7 +409,7 @@
   "app/MapTreeForm": {
     "CantFindSourceNode": "Failed to find source node",
     "Clear": "Clean",
-    "ClearFavoritesMsg": "Очистить список избранных файлов и папок?",
+    "ClearFavoritesMsg": "Clear the list of favorite files and folders?",
     "ConfirmRemovingReference": "Do you want to delete \"{0}\" reference?",
     "Delete": "Delete",
     "DisplayName": "Caption",
@@ -520,7 +520,7 @@
     "SetupNode": "Configure node...",
     "ShowControlVariablesPort": "Show control variables port",
     "ShowDataPreview": "Quick view",
-    "TeachNode": "Обучить узел",
+    "TeachNode": "Train the node",
     "TuneDerivedVendor": "Configure...",
     "UndoableDeleteNode": "Delete (forced)...",
     "UpdateConfiguration": "Update node configuration",
@@ -682,7 +682,7 @@
     "PeriodTypeWeek": "weeks",
     "SelfStartAfterJobCaption": "Current job",
     "ViewTokenVariablesApplyText": "Close",
-    "ViewTokenVariablesWindowTitle": "Переменные из токена OpenID"
+    "ViewTokenVariablesWindowTitle": "Variables from OpenID Token"
   },
   "app/scheduler/JobVariableEditor": {
     "ErrorInvalidNameFmt": "The name value of variable \"{0}\" name is not a valid identifier",
@@ -1523,10 +1523,10 @@
     "ExecutionStarted": "Export has already started",
     "ExportPrefix": "Export to ",
     "HtmFileDesc": "Webpage",
-    "WarnExcelMaxCol": "Документ формата XLSX не может содержать более {0} колонок. Колонки с {1} по {2} будут пропущены.",
-    "WarnExcelMaxRow": "Документ формата XLSX не может содержать более {0} строк. Строки с {1} по {2} будут пропущены.",
-    "WarnExport": "Обнаружены проблемы:\n\n{0}\n\nВы действительно хотите начать экспорт?",
-    "WarnExportTableSizeWarning": "Текущий размер экспортируемых данных составляет {0} ячеек.\nРазмер экспортируемого файла оценивается в не менее {1} МБ.",
+    "WarnExcelMaxCol": "An XLSX document cannot contain more than {0} columns. Columns from {1} to {2} will be skipped.",
+    "WarnExcelMaxRow": "An XLSX document cannot contain more than {0} rows. Rows from {1} to {2} will be skipped.",
+    "WarnExport": "Issues detected:\n\n{0}\nDo you really want to start export?",
+    "WarnExportTableSizeWarning": "Current export data size is {0} cells.\nEstimated export file size is not less than {1} MB.",
     "XlsxFileDesc": "Excel 2007 workbooks"
   },
   "ext/ExtJS": {
@@ -1555,13 +1555,13 @@
   },
   "ext/GridClipboard": {
     "BtnCopyYes": "Copy",
-    "CopyLimitReached": "Превышено максимальное количество, скопировано только {0} строк данных.",
+    "CopyLimitReached": "Maximum count exceeded. Only {0} data rows were copied.",
     "ErrorTooMany": "Failed to copy selected cells to clipboard. Too many rows selected.",
-    "LoadingSplash": "Копируются данные...",
-    "MsgBoxFinishCopy": "Завершить копирование?",
-    "NoHTTPSMsg": "Скопировать выделенные ячейки в буфер обмена не удалось. Необходимо соединение по протоколу HTTPS.",
-    "ToastCopyLimit": " (первые {0} строк)",
-    "ToastName": "Копирование"
+    "LoadingSplash": "Copying data...",
+    "MsgBoxFinishCopy": "Finish copying?",
+    "NoHTTPSMsg": "Failed to copy selected cells to clipboard. HTTPS connection required.",
+    "ToastCopyLimit": " (first {0} rows)",
+    "ToastName": "Copy"
   },
   "ext/GridMenu": {
     "AllColumns": "All columns",
@@ -1834,13 +1834,13 @@
   },
   "filestorage/FavoritesForm": {
     "Clear": "Clean",
-    "ClearFavorites": "Очистить избранное...",
-    "ClearFavoritesMsg": "Очистить список избранных файлов и папок?",
-    "ConfirmRemove": "Вы действительно хотите убрать выбранные элементы из \"Избранного\"?",
+    "ClearFavorites": "Clear favorites...",
+    "ClearFavoritesMsg": "Clear the list of favorite files and folders?",
+    "ConfirmRemove": "Do you really want to remove the selected items from \"Favorites\"? ",
     "FullPath": "Path",
-    "GoToSource": "Перейти",
+    "GoToSource": "Open",
     "Name": "Name",
-    "Remove": "Убрать",
+    "Remove": "Remove",
     "RemoveFromFavorites": "Remove from favorite",
     "ShowPackage": "Open package"
   },
@@ -1895,7 +1895,7 @@
     "FullPathCopied": "Full names of selected files were copied to clipboard",
     "HasNotStorageItems": "No files to be copied\/cut",
     "InvalidFileName": "File name contains invalid characters",
-    "MaxFavoritesAddingError": "В избранное можно добавить не более {0} элементов одновременно. Вы выбрали {1}.",
+    "MaxFavoritesAddingError": "Not more than {0} items can be added to favorites at once. You have selected {1} items.",
     "NeedNotEmptyFolderName": "It is required to specify a non-empty directory name",
     "NoHTTPSMsg": "Connection via HTTPS protocol is required for this operation.",
     "Open": "Open",
@@ -2322,7 +2322,7 @@
     "PasswordMustChanged": "Password Change Required"
   },
   "login/Login": {
-    "BtnReconnect": "Восстановить сессию",
+    "BtnReconnect": "Restore Session",
     "VersionLabelFmt": "Version: {0}"
   },
   "login/LoginToken": {
@@ -2535,7 +2535,7 @@
     "AutomaticNodeTitle": "Auto-Caption",
     "CustomNodeTitle": "Custom Caption",
     "DefaultNodeCaption": "Row Filter",
-    "FilterNodeCreated": "Узел \"{0}\" создан"
+    "FilterNodeCreated": "Node \"{0}\" created"
   },
   "viewers/browse/BrowseFormat": {
     "ActColInAllInvisibleTip": "Hidden",
@@ -2752,7 +2752,7 @@
     "ErrExportFailed": "Failed to export the Cube cross table",
     "ExportToastTitle": "Export from Cube",
     "HideSingleCase": "Hide single measure",
-    "RepeatHeader": "Повторять заголовки"
+    "RepeatHeader": "Repeat headers"
   },
   "viewers/cube/DimensionFilterSelectionPanel": {
     "DimensionFilterSelectionPanelTitle": "Check by Pattern"
@@ -3338,7 +3338,7 @@
   },
   "wizards/WizardModelComponentForm": {
     "BtnExecuteCaption": "Run",
-    "BtnRetrainCaption": "Обучить",
+    "BtnRetrainCaption": "Train",
     "ErrUnknownObject": "Attempt to get wizard for unknown object"
   },
   "wizards/WizardModelConnectionForm": {

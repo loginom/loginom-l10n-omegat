@@ -53,7 +53,7 @@
   },
   "Net/Session": {
     "ConnectionTimedOut": "Session was closed by idle timeout: {0} s",
-    "DisconnectedSessionRecovered": "Сессия с разрывом связи восстановлена",
+    "DisconnectedSessionRecovered": "Disconnected session restored",
     "ErrAccessDenied": "Access denied",
     "ErrCannotAddSessionToClosingSessionHost": "Failed to add a new session while closing SessionHost",
     "ErrDifferentRpcExceptionDelegateAlreadyRegistered": "Another RPC exception handler already registered",
@@ -70,9 +70,9 @@
     "ErrSessionIsLocked": "Failed to perform the operation because the session is locked",
     "ErrUnknownInterfaceID": "Unknown interface identifier: {0}",
     "IdleLockTimeOut": "Session was locked by idle timeout: {0} seconds",
-    "KeepAliveTimedOut": "Сессия закрыта по тайм-ауту после разрыва связи: {0} секунд",
-    "KeepAliveTimeoutStarted": "Сессия сохранена после обнаруженного разрыва связи",
-    "NetworkErrorDetected": "Обнаружен разрыв связи"
+    "KeepAliveTimedOut": "Session closed upon connection break timeout: {0} seconds",
+    "KeepAliveTimeoutStarted": "Session saved upon connection break detection",
+    "NetworkErrorDetected": "Connection break detected"
   },
   "Net/SessionThreaded": {
     "ErrIncorrectMainServerObjectInterfaceID": "Invalid interface identifier of the main server object received",
@@ -90,8 +90,8 @@
   },
   "Net/WebSocketMessageTransport": {
     "ErrConnectionClosed": "Connection closed by remote host",
-    "ErrConnectionError": "Соединение через веб-сокет закрыто с ошибкой",
-    "ErrConnectionFailed": "Обрыв связи",
+    "ErrConnectionError": "Web socket connection closed with an error",
+    "ErrConnectionFailed": "Connection failed",
     "ErrFailedToConnectWebSocket": "Failed to connect to the web socket at the following address {0}"
   }
 }

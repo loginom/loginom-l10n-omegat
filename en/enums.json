@@ -1421,7 +1421,7 @@
   },
   "Libraries/LDAP/LDAP": {
     "LDAPAuthMethod": {
-      "$Caption": "Метод аутентификации",
+      "$Caption": "Authentication method",
       "Simple": "Simple",
       "SASLDigestMD5": "SASL DIGEST-MD5",
       "SASLGSSAPI": "SASL GSSAPI"
@@ -1633,13 +1633,13 @@
   },
   "Studio/DeductorServer": {
     "ReconnectResult": {
-      "$Caption": "Результат подключения к сессии",
-      "Success": "Сессия восстановлена",
-      "NotFound": "Сессия не найдена",
-      "ChangedIP": "Нельзя зайти с другого IP",
-      "RequireAuth": "Требуется аутентификация",
-      "WrongUser": "Пользователь не владеет сессией",
-      "AuthFail": "Ошибка аутентификации"
+      "$Caption": "Session Connection Result",
+      "Success": "Session restored",
+      "NotFound": "Session not found",
+      "ChangedIP": "Login with a new IP restricted",
+      "RequireAuth": "Authentication required",
+      "WrongUser": "The user is not the session owner",
+      "AuthFail": "Authentication error"
     }
   },
   "Studio/DeductorServerSettings": {
@@ -1930,9 +1930,9 @@
       "Value": "Value",
       "PercentByRow": "Percent by row",
       "PercentByCol": "Percent by column",
-      "PercentByRowParent": "Процент от родителя по горизонтали",
-      "PercentByColParent": "Процент от родителя по вертикали",
-      "PercentByGrandTotal": "Процент от общего итога"
+      "PercentByRowParent": "Percentage of parent by row",
+      "PercentByColParent": "Percentage of parent by column",
+      "PercentByGrandTotal": "Percentage of total"
     }
   },
   "Viewers/DataQuality/QualityViewHistogram": {

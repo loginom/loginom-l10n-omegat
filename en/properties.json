@@ -184,7 +184,7 @@
       "Condition": "Condition"
     },
     "ConditionItem": {
-      "AggregationType": "Функция агрегации",
+      "AggregationType": "Aggregation function",
       "CaseSensitive": "Case-sensitive",
       "CompareValue": "Compared value",
       "FieldLink": "Compared field",
@@ -929,8 +929,8 @@
   },
   "Libraries/LDAP/LDAP": {
     "LDAPConfigurator": {
-      "Account": "Служебная учётная запись: логин\/DN",
-      "AccountAuth": "Служебная учётная запись: аутентификация",
+      "Account": "Service account: username\/DN",
+      "AccountAuth": "Service account: authentication",
       "BaseDN": "Base domain name",
       "ConnectionSecurity": "Connection security",
       "DefaultUserRole": "New user role",
@@ -939,7 +939,7 @@
       "Host": "Host",
       "NameAttribute": "Name attribute",
       "NoCheckCertificate": "Do not check server certificate",
-      "Password": "Служебная учётная запись: пароль",
+      "Password": "Service account: password",
       "Port": "Port",
       "UseSASL": "Use SASL"
     }
@@ -990,12 +990,12 @@
       "ResponseMode": "Response format",
       "RolesClaim": "User role list claim",
       "TokenEndpoint": "Token endpoint",
-      "UpdateUserName": "Обновлять полное имя пользователя",
+      "UpdateUserName": "Update full username",
       "UpdateUserRole": "Update user role",
       "UserFullNameClaim": "Full username claim",
       "UserInfoEndpoint": "User information endpoint",
       "UserNameClaim": "Username claim",
-      "UserNameFromToken": "Получение имени пользователя из токена",
+      "UserNameFromToken": "Retrieve username from token",
       "UserRoleNameMap": "List of roles"
     }
   },
@@ -1090,13 +1090,13 @@
       "MaxSchedulerHistoryDays": "Store scheduler history (days)",
       "PackagePoolSize": "Package pool size",
       "PreferOpenSSLOverSChannelForHTTPS": "OpenSSL has higher priority than SChannel for HTTPS",
-      "ProhibitReconnectChangeIP": "Переподключаться только с текущего IP",
+      "ProhibitReconnectChangeIP": "Reconnect only with current IP",
       "PublishedPackagesUpdatePeriod": "Web services change check period",
       "RAMLimitKB": "Memory limit (KB)",
       "RAMLimitRatio": "Memory usage ratio",
-      "ReconnectRequiresAuth": "Требовать аутентификацию при переподключении",
+      "ReconnectRequiresAuth": "Request authentication on reconnect",
       "SessionBackupDirectory": "Directory containing session backups",
-      "SessionKeepAlive": "Время жизни сессии после разрыва",
+      "SessionKeepAlive": "Session lifetime after disconnect",
       "StopTimeout": "Server stop timeout",
       "ThreadPoolSize": "Thread pool size",
       "TraceExceptions": "Trace exceptions",
