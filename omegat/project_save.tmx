@@ -113259,6 +113259,9 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Перейти к новому узлу после добавления</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T201225Z">
+        <seg>Go to the newly added node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
