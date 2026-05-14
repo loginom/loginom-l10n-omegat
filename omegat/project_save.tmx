@@ -90724,6 +90724,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Получен запрос на восстановление связи с сессией</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195431Z">
+        <seg>Session reconnect requested</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -91018,6 +91021,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Переподключаться только с текущего IP</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195454Z">
+        <seg>Reconnect only with current IP</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -91059,6 +91065,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Требовать аутентификацию при переподключении</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195514Z">
+        <seg>Request authentication on reconnect</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -91077,6 +91086,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServerSettings.SessionKeepAlive</note>
       <tuv lang="ru">
         <seg>Время жизни сессии после разрыва</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195720Z">
+        <seg>Session lifetime after disconnect</seg>
       </tuv>
     </tu>
     <tu>
