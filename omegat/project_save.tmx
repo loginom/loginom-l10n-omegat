@@ -88880,6 +88880,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Сессия с разрывом связи восстановлена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190736Z">
+        <seg>Disconnected session restored</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
