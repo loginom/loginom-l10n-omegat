@@ -978,14 +978,14 @@ Seconds - seconds in the form of a number.</note>
 Секунды - секунды в виде числа,
 Миллисекунды - миллисекунды от 0 до 999.</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260514T120350Z">
+      <tuv lang="en" changeid="mihalina" changedate="20260514T122613Z">
         <seg>Year - the number of the year,
 Month - the number of the month,
-Day - the number of the date,
+Day - the number of the day,
 Hours - the number of hours,
 Minutes - the number of minutes,
 Seconds - the number of seconds,
-Milliseconds - milliseconds, from 0 to 999.</seg>
+Milliseconds - the number of milliseconds (0–999).</seg>
       </tuv>
     </tu>
     <tu>
