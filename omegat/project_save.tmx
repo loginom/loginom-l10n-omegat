@@ -21608,6 +21608,9 @@ Account</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: логин/DN</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T121418Z">
+        <seg>Service account: username/DN</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25401,6 +25404,9 @@ Error: {1}.</seg>
 Password</note>
       <tuv lang="ru">
         <seg>Служебная учётная запись: пароль</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T121439Z">
+        <seg>Service account: password</seg>
       </tuv>
     </tu>
     <tu>
@@ -29548,6 +29554,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Обновлять полное имя пользователя</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T121510Z">
+        <seg>Update full username</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -30153,6 +30162,9 @@ Do you really want to start port configuration?</seg>
       <note>Key = admin/OpenIDSettings.UserNameFromToken</note>
       <tuv lang="ru">
         <seg>Получение имени пользователя из токена</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T121615Z">
+        <seg>Retrieve username from token</seg>
       </tuv>
     </tu>
     <tu>
