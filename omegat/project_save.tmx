@@ -17726,6 +17726,9 @@ Error: {0}</seg>
       <tuv lang="ru">
         <seg>Узел "{0}" создан</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160252Z">
+        <seg>Node "{0}" created</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -19778,6 +19781,9 @@ Maximum number of sessions: {1}.</seg>
       <note>Key = viewers/cube/CubeView.RepeatHeader</note>
       <tuv lang="ru">
         <seg>Повторять заголовки</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160313Z">
+        <seg>Repeat headers</seg>
       </tuv>
     </tu>
     <tu>
@@ -25072,6 +25078,9 @@ Do you want to delete all lost links and continue?</seg>
       <note>Key = wizards/WizardModelComponentForm.BtnRetrainCaption</note>
       <tuv lang="ru">
         <seg>Обучить</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160443Z">
+        <seg>Train</seg>
       </tuv>
     </tu>
     <tu>
