@@ -8336,6 +8336,9 @@ Estimated export file size is not less than {1} MB.</seg>
       <tuv lang="ru">
         <seg>Скопировать выделенные ячейки в буфер обмена не удалось. Необходимо соединение по протоколу HTTPS.</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155253Z">
+        <seg>Failed to copy selected cells to clipboard. HTTPS connection required.</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8344,6 +8347,9 @@ Estimated export file size is not less than {1} MB.</seg>
       <tuv lang="ru">
         <seg>(первые {0} строк)</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155324Z">
+        <seg>(first {0} rows)</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -8351,6 +8357,9 @@ Estimated export file size is not less than {1} MB.</seg>
       <note>Key = ext/GridClipboard.ToastName</note>
       <tuv lang="ru">
         <seg>Копирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155400Z">
+        <seg>Copy</seg>
       </tuv>
     </tu>
     <tu>
@@ -11145,6 +11154,9 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Очистить избранное...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155422Z">
+        <seg>Clear favorites...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -11152,6 +11164,9 @@ Conflicts to resolve: {1}.</seg>
       <note>Key = filestorage/FavoritesForm.ClearFavoritesMsg</note>
       <tuv lang="ru">
         <seg>Очистить список избранных файлов и папок?</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T155509Z">
+        <seg>Clear the list of favorite files and folders?</seg>
       </tuv>
     </tu>
     <tu>
