@@ -25499,6 +25499,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Ошибка аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T134657Z">
+        <seg>Authentication error</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
@@ -25506,6 +25509,9 @@ Password</note>
       <note>Key = app/MainForm.ReconnectCaption</note>
       <tuv lang="ru">
         <seg>Восстановление сессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T140544Z">
+        <seg>Session restore</seg>
       </tuv>
     </tu>
     <tu>
