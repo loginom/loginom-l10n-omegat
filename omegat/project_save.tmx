@@ -89111,6 +89111,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Сессия закрыта по тайм-ауту после разрыва связи: %d секунд</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190820Z">
+        <seg>Session closed upon connection break timeout: %d seconds</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89118,6 +89121,9 @@ Password</note>
       <note>Key = Libraries/rpc/Session.KeepAliveTimeoutStarted</note>
       <tuv lang="ru">
         <seg>Сессия сохранена после обнаруженного разрыва связи</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190843Z">
+        <seg>Session saved upon connection break detection</seg>
       </tuv>
     </tu>
     <tu>
@@ -89138,6 +89144,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Обнаружен разрыв связи</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190850Z">
+        <seg>Connection break detected</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -89145,6 +89154,9 @@ Password</note>
       <note>Key = Libraries/rpc/TCPRemoteServer.UnixSocketError</note>
       <tuv lang="ru">
         <seg>Ошибка при создании UNIX-сокета "%s" (%s).</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190929Z">
+        <seg>Error creating UNIX socket "%s" (%s).</seg>
       </tuv>
     </tu>
     <tu>
@@ -89307,6 +89319,9 @@ Password</note>
       <note>Key = Libraries/XLSXExport/XLSXFormatting.ErrFontSizeLargerThanMax</note>
       <tuv lang="ru">
         <seg>Размер шрифта больше максимально разрешённого значения %d</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T191211Z">
+        <seg>The font size is larger than the allowed maximum %d</seg>
       </tuv>
     </tu>
     <tu>
