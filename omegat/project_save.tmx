@@ -121087,6 +121087,9 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Очистить избранное...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200509Z">
+        <seg>Clear favorites...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -121826,6 +121829,9 @@ More</note>
       <tuv lang="ru">
         <seg>Перейти</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200522Z">
+        <seg>Open</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -122185,6 +122191,9 @@ More</note>
       <note>Key = app/MapTreeForm.btnShowReferenceSource.tooltip</note>
       <tuv lang="ru">
         <seg>Перейти к источнику ссылки</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200546Z">
+        <seg>Open the link source</seg>
       </tuv>
     </tu>
     <tu>
@@ -124024,6 +124033,9 @@ More</note>
 Retrain node</note>
       <tuv lang="ru">
         <seg>Обучить узел</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200617Z">
+        <seg>Train the node</seg>
       </tuv>
     </tu>
     <tu>
@@ -125958,6 +125970,9 @@ Retrain node</note>
       <tuv lang="ru">
         <seg>Публиковать MCP сервер</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200710Z">
+        <seg>Publish the MCP server</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -126209,6 +126224,9 @@ Find</note>
       <prop type="id">tu453_0</prop>
       <note>Key = app/PublishedPackagesListForm.colMcp.text</note>
       <tuv lang="ru">
+        <seg>MCP</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200731Z">
         <seg>MCP</seg>
       </tuv>
     </tu>
@@ -126846,6 +126864,9 @@ Find</note>
       <tuv lang="ru">
         <seg>Просмотр OpenID переменных...</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200753Z">
+        <seg>View OpenID variables...</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
@@ -127425,6 +127446,9 @@ Find</note>
       <note>Key = app/scheduler/JobTokenVariablesEditor.btnRefresh.text</note>
       <tuv lang="ru">
         <seg>Обновить список переменных</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T200814Z">
+        <seg>Refresh Variable List</seg>
       </tuv>
     </tu>
     <tu>
