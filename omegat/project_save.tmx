@@ -59037,6 +59037,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Функция агрегации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161708Z">
+        <seg>Aggregation function</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">properties.json</prop>
