@@ -25428,6 +25428,9 @@ Error: {1}.</seg>
       <tuv lang="ru">
         <seg>Не сохранять</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T134634Z">
+        <seg>Do Not Save</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
