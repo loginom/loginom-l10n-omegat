@@ -116482,6 +116482,9 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Повернуть</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T201419Z">
+        <seg>Pivot</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
