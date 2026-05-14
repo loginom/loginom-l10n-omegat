@@ -87703,6 +87703,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Получение имени пользователя из токена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190350Z">
+        <seg>Retrieve username from token</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -88810,6 +88813,9 @@ Password</note>
       <note>Key = Libraries/rpc/RemoteServer.BindError</note>
       <tuv lang="ru">
         <seg>Ошибка привязки к %s:%s (%s).</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T190635Z">
+        <seg>Error binding with %s:%s (%s).</seg>
       </tuv>
     </tu>
     <tu>
