@@ -14253,6 +14253,9 @@ Do you want to extract?</seg>
       <tuv lang="ru">
         <seg>Служебная учётная запись: аутентификация</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T121255Z">
+        <seg>Service account: authentication</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
