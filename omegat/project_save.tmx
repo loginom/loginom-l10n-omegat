@@ -91587,6 +91587,9 @@ The token does not contain a username</note>
       <tuv lang="ru">
         <seg>Не удалось получить имя пользователя</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195755Z">
+        <seg>Failed to retrieve username</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -91662,6 +91665,9 @@ but it cannot end with a dot or space.</seg>
       <note>Key = Studio/DeductorUsers.ErrWrongAuthMode</note>
       <tuv lang="ru">
         <seg>Изменение пароля допустимо только при локальной аутентификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T195917Z">
+        <seg>Changing the password is only allowed with local authentication</seg>
       </tuv>
     </tu>
     <tu>
