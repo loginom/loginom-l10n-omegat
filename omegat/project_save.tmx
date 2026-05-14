@@ -20762,6 +20762,9 @@ Unsaved packages. Exit anyway?</note>
       <tuv lang="ru">
         <seg>Сохранить все несохранённые пакеты?</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T132115Z">
+        <seg>Save all unsaved packages?</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
