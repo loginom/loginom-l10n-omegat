@@ -36628,6 +36628,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Требуется аутентификация</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161022Z">
+        <seg>Authentication required</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -36636,6 +36639,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Пользователь не владеет сессией</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161104Z">
+        <seg>The user is not the session owner</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">enums.json</prop>
@@ -36643,6 +36649,9 @@ File processing will take too long.</seg>
       <note>Key = Studio/DeductorServer.ReconnectResult.AuthFail</note>
       <tuv lang="ru">
         <seg>Ошибка аутентификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T161122Z">
+        <seg>Authentication error</seg>
       </tuv>
     </tu>
     <tu>
