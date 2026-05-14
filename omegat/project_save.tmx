@@ -34351,6 +34351,9 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>MCP tool с именем {0} уже существует</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T160653Z">
+        <seg>MCP tool with the {0} name already exists</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">dis.json</prop>
