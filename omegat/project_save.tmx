@@ -90570,6 +90570,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Попытка восстановить сессию с другого IP адреса</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T192356Z">
+        <seg>Attempt to restore session with a new IP address</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
