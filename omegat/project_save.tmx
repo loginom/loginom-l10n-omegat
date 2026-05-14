@@ -90581,6 +90581,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Сессия для восстановления не найдена</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T192417Z">
+        <seg>Session to restore not found</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -90588,6 +90591,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.ReconnectSuccess</note>
       <tuv lang="ru">
         <seg>Подключение к восстановленной сессии %s</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T192512Z">
+        <seg>Connection to restored session %s</seg>
       </tuv>
     </tu>
     <tu>
