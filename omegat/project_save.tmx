@@ -25532,6 +25532,9 @@ Password</note>
       <tuv lang="ru">
         <seg>Настройки безопасности запрещают восстанавливать сессию с другого IP</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T141220Z">
+        <seg>Security settings prevent session restore with a new IP</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">client.json</prop>
