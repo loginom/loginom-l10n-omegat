@@ -90548,6 +90548,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <tuv lang="ru">
         <seg>Отказ в восстановлении сессии без аутентификации</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T191820Z">
+        <seg>Session restore denied without authentication</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">server.json</prop>
@@ -90555,6 +90558,9 @@ Display settings for measure %s in the chart will be reset to the base cube sett
       <note>Key = Studio/DeductorServer.ReconnectBlockedSession</note>
       <tuv lang="ru">
         <seg>Запрос на аутентификацию для восстановления заблокированной сессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260514T192101Z">
+        <seg>Authentication request for a locked session restore</seg>
       </tuv>
     </tu>
     <tu>
