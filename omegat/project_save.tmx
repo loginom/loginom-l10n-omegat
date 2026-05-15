@@ -8001,10 +8001,11 @@ XLS (html)</note>
 
 Вы действительно хотите начать экспорт?</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260514T154347Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20260515T165844Z">
         <seg>Issues detected:
 
 {0}
+
 Do you really want to start export?</seg>
       </tuv>
     </tu>
@@ -11176,8 +11177,8 @@ Conflicts to resolve: {1}.</seg>
       <tuv lang="ru">
         <seg>Вы действительно хотите убрать выбранные элементы из "Избранного"?</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260514T155614Z">
-        <seg>Do you really want to remove the selected items from "Favorites"? </seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260515T165557Z">
+        <seg>Do you really want to remove the selected items from "Favorites"?</seg>
       </tuv>
     </tu>
     <tu>
