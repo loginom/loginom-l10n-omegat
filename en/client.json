@@ -1525,7 +1525,7 @@
     "HtmFileDesc": "Webpage",
     "WarnExcelMaxCol": "An XLSX document cannot contain more than {0} columns. Columns from {1} to {2} will be skipped.",
     "WarnExcelMaxRow": "An XLSX document cannot contain more than {0} rows. Rows from {1} to {2} will be skipped.",
-    "WarnExport": "Issues detected:\n\n{0}\nDo you really want to start export?",
+    "WarnExport": "Issues detected:\n\n{0}\n\nDo you really want to start export?",
     "WarnExportTableSizeWarning": "Current export data size is {0} cells.\nEstimated export file size is not less than {1} MB.",
     "XlsxFileDesc": "Excel 2007 workbooks"
   },
@@ -1836,7 +1836,7 @@
     "Clear": "Clean",
     "ClearFavorites": "Clear favorites...",
     "ClearFavoritesMsg": "Clear the list of favorite files and folders?",
-    "ConfirmRemove": "Do you really want to remove the selected items from \"Favorites\"? ",
+    "ConfirmRemove": "Do you really want to remove the selected items from \"Favorites\"?",
     "FullPath": "Path",
     "GoToSource": "Open",
     "Name": "Name",
