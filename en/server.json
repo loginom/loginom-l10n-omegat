@@ -2137,7 +2137,7 @@
     "ErrExecQuery": "Error executing DB query.",
     "ErrFieldForDeleteNotSelected": "No fields by which data should be deleted specified",
     "ErrFieldForUpdateNotSelected": "No fields to update specified",
-    "ErrFillTable": "Failed to complete the %s table",
+    "ErrFillTable": "Failed to fill the table: %s",
     "ErrKeyFieldForUpdateNotSelected": "No key field by which data should be updated specified",
     "ErrMsgDisplayName": "Error message",
     "ErrNotConnectedToDatabase": "No connection with database",
@@ -2224,7 +2224,7 @@
     "ErrExtensionNotSupported": "\"%s\" extension is not a correct extension of Tableau Extract file",
     "ErrExtractSDKNotFound": "Tableau Extract SDK not installed",
     "ErrFilePath": "Failed to get path to file",
-    "ErrFillTable": "Failed to complete the %s table",
+    "ErrFillTable": "Failed to fill the table: %s",
     "ErrHyperExtractSDKNotFound": "Tableau Extract API 2.0 SDK not installed",
     "ErrHyperNotSupportedInWin32": "\"*.hyper\" data format supported only in 64-bit software version",
     "ErrMissingServerConnection": "No connection with Tableau server",
@@ -4839,8 +4839,6 @@
     "WSDLClientConnection": "SOAP service connector"
   },
   "Studio/Scheduler": {
-    "ClaimName": "Claim name",
-    "ClaimValue": "Claim value",
     "ErrCannotStartDisabledJob": "Execution of job \"%s\" forbidden",
     "ErrHistoryCountMustNotBeNegative": "Count of history records must not be negative",
     "ErrInvalidExceptionInfoFormat": "Incorrect format of exception information",

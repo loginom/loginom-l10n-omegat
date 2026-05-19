@@ -5179,6 +5179,9 @@
     "chkShowCreatedNode": {
       "boxLabel": "Перейти к новому узлу после добавления"
     },
+    "frmBrowseFilterNodeCaptionForm": {
+      "title": "Новый узел \"Фильтр строк\""
+    },
     "txtFilterNodeCaption": {
       "emptyText": "Фильтр строк"
     }

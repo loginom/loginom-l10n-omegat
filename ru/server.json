@@ -4839,8 +4839,6 @@
     "WSDLClientConnection": "Подключение к SOAP-сервису"
   },
   "Studio/Scheduler": {
-    "ClaimName": "Имя клейма",
-    "ClaimValue": "Значение клейма",
     "ErrCannotStartDisabledJob": "Выполнение задачи \"%s\" запрещено",
     "ErrHistoryCountMustNotBeNegative": "Количество записей в истории не должно быть отрицательным",
     "ErrInvalidExceptionInfoFormat": "Информация об исключении имеет некорректный формат",
