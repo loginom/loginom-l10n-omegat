@@ -113249,6 +113249,9 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Новый узел "Фильтр строк"</seg>
       </tuv>
+      <tuv lang="en" changeid="mihalina" changedate="20260520T134703Z">
+        <seg>New "Row Filter" node</seg>
+      </tuv>
     </tu>
     <tu>
       <prop type="file">views.json</prop>
