@@ -5180,7 +5180,7 @@
       "boxLabel": "Go to the newly added node"
     },
     "frmBrowseFilterNodeCaptionForm": {
-      "title": "Новый узел \"Фильтр строк\""
+      "title": "New \"Row Filter\" node"
     },
     "txtFilterNodeCaption": {
       "emptyText": "Row Filter"
