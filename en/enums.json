@@ -222,7 +222,7 @@
       "AddToNextBin": "Add to next",
       "AddCurrent": "Keep in current",
       "Random": "Assign randomly",
-      "AsIs": "Leave as is",
+      "AsIs": "Keep",
       "OptimalTile": "Assign optimal"
     },
     "BinningMethodType": {

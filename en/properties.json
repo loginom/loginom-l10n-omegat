@@ -329,7 +329,7 @@
       "RootExcluded": "Exclude root node",
       "RootGeneration": "Root node",
       "SourceColumn": "JSON-containing column",
-      "StrictMode": "Strong structure match"
+      "StrictMode": "Strict structure compliance"
     }
   },
   "components/linregression": {
@@ -611,7 +611,7 @@
       "ValueFalse": "False",
       "ValueNull": "Null",
       "ValueTrue": "True",
-      "WriteBOM": "Add byte-order mark"
+      "WriteBOM": "Add BOM"
     }
   },
   "exports/xml": {
