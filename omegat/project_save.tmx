@@ -1001,10 +1001,10 @@ Seconds - seconds in number format.</seg>
 Минуты - минуты в виде числа,
 Секунды - секунды в виде числа.</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Hours - hours in the form of a number,
-Minutes - minutes in the form of a number,
-Seconds - seconds in the form of a number.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260520T142522Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Hours - hours in number format,
+Minutes - minutes in number format,
+Seconds - seconds in number format.</seg>
       </tuv>
     </tu>
     <tu>
