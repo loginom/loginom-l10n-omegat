@@ -910,10 +910,10 @@ Divisor - integer numeric expression.</seg>
 Месяц - месяц в виде числа,
 День - день в виде числа.</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Year - year in the form of a number,
-Month - month in the form of a number,
-Day - day in the form of a number.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260520T142037Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Year - the year in number format,
+Month - the month in number format,
+Day - the day in number format.</seg>
       </tuv>
     </tu>
     <tu>
@@ -961,13 +961,13 @@ Day - day in the form of a number.</seg>
 Минуты - минуты в виде числа,
 Секунды - секунды в виде числа.</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Year - year in the form of a number,
-Month - month in the form of a number,
-Day - day in the form of a number,
-Hours - hours in the form of a number,
-Minutes - minutes in the form of a number,
-Seconds - seconds in the form of a number.</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260520T142417Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Year - the year in number format,
+Month - the month in number format,
+Day - the day in number format,
+Hours - hours in number format,
+Minutes - minutes in number format,
+Seconds - seconds in number format.</seg>
       </tuv>
     </tu>
     <tu>
