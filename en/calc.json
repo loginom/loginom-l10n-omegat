@@ -250,17 +250,17 @@
       "Output": "Returns the integer division quotient of the Dividend by the Divisor."
     },
     "EncodeDate": {
-      "Arguments": "Year - year in the form of a number,\nMonth - month in the form of a number,\nDay - day in the form of a number.",
+      "Arguments": "Year - the year in number format,\nMonth - the month in number format,\nDay - the day in number format.",
       "Description": "EncodeDate(Year, Month, Day)",
       "Output": "Function returns the date formed from the specified arguments."
     },
     "EncodeDateTime": {
-      "Arguments": "Year - year in the form of a number,\nMonth - month in the form of a number,\nDay - day in the form of a number,\nHours - hours in the form of a number,\nMinutes - minutes in the form of a number,\nSeconds - seconds in the form of a number.",
+      "Arguments": "Year - the year in number format,\nMonth - the month in number format,\nDay - the day in number format,\nHours - hours in number format,\nMinutes - minutes in number format,\nSeconds - seconds in number format.",
       "Description": "EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)",
       "Output": "Function returns the date and time formed from the specified arguments."
     },
     "EncodeTime": {
-      "Arguments": "Hours - hours in the form of a number,\nMinutes - minutes in the form of a number,\nSeconds - seconds in the form of a number.",
+      "Arguments": "Hours - hours in number format,\nMinutes - minutes in number format,\nSeconds - seconds in number format.",
       "Description": "EncodeTime(Hours, Minutes, Seconds)",
       "Output": "Function returns the time formed from the specified arguments."
     },
