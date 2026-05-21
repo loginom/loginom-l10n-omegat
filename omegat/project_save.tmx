@@ -62886,8 +62886,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Общий выходной набор</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114720Z" creationid="zamaraev" creationdate="20260410T114720Z">
-        <seg>Common output dataset</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260521T120910Z" creationid="zamaraev" creationdate="20260410T114720Z">
+        <seg>Combined output dataset</seg>
       </tuv>
     </tu>
     <tu>
@@ -107657,8 +107657,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Представление столбцов</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260410T114721Z" creationid="zamaraev" creationdate="20260410T114721Z">
-        <seg>Columns View</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260521T110401Z" creationid="zamaraev" creationdate="20260410T114721Z">
+        <seg>Column View</seg>
       </tuv>
     </tu>
     <tu>
