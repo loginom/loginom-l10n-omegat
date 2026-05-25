@@ -1657,7 +1657,7 @@
     "RegressionVendorDesc": "Trains multilayer perceptron to complete the regression tasks"
   },
   "components/partition/PartitionEngine": {
-    "OutDataSetCommon": "Common output dataset",
+    "OutDataSetCommon": "Combined output dataset",
     "OutDataSetTeach": "Training output dataset",
     "OutDataSetTest": "Test output dataset",
     "PartitionDisplayName": "Test set",

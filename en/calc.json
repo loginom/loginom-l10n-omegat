@@ -250,7 +250,7 @@
       "Output": "Returns the integer division quotient of the Dividend by the Divisor."
     },
     "EncodeDate": {
-      "Arguments": "Year - year in the form of a number,\nMonth - month in the form of a number,\nDay - day in the form of a number.",
+      "Arguments": "Year - the number of the year,\nMonth - the number of the month,\nDay - the number of the day.",
       "Description": "EncodeDate(Year, Month, Day)",
       "Output": "Function returns the date formed from the specified arguments."
     },

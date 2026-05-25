@@ -1288,7 +1288,7 @@
       "$Caption": "Presence of the Time Zone in the Date\/Time Values",
       "None": "Do not specify",
       "AllButDate": "Do not specify for Date",
-      "All": "Specify always"
+      "All": "Always specify"
     }
   },
   "Libraries/bgrtl/UITypes": {
