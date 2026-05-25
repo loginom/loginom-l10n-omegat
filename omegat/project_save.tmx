@@ -911,10 +911,10 @@ Divisor - integer numeric expression.</seg>
 Месяц - месяц в виде числа,
 День - день в виде числа.</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Year - year in the form of a number,
-Month - month in the form of a number,
-Day - day in the form of a number.</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130416Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Year - the number of the year,
+Month - the number of the month,
+Day - the number of the day.</seg>
       </tuv>
     </tu>
     <tu>
@@ -924,7 +924,7 @@ Day - day in the form of a number.</seg>
       <tuv lang="ru">
         <seg>EncodeDate(Год, Месяц, День)</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130504Z" creationid="zamaraev" creationdate="20260519T180250Z">
         <seg>EncodeDate(Year, Month, Day)</seg>
       </tuv>
     </tu>
@@ -23041,8 +23041,8 @@ Try opening the package?</seg>
       <tuv lang="ru">
         <seg>В пакете "{0}" не удалось найти узел с GUID={1}</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Failed to find the node with GUID={1} in the  "{0}" package</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130532Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Failed to find the node with GUID={1} in the "{0}" package</seg>
       </tuv>
     </tu>
     <tu>
@@ -26007,8 +26007,8 @@ Do you want to remove it from favorites?</seg>
       <tuv lang="ru">
         <seg>Оставить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Leave as is</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130612Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Keep</seg>
       </tuv>
     </tu>
     <tu>
@@ -50758,8 +50758,8 @@ XLS</note>
       <tuv lang="ru">
         <seg>Указывать всегда</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Specify always</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130641Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Always specify</seg>
       </tuv>
     </tu>
     <tu>
@@ -63850,8 +63850,8 @@ Relation type</note>
       <tuv lang="ru">
         <seg>Общий выходной набор</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Common output dataset</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130714Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Combined output dataset</seg>
       </tuv>
     </tu>
     <tu>
@@ -109394,8 +109394,8 @@ To solve this problem it is required to enable Caching.</seg>
       <tuv lang="ru">
         <seg>Представление столбцов</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Columns View</seg>
+      <tuv lang="en" changeid="zamaraev" changedate="20260525T130731Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Column View</seg>
       </tuv>
     </tu>
     <tu>
