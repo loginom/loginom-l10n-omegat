@@ -23041,8 +23041,8 @@ Try opening the package?</seg>
       <tuv lang="ru">
         <seg>В пакете "{0}" не удалось найти узел с GUID={1}</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260525T130532Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Failed to find the node with GUID={1} in the "{0}" package</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260526T135625Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Failed to find node with GUID={1} in package "{0}"</seg>
       </tuv>
     </tu>
     <tu>
