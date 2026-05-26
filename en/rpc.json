@@ -91,7 +91,7 @@
   "Net/WebSocketMessageTransport": {
     "ErrConnectionClosed": "Connection closed by remote host",
     "ErrConnectionError": "Web socket connection closed with an error",
-    "ErrConnectionFailed": "Connection failed",
+    "ErrConnectionFailed": "Connection lost",
     "ErrFailedToConnectWebSocket": "Failed to connect to the web socket at the following address {0}"
   }
 }

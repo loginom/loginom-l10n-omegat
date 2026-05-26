@@ -277,7 +277,7 @@
     "ErrCannotDeleteUnit": "Failed to delete \"{0}\" module. Some of the nodes are currently locked.",
     "ErrSelectedVendorLocked": "Failed to delete \"{0}\" component. Some derived nodes are currently locked.",
     "NotFoundBaseNodePrompt": "Linked node not found in open packages:\n{0}\n\nTry opening the package?",
-    "NotFoundNodeFmt": "Failed to find the node with GUID={1} in the \"{0}\" package",
+    "NotFoundNodeFmt": "Failed to find node with GUID={1} in package \"{0}\"",
     "Open": "Open",
     "PackageNamePrefix": "Package"
   },
