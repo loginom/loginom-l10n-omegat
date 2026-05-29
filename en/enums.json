@@ -1930,9 +1930,9 @@
       "Value": "Value",
       "PercentByRow": "Percent by row",
       "PercentByCol": "Percent by column",
-      "PercentByRowParent": "Percentage of parent by row",
-      "PercentByColParent": "Percentage of parent by column",
-      "PercentByGrandTotal": "Percentage of total"
+      "PercentByRowParent": "% of parent row",
+      "PercentByColParent": "% of parent column",
+      "PercentByGrandTotal": "% of grand total"
     }
   },
   "Viewers/DataQuality/QualityViewHistogram": {

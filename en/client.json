@@ -323,7 +323,7 @@
     "CollapseMainToolbar": "Collapse",
     "ConfirmCannotCloseModel": "Failed to close \"{0}\" module in \"{1}\" package.\nSome of the nodes are currently locked.\nDo you want to cancel the active processes and close the package without saving?",
     "ConfirmQuitSave": "Do you want to save changes in \"{0}\" package?",
-    "DoReconnect": "Restore",
+    "DoReconnect": "Reconnect",
     "ErrAccessDenied": "Access denied",
     "ErrDisconnected": "Connection break detected.",
     "ErrOpenUrlPath": "Failed to open URL \"{0}\".\nError: {1}.",
@@ -2322,7 +2322,7 @@
     "PasswordMustChanged": "Password Change Required"
   },
   "login/Login": {
-    "BtnReconnect": "Restore Session",
+    "BtnReconnect": "Reconnect",
     "VersionLabelFmt": "Version: {0}"
   },
   "login/LoginToken": {
