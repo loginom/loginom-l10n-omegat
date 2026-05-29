@@ -1928,8 +1928,8 @@
     "CubeSubFunctionType": {
       "$Caption": "Display Mode",
       "Value": "Value",
-      "PercentByRow": "Percent by row",
-      "PercentByCol": "Percent by column",
+      "PercentByRow": "% of row",
+      "PercentByCol": "% of column",
       "PercentByRowParent": "% of parent row",
       "PercentByColParent": "% of parent column",
       "PercentByGrandTotal": "% of grand total"
