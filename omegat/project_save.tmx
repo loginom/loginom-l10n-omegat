@@ -39071,8 +39071,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Процент по вертикали</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Percent by column</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260529T125659Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>% of column</seg>
       </tuv>
     </tu>
     <tu>
