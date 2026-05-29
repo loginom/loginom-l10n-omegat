@@ -16027,8 +16027,8 @@ String: {2} Symbol: {3}</seg>
       <tuv lang="ru">
         <seg>Восстановить сессию</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Restore Session</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260529T124429Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Reconnect</seg>
       </tuv>
     </tu>
     <tu>
