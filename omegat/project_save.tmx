@@ -25293,8 +25293,8 @@ Do you want to cancel the active processes and close the package without saving?
       <tuv lang="ru">
         <seg>Восстановить</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Restore</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260529T124523Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Reconnect</seg>
       </tuv>
     </tu>
     <tu>
