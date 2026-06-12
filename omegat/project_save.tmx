@@ -39082,8 +39082,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Процент от родителя по горизонтали</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260529T123445Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>% of parent row</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260612T162710Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Percentage of parent row</seg>
       </tuv>
     </tu>
     <tu>
@@ -39093,8 +39093,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Процент от родителя по вертикали</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260529T123506Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>% of parent column</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260612T162714Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Percentage of parent column</seg>
       </tuv>
     </tu>
     <tu>
@@ -39104,8 +39104,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Процент от общего итога</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260529T123634Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>% of grand total</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260612T162722Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Percentage of grand total</seg>
       </tuv>
     </tu>
     <tu>
