@@ -94483,8 +94483,8 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Не удалось загрузить конфигурацию детализации "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Failed to load "%s" detailing configuration</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260825T171232Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Failed to load drill-through configuration for "%s"</seg>
       </tuv>
     </tu>
     <tu>
