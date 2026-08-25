@@ -40226,8 +40226,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Способ детализации</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Detailing Type</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260825T144320Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Drill-Through Type</seg>
       </tuv>
     </tu>
     <tu>
