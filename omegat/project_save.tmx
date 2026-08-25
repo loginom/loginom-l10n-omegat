@@ -113612,8 +113612,8 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Детализация</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260825T193111Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Drill-Through</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260825T193149Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Drill-through</seg>
       </tuv>
     </tu>
     <tu>
