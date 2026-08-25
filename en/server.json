@@ -5087,14 +5087,14 @@
     "VendorDesc": "Tree data view"
   },
   "Viewers/Detailing/Detailing": {
-    "ErrDetailingViewDataSource": "Failed to prepare the data source for \"%s\" detailing",
+    "ErrDetailingViewDataSource": "Failed to prepare the data source for \"%s\" drill-through",
     "ErrDetailingViewExecution": "Error of \"%s\" detailing execution",
     "ErrDetailingViewInitialization": "Detailing initialization error \"%s\"",
     "ErrScopeMissing": "Failed to get the owner context during \"%s\" detailing initialization",
-    "GenericDetailingProcessCaption": "Detailing \"%s\"",
+    "GenericDetailingProcessCaption": "Drilling through \"%s\"",
     "ManagerBrowse": "Table",
     "ManagerStatistics": "Statistics",
-    "MsgEmbeddedViewLoadFailed": "Failed to load \"%s\" detailing configuration",
+    "MsgEmbeddedViewLoadFailed": "Failed to load drill-through configuration for \"%s\"",
     "UpdateDataProcessCaption": "Preparing data"
   },
   "Viewers/Duplicates/DuplicatesView": {

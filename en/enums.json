@@ -1930,9 +1930,9 @@
       "Value": "Value",
       "PercentByRow": "% of row",
       "PercentByCol": "% of column",
-      "PercentByRowParent": "% of parent row",
-      "PercentByColParent": "% of parent column",
-      "PercentByGrandTotal": "% of grand total"
+      "PercentByRowParent": "Percentage of parent row",
+      "PercentByColParent": "Percentage of parent column",
+      "PercentByGrandTotal": "Percentage of grand total"
     }
   },
   "Viewers/DataQuality/QualityViewHistogram": {
@@ -2050,13 +2050,13 @@
     "QualityViewSheet": {
       "$Caption": "Page of Data Quality Visualizer",
       "Overview": "Summary",
-      "DiscreteStats": "Detailing of discrete",
-      "ContinueStats": "Detailing of continuous"
+      "DiscreteStats": "Drill through discrete fields",
+      "ContinueStats": "Drill through continuous fields"
     }
   },
   "Viewers/Detailing/Detailing": {
     "DetailingType": {
-      "$Caption": "Detailing Type",
+      "$Caption": "Drill-Through Type",
       "Browse": "Table",
       "Form": "Form",
       "Statistics": "Statistics"

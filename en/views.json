@@ -5272,8 +5272,8 @@
       "tooltip": "Data types"
     },
     "btnDataGridDetail": {
-      "text": "Detailing",
-      "tooltip": "Detailing"
+      "text": "Drill-through",
+      "tooltip": "Drill-through"
     },
     "btnDataGridFilter": {
       "text": "Filter...",
@@ -5603,10 +5603,10 @@
       "tooltip": "Comparison of the selected clusters by field"
     },
     "btnDetailing": {
-      "tooltip": "Detailing"
+      "tooltip": "Drill-through"
     },
     "btnDetailingType": {
-      "tooltip": "Detailing type"
+      "tooltip": "Drill-through type"
     },
     "btnFilter": {
       "text": "Filter",
@@ -6058,10 +6058,10 @@
       "tooltip": "Column width adjustment"
     },
     "btnDetailing": {
-      "tooltip": "Detailing"
+      "tooltip": "Drill-through"
     },
     "btnDetailingType": {
-      "tooltip": "Detailing type"
+      "tooltip": "Drill-through type"
     },
     "btnExpand": {
       "tooltip": "Expand"
@@ -6238,7 +6238,7 @@
       "text": "Histogram"
     },
     "btnShowPreview": {
-      "tooltip": "Detailing"
+      "tooltip": "Drill-through"
     },
     "colContinueBoxPlot": {
       "text": "Box plot"
@@ -6392,7 +6392,7 @@
   },
   "viewers/detailing/StubView": {
     "lblStubView": {
-      "text": "Select the cell to visualise its data"
+      "text": "Select a cell to visualise its data"
     }
   },
   "viewers/fastpreview/FastPreviewForm": {
