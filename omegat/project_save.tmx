@@ -118133,8 +118133,8 @@ Password Change Required</note>
       <tuv lang="ru">
         <seg>Выделите ячейку для визуализации ее данных</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Select the cell to visualise its data</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260825T152219Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Select a cell to visualise its data</seg>
       </tuv>
     </tu>
     <tu>
