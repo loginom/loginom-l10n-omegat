@@ -94406,8 +94406,8 @@ but it cannot end with a dot or space.</seg>
       <tuv lang="ru">
         <seg>Не удалось подготовить источник данных для детализации "%s"</seg>
       </tuv>
-      <tuv lang="en" changeid="zamaraev" changedate="20260519T180250Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Failed to prepare the data source for "%s" detailing</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260825T170646Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Failed to prepare the data source for "%s" drill-through</seg>
       </tuv>
     </tu>
     <tu>
