@@ -40215,8 +40215,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Детализация непрерывных</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260825T170118Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Drill through continuous fields</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260906T213625Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Drill through continuous field</seg>
       </tuv>
     </tu>
     <tu>
@@ -40226,8 +40226,8 @@ File processing will take too long.</seg>
       <tuv lang="ru">
         <seg>Способ детализации</seg>
       </tuv>
-      <tuv lang="en" changeid="mihalina" changedate="20260825T144320Z" creationid="zamaraev" creationdate="20260519T180250Z">
-        <seg>Drill-Through Type</seg>
+      <tuv lang="en" changeid="mihalina" changedate="20260906T214721Z" creationid="zamaraev" creationdate="20260519T180250Z">
+        <seg>Drill-through Type</seg>
       </tuv>
     </tu>
     <tu>
